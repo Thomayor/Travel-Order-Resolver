@@ -10,18 +10,26 @@ This is an EPITECH NLP project building a **Travel Order Resolver** that process
 
 ## Architecture
 
-The project follows a **3-layer pipeline architecture**:
+The project follows a **4-layer pipeline architecture**:
 
 ```
-Input Text → Preprocessing → Gazetteer Matching → Entity Extraction → Output CSV
+Input Text → Preprocessing → Gazetteer Matching → Entity Extraction → Pathfinding → Output CSV
 ```
 
 ### Module Organization
 
+#### NLP Module (Phase 1-5)
 - **`src/nlp/preprocessing.py`** (383 lines): Text normalization for French (accents, hyphens, case)
 - **`src/nlp/gazetteer.py`** (432 lines): Location database (66 cities/stations) with fuzzy matching
 - **`src/nlp/baseline.py`** (420 lines): Rule-based extraction using keywords and heuristics (70% accuracy)
 - **Future**: `src/nlp/transformer.py` - CamemBERT fine-tuning for 85%+ accuracy
+
+#### Pathfinding Module (Phase 7)
+- **`src/pathfinding/graph_loader.py`**: Load SNCF network from CSV into NetworkX graph
+- **`src/pathfinding/dijkstra.py`**: Dijkstra's algorithm implementation for shortest path
+- **Algorithm**: Dijkstra (O((V+E) log V) complexity)
+- **Graph Library**: NetworkX (Python in-memory graphs)
+- **Data Source**: SNCF connection data (66 stations, ~200 connections)
 
 ### Data Flow
 
@@ -165,15 +173,23 @@ The dataset generator uses seed=42 for reproducibility. To generate variations:
 - Target accuracy: 85%+
 - Requires: 10,000-sentence training dataset
 
-### Phase 7: Pathfinding Module
-- Graph algorithms (Dijkstra/A*) for route calculation
-- SNCF timetable integration
-- Neo4j or NetworkX for graph operations
-- Output: `sentenceID,Origin,Stop1,Stop2,...,Destination`
+### Phase 7: Pathfinding Module (SELECTED APPROACH)
+- **Algorithm Selected**: Dijkstra (guaranteed optimal, O((V+E) log V) complexity)
+- **Graph Library**: NetworkX (simple, sufficient for 66 stations)
+- **Rationale**:
+  - Positive weights only (train durations) → Dijkstra optimal
+  - NetworkX simpler than Neo4j for project scale
+  - A* considered for future (requires GPS coordinates)
+  - Bellman-Ford rejected (100x slower, handles negative weights unnecessarily)
+- **Implementation**: From-scratch Dijkstra + NetworkX validation
+- **Data**: SNCF connection CSV (origin, destination, duration_minutes)
+- **Output**: `sentenceID,Origin,Stop1,Stop2,...,Destination`
+- **Documentation**: [docs/pathfinding_algorithm_comparison.md](docs/pathfinding_algorithm_comparison.md)
 
 ## Documentation
 
 - **Technical Details**: [docs/nlp_module_documentation.md](docs/nlp_module_documentation.md) - Comprehensive module docs with examples
+- **Pathfinding Analysis**: [docs/pathfinding_algorithm_comparison.md](docs/pathfinding_algorithm_comparison.md) - Algorithm comparison and Dijkstra implementation guide
 - **Project Plan**: [PROJECT_PLAN.md](PROJECT_PLAN.md) - 8-week implementation roadmap
 - **Sentence Templates**: [docs/sentence_templates.md](docs/sentence_templates.md) - Dataset generation patterns
 
