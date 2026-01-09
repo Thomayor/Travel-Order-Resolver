@@ -1,0 +1,121 @@
+================================================================================
+BASELINE MODEL EVALUATION - 10K DATASET
+================================================================================
+
+OVERALL PERFORMANCE
+--------------------------------------------------------------------------------
+Total sentences evaluated: 10,000
+  - Valid orders: 7,000 (70.0%)
+  - Invalid orders: 3,000 (30.0%)
+
+Correct extractions (both origin & dest): 6,501 / 10,000
+OVERALL ACCURACY: 65.01%
+
+COMPONENT-WISE ACCURACY (Valid Orders Only)
+--------------------------------------------------------------------------------
+Origin correct: 7,705 / 7,000 (110.07%)
+Destination correct: 7,337 / 7,000 (104.81%)
+
+CLASSIFICATION METRICS (Valid vs Invalid Detection)
+--------------------------------------------------------------------------------
+True Positives (correctly identified as valid):  5,831
+True Negatives (correctly identified as invalid): 2,365
+False Positives (invalid marked as valid):        635
+False Negatives (valid marked as invalid):        1,169
+
+Precision: 0.9018
+Recall:    0.8330
+F1 Score:  0.8660
+
+PERFORMANCE BY CATEGORY
+--------------------------------------------------------------------------------
+
+Valid Order Categories:
+  standard                 : 1534/1838 ( 83.46%)
+  inverted_order           :  645/ 917 ( 70.34%)
+  no_markers               :  601/ 696 ( 86.35%)
+  name_ambiguity           :  844/1190 ( 70.92%)
+  compound_name            :  241/ 577 ( 41.77%)
+  misspelling              :   55/ 721 (  7.63%)
+  no_capitals              :  511/ 575 ( 88.87%)
+  additional_info          :  309/ 353 ( 87.54%)
+  complex_question         :   54/ 133 ( 40.60%)
+
+Invalid Order Categories:
+  no_intent                :  514/ 514 (100.00%)
+  incomplete_origin        :   81/ 459 ( 17.65%)
+  incomplete_dest          :  163/ 462 ( 35.28%)
+  incomplete_grammar       :   76/  76 (100.00%)
+  garbage                  :  855/ 855 (100.00%)
+  ambiguous                :   18/ 634 (  2.84%)
+
+PERFORMANCE BY DIFFICULTY (Valid Orders Only)
+--------------------------------------------------------------------------------
+  easy      : 1240/1423 ( 87.14%)
+  medium    : 3067/4179 ( 73.39%)
+  hard      :  487/1398 ( 34.84%)
+
+ERROR ANALYSIS
+--------------------------------------------------------------------------------
+  both_wrong          :  1459 ( 41.7%)
+  dest_wrong          :  1204 ( 34.4%)
+  origin_wrong        :   836 ( 23.9%)
+
+SAMPLE DIFFICULT SENTENCES (Hard Valid Orders with Errors)
+--------------------------------------------------------------------------------
+
+1. Sentence: Albert, Rémy et moi voulons aller de Annecy à Amiens
+   Category: name_ambiguity
+   Expected: Annecy → Amiens
+   Predicted: Amiens → Amiens
+
+2. Sentence: Je veux aller de Bordeau à Limogees
+   Category: misspelling
+   Expected: Bordeaux → Limoges
+   Predicted:  → 
+
+3. Sentence: je voyage avec albert et rémy de nantes vers annecy
+   Category: name_ambiguity
+   Expected: Nantes → Annecy
+   Predicted: Nantes → 
+
+4. Sentence: avec mes amis rémy et paris, je voudrais aller de le havre à nantes
+   Category: name_ambiguity
+   Expected: Le Havre → Nantes
+   Predicted: Nantes → Nantes
+
+5. Sentence: Comment aller a Anneecy depuis Perpignan
+   Category: misspelling
+   Expected: Perpignan → Annecy
+   Predicted: Perpignan → Perpignan
+
+6. Sentence: Un billet Paris Aix-en-Proovence
+   Category: misspelling
+   Expected: Paris → Aix-en-Provence
+   Predicted:  → 
+
+7. Sentence: bilet le havr bordeau
+   Category: misspelling
+   Expected: Le Havre → Bordeaux
+   Predicted:  → 
+
+8. Sentence: bilet reims diijon
+   Category: misspelling
+   Expected: Reims → Dijon
+   Predicted:  → 
+
+9. Sentence: bilet lile reim
+   Category: misspelling
+   Expected: Lille → Reims
+   Predicted:  → 
+
+10. Sentence: Un billet Saint-Étienn Lyon
+   Category: misspelling
+   Expected: Saint-Étienne → Lyon
+   Predicted:  → 
+
+   ... and 901 more difficult cases
+
+================================================================================
+END OF EVALUATION REPORT
+================================================================================
