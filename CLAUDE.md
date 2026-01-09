@@ -67,15 +67,27 @@ python demo_baseline.py
 ```
 
 ### Dataset Generation
-```bash
-# Generate complete dataset (6,000 sentences: 3k valid + 3k invalid)
-python generate_dataset_final.py
 
-# Validate dataset integrity
-python validate_dataset.py
+**Current Dataset: 10,000 sentences (7K valid + 3K invalid) - KAN-23 ✓**
+
+```bash
+# Generate expanded 10K dataset (~11,900 before dedup)
+python3 generate_dataset_10k.py
+
+# Validate and deduplicate (removes ~2K duplicates)
+python3 validate_dataset_10k.py
+
+# Finalize to exactly 10,000 phrases
+python3 finalize_dataset_10k.py
 
 # Generate statistics report
-python generate_report.py
+python3 generate_report_10k.py
+```
+
+**Legacy (Initial 4.9K dataset):**
+```bash
+# Generate initial dataset (4,956 sentences: ~3k valid + 2k invalid)
+python3 generate_dataset_final.py
 ```
 
 ### Module Isolation (Critical Requirement)

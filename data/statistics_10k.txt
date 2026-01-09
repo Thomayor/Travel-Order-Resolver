@@ -1,0 +1,75 @@
+======================================================================
+TRAVEL ORDER RESOLVER - 10K DATASET STATISTICS
+======================================================================
+
+OVERALL SUMMARY
+----------------------------------------------------------------------
+Total phrases: 10,000
+Valid orders: 7,000 (70.0%)
+Invalid orders: 3,000 (30.0%)
+
+INVALID ORDERS - CATEGORY DISTRIBUTION
+----------------------------------------------------------------------
+  ambiguous                     :   634 ( 21.1%)
+  garbage                       :   855 ( 28.5%)
+  incomplete_dest               :   462 ( 15.4%)
+  incomplete_grammar            :    76 (  2.5%)
+  incomplete_origin             :   459 ( 15.3%)
+  no_intent                     :   514 ( 17.1%)
+
+VALID ORDERS - CATEGORY DISTRIBUTION
+----------------------------------------------------------------------
+  additional_info               :   353 (  5.0%)
+  complex_question              :   133 (  1.9%)
+  compound_name                 :   577 (  8.2%)
+  inverted_order                :   917 ( 13.1%)
+  misspelling                   :   721 ( 10.3%)
+  name_ambiguity                :  1190 ( 17.0%)
+  no_capitals                   :   575 (  8.2%)
+  no_markers                    :   696 (  9.9%)
+  standard                      :  1838 ( 26.3%)
+
+DIFFICULTY DISTRIBUTION (VALID ORDERS)
+----------------------------------------------------------------------
+  easy      :  1423 ( 20.3%)
+  hard      :  1398 ( 20.0%)
+  medium    :  4179 ( 59.7%)
+
+TOP 20 CITIES USED (VALID ORDERS)
+----------------------------------------------------------------------
+   1. Paris                    :  580 occurrences
+   2. Aix-en-Provence          :  511 occurrences
+   3. Saint-Étienne            :  473 occurrences
+   4. Le Mans                  :  469 occurrences
+   5. Limoges                  :  466 occurrences
+   6. Villeurbanne             :  464 occurrences
+   7. Toulouse                 :  460 occurrences
+   8. Toulon                   :  454 occurrences
+   9. Strasbourg               :  452 occurrences
+  10. Metz                     :  445 occurrences
+  11. Bordeaux                 :  445 occurrences
+  12. Lille                    :  440 occurrences
+  13. Reims                    :  439 occurrences
+  14. Marseille                :  439 occurrences
+  15. Brest                    :  438 occurrences
+  16. Dijon                    :  434 occurrences
+  17. Perpignan                :  434 occurrences
+  18. Lyon                     :  433 occurrences
+  19. Grenoble                 :  433 occurrences
+  20. Amiens                   :  430 occurrences
+
+SENTENCE LENGTH STATISTICS
+----------------------------------------------------------------------
+Invalid orders:
+  Min length: 1 words
+  Max length: 11 words
+  Avg length: 4.5 words
+
+Valid orders:
+  Min length: 3 words
+  Max length: 15 words
+  Avg length: 7.5 words
+
+======================================================================
+END OF REPORT
+======================================================================
