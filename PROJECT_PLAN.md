@@ -116,6 +116,38 @@ sentenceID,sentence,origin,destination,is_valid
 - Validation: 15% (~1,500 sentences)
 - Test: 15% (~1,500 sentences)
 
+### 2.5 Difficulty Levels ⭐ (KAN-23 - Completed)
+
+**Status**: ✅ Implemented in 10K dataset
+
+Valid orders are classified into 3 difficulty levels based on linguistic complexity:
+
+| Difficulty | % | Baseline Accuracy | Criteria |
+|------------|---|-------------------|----------|
+| **Easy** | 20% | 87% | Clear structure, correct spelling, unambiguous |
+| **Medium** | 60% | 73% | Questions, inverted order, one name ambiguity |
+| **Hard** | 20% | 35% | Misspellings, multiple ambiguous names, complex |
+
+**Critical Findings**:
+- The `misspelling` category is **ALWAYS classified as hard** (721 sentences)
+- Baseline accuracy on misspellings: **7.6%** (catastrophic)
+- Root cause: Fuzzy matching not enabled
+- Quick fix available: Enable `gazetteer.fuzzy_match(max_distance=2)`
+- Expected improvement: +40-50% on misspellings → +3-4% overall accuracy
+
+**Documentation**: See [docs/DIFFICULTY_LEVELS.md](docs/DIFFICULTY_LEVELS.md) for:
+- Complete difficulty criteria and decision rules
+- Examples for each level
+- Attribution logic by category
+- Impact on model performance
+- Recommendations for new datasets
+
+**Importance**: Understanding difficulty levels is crucial for:
+1. Evaluating model performance across complexity levels
+2. Identifying model weaknesses (e.g., misspelling handling)
+3. Prioritizing improvements (fuzzy matching = quick win)
+4. Setting realistic targets for advanced models (CamemBERT)
+
 ---
 
 ## Phase 3: SNCF Data Integration (Week 2)

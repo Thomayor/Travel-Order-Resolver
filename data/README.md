@@ -1,21 +1,27 @@
-# Travel Order Resolver - Initial Dataset
+# Travel Order Resolver - 10K Dataset
 
 ## Overview
 
-This directory contains the initial training/testing dataset for the Travel Order Resolver NLP project. The dataset consists of **4,956 unique French language phrases** for training and evaluating the travel order extraction system.
+This directory contains the **production-ready 10,000-phrase dataset** for the Travel Order Resolver NLP project. This expanded dataset provides comprehensive training data for machine learning models to extract travel orders from French language sentences.
 
 ## Files
 
 ### Main Dataset Files
 
-- **`dataset_initial.csv`** (4,956 phrases) - Complete shuffled dataset combining valid and invalid orders
-- **`valid_orders_initial.csv`** (2,956 phrases) - Valid travel orders with extracted origin/destination
-- **`invalid_orders.csv`** (2,000 phrases) - Invalid orders (no travel intent, incomplete, garbage, ambiguous)
+- **`dataset_final.csv`** (10,000 phrases) - Complete shuffled dataset combining valid and invalid orders
+- **`valid_orders_final.csv`** (7,000 phrases) - Valid travel orders with extracted origin/destination
+- **`invalid_orders_final.csv`** (3,000 phrases) - Invalid orders (no travel intent, incomplete, garbage, ambiguous)
 
 ### Reports and Statistics
 
-- **`generation_report.json`** - Detailed generation statistics in JSON format
-- **`statistics.txt`** - Human-readable statistical summary
+- **`statistics_10k.txt`** - Human-readable statistical summary
+- **`generation_report_10k.json`** - Detailed generation statistics in JSON format
+
+### Legacy/Intermediate Files
+
+- `dataset_initial.csv` - Initial 4,956-phrase dataset (Phase 1)
+- `dataset_10k.csv` - Pre-deduplication 11,898-phrase dataset
+- `*_dedup.csv` files - Intermediate deduplicated versions
 
 ## Dataset Composition
 
@@ -23,42 +29,46 @@ This directory contains the initial training/testing dataset for the Travel Orde
 
 | Type | Count | Percentage |
 |------|-------|------------|
-| Valid orders | 2,956 | 59.6% |
-| Invalid orders | 2,000 | 40.4% |
-| **Total** | **4,956** | **100%** |
+| Valid orders | 7,000 | 70.0% |
+| Invalid orders | 3,000 | 30.0% |
+| **Total** | **10,000** | **100%** |
 
 ### Valid Orders - Categories
 
 | Category | Count | Percentage | Description |
 |----------|-------|------------|-------------|
-| standard | 783 | 26.5% | Clear origin-destination markers ("de X à Y") |
-| name_ambiguity | 496 | 16.8% | Proper names that could be cities or people |
-| inverted_order | 390 | 13.2% | Destination before origin |
-| misspelling | 299 | 10.1% | Spelling errors in city names |
-| no_markers | 297 | 10.0% | No prepositions ("billet X Y") |
-| no_capitals | 247 | 8.4% | Lowercase, missing accents |
-| compound_name | 244 | 8.3% | Hyphenated city names (Port-Boulet) |
-| additional_info | 150 | 5.1% | Extra info (times, passengers) |
-| complex_question | 50 | 1.7% | Complex travel queries |
+| standard | 1,838 | 26.3% | Clear origin-destination markers ("de X à Y") |
+| name_ambiguity | 1,190 | 17.0% | Proper names that could be cities or people |
+| inverted_order | 917 | 13.1% | Destination before origin |
+| misspelling | 721 | 10.3% | Spelling errors in city names |
+| no_markers | 696 | 9.9% | No prepositions ("billet X Y") |
+| compound_name | 577 | 8.2% | Hyphenated city names (Port-Boulet) |
+| no_capitals | 575 | 8.2% | Lowercase, missing accents |
+| additional_info | 353 | 5.0% | Extra info (times, passengers) |
+| complex_question | 133 | 1.9% | Complex travel queries |
 
 ### Valid Orders - Difficulty Distribution
 
-| Difficulty | Count | Percentage |
-|------------|-------|------------|
-| Easy | 604 | 20.4% |
-| Medium | 1,777 | 60.1% |
-| Hard | 575 | 19.5% |
+| Difficulty | Count | Percentage | Baseline Accuracy | Description |
+|------------|-------|------------|-------------------|-------------|
+| Easy | 1,423 | 20.3% | **87.14%** ✅ | Clear structure, correct spelling, no ambiguity |
+| Medium | 4,179 | 59.7% | **73.39%** ⚠️ | Questions, inverted order, one name ambiguity |
+| Hard | 1,398 | 20.0% | **34.84%** ❌ | Misspellings, multiple ambiguous names, complex syntax |
+
+**Important**: The `misspelling` category (721 sentences, 10.3%) is **always classified as hard** and represents the baseline model's biggest weakness (7.6% accuracy on this category alone). This is due to fuzzy matching not being enabled.
+
+**Full difficulty criteria**: See [../docs/DIFFICULTY_LEVELS.md](../docs/DIFFICULTY_LEVELS.md) for complete definitions and examples.
 
 ### Invalid Orders - Categories
 
 | Category | Count | Percentage | Description |
 |----------|-------|------------|-------------|
-| no_intent | 454 | 22.7% | No travel intention (greetings, questions) |
-| garbage | 416 | 20.8% | Random text, spam, foreign languages |
-| ambiguous | 410 | 20.5% | Too many cities, contradictions |
-| incomplete_dest | 329 | 16.4% | Missing destination |
-| incomplete_origin | 323 | 16.2% | Missing origin |
-| incomplete_grammar | 68 | 3.4% | Grammatically incomplete |
+| garbage | 855 | 28.5% | Random text, spam, foreign languages |
+| ambiguous | 634 | 21.1% | Too many cities, contradictions |
+| no_intent | 514 | 17.1% | No travel intention (greetings, questions) |
+| incomplete_dest | 462 | 15.4% | Missing destination |
+| incomplete_origin | 459 | 15.3% | Missing origin |
+| incomplete_grammar | 76 | 2.5% | Grammatically incomplete |
 
 ## File Format
 
@@ -103,26 +113,35 @@ sentenceID, sentence, origin, destination, is_valid, difficulty, category, notes
 **Invalid Orders:**
 - Min: 1 word
 - Max: 11 words
-- Average: 4.4 words
+- Average: 4.5 words
 
 **Valid Orders:**
 - Min: 3 words
-- Max: 14 words
+- Max: 15 words
 - Average: 7.5 words
 
-### Top 20 Cities Used
+### Top 20 Cities Used (Valid Orders)
 
-1. Paris (253 occurrences)
-2. Saint-Étienne (234)
-3. Marseille (210)
-4. Nice (208)
-5. Angers (207)
-6. Lyon (205)
-7. Toulon (201)
-8. Aix-en-Provence (199)
-9. Toulouse (189)
-10. Le Havre (186)
-...and 10 more
+1. Paris (580 occurrences)
+2. Aix-en-Provence (511)
+3. Saint-Étienne (473)
+4. Le Mans (469)
+5. Limoges (466)
+6. Villeurbanne (464)
+7. Toulouse (460)
+8. Toulon (454)
+9. Strasbourg (452)
+10. Metz (445)
+11. Bordeaux (445)
+12. Lille (440)
+13. Reims (439)
+14. Marseille (439)
+15. Brest (438)
+16. Dijon (434)
+17. Perpignan (434)
+18. Lyon (433)
+19. Grenoble (433)
+20. Amiens (430)
 
 ## Key NLP Challenges Represented
 
@@ -161,21 +180,22 @@ Cities with hyphens, often written without:
 import pandas as pd
 
 # Load complete dataset
-df = pd.read_csv('data/dataset_initial.csv', encoding='utf-8')
+df = pd.read_csv('data/dataset_final.csv', encoding='utf-8')
 
 # Load only valid orders
-valid_df = pd.read_csv('data/valid_orders_initial.csv', encoding='utf-8')
+valid_df = pd.read_csv('data/valid_orders_final.csv', encoding='utf-8')
 
 # Load only invalid orders
-invalid_df = pd.read_csv('data/invalid_orders.csv', encoding='utf-8')
+invalid_df = pd.read_csv('data/invalid_orders_final.csv', encoding='utf-8')
 ```
 
 ### Train/Val/Test Split
 
-Recommended split for machine learning:
-- **Training**: 70% (~3,470 phrases)
-- **Validation**: 15% (~743 phrases)
-- **Test**: 15% (~743 phrases)
+Recommended split for machine learning (EPITECH Phase 2 requirements):
+
+- **Training**: 70% (~7,000 phrases)
+- **Validation**: 15% (~1,500 phrases)
+- **Test**: 15% (~1,500 phrases)
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -195,42 +215,76 @@ print(f"Test:  {len(test)} ({len(test)/len(df)*100:.1f}%)")
 ## Quality Assurance
 
 ### Deduplication
-All datasets have been deduplicated to ensure no sentence appears more than once.
+All datasets have been rigorously deduplicated to ensure no sentence appears more than once.
 
 ### UTF-8 Encoding
 All files use strict UTF-8 encoding to properly handle French accents and special characters.
 
 ### Validation
-A validation script ([validate_dataset.py](../validate_dataset.py)) is provided to check:
+Multiple validation scripts were used to check:
 - Correct file structure
 - Required column presence
-- Sequential IDs
+- Sequential IDs (1 to N)
 - No duplicates
 - Proper distribution across categories
+- Target counts (7,000 valid + 3,000 invalid)
 
-## Next Steps
+## Generation Process
 
-This initial dataset of ~5,000 phrases should be expanded to 10,000 total by:
-1. Collaborating with other project groups to share datasets
-2. Manually creating additional complex edge cases
-3. Augmenting existing data with variations
+This dataset was generated through a multi-stage pipeline:
 
-The target distribution for 10,000 phrases:
-- 7,000 valid orders (70%)
-- 3,000 invalid orders (30%)
+1. **Initial Generation** (Phase 1): 4,956 phrases using template-based generators
+2. **Expansion** (Phase 2 - KAN-23): Scaled up to ~11,900 phrases
+3. **Deduplication**: Removed 2,154 duplicate sentences
+4. **Finalization**: Adjusted to exactly 10,000 phrases (7,000 valid + 3,000 invalid)
+
+### Generation Scripts
+
+The following scripts were used to create this dataset:
+
+- `generate_dataset_10k.py` - Main generation script (produces ~11,900 phrases)
+- `validate_dataset_10k.py` - Deduplication and validation
+- `finalize_dataset_10k.py` - Final adjustment to 10,000 phrases
+- `generate_report_10k.py` - Statistics generation
+
+All scripts are located in the project root directory.
+
+## Comparison to Initial Dataset
+
+| Metric | Initial (4.9K) | Final (10K) | Change |
+|--------|----------------|-------------|--------|
+| Total phrases | 4,956 | 10,000 | +102% |
+| Valid orders | 2,956 (59.6%) | 7,000 (70.0%) | +137% |
+| Invalid orders | 2,000 (40.4%) | 3,000 (30.0%) | +50% |
+| Categories (valid) | 9 | 9 | Same |
+| Categories (invalid) | 6 | 6 | Same |
+| Avg sentence length (valid) | 7.5 words | 7.5 words | Same |
+
+## Use Cases
+
+This dataset is designed for:
+
+1. **Named Entity Recognition (NER)** - Extract origin/destination from text
+2. **Intent Classification** - Identify valid vs invalid travel orders
+3. **Sequence Labeling** - Token-level classification (B-ORIGIN, I-ORIGIN, B-DEST, I-DEST, O)
+4. **Transfer Learning** - Fine-tune CamemBERT or similar French language models
+5. **Baseline Evaluation** - Test rule-based and keyword-based extractors
 
 ## License
 
-This dataset was generated for the EPITECH T-AIA-911 Travel Order Resolver project.
+This dataset was generated for the EPITECH T-AIA-911 Travel Order Resolver project (2025).
 
-## Generation Scripts
+## Changelog
 
-The following scripts were used to generate this dataset:
-- `generate_invalid_orders.py` - Invalid orders generator
-- `generate_valid_orders.py` - Valid orders generator
-- `merge_datasets.py` - Merge and shuffle datasets
-- `fix_duplicates.py` - Remove duplicate sentences
-- `generate_report.py` - Generate statistics and reports
-- `validate_dataset.py` - Validate dataset integrity
+### Version 1.0 (2026-01-09) - 10K Dataset
+- Expanded from 4,956 to 10,000 total phrases
+- Adjusted distribution to 70% valid / 30% invalid (EPITECH Phase 2 target)
+- Rigorous deduplication (removed 2,154 duplicates)
+- Comprehensive validation and quality checks
+- Generated detailed statistics reports
 
-All scripts are located in the project root directory.
+### Version 0.1 (2025-12-11) - Initial Dataset
+- Created initial 4,956-phrase dataset
+- 9 categories of valid orders
+- 6 categories of invalid orders
+- Basic template-based generation

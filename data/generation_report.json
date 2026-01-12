@@ -1,102 +1,73 @@
 {
-  "generation_summary": {
-    "total_phrases": 4956,
-    "valid_phrases": 2956,
-    "invalid_phrases": 2000,
-    "valid_percentage": 59.64487489911219,
-    "invalid_percentage": 40.35512510088781
+  "dataset_name": "10K Travel Order Dataset",
+  "version": "1.0",
+  "summary": {
+    "total": 10000,
+    "valid": 7000,
+    "invalid": 3000,
+    "valid_percentage": 70.0,
+    "invalid_percentage": 30.0
   },
-  "invalid_orders": {
-    "total": 2000,
+  "valid_orders": {
+    "count": 7000,
     "categories": {
-      "no_intent": 454,
-      "incomplete_origin": 323,
-      "incomplete_dest": 329,
-      "incomplete_grammar": 68,
-      "garbage": 416,
-      "ambiguous": 410
+      "standard": 1838,
+      "inverted_order": 917,
+      "no_markers": 696,
+      "name_ambiguity": 1190,
+      "compound_name": 577,
+      "misspelling": 721,
+      "no_capitals": 575,
+      "additional_info": 353,
+      "complex_question": 133
     },
     "difficulties": {
-      "easy": 1590,
-      "medium": 410
+      "easy": 1423,
+      "medium": 4179,
+      "hard": 1398
+    },
+    "top_20_cities": {
+      "Paris": 580,
+      "Aix-en-Provence": 511,
+      "Saint-Étienne": 473,
+      "Le Mans": 469,
+      "Limoges": 466,
+      "Villeurbanne": 464,
+      "Toulouse": 460,
+      "Toulon": 454,
+      "Strasbourg": 452,
+      "Metz": 445,
+      "Bordeaux": 445,
+      "Lille": 440,
+      "Reims": 439,
+      "Marseille": 439,
+      "Brest": 438,
+      "Dijon": 434,
+      "Perpignan": 434,
+      "Lyon": 433,
+      "Grenoble": 433,
+      "Amiens": 430
+    },
+    "sentence_length": {
+      "min": 3,
+      "max": 15,
+      "avg": 7.48
+    }
+  },
+  "invalid_orders": {
+    "count": 3000,
+    "categories": {
+      "no_intent": 514,
+      "incomplete_origin": 459,
+      "incomplete_dest": 462,
+      "incomplete_grammar": 76,
+      "garbage": 855,
+      "ambiguous": 634
     },
     "sentence_length": {
       "min": 1,
       "max": 11,
-      "avg": 4.412
-    }
-  },
-  "valid_orders": {
-    "total": 2956,
-    "categories": {
-      "standard": 783,
-      "inverted_order": 390,
-      "no_markers": 297,
-      "name_ambiguity": 496,
-      "compound_name": 244,
-      "misspelling": 299,
-      "no_capitals": 247,
-      "additional_info": 150,
-      "complex_question": 50
-    },
-    "difficulties": {
-      "easy": 604,
-      "medium": 1777,
-      "hard": 575
-    },
-    "top_20_cities": {
-      "Paris": 253,
-      "Saint-Étienne": 234,
-      "Marseille": 210,
-      "Nice": 208,
-      "Angers": 207,
-      "Lyon": 205,
-      "Toulon": 201,
-      "Aix-en-Provence": 199,
-      "Toulouse": 189,
-      "Le Havre": 186,
-      "Reims": 185,
-      "Dijon": 183,
-      "Bordeaux": 182,
-      "Lille": 182,
-      "Nantes": 181,
-      "Annecy": 181,
-      "Limoges": 181,
-      "Perpignan": 181,
-      "Brest": 181,
-      "Metz": 180
-    },
-    "sentence_length": {
-      "min": 3,
-      "max": 14,
-      "avg": 7.502706359945873
-    }
-  },
-  "merged_dataset": {
-    "total": 4956,
-    "valid": 2956,
-    "invalid": 2000,
-    "categories": {
-      "inverted_order": 390,
-      "no_intent": 454,
-      "name_ambiguity": 496,
-      "standard": 783,
-      "incomplete_origin": 323,
-      "misspelling": 299,
-      "no_markers": 297,
-      "ambiguous": 410,
-      "incomplete_dest": 329,
-      "compound_name": 244,
-      "no_capitals": 247,
-      "additional_info": 150,
-      "garbage": 416,
-      "incomplete_grammar": 68,
-      "complex_question": 50
-    },
-    "difficulties": {
-      "medium": 2187,
-      "easy": 2194,
-      "hard": 575
+      "avg": 4.51
     }
   }
 }

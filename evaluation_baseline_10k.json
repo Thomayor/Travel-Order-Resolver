@@ -1,0 +1,115 @@
+{
+  "dataset": "dataset_final.csv",
+  "total_sentences": 10000,
+  "accuracy": 65.01,
+  "origin_accuracy": 110.07,
+  "dest_accuracy": 104.81,
+  "precision": 0.9018,
+  "recall": 0.833,
+  "f1_score": 0.866,
+  "classification": {
+    "true_positive": 5831,
+    "true_negative": 2365,
+    "false_positive": 635,
+    "false_negative": 1169
+  },
+  "by_category": {
+    "name_ambiguity": {
+      "total": 1190,
+      "correct": 844,
+      "accuracy": 70.92
+    },
+    "additional_info": {
+      "total": 353,
+      "correct": 309,
+      "accuracy": 87.54
+    },
+    "no_intent": {
+      "total": 514,
+      "correct": 514,
+      "accuracy": 100.0
+    },
+    "standard": {
+      "total": 1838,
+      "correct": 1534,
+      "accuracy": 83.46
+    },
+    "incomplete_origin": {
+      "total": 459,
+      "correct": 81,
+      "accuracy": 17.65
+    },
+    "inverted_order": {
+      "total": 917,
+      "correct": 645,
+      "accuracy": 70.34
+    },
+    "ambiguous": {
+      "total": 634,
+      "correct": 18,
+      "accuracy": 2.84
+    },
+    "garbage": {
+      "total": 855,
+      "correct": 855,
+      "accuracy": 100.0
+    },
+    "misspelling": {
+      "total": 721,
+      "correct": 55,
+      "accuracy": 7.63
+    },
+    "no_markers": {
+      "total": 696,
+      "correct": 601,
+      "accuracy": 86.35
+    },
+    "compound_name": {
+      "total": 577,
+      "correct": 241,
+      "accuracy": 41.77
+    },
+    "incomplete_dest": {
+      "total": 462,
+      "correct": 163,
+      "accuracy": 35.28
+    },
+    "no_capitals": {
+      "total": 575,
+      "correct": 511,
+      "accuracy": 88.87
+    },
+    "incomplete_grammar": {
+      "total": 76,
+      "correct": 76,
+      "accuracy": 100.0
+    },
+    "complex_question": {
+      "total": 133,
+      "correct": 54,
+      "accuracy": 40.6
+    }
+  },
+  "by_difficulty": {
+    "medium": {
+      "total": 4179,
+      "correct": 3067,
+      "accuracy": 73.39
+    },
+    "easy": {
+      "total": 1423,
+      "correct": 1240,
+      "accuracy": 87.14
+    },
+    "hard": {
+      "total": 1398,
+      "correct": 487,
+      "accuracy": 34.84
+    }
+  },
+  "error_types": {
+    "dest_wrong": 1204,
+    "both_wrong": 1459,
+    "origin_wrong": 836
+  }
+}

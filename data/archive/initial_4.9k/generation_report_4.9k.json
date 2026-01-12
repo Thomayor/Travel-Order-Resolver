@@ -1,0 +1,102 @@
+{
+  "generation_summary": {
+    "total_phrases": 4956,
+    "valid_phrases": 2956,
+    "invalid_phrases": 2000,
+    "valid_percentage": 59.64487489911219,
+    "invalid_percentage": 40.35512510088781
+  },
+  "invalid_orders": {
+    "total": 2000,
+    "categories": {
+      "no_intent": 454,
+      "incomplete_origin": 323,
+      "incomplete_dest": 329,
+      "incomplete_grammar": 68,
+      "garbage": 416,
+      "ambiguous": 410
+    },
+    "difficulties": {
+      "easy": 1590,
+      "medium": 410
+    },
+    "sentence_length": {
+      "min": 1,
+      "max": 11,
+      "avg": 4.412
+    }
+  },
+  "valid_orders": {
+    "total": 2956,
+    "categories": {
+      "standard": 783,
+      "inverted_order": 390,
+      "no_markers": 297,
+      "name_ambiguity": 496,
+      "compound_name": 244,
+      "misspelling": 299,
+      "no_capitals": 247,
+      "additional_info": 150,
+      "complex_question": 50
+    },
+    "difficulties": {
+      "easy": 604,
+      "medium": 1777,
+      "hard": 575
+    },
+    "top_20_cities": {
+      "Paris": 253,
+      "Saint-Étienne": 234,
+      "Marseille": 210,
+      "Nice": 208,
+      "Angers": 207,
+      "Lyon": 205,
+      "Toulon": 201,
+      "Aix-en-Provence": 199,
+      "Toulouse": 189,
+      "Le Havre": 186,
+      "Reims": 185,
+      "Dijon": 183,
+      "Bordeaux": 182,
+      "Lille": 182,
+      "Nantes": 181,
+      "Annecy": 181,
+      "Limoges": 181,
+      "Perpignan": 181,
+      "Brest": 181,
+      "Metz": 180
+    },
+    "sentence_length": {
+      "min": 3,
+      "max": 14,
+      "avg": 7.502706359945873
+    }
+  },
+  "merged_dataset": {
+    "total": 4956,
+    "valid": 2956,
+    "invalid": 2000,
+    "categories": {
+      "inverted_order": 390,
+      "no_intent": 454,
+      "name_ambiguity": 496,
+      "standard": 783,
+      "incomplete_origin": 323,
+      "misspelling": 299,
+      "no_markers": 297,
+      "ambiguous": 410,
+      "incomplete_dest": 329,
+      "compound_name": 244,
+      "no_capitals": 247,
+      "additional_info": 150,
+      "garbage": 416,
+      "incomplete_grammar": 68,
+      "complex_question": 50
+    },
+    "difficulties": {
+      "medium": 2187,
+      "easy": 2194,
+      "hard": 575
+    }
+  }
+}

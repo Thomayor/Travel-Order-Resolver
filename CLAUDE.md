@@ -67,15 +67,27 @@ python demo_baseline.py
 ```
 
 ### Dataset Generation
-```bash
-# Generate complete dataset (6,000 sentences: 3k valid + 3k invalid)
-python generate_dataset_final.py
 
-# Validate dataset integrity
-python validate_dataset.py
+**Current Dataset: 10,000 sentences (7K valid + 3K invalid) - KAN-23 ✓**
+
+```bash
+# Generate expanded 10K dataset (~11,900 before dedup)
+python3 generate_dataset_10k.py
+
+# Validate and deduplicate (removes ~2K duplicates)
+python3 validate_dataset_10k.py
+
+# Finalize to exactly 10,000 phrases
+python3 finalize_dataset_10k.py
 
 # Generate statistics report
-python generate_report.py
+python3 generate_report_10k.py
+```
+
+**Legacy (Initial 4.9K dataset):**
+```bash
+# Generate initial dataset (4,956 sentences: ~3k valid + 2k invalid)
+python3 generate_dataset_final.py
 ```
 
 ### Module Isolation (Critical Requirement)
@@ -103,6 +115,23 @@ python baseline.py  # Runs demo extraction
 1,Paris,Lyon
 2,INVALID,INVALID
 ```
+
+## Dataset Difficulty Levels
+
+The 10K dataset includes **3 difficulty levels** for valid orders, critically impacting model performance:
+
+### Distribution
+- **Easy (20.3%)**: Clear structure, correct spelling, unambiguous → Baseline: **87% accuracy**
+- **Medium (59.7%)**: Questions, inverted order, one name ambiguity → Baseline: **73% accuracy**
+- **Hard (20.0%)**: Misspellings, multiple ambiguous names, complex → Baseline: **35% accuracy**
+
+### Key Insight: Misspellings are ALWAYS Hard
+The category `misspelling` (721 sentences, 10.3% of valid orders) is **always classified as hard** and represents the **biggest performance gap**:
+- Baseline accuracy on misspellings: **7.6%** ❌
+- Root cause: Fuzzy matching not enabled in gazetteer
+- Quick fix: Enable `fuzzy_match(max_distance=2)` → Expected **+40-50%** on this category
+
+**Full documentation**: See [docs/DIFFICULTY_LEVELS.md](docs/DIFFICULTY_LEVELS.md) for complete criteria and examples.
 
 ## Key Implementation Details
 
