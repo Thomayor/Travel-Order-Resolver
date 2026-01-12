@@ -1,0 +1,2001 @@
+sentenceID,sentence,origin,destination,is_valid,difficulty,category,notes
+1,yo ?,,,0,easy,no_intent,greetings
+2,comment vas-tu,,,0,easy,no_intent,greetings
+3,À bientôt,,,0,easy,no_intent,greetings
+4,très bien et vous,,,0,easy,no_intent,greetings
+5,Salut ça va ?,,,0,easy,no_intent,greetings
+6,Au revoir !,,,0,easy,no_intent,greetings
+7,Ravi de vous rencontrer,,,0,easy,no_intent,greetings
+8,bonjour ?,,,0,easy,no_intent,greetings
+9,Bonne nuit ?,,,0,easy,no_intent,greetings
+10,Coucou,,,0,easy,no_intent,greetings
+11,salut ça va ?,,,0,easy,no_intent,greetings
+12,Bonne journée,,,0,easy,no_intent,greetings
+13,Bonjour ?,,,0,easy,no_intent,greetings
+14,Coucou ?,,,0,easy,no_intent,greetings
+15,ravi de vous rencontrer ?,,,0,easy,no_intent,greetings
+16,salut ?,,,0,easy,no_intent,greetings
+17,Bonsoir !,,,0,easy,no_intent,greetings
+18,bonjour,,,0,easy,no_intent,greetings
+19,bonne soirée,,,0,easy,no_intent,greetings
+20,salut,,,0,easy,no_intent,greetings
+21,Bonjour !,,,0,easy,no_intent,greetings
+22,Ça va bien merci !,,,0,easy,no_intent,greetings
+23,Enchanté,,,0,easy,no_intent,greetings
+24,Très bien et vous !,,,0,easy,no_intent,greetings
+25,Bonjour,,,0,easy,no_intent,greetings
+26,bonne nuit ?,,,0,easy,no_intent,greetings
+27,Bonne journée ?,,,0,easy,no_intent,greetings
+28,à plus tard ?,,,0,easy,no_intent,greetings
+29,À plus tard,,,0,easy,no_intent,greetings
+30,À demain ?,,,0,easy,no_intent,greetings
+31,À demain,,,0,easy,no_intent,greetings
+32,Bonsoir ?,,,0,easy,no_intent,greetings
+33,Comment vas-tu !,,,0,easy,no_intent,greetings
+34,Salut ça va,,,0,easy,no_intent,greetings
+35,à bientôt ?,,,0,easy,no_intent,greetings
+36,Yo ?,,,0,easy,no_intent,greetings
+37,comment vas-tu ?,,,0,easy,no_intent,greetings
+38,enchanté,,,0,easy,no_intent,greetings
+39,À plus tard !,,,0,easy,no_intent,greetings
+40,Ravi de vous rencontrer ?,,,0,easy,no_intent,greetings
+41,au revoir,,,0,easy,no_intent,greetings
+42,Au revoir,,,0,easy,no_intent,greetings
+43,Au revoir ?,,,0,easy,no_intent,greetings
+44,à bientôt,,,0,easy,no_intent,greetings
+45,ça va bien merci ?,,,0,easy,no_intent,greetings
+46,Enchanté ?,,,0,easy,no_intent,greetings
+47,Bonne soirée,,,0,easy,no_intent,greetings
+48,À demain !,,,0,easy,no_intent,greetings
+49,À bientôt !,,,0,easy,no_intent,greetings
+50,Hey salut,,,0,easy,no_intent,greetings
+51,ravi de vous rencontrer,,,0,easy,no_intent,greetings
+52,bonne nuit,,,0,easy,no_intent,greetings
+53,Très bien et vous ?,,,0,easy,no_intent,greetings
+54,coucou,,,0,easy,no_intent,greetings
+55,salut ça va,,,0,easy,no_intent,greetings
+56,Bonjour comment allez-vous,,,0,easy,no_intent,greetings
+57,enchanté ?,,,0,easy,no_intent,greetings
+58,bonsoir ?,,,0,easy,no_intent,greetings
+59,Salut !,,,0,easy,no_intent,greetings
+60,Bonne soirée ?,,,0,easy,no_intent,greetings
+61,Salut ?,,,0,easy,no_intent,greetings
+62,Bonne nuit !,,,0,easy,no_intent,greetings
+63,bonne journée,,,0,easy,no_intent,greetings
+64,Bonsoir,,,0,easy,no_intent,greetings
+65,Yo,,,0,easy,no_intent,greetings
+66,hey salut ?,,,0,easy,no_intent,greetings
+67,Ravi de vous rencontrer !,,,0,easy,no_intent,greetings
+68,yo,,,0,easy,no_intent,greetings
+69,bonne soirée ?,,,0,easy,no_intent,greetings
+70,hey salut,,,0,easy,no_intent,greetings
+71,ça va bien merci,,,0,easy,no_intent,greetings
+72,Comment vas-tu,,,0,easy,no_intent,greetings
+73,Enchanté !,,,0,easy,no_intent,greetings
+74,Yo !,,,0,easy,no_intent,greetings
+75,à plus tard,,,0,easy,no_intent,greetings
+76,bonjour comment allez-vous ?,,,0,easy,no_intent,greetings
+77,Ça va bien merci,,,0,easy,no_intent,greetings
+78,Bonjour comment allez-vous ?,,,0,easy,no_intent,greetings
+79,bonsoir,,,0,easy,no_intent,greetings
+80,Très bien et vous,,,0,easy,no_intent,greetings
+81,au revoir ?,,,0,easy,no_intent,greetings
+82,Hey salut ?,,,0,easy,no_intent,greetings
+83,Comment vas-tu ?,,,0,easy,no_intent,greetings
+84,Coucou !,,,0,easy,no_intent,greetings
+85,bonne journée ?,,,0,easy,no_intent,greetings
+86,quelle est la météo,,,0,easy,no_intent,general_questions
+87,Pourquoi le ciel est bleu,,,0,easy,no_intent,general_questions
+88,Quelle heure est-il,,,0,easy,no_intent,general_questions
+89,comment allez-vous,,,0,easy,no_intent,general_questions
+90,avez-vous des enfants ?,,,0,easy,no_intent,general_questions
+91,Quel est votre nom !,,,0,easy,no_intent,general_questions
+92,où habitez-vous,,,0,easy,no_intent,general_questions
+93,Quel jour sommes-nous !,,,0,easy,no_intent,general_questions
+94,pourquoi le ciel est bleu ?,,,0,easy,no_intent,general_questions
+95,Comment ça marche !,,,0,easy,no_intent,general_questions
+96,Tu aimes la musique ?,,,0,easy,no_intent,general_questions
+97,quelle heure est-il,,,0,easy,no_intent,general_questions
+98,Quel est le sens de la vie !,,,0,easy,no_intent,general_questions
+99,Quelle heure est-il ?,,,0,easy,no_intent,general_questions
+100,vous vous appelez comment ?,,,0,easy,no_intent,general_questions
+101,quelle est votre adresse,,,0,easy,no_intent,general_questions
+102,Il fait beau aujourd'hui ?,,,0,easy,no_intent,general_questions
+103,êtes-vous marié ?,,,0,easy,no_intent,general_questions
+104,C'est quoi ça !,,,0,easy,no_intent,general_questions
+105,Où habitez-vous,,,0,easy,no_intent,general_questions
+106,Comment ça marche ?,,,0,easy,no_intent,general_questions
+107,C'est quoi votre numéro !,,,0,easy,no_intent,general_questions
+108,quel âge avez-vous,,,0,easy,no_intent,general_questions
+109,Comment allez-vous,,,0,easy,no_intent,general_questions
+110,Que faites-vous dans la vie !,,,0,easy,no_intent,general_questions
+111,quel est ton film préféré ?,,,0,easy,no_intent,general_questions
+112,Tu aimes la musique !,,,0,easy,no_intent,general_questions
+113,Il fait beau aujourd'hui,,,0,easy,no_intent,general_questions
+114,C'est quoi ça,,,0,easy,no_intent,general_questions
+115,Avez-vous des enfants ?,,,0,easy,no_intent,general_questions
+116,Il fait beau aujourd'hui !,,,0,easy,no_intent,general_questions
+117,il fait beau aujourd'hui,,,0,easy,no_intent,general_questions
+118,Avez-vous des enfants,,,0,easy,no_intent,general_questions
+119,comment allez-vous ?,,,0,easy,no_intent,general_questions
+120,Comment allez-vous !,,,0,easy,no_intent,general_questions
+121,Quel est votre nom,,,0,easy,no_intent,general_questions
+122,c'est quoi votre numéro ?,,,0,easy,no_intent,general_questions
+123,Quel jour sommes-nous,,,0,easy,no_intent,general_questions
+124,Où habitez-vous ?,,,0,easy,no_intent,general_questions
+125,comment ça marche ?,,,0,easy,no_intent,general_questions
+126,quel jour sommes-nous,,,0,easy,no_intent,general_questions
+127,Quel est le sens de la vie ?,,,0,easy,no_intent,general_questions
+128,Vous vous appelez comment,,,0,easy,no_intent,general_questions
+129,tu aimes la musique,,,0,easy,no_intent,general_questions
+130,Quel est le sens de la vie,,,0,easy,no_intent,general_questions
+131,quel est votre nom ?,,,0,easy,no_intent,general_questions
+132,quel est le sens de la vie ?,,,0,easy,no_intent,general_questions
+133,il fait beau aujourd'hui ?,,,0,easy,no_intent,general_questions
+134,Quelle heure est-il !,,,0,easy,no_intent,general_questions
+135,avez-vous des enfants,,,0,easy,no_intent,general_questions
+136,Quelle est la météo,,,0,easy,no_intent,general_questions
+137,êtes-vous marié,,,0,easy,no_intent,general_questions
+138,c'est quoi votre numéro,,,0,easy,no_intent,general_questions
+139,quelle est la météo ?,,,0,easy,no_intent,general_questions
+140,Quel est ton film préféré !,,,0,easy,no_intent,general_questions
+141,Quel jour sommes-nous ?,,,0,easy,no_intent,general_questions
+142,Vous vous appelez comment ?,,,0,easy,no_intent,general_questions
+143,Comment ça marche,,,0,easy,no_intent,general_questions
+144,Où habitez-vous !,,,0,easy,no_intent,general_questions
+145,comment ça marche,,,0,easy,no_intent,general_questions
+146,quel est le sens de la vie,,,0,easy,no_intent,general_questions
+147,Quelle est votre adresse !,,,0,easy,no_intent,general_questions
+148,quelle est votre adresse ?,,,0,easy,no_intent,general_questions
+149,c'est quoi ça,,,0,easy,no_intent,general_questions
+150,Que faites-vous dans la vie ?,,,0,easy,no_intent,general_questions
+151,C'est quoi ça ?,,,0,easy,no_intent,general_questions
+152,que faites-vous dans la vie ?,,,0,easy,no_intent,general_questions
+153,quel est votre nom,,,0,easy,no_intent,general_questions
+154,Quel âge avez-vous,,,0,easy,no_intent,general_questions
+155,Avez-vous des enfants !,,,0,easy,no_intent,general_questions
+156,pourquoi le ciel est bleu,,,0,easy,no_intent,general_questions
+157,Que faites-vous dans la vie,,,0,easy,no_intent,general_questions
+158,que faites-vous dans la vie,,,0,easy,no_intent,general_questions
+159,Quelle est votre adresse ?,,,0,easy,no_intent,general_questions
+160,vous vous appelez comment,,,0,easy,no_intent,general_questions
+161,Pourquoi le ciel est bleu ?,,,0,easy,no_intent,general_questions
+162,Êtes-vous marié ?,,,0,easy,no_intent,general_questions
+163,quel jour sommes-nous ?,,,0,easy,no_intent,general_questions
+164,C'est quoi votre numéro,,,0,easy,no_intent,general_questions
+165,Quelle est la météo !,,,0,easy,no_intent,general_questions
+166,Tu aimes la musique,,,0,easy,no_intent,general_questions
+167,C'est quoi votre numéro ?,,,0,easy,no_intent,general_questions
+168,Êtes-vous marié !,,,0,easy,no_intent,general_questions
+169,Quel est ton film préféré ?,,,0,easy,no_intent,general_questions
+170,mon train est annulé,,,0,easy,no_intent,train_discussion
+171,J'aime voyager en train !,,,0,easy,no_intent,train_discussion
+172,le train c'est mieux que l'avion ?,,,0,easy,no_intent,train_discussion
+173,le train est en retard,,,0,easy,no_intent,train_discussion
+174,les rails de train sont fascinants,,,0,easy,no_intent,train_discussion
+175,il y avait du monde dans le train ?,,,0,easy,no_intent,train_discussion
+176,J'adore les trains ?,,,0,easy,no_intent,train_discussion
+177,Le train était bondé ?,,,0,easy,no_intent,train_discussion
+178,le train était bondé ?,,,0,easy,no_intent,train_discussion
+179,j'aime voyager en train,,,0,easy,no_intent,train_discussion
+180,Les rails de train sont fascinants ?,,,0,easy,no_intent,train_discussion
+181,Les TGV sont rapides !,,,0,easy,no_intent,train_discussion
+182,mon train préféré est le tgv ?,,,0,easy,no_intent,train_discussion
+183,La SNCF est une belle entreprise !,,,0,easy,no_intent,train_discussion
+184,La SNCF est une belle entreprise,,,0,easy,no_intent,train_discussion
+185,Le train est en retard ?,,,0,easy,no_intent,train_discussion
+186,J'aime voyager en train,,,0,easy,no_intent,train_discussion
+187,Les gares sont belles,,,0,easy,no_intent,train_discussion
+188,Le réseau ferroviaire français est développé,,,0,easy,no_intent,train_discussion
+189,le train de nuit est pratique ?,,,0,easy,no_intent,train_discussion
+190,J'adore les trains,,,0,easy,no_intent,train_discussion
+191,j'ai raté mon train ?,,,0,easy,no_intent,train_discussion
+192,le train est en retard ?,,,0,easy,no_intent,train_discussion
+193,j'ai pris le train hier,,,0,easy,no_intent,train_discussion
+194,Le réseau ferroviaire français est développé ?,,,0,easy,no_intent,train_discussion
+195,Mon train préféré est le TGV,,,0,easy,no_intent,train_discussion
+196,j'aime voyager en train ?,,,0,easy,no_intent,train_discussion
+197,Le train était bondé,,,0,easy,no_intent,train_discussion
+198,les gares sont belles ?,,,0,easy,no_intent,train_discussion
+199,Les trains régionaux sont sympas ?,,,0,easy,no_intent,train_discussion
+200,Mon train préféré est le TGV !,,,0,easy,no_intent,train_discussion
+201,le train était bondé,,,0,easy,no_intent,train_discussion
+202,les locomotives sont puissantes,,,0,easy,no_intent,train_discussion
+203,Les rails de train sont fascinants,,,0,easy,no_intent,train_discussion
+204,Mon train est annulé,,,0,easy,no_intent,train_discussion
+205,Les trains à grande vitesse impressionnent !,,,0,easy,no_intent,train_discussion
+206,les tgv sont rapides ?,,,0,easy,no_intent,train_discussion
+207,les locomotives sont puissantes ?,,,0,easy,no_intent,train_discussion
+208,le réseau ferroviaire français est développé,,,0,easy,no_intent,train_discussion
+209,J'ai raté mon train !,,,0,easy,no_intent,train_discussion
+210,j'ai pris le train hier ?,,,0,easy,no_intent,train_discussion
+211,j'ai raté mon train,,,0,easy,no_intent,train_discussion
+212,Les trains français sont confortables !,,,0,easy,no_intent,train_discussion
+213,J'ai raté mon train,,,0,easy,no_intent,train_discussion
+214,les trains régionaux sont sympas,,,0,easy,no_intent,train_discussion
+215,mon train est annulé ?,,,0,easy,no_intent,train_discussion
+216,le train de nuit est pratique,,,0,easy,no_intent,train_discussion
+217,Le train de nuit est pratique !,,,0,easy,no_intent,train_discussion
+218,Le train c'est mieux que l'avion !,,,0,easy,no_intent,train_discussion
+219,la sncf est une belle entreprise,,,0,easy,no_intent,train_discussion
+220,Le train de nuit est pratique,,,0,easy,no_intent,train_discussion
+221,Les gares sont belles !,,,0,easy,no_intent,train_discussion
+222,Les rails de train sont fascinants !,,,0,easy,no_intent,train_discussion
+223,j'adore les trains,,,0,easy,no_intent,train_discussion
+224,le train c'est mieux que l'avion,,,0,easy,no_intent,train_discussion
+225,les gares sont belles,,,0,easy,no_intent,train_discussion
+226,Les locomotives sont puissantes !,,,0,easy,no_intent,train_discussion
+227,J'aime voyager en train ?,,,0,easy,no_intent,train_discussion
+228,Il y avait du monde dans le train !,,,0,easy,no_intent,train_discussion
+229,Il y avait du monde dans le train,,,0,easy,no_intent,train_discussion
+230,les rails de train sont fascinants ?,,,0,easy,no_intent,train_discussion
+231,Les trains régionaux sont sympas,,,0,easy,no_intent,train_discussion
+232,J'adore les trains !,,,0,easy,no_intent,train_discussion
+233,Le train c'est mieux que l'avion ?,,,0,easy,no_intent,train_discussion
+234,les trains français sont confortables ?,,,0,easy,no_intent,train_discussion
+235,Les locomotives sont puissantes ?,,,0,easy,no_intent,train_discussion
+236,Les gares sont belles ?,,,0,easy,no_intent,train_discussion
+237,Les trains à grande vitesse impressionnent ?,,,0,easy,no_intent,train_discussion
+238,Le train c'est mieux que l'avion,,,0,easy,no_intent,train_discussion
+239,Les TGV sont rapides,,,0,easy,no_intent,train_discussion
+240,Le train est en retard !,,,0,easy,no_intent,train_discussion
+241,Mon train est annulé ?,,,0,easy,no_intent,train_discussion
+242,J'ai raté mon train ?,,,0,easy,no_intent,train_discussion
+243,les trains français sont confortables,,,0,easy,no_intent,train_discussion
+244,les trains à grande vitesse impressionnent,,,0,easy,no_intent,train_discussion
+245,Les locomotives sont puissantes,,,0,easy,no_intent,train_discussion
+246,Les trains à grande vitesse impressionnent,,,0,easy,no_intent,train_discussion
+247,les trains régionaux sont sympas ?,,,0,easy,no_intent,train_discussion
+248,Mon train préféré est le TGV ?,,,0,easy,no_intent,train_discussion
+249,Le train de nuit est pratique ?,,,0,easy,no_intent,train_discussion
+250,Les trains français sont confortables,,,0,easy,no_intent,train_discussion
+251,J'ai pris le train hier,,,0,easy,no_intent,train_discussion
+252,il y avait du monde dans le train,,,0,easy,no_intent,train_discussion
+253,Le train était bondé !,,,0,easy,no_intent,train_discussion
+254,Il y avait du monde dans le train ?,,,0,easy,no_intent,train_discussion
+255,le réseau ferroviaire français est développé ?,,,0,easy,no_intent,train_discussion
+256,j'adore les trains ?,,,0,easy,no_intent,train_discussion
+257,Le foot c'est super,,,0,easy,no_intent,off_topic
+258,Le shopping c'est génial ?,,,0,easy,no_intent,off_topic
+259,Le café est bon ?,,,0,easy,no_intent,off_topic
+260,J'ai vu un bon film ?,,,0,easy,no_intent,off_topic
+261,quelle chaleur,,,0,easy,no_intent,off_topic
+262,Quelle chaleur !,,,0,easy,no_intent,off_topic
+263,C'est mon anniversaire,,,0,easy,no_intent,off_topic
+264,j'adore danser ?,,,0,easy,no_intent,off_topic
+265,Je suis content ?,,,0,easy,no_intent,off_topic
+266,j'aime le chocolat ?,,,0,easy,no_intent,off_topic
+267,Je suis fatigué !,,,0,easy,no_intent,off_topic
+268,je suis content ?,,,0,easy,no_intent,off_topic
+269,J'ai vu un bon film,,,0,easy,no_intent,off_topic
+270,quelle belle journée,,,0,easy,no_intent,off_topic
+271,J'aime le chocolat,,,0,easy,no_intent,off_topic
+272,j'aime lire des livres,,,0,easy,no_intent,off_topic
+273,il pleut dehors,,,0,easy,no_intent,off_topic
+274,Je vais au cinéma !,,,0,easy,no_intent,off_topic
+275,c'est les vacances,,,0,easy,no_intent,off_topic
+276,j'adore danser,,,0,easy,no_intent,off_topic
+277,J'aime les chiens !,,,0,easy,no_intent,off_topic
+278,Le shopping c'est génial !,,,0,easy,no_intent,off_topic
+279,j'ai rendez-vous chez le médecin ?,,,0,easy,no_intent,off_topic
+280,La musique classique est relaxante,,,0,easy,no_intent,off_topic
+281,Joyeux Noël,,,0,easy,no_intent,off_topic
+282,la pizza c'est délicieux ?,,,0,easy,no_intent,off_topic
+283,J'aime lire des livres,,,0,easy,no_intent,off_topic
+284,j'aime lire des livres ?,,,0,easy,no_intent,off_topic
+285,Les vacances approchent,,,0,easy,no_intent,off_topic
+286,J'aime lire des livres ?,,,0,easy,no_intent,off_topic
+287,la musique classique est relaxante ?,,,0,easy,no_intent,off_topic
+288,J'aime le chocolat ?,,,0,easy,no_intent,off_topic
+289,je vais au cinéma ?,,,0,easy,no_intent,off_topic
+290,Je vais faire du sport,,,0,easy,no_intent,off_topic
+291,Bonne année ?,,,0,easy,no_intent,off_topic
+292,je suis fatigué ?,,,0,easy,no_intent,off_topic
+293,La musique classique est relaxante !,,,0,easy,no_intent,off_topic
+294,Mon travail est intéressant ?,,,0,easy,no_intent,off_topic
+295,Les vacances approchent !,,,0,easy,no_intent,off_topic
+296,j'aime les chiens,,,0,easy,no_intent,off_topic
+297,les vacances approchent ?,,,0,easy,no_intent,off_topic
+298,C'est les vacances !,,,0,easy,no_intent,off_topic
+299,j'ai vu un bon film,,,0,easy,no_intent,off_topic
+300,j'ai faim ?,,,0,easy,no_intent,off_topic
+301,La pizza c'est délicieux,,,0,easy,no_intent,off_topic
+302,La mer est belle !,,,0,easy,no_intent,off_topic
+303,il fait beau ?,,,0,easy,no_intent,off_topic
+304,La montagne c'est beau,,,0,easy,no_intent,off_topic
+305,je vais faire du sport,,,0,easy,no_intent,off_topic
+306,C'est les vacances,,,0,easy,no_intent,off_topic
+307,Le foot c'est super ?,,,0,easy,no_intent,off_topic
+308,Quelle belle journée !,,,0,easy,no_intent,off_topic
+309,Mon chat est mignon ?,,,0,easy,no_intent,off_topic
+310,le café est bon ?,,,0,easy,no_intent,off_topic
+311,mon chat est mignon ?,,,0,easy,no_intent,off_topic
+312,Le foot c'est super !,,,0,easy,no_intent,off_topic
+313,La pizza c'est délicieux !,,,0,easy,no_intent,off_topic
+314,C'est mon anniversaire ?,,,0,easy,no_intent,off_topic
+315,Joyeux Noël ?,,,0,easy,no_intent,off_topic
+316,Je suis fatigué ?,,,0,easy,no_intent,off_topic
+317,Quelle belle journée ?,,,0,easy,no_intent,off_topic
+318,la musique classique est relaxante,,,0,easy,no_intent,off_topic
+319,bonne année,,,0,easy,no_intent,off_topic
+320,joyeux noël ?,,,0,easy,no_intent,off_topic
+321,la montagne c'est beau ?,,,0,easy,no_intent,off_topic
+322,Je vais au cinéma ?,,,0,easy,no_intent,off_topic
+323,Il pleut dehors !,,,0,easy,no_intent,off_topic
+324,La musique classique est relaxante ?,,,0,easy,no_intent,off_topic
+325,J'adore danser !,,,0,easy,no_intent,off_topic
+326,C'est mon anniversaire !,,,0,easy,no_intent,off_topic
+327,J'ai faim !,,,0,easy,no_intent,off_topic
+328,Les vacances approchent ?,,,0,easy,no_intent,off_topic
+329,le shopping c'est génial,,,0,easy,no_intent,off_topic
+330,Joyeux Noël !,,,0,easy,no_intent,off_topic
+331,je dois travailler demain,,,0,easy,no_intent,off_topic
+332,Je dois travailler demain,,,0,easy,no_intent,off_topic
+333,la montagne c'est beau,,,0,easy,no_intent,off_topic
+334,je suis fatigué,,,0,easy,no_intent,off_topic
+335,Mon travail est intéressant,,,0,easy,no_intent,off_topic
+336,Je dois travailler demain !,,,0,easy,no_intent,off_topic
+337,le shopping c'est génial ?,,,0,easy,no_intent,off_topic
+338,Bonne année !,,,0,easy,no_intent,off_topic
+339,Le café est bon !,,,0,easy,no_intent,off_topic
+340,Il pleut dehors,,,0,easy,no_intent,off_topic
+341,J'ai rendez-vous chez le médecin ?,,,0,easy,no_intent,off_topic
+342,joyeux noël,,,0,easy,no_intent,off_topic
+343,je vais faire du sport ?,,,0,easy,no_intent,off_topic
+344,je suis content,,,0,easy,no_intent,off_topic
+345,Mon chat est mignon !,,,0,easy,no_intent,off_topic
+346,Mon travail est intéressant !,,,0,easy,no_intent,off_topic
+347,Le café est bon,,,0,easy,no_intent,off_topic
+348,J'ai faim,,,0,easy,no_intent,off_topic
+349,la mer est belle,,,0,easy,no_intent,off_topic
+350,Le shopping c'est génial,,,0,easy,no_intent,off_topic
+351,J'aime lire des livres !,,,0,easy,no_intent,off_topic
+352,c'est mon anniversaire ?,,,0,easy,no_intent,off_topic
+353,je dois travailler demain ?,,,0,easy,no_intent,off_topic
+354,La mer est belle,,,0,easy,no_intent,off_topic
+355,La montagne c'est beau ?,,,0,easy,no_intent,off_topic
+356,La mer est belle ?,,,0,easy,no_intent,off_topic
+357,La montagne c'est beau !,,,0,easy,no_intent,off_topic
+358,la mer est belle ?,,,0,easy,no_intent,off_topic
+359,il fait beau,,,0,easy,no_intent,off_topic
+360,J'adore danser ?,,,0,easy,no_intent,off_topic
+361,la pizza c'est délicieux,,,0,easy,no_intent,off_topic
+362,il pleut dehors ?,,,0,easy,no_intent,off_topic
+363,Je suis fatigué,,,0,easy,no_intent,off_topic
+364,mon travail est intéressant,,,0,easy,no_intent,off_topic
+365,Il fait beau !,,,0,easy,no_intent,off_topic
+366,mon travail est intéressant ?,,,0,easy,no_intent,off_topic
+367,Il pleut dehors ?,,,0,easy,no_intent,off_topic
+368,Peut-être,,,0,easy,no_intent,random_statements
+369,Fantastique ?,,,0,easy,no_intent,random_statements
+370,Peut-être !,,,0,easy,no_intent,random_statements
+371,super cool,,,0,easy,no_intent,random_statements
+372,magnifique,,,0,easy,no_intent,random_statements
+373,je ne comprends pas,,,0,easy,no_intent,random_statements
+374,C'est difficile,,,0,easy,no_intent,random_statements
+375,Je suis perdu !,,,0,easy,no_intent,random_statements
+376,Pourquoi pas !,,,0,easy,no_intent,random_statements
+377,tout va bien,,,0,easy,no_intent,random_statements
+378,pourquoi pas,,,0,easy,no_intent,random_statements
+379,Je ne comprends pas ?,,,0,easy,no_intent,random_statements
+380,Incroyable ?,,,0,easy,no_intent,random_statements
+381,Tout va bien !,,,0,easy,no_intent,random_statements
+382,Les oiseaux chantent ?,,,0,easy,no_intent,random_statements
+383,Incroyable,,,0,easy,no_intent,random_statements
+384,Super cool !,,,0,easy,no_intent,random_statements
+385,super cool ?,,,0,easy,no_intent,random_statements
+386,incroyable ?,,,0,easy,no_intent,random_statements
+387,tout va bien ?,,,0,easy,no_intent,random_statements
+388,Je suis perdu,,,0,easy,no_intent,random_statements
+389,Magnifique,,,0,easy,no_intent,random_statements
+390,C'est compliqué ?,,,0,easy,no_intent,random_statements
+391,Je suis perdu ?,,,0,easy,no_intent,random_statements
+392,Les oiseaux chantent,,,0,easy,no_intent,random_statements
+393,Le soleil brille ?,,,0,easy,no_intent,random_statements
+394,Génial ?,,,0,easy,no_intent,random_statements
+395,Le soleil brille !,,,0,easy,no_intent,random_statements
+396,D'accord,,,0,easy,no_intent,random_statements
+397,c'est difficile ?,,,0,easy,no_intent,random_statements
+398,magnifique ?,,,0,easy,no_intent,random_statements
+399,Magnifique !,,,0,easy,no_intent,random_statements
+400,les oiseaux chantent ?,,,0,easy,no_intent,random_statements
+401,D'accord ?,,,0,easy,no_intent,random_statements
+402,peut-être,,,0,easy,no_intent,random_statements
+403,d'accord ?,,,0,easy,no_intent,random_statements
+404,peut-être ?,,,0,easy,no_intent,random_statements
+405,Génial !,,,0,easy,no_intent,random_statements
+406,Évidemment !,,,0,easy,no_intent,random_statements
+407,Évidemment ?,,,0,easy,no_intent,random_statements
+408,La vie est belle ?,,,0,easy,no_intent,random_statements
+409,C'est parfait ?,,,0,easy,no_intent,random_statements
+410,pourquoi pas ?,,,0,easy,no_intent,random_statements
+411,évidemment ?,,,0,easy,no_intent,random_statements
+412,La vie est belle !,,,0,easy,no_intent,random_statements
+413,les oiseaux chantent,,,0,easy,no_intent,random_statements
+414,C'est compliqué !,,,0,easy,no_intent,random_statements
+415,Incroyable !,,,0,easy,no_intent,random_statements
+416,C'est parfait,,,0,easy,no_intent,random_statements
+417,d'accord,,,0,easy,no_intent,random_statements
+418,Tout va bien,,,0,easy,no_intent,random_statements
+419,C'est parfait !,,,0,easy,no_intent,random_statements
+420,La vie est belle,,,0,easy,no_intent,random_statements
+421,C'est compliqué,,,0,easy,no_intent,random_statements
+422,Bien sûr,,,0,easy,no_intent,random_statements
+423,c'est parfait ?,,,0,easy,no_intent,random_statements
+424,incroyable,,,0,easy,no_intent,random_statements
+425,la vie est belle,,,0,easy,no_intent,random_statements
+426,Super cool ?,,,0,easy,no_intent,random_statements
+427,c'est compliqué,,,0,easy,no_intent,random_statements
+428,Le soleil brille,,,0,easy,no_intent,random_statements
+429,Super cool,,,0,easy,no_intent,random_statements
+430,évidemment,,,0,easy,no_intent,random_statements
+431,Je ne sais pas ?,,,0,easy,no_intent,random_statements
+432,Je ne sais pas !,,,0,easy,no_intent,random_statements
+433,c'est compliqué ?,,,0,easy,no_intent,random_statements
+434,C'est difficile !,,,0,easy,no_intent,random_statements
+435,fantastique,,,0,easy,no_intent,random_statements
+436,Pourquoi pas ?,,,0,easy,no_intent,random_statements
+437,je suis perdu ?,,,0,easy,no_intent,random_statements
+438,je ne sais pas,,,0,easy,no_intent,random_statements
+439,D'accord !,,,0,easy,no_intent,random_statements
+440,Peut-être ?,,,0,easy,no_intent,random_statements
+441,la vie est belle ?,,,0,easy,no_intent,random_statements
+442,Fantastique !,,,0,easy,no_intent,random_statements
+443,Génial,,,0,easy,no_intent,random_statements
+444,C'est difficile ?,,,0,easy,no_intent,random_statements
+445,Bien sûr !,,,0,easy,no_intent,random_statements
+446,Je ne comprends pas !,,,0,easy,no_intent,random_statements
+447,Je ne comprends pas,,,0,easy,no_intent,random_statements
+448,Magnifique ?,,,0,easy,no_intent,random_statements
+449,Pourquoi pas,,,0,easy,no_intent,random_statements
+450,bien sûr ?,,,0,easy,no_intent,random_statements
+451,bien sûr,,,0,easy,no_intent,random_statements
+452,génial ?,,,0,easy,no_intent,random_statements
+453,Fantastique,,,0,easy,no_intent,random_statements
+454,c'est difficile,,,0,easy,no_intent,random_statements
+455,À Angers ?,,,0,easy,incomplete_origin,missing origin
+456,j'aimerais visiter toulouse,,,0,easy,incomplete_origin,missing origin
+457,Un train pour Strasbourg,,,0,easy,incomplete_origin,missing origin
+458,un billet pour nice,,,0,easy,incomplete_origin,missing origin
+459,Je dois aller à Toulouse,,,0,easy,incomplete_origin,missing origin
+460,Un train pour Toulouse ?,,,0,easy,incomplete_origin,missing origin
+461,un train pour bordeaux,,,0,easy,incomplete_origin,missing origin
+462,Je souhaite me rendre à Dijon,,,0,easy,incomplete_origin,missing origin
+463,pour paris,,,0,easy,incomplete_origin,missing origin
+464,Comment aller à Bordeaux,,,0,easy,incomplete_origin,missing origin
+465,je pars pour nice,,,0,easy,incomplete_origin,missing origin
+466,Je voudrais aller à Toulouse,,,0,easy,incomplete_origin,missing origin
+467,Un billet pour Rennes,,,0,easy,incomplete_origin,missing origin
+468,Je souhaite me rendre à Rennes,,,0,easy,incomplete_origin,missing origin
+469,Je voudrais aller à Rennes,,,0,easy,incomplete_origin,missing origin
+470,Je me rends à Bordeaux ?,,,0,easy,incomplete_origin,missing origin
+471,Pour Lille,,,0,easy,incomplete_origin,missing origin
+472,Comment aller à Nice,,,0,easy,incomplete_origin,missing origin
+473,En direction de Paris,,,0,easy,incomplete_origin,missing origin
+474,Comment aller à Paris,,,0,easy,incomplete_origin,missing origin
+475,Un train pour Reims,,,0,easy,incomplete_origin,missing origin
+476,Cap sur Toulon,,,0,easy,incomplete_origin,missing origin
+477,comment aller à nantes,,,0,easy,incomplete_origin,missing origin
+478,Je vais à Rennes,,,0,easy,incomplete_origin,missing origin
+479,Un train pour Marseille ?,,,0,easy,incomplete_origin,missing origin
+480,je vais à angers,,,0,easy,incomplete_origin,missing origin
+481,je veux aller à dijon,,,0,easy,incomplete_origin,missing origin
+482,Je veux aller à Nice ?,,,0,easy,incomplete_origin,missing origin
+483,Route pour Le Havre,,,0,easy,incomplete_origin,missing origin
+484,trajet vers nice ?,,,0,easy,incomplete_origin,missing origin
+485,Un billet pour Grenoble,,,0,easy,incomplete_origin,missing origin
+486,Je veux aller à Montpellier,,,0,easy,incomplete_origin,missing origin
+487,Je pars pour Rennes,,,0,easy,incomplete_origin,missing origin
+488,Pour Grenoble ?,,,0,easy,incomplete_origin,missing origin
+489,Un train pour Lyon,,,0,easy,incomplete_origin,missing origin
+490,Je voudrais aller à Nantes,,,0,easy,incomplete_origin,missing origin
+491,j'aimerais visiter toulouse ?,,,0,easy,incomplete_origin,missing origin
+492,j'aimerais visiter paris,,,0,easy,incomplete_origin,missing origin
+493,À Strasbourg,,,0,easy,incomplete_origin,missing origin
+494,vers rennes,,,0,easy,incomplete_origin,missing origin
+495,je me rends à dijon,,,0,easy,incomplete_origin,missing origin
+496,Je veux aller à Marseille,,,0,easy,incomplete_origin,missing origin
+497,je voudrais aller à angers,,,0,easy,incomplete_origin,missing origin
+498,je veux aller à nantes ?,,,0,easy,incomplete_origin,missing origin
+499,Route pour Nantes ?,,,0,easy,incomplete_origin,missing origin
+500,À Angers,,,0,easy,incomplete_origin,missing origin
+501,Trajet vers Lyon,,,0,easy,incomplete_origin,missing origin
+502,J'aimerais visiter Grenoble ?,,,0,easy,incomplete_origin,missing origin
+503,j'aimerais visiter lyon,,,0,easy,incomplete_origin,missing origin
+504,J'aimerais visiter Le Havre,,,0,easy,incomplete_origin,missing origin
+505,Destination Dijon,,,0,easy,incomplete_origin,missing origin
+506,Destination Bordeaux,,,0,easy,incomplete_origin,missing origin
+507,je pars pour lille,,,0,easy,incomplete_origin,missing origin
+508,je dois aller à bordeaux,,,0,easy,incomplete_origin,missing origin
+509,cap sur strasbourg,,,0,easy,incomplete_origin,missing origin
+510,J'aimerais visiter Bordeaux,,,0,easy,incomplete_origin,missing origin
+511,Trajet vers Toulouse,,,0,easy,incomplete_origin,missing origin
+512,Pour Marseille,,,0,easy,incomplete_origin,missing origin
+513,destination reims ?,,,0,easy,incomplete_origin,missing origin
+514,En direction de Toulon,,,0,easy,incomplete_origin,missing origin
+515,Je voudrais aller à Nice ?,,,0,easy,incomplete_origin,missing origin
+516,route pour lille ?,,,0,easy,incomplete_origin,missing origin
+517,Vers Angers ?,,,0,easy,incomplete_origin,missing origin
+518,Route pour Rennes ?,,,0,easy,incomplete_origin,missing origin
+519,Trajet vers Dijon,,,0,easy,incomplete_origin,missing origin
+520,Direction Grenoble,,,0,easy,incomplete_origin,missing origin
+521,je voudrais aller à dijon,,,0,easy,incomplete_origin,missing origin
+522,Comment aller à Montpellier,,,0,easy,incomplete_origin,missing origin
+523,à marseille,,,0,easy,incomplete_origin,missing origin
+524,à toulouse,,,0,easy,incomplete_origin,missing origin
+525,Pour Lyon ?,,,0,easy,incomplete_origin,missing origin
+526,je pars pour paris,,,0,easy,incomplete_origin,missing origin
+527,à montpellier ?,,,0,easy,incomplete_origin,missing origin
+528,À Rennes,,,0,easy,incomplete_origin,missing origin
+529,Comment aller à Strasbourg,,,0,easy,incomplete_origin,missing origin
+530,trajet vers toulon,,,0,easy,incomplete_origin,missing origin
+531,je dois aller à angers ?,,,0,easy,incomplete_origin,missing origin
+532,Comment aller à Marseille ?,,,0,easy,incomplete_origin,missing origin
+533,Vers Reims,,,0,easy,incomplete_origin,missing origin
+534,Je dois aller à Toulon,,,0,easy,incomplete_origin,missing origin
+535,Vers Marseille,,,0,easy,incomplete_origin,missing origin
+536,Route pour Marseille,,,0,easy,incomplete_origin,missing origin
+537,À Reims,,,0,easy,incomplete_origin,missing origin
+538,Cap sur Grenoble,,,0,easy,incomplete_origin,missing origin
+539,Vers Strasbourg,,,0,easy,incomplete_origin,missing origin
+540,Trajet vers Lille,,,0,easy,incomplete_origin,missing origin
+541,Je dois aller à Strasbourg,,,0,easy,incomplete_origin,missing origin
+542,En direction de Strasbourg,,,0,easy,incomplete_origin,missing origin
+543,Je me rends à Grenoble,,,0,easy,incomplete_origin,missing origin
+544,Je pars pour Le Havre ?,,,0,easy,incomplete_origin,missing origin
+545,J'aimerais visiter Angers,,,0,easy,incomplete_origin,missing origin
+546,vers marseille,,,0,easy,incomplete_origin,missing origin
+547,je vais à le havre,,,0,easy,incomplete_origin,missing origin
+548,Route pour Lyon,,,0,easy,incomplete_origin,missing origin
+549,Pour Nantes ?,,,0,easy,incomplete_origin,missing origin
+550,vers le havre,,,0,easy,incomplete_origin,missing origin
+551,Pour Angers,,,0,easy,incomplete_origin,missing origin
+552,je vais à angers ?,,,0,easy,incomplete_origin,missing origin
+553,je dois aller à nice,,,0,easy,incomplete_origin,missing origin
+554,Je voudrais aller à Lille,,,0,easy,incomplete_origin,missing origin
+555,Je me rends à Marseille,,,0,easy,incomplete_origin,missing origin
+556,cap sur angers,,,0,easy,incomplete_origin,missing origin
+557,en direction de lyon,,,0,easy,incomplete_origin,missing origin
+558,je veux aller à toulouse,,,0,easy,incomplete_origin,missing origin
+559,j'aimerais visiter reims,,,0,easy,incomplete_origin,missing origin
+560,pour angers,,,0,easy,incomplete_origin,missing origin
+561,Cap sur Rennes,,,0,easy,incomplete_origin,missing origin
+562,Un billet pour Le Havre,,,0,easy,incomplete_origin,missing origin
+563,Cap sur Bordeaux,,,0,easy,incomplete_origin,missing origin
+564,Destination Angers,,,0,easy,incomplete_origin,missing origin
+565,je souhaite me rendre à nice ?,,,0,easy,incomplete_origin,missing origin
+566,Cap sur Rennes ?,,,0,easy,incomplete_origin,missing origin
+567,je voudrais aller à strasbourg ?,,,0,easy,incomplete_origin,missing origin
+568,je vais à toulon,,,0,easy,incomplete_origin,missing origin
+569,Comment aller à Dijon ?,,,0,easy,incomplete_origin,missing origin
+570,je me rends à grenoble ?,,,0,easy,incomplete_origin,missing origin
+571,Je pars pour Reims,,,0,easy,incomplete_origin,missing origin
+572,direction toulouse,,,0,easy,incomplete_origin,missing origin
+573,Destination Reims ?,,,0,easy,incomplete_origin,missing origin
+574,Je veux aller à Reims ?,,,0,easy,incomplete_origin,missing origin
+575,Je veux aller à Angers,,,0,easy,incomplete_origin,missing origin
+576,je veux aller à le havre,,,0,easy,incomplete_origin,missing origin
+577,Un billet pour Lyon,,,0,easy,incomplete_origin,missing origin
+578,je dois aller à strasbourg,,,0,easy,incomplete_origin,missing origin
+579,cap sur grenoble ?,,,0,easy,incomplete_origin,missing origin
+580,Je voudrais aller à Paris,,,0,easy,incomplete_origin,missing origin
+581,J'aimerais visiter Toulouse,,,0,easy,incomplete_origin,missing origin
+582,Je souhaite me rendre à Grenoble,,,0,easy,incomplete_origin,missing origin
+583,route pour reims,,,0,easy,incomplete_origin,missing origin
+584,Route pour Lille,,,0,easy,incomplete_origin,missing origin
+585,destination toulon,,,0,easy,incomplete_origin,missing origin
+586,Pour Reims,,,0,easy,incomplete_origin,missing origin
+587,je vais à grenoble,,,0,easy,incomplete_origin,missing origin
+588,Je veux aller à Nice,,,0,easy,incomplete_origin,missing origin
+589,Un train pour Bordeaux,,,0,easy,incomplete_origin,missing origin
+590,Je me rends à Lyon,,,0,easy,incomplete_origin,missing origin
+591,Je souhaite me rendre à Toulon,,,0,easy,incomplete_origin,missing origin
+592,direction montpellier ?,,,0,easy,incomplete_origin,missing origin
+593,comment aller à bordeaux,,,0,easy,incomplete_origin,missing origin
+594,Je vais à Angers,,,0,easy,incomplete_origin,missing origin
+595,Pour Lille ?,,,0,easy,incomplete_origin,missing origin
+596,Vers Lille,,,0,easy,incomplete_origin,missing origin
+597,Je me rends à Reims,,,0,easy,incomplete_origin,missing origin
+598,Un billet pour Marseille ?,,,0,easy,incomplete_origin,missing origin
+599,je voudrais aller à grenoble,,,0,easy,incomplete_origin,missing origin
+600,En direction de Nantes,,,0,easy,incomplete_origin,missing origin
+601,Route pour Paris,,,0,easy,incomplete_origin,missing origin
+602,Je me rends à Strasbourg,,,0,easy,incomplete_origin,missing origin
+603,Vers Rennes,,,0,easy,incomplete_origin,missing origin
+604,à le havre,,,0,easy,incomplete_origin,missing origin
+605,Je souhaite me rendre à Toulon ?,,,0,easy,incomplete_origin,missing origin
+606,je voudrais aller à lille,,,0,easy,incomplete_origin,missing origin
+607,À Lyon,,,0,easy,incomplete_origin,missing origin
+608,Direction Toulouse,,,0,easy,incomplete_origin,missing origin
+609,Pour Rennes,,,0,easy,incomplete_origin,missing origin
+610,cap sur nice,,,0,easy,incomplete_origin,missing origin
+611,Vers Grenoble,,,0,easy,incomplete_origin,missing origin
+612,Trajet vers Strasbourg,,,0,easy,incomplete_origin,missing origin
+613,route pour nice ?,,,0,easy,incomplete_origin,missing origin
+614,Je pars pour Nantes,,,0,easy,incomplete_origin,missing origin
+615,pour toulon,,,0,easy,incomplete_origin,missing origin
+616,vers angers ?,,,0,easy,incomplete_origin,missing origin
+617,direction rennes,,,0,easy,incomplete_origin,missing origin
+618,Je vais à Montpellier,,,0,easy,incomplete_origin,missing origin
+619,un train pour lille,,,0,easy,incomplete_origin,missing origin
+620,Destination Toulon,,,0,easy,incomplete_origin,missing origin
+621,à rennes ?,,,0,easy,incomplete_origin,missing origin
+622,Pour Bordeaux,,,0,easy,incomplete_origin,missing origin
+623,En direction de Lille,,,0,easy,incomplete_origin,missing origin
+624,Je voudrais aller à Grenoble,,,0,easy,incomplete_origin,missing origin
+625,Route pour Rennes,,,0,easy,incomplete_origin,missing origin
+626,Je voudrais aller à Marseille,,,0,easy,incomplete_origin,missing origin
+627,Trajet vers Montpellier,,,0,easy,incomplete_origin,missing origin
+628,Destination Marseille,,,0,easy,incomplete_origin,missing origin
+629,À Grenoble,,,0,easy,incomplete_origin,missing origin
+630,je me rends à marseille ?,,,0,easy,incomplete_origin,missing origin
+631,Trajet vers Rennes,,,0,easy,incomplete_origin,missing origin
+632,Pour Reims ?,,,0,easy,incomplete_origin,missing origin
+633,route pour rennes,,,0,easy,incomplete_origin,missing origin
+634,J'aimerais visiter Nantes ?,,,0,easy,incomplete_origin,missing origin
+635,cap sur bordeaux,,,0,easy,incomplete_origin,missing origin
+636,direction le havre,,,0,easy,incomplete_origin,missing origin
+637,un train pour nice,,,0,easy,incomplete_origin,missing origin
+638,à nice,,,0,easy,incomplete_origin,missing origin
+639,Je pars pour Strasbourg,,,0,easy,incomplete_origin,missing origin
+640,Cap sur Lyon,,,0,easy,incomplete_origin,missing origin
+641,Destination Nice,,,0,easy,incomplete_origin,missing origin
+642,Pour Rennes ?,,,0,easy,incomplete_origin,missing origin
+643,Destination Toulouse,,,0,easy,incomplete_origin,missing origin
+644,Pour Le Havre ?,,,0,easy,incomplete_origin,missing origin
+645,je dois aller à marseille,,,0,easy,incomplete_origin,missing origin
+646,À Lyon ?,,,0,easy,incomplete_origin,missing origin
+647,Je me rends à Lille,,,0,easy,incomplete_origin,missing origin
+648,À Le Havre,,,0,easy,incomplete_origin,missing origin
+649,route pour le havre,,,0,easy,incomplete_origin,missing origin
+650,Vers Lyon,,,0,easy,incomplete_origin,missing origin
+651,cap sur reims,,,0,easy,incomplete_origin,missing origin
+652,En direction de Bordeaux,,,0,easy,incomplete_origin,missing origin
+653,Je veux aller à Lille,,,0,easy,incomplete_origin,missing origin
+654,j'aimerais visiter nice ?,,,0,easy,incomplete_origin,missing origin
+655,Comment aller à Lille,,,0,easy,incomplete_origin,missing origin
+656,Je voudrais aller à Bordeaux,,,0,easy,incomplete_origin,missing origin
+657,je souhaite me rendre à nice,,,0,easy,incomplete_origin,missing origin
+658,Pour Toulouse,,,0,easy,incomplete_origin,missing origin
+659,Je dois aller à Montpellier,,,0,easy,incomplete_origin,missing origin
+660,Pour Nantes,,,0,easy,incomplete_origin,missing origin
+661,Trajet vers Nice ?,,,0,easy,incomplete_origin,missing origin
+662,J'aimerais visiter Reims,,,0,easy,incomplete_origin,missing origin
+663,Je veux aller à Grenoble ?,,,0,easy,incomplete_origin,missing origin
+664,un billet pour toulouse,,,0,easy,incomplete_origin,missing origin
+665,Un billet pour Lille,,,0,easy,incomplete_origin,missing origin
+666,Pour Dijon,,,0,easy,incomplete_origin,missing origin
+667,J'aimerais visiter Montpellier,,,0,easy,incomplete_origin,missing origin
+668,destination reims,,,0,easy,incomplete_origin,missing origin
+669,Destination Lille,,,0,easy,incomplete_origin,missing origin
+670,Pour Paris ?,,,0,easy,incomplete_origin,missing origin
+671,je veux aller à paris,,,0,easy,incomplete_origin,missing origin
+672,un billet pour dijon,,,0,easy,incomplete_origin,missing origin
+673,Direction Toulon ?,,,0,easy,incomplete_origin,missing origin
+674,Je me rends à Nice,,,0,easy,incomplete_origin,missing origin
+675,Destination Grenoble ?,,,0,easy,incomplete_origin,missing origin
+676,Je pars pour Toulouse,,,0,easy,incomplete_origin,missing origin
+677,Un billet pour Montpellier,,,0,easy,incomplete_origin,missing origin
+678,en direction de rennes ?,,,0,easy,incomplete_origin,missing origin
+679,Cap sur Dijon ?,,,0,easy,incomplete_origin,missing origin
+680,Je voudrais aller à Toulon,,,0,easy,incomplete_origin,missing origin
+681,Destination Paris,,,0,easy,incomplete_origin,missing origin
+682,Je souhaite me rendre à Montpellier,,,0,easy,incomplete_origin,missing origin
+683,En direction de Toulon ?,,,0,easy,incomplete_origin,missing origin
+684,Pour Nice,,,0,easy,incomplete_origin,missing origin
+685,Je souhaite me rendre à Nice ?,,,0,easy,incomplete_origin,missing origin
+686,vers toulouse,,,0,easy,incomplete_origin,missing origin
+687,Je dois aller à Nice,,,0,easy,incomplete_origin,missing origin
+688,Vers Nantes,,,0,easy,incomplete_origin,missing origin
+689,Direction Angers,,,0,easy,incomplete_origin,missing origin
+690,Je dois aller à Angers,,,0,easy,incomplete_origin,missing origin
+691,Vers Angers,,,0,easy,incomplete_origin,missing origin
+692,Je veux aller à Grenoble,,,0,easy,incomplete_origin,missing origin
+693,Comment aller à Bordeaux ?,,,0,easy,incomplete_origin,missing origin
+694,Un billet pour Paris,,,0,easy,incomplete_origin,missing origin
+695,Je veux aller à Toulouse,,,0,easy,incomplete_origin,missing origin
+696,Je voudrais aller à Strasbourg,,,0,easy,incomplete_origin,missing origin
+697,Je me rends à Montpellier ?,,,0,easy,incomplete_origin,missing origin
+698,je pars pour angers,,,0,easy,incomplete_origin,missing origin
+699,je veux aller à lille,,,0,easy,incomplete_origin,missing origin
+700,un billet pour grenoble,,,0,easy,incomplete_origin,missing origin
+701,pour lille,,,0,easy,incomplete_origin,missing origin
+702,Je pars pour Angers,,,0,easy,incomplete_origin,missing origin
+703,Vers Le Havre,,,0,easy,incomplete_origin,missing origin
+704,direction reims,,,0,easy,incomplete_origin,missing origin
+705,Direction Le Havre,,,0,easy,incomplete_origin,missing origin
+706,En direction de Le Havre,,,0,easy,incomplete_origin,missing origin
+707,J'aimerais visiter Le Havre ?,,,0,easy,incomplete_origin,missing origin
+708,Je souhaite me rendre à Toulouse,,,0,easy,incomplete_origin,missing origin
+709,Un billet pour Strasbourg ?,,,0,easy,incomplete_origin,missing origin
+710,je voudrais aller à le havre ?,,,0,easy,incomplete_origin,missing origin
+711,Vers Rennes ?,,,0,easy,incomplete_origin,missing origin
+712,Un billet pour Bordeaux,,,0,easy,incomplete_origin,missing origin
+713,Je pars pour Dijon,,,0,easy,incomplete_origin,missing origin
+714,Route pour Strasbourg,,,0,easy,incomplete_origin,missing origin
+715,En direction de Grenoble,,,0,easy,incomplete_origin,missing origin
+716,Direction Bordeaux,,,0,easy,incomplete_origin,missing origin
+717,Je vais à Paris,,,0,easy,incomplete_origin,missing origin
+718,route pour toulouse,,,0,easy,incomplete_origin,missing origin
+719,je dois aller à dijon,,,0,easy,incomplete_origin,missing origin
+720,Je veux aller à Lyon,,,0,easy,incomplete_origin,missing origin
+721,trajet vers nice,,,0,easy,incomplete_origin,missing origin
+722,Pour Angers ?,,,0,easy,incomplete_origin,missing origin
+723,En direction de Nice,,,0,easy,incomplete_origin,missing origin
+724,comment aller à toulon,,,0,easy,incomplete_origin,missing origin
+725,Trajet vers Rennes ?,,,0,easy,incomplete_origin,missing origin
+726,Je veux aller à Bordeaux,,,0,easy,incomplete_origin,missing origin
+727,Comment aller à Lyon,,,0,easy,incomplete_origin,missing origin
+728,Direction Marseille,,,0,easy,incomplete_origin,missing origin
+729,trajet vers nantes,,,0,easy,incomplete_origin,missing origin
+730,Je veux aller à Le Havre ?,,,0,easy,incomplete_origin,missing origin
+731,Vers Bordeaux,,,0,easy,incomplete_origin,missing origin
+732,Trajet vers Toulon,,,0,easy,incomplete_origin,missing origin
+733,Destination Nantes,,,0,easy,incomplete_origin,missing origin
+734,trajet vers rennes,,,0,easy,incomplete_origin,missing origin
+735,comment aller à toulouse ?,,,0,easy,incomplete_origin,missing origin
+736,à lille,,,0,easy,incomplete_origin,missing origin
+737,En direction de Rennes,,,0,easy,incomplete_origin,missing origin
+738,Vers Nice ?,,,0,easy,incomplete_origin,missing origin
+739,Je vais à Toulouse,,,0,easy,incomplete_origin,missing origin
+740,Pour Bordeaux ?,,,0,easy,incomplete_origin,missing origin
+741,Cap sur Nice,,,0,easy,incomplete_origin,missing origin
+742,vers reims,,,0,easy,incomplete_origin,missing origin
+743,Je vais à Reims,,,0,easy,incomplete_origin,missing origin
+744,Je me rends à Angers,,,0,easy,incomplete_origin,missing origin
+745,En direction de Reims,,,0,easy,incomplete_origin,missing origin
+746,à nantes,,,0,easy,incomplete_origin,missing origin
+747,Direction Strasbourg,,,0,easy,incomplete_origin,missing origin
+748,Je vais à Marseille,,,0,easy,incomplete_origin,missing origin
+749,je me rends à strasbourg,,,0,easy,incomplete_origin,missing origin
+750,je pars pour le havre,,,0,easy,incomplete_origin,missing origin
+751,Je dois aller à Bordeaux,,,0,easy,incomplete_origin,missing origin
+752,en direction de marseille,,,0,easy,incomplete_origin,missing origin
+753,Je dois aller à Grenoble,,,0,easy,incomplete_origin,missing origin
+754,Je veux aller à Nantes ?,,,0,easy,incomplete_origin,missing origin
+755,en direction de dijon,,,0,easy,incomplete_origin,missing origin
+756,Un billet pour Reims,,,0,easy,incomplete_origin,missing origin
+757,je voudrais aller à strasbourg,,,0,easy,incomplete_origin,missing origin
+758,je voudrais aller à reims,,,0,easy,incomplete_origin,missing origin
+759,Je dois aller à Grenoble ?,,,0,easy,incomplete_origin,missing origin
+760,Direction Nice ?,,,0,easy,incomplete_origin,missing origin
+761,je dois aller à lyon,,,0,easy,incomplete_origin,missing origin
+762,Destination Lyon,,,0,easy,incomplete_origin,missing origin
+763,Comment aller à Marseille,,,0,easy,incomplete_origin,missing origin
+764,Je souhaite me rendre à Marseille,,,0,easy,incomplete_origin,missing origin
+765,À Bordeaux,,,0,easy,incomplete_origin,missing origin
+766,en direction de toulouse,,,0,easy,incomplete_origin,missing origin
+767,Je veux aller à Le Havre,,,0,easy,incomplete_origin,missing origin
+768,je vais à nantes,,,0,easy,incomplete_origin,missing origin
+769,Un billet pour Toulouse,,,0,easy,incomplete_origin,missing origin
+770,Comment aller à Nantes,,,0,easy,incomplete_origin,missing origin
+771,Trajet vers Bordeaux ?,,,0,easy,incomplete_origin,missing origin
+772,Je vais à Lyon ?,,,0,easy,incomplete_origin,missing origin
+773,J'aimerais visiter Toulon ?,,,0,easy,incomplete_origin,missing origin
+774,un billet pour toulon,,,0,easy,incomplete_origin,missing origin
+775,Route pour Grenoble,,,0,easy,incomplete_origin,missing origin
+776,comment aller à paris,,,0,easy,incomplete_origin,missing origin
+777,Un billet pour Nice,,,0,easy,incomplete_origin,missing origin
+778,je viens de paris,,,0,easy,incomplete_dest,missing destination
+779,Mon départ est à Bordeaux ?,,,0,easy,incomplete_dest,missing destination
+780,Mon départ est à Toulon,,,0,easy,incomplete_dest,missing destination
+781,Situé à Lyon ?,,,0,easy,incomplete_dest,missing destination
+782,Je suis à Le Havre,,,0,easy,incomplete_dest,missing destination
+783,mon départ est à marseille ?,,,0,easy,incomplete_dest,missing destination
+784,Départ Paris,,,0,easy,incomplete_dest,missing destination
+785,Situé à Nantes,,,0,easy,incomplete_dest,missing destination
+786,Venant de Rennes,,,0,easy,incomplete_dest,missing destination
+787,venant de nice,,,0,easy,incomplete_dest,missing destination
+788,À partir de Reims,,,0,easy,incomplete_dest,missing destination
+789,Mon départ est à Strasbourg,,,0,easy,incomplete_dest,missing destination
+790,Départ Dijon,,,0,easy,incomplete_dest,missing destination
+791,Mon départ est à Lille,,,0,easy,incomplete_dest,missing destination
+792,Je suis à Dijon,,,0,easy,incomplete_dest,missing destination
+793,Départ Bordeaux,,,0,easy,incomplete_dest,missing destination
+794,De Nantes,,,0,easy,incomplete_dest,missing destination
+795,À partir de Toulouse,,,0,easy,incomplete_dest,missing destination
+796,je suis à reims,,,0,easy,incomplete_dest,missing destination
+797,Arrivant de Angers,,,0,easy,incomplete_dest,missing destination
+798,Situé à Lille,,,0,easy,incomplete_dest,missing destination
+799,je suis actuellement à nantes,,,0,easy,incomplete_dest,missing destination
+800,Je viens de Angers,,,0,easy,incomplete_dest,missing destination
+801,Je viens de Lyon ?,,,0,easy,incomplete_dest,missing destination
+802,Depuis Grenoble ?,,,0,easy,incomplete_dest,missing destination
+803,En partant de Nantes ?,,,0,easy,incomplete_dest,missing destination
+804,Je quitte Bordeaux,,,0,easy,incomplete_dest,missing destination
+805,mon départ est à montpellier,,,0,easy,incomplete_dest,missing destination
+806,je me trouve à toulon,,,0,easy,incomplete_dest,missing destination
+807,Je me trouve à Rennes,,,0,easy,incomplete_dest,missing destination
+808,Départ Toulon ?,,,0,easy,incomplete_dest,missing destination
+809,en provenance de le havre,,,0,easy,incomplete_dest,missing destination
+810,Origine Strasbourg ?,,,0,easy,incomplete_dest,missing destination
+811,à partir de marseille,,,0,easy,incomplete_dest,missing destination
+812,je me trouve à toulon ?,,,0,easy,incomplete_dest,missing destination
+813,Venant de Toulon,,,0,easy,incomplete_dest,missing destination
+814,origine nantes,,,0,easy,incomplete_dest,missing destination
+815,En partant de Dijon,,,0,easy,incomplete_dest,missing destination
+816,origine marseille,,,0,easy,incomplete_dest,missing destination
+817,Localisé à Lyon,,,0,easy,incomplete_dest,missing destination
+818,Situé à Rennes,,,0,easy,incomplete_dest,missing destination
+819,Je me trouve à Paris,,,0,easy,incomplete_dest,missing destination
+820,Je suis actuellement à Nice,,,0,easy,incomplete_dest,missing destination
+821,Je suis actuellement à Reims,,,0,easy,incomplete_dest,missing destination
+822,à partir de angers,,,0,easy,incomplete_dest,missing destination
+823,Je me trouve à Lille ?,,,0,easy,incomplete_dest,missing destination
+824,je me trouve à dijon,,,0,easy,incomplete_dest,missing destination
+825,À partir de Grenoble ?,,,0,easy,incomplete_dest,missing destination
+826,De Grenoble,,,0,easy,incomplete_dest,missing destination
+827,Départ Toulouse,,,0,easy,incomplete_dest,missing destination
+828,situé à rennes,,,0,easy,incomplete_dest,missing destination
+829,départ rennes ?,,,0,easy,incomplete_dest,missing destination
+830,Depuis Dijon,,,0,easy,incomplete_dest,missing destination
+831,À partir de Lille,,,0,easy,incomplete_dest,missing destination
+832,Venant de Toulon ?,,,0,easy,incomplete_dest,missing destination
+833,Depuis Nice,,,0,easy,incomplete_dest,missing destination
+834,je quitte paris,,,0,easy,incomplete_dest,missing destination
+835,Je pars de Toulouse,,,0,easy,incomplete_dest,missing destination
+836,Je me trouve à Toulon,,,0,easy,incomplete_dest,missing destination
+837,Je pars de Lille,,,0,easy,incomplete_dest,missing destination
+838,Je me trouve à Lille,,,0,easy,incomplete_dest,missing destination
+839,En partant de Le Havre ?,,,0,easy,incomplete_dest,missing destination
+840,Venant de Le Havre ?,,,0,easy,incomplete_dest,missing destination
+841,je quitte lille,,,0,easy,incomplete_dest,missing destination
+842,départ marseille,,,0,easy,incomplete_dest,missing destination
+843,Départ Angers ?,,,0,easy,incomplete_dest,missing destination
+844,En provenance de Montpellier,,,0,easy,incomplete_dest,missing destination
+845,Situé à Paris,,,0,easy,incomplete_dest,missing destination
+846,Je suis actuellement à Bordeaux,,,0,easy,incomplete_dest,missing destination
+847,Je suis à Bordeaux ?,,,0,easy,incomplete_dest,missing destination
+848,Départ Montpellier,,,0,easy,incomplete_dest,missing destination
+849,Je quitte Toulouse ?,,,0,easy,incomplete_dest,missing destination
+850,je quitte lyon ?,,,0,easy,incomplete_dest,missing destination
+851,En partant de Lille,,,0,easy,incomplete_dest,missing destination
+852,Je suis actuellement à Marseille,,,0,easy,incomplete_dest,missing destination
+853,Je suis actuellement à Montpellier,,,0,easy,incomplete_dest,missing destination
+854,venant de toulon,,,0,easy,incomplete_dest,missing destination
+855,Depuis Reims ?,,,0,easy,incomplete_dest,missing destination
+856,De Rennes,,,0,easy,incomplete_dest,missing destination
+857,au départ de dijon ?,,,0,easy,incomplete_dest,missing destination
+858,Je pars de Strasbourg,,,0,easy,incomplete_dest,missing destination
+859,Arrivant de Strasbourg,,,0,easy,incomplete_dest,missing destination
+860,Je suis actuellement à Montpellier ?,,,0,easy,incomplete_dest,missing destination
+861,en partant de marseille,,,0,easy,incomplete_dest,missing destination
+862,mon départ est à strasbourg,,,0,easy,incomplete_dest,missing destination
+863,Je pars de Montpellier ?,,,0,easy,incomplete_dest,missing destination
+864,En partant de Nice,,,0,easy,incomplete_dest,missing destination
+865,basé à lille,,,0,easy,incomplete_dest,missing destination
+866,Venant de Lyon,,,0,easy,incomplete_dest,missing destination
+867,Arrivant de Grenoble,,,0,easy,incomplete_dest,missing destination
+868,Au départ de Toulon,,,0,easy,incomplete_dest,missing destination
+869,Départ Nice,,,0,easy,incomplete_dest,missing destination
+870,en partant de le havre,,,0,easy,incomplete_dest,missing destination
+871,arrivant de lyon,,,0,easy,incomplete_dest,missing destination
+872,Je viens de Rennes,,,0,easy,incomplete_dest,missing destination
+873,Situé à Toulouse,,,0,easy,incomplete_dest,missing destination
+874,je quitte bordeaux,,,0,easy,incomplete_dest,missing destination
+875,à partir de bordeaux,,,0,easy,incomplete_dest,missing destination
+876,Je suis actuellement à Strasbourg,,,0,easy,incomplete_dest,missing destination
+877,Je suis à Marseille,,,0,easy,incomplete_dest,missing destination
+878,Mon départ est à Grenoble,,,0,easy,incomplete_dest,missing destination
+879,depuis toulon,,,0,easy,incomplete_dest,missing destination
+880,Depuis Lille,,,0,easy,incomplete_dest,missing destination
+881,Je viens de Grenoble,,,0,easy,incomplete_dest,missing destination
+882,Origine Paris,,,0,easy,incomplete_dest,missing destination
+883,Mon départ est à Lille ?,,,0,easy,incomplete_dest,missing destination
+884,je viens de strasbourg,,,0,easy,incomplete_dest,missing destination
+885,basé à le havre,,,0,easy,incomplete_dest,missing destination
+886,je quitte dijon ?,,,0,easy,incomplete_dest,missing destination
+887,Je quitte Dijon,,,0,easy,incomplete_dest,missing destination
+888,En partant de Le Havre,,,0,easy,incomplete_dest,missing destination
+889,Arrivant de Le Havre,,,0,easy,incomplete_dest,missing destination
+890,Je quitte Paris ?,,,0,easy,incomplete_dest,missing destination
+891,je viens de grenoble,,,0,easy,incomplete_dest,missing destination
+892,Mon départ est à Toulouse ?,,,0,easy,incomplete_dest,missing destination
+893,En partant de Toulouse,,,0,easy,incomplete_dest,missing destination
+894,Je viens de Nice,,,0,easy,incomplete_dest,missing destination
+895,départ strasbourg ?,,,0,easy,incomplete_dest,missing destination
+896,En provenance de Bordeaux,,,0,easy,incomplete_dest,missing destination
+897,je suis actuellement à grenoble ?,,,0,easy,incomplete_dest,missing destination
+898,départ nice,,,0,easy,incomplete_dest,missing destination
+899,Je suis à Rennes,,,0,easy,incomplete_dest,missing destination
+900,À partir de Lyon,,,0,easy,incomplete_dest,missing destination
+901,Au départ de Lille,,,0,easy,incomplete_dest,missing destination
+902,Situé à Bordeaux,,,0,easy,incomplete_dest,missing destination
+903,Basé à Marseille ?,,,0,easy,incomplete_dest,missing destination
+904,Arrivant de Toulon,,,0,easy,incomplete_dest,missing destination
+905,Depuis Le Havre,,,0,easy,incomplete_dest,missing destination
+906,Je quitte Angers ?,,,0,easy,incomplete_dest,missing destination
+907,Origine Strasbourg,,,0,easy,incomplete_dest,missing destination
+908,depuis montpellier,,,0,easy,incomplete_dest,missing destination
+909,Mon départ est à Paris ?,,,0,easy,incomplete_dest,missing destination
+910,Arrivant de Dijon,,,0,easy,incomplete_dest,missing destination
+911,je pars de rennes,,,0,easy,incomplete_dest,missing destination
+912,Je me trouve à Reims,,,0,easy,incomplete_dest,missing destination
+913,Depuis Toulouse,,,0,easy,incomplete_dest,missing destination
+914,Localisé à Nantes,,,0,easy,incomplete_dest,missing destination
+915,Départ Nantes,,,0,easy,incomplete_dest,missing destination
+916,basé à nantes,,,0,easy,incomplete_dest,missing destination
+917,Arrivant de Nantes,,,0,easy,incomplete_dest,missing destination
+918,De Angers,,,0,easy,incomplete_dest,missing destination
+919,Je pars de Dijon,,,0,easy,incomplete_dest,missing destination
+920,de rennes,,,0,easy,incomplete_dest,missing destination
+921,À partir de Angers,,,0,easy,incomplete_dest,missing destination
+922,je viens de toulon,,,0,easy,incomplete_dest,missing destination
+923,situé à lille,,,0,easy,incomplete_dest,missing destination
+924,Venant de Toulouse,,,0,easy,incomplete_dest,missing destination
+925,en provenance de lille,,,0,easy,incomplete_dest,missing destination
+926,Je suis actuellement à Angers,,,0,easy,incomplete_dest,missing destination
+927,Venant de Nantes,,,0,easy,incomplete_dest,missing destination
+928,origine le havre,,,0,easy,incomplete_dest,missing destination
+929,Je suis actuellement à Paris,,,0,easy,incomplete_dest,missing destination
+930,Arrivant de Bordeaux,,,0,easy,incomplete_dest,missing destination
+931,Mon départ est à Nantes,,,0,easy,incomplete_dest,missing destination
+932,Localisé à Montpellier,,,0,easy,incomplete_dest,missing destination
+933,Arrivant de Reims,,,0,easy,incomplete_dest,missing destination
+934,Depuis Bordeaux,,,0,easy,incomplete_dest,missing destination
+935,de toulon,,,0,easy,incomplete_dest,missing destination
+936,je pars de bordeaux,,,0,easy,incomplete_dest,missing destination
+937,Départ Marseille,,,0,easy,incomplete_dest,missing destination
+938,Je suis actuellement à Le Havre,,,0,easy,incomplete_dest,missing destination
+939,Je viens de Paris,,,0,easy,incomplete_dest,missing destination
+940,situé à nice ?,,,0,easy,incomplete_dest,missing destination
+941,Je viens de Nantes,,,0,easy,incomplete_dest,missing destination
+942,Basé à Bordeaux,,,0,easy,incomplete_dest,missing destination
+943,Au départ de Nantes,,,0,easy,incomplete_dest,missing destination
+944,je me trouve à toulouse,,,0,easy,incomplete_dest,missing destination
+945,Arrivant de Toulon ?,,,0,easy,incomplete_dest,missing destination
+946,mon départ est à dijon,,,0,easy,incomplete_dest,missing destination
+947,De Lyon,,,0,easy,incomplete_dest,missing destination
+948,localisé à toulouse,,,0,easy,incomplete_dest,missing destination
+949,Je me trouve à Nice,,,0,easy,incomplete_dest,missing destination
+950,je me trouve à marseille,,,0,easy,incomplete_dest,missing destination
+951,En provenance de Lille ?,,,0,easy,incomplete_dest,missing destination
+952,Situé à Nice,,,0,easy,incomplete_dest,missing destination
+953,À partir de Dijon ?,,,0,easy,incomplete_dest,missing destination
+954,Je suis actuellement à Grenoble,,,0,easy,incomplete_dest,missing destination
+955,à partir de grenoble,,,0,easy,incomplete_dest,missing destination
+956,Je viens de Toulon,,,0,easy,incomplete_dest,missing destination
+957,arrivant de nantes,,,0,easy,incomplete_dest,missing destination
+958,je pars de montpellier ?,,,0,easy,incomplete_dest,missing destination
+959,basé à paris ?,,,0,easy,incomplete_dest,missing destination
+960,De Marseille,,,0,easy,incomplete_dest,missing destination
+961,situé à paris,,,0,easy,incomplete_dest,missing destination
+962,Depuis Paris,,,0,easy,incomplete_dest,missing destination
+963,Origine Nantes,,,0,easy,incomplete_dest,missing destination
+964,je me trouve à strasbourg,,,0,easy,incomplete_dest,missing destination
+965,mon départ est à paris,,,0,easy,incomplete_dest,missing destination
+966,Depuis Bordeaux ?,,,0,easy,incomplete_dest,missing destination
+967,venant de toulouse ?,,,0,easy,incomplete_dest,missing destination
+968,Depuis Lyon,,,0,easy,incomplete_dest,missing destination
+969,départ strasbourg,,,0,easy,incomplete_dest,missing destination
+970,Je suis à Reims,,,0,easy,incomplete_dest,missing destination
+971,depuis toulouse,,,0,easy,incomplete_dest,missing destination
+972,Localisé à Paris,,,0,easy,incomplete_dest,missing destination
+973,En partant de Grenoble,,,0,easy,incomplete_dest,missing destination
+974,je quitte rennes,,,0,easy,incomplete_dest,missing destination
+975,En provenance de Marseille,,,0,easy,incomplete_dest,missing destination
+976,je suis actuellement à dijon,,,0,easy,incomplete_dest,missing destination
+977,de lille,,,0,easy,incomplete_dest,missing destination
+978,Mon départ est à Montpellier,,,0,easy,incomplete_dest,missing destination
+979,venant de montpellier,,,0,easy,incomplete_dest,missing destination
+980,Venant de Reims,,,0,easy,incomplete_dest,missing destination
+981,Je pars de Dijon ?,,,0,easy,incomplete_dest,missing destination
+982,De Nice,,,0,easy,incomplete_dest,missing destination
+983,je quitte reims ?,,,0,easy,incomplete_dest,missing destination
+984,origine lille,,,0,easy,incomplete_dest,missing destination
+985,Je quitte Nice,,,0,easy,incomplete_dest,missing destination
+986,Mon départ est à Toulouse,,,0,easy,incomplete_dest,missing destination
+987,Localisé à Reims,,,0,easy,incomplete_dest,missing destination
+988,arrivant de nice,,,0,easy,incomplete_dest,missing destination
+989,Depuis Marseille,,,0,easy,incomplete_dest,missing destination
+990,départ dijon,,,0,easy,incomplete_dest,missing destination
+991,Venant de Reims ?,,,0,easy,incomplete_dest,missing destination
+992,Au départ de Nantes ?,,,0,easy,incomplete_dest,missing destination
+993,au départ de strasbourg,,,0,easy,incomplete_dest,missing destination
+994,Je pars de Paris,,,0,easy,incomplete_dest,missing destination
+995,À partir de Marseille ?,,,0,easy,incomplete_dest,missing destination
+996,Je pars de Bordeaux,,,0,easy,incomplete_dest,missing destination
+997,De Dijon ?,,,0,easy,incomplete_dest,missing destination
+998,Depuis Strasbourg,,,0,easy,incomplete_dest,missing destination
+999,je suis actuellement à lyon,,,0,easy,incomplete_dest,missing destination
+1000,depuis grenoble,,,0,easy,incomplete_dest,missing destination
+1001,je suis à angers ?,,,0,easy,incomplete_dest,missing destination
+1002,Je quitte Dijon ?,,,0,easy,incomplete_dest,missing destination
+1003,Venant de Strasbourg,,,0,easy,incomplete_dest,missing destination
+1004,je suis actuellement à reims,,,0,easy,incomplete_dest,missing destination
+1005,Situé à Rennes ?,,,0,easy,incomplete_dest,missing destination
+1006,Situé à Le Havre,,,0,easy,incomplete_dest,missing destination
+1007,Depuis Angers ?,,,0,easy,incomplete_dest,missing destination
+1008,je me trouve à grenoble,,,0,easy,incomplete_dest,missing destination
+1009,Je viens de Toulouse,,,0,easy,incomplete_dest,missing destination
+1010,depuis paris ?,,,0,easy,incomplete_dest,missing destination
+1011,à partir de toulon,,,0,easy,incomplete_dest,missing destination
+1012,de reims,,,0,easy,incomplete_dest,missing destination
+1013,Je viens de Marseille,,,0,easy,incomplete_dest,missing destination
+1014,je viens de montpellier,,,0,easy,incomplete_dest,missing destination
+1015,Basé à Lille,,,0,easy,incomplete_dest,missing destination
+1016,je quitte strasbourg,,,0,easy,incomplete_dest,missing destination
+1017,Je suis à Nantes,,,0,easy,incomplete_dest,missing destination
+1018,je pars de dijon,,,0,easy,incomplete_dest,missing destination
+1019,Origine Marseille,,,0,easy,incomplete_dest,missing destination
+1020,Au départ de Reims,,,0,easy,incomplete_dest,missing destination
+1021,Je viens de Grenoble ?,,,0,easy,incomplete_dest,missing destination
+1022,De Le Havre,,,0,easy,incomplete_dest,missing destination
+1023,Basé à Toulon,,,0,easy,incomplete_dest,missing destination
+1024,arrivant de angers,,,0,easy,incomplete_dest,missing destination
+1025,à partir de dijon ?,,,0,easy,incomplete_dest,missing destination
+1026,Au départ de Angers,,,0,easy,incomplete_dest,missing destination
+1027,Je pars de Rennes ?,,,0,easy,incomplete_dest,missing destination
+1028,je viens de le havre,,,0,easy,incomplete_dest,missing destination
+1029,Je suis actuellement à Toulon ?,,,0,easy,incomplete_dest,missing destination
+1030,Venant de Lille ?,,,0,easy,incomplete_dest,missing destination
+1031,Je suis actuellement à Paris ?,,,0,easy,incomplete_dest,missing destination
+1032,Je quitte Toulon,,,0,easy,incomplete_dest,missing destination
+1033,En partant de Bordeaux,,,0,easy,incomplete_dest,missing destination
+1034,De Bordeaux ?,,,0,easy,incomplete_dest,missing destination
+1035,de toulouse,,,0,easy,incomplete_dest,missing destination
+1036,depuis nantes ?,,,0,easy,incomplete_dest,missing destination
+1037,De Toulouse,,,0,easy,incomplete_dest,missing destination
+1038,À partir de Nantes,,,0,easy,incomplete_dest,missing destination
+1039,Je me trouve à Nantes,,,0,easy,incomplete_dest,missing destination
+1040,Venant de Montpellier,,,0,easy,incomplete_dest,missing destination
+1041,mon départ est à bordeaux,,,0,easy,incomplete_dest,missing destination
+1042,Je me trouve à Bordeaux,,,0,easy,incomplete_dest,missing destination
+1043,je me trouve à reims ?,,,0,easy,incomplete_dest,missing destination
+1044,Je quitte Toulouse,,,0,easy,incomplete_dest,missing destination
+1045,Je quitte Grenoble,,,0,easy,incomplete_dest,missing destination
+1046,Au départ de Strasbourg,,,0,easy,incomplete_dest,missing destination
+1047,Au départ de Marseille,,,0,easy,incomplete_dest,missing destination
+1048,Je viens de Nantes ?,,,0,easy,incomplete_dest,missing destination
+1049,situé à dijon,,,0,easy,incomplete_dest,missing destination
+1050,Départ Montpellier ?,,,0,easy,incomplete_dest,missing destination
+1051,à partir de rennes,,,0,easy,incomplete_dest,missing destination
+1052,Je pars de Reims,,,0,easy,incomplete_dest,missing destination
+1053,Localisé à Bordeaux,,,0,easy,incomplete_dest,missing destination
+1054,Je me trouve à Marseille,,,0,easy,incomplete_dest,missing destination
+1055,Depuis Rennes,,,0,easy,incomplete_dest,missing destination
+1056,je pars de reims,,,0,easy,incomplete_dest,missing destination
+1057,Je suis à Marseille ?,,,0,easy,incomplete_dest,missing destination
+1058,en provenance de reims,,,0,easy,incomplete_dest,missing destination
+1059,basé à rennes,,,0,easy,incomplete_dest,missing destination
+1060,je quitte le havre,,,0,easy,incomplete_dest,missing destination
+1061,Je viens de Le Havre ?,,,0,easy,incomplete_dest,missing destination
+1062,Je me trouve à Bordeaux ?,,,0,easy,incomplete_dest,missing destination
+1063,venant de grenoble ?,,,0,easy,incomplete_dest,missing destination
+1064,Départ Strasbourg,,,0,easy,incomplete_dest,missing destination
+1065,origine paris,,,0,easy,incomplete_dest,missing destination
+1066,En provenance de Rennes,,,0,easy,incomplete_dest,missing destination
+1067,De Lille,,,0,easy,incomplete_dest,missing destination
+1068,je suis actuellement à lyon ?,,,0,easy,incomplete_dest,missing destination
+1069,De Paris ?,,,0,easy,incomplete_dest,missing destination
+1070,En provenance de Lille,,,0,easy,incomplete_dest,missing destination
+1071,situé à bordeaux,,,0,easy,incomplete_dest,missing destination
+1072,au départ de toulon,,,0,easy,incomplete_dest,missing destination
+1073,En provenance de Angers ?,,,0,easy,incomplete_dest,missing destination
+1074,Venant de Lyon ?,,,0,easy,incomplete_dest,missing destination
+1075,je quitte marseille ?,,,0,easy,incomplete_dest,missing destination
+1076,je quitte montpellier ?,,,0,easy,incomplete_dest,missing destination
+1077,À partir de Le Havre ?,,,0,easy,incomplete_dest,missing destination
+1078,Départ Lille,,,0,easy,incomplete_dest,missing destination
+1079,venant de angers,,,0,easy,incomplete_dest,missing destination
+1080,Je suis à Strasbourg,,,0,easy,incomplete_dest,missing destination
+1081,mon départ est à reims,,,0,easy,incomplete_dest,missing destination
+1082,au départ de nice,,,0,easy,incomplete_dest,missing destination
+1083,Je quitte Lille ?,,,0,easy,incomplete_dest,missing destination
+1084,départ lille,,,0,easy,incomplete_dest,missing destination
+1085,je quitte nantes,,,0,easy,incomplete_dest,missing destination
+1086,Je pars de Nice ?,,,0,easy,incomplete_dest,missing destination
+1087,en partant de montpellier,,,0,easy,incomplete_dest,missing destination
+1088,Je pars de Le Havre ?,,,0,easy,incomplete_dest,missing destination
+1089,je quitte lyon,,,0,easy,incomplete_dest,missing destination
+1090,Situé à Strasbourg,,,0,easy,incomplete_dest,missing destination
+1091,mon départ est à lille,,,0,easy,incomplete_dest,missing destination
+1092,Basé à Marseille,,,0,easy,incomplete_dest,missing destination
+1093,Je suis actuellement à Dijon ?,,,0,easy,incomplete_dest,missing destination
+1094,Depuis Grenoble,,,0,easy,incomplete_dest,missing destination
+1095,Je quitte Nice ?,,,0,easy,incomplete_dest,missing destination
+1096,Situé à Lyon,,,0,easy,incomplete_dest,missing destination
+1097,Mon départ est à Angers,,,0,easy,incomplete_dest,missing destination
+1098,Je viens de Bordeaux ?,,,0,easy,incomplete_dest,missing destination
+1099,je me trouve à lyon,,,0,easy,incomplete_dest,missing destination
+1100,Départ Rennes,,,0,easy,incomplete_dest,missing destination
+1101,En partant de Reims,,,0,easy,incomplete_dest,missing destination
+1102,Je suis à Paris,,,0,easy,incomplete_dest,missing destination
+1103,Basé à Montpellier,,,0,easy,incomplete_dest,missing destination
+1104,arrivant de marseille,,,0,easy,incomplete_dest,missing destination
+1105,Arrivant de Paris,,,0,easy,incomplete_dest,missing destination
+1106,Venant de Nice,,,0,easy,incomplete_dest,missing destination
+1107,Un aller-retour,,,0,easy,incomplete_grammar,grammatically incomplete
+1108,un train pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1109,Je veux aller ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1110,Y a-t-il un train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1111,je pars demain de,,,0,easy,incomplete_grammar,grammatically incomplete
+1112,un aller-retour,,,0,easy,incomplete_grammar,grammatically incomplete
+1113,Y a-t-il un train,,,0,easy,incomplete_grammar,grammatically incomplete
+1114,Horaire de train,,,0,easy,incomplete_grammar,grammatically incomplete
+1115,Je veux réserver,,,0,easy,incomplete_grammar,grammatically incomplete
+1116,je voudrais un billet de ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1117,Je voudrais un billet de ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1118,Comment aller à,,,0,easy,incomplete_grammar,grammatically incomplete
+1119,comment se rendre,,,0,easy,incomplete_grammar,grammatically incomplete
+1120,Réservation pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1121,Je cherche un train,,,0,easy,incomplete_grammar,grammatically incomplete
+1122,Je pars demain de ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1123,train vers,,,0,easy,incomplete_grammar,grammatically incomplete
+1124,combien coûte un billet,,,0,easy,incomplete_grammar,grammatically incomplete
+1125,à quelle heure part,,,0,easy,incomplete_grammar,grammatically incomplete
+1126,Un train pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1127,Train vers,,,0,easy,incomplete_grammar,grammatically incomplete
+1128,Je veux aller,,,0,easy,incomplete_grammar,grammatically incomplete
+1129,À quelle heure part ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1130,je souhaite me rendre,,,0,easy,incomplete_grammar,grammatically incomplete
+1131,je veux réserver,,,0,easy,incomplete_grammar,grammatically incomplete
+1132,je veux aller,,,0,easy,incomplete_grammar,grammatically incomplete
+1133,Direction ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1134,je voudrais un billet de,,,0,easy,incomplete_grammar,grammatically incomplete
+1135,Comment se rendre,,,0,easy,incomplete_grammar,grammatically incomplete
+1136,Un aller-retour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1137,Je cherche un train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1138,y a-t-il un train,,,0,easy,incomplete_grammar,grammatically incomplete
+1139,billet pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1140,réservation pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1141,horaire de train,,,0,easy,incomplete_grammar,grammatically incomplete
+1142,direction,,,0,easy,incomplete_grammar,grammatically incomplete
+1143,Billet pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1144,un aller simple,,,0,easy,incomplete_grammar,grammatically incomplete
+1145,Je souhaite me rendre ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1146,train vers ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1147,comment aller à,,,0,easy,incomplete_grammar,grammatically incomplete
+1148,Je voudrais un billet de,,,0,easy,incomplete_grammar,grammatically incomplete
+1149,Direction,,,0,easy,incomplete_grammar,grammatically incomplete
+1150,un aller-retour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1151,Réservation pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1152,je cherche un train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1153,Billet pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1154,un aller simple ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1155,Quel est le prix pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1156,un train pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1157,je cherche un train,,,0,easy,incomplete_grammar,grammatically incomplete
+1158,Je pars demain de,,,0,easy,incomplete_grammar,grammatically incomplete
+1159,réservation pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1160,combien coûte un billet ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1161,Je veux réserver ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1162,Combien coûte un billet,,,0,easy,incomplete_grammar,grammatically incomplete
+1163,je pars demain de ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1164,quel est le prix pour,,,0,easy,incomplete_grammar,grammatically incomplete
+1165,Un train pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1166,y a-t-il un train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1167,Comment se rendre ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1168,comment se rendre ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1169,Comment aller à ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1170,comment aller à ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1171,Train vers ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1172,À quelle heure part,,,0,easy,incomplete_grammar,grammatically incomplete
+1173,horaire de train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1174,Horaire de train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1175,qajijyjo wef morunu,,,0,easy,garbage,random text
+1176,selenemu cehe hylopak zenyhyd,,,0,easy,garbage,random text
+1177,vaxolo teke,,,0,easy,garbage,random text
+1178,texijanocu feqyqe tokyraqov deluvig,,,0,easy,garbage,random text
+1179,sozawofej pucusuv hutig kyb sud,,,0,easy,garbage,random text
+1180,wowev farogy tutux,,,0,easy,garbage,random text
+1181,cofaja nuc juhapel lemudovypo,,,0,easy,garbage,random text
+1182,navyxewe kexezy licecaq vyq kivodoby,,,0,easy,garbage,random text
+1183,xymisagoka dudamiralo,,,0,easy,garbage,random text
+1184,wyxig fixusygoko nacomylylu qobobydem,,,0,easy,garbage,random text
+1185,bugojexave teratuh xenu hilyqi,,,0,easy,garbage,random text
+1186,jakyli jose dijimaco,,,0,easy,garbage,random text
+1187,dusihow jykumaku,,,0,easy,garbage,random text
+1188,hyqidebyc bumute goqopic qylamyh,,,0,easy,garbage,random text
+1189,qihaxoka qusoti,,,0,easy,garbage,random text
+1190,sat sin,,,0,easy,garbage,random text
+1191,zisicuf qyxemy rogopycive ruce,,,0,easy,garbage,random text
+1192,sacumunov jaqe qosykome,,,0,easy,garbage,random text
+1193,lukyqab jyfalu,,,0,easy,garbage,random text
+1194,sanocakiqa wybywihom,,,0,easy,garbage,random text
+1195,gidyp hymo kolykusy dowomireta bexuqabegi,,,0,easy,garbage,random text
+1196,coqavezo birufov zypefoj,,,0,easy,garbage,random text
+1197,depevox dej nedegy lyna bodabe,,,0,easy,garbage,random text
+1198,zikyveq vonudidypo myvylife josu,,,0,easy,garbage,random text
+1199,tufel xuj xucu,,,0,easy,garbage,random text
+1200,cecuha riz xasydis,,,0,easy,garbage,random text
+1201,noperuset seteda pofyn dasememuc,,,0,easy,garbage,random text
+1202,johi milowe,,,0,easy,garbage,random text
+1203,mucex dibace bydudi,,,0,easy,garbage,random text
+1204,ciw kacaduvow minedavo tec kumusozusy,,,0,easy,garbage,random text
+1205,sary val pymohag gorywija zoxydeki,,,0,easy,garbage,random text
+1206,lol dyzyveh,,,0,easy,garbage,random text
+1207,qez dawiz,,,0,easy,garbage,random text
+1208,zijytapus sibe furup,,,0,easy,garbage,random text
+1209,qane qix viruhipov vihydosaso,,,0,easy,garbage,random text
+1210,wumejyv gupibe wew fajuf wezomepo,,,0,easy,garbage,random text
+1211,vetuw nozehi,,,0,easy,garbage,random text
+1212,xibesywo bewi,,,0,easy,garbage,random text
+1213,fapaqekara zirosakyp rewoli,,,0,easy,garbage,random text
+1214,nexe lofe pepehitigi qaseqinyq,,,0,easy,garbage,random text
+1215,calehucubo miqilico vix velyt dyt,,,0,easy,garbage,random text
+1216,cyb hekozem,,,0,easy,garbage,random text
+1217,jycyqole huxahoty wofys god,,,0,easy,garbage,random text
+1218,molehykory toky,,,0,easy,garbage,random text
+1219,kuw doxy nag kurupuqed ziji,,,0,easy,garbage,random text
+1220,kujexegofu diza,,,0,easy,garbage,random text
+1221,hocesiq qaxubiqo junoqyxuhy lykul,,,0,easy,garbage,random text
+1222,voca puzuhacaka zekutoly himahupe zeta,,,0,easy,garbage,random text
+1223,resunivi xadujof,,,0,easy,garbage,random text
+1224,jegavyvyf sesyfub fimokegeno hedysihywe,,,0,easy,garbage,random text
+1225,xagidyv weriw zevysiji qagimehuge,,,0,easy,garbage,random text
+1226,vogyvux qutypoga hikut sofup famalop,,,0,easy,garbage,random text
+1227,kydozyb tijyve harom ragomefid jac,,,0,easy,garbage,random text
+1228,kyj vukycy,,,0,easy,garbage,random text
+1229,fafav josopyro horisyga qipucy,,,0,easy,garbage,random text
+1230,keqadix sap lah kawolefu,,,0,easy,garbage,random text
+1231,hyxygeco dibibi wab bovu,,,0,easy,garbage,random text
+1232,goxuvy vekoteky,,,0,easy,garbage,random text
+1233,pajumud damotetyc bixesoj nype,,,0,easy,garbage,random text
+1234,qac kijax,,,0,easy,garbage,random text
+1235,sasypejytu qurij vijakixo,,,0,easy,garbage,random text
+1236,walihu syqehujil wuzy quzaryj zawite,,,0,easy,garbage,random text
+1237,samuhatek jaz pal,,,0,easy,garbage,random text
+1238,neraxuf juhyzuz,,,0,easy,garbage,random text
+1239,rynu bosykohole,,,0,easy,garbage,random text
+1240,xetocug giw lyfutalo buciho,,,0,easy,garbage,random text
+1241,qajuby moge,,,0,easy,garbage,random text
+1242,nufaheme naty gyqobena togovaxale,,,0,easy,garbage,random text
+1243,xexi siwe xavufav taluh dobelu,,,0,easy,garbage,random text
+1244,pyqyhe curas qavaxu gyjyxycys bemo,,,0,easy,garbage,random text
+1245,hud duc gufipyf cyteke,,,0,easy,garbage,random text
+1246,kypihofut qomotazo,,,0,easy,garbage,random text
+1247,more ryhameca vazyqusyle,,,0,easy,garbage,random text
+1248,tixe valisyh kuny,,,0,easy,garbage,random text
+1249,qiveda vatipaq,,,0,easy,garbage,random text
+1250,zufohun xelo zeqafo xulopyp,,,0,easy,garbage,random text
+1251,foqub jizugu qew pakofa qig,,,0,easy,garbage,random text
+1252,kymemen fufo bubijeb,,,0,easy,garbage,random text
+1253,wyfevumi corodopi xijekekiz,,,0,easy,garbage,random text
+1254,zux pimuqub potij dodamax,,,0,easy,garbage,random text
+1255,bece mapavoci,,,0,easy,garbage,random text
+1256,pysacel dowuwix nuc,,,0,easy,garbage,random text
+1257,fyquvuh cyfa lubowygy jolamis havi,,,0,easy,garbage,random text
+1258,hykilyqir vizodiluca,,,0,easy,garbage,random text
+1259,dekeme wubu timulas nezu,,,0,easy,garbage,random text
+1260,qimi bohoqo qiketavo jylorum,,,0,easy,garbage,random text
+1261,quwu wuvetibep,,,0,easy,garbage,random text
+1262,xonutacen mubabe,,,0,easy,garbage,random text
+1263,teh muzow hejyvino lefekocyxa,,,0,easy,garbage,random text
+1264,tapivac paw ficot soleweg,,,0,easy,garbage,random text
+1265,zazevi cav,,,0,easy,garbage,random text
+1266,nibemutawy zunip nywuhicuwu judapek,,,0,easy,garbage,random text
+1267,hibu cihozi,,,0,easy,garbage,random text
+1268,nogu fono,,,0,easy,garbage,random text
+1269,jaqire foco zol sarufepoq,,,0,easy,garbage,random text
+1270,bowa kegyhesi cysecodyr,,,0,easy,garbage,random text
+1271,fukos nixurig tac duhadusowi,,,0,easy,garbage,random text
+1272,syw zemufuw tykehuzeg,,,0,easy,garbage,random text
+1273,kewoxevejo xezex pyqi,,,0,easy,garbage,random text
+1274,fetyq nyresybi,,,0,easy,garbage,random text
+1275,jybotisyka renovoh fywyj wahuba wubuqifo,,,0,easy,garbage,random text
+1276,juhylabovu xigavik zozox,,,0,easy,garbage,random text
+1277,qyga lelalo,,,0,easy,garbage,random text
+1278,bohalelo medotirer pikawehese,,,0,easy,garbage,random text
+1279,tirefavup magyl ryc miv,,,0,easy,garbage,random text
+1280,foseba fuhojaro patesalix bolegy mawequ,,,0,easy,garbage,random text
+1281,coju jadatak,,,0,easy,garbage,random text
+1282,gaxebikus fyqukyp zutek,,,0,easy,garbage,random text
+1283,xaholela rupuq civynu,,,0,easy,garbage,random text
+1284,larufapaq kafi,,,0,easy,garbage,random text
+1285,kolupeli zaf sajiv quxupaqi,,,0,easy,garbage,random text
+1286,fena sar,,,0,easy,garbage,random text
+1287,lide suqow wybu,,,0,easy,garbage,random text
+1288,movo sow tym,,,0,easy,garbage,random text
+1289,lysysiwedy zepyfelyre qalyhyxu nahubom kymeju,,,0,easy,garbage,random text
+1290,ciso zineki tokolebem lyxuwucusi,,,0,easy,garbage,random text
+1291,gagy poharykima jod wugise,,,0,easy,garbage,random text
+1292,xozu fini lehifo vubufoduly tipaguriq,,,0,easy,garbage,random text
+1293,kabomy wixamiguwo bezegapely,,,0,easy,garbage,random text
+1294,dybahobamy xytehox,,,0,easy,garbage,random text
+1295,jobir xomylag xefepin jaqi,,,0,easy,garbage,random text
+1296,nuqyja vekocanul,,,0,easy,garbage,random text
+1297,zoto ruho xixi zacykaj dosycoty,,,0,easy,garbage,random text
+1298,jeci qojebi,,,0,easy,garbage,random text
+1299,taz giniryqe,,,0,easy,garbage,random text
+1300,cac qizyxokes sitib rehije,,,0,easy,garbage,random text
+1301,ceqawun sitiqyhy,,,0,easy,garbage,random text
+1302,bomakozoga qih,,,0,easy,garbage,random text
+1303,guf borib welo gebyri wuzofaj,,,0,easy,garbage,random text
+1304,xypuheg gositi wyqyw jowohawor,,,0,easy,garbage,random text
+1305,liqyrug mecycuhes,,,0,easy,garbage,random text
+1306,vaco cegyr mile forofoloka,,,0,easy,garbage,random text
+1307,qicu piku,,,0,easy,garbage,random text
+1308,ditatur rejanekemu,,,0,easy,garbage,random text
+1309,pehihuf jehydimide kowasut hyr jezi,,,0,easy,garbage,random text
+1310,gagefi kuparexebe syhaj kyzyrory,,,0,easy,garbage,random text
+1311,ryfyral harytucumu jizoze huryki qacax,,,0,easy,garbage,random text
+1312,jofyko fecyjyqexu dej,,,0,easy,garbage,random text
+1313,sexojom hodewy wamikek gokasoke sibi,,,0,easy,garbage,random text
+1314,sogawyfe hije muzyg xysobulusy japidytes,,,0,easy,garbage,random text
+1315,fumusugemo fuvygyj kaxomoziq,,,0,easy,garbage,random text
+1316,cyt jota fago,,,0,easy,garbage,random text
+1317,fovywomafa myrawyban qawuwonuxu wehut miqy,,,0,easy,garbage,random text
+1318,lyki mafavy,,,0,easy,garbage,random text
+1319,badaduvilo buhufahely neguqora savepyb,,,0,easy,garbage,random text
+1320,bezacaqef derymydur gukypesaw vekyde,,,0,easy,garbage,random text
+1321,wyquhe cyqujyfu kipowyfa,,,0,easy,garbage,random text
+1322,zuh xiqufozoda,,,0,easy,garbage,random text
+1323,tamehaw debuxivu nukuxepi paweweb rodevakeha,,,0,easy,garbage,random text
+1324,qyvynyjo tijo jofaxahiw qad guzemuz,,,0,easy,garbage,random text
+1325,baleine framboise uniforme baleine nougat,,,0,easy,garbage,nonsense words
+1326,cactus kayak escalier miroir papillon,,,0,easy,garbage,nonsense words
+1327,lampe cactus requin escalier escalier miroir,,,0,easy,garbage,nonsense words
+1328,framboise fenêtre horloge tambour requin valise baleine,,,0,easy,garbage,nonsense words
+1329,parapluie uniforme kayak nuage orange,,,0,easy,garbage,nonsense words
+1330,valise miroir fenêtre guitare horloge nuage parapluie escalier,,,0,easy,garbage,nonsense words
+1331,vague valise crayon jardin nougat parapluie papillon,,,0,easy,garbage,nonsense words
+1332,framboise sable baleine miroir jardin valise crayon orange,,,0,easy,garbage,nonsense words
+1333,igloo requin tambour orange miroir lampe crayon,,,0,easy,garbage,nonsense words
+1334,valise requin miroir igloo orange horloge horloge,,,0,easy,garbage,nonsense words
+1335,framboise valise ordinateur sable valise uniforme,,,0,easy,garbage,nonsense words
+1336,ordinateur igloo lampe uniforme,,,0,easy,garbage,nonsense words
+1337,vague jardin sable lampe guitare nougat orange,,,0,easy,garbage,nonsense words
+1338,ordinateur ordinateur papillon uniforme miroir crayon parapluie requin,,,0,easy,garbage,nonsense words
+1339,nuage framboise horloge,,,0,easy,garbage,nonsense words
+1340,horloge horloge escalier lampe,,,0,easy,garbage,nonsense words
+1341,sable parapluie miroir,,,0,easy,garbage,nonsense words
+1342,fenêtre uniforme jardin jardin nougat baleine,,,0,easy,garbage,nonsense words
+1343,ordinateur vague lampe kayak guitare lampe kayak,,,0,easy,garbage,nonsense words
+1344,sable miroir tambour,,,0,easy,garbage,nonsense words
+1345,papillon kayak tambour miroir sable,,,0,easy,garbage,nonsense words
+1346,ordinateur orange cactus,,,0,easy,garbage,nonsense words
+1347,orange papillon uniforme,,,0,easy,garbage,nonsense words
+1348,parapluie igloo escalier papillon,,,0,easy,garbage,nonsense words
+1349,orange framboise nougat baleine framboise cactus orange,,,0,easy,garbage,nonsense words
+1350,horloge requin tambour lampe,,,0,easy,garbage,nonsense words
+1351,ordinateur horloge nuage parapluie,,,0,easy,garbage,nonsense words
+1352,requin baleine vague nougat baleine nougat,,,0,easy,garbage,nonsense words
+1353,parapluie requin ordinateur parapluie guitare,,,0,easy,garbage,nonsense words
+1354,jardin nuage jardin crayon guitare,,,0,easy,garbage,nonsense words
+1355,crayon tambour miroir requin orange,,,0,easy,garbage,nonsense words
+1356,igloo fenêtre escalier,,,0,easy,garbage,nonsense words
+1357,sable ordinateur valise ordinateur,,,0,easy,garbage,nonsense words
+1358,guitare jardin escalier,,,0,easy,garbage,nonsense words
+1359,valise igloo requin kayak igloo,,,0,easy,garbage,nonsense words
+1360,ordinateur guitare requin escalier,,,0,easy,garbage,nonsense words
+1361,requin orange parapluie parapluie baleine vague fenêtre,,,0,easy,garbage,nonsense words
+1362,papillon parapluie vague framboise,,,0,easy,garbage,nonsense words
+1363,fenêtre crayon requin,,,0,easy,garbage,nonsense words
+1364,uniforme escalier orange escalier parapluie escalier cactus,,,0,easy,garbage,nonsense words
+1365,parapluie sable sable escalier horloge guitare jardin parapluie,,,0,easy,garbage,nonsense words
+1366,crayon ordinateur kayak kayak nougat,,,0,easy,garbage,nonsense words
+1367,parapluie igloo valise nougat escalier nuage ordinateur,,,0,easy,garbage,nonsense words
+1368,fenêtre crayon nuage sable uniforme,,,0,easy,garbage,nonsense words
+1369,miroir framboise valise tambour,,,0,easy,garbage,nonsense words
+1370,nougat framboise cactus horloge igloo orange,,,0,easy,garbage,nonsense words
+1371,igloo papillon guitare nuage lampe cactus,,,0,easy,garbage,nonsense words
+1372,crayon uniforme nuage valise vague lampe parapluie,,,0,easy,garbage,nonsense words
+1373,framboise valise nuage,,,0,easy,garbage,nonsense words
+1374,parapluie valise crayon framboise,,,0,easy,garbage,nonsense words
+1375,escalier framboise escalier,,,0,easy,garbage,nonsense words
+1376,guitare guitare lampe nuage horloge sable,,,0,easy,garbage,nonsense words
+1377,framboise requin miroir fenêtre fenêtre papillon requin,,,0,easy,garbage,nonsense words
+1378,tambour guitare guitare igloo parapluie fenêtre horloge,,,0,easy,garbage,nonsense words
+1379,miroir orange lampe orange kayak miroir framboise lampe,,,0,easy,garbage,nonsense words
+1380,sable jardin fenêtre uniforme,,,0,easy,garbage,nonsense words
+1381,jardin ordinateur nougat parapluie escalier valise crayon,,,0,easy,garbage,nonsense words
+1382,sable igloo ordinateur jardin,,,0,easy,garbage,nonsense words
+1383,fenêtre nougat miroir,,,0,easy,garbage,nonsense words
+1384,lampe valise cactus requin baleine crayon cactus,,,0,easy,garbage,nonsense words
+1385,fenêtre orange orange horloge,,,0,easy,garbage,nonsense words
+1386,baleine orange kayak miroir crayon requin escalier horloge,,,0,easy,garbage,nonsense words
+1387,parapluie uniforme cactus parapluie orange guitare jardin guitare,,,0,easy,garbage,nonsense words
+1388,ordinateur requin vague,,,0,easy,garbage,nonsense words
+1389,jardin orange horloge orange parapluie escalier sable igloo,,,0,easy,garbage,nonsense words
+1390,valise jardin valise valise nougat nougat baleine jardin,,,0,easy,garbage,nonsense words
+1391,kayak baleine papillon escalier,,,0,easy,garbage,nonsense words
+1392,vague kayak jardin,,,0,easy,garbage,nonsense words
+1393,orange ordinateur uniforme nuage vague framboise sable baleine,,,0,easy,garbage,nonsense words
+1394,nuage ordinateur tambour requin baleine escalier ordinateur valise,,,0,easy,garbage,nonsense words
+1395,tambour valise jardin,,,0,easy,garbage,nonsense words
+1396,igloo lampe requin fenêtre,,,0,easy,garbage,nonsense words
+1397,igloo ordinateur uniforme tambour cactus fenêtre kayak nuage,,,0,easy,garbage,nonsense words
+1398,valise crayon uniforme baleine guitare parapluie,,,0,easy,garbage,nonsense words
+1399,nuage baleine jardin,,,0,easy,garbage,nonsense words
+1400,tambour escalier uniforme,,,0,easy,garbage,nonsense words
+1401,nougat cactus fenêtre horloge,,,0,easy,garbage,nonsense words
+1402,kayak guitare crayon kayak lampe,,,0,easy,garbage,nonsense words
+1403,cactus uniforme valise uniforme crayon fenêtre kayak,,,0,easy,garbage,nonsense words
+1404,escalier horloge lampe igloo sable,,,0,easy,garbage,nonsense words
+1405,vague sable kayak nuage valise valise vague,,,0,easy,garbage,nonsense words
+1406,papillon parapluie requin guitare,,,0,easy,garbage,nonsense words
+1407,fenêtre requin framboise orange,,,0,easy,garbage,nonsense words
+1408,escalier kayak crayon horloge miroir uniforme,,,0,easy,garbage,nonsense words
+1409,horloge cactus vague,,,0,easy,garbage,nonsense words
+1410,framboise lampe valise ordinateur ordinateur papillon cactus framboise,,,0,easy,garbage,nonsense words
+1411,orange miroir framboise jardin miroir escalier,,,0,easy,garbage,nonsense words
+1412,parapluie crayon fenêtre parapluie,,,0,easy,garbage,nonsense words
+1413,lampe escalier tambour kayak tambour,,,0,easy,garbage,nonsense words
+1414,sable requin uniforme sable nougat jardin jardin lampe,,,0,easy,garbage,nonsense words
+1415,baleine ordinateur kayak nuage requin guitare uniforme,,,0,easy,garbage,nonsense words
+1416,miroir igloo orange horloge framboise jardin cactus crayon,,,0,easy,garbage,nonsense words
+1417,guitare papillon nuage escalier igloo,,,0,easy,garbage,nonsense words
+1418,crayon escalier uniforme ordinateur crayon requin lampe lampe,,,0,easy,garbage,nonsense words
+1419,parapluie uniforme nougat ordinateur uniforme parapluie ordinateur miroir,,,0,easy,garbage,nonsense words
+1420,papillon nuage miroir parapluie uniforme sable sable,,,0,easy,garbage,nonsense words
+1421,requin papillon horloge,,,0,easy,garbage,nonsense words
+1422,parapluie igloo baleine parapluie miroir orange framboise crayon,,,0,easy,garbage,nonsense words
+1423,nuage valise cactus,,,0,easy,garbage,nonsense words
+1424,escalier guitare tambour miroir baleine valise,,,0,easy,garbage,nonsense words
+1425,vague parapluie escalier,,,0,easy,garbage,nonsense words
+1426,lampe vague nuage sable jardin nougat,,,0,easy,garbage,nonsense words
+1427,orange orange valise tambour,,,0,easy,garbage,nonsense words
+1428,miroir valise papillon,,,0,easy,garbage,nonsense words
+1429,requin vague crayon papillon,,,0,easy,garbage,nonsense words
+1430,crayon fenêtre guitare,,,0,easy,garbage,nonsense words
+1431,fenêtre vague escalier cactus miroir kayak,,,0,easy,garbage,nonsense words
+1432,vague jardin nougat parapluie ordinateur kayak baleine,,,0,easy,garbage,nonsense words
+1433,igloo miroir vague orange horloge escalier guitare,,,0,easy,garbage,nonsense words
+1434,jardin horloge escalier fenêtre ordinateur crayon crayon,,,0,easy,garbage,nonsense words
+1435,lampe horloge baleine fenêtre lampe tambour ordinateur lampe,,,0,easy,garbage,nonsense words
+1436,guitare jardin papillon uniforme baleine fenêtre,,,0,easy,garbage,nonsense words
+1437,jardin sable nuage papillon tambour uniforme,,,0,easy,garbage,nonsense words
+1438,baleine fenêtre kayak fenêtre tambour crayon parapluie,,,0,easy,garbage,nonsense words
+1439,lampe nougat tambour jardin igloo framboise,,,0,easy,garbage,nonsense words
+1440,requin framboise nougat baleine igloo,,,0,easy,garbage,nonsense words
+1441,miroir nougat jardin lampe valise framboise miroir,,,0,easy,garbage,nonsense words
+1442,lampe uniforme vague baleine,,,0,easy,garbage,nonsense words
+1443,papillon framboise uniforme parapluie ordinateur papillon crayon jardin,,,0,easy,garbage,nonsense words
+1444,orange framboise nougat,,,0,easy,garbage,nonsense words
+1445,crayon vague jardin jardin miroir tambour baleine fenêtre,,,0,easy,garbage,nonsense words
+1446,uniforme sable lampe,,,0,easy,garbage,nonsense words
+1447,cactus baleine cactus fenêtre jardin escalier sable,,,0,easy,garbage,nonsense words
+1448,cactus fenêtre orange framboise nougat,,,0,easy,garbage,nonsense words
+1449,tambour guitare baleine parapluie,,,0,easy,garbage,nonsense words
+1450,train train train train train train train,,,0,easy,garbage,repetitions
+1451,voyage voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+1452,gare gare gare gare,,,0,easy,garbage,repetitions
+1453,billet billet billet billet billet billet billet billet,,,0,easy,garbage,repetitions
+1454,gare gare gare gare gare gare,,,0,easy,garbage,repetitions
+1455,train train train train train train train train,,,0,easy,garbage,repetitions
+1456,gare gare gare gare gare,,,0,easy,garbage,repetitions
+1457,billet billet billet billet billet,,,0,easy,garbage,repetitions
+1458,TGV TGV TGV TGV TGV,,,0,easy,garbage,repetitions
+1459,gare gare gare gare gare gare gare gare,,,0,easy,garbage,repetitions
+1460,TGV TGV TGV TGV TGV TGV,,,0,easy,garbage,repetitions
+1461,SNCF SNCF SNCF SNCF SNCF SNCF SNCF SNCF,,,0,easy,garbage,repetitions
+1462,billet billet billet billet,,,0,easy,garbage,repetitions
+1463,SNCF SNCF SNCF SNCF SNCF SNCF SNCF,,,0,easy,garbage,repetitions
+1464,TGV TGV TGV TGV,,,0,easy,garbage,repetitions
+1465,voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+1466,billet billet billet billet billet billet billet,,,0,easy,garbage,repetitions
+1467,SNCF SNCF SNCF SNCF SNCF SNCF,,,0,easy,garbage,repetitions
+1468,TGV TGV TGV TGV TGV TGV TGV,,,0,easy,garbage,repetitions
+1469,SNCF SNCF SNCF SNCF,,,0,easy,garbage,repetitions
+1470,TGV TGV TGV TGV TGV TGV TGV TGV,,,0,easy,garbage,repetitions
+1471,voyage voyage voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+1472,SNCF SNCF SNCF SNCF SNCF,,,0,easy,garbage,repetitions
+1473,train train train train,,,0,easy,garbage,repetitions
+1474,train train train train train,,,0,easy,garbage,repetitions
+1475,train train train train train train,,,0,easy,garbage,repetitions
+1476,voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+1477,voyage voyage voyage voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+1478,gare gare gare gare gare gare gare,,,0,easy,garbage,repetitions
+1479,^^&& ^^&&,,,0,easy,garbage,special characters
+1480,**!! $$%% ???,,,0,easy,garbage,special characters
+1481,@@## ... ^^&&,,,0,easy,garbage,special characters
+1482,@@## !!!,,,0,easy,garbage,special characters
+1483,$$%% ???,,,0,easy,garbage,special characters
+1484,--- ^^&&,,,0,easy,garbage,special characters
+1485,$$%% @@## !!!,,,0,easy,garbage,special characters
+1486,!!! --- ... ... ...,,,0,easy,garbage,special characters
+1487,!!! !!! @@## ... ???,,,0,easy,garbage,special characters
+1488,!!! --- ... @@## $$%%,,,0,easy,garbage,special characters
+1489,^^&& ^^&& @@##,,,0,easy,garbage,special characters
+1490,??? --- $$%% ... @@##,,,0,easy,garbage,special characters
+1491,??? --- ??? --- ???,,,0,easy,garbage,special characters
+1492,^^&& --- @@## !!! ^^&&,,,0,easy,garbage,special characters
+1493,^^&& !!! ...,,,0,easy,garbage,special characters
+1494,!!! ^^&&,,,0,easy,garbage,special characters
+1495,$$%% --- @@## ^^&& !!!,,,0,easy,garbage,special characters
+1496,--- ???,,,0,easy,garbage,special characters
+1497,??? **!! --- $$%% **!!,,,0,easy,garbage,special characters
+1498,??? $$%% !!!,,,0,easy,garbage,special characters
+1499,^^&& --- ---,,,0,easy,garbage,special characters
+1500,... ... --- @@## !!!,,,0,easy,garbage,special characters
+1501,@@## ??? !!!,,,0,easy,garbage,special characters
+1502,!!! @@##,,,0,easy,garbage,special characters
+1503,??? ??? ...,,,0,easy,garbage,special characters
+1504,... --- --- $$%%,,,0,easy,garbage,special characters
+1505,^^&& ??? !!!,,,0,easy,garbage,special characters
+1506,??? !!! **!! @@##,,,0,easy,garbage,special characters
+1507,**!! **!! !!!,,,0,easy,garbage,special characters
+1508,... !!! $$%% ...,,,0,easy,garbage,special characters
+1509,... ... ... !!! @@##,,,0,easy,garbage,special characters
+1510,^^&& **!! --- ... @@##,,,0,easy,garbage,special characters
+1511,--- --- ... ... !!!,,,0,easy,garbage,special characters
+1512,@@## @@## ^^&& **!! ^^&&,,,0,easy,garbage,special characters
+1513,!!! $$%% --- $$%%,,,0,easy,garbage,special characters
+1514,!!! ---,,,0,easy,garbage,special characters
+1515,--- !!!,,,0,easy,garbage,special characters
+1516,--- ??? ---,,,0,easy,garbage,special characters
+1517,^^&& --- $$%% ... @@##,,,0,easy,garbage,special characters
+1518,**!! ^^&&,,,0,easy,garbage,special characters
+1519,**!! ^^&& $$%% --- ^^&&,,,0,easy,garbage,special characters
+1520,--- ...,,,0,easy,garbage,special characters
+1521,$$%% !!! --- $$%% ...,,,0,easy,garbage,special characters
+1522,**!! ???,,,0,easy,garbage,special characters
+1523,^^&& ...,,,0,easy,garbage,special characters
+1524,**!! @@## ^^&&,,,0,easy,garbage,special characters
+1525,^^&& **!!,,,0,easy,garbage,special characters
+1526,--- ??? @@##,,,0,easy,garbage,special characters
+1527,@@## ^^&& ---,,,0,easy,garbage,special characters
+1528,Quiero ir a Madrid,,,0,easy,garbage,foreign language
+1529,I would like a ticket,,,0,easy,garbage,foreign language
+1530,Ich möchte nach Berlin,,,0,easy,garbage,foreign language
+1531,I need help,,,0,easy,garbage,foreign language
+1532,How to get to Lyon,,,0,easy,garbage,foreign language
+1533,Where is the station,,,0,easy,garbage,foreign language
+1534,Dónde está la estación,,,0,easy,garbage,foreign language
+1535,Thank you very much,,,0,easy,garbage,foreign language
+1536,Wo ist der Bahnhof,,,0,easy,garbage,foreign language
+1537,Can you help me,,,0,easy,garbage,foreign language
+1538,How much is a ticket,,,0,easy,garbage,foreign language
+1539,Wie komme ich nach Paris,,,0,easy,garbage,foreign language
+1540,I want to go to Paris,,,0,easy,garbage,foreign language
+1541,train 789 Marseille ...,,,0,easy,garbage,incoherent mix
+1542,456 Lyon billet ???,,,0,easy,garbage,incoherent mix
+1543,@@@ Lyon ??? 456 train,,,0,easy,garbage,incoherent mix
+1544,billet !!! @@@,,,0,easy,garbage,incoherent mix
+1545,billet ^^&& @@@,,,0,easy,garbage,incoherent mix
+1546,train Marseille $$%% @@@ 456,,,0,easy,garbage,incoherent mix
+1547,**!! billet 789,,,0,easy,garbage,incoherent mix
+1548,??? 789 train,,,0,easy,garbage,incoherent mix
+1549,billet Lyon 456 ??? !!!,,,0,easy,garbage,incoherent mix
+1550,Marseille billet ...,,,0,easy,garbage,incoherent mix
+1551,voyage @@@ 456 Marseille,,,0,easy,garbage,incoherent mix
+1552,123 @@@ voyage,,,0,easy,garbage,incoherent mix
+1553,123 Marseille ...,,,0,easy,garbage,incoherent mix
+1554,789 ??? Marseille train,,,0,easy,garbage,incoherent mix
+1555,!!! 123 !!! Paris billet,,,0,easy,garbage,incoherent mix
+1556,billet !!! !!! 123,,,0,easy,garbage,incoherent mix
+1557,@@## 123 voyage ???,,,0,easy,garbage,incoherent mix
+1558,789 ??? Marseille,,,0,easy,garbage,incoherent mix
+1559,456 train @@@ Paris,,,0,easy,garbage,incoherent mix
+1560,??? 456 Marseille voyage @@##,,,0,easy,garbage,incoherent mix
+1561,??? Paris 123 voyage,,,0,easy,garbage,incoherent mix
+1562,voyage Paris !!! 789,,,0,easy,garbage,incoherent mix
+1563,Marseille ??? 456 voyage ...,,,0,easy,garbage,incoherent mix
+1564,billet !!! !!!,,,0,easy,garbage,incoherent mix
+1565,billet @@## ???,,,0,easy,garbage,incoherent mix
+1566,??? Marseille ???,,,0,easy,garbage,incoherent mix
+1567,??? Paris !!! 789,,,0,easy,garbage,incoherent mix
+1568,voyage Marseille ???,,,0,easy,garbage,incoherent mix
+1569,@@@ 123 voyage ... Lyon,,,0,easy,garbage,incoherent mix
+1570,voyage --- @@@ 789,,,0,easy,garbage,incoherent mix
+1571,!!! train Marseille,,,0,easy,garbage,incoherent mix
+1572,Paris --- @@@ voyage 456,,,0,easy,garbage,incoherent mix
+1573,456 Lyon ??? ... train,,,0,easy,garbage,incoherent mix
+1574,voyage Paris 789,,,0,easy,garbage,incoherent mix
+1575,456 !!! Paris voyage @@##,,,0,easy,garbage,incoherent mix
+1576,Paris train $$%%,,,0,easy,garbage,incoherent mix
+1577,billet Paris **!! @@@,,,0,easy,garbage,incoherent mix
+1578,billet 123 Marseille --- !!!,,,0,easy,garbage,incoherent mix
+1579,789 ??? Paris !!! voyage,,,0,easy,garbage,incoherent mix
+1580,@@@ 456 billet,,,0,easy,garbage,incoherent mix
+1581,voyage $$%% 789 !!! Paris,,,0,easy,garbage,incoherent mix
+1582,456 Marseille ^^&&,,,0,easy,garbage,incoherent mix
+1583,Paris 456 voyage @@@ **!!,,,0,easy,garbage,incoherent mix
+1584,456 ??? ...,,,0,easy,garbage,incoherent mix
+1585,789 !!! billet Lyon,,,0,easy,garbage,incoherent mix
+1586,voyage ??? Lyon 123 ???,,,0,easy,garbage,incoherent mix
+1587,billet Marseille ???,,,0,easy,garbage,incoherent mix
+1588,Lyon @@@ !!! 123 train,,,0,easy,garbage,incoherent mix
+1589,Marseille ??? billet 123,,,0,easy,garbage,incoherent mix
+1590,Lyon 456 ???,,,0,easy,garbage,incoherent mix
+1591,Lille Bordeaux Nice Rennes,,,0,medium,ambiguous,too many cities
+1592,Comment aller de Marseille à Nice à Lille,,,0,medium,ambiguous,too many cities
+1593,Train pour Marseille Toulouse et Lyon,,,0,medium,ambiguous,too many cities
+1594,Billet Lyon Toulouse Paris,,,0,medium,ambiguous,too many cities
+1595,Je vais de Toulouse à Lille à Bordeaux,,,0,medium,ambiguous,too many cities
+1596,Train pour Rennes Montpellier et Toulouse,,,0,medium,ambiguous,too many cities
+1597,Je vais de Nice à Nantes à Montpellier,,,0,medium,ambiguous,too many cities
+1598,Comment aller de Nantes à Nice à Toulouse,,,0,medium,ambiguous,too many cities
+1599,Je vais de Montpellier à Nantes à Nice,,,0,medium,ambiguous,too many cities
+1600,Billet Marseille Nice Bordeaux,,,0,medium,ambiguous,too many cities
+1601,Billet Montpellier Marseille Toulouse,,,0,medium,ambiguous,too many cities
+1602,Train pour Toulouse Marseille et Bordeaux,,,0,medium,ambiguous,too many cities
+1603,Je voudrais aller de Paris à Nantes via Montpellier et Lyon,,,0,medium,ambiguous,too many cities
+1604,Marseille Nice Paris Toulouse,,,0,medium,ambiguous,too many cities
+1605,Je veux visiter Lyon Lille Rennes,,,0,medium,ambiguous,too many cities
+1606,Je vais de Montpellier à Lyon à Nantes,,,0,medium,ambiguous,too many cities
+1607,Comment aller de Montpellier à Nice à Rennes,,,0,medium,ambiguous,too many cities
+1608,Train pour Nantes Rennes et Toulouse,,,0,medium,ambiguous,too many cities
+1609,Billet Paris Toulouse Rennes,,,0,medium,ambiguous,too many cities
+1610,Train pour Nice Montpellier et Lille,,,0,medium,ambiguous,too many cities
+1611,Je veux visiter Marseille Paris Nantes,,,0,medium,ambiguous,too many cities
+1612,Rennes Lille Lyon Paris,,,0,medium,ambiguous,too many cities
+1613,Je vais de Paris à Toulouse à Rennes,,,0,medium,ambiguous,too many cities
+1614,Comment aller de Marseille à Nice à Paris,,,0,medium,ambiguous,too many cities
+1615,Lille Nantes Toulouse Montpellier,,,0,medium,ambiguous,too many cities
+1616,Train pour Toulouse Bordeaux et Lille,,,0,medium,ambiguous,too many cities
+1617,Je veux visiter Nantes Lyon Nice,,,0,medium,ambiguous,too many cities
+1618,De Bordeaux à Rennes puis Nice,,,0,medium,ambiguous,too many cities
+1619,Je veux visiter Montpellier Lille Paris,,,0,medium,ambiguous,too many cities
+1620,Comment aller de Paris à Bordeaux à Marseille,,,0,medium,ambiguous,too many cities
+1621,Montpellier Rennes Lille Paris,,,0,medium,ambiguous,too many cities
+1622,Je vais de Lyon à Paris à Nice,,,0,medium,ambiguous,too many cities
+1623,Billet Lille Nantes Lyon,,,0,medium,ambiguous,too many cities
+1624,Train pour Montpellier Lyon et Bordeaux,,,0,medium,ambiguous,too many cities
+1625,Billet Paris Lyon Nantes,,,0,medium,ambiguous,too many cities
+1626,Billet Bordeaux Marseille Toulouse,,,0,medium,ambiguous,too many cities
+1627,De Rennes à Toulouse puis Nice,,,0,medium,ambiguous,too many cities
+1628,Comment aller de Paris à Lille à Marseille,,,0,medium,ambiguous,too many cities
+1629,Train pour Montpellier Nantes et Bordeaux,,,0,medium,ambiguous,too many cities
+1630,Comment aller de Paris à Nice à Montpellier,,,0,medium,ambiguous,too many cities
+1631,Billet Nantes Rennes Toulouse,,,0,medium,ambiguous,too many cities
+1632,Nice Marseille Montpellier Rennes,,,0,medium,ambiguous,too many cities
+1633,Comment aller de Bordeaux à Nice à Rennes,,,0,medium,ambiguous,too many cities
+1634,Comment aller de Montpellier à Lyon à Paris,,,0,medium,ambiguous,too many cities
+1635,De Montpellier à Nantes puis Paris,,,0,medium,ambiguous,too many cities
+1636,Train pour Toulouse Nice et Bordeaux,,,0,medium,ambiguous,too many cities
+1637,Je voudrais aller de Lyon à Marseille via Nantes et Paris,,,0,medium,ambiguous,too many cities
+1638,Je veux visiter Lyon Marseille Toulouse,,,0,medium,ambiguous,too many cities
+1639,Toulouse Lyon Nice Bordeaux,,,0,medium,ambiguous,too many cities
+1640,Comment aller de Nantes à Bordeaux à Lyon,,,0,medium,ambiguous,too many cities
+1641,Je vais de Marseille à Toulouse à Lille,,,0,medium,ambiguous,too many cities
+1642,Je veux visiter Marseille Rennes Nantes,,,0,medium,ambiguous,too many cities
+1643,Je voudrais aller de Lille à Nice via Paris et Toulouse,,,0,medium,ambiguous,too many cities
+1644,Billet Nice Toulouse Lille,,,0,medium,ambiguous,too many cities
+1645,Je vais de Rennes à Lille à Paris,,,0,medium,ambiguous,too many cities
+1646,Billet Bordeaux Montpellier Rennes,,,0,medium,ambiguous,too many cities
+1647,Je veux visiter Nice Paris Toulouse,,,0,medium,ambiguous,too many cities
+1648,Train pour Marseille Rennes et Paris,,,0,medium,ambiguous,too many cities
+1649,Billet Toulouse Montpellier Lyon,,,0,medium,ambiguous,too many cities
+1650,Je vais de Paris à Toulouse à Lyon,,,0,medium,ambiguous,too many cities
+1651,Billet Rennes Marseille Nice,,,0,medium,ambiguous,too many cities
+1652,Toulouse Nice Lille Rennes,,,0,medium,ambiguous,too many cities
+1653,Comment aller de Nice à Paris à Toulouse,,,0,medium,ambiguous,too many cities
+1654,Train pour Nantes Toulouse et Lyon,,,0,medium,ambiguous,too many cities
+1655,Je voudrais aller de Montpellier à Lyon via Marseille et Bordeaux,,,0,medium,ambiguous,too many cities
+1656,Billet Lille Nice Lyon,,,0,medium,ambiguous,too many cities
+1657,Je vais de Marseille à Bordeaux à Montpellier,,,0,medium,ambiguous,too many cities
+1658,Je voudrais aller de Paris à Rennes via Nantes et Toulouse,,,0,medium,ambiguous,too many cities
+1659,Je voudrais aller de Toulouse à Lille via Paris et Nice,,,0,medium,ambiguous,too many cities
+1660,Je voudrais aller de Nantes à Marseille via Paris et Rennes,,,0,medium,ambiguous,too many cities
+1661,Train pour Toulouse Marseille et Nice,,,0,medium,ambiguous,too many cities
+1662,Je veux visiter Rennes Marseille Nantes,,,0,medium,ambiguous,too many cities
+1663,Je veux visiter Bordeaux Lille Nantes,,,0,medium,ambiguous,too many cities
+1664,De Lille à Nantes puis Lyon,,,0,medium,ambiguous,too many cities
+1665,De Marseille à Lille puis Bordeaux,,,0,medium,ambiguous,too many cities
+1666,Train pour Lille Rennes et Montpellier,,,0,medium,ambiguous,too many cities
+1667,De Nice à Toulouse puis Montpellier,,,0,medium,ambiguous,too many cities
+1668,Montpellier Marseille Rennes Bordeaux,,,0,medium,ambiguous,too many cities
+1669,Je vais de Rennes à Montpellier à Lyon,,,0,medium,ambiguous,too many cities
+1670,Montpellier Bordeaux Nice Paris,,,0,medium,ambiguous,too many cities
+1671,Billet Montpellier Paris Nantes,,,0,medium,ambiguous,too many cities
+1672,De Nice à Lyon puis Rennes,,,0,medium,ambiguous,too many cities
+1673,Je vais de Nice à Lille à Paris,,,0,medium,ambiguous,too many cities
+1674,De Marseille à Montpellier puis Nantes,,,0,medium,ambiguous,too many cities
+1675,Train pour Lyon Marseille et Bordeaux,,,0,medium,ambiguous,too many cities
+1676,Train pour Paris Marseille et Rennes,,,0,medium,ambiguous,too many cities
+1677,Billet Montpellier Nantes Bordeaux,,,0,medium,ambiguous,too many cities
+1678,Paris Rennes Nice Bordeaux,,,0,medium,ambiguous,too many cities
+1679,Je vais de Lyon à Lille à Paris,,,0,medium,ambiguous,too many cities
+1680,Train pour Nice Lyon et Lille,,,0,medium,ambiguous,too many cities
+1681,Lyon Montpellier Toulouse Nice,,,0,medium,ambiguous,too many cities
+1682,Comment aller de Toulouse à Bordeaux à Lyon,,,0,medium,ambiguous,too many cities
+1683,Train pour Montpellier Nice et Toulouse,,,0,medium,ambiguous,too many cities
+1684,Train pour Paris Rennes et Lyon,,,0,medium,ambiguous,too many cities
+1685,Billet Nantes Lyon Marseille,,,0,medium,ambiguous,too many cities
+1686,Je veux visiter Montpellier Lille Nantes,,,0,medium,ambiguous,too many cities
+1687,Comment aller de Lyon à Lille à Nice,,,0,medium,ambiguous,too many cities
+1688,De Montpellier à Nice puis Nantes,,,0,medium,ambiguous,too many cities
+1689,De Bordeaux à Nice puis Lille,,,0,medium,ambiguous,too many cities
+1690,Train pour Nice Rennes et Marseille,,,0,medium,ambiguous,too many cities
+1691,Je vais de Lille à Lyon à Marseille,,,0,medium,ambiguous,too many cities
+1692,Nantes Bordeaux Montpellier Lille,,,0,medium,ambiguous,too many cities
+1693,Train pour Nantes Paris et Lille,,,0,medium,ambiguous,too many cities
+1694,Comment aller de Nice à Paris à Lille,,,0,medium,ambiguous,too many cities
+1695,Train pour Nice Montpellier et Marseille,,,0,medium,ambiguous,too many cities
+1696,Je veux visiter Marseille Lille Lyon,,,0,medium,ambiguous,too many cities
+1697,Je veux visiter Montpellier Paris Toulouse,,,0,medium,ambiguous,too many cities
+1698,De Lille à Montpellier puis Lyon,,,0,medium,ambiguous,too many cities
+1699,Je vais de Marseille à Rennes à Lyon,,,0,medium,ambiguous,too many cities
+1700,De Nantes à Lille puis Marseille,,,0,medium,ambiguous,too many cities
+1701,De Nantes à Bordeaux puis Rennes,,,0,medium,ambiguous,too many cities
+1702,Je voudrais aller de Paris à Montpellier via Lille et Rennes,,,0,medium,ambiguous,too many cities
+1703,Billet Nice Marseille Paris,,,0,medium,ambiguous,too many cities
+1704,Comment aller de Lille à Nantes à Nice,,,0,medium,ambiguous,too many cities
+1705,Train pour Bordeaux Lille et Toulouse,,,0,medium,ambiguous,too many cities
+1706,Train pour Rennes Paris et Bordeaux,,,0,medium,ambiguous,too many cities
+1707,De Paris à Toulouse puis Marseille,,,0,medium,ambiguous,too many cities
+1708,Je voudrais aller de Lyon à Lille via Bordeaux et Montpellier,,,0,medium,ambiguous,too many cities
+1709,Billet Lille Bordeaux Marseille,,,0,medium,ambiguous,too many cities
+1710,Je vais de Rennes à Nantes à Bordeaux,,,0,medium,ambiguous,too many cities
+1711,De Paris à Bordeaux puis Nantes,,,0,medium,ambiguous,too many cities
+1712,Je veux visiter Paris Toulouse Bordeaux,,,0,medium,ambiguous,too many cities
+1713,Comment aller de Nantes à Toulouse à Rennes,,,0,medium,ambiguous,too many cities
+1714,De Lille à Montpellier puis Nantes,,,0,medium,ambiguous,too many cities
+1715,Montpellier Paris Lille Bordeaux,,,0,medium,ambiguous,too many cities
+1716,Comment aller de Nantes à Marseille à Bordeaux,,,0,medium,ambiguous,too many cities
+1717,Je voudrais aller de Lille à Montpellier via Marseille et Paris,,,0,medium,ambiguous,too many cities
+1718,Billet Nice Marseille Rennes,,,0,medium,ambiguous,too many cities
+1719,Lyon Lille Toulouse Montpellier,,,0,medium,ambiguous,too many cities
+1720,Je veux visiter Lille Lyon Nantes,,,0,medium,ambiguous,too many cities
+1721,Train pour Marseille Lille et Montpellier,,,0,medium,ambiguous,too many cities
+1722,Train pour Marseille Paris et Toulouse,,,0,medium,ambiguous,too many cities
+1723,Je veux visiter Montpellier Marseille Toulouse,,,0,medium,ambiguous,too many cities
+1724,Je vais de Nantes à Paris à Rennes,,,0,medium,ambiguous,too many cities
+1725,Billet Bordeaux Lyon Nantes,,,0,medium,ambiguous,too many cities
+1726,Lille Toulouse Marseille Rennes,,,0,medium,ambiguous,too many cities
+1727,Rennes Marseille Montpellier Nantes,,,0,medium,ambiguous,too many cities
+1728,Montpellier Toulouse Paris Nice,,,0,medium,ambiguous,too many cities
+1729,Comment aller de Lyon à Rennes à Nice,,,0,medium,ambiguous,too many cities
+1730,Je veux visiter Bordeaux Montpellier Nantes,,,0,medium,ambiguous,too many cities
+1731,Billet Toulouse Paris Marseille,,,0,medium,ambiguous,too many cities
+1732,Billet Lille Lyon Bordeaux,,,0,medium,ambiguous,too many cities
+1733,Je voudrais aller de Nantes à Marseille via Rennes et Toulouse,,,0,medium,ambiguous,too many cities
+1734,Lyon Montpellier Lille Nice,,,0,medium,ambiguous,too many cities
+1735,De Marseille à Nice puis Toulouse,,,0,medium,ambiguous,too many cities
+1736,Billet Lyon Nantes Montpellier,,,0,medium,ambiguous,too many cities
+1737,De Montpellier à Lyon puis Bordeaux,,,0,medium,ambiguous,too many cities
+1738,Je vais de Nice à Paris à Rennes,,,0,medium,ambiguous,too many cities
+1739,Je veux visiter Nantes Marseille Bordeaux,,,0,medium,ambiguous,too many cities
+1740,Je vais de Lyon à Bordeaux à Montpellier,,,0,medium,ambiguous,too many cities
+1741,Billet Nice Nantes Bordeaux,,,0,medium,ambiguous,too many cities
+1742,De Nice à Rennes puis Bordeaux,,,0,medium,ambiguous,too many cities
+1743,Je voudrais aller de Rennes à Lille via Paris et Nantes,,,0,medium,ambiguous,too many cities
+1744,Je vais de Nantes à Marseille à Lille,,,0,medium,ambiguous,too many cities
+1745,De Toulouse à Lille puis Lyon,,,0,medium,ambiguous,too many cities
+1746,Je voudrais aller de Rennes à Bordeaux via Paris et Montpellier,,,0,medium,ambiguous,too many cities
+1747,Billet Nice Rennes Marseille,,,0,medium,ambiguous,too many cities
+1748,Billet Toulouse Rennes Bordeaux,,,0,medium,ambiguous,too many cities
+1749,Je veux visiter Toulouse Lyon Paris,,,0,medium,ambiguous,too many cities
+1750,Je veux visiter Rennes Lille Paris,,,0,medium,ambiguous,too many cities
+1751,De Lyon à Bordeaux puis Lille,,,0,medium,ambiguous,too many cities
+1752,De Lyon à Marseille puis Montpellier,,,0,medium,ambiguous,too many cities
+1753,Toulouse Lyon Montpellier Lille,,,0,medium,ambiguous,too many cities
+1754,De Bordeaux à Montpellier puis Toulouse,,,0,medium,ambiguous,too many cities
+1755,Je vais de Nice à Lyon à Nantes,,,0,medium,ambiguous,too many cities
+1756,Je veux visiter Rennes Lyon Marseille,,,0,medium,ambiguous,too many cities
+1757,Je veux visiter Toulouse Bordeaux Marseille,,,0,medium,ambiguous,too many cities
+1758,Billet Lyon Montpellier Nantes,,,0,medium,ambiguous,too many cities
+1759,Billet Montpellier Marseille Nice,,,0,medium,ambiguous,too many cities
+1760,Je voudrais aller de Toulouse à Bordeaux via Paris et Lyon,,,0,medium,ambiguous,too many cities
+1761,Train pour Paris Lyon et Nice,,,0,medium,ambiguous,too many cities
+1762,De Montpellier à Marseille puis Nantes,,,0,medium,ambiguous,too many cities
+1763,Train pour Bordeaux Rennes et Nantes,,,0,medium,ambiguous,too many cities
+1764,De Bordeaux à Lille puis Lyon,,,0,medium,ambiguous,too many cities
+1765,Comment aller de Nantes à Rennes à Toulouse,,,0,medium,ambiguous,too many cities
+1766,Comment aller de Lyon à Nice à Toulouse,,,0,medium,ambiguous,too many cities
+1767,Je voudrais aller de Lille à Rennes via Montpellier et Bordeaux,,,0,medium,ambiguous,too many cities
+1768,Je voudrais aller de Paris à Rennes via Nice et Lyon,,,0,medium,ambiguous,too many cities
+1769,De Bordeaux à Montpellier puis Lille,,,0,medium,ambiguous,too many cities
+1770,Je vais de Lyon à Nantes à Lille,,,0,medium,ambiguous,too many cities
+1771,Je vais de Montpellier à Bordeaux à Nantes,,,0,medium,ambiguous,too many cities
+1772,Je vais de Nantes à Montpellier à Rennes,,,0,medium,ambiguous,too many cities
+1773,Je vais de Nice à Bordeaux à Lyon,,,0,medium,ambiguous,too many cities
+1774,De Montpellier à Bordeaux puis Marseille,,,0,medium,ambiguous,too many cities
+1775,Je voudrais aller de Rennes à Nantes via Lyon et Toulouse,,,0,medium,ambiguous,too many cities
+1776,Je veux visiter Paris Lille Toulouse,,,0,medium,ambiguous,too many cities
+1777,Je veux visiter Toulouse Nice Rennes,,,0,medium,ambiguous,too many cities
+1778,Je vais de Rennes à Paris à Nantes,,,0,medium,ambiguous,too many cities
+1779,Billet Paris Toulouse Lyon,,,0,medium,ambiguous,too many cities
+1780,Billet Montpellier Lille Paris,,,0,medium,ambiguous,too many cities
+1781,Rennes Bordeaux Lyon Paris,,,0,medium,ambiguous,too many cities
+1782,Train pour Lille Paris et Marseille,,,0,medium,ambiguous,too many cities
+1783,Je voudrais aller de Lyon à Nice via Toulouse et Montpellier,,,0,medium,ambiguous,too many cities
+1784,Billet Nantes Toulouse Lille,,,0,medium,ambiguous,too many cities
+1785,Je voudrais aller de Paris à Lille via Nice et Lyon,,,0,medium,ambiguous,too many cities
+1786,Comment aller de Bordeaux à Rennes à Paris,,,0,medium,ambiguous,too many cities
+1787,De Toulouse à Rennes puis Marseille,,,0,medium,ambiguous,too many cities
+1788,Je vais de Lille à Montpellier à Toulouse,,,0,medium,ambiguous,too many cities
+1789,Je voudrais aller de Paris à Lille via Nantes et Bordeaux,,,0,medium,ambiguous,too many cities
+1790,Je vais de Toulouse à Toulouse,,,0,medium,ambiguous,origin equals destination
+1791,Train Marseille Marseille,,,0,medium,ambiguous,origin equals destination
+1792,Je vais de Lyon à Lyon,,,0,medium,ambiguous,origin equals destination
+1793,Comment aller de Bordeaux à Bordeaux,,,0,medium,ambiguous,origin equals destination
+1794,Billet Bordeaux Bordeaux,,,0,medium,ambiguous,origin equals destination
+1795,De Marseille vers Marseille,,,0,medium,ambiguous,origin equals destination
+1796,Je vais de Montpellier à Montpellier,,,0,medium,ambiguous,origin equals destination
+1797,Je vais de Rennes à Rennes,,,0,medium,ambiguous,origin equals destination
+1798,Billet Montpellier Montpellier,,,0,medium,ambiguous,origin equals destination
+1799,Billet Lille Lille,,,0,medium,ambiguous,origin equals destination
+1800,Billet Lyon Lyon,,,0,medium,ambiguous,origin equals destination
+1801,Train Lyon Lyon,,,0,medium,ambiguous,origin equals destination
+1802,De Nice vers Nice,,,0,medium,ambiguous,origin equals destination
+1803,De Bordeaux vers Bordeaux,,,0,medium,ambiguous,origin equals destination
+1804,De Paris vers Paris,,,0,medium,ambiguous,origin equals destination
+1805,Je vais de Paris à Paris,,,0,medium,ambiguous,origin equals destination
+1806,Comment aller de Nice à Nice,,,0,medium,ambiguous,origin equals destination
+1807,De Rennes vers Rennes,,,0,medium,ambiguous,origin equals destination
+1808,Je vais de Nantes à Nantes,,,0,medium,ambiguous,origin equals destination
+1809,Billet Paris Paris,,,0,medium,ambiguous,origin equals destination
+1810,Train Nantes Nantes,,,0,medium,ambiguous,origin equals destination
+1811,De Nantes vers Nantes,,,0,medium,ambiguous,origin equals destination
+1812,Train Lille Lille,,,0,medium,ambiguous,origin equals destination
+1813,Comment aller de Lyon à Lyon,,,0,medium,ambiguous,origin equals destination
+1814,Je vais de Lille à Lille,,,0,medium,ambiguous,origin equals destination
+1815,Comment aller de Rennes à Rennes,,,0,medium,ambiguous,origin equals destination
+1816,De Montpellier vers Montpellier,,,0,medium,ambiguous,origin equals destination
+1817,Billet Nantes Nantes,,,0,medium,ambiguous,origin equals destination
+1818,Train Paris Paris,,,0,medium,ambiguous,origin equals destination
+1819,Comment aller de Lille à Lille,,,0,medium,ambiguous,origin equals destination
+1820,Je vais de Bordeaux à Bordeaux,,,0,medium,ambiguous,origin equals destination
+1821,Billet Rennes Rennes,,,0,medium,ambiguous,origin equals destination
+1822,Comment aller de Nantes à Nantes,,,0,medium,ambiguous,origin equals destination
+1823,Train Bordeaux Bordeaux,,,0,medium,ambiguous,origin equals destination
+1824,Train Montpellier Montpellier,,,0,medium,ambiguous,origin equals destination
+1825,De Lyon vers Lyon,,,0,medium,ambiguous,origin equals destination
+1826,Billet Marseille Marseille,,,0,medium,ambiguous,origin equals destination
+1827,Billet Nice Nice,,,0,medium,ambiguous,origin equals destination
+1828,Train Nice Nice,,,0,medium,ambiguous,origin equals destination
+1829,Comment aller de Montpellier à Montpellier,,,0,medium,ambiguous,origin equals destination
+1830,Billet Toulouse Toulouse,,,0,medium,ambiguous,origin equals destination
+1831,Train Toulouse Toulouse,,,0,medium,ambiguous,origin equals destination
+1832,Je vais de Marseille à Marseille,,,0,medium,ambiguous,origin equals destination
+1833,Comment aller de Marseille à Marseille,,,0,medium,ambiguous,origin equals destination
+1834,Comment aller de Paris à Paris,,,0,medium,ambiguous,origin equals destination
+1835,De Toulouse à Rennes ou peut-être Marseille,,,0,medium,ambiguous,contradictions
+1836,Je vais à Lyon ah non plutôt Toulouse,,,0,medium,ambiguous,contradictions
+1837,Je veux aller à Toulouse non à Montpellier,,,0,medium,ambiguous,contradictions
+1838,De Nantes à Bordeaux ou peut-être Lyon,,,0,medium,ambiguous,contradictions
+1839,Je vais à Rennes ou Paris,,,0,medium,ambiguous,contradictions
+1840,Je vais à Bordeaux ou Rennes,,,0,medium,ambiguous,contradictions
+1841,Je ne sais pas si Montpellier ou Nantes,,,0,medium,ambiguous,contradictions
+1842,Je vais à Lille ou Paris,,,0,medium,ambiguous,contradictions
+1843,Hésitation entre Toulouse et Bordeaux,,,0,medium,ambiguous,contradictions
+1844,Soit Rennes soit Lyon,,,0,medium,ambiguous,contradictions
+1845,Peut-être Paris ou bien Rennes,,,0,medium,ambiguous,contradictions
+1846,Je vais à Lyon ah non plutôt Rennes,,,0,medium,ambiguous,contradictions
+1847,Je vais à Rennes ah non plutôt Nice,,,0,medium,ambiguous,contradictions
+1848,Je ne sais pas si Lille ou Nice,,,0,medium,ambiguous,contradictions
+1849,De Paris à Rennes ou peut-être Nantes,,,0,medium,ambiguous,contradictions
+1850,Je ne sais pas si Bordeaux ou Lyon,,,0,medium,ambiguous,contradictions
+1851,Je vais à Paris ah non plutôt Bordeaux,,,0,medium,ambiguous,contradictions
+1852,Soit Nantes soit Rennes,,,0,medium,ambiguous,contradictions
+1853,Je vais à Paris ou Montpellier,,,0,medium,ambiguous,contradictions
+1854,Je veux aller à Rennes non à Bordeaux,,,0,medium,ambiguous,contradictions
+1855,Je vais à Lille ah non plutôt Bordeaux,,,0,medium,ambiguous,contradictions
+1856,Hésitation entre Bordeaux et Nice,,,0,medium,ambiguous,contradictions
+1857,Je vais à Marseille ou Nice,,,0,medium,ambiguous,contradictions
+1858,Soit Lyon soit Bordeaux,,,0,medium,ambiguous,contradictions
+1859,Hésitation entre Lyon et Paris,,,0,medium,ambiguous,contradictions
+1860,Je veux aller à Toulouse non à Lyon,,,0,medium,ambiguous,contradictions
+1861,Peut-être Lille ou bien Bordeaux,,,0,medium,ambiguous,contradictions
+1862,Peut-être Lille ou bien Paris,,,0,medium,ambiguous,contradictions
+1863,De Rennes à Nantes ou peut-être Marseille,,,0,medium,ambiguous,contradictions
+1864,Hésitation entre Montpellier et Rennes,,,0,medium,ambiguous,contradictions
+1865,De Nice à Montpellier ou peut-être Bordeaux,,,0,medium,ambiguous,contradictions
+1866,Je veux aller à Nice non à Nantes,,,0,medium,ambiguous,contradictions
+1867,Soit Rennes soit Marseille,,,0,medium,ambiguous,contradictions
+1868,Hésitation entre Lille et Rennes,,,0,medium,ambiguous,contradictions
+1869,Hésitation entre Rennes et Paris,,,0,medium,ambiguous,contradictions
+1870,Je ne sais pas si Bordeaux ou Marseille,,,0,medium,ambiguous,contradictions
+1871,Je vais à Lyon ou Bordeaux,,,0,medium,ambiguous,contradictions
+1872,Je veux aller à Lille non à Rennes,,,0,medium,ambiguous,contradictions
+1873,Soit Nantes soit Paris,,,0,medium,ambiguous,contradictions
+1874,De Bordeaux à Rennes ou peut-être Lille,,,0,medium,ambiguous,contradictions
+1875,Peut-être Toulouse ou bien Marseille,,,0,medium,ambiguous,contradictions
+1876,Peut-être Lyon ou bien Nice,,,0,medium,ambiguous,contradictions
+1877,De Bordeaux à Nice ou peut-être Montpellier,,,0,medium,ambiguous,contradictions
+1878,Je vais à Rennes ah non plutôt Paris,,,0,medium,ambiguous,contradictions
+1879,Peut-être Paris ou bien Nantes,,,0,medium,ambiguous,contradictions
+1880,Je veux aller à Nantes non à Bordeaux,,,0,medium,ambiguous,contradictions
+1881,Peut-être Marseille ou bien Bordeaux,,,0,medium,ambiguous,contradictions
+1882,Je ne sais pas si Paris ou Bordeaux,,,0,medium,ambiguous,contradictions
+1883,Hésitation entre Lille et Montpellier,,,0,medium,ambiguous,contradictions
+1884,Je vais à Rennes ah non plutôt Bordeaux,,,0,medium,ambiguous,contradictions
+1885,Soit Nantes soit Lille,,,0,medium,ambiguous,contradictions
+1886,Je ne sais pas si Nantes ou Montpellier,,,0,medium,ambiguous,contradictions
+1887,Je vais à Montpellier ou Marseille,,,0,medium,ambiguous,contradictions
+1888,De Lyon à Toulouse ou peut-être Nice,,,0,medium,ambiguous,contradictions
+1889,De Paris à Toulouse ou peut-être Marseille,,,0,medium,ambiguous,contradictions
+1890,Je vais à Marseille ou Lyon,,,0,medium,ambiguous,contradictions
+1891,Je ne sais pas si Nantes ou Rennes,,,0,medium,ambiguous,contradictions
+1892,Je vais à Lille ah non plutôt Paris,,,0,medium,ambiguous,contradictions
+1893,Hésitation entre Bordeaux et Toulouse,,,0,medium,ambiguous,contradictions
+1894,Je vais à Bordeaux ah non plutôt Paris,,,0,medium,ambiguous,contradictions
+1895,Je veux aller à Toulouse non à Lille,,,0,medium,ambiguous,contradictions
+1896,Je veux aller à Rennes non à Paris,,,0,medium,ambiguous,contradictions
+1897,De Rennes à Bordeaux ou peut-être Nantes,,,0,medium,ambiguous,contradictions
+1898,Je veux aller à Marseille non à Rennes,,,0,medium,ambiguous,contradictions
+1899,Je veux aller à Paris non à Nantes,,,0,medium,ambiguous,contradictions
+1900,Je ne sais pas si Nice ou Lyon,,,0,medium,ambiguous,contradictions
+1901,De Lyon à Rennes ou peut-être Montpellier,,,0,medium,ambiguous,contradictions
+1902,De Paris à Marseille ou peut-être Montpellier,,,0,medium,ambiguous,contradictions
+1903,Je vais à Paris ou Nice,,,0,medium,ambiguous,contradictions
+1904,Je vais à Toulouse ou Nice,,,0,medium,ambiguous,contradictions
+1905,De Nantes à Lille ou peut-être Marseille,,,0,medium,ambiguous,contradictions
+1906,Hésitation entre Lyon et Bordeaux,,,0,medium,ambiguous,contradictions
+1907,Je vais à Montpellier ou Nice,,,0,medium,ambiguous,contradictions
+1908,Je veux aller à Bordeaux non à Nice,,,0,medium,ambiguous,contradictions
+1909,De Montpellier à Nantes ou peut-être Rennes,,,0,medium,ambiguous,contradictions
+1910,Hésitation entre Montpellier et Toulouse,,,0,medium,ambiguous,contradictions
+1911,Soit Paris soit Nice,,,0,medium,ambiguous,contradictions
+1912,Je vais à Nice ou Montpellier,,,0,medium,ambiguous,contradictions
+1913,Peut-être Lille ou bien Lyon,,,0,medium,ambiguous,contradictions
+1914,De Rennes à Lyon ou peut-être Nantes,,,0,medium,ambiguous,contradictions
+1915,Je ne sais pas si Nantes ou Nice,,,0,medium,ambiguous,contradictions
+1916,Je vais à Lyon ou Nantes,,,0,medium,ambiguous,contradictions
+1917,De Lyon à Paris ou peut-être Nice,,,0,medium,ambiguous,contradictions
+1918,Hésitation entre Nice et Lyon,,,0,medium,ambiguous,contradictions
+1919,Je vais à Nantes ou Montpellier,,,0,medium,ambiguous,contradictions
+1920,Soit Lyon soit Lille,,,0,medium,ambiguous,contradictions
+1921,Je veux aller à Toulouse non à Nantes,,,0,medium,ambiguous,contradictions
+1922,De Lyon à Toulouse ou peut-être Bordeaux,,,0,medium,ambiguous,contradictions
+1923,Je ne sais pas si Marseille ou Montpellier,,,0,medium,ambiguous,contradictions
+1924,De Nice à Lyon ou peut-être Nantes,,,0,medium,ambiguous,contradictions
+1925,Peut-être Bordeaux ou bien Lyon,,,0,medium,ambiguous,contradictions
+1926,Peut-être Lille ou bien Nice,,,0,medium,ambiguous,contradictions
+1927,Je veux aller à Lyon non à Bordeaux,,,0,medium,ambiguous,contradictions
+1928,Soit Nice soit Nantes,,,0,medium,ambiguous,contradictions
+1929,Peut-être Toulouse ou bien Rennes,,,0,medium,ambiguous,contradictions
+1930,Hésitation entre Toulouse et Nice,,,0,medium,ambiguous,contradictions
+1931,Je veux aller à Nantes non à Lille,,,0,medium,ambiguous,contradictions
+1932,Je vais à Nice ah non plutôt Toulouse,,,0,medium,ambiguous,contradictions
+1933,Peut-être Lyon ou bien Bordeaux,,,0,medium,ambiguous,contradictions
+1934,Peut-être Montpellier ou bien Lille,,,0,medium,ambiguous,contradictions
+1935,Je vais à Montpellier ou Lyon,,,0,medium,ambiguous,contradictions
+1936,Je vais à Nice ou Rennes,,,0,medium,ambiguous,contradictions
+1937,Je ne sais pas si Lyon ou Lille,,,0,medium,ambiguous,contradictions
+1938,Peut-être Nice ou bien Toulouse,,,0,medium,ambiguous,contradictions
+1939,Hésitation entre Toulouse et Lyon,,,0,medium,ambiguous,contradictions
+1940,Je vais à Paris ah non plutôt Lille,,,0,medium,ambiguous,contradictions
+1941,Je ne sais pas si Toulouse ou Montpellier,,,0,medium,ambiguous,contradictions
+1942,Je vais à Nantes ah non plutôt Bordeaux,,,0,medium,ambiguous,contradictions
+1943,Je vais à Rennes ah non plutôt Nantes,,,0,medium,ambiguous,contradictions
+1944,De Montpellier à Toulouse ou peut-être Marseille,,,0,medium,ambiguous,contradictions
+1945,De Bordeaux à Paris ou peut-être Rennes,,,0,medium,ambiguous,contradictions
+1946,Je vais à Nantes ou Lille,,,0,medium,ambiguous,contradictions
+1947,Je ne sais pas si Bordeaux ou Nantes,,,0,medium,ambiguous,contradictions
+1948,Je vais à Lille ou Bordeaux,,,0,medium,ambiguous,contradictions
+1949,De Rennes à Montpellier ou peut-être Nice,,,0,medium,ambiguous,contradictions
+1950,Hésitation entre Lyon et Nice,,,0,medium,ambiguous,contradictions
+1951,Soit Montpellier soit Marseille,,,0,medium,ambiguous,contradictions
+1952,Je pars de Nantes enfin non de Lyon,,,0,medium,ambiguous,conflicting information
+1953,Destination Paris correction Bordeaux,,,0,medium,ambiguous,conflicting information
+1954,Je pars de Marseille enfin non de Lille,,,0,medium,ambiguous,conflicting information
+1955,Je pars de Bordeaux enfin non de Marseille,,,0,medium,ambiguous,conflicting information
+1956,De Paris non attendez de Lyon vers Bordeaux,,,0,medium,ambiguous,conflicting information
+1957,Destination Lyon correction Toulouse,,,0,medium,ambiguous,conflicting information
+1958,Destination Nantes correction Bordeaux,,,0,medium,ambiguous,conflicting information
+1959,Je me suis trompé Bordeaux pas Lille,,,0,medium,ambiguous,conflicting information
+1960,De Rennes non attendez de Paris vers Montpellier,,,0,medium,ambiguous,conflicting information
+1961,Je me suis trompé Lille pas Marseille,,,0,medium,ambiguous,conflicting information
+1962,Je pars de Rennes enfin non de Nantes,,,0,medium,ambiguous,conflicting information
+1963,Je pars de Rennes enfin non de Lille,,,0,medium,ambiguous,conflicting information
+1964,Je me suis trompé Rennes pas Lille,,,0,medium,ambiguous,conflicting information
+1965,De Marseille non attendez de Bordeaux vers Montpellier,,,0,medium,ambiguous,conflicting information
+1966,Je me suis trompé Montpellier pas Nantes,,,0,medium,ambiguous,conflicting information
+1967,Destination Marseille correction Bordeaux,,,0,medium,ambiguous,conflicting information
+1968,Destination Bordeaux correction Lille,,,0,medium,ambiguous,conflicting information
+1969,Je me suis trompé Nantes pas Toulouse,,,0,medium,ambiguous,conflicting information
+1970,Je me suis trompé Nice pas Montpellier,,,0,medium,ambiguous,conflicting information
+1971,De Toulouse non attendez de Rennes vers Lille,,,0,medium,ambiguous,conflicting information
+1972,Je me suis trompé Montpellier pas Paris,,,0,medium,ambiguous,conflicting information
+1973,Destination Lille correction Rennes,,,0,medium,ambiguous,conflicting information
+1974,Je me suis trompé Nice pas Nantes,,,0,medium,ambiguous,conflicting information
+1975,Je me suis trompé Nantes pas Paris,,,0,medium,ambiguous,conflicting information
+1976,Je me suis trompé Nantes pas Bordeaux,,,0,medium,ambiguous,conflicting information
+1977,De Lille non attendez de Rennes vers Nice,,,0,medium,ambiguous,conflicting information
+1978,De Toulouse non attendez de Lille vers Marseille,,,0,medium,ambiguous,conflicting information
+1979,Je pars de Nantes enfin non de Marseille,,,0,medium,ambiguous,conflicting information
+1980,Je pars de Toulouse enfin non de Lille,,,0,medium,ambiguous,conflicting information
+1981,Destination Toulouse correction Rennes,,,0,medium,ambiguous,conflicting information
+1982,Destination Montpellier correction Bordeaux,,,0,medium,ambiguous,conflicting information
+1983,Je me suis trompé Rennes pas Montpellier,,,0,medium,ambiguous,conflicting information
+1984,Destination Toulouse correction Nice,,,0,medium,ambiguous,conflicting information
+1985,Destination Lyon correction Nantes,,,0,medium,ambiguous,conflicting information
+1986,Je pars de Marseille enfin non de Paris,,,0,medium,ambiguous,conflicting information
+1987,Destination Toulouse correction Montpellier,,,0,medium,ambiguous,conflicting information
+1988,Je me suis trompé Rennes pas Paris,,,0,medium,ambiguous,conflicting information
+1989,De Paris non attendez de Nantes vers Nice,,,0,medium,ambiguous,conflicting information
+1990,Je pars de Lyon enfin non de Bordeaux,,,0,medium,ambiguous,conflicting information
+1991,Je pars de Lille enfin non de Toulouse,,,0,medium,ambiguous,conflicting information
+1992,De Paris non attendez de Nantes vers Lille,,,0,medium,ambiguous,conflicting information
+1993,Destination Lyon correction Montpellier,,,0,medium,ambiguous,conflicting information
+1994,Je me suis trompé Marseille pas Toulouse,,,0,medium,ambiguous,conflicting information
+1995,Destination Lille correction Montpellier,,,0,medium,ambiguous,conflicting information
+1996,De Paris non attendez de Montpellier vers Lyon,,,0,medium,ambiguous,conflicting information
+1997,Je pars de Bordeaux enfin non de Rennes,,,0,medium,ambiguous,conflicting information
+1998,De Lyon non attendez de Nantes vers Lille,,,0,medium,ambiguous,conflicting information
+1999,Je pars de Nice enfin non de Nantes,,,0,medium,ambiguous,conflicting information
+2000,Destination Lyon correction Marseille,,,0,medium,ambiguous,conflicting information
