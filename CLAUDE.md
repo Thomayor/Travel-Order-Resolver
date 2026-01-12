@@ -116,6 +116,23 @@ python baseline.py  # Runs demo extraction
 2,INVALID,INVALID
 ```
 
+## Dataset Difficulty Levels
+
+The 10K dataset includes **3 difficulty levels** for valid orders, critically impacting model performance:
+
+### Distribution
+- **Easy (20.3%)**: Clear structure, correct spelling, unambiguous → Baseline: **87% accuracy**
+- **Medium (59.7%)**: Questions, inverted order, one name ambiguity → Baseline: **73% accuracy**
+- **Hard (20.0%)**: Misspellings, multiple ambiguous names, complex → Baseline: **35% accuracy**
+
+### Key Insight: Misspellings are ALWAYS Hard
+The category `misspelling` (721 sentences, 10.3% of valid orders) is **always classified as hard** and represents the **biggest performance gap**:
+- Baseline accuracy on misspellings: **7.6%** ❌
+- Root cause: Fuzzy matching not enabled in gazetteer
+- Quick fix: Enable `fuzzy_match(max_distance=2)` → Expected **+40-50%** on this category
+
+**Full documentation**: See [docs/DIFFICULTY_LEVELS.md](docs/DIFFICULTY_LEVELS.md) for complete criteria and examples.
+
 ## Key Implementation Details
 
 ### Preprocessing Pipeline

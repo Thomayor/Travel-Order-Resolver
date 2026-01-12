@@ -116,6 +116,13 @@ The model almost completely fails on misspelled city names. Examples:
 | **Medium** | **73.39%** | 3,067 | 4,179 | ✅ Good |
 | **Hard** | **34.84%** | 487 | 1,398 | ⚠️ Expected but low |
 
+**Note on Difficulty Levels**: The difficulty classification is based on linguistic complexity:
+- **Easy**: Clear structure, correct spelling, unambiguous keywords
+- **Medium**: Questions, inverted order, one name ambiguity, additional info
+- **Hard**: Misspellings (ALWAYS hard), multiple ambiguous names, complex syntax
+
+**Critical**: The `misspelling` category (721 sentences) is **always classified as hard** and accounts for 51.5% of all hard sentences. This category alone has 7.6% accuracy, dragging down the overall hard accuracy significantly. See [docs/DIFFICULTY_LEVELS.md](docs/DIFFICULTY_LEVELS.md) for complete definitions.
+
 **Difficulty Breakdown:**
 - **Easy sentences** (87% accuracy): Well-formatted, clear keywords, no ambiguity
 - **Medium sentences** (73% accuracy): Some ambiguity, non-standard patterns

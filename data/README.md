@@ -49,11 +49,15 @@ This directory contains the **production-ready 10,000-phrase dataset** for the T
 
 ### Valid Orders - Difficulty Distribution
 
-| Difficulty | Count | Percentage |
-|------------|-------|------------|
-| Easy | 1,423 | 20.3% |
-| Medium | 4,179 | 59.7% |
-| Hard | 1,398 | 20.0% |
+| Difficulty | Count | Percentage | Baseline Accuracy | Description |
+|------------|-------|------------|-------------------|-------------|
+| Easy | 1,423 | 20.3% | **87.14%** ✅ | Clear structure, correct spelling, no ambiguity |
+| Medium | 4,179 | 59.7% | **73.39%** ⚠️ | Questions, inverted order, one name ambiguity |
+| Hard | 1,398 | 20.0% | **34.84%** ❌ | Misspellings, multiple ambiguous names, complex syntax |
+
+**Important**: The `misspelling` category (721 sentences, 10.3%) is **always classified as hard** and represents the baseline model's biggest weakness (7.6% accuracy on this category alone). This is due to fuzzy matching not being enabled.
+
+**Full difficulty criteria**: See [../docs/DIFFICULTY_LEVELS.md](../docs/DIFFICULTY_LEVELS.md) for complete definitions and examples.
 
 ### Invalid Orders - Categories
 
