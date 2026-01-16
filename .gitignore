@@ -56,3 +56,4 @@ data/test.csv
 
 # Claude
 .claude/
+.mcp.json
