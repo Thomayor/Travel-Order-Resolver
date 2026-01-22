@@ -4,8 +4,13 @@ Dataset Conversion Script: CSV to NER Token Classification Format
 Converts the Travel Order Resolver dataset from CSV format to token-level
 NER format compatible with HuggingFace transformers.
 
-Input: dataset_final.csv with columns (sentenceID, sentence, origin, destination, is_valid, ...)
+Input: train.csv, val.csv, test.csv (pre-split stratified datasets)
+       Each with columns (sentenceID, sentence, origin, destination, is_valid, difficulty, category, ...)
 Output: train_ner.json, val_ner.json, test_ner.json with token-level labels
+
+IMPORTANT: This script uses the pre-split datasets created by split_dataset.py
+to maintain the stratified 33%/33%/34% difficulty distribution (easy/medium/hard).
+Run split_dataset.py first to generate train/val/test splits.
 
 Labels:
 - B-ORIGIN: Beginning of origin city
@@ -18,9 +23,16 @@ Labels:
 import csv
 import json
 import re
+import sys
 from typing import List, Tuple, Dict
 from pathlib import Path
 from sklearn.model_selection import train_test_split
+
+# Add src to path to import gazetteer
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root / 'src'))
+
+from nlp.gazetteer import Gazetteer
 
 
 def normalize_text_for_tokenization(text: str) -> str:
@@ -75,10 +87,11 @@ def normalize_city_name(city: str) -> str:
     return city.lower().strip()
 
 
-def find_entity_positions(tokens: List[str], entity: str) -> List[Tuple[int, int]]:
+def find_entity_positions(tokens: List[str], entity: str, gaz: Gazetteer) -> List[Tuple[int, int]]:
     """
     Find all positions where entity appears in token list.
     Handles multi-word entities like "Port-Boulet" or "Aix-en-Provence".
+    Uses fuzzy matching to handle misspellings.
 
     Returns list of (start_idx, end_idx) tuples.
     """
@@ -95,13 +108,41 @@ def find_entity_positions(tokens: List[str], entity: str) -> List[Tuple[int, int
     # Sliding window to find matches
     for i in range(len(tokens_normalized) - len(entity_normalized) + 1):
         window = tokens_normalized[i:i + len(entity_normalized)]
+
+        # Try exact match first
         if window == entity_normalized:
             positions.append((i, i + len(entity_normalized)))
+            continue
+
+        # Try fuzzy match
+        # Reconstruct full text from window (rejoin with appropriate separators)
+        window_text = ''
+        entity_text = ''
+        for j, token in enumerate(tokens[i:i+len(entity_normalized)]):
+            if token == '-':
+                window_text += token
+            else:
+                window_text += token if j == 0 or tokens[i+j-1] == '-' else ' ' + token
+
+        for j, token in enumerate(entity_tokens):
+            if token == '-':
+                entity_text += token
+            else:
+                entity_text += token if j == 0 or entity_tokens[j-1] == '-' else ' ' + token
+
+        # Use gazetteer fuzzy match
+        matches = gaz.fuzzy_match(window_text, max_distance=3)
+        if matches:
+            # Check if any match corresponds to the expected entity
+            for match_city, match_dist in matches:
+                if normalize_city_name(match_city) == normalize_city_name(entity_text):
+                    positions.append((i, i + len(entity_normalized)))
+                    break
 
     return positions
 
 
-def create_labels(tokens: List[str], origin: str, destination: str) -> List[str]:
+def create_labels(tokens: List[str], origin: str, destination: str, gaz: Gazetteer) -> List[str]:
     """
     Create BIO labels for tokens based on origin and destination.
 
@@ -114,9 +155,9 @@ def create_labels(tokens: List[str], origin: str, destination: str) -> List[str]
     """
     labels = ['O'] * len(tokens)
 
-    # Find positions
-    origin_positions = find_entity_positions(tokens, origin)
-    dest_positions = find_entity_positions(tokens, destination)
+    # Find positions (with fuzzy matching for misspellings)
+    origin_positions = find_entity_positions(tokens, origin, gaz)
+    dest_positions = find_entity_positions(tokens, destination, gaz)
 
     # Select best match using heuristic
     selected_origin = None
@@ -156,7 +197,7 @@ def create_labels(tokens: List[str], origin: str, destination: str) -> List[str]
     return labels
 
 
-def convert_sentence_to_ner(sentence: str, origin: str, destination: str, is_valid: int) -> Dict:
+def convert_sentence_to_ner(sentence: str, origin: str, destination: str, is_valid: int, gaz: Gazetteer) -> Dict:
     """
     Convert a single sentence to NER format.
 
@@ -171,7 +212,7 @@ def convert_sentence_to_ner(sentence: str, origin: str, destination: str, is_val
         # Invalid sentences: all tokens are 'O'
         labels = ['O'] * len(tokens)
     else:
-        labels = create_labels(tokens, origin, destination)
+        labels = create_labels(tokens, origin, destination, gaz)
 
     return {
         'tokens': tokens,
@@ -180,7 +221,10 @@ def convert_sentence_to_ner(sentence: str, origin: str, destination: str, is_val
 
 
 def load_and_convert_dataset(csv_path: str) -> List[Dict]:
-    """Load CSV and convert to NER format."""
+    """Load CSV and convert to NER format with fuzzy matching for misspellings."""
+    # Initialize gazetteer for fuzzy matching
+    gaz = Gazetteer()
+
     ner_data = []
 
     with open(csv_path, 'r', encoding='utf-8') as f:
@@ -192,7 +236,7 @@ def load_and_convert_dataset(csv_path: str) -> List[Dict]:
             destination = row.get('destination', '').strip()
             is_valid = int(row.get('is_valid', 0))
 
-            ner_example = convert_sentence_to_ner(sentence, origin, destination, is_valid)
+            ner_example = convert_sentence_to_ner(sentence, origin, destination, is_valid, gaz)
 
             # Add metadata for analysis
             ner_example['metadata'] = {
@@ -291,21 +335,33 @@ def main():
 
     # Paths
     project_root = Path(__file__).parent.parent
-    dataset_path = project_root / 'data' / 'dataset_final.csv'
+    train_csv_path = project_root / 'data' / 'train.csv'
+    val_csv_path = project_root / 'data' / 'val.csv'
+    test_csv_path = project_root / 'data' / 'test.csv'
     output_dir = project_root / 'data'
 
-    # Check if dataset exists
-    if not dataset_path.exists():
-        print(f"Error: Dataset not found at {dataset_path}")
+    # Check if split datasets exist
+    if not train_csv_path.exists() or not val_csv_path.exists() or not test_csv_path.exists():
+        print("Error: Split datasets not found!")
+        print("Expected files:")
+        print(f"  - {train_csv_path}")
+        print(f"  - {val_csv_path}")
+        print(f"  - {test_csv_path}")
+        print("\nPlease run split_dataset.py first to create train/val/test splits")
         return
 
-    print(f"Loading dataset from {dataset_path}")
-    ner_data = load_and_convert_dataset(str(dataset_path))
-    print(f"Loaded {len(ner_data)} sentences")
+    # Load pre-split datasets (maintains stratified 33/33/34 difficulty distribution)
+    print(f"Loading training data from {train_csv_path}")
+    train = load_and_convert_dataset(str(train_csv_path))
+    print(f"Loaded {len(train)} training examples")
 
-    # Split dataset
-    print("\nSplitting dataset (70% train, 15% val, 15% test)")
-    train, val, test = split_dataset(ner_data)
+    print(f"\nLoading validation data from {val_csv_path}")
+    val = load_and_convert_dataset(str(val_csv_path))
+    print(f"Loaded {len(val)} validation examples")
+
+    print(f"\nLoading test data from {test_csv_path}")
+    test = load_and_convert_dataset(str(test_csv_path))
+    print(f"Loaded {len(test)} test examples")
 
     # Save splits
     train_path = output_dir / 'train_ner.json'

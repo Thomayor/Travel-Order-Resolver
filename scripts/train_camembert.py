@@ -7,7 +7,7 @@ Usage:
     python scripts/train_camembert.py
 
 Hyperparameters (can be modified):
-    - epochs: 4
+    - epochs: 20
     - batch_size: 16
     - learning_rate: 2e-5
     - warmup_ratio: 0.1
@@ -37,7 +37,7 @@ def main():
                         help='Path to validation data')
     parser.add_argument('--output', type=str, default='models/camembert-ner',
                         help='Output directory for model')
-    parser.add_argument('--epochs', type=int, default=4,
+    parser.add_argument('--epochs', type=int, default=20,
                         help='Number of training epochs')
     parser.add_argument('--batch-size', type=int, default=16,
                         help='Batch size per device')

@@ -6,19 +6,45 @@ This directory contains trained models for the Travel Order Resolver project.
 
 The fine-tuned CamemBERT model for Named Entity Recognition is **not included in this repository** due to its large size (~440MB).
 
+### 🎯 Latest Model: v1.0 (2026-01-22)
+
+**Performance achieved:**
+- **Overall Accuracy: 96.76%** (Target: 85%) ✅
+- Easy sentences: **100.00%**
+- Medium sentences: **96.21%**
+- Hard sentences: **93.98%**
+- Improvement vs Baseline: **+52.57%**
+
+**Training details:**
+- Dataset: 10,000 sentences (7,000 train + 1,500 val + 1,500 test)
+- Templates: 600 templates (200 easy / 200 medium / 200 hard)
+- Distribution: 33% easy / 33% medium / 34% hard
+- Epochs: 20
+- Model: camembert-base fine-tuned on NER task
+- See full results: [results/camembert_evaluation.json](../results/camembert_evaluation.json)
+
 ### Option 1: Download Pre-trained Model (Recommended)
 
 **For team members:** Download the pre-trained model to avoid re-training.
 
-1. **Download link**: [TO BE ADDED - Upload to Google Drive/HuggingFace after training]
+1. **Download link**:
+
+   📦 **https://drive.google.com/drive/folders/165JA7C1AGRt203LoyilBYSSXYsXLRCWZ?usp=sharing**
+
+   *(Upload camembert-ner.tar.gz or camembert-ner.zip to shared Google Drive)*
 
 2. **Extract to this directory**:
    ```bash
+   # Windows (with tar)
+   tar -xzf camembert-ner.tar.gz -C models/
+
+   # Or use 7-Zip / WinRAR to extract to models/camembert-ner/
+
    # Expected structure:
    models/
    └── camembert-ner/
        ├── config.json
-       ├── pytorch_model.bin
+       ├── pytorch_model.bin         (~440MB)
        ├── tokenizer_config.json
        ├── sentencepiece.bpe.model
        └── special_tokens_map.json
@@ -26,8 +52,10 @@ The fine-tuned CamemBERT model for Named Entity Recognition is **not included in
 
 3. **Verify installation**:
    ```bash
-   python scripts/demo_camembert.py
+   python scripts/evaluate_camembert.py
    ```
+
+   Expected output: **96.76% accuracy** ✅
 
 ### Option 2: Train Model Yourself
 
@@ -65,17 +93,15 @@ If you want to train the model from scratch:
    python scripts/evaluate_camembert.py
    ```
 
-### Model Performance
+### Model Performance History
 
-**Target**: ≥85% accuracy (vs 70% baseline)
+**v1.0 (2026-01-22) - Current Model ✅**
+- Overall Accuracy: **96.76%** (Target: 85%)
+- Easy: 100.00% | Medium: 96.21% | Hard: 93.98%
+- Improvement vs Baseline: **+52.57%**
+- Training: 20 epochs on 600-template dataset
 
-Expected results after training:
-- Overall Accuracy: **87-90%**
-- Easy sentences: **95%+**
-- Medium sentences: **88-92%**
-- Hard sentences: **70-75%**
-
-See [docs/camembert_training.md](../docs/camembert_training.md) for detailed training guide.
+See [docs/FIX_CONVERT_NER_SPLIT.md](../docs/FIX_CONVERT_NER_SPLIT.md) for implementation details.
 
 ---
 
@@ -85,23 +111,54 @@ After training the model, the person who trained it should:
 
 1. **Compress the model**:
    ```bash
-   # Windows
-   tar -czf camembert-ner.tar.gz camembert-ner/
+   # Option A: Using tar (Git Bash / WSL)
+   cd models/
+   tar -czf camembert-ner-v1.0.tar.gz camembert-ner/
 
-   # Or use 7-Zip / WinRAR
+   # Option B: Using 7-Zip (Windows)
+   # Right-click camembert-ner/ → 7-Zip → Add to archive
+   # Format: .zip or .tar.gz
    ```
 
-2. **Upload to cloud storage**:
-   - Google Drive (team shared folder)
-   - HuggingFace Hub
-   - OneDrive / Dropbox
+2. **Upload to Google Drive**:
+   - Navigate to team's shared Google Drive folder
+   - Create folder: `T-AIA-911-Models/`
+   - Upload `camembert-ner-v1.0.tar.gz` (~440MB compressed)
+   - Set sharing permissions: "Anyone with the link can view"
+   - Copy the shareable link
 
-3. **Update this README** with download link
+3. **Update this README**:
+   - Replace `[GOOGLE DRIVE LINK TO BE ADDED HERE]` with actual link
+   - Format: `https://drive.google.com/file/d/FILE_ID/view?usp=sharing`
+   - Commit and push the updated README
 
-4. **Share results**:
-   - Commit `results/camembert_evaluation.json`
-   - Commit `results/camembert_errors.csv`
-   - Update team on performance metrics
+4. **Share results with team**:
+   ```bash
+   git add results/camembert_evaluation.json
+   git add results/camembert_errors.csv
+   git add models/README.md
+   git commit -m "feat(KAN-53): Add CamemBERT v1.0 model (96.76% accuracy)
+
+   - Model uploaded to Google Drive
+   - Overall accuracy: 96.76% (target: 85%)
+   - Performance: easy 100%, medium 96.21%, hard 93.98%
+   - See models/README.md for download instructions"
+   git push
+   ```
+
+5. **Notify team** with performance summary:
+   ```
+   🎉 CamemBERT v1.0 trained successfully!
+
+   📊 Performance:
+   - Overall: 96.76% (target: 85%) ✅
+   - Easy: 100.00%
+   - Medium: 96.21%
+   - Hard: 93.98%
+
+   📦 Model available on Google Drive
+   📖 See models/README.md for download instructions
+   ```
 
 ---
 
@@ -148,4 +205,4 @@ Use Google Colab with free GPU (Tesla T4, ~2-4 hours):
 
 ---
 
-**Last Updated**: 2026-01-16
+**Last Updated**: 2026-01-22 (v1.0 model trained - 96.76% accuracy)
