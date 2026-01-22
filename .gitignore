@@ -40,6 +40,11 @@ models/*.pt
 models/*.pth
 models/*.h5
 models/*.pkl
+# CamemBERT fine-tuned models (very large ~440MB+)
+models/camembert-ner/
+models/checkpoint-*/
+# Keep only model README
+!models/README.md
 
 # Data
 data/raw/*.csv
@@ -47,9 +52,24 @@ data/raw/*.json
 data/train.csv
 data/val.csv
 data/test.csv
+# Keep NER datasets (needed for training by team members)
+# data/train_ner.json
+# data/val_ner.json
+# data/test_ner.json
+
+# Results - keep final results, ignore intermediate ones
+results/checkpoint-*/
+results/tmp_*
+# Keep final evaluation results
+!results/camembert_evaluation.json
+!results/camembert_errors.csv
 
 # Logs
 *.log
+logs/
+# TensorBoard logs
+runs/
+tensorboard/
 
 # Environment
 .env

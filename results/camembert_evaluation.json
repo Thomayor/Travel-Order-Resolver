@@ -1,0 +1,2889 @@
+{
+  "accuracy": 0.7304761904761905,
+  "correct": 767,
+  "total": 1050,
+  "by_category": {
+    "misspelling": {
+      "correct": 6,
+      "total": 119
+    },
+    "inverted_order": {
+      "correct": 152,
+      "total": 152
+    },
+    "no_markers": {
+      "correct": 105,
+      "total": 105
+    },
+    "name_ambiguity": {
+      "correct": 118,
+      "total": 167
+    },
+    "additional_info": {
+      "correct": 55,
+      "total": 55
+    },
+    "compound_name": {
+      "correct": 46,
+      "total": 78
+    },
+    "no_capitals": {
+      "correct": 0,
+      "total": 89
+    },
+    "standard": {
+      "correct": 263,
+      "total": 263
+    },
+    "complex_question": {
+      "correct": 22,
+      "total": 22
+    }
+  },
+  "by_difficulty": {
+    "hard": {
+      "correct": 55,
+      "total": 216
+    },
+    "medium": {
+      "correct": 509,
+      "total": 631
+    },
+    "easy": {
+      "correct": 203,
+      "total": 203
+    }
+  },
+  "errors": [
+    {
+      "sentenceID": "909",
+      "sentence": "bilet marsel toulouse",
+      "expected_origin": "Marseille",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "",
+      "predicted_dest": "toulouse",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5139",
+      "sentence": "Comment aller a Bordeaus depuis Clermont - Ferrand",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "Clermont-Ferrand",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4473",
+      "sentence": "un billet marceille nante",
+      "expected_origin": "Marseille",
+      "expected_dest": "Nantes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4657",
+      "sentence": "billet villeurbanne limoges",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Limoges",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "limoges",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6385",
+      "sentence": "Comment aller a Aix - en - Provenc depuis Lille",
+      "expected_origin": "Lille",
+      "expected_dest": "Aix-en-Provence",
+      "predicted_origin": "Lille",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3216",
+      "sentence": "Je souhaite me rendre a Bordeaux depui Limmoges",
+      "expected_origin": "Limoges",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "",
+      "predicted_dest": "Bordeaux",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3308",
+      "sentence": "je veux aller de marsel à tour",
+      "expected_origin": "Marseille",
+      "expected_dest": "Tours",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1731",
+      "sentence": "billet aix - en - provence paris",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Paris",
+      "predicted_origin": "aix-en-provence",
+      "predicted_dest": "paris",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2248",
+      "sentence": "billet nantes limoges",
+      "expected_origin": "Nantes",
+      "expected_dest": "Limoges",
+      "predicted_origin": "nantes",
+      "predicted_dest": "limoges",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9939",
+      "sentence": "je voudrais un billet de tours a montpellier",
+      "expected_origin": "Tours",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "tours",
+      "predicted_dest": "montpellier",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4724",
+      "sentence": "bilet lee mans lionne",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Lyon",
+      "predicted_origin": "lee",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1125",
+      "sentence": "comment aller a angeers depuis nice",
+      "expected_origin": "Nice",
+      "expected_dest": "Angers",
+      "predicted_origin": "nice",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1204",
+      "sentence": "comment aller a saint - étienne depuis le mans",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "le mans",
+      "predicted_dest": "saint-étienne",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5412",
+      "sentence": "je veux aller de le manns à toulo",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Toulon",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2558",
+      "sentence": "je voudrais un bilet de saint - étienn à clermont - - ferrand",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "",
+      "predicted_dest": "clermont--ferrand",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7875",
+      "sentence": "un billet monntpellier nîmes",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "nîmes",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "498",
+      "sentence": "Commen aler de Reim a Montpellier",
+      "expected_origin": "Reims",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "",
+      "predicted_dest": "Montpellier",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4803",
+      "sentence": "Je veux aller de Bordo à Lilles",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Lille",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9881",
+      "sentence": "trajet reims tours",
+      "expected_origin": "Reims",
+      "expected_dest": "Tours",
+      "predicted_origin": "reims",
+      "predicted_dest": "tours",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5696",
+      "sentence": "commen aler de reims a metz",
+      "expected_origin": "Reims",
+      "expected_dest": "Metz",
+      "predicted_origin": "reims",
+      "predicted_dest": "metz",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "311",
+      "sentence": "trajet aix - en - provence angers",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Angers",
+      "predicted_origin": "aix-en-provence",
+      "predicted_dest": "angers",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5127",
+      "sentence": "Je souhaite me rendre à Salon de Provence en partant de Saint Étienne",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Salon-de-Provence",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7162",
+      "sentence": "je voudrais un billet de nice a reims",
+      "expected_origin": "Nice",
+      "expected_dest": "Reims",
+      "predicted_origin": "nice",
+      "predicted_dest": "reims",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5238",
+      "sentence": "Je veux aller de Villeurbann à Nîmees",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7071",
+      "sentence": "De Dijon vers Saint Étienne",
+      "expected_origin": "Dijon",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "Dijon",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6443",
+      "sentence": "Je veux aller de Lion à Dijo",
+      "expected_origin": "Lyon",
+      "expected_dest": "Dijon",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "293",
+      "sentence": "Je souhaite me rendre à La Roche sur Yon en partant de Nîmes",
+      "expected_origin": "Nîmes",
+      "expected_dest": "La Roche-sur-Yon",
+      "predicted_origin": "Nîmes",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7375",
+      "sentence": "bilet reiims le man",
+      "expected_origin": "Reims",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8944",
+      "sentence": "je veux aller de villeurbannne à toulouse",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "",
+      "predicted_dest": "toulouse",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6003",
+      "sentence": "Je voudrais un bilet de Clermont - Ferran à Saint - Étienne",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "Saint-Étienne",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7846",
+      "sentence": "trajet tours toulouse",
+      "expected_origin": "Tours",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "tours",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6592",
+      "sentence": "Comment aller à Saint Étienne depuis Brest",
+      "expected_origin": "Brest",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "Brest",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3224",
+      "sentence": "Je veux aller de Aix en Provence à Lyon",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Lyon",
+      "predicted_origin": "",
+      "predicted_dest": "Lyon",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7419",
+      "sentence": "je voudrais un billet de marseille a aix - en - provence",
+      "expected_origin": "Marseille",
+      "expected_dest": "Aix-en-Provence",
+      "predicted_origin": "marseille",
+      "predicted_dest": "aix-en-provence",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5429",
+      "sentence": "un billet reims saint - étienn",
+      "expected_origin": "Reims",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "reims",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3989",
+      "sentence": "retrouver rémy à toulouse en partant de aix - en - provence",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "aix-en-provence",
+      "predicted_dest": "toulouse",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9562",
+      "sentence": "de toulon vers reims",
+      "expected_origin": "Toulon",
+      "expected_dest": "Reims",
+      "predicted_origin": "toulon",
+      "predicted_dest": "reims",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1298",
+      "sentence": "Trajet Saint - Étienn Monttpellier",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7483",
+      "sentence": "Un billet Peerpignan Lill",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Lille",
+      "predicted_origin": "Peerpignan",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7355",
+      "sentence": "Bilet Nices Nantez",
+      "expected_origin": "Nice",
+      "expected_dest": "Nantes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5195",
+      "sentence": "je veux aller de annecy à tooulon",
+      "expected_origin": "Annecy",
+      "expected_dest": "Toulon",
+      "predicted_origin": "annecy",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7777",
+      "sentence": "Je souhaite me rendre a Clermont - Ferraand depui Limoge",
+      "expected_origin": "Limoges",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "680",
+      "sentence": "paris , lourdes et moi voulons aller de angers à rennes",
+      "expected_origin": "Angers",
+      "expected_dest": "Rennes",
+      "predicted_origin": "angers",
+      "predicted_dest": "rennes",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5319",
+      "sentence": "comment aller a limoges depuis villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Limoges",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "limoges",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4668",
+      "sentence": "Train de Nantes à Aix les Bains",
+      "expected_origin": "Nantes",
+      "expected_dest": "Aix-les-Bains",
+      "predicted_origin": "Nantes",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9415",
+      "sentence": "commen aler de tolouse a marseile",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Marseille",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5472",
+      "sentence": "Comment aller à Bourg en Bresse depuis Saint Étienne",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Bourg-en-Bresse",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5935",
+      "sentence": "je veux aller de anger à montpelliier",
+      "expected_origin": "Angers",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2317",
+      "sentence": "avec mes amis lourdes et albert , je voudrais aller de perpignan à paris",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Paris",
+      "predicted_origin": "perpignan",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "26",
+      "sentence": "de villeurbanne vers toulouse",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3644",
+      "sentence": "Je veux aller de Bourg en Bresse à Tours",
+      "expected_origin": "Bourg-en-Bresse",
+      "expected_dest": "Tours",
+      "predicted_origin": "",
+      "predicted_dest": "Tours",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1464",
+      "sentence": "Commen aler de Lion a Limogees",
+      "expected_origin": "Lyon",
+      "expected_dest": "Limoges",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3203",
+      "sentence": "rémy , lourdes et moi voulons aller de toulouse à le mans",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "toulouse",
+      "predicted_dest": "le mans",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3802",
+      "sentence": "je voudrais un billet de le havre a nantes",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Nantes",
+      "predicted_origin": "le havre",
+      "predicted_dest": "nantes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4787",
+      "sentence": "Un billet Le Maans Le Havr",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8123",
+      "sentence": "un train de nantes a perpignan",
+      "expected_origin": "Nantes",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "nantes",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3595",
+      "sentence": "un billet clermont - ferrand montpellier s'il vous plait",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "clermont-ferrand",
+      "predicted_dest": "montpellier",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7116",
+      "sentence": "Un billet de Grenoble pour Port Boulet",
+      "expected_origin": "Grenoble",
+      "expected_dest": "Port-Boulet",
+      "predicted_origin": "Grenoble",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6332",
+      "sentence": "Je veux aller de Annec à Nîme",
+      "expected_origin": "Annecy",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8820",
+      "sentence": "albert , paris et moi voulons aller de nice à le mans",
+      "expected_origin": "Nice",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "nice",
+      "predicted_dest": "le mans",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "870",
+      "sentence": "De Strasbourg vers La Roche sur Yon",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "La Roche-sur-Yon",
+      "predicted_origin": "Strasbourg",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5405",
+      "sentence": "Billet Nice Port Boulet",
+      "expected_origin": "Nice",
+      "expected_dest": "Port-Boulet",
+      "predicted_origin": "Nice",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "639",
+      "sentence": "bilet le hhavre nîmmes",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8499",
+      "sentence": "retrouver rémy à florence en partant de grenoble",
+      "expected_origin": "Grenoble",
+      "expected_dest": "Florence",
+      "predicted_origin": "grenoble",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6708",
+      "sentence": "clément , florence et moi voulons aller de grenoble à paris",
+      "expected_origin": "Grenoble",
+      "expected_dest": "Paris",
+      "predicted_origin": "grenoble",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "225",
+      "sentence": "un train de nice a rennes",
+      "expected_origin": "Nice",
+      "expected_dest": "Rennes",
+      "predicted_origin": "nice",
+      "predicted_dest": "rennes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8299",
+      "sentence": "un train de lyon a perpignan",
+      "expected_origin": "Lyon",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "lyon",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8086",
+      "sentence": "comment aller a clermont - ferrand depuis tours",
+      "expected_origin": "Tours",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "tours",
+      "predicted_dest": "clermont-ferrand",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7043",
+      "sentence": "Je veux aller de Dijon à La Roche sur Yon",
+      "expected_origin": "Dijon",
+      "expected_dest": "La Roche-sur-Yon",
+      "predicted_origin": "Dijon",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4933",
+      "sentence": "retrouver paris à nice en partant de marseille",
+      "expected_origin": "Marseille",
+      "expected_dest": "Nice",
+      "predicted_origin": "marseille",
+      "predicted_dest": "nice",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7391",
+      "sentence": "comment aller a dijon depuis brest",
+      "expected_origin": "Brest",
+      "expected_dest": "Dijon",
+      "predicted_origin": "brest",
+      "predicted_dest": "dijon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5136",
+      "sentence": "Un billet Nices Grenobl",
+      "expected_origin": "Nice",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3533",
+      "sentence": "Je vais à Paris voir mon ami Paris en partant de Le Mans",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Paris",
+      "predicted_origin": "Le Mans",
+      "predicted_dest": "",
+      "category": "name_ambiguity",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8605",
+      "sentence": "trajet le havvre bordo",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4513",
+      "sentence": "Billet Aix les Bains Saint Étienne",
+      "expected_origin": "Aix-les-Bains",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1521",
+      "sentence": "un billet perpigna toure",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Tours",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9657",
+      "sentence": "avec mes amis paris et lourdes , je voudrais aller de dijon à clermont - ferrand",
+      "expected_origin": "Dijon",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "dijon",
+      "predicted_dest": "clermont-ferrand",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3736",
+      "sentence": "Un billet de Toulouse pour Bourg en Bresse",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Bourg-en-Bresse",
+      "predicted_origin": "Toulouse",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8312",
+      "sentence": "je souhaite me rendre a metz depuis toulouse",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Metz",
+      "predicted_origin": "toulouse",
+      "predicted_dest": "metz",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8029",
+      "sentence": "je veux aller de nante à nîmmes",
+      "expected_origin": "Nantes",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6382",
+      "sentence": "je voudrais un billet de brest a reims",
+      "expected_origin": "Brest",
+      "expected_dest": "Reims",
+      "predicted_origin": "brest",
+      "predicted_dest": "reims",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4138",
+      "sentence": "comment aller a montpellier depuis limoges",
+      "expected_origin": "Limoges",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "limoges",
+      "predicted_dest": "montpellier",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7769",
+      "sentence": "Je souhaite me rendre a Strasbourg depui Clermont - Ferran",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_dest": "Strasbourg",
+      "predicted_origin": "",
+      "predicted_dest": "Strasbourg",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6881",
+      "sentence": "je dois aller de nice a marseille",
+      "expected_origin": "Nice",
+      "expected_dest": "Marseille",
+      "predicted_origin": "nice",
+      "predicted_dest": "marseille",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8893",
+      "sentence": "commen aler de tolouse a diijon",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Dijon",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "532",
+      "sentence": "je voyage avec rémy et clément de angers vers paris",
+      "expected_origin": "Angers",
+      "expected_dest": "Paris",
+      "predicted_origin": "angers",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3838",
+      "sentence": "je voudrais un bilet de grenoble à rennes",
+      "expected_origin": "Grenoble",
+      "expected_dest": "Rennes",
+      "predicted_origin": "grenoble",
+      "predicted_dest": "rennes",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3390",
+      "sentence": "retrouver rémy à amiens en partant de saint - étienne",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Amiens",
+      "predicted_origin": "saint-étienne",
+      "predicted_dest": "amiens",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7854",
+      "sentence": "un billet metz rennnes",
+      "expected_origin": "Metz",
+      "expected_dest": "Rennes",
+      "predicted_origin": "metz",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6971",
+      "sentence": "Je souhaite me rendre a Perpigna depui Saint - Étienn",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5682",
+      "sentence": "Je souhaite me rendre à Reims en partant de Aix les Bains",
+      "expected_origin": "Aix-les-Bains",
+      "expected_dest": "Reims",
+      "predicted_origin": "",
+      "predicted_dest": "Reims",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4730",
+      "sentence": "Comment aller à Saint Étienne depuis Annecy",
+      "expected_origin": "Annecy",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "Annecy",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4494",
+      "sentence": "je voyage avec lourdes et florence de paris vers le havre",
+      "expected_origin": "Paris",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "paris",
+      "predicted_dest": "le havre",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7679",
+      "sentence": "un train de paris a rennes",
+      "expected_origin": "Paris",
+      "expected_dest": "Rennes",
+      "predicted_origin": "paris",
+      "predicted_dest": "rennes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5279",
+      "sentence": "Trajet Strasbourg Aix les Bains",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Aix-les-Bains",
+      "predicted_origin": "Strasbourg",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6529",
+      "sentence": "Commen aler de Marseile a Clermont - Ferran",
+      "expected_origin": "Marseille",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6604",
+      "sentence": "Trajet Dijo Saint - Étienne",
+      "expected_origin": "Dijon",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "Saint-Étienne",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8163",
+      "sentence": "je dois aller de tours a toulouse",
+      "expected_origin": "Tours",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "tours",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2524",
+      "sentence": "un train de amiens a paris",
+      "expected_origin": "Amiens",
+      "expected_dest": "Paris",
+      "predicted_origin": "amiens",
+      "predicted_dest": "paris",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7984",
+      "sentence": "je voyage avec rémy et paris de montpellier vers clermont - ferrand",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "montpellier",
+      "predicted_dest": "clermont-ferrand",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7915",
+      "sentence": "florence , clément et moi voulons aller de angers à florence",
+      "expected_origin": "Angers",
+      "expected_dest": "Florence",
+      "predicted_origin": "angers",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3826",
+      "sentence": "je voyage avec paris et clément de perpignan vers le havre",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "perpignan",
+      "predicted_dest": "le havre",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5590",
+      "sentence": "Un billet Clermont - Ferrand Paric",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_dest": "Paris",
+      "predicted_origin": "Clermont-Ferrand",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5369",
+      "sentence": "retrouver florence à villeurbanne en partant de perpignan",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "perpignan",
+      "predicted_dest": "villeurbanne",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5351",
+      "sentence": "comment aller a perpignan depuis rennes",
+      "expected_origin": "Rennes",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "rennes",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4497",
+      "sentence": "billet bordeaux annecy",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Annecy",
+      "predicted_origin": "bordeaux",
+      "predicted_dest": "annecy",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2661",
+      "sentence": "je veux aller de toulon a reims",
+      "expected_origin": "Toulon",
+      "expected_dest": "Reims",
+      "predicted_origin": "toulon",
+      "predicted_dest": "reims",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9020",
+      "sentence": "Je veux aller de Metz à Bordeau",
+      "expected_origin": "Metz",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "Metz",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6208",
+      "sentence": "avec mes amis florence et paris , je voudrais aller de metz à le mans",
+      "expected_origin": "Metz",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "metz",
+      "predicted_dest": "le mans",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5597",
+      "sentence": "un train de dijon a le havre",
+      "expected_origin": "Dijon",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "dijon",
+      "predicted_dest": "le havre",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3149",
+      "sentence": "je souhaite me rendre a nice depuis limoges",
+      "expected_origin": "Limoges",
+      "expected_dest": "Nice",
+      "predicted_origin": "limoges",
+      "predicted_dest": "nice",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5901",
+      "sentence": "Trajet Angers Brrest",
+      "expected_origin": "Angers",
+      "expected_dest": "Brest",
+      "predicted_origin": "Angers",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7968",
+      "sentence": "bilet bres viilleurbanne",
+      "expected_origin": "Brest",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8105",
+      "sentence": "comment aller a lyon depuis toulouse",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Lyon",
+      "predicted_origin": "toulouse",
+      "predicted_dest": "lyon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2060",
+      "sentence": "je souhaite me rendre a limoges depuis villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Limoges",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "limoges",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8196",
+      "sentence": "je veux aller de aix - en - provenc à bordeaus",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2571",
+      "sentence": "je veux aller de annec à nices",
+      "expected_origin": "Annecy",
+      "expected_dest": "Nice",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1718",
+      "sentence": "je voudrais un bilet de lyon à nîmees",
+      "expected_origin": "Lyon",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "lyon",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3402",
+      "sentence": "comment aller a bordeau depuis dijon",
+      "expected_origin": "Dijon",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "dijon",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9924",
+      "sentence": "de villeurbanne vers strasbourg",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Strasbourg",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "strasbourg",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1525",
+      "sentence": "de strasbourg vers nice",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Nice",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "nice",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6433",
+      "sentence": "je souhaite me rendre a metz depui reiims",
+      "expected_origin": "Reims",
+      "expected_dest": "Metz",
+      "predicted_origin": "",
+      "predicted_dest": "metz",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9548",
+      "sentence": "Trajet Salon de Provence Amiens",
+      "expected_origin": "Salon-de-Provence",
+      "expected_dest": "Amiens",
+      "predicted_origin": "",
+      "predicted_dest": "Amiens",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2620",
+      "sentence": "Billet Châlons en Champagne Saint Étienne",
+      "expected_origin": "Châlons-en-Champagne",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "36",
+      "sentence": "avec mes amis rémy et paris , je voudrais aller de le havre à nantes",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Nantes",
+      "predicted_origin": "le havre",
+      "predicted_dest": "nantes",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7715",
+      "sentence": "je veux aller de dijon a toulon",
+      "expected_origin": "Dijon",
+      "expected_dest": "Toulon",
+      "predicted_origin": "dijon",
+      "predicted_dest": "toulon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2547",
+      "sentence": "Je souhaite me rendre à Grenoble en partant de Salon de Provence",
+      "expected_origin": "Salon-de-Provence",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "",
+      "predicted_dest": "Grenoble",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1595",
+      "sentence": "un train de rennes a bordeaux",
+      "expected_origin": "Rennes",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "rennes",
+      "predicted_dest": "bordeaux",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9427",
+      "sentence": "je voudrais un billet de le havre a le mans",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "le havre",
+      "predicted_dest": "le mans",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6925",
+      "sentence": "Trajet Annec Limoges",
+      "expected_origin": "Annecy",
+      "expected_dest": "Limoges",
+      "predicted_origin": "",
+      "predicted_dest": "Limoges",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8019",
+      "sentence": "trajet angers tours",
+      "expected_origin": "Angers",
+      "expected_dest": "Tours",
+      "predicted_origin": "angers",
+      "predicted_dest": "tours",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1381",
+      "sentence": "avec mes amis rémy et clément , je voudrais aller de toulouse à angers",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Angers",
+      "predicted_origin": "toulouse",
+      "predicted_dest": "angers",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3572",
+      "sentence": "comment aller a annecy depuis nice",
+      "expected_origin": "Nice",
+      "expected_dest": "Annecy",
+      "predicted_origin": "nice",
+      "predicted_dest": "annecy",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8400",
+      "sentence": "Je veux aller de Nîmes à Saint - Étieenne",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "Nîmes",
+      "predicted_dest": "Saint-",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6573",
+      "sentence": "retrouver rémy à florence en partant de rennes",
+      "expected_origin": "Rennes",
+      "expected_dest": "Florence",
+      "predicted_origin": "rennes",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3998",
+      "sentence": "Trajet Villeurbann Anggers",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Angers",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "931",
+      "sentence": "Comment aller à Metz depuis Salon de Provence",
+      "expected_origin": "Salon-de-Provence",
+      "expected_dest": "Metz",
+      "predicted_origin": "",
+      "predicted_dest": "Metz",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3969",
+      "sentence": "je souhaite me rendre a bordo depui marceille",
+      "expected_origin": "Marseille",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2227",
+      "sentence": "retrouver clément à grenoble en partant de dijon",
+      "expected_origin": "Dijon",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "dijon",
+      "predicted_dest": "grenoble",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8407",
+      "sentence": "un train de amiens a toulon",
+      "expected_origin": "Amiens",
+      "expected_dest": "Toulon",
+      "predicted_origin": "amiens",
+      "predicted_dest": "toulon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4029",
+      "sentence": "je veux aller de strasbourg à bordeaux",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "bordeaux",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6175",
+      "sentence": "je veux aller de anger à clermont - fferrand",
+      "expected_origin": "Angers",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "anger",
+      "predicted_dest": "clermont-fferrand",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3174",
+      "sentence": "je souhaite me rendre a nîmes depuis montpellier",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "montpellier",
+      "predicted_dest": "nîmes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4733",
+      "sentence": "Trajet Dijon Limoge",
+      "expected_origin": "Dijon",
+      "expected_dest": "Limoges",
+      "predicted_origin": "Dijon",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5856",
+      "sentence": "trajet aix - en - provence lyon",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Lyon",
+      "predicted_origin": "aix-en-provence",
+      "predicted_dest": "lyon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2195",
+      "sentence": "retrouver rémy à lyon en partant de villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Lyon",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "lyon",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "44",
+      "sentence": "Comment aller a Anneecy depuis Perpignan",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Annecy",
+      "predicted_origin": "Perpignan",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9136",
+      "sentence": "comment aller a nante depuis nîîmes",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Nantes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9949",
+      "sentence": "commen aler de reim a nice",
+      "expected_origin": "Reims",
+      "expected_dest": "Nice",
+      "predicted_origin": "reim",
+      "predicted_dest": "nice",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8031",
+      "sentence": "un train de saint - étienne a dijon",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Dijon",
+      "predicted_origin": "saint-étienne",
+      "predicted_dest": "dijon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "682",
+      "sentence": "je veux aller de villeurbanne a lille",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Lille",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "lille",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8318",
+      "sentence": "Je veux aller de Limoge à Reim",
+      "expected_origin": "Limoges",
+      "expected_dest": "Reims",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8474",
+      "sentence": "retrouver clément à nice en partant de perpignan",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Nice",
+      "predicted_origin": "perpignan",
+      "predicted_dest": "nice",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "278",
+      "sentence": "Trajet Paris Nise",
+      "expected_origin": "Paris",
+      "expected_dest": "Nice",
+      "predicted_origin": "Paris",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9585",
+      "sentence": "un billet lion metz",
+      "expected_origin": "Lyon",
+      "expected_dest": "Metz",
+      "predicted_origin": "",
+      "predicted_dest": "metz",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1370",
+      "sentence": "Trajet Reiims Le Havr",
+      "expected_origin": "Reims",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5328",
+      "sentence": "billet strasbourg marseille",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Marseille",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "marseille",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8670",
+      "sentence": "Un billet de Amiens pour Châlons en Champagne",
+      "expected_origin": "Amiens",
+      "expected_dest": "Châlons-en-Champagne",
+      "predicted_origin": "Amiens",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2727",
+      "sentence": "je voyage avec clément et rémy de lille vers paris",
+      "expected_origin": "Lille",
+      "expected_dest": "Paris",
+      "predicted_origin": "lille",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4990",
+      "sentence": "je veux aller de montpellier a marseille",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Marseille",
+      "predicted_origin": "montpellier",
+      "predicted_dest": "marseille",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8640",
+      "sentence": "Bilet Toulouze Le Havre",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "",
+      "predicted_dest": "Le Havre",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2678",
+      "sentence": "bilet angers toulouse",
+      "expected_origin": "Angers",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "angers",
+      "predicted_dest": "toulouse",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3061",
+      "sentence": "retrouver lourdes à florence en partant de lille",
+      "expected_origin": "Lille",
+      "expected_dest": "Florence",
+      "predicted_origin": "lille",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4957",
+      "sentence": "je veux aller de marseille a metz",
+      "expected_origin": "Marseille",
+      "expected_dest": "Metz",
+      "predicted_origin": "marseille",
+      "predicted_dest": "metz",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5085",
+      "sentence": "Trajet Perpignan Breest",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Brest",
+      "predicted_origin": "Perpignan",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2823",
+      "sentence": "commen aler de paris a reims",
+      "expected_origin": "Paris",
+      "expected_dest": "Reims",
+      "predicted_origin": "paris",
+      "predicted_dest": "reims",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2089",
+      "sentence": "Je veux aller de Perpignan à Port Boulet",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Port-Boulet",
+      "predicted_origin": "Perpignan",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7983",
+      "sentence": "je dois aller de lille a villeurbanne",
+      "expected_origin": "Lille",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "lille",
+      "predicted_dest": "villeurbanne",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1496",
+      "sentence": "Un billet de Aix en Provence pour Aix en Provence",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Aix-en-Provence",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4442",
+      "sentence": "billet reims villeurbanne",
+      "expected_origin": "Reims",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "reims",
+      "predicted_dest": "villeurbanne",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3959",
+      "sentence": "avec mes amis florence et clément , je voudrais aller de angers à dijon",
+      "expected_origin": "Angers",
+      "expected_dest": "Dijon",
+      "predicted_origin": "angers",
+      "predicted_dest": "dijon",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5564",
+      "sentence": "retrouver paris à villeurbanne en partant de annecy",
+      "expected_origin": "Annecy",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "annecy",
+      "predicted_dest": "villeurbanne",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1590",
+      "sentence": "commen aler de bordo a nantes",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Nantes",
+      "predicted_origin": "",
+      "predicted_dest": "nantes",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6055",
+      "sentence": "de lille vers le havre",
+      "expected_origin": "Lille",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "lille",
+      "predicted_dest": "le havre",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2943",
+      "sentence": "Commen aler de Nisse a Aix - en - Provenc",
+      "expected_origin": "Nice",
+      "expected_dest": "Aix-en-Provence",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4868",
+      "sentence": "avec mes amis paris et albert , je voudrais aller de strasbourg à brest",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Brest",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "brest",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5611",
+      "sentence": "je voudrais un bilet de nîîmes à toulo",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Toulon",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4435",
+      "sentence": "je veux aller de villeurbanne a nîmes",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "nîmes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9920",
+      "sentence": "Commen aler de Dijo a Limoge",
+      "expected_origin": "Dijon",
+      "expected_dest": "Limoges",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8282",
+      "sentence": "je souhaite me rendre a saint - étienne depui angers",
+      "expected_origin": "Angers",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "angers",
+      "predicted_dest": "saint-étienne",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3696",
+      "sentence": "commen aler de dijon a amiiens",
+      "expected_origin": "Dijon",
+      "expected_dest": "Amiens",
+      "predicted_origin": "dijon",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "795",
+      "sentence": "paris , lourdes et moi voulons aller de nantes à florence",
+      "expected_origin": "Nantes",
+      "expected_dest": "Florence",
+      "predicted_origin": "nantes",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5491",
+      "sentence": "Comment aller a Saint - Étienne depuis Le Manns",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "Saint-Étienne",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6079",
+      "sentence": "Comment aller a Marsel depuis Montpellie",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Marseille",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3512",
+      "sentence": "je voudrais un billet de nantes a reims",
+      "expected_origin": "Nantes",
+      "expected_dest": "Reims",
+      "predicted_origin": "nantes",
+      "predicted_dest": "reims",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5633",
+      "sentence": "je souhaite me rendre a saint - étienne depuis villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "saint-étienne",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3485",
+      "sentence": "je voudrais un bilet de marsel à saint - - étienne",
+      "expected_origin": "Marseille",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "saint--étienne",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5936",
+      "sentence": "un train de paris a nîmes",
+      "expected_origin": "Paris",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "paris",
+      "predicted_dest": "nîmes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7453",
+      "sentence": "albert , florence et moi voulons aller de lyon à metz",
+      "expected_origin": "Lyon",
+      "expected_dest": "Metz",
+      "predicted_origin": "lyon",
+      "predicted_dest": "metz",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "151",
+      "sentence": "retrouver albert à nîmes en partant de villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "nîmes",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9357",
+      "sentence": "billet toulon grenoble",
+      "expected_origin": "Toulon",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "toulon",
+      "predicted_dest": "grenoble",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1916",
+      "sentence": "je souhaite me rendre a bordeau depui reim",
+      "expected_origin": "Reims",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2244",
+      "sentence": "je veux aller de limoge à clermont - ferran",
+      "expected_origin": "Limoges",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "limoge",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "716",
+      "sentence": "avec mes amis florence et albert , je voudrais aller de strasbourg à le mans",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "le mans",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9642",
+      "sentence": "je veux aller de lill à lion",
+      "expected_origin": "Lille",
+      "expected_dest": "Lyon",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8403",
+      "sentence": "un train de le mans a grenoble",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "le mans",
+      "predicted_dest": "grenoble",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1361",
+      "sentence": "je souhaite me rendre a grenoble depuis toulon",
+      "expected_origin": "Toulon",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "toulon",
+      "predicted_dest": "grenoble",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "67",
+      "sentence": "un billet toulo montpelliier",
+      "expected_origin": "Toulon",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5041",
+      "sentence": "trajet amiens bordo",
+      "expected_origin": "Amiens",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "amiens",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9674",
+      "sentence": "de toulon vers amiens",
+      "expected_origin": "Toulon",
+      "expected_dest": "Amiens",
+      "predicted_origin": "toulon",
+      "predicted_dest": "amiens",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6989",
+      "sentence": "billet aix - en - provence strasbourg",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Strasbourg",
+      "predicted_origin": "aix-en-provence",
+      "predicted_dest": "strasbourg",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5393",
+      "sentence": "je veux aller de toulouse à villeurbannne",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "toulouse",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2372",
+      "sentence": "je voyage avec albert et florence de nîmes vers florence",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Florence",
+      "predicted_origin": "nîmes",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9150",
+      "sentence": "avec mes amis paris et rémy , je voudrais aller de montpellier à saint - étienne",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "montpellier",
+      "predicted_dest": "saint-étienne",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4695",
+      "sentence": "un billet toulouse metz s'il vous plait",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Metz",
+      "predicted_origin": "toulouse",
+      "predicted_dest": "metz",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6804",
+      "sentence": "Comment aller a Reeims depuis Marseile",
+      "expected_origin": "Marseille",
+      "expected_dest": "Reims",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9602",
+      "sentence": "je voyage avec florence et albert de angers vers florence",
+      "expected_origin": "Angers",
+      "expected_dest": "Florence",
+      "predicted_origin": "angers",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6639",
+      "sentence": "je dois aller de montpellier a toulouse",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "montpellier",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8643",
+      "sentence": "je voudrais un bilet de le haavre à renne",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Rennes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2734",
+      "sentence": "je voudrais un billet de limoges a grenoble",
+      "expected_origin": "Limoges",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "limoges",
+      "predicted_dest": "grenoble",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "388",
+      "sentence": "je voyage avec paris et lourdes de nantes vers nîmes",
+      "expected_origin": "Nantes",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "nantes",
+      "predicted_dest": "nîmes",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7245",
+      "sentence": "Comment aller a Tourz depuis Annec",
+      "expected_origin": "Annecy",
+      "expected_dest": "Tours",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3907",
+      "sentence": "comment aller a paris depuis nîmes",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Paris",
+      "predicted_origin": "nîmes",
+      "predicted_dest": "paris",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9527",
+      "sentence": "De La Roche sur Yon vers Limoges",
+      "expected_origin": "La Roche-sur-Yon",
+      "expected_dest": "Limoges",
+      "predicted_origin": "",
+      "predicted_dest": "Limoges",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3084",
+      "sentence": "de perpignan vers villeurbanne",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Villeurbanne",
+      "predicted_origin": "perpignan",
+      "predicted_dest": "villeurbanne",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4501",
+      "sentence": "comment aller a tours depuis montpellie",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Tours",
+      "predicted_origin": "",
+      "predicted_dest": "tours",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7333",
+      "sentence": "comment aller a clermont - ferrand depuis nîmes",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "nîmes",
+      "predicted_dest": "clermont-ferrand",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6393",
+      "sentence": "Je souhaite me rendre a Renne depui Aix - en - Provenc",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Rennes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4896",
+      "sentence": "trajet nisse annecy",
+      "expected_origin": "Nice",
+      "expected_dest": "Annecy",
+      "predicted_origin": "",
+      "predicted_dest": "annecy",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2847",
+      "sentence": "trajet villeurbanne toulouse",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2632",
+      "sentence": "comment aller a montpeellier depuis rennes",
+      "expected_origin": "Rennes",
+      "expected_dest": "Montpellier",
+      "predicted_origin": "rennes",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4585",
+      "sentence": "rémy , albert et moi voulons aller de villeurbanne à le havre",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "le havre",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6807",
+      "sentence": "Je souhaite me rendre a Bres depui Anneecy",
+      "expected_origin": "Annecy",
+      "expected_dest": "Brest",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1671",
+      "sentence": "je souhaite me rendre a perpignan depuis lille",
+      "expected_origin": "Lille",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "lille",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9434",
+      "sentence": "je dois aller de annecy a tours",
+      "expected_origin": "Annecy",
+      "expected_dest": "Tours",
+      "predicted_origin": "annecy",
+      "predicted_dest": "tours",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7768",
+      "sentence": "un billet nantes nice s'il vous plait",
+      "expected_origin": "Nantes",
+      "expected_dest": "Nice",
+      "predicted_origin": "nantes",
+      "predicted_dest": "nice",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3265",
+      "sentence": "je souhaite me rendre a perpigna depui angers",
+      "expected_origin": "Angers",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "angers",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9751",
+      "sentence": "paris , lourdes et moi voulons aller de toulon à paris",
+      "expected_origin": "Toulon",
+      "expected_dest": "Paris",
+      "predicted_origin": "toulon",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8754",
+      "sentence": "un billet annecy toulouse s'il vous plait",
+      "expected_origin": "Annecy",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "annecy",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6466",
+      "sentence": "je veux aller de saint - étienne a toulouse",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "saint-étienne",
+      "predicted_dest": "toulouse",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9235",
+      "sentence": "comment aller a saint - étienn depuis aix - enn - provence",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3967",
+      "sentence": "un billet anggers lile",
+      "expected_origin": "Angers",
+      "expected_dest": "Lille",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6993",
+      "sentence": "Un billet de La Roche sur Yon pour Toulon",
+      "expected_origin": "La Roche-sur-Yon",
+      "expected_dest": "Toulon",
+      "predicted_origin": "",
+      "predicted_dest": "Toulon",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2826",
+      "sentence": "je veux aller de dijon a perpignan",
+      "expected_origin": "Dijon",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "dijon",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2062",
+      "sentence": "De Limoges vers Boulogne sur Mer",
+      "expected_origin": "Limoges",
+      "expected_dest": "Boulogne-sur-Mer",
+      "predicted_origin": "Limoges",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7589",
+      "sentence": "Commen aler de Bordeaux a Nîmees",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "Bordeaux",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "9523",
+      "sentence": "comment aller a limoge depuis reiims",
+      "expected_origin": "Reims",
+      "expected_dest": "Limoges",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5364",
+      "sentence": "bilet paris le mans",
+      "expected_origin": "Paris",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "paris",
+      "predicted_dest": "le mans",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7224",
+      "sentence": "comment aller a pariss depuis toulon",
+      "expected_origin": "Toulon",
+      "expected_dest": "Paris",
+      "predicted_origin": "toulon",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "587",
+      "sentence": "un billet nise limoges",
+      "expected_origin": "Nice",
+      "expected_dest": "Limoges",
+      "predicted_origin": "nise",
+      "predicted_dest": "limoges",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2064",
+      "sentence": "retrouver albert à florence en partant de bordeaux",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Florence",
+      "predicted_origin": "bordeaux",
+      "predicted_dest": "florence",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4466",
+      "sentence": "retrouver lourdes à dijon en partant de lyon",
+      "expected_origin": "Lyon",
+      "expected_dest": "Dijon",
+      "predicted_origin": "lyon",
+      "predicted_dest": "dijon",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "501",
+      "sentence": "je dois aller de dijon a amiens",
+      "expected_origin": "Dijon",
+      "expected_dest": "Amiens",
+      "predicted_origin": "dijon",
+      "predicted_dest": "amiens",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3247",
+      "sentence": "trajet metz lilles",
+      "expected_origin": "Metz",
+      "expected_dest": "Lille",
+      "predicted_origin": "metz",
+      "predicted_dest": "lilles",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "544",
+      "sentence": "clément , albert et moi voulons aller de tours à paris",
+      "expected_origin": "Tours",
+      "expected_dest": "Paris",
+      "predicted_origin": "tours",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1362",
+      "sentence": "Bilet Anneccy Nîme",
+      "expected_origin": "Annecy",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3798",
+      "sentence": "Comment aller à Châlons en Champagne depuis Strasbourg",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Châlons-en-Champagne",
+      "predicted_origin": "Strasbourg",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "8297",
+      "sentence": "retrouver albert à toulouse en partant de limoges",
+      "expected_origin": "Limoges",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "limoges",
+      "predicted_dest": "toulouse",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3790",
+      "sentence": "comment aller a le mans depuis villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Le Mans",
+      "predicted_origin": "villeurbanne",
+      "predicted_dest": "le mans",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7433",
+      "sentence": "Je veux aller de Lee Mans à Bordo",
+      "expected_origin": "Le Mans",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1085",
+      "sentence": "Je souhaite me rendre à Aix les Bains en partant de Aix en Provence",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Aix-les-Bains",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1378",
+      "sentence": "billet bordeaux amiens",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Amiens",
+      "predicted_origin": "bordeaux",
+      "predicted_dest": "amiens",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5430",
+      "sentence": "je voudrais un billet de brest a perpignan",
+      "expected_origin": "Brest",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "brest",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "2767",
+      "sentence": "billet angers le havre",
+      "expected_origin": "Angers",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "angers",
+      "predicted_dest": "le havre",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4877",
+      "sentence": "je veux aller de nîmes a toulon",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Toulon",
+      "predicted_origin": "nîmes",
+      "predicted_dest": "toulon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3788",
+      "sentence": "trajet nîmes bordeaux",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Bordeaux",
+      "predicted_origin": "nîmes",
+      "predicted_dest": "bordeaux",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9054",
+      "sentence": "Trajet Amien Le Havre",
+      "expected_origin": "Amiens",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "",
+      "predicted_dest": "Le Havre",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "7518",
+      "sentence": "trajet bordeaux aix - en - provence",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Aix-en-Provence",
+      "predicted_origin": "bordeaux",
+      "predicted_dest": "aix-en-provence",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "9366",
+      "sentence": "un train de montpellier a strasbourg",
+      "expected_origin": "Montpellier",
+      "expected_dest": "Strasbourg",
+      "predicted_origin": "montpellier",
+      "predicted_dest": "strasbourg",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "1587",
+      "sentence": "je souhaite me rendre a nîmes depuis bordeaux",
+      "expected_origin": "Bordeaux",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "bordeaux",
+      "predicted_dest": "nîmes",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3135",
+      "sentence": "je veux aller de tolouse à le havvre",
+      "expected_origin": "Toulouse",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8159",
+      "sentence": "avec mes amis lourdes et clément , je voudrais aller de angers à grenoble",
+      "expected_origin": "Angers",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "angers",
+      "predicted_dest": "grenoble",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8412",
+      "sentence": "trajet dijon angerrs",
+      "expected_origin": "Dijon",
+      "expected_dest": "Angers",
+      "predicted_origin": "dijon",
+      "predicted_dest": "angerrs",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1549",
+      "sentence": "retrouver paris à nantes en partant de perpignan",
+      "expected_origin": "Perpignan",
+      "expected_dest": "Nantes",
+      "predicted_origin": "perpignan",
+      "predicted_dest": "nantes",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "4878",
+      "sentence": "Comment aller à Grenoble depuis La Roche sur Yon",
+      "expected_origin": "La Roche-sur-Yon",
+      "expected_dest": "Grenoble",
+      "predicted_origin": "",
+      "predicted_dest": "Grenoble",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5198",
+      "sentence": "albert , lourdes et moi voulons aller de nice à nantes",
+      "expected_origin": "Nice",
+      "expected_dest": "Nantes",
+      "predicted_origin": "nice",
+      "predicted_dest": "nantes",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5758",
+      "sentence": "Comment aller a Brest depuis Annec",
+      "expected_origin": "Annecy",
+      "expected_dest": "Brest",
+      "predicted_origin": "",
+      "predicted_dest": "Brest",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8546",
+      "sentence": "je voudrais un bilet de clermontt - ferrand à reims",
+      "expected_origin": "Clermont-Ferrand",
+      "expected_dest": "Reims",
+      "predicted_origin": "",
+      "predicted_dest": "reims",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "8332",
+      "sentence": "florence , albert et moi voulons aller de nîmes à paris",
+      "expected_origin": "Nîmes",
+      "expected_dest": "Paris",
+      "predicted_origin": "nîmes",
+      "predicted_dest": "paris",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3151",
+      "sentence": "je voudrais un billet de toulon a paris",
+      "expected_origin": "Toulon",
+      "expected_dest": "Paris",
+      "predicted_origin": "toulon",
+      "predicted_dest": "paris",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6601",
+      "sentence": "avec mes amis rémy et clément , je voudrais aller de amiens à saint - étienne",
+      "expected_origin": "Amiens",
+      "expected_dest": "Saint-Étienne",
+      "predicted_origin": "amiens",
+      "predicted_dest": "saint-étienne",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2280",
+      "sentence": "billet saint - étienne le havre",
+      "expected_origin": "Saint-Étienne",
+      "expected_dest": "Le Havre",
+      "predicted_origin": "saint-étienne",
+      "predicted_dest": "le havre",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5514",
+      "sentence": "Bilet Aix - en - Proveence Nise",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Nice",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "1005",
+      "sentence": "Un billet Le Havvre Clerrmont - Ferrand",
+      "expected_origin": "Le Havre",
+      "expected_dest": "Clermont-Ferrand",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "5915",
+      "sentence": "commen aler de aiix - en - provence a toulouze",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Toulouse",
+      "predicted_origin": "aiix-en-provence",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "6323",
+      "sentence": "je dois aller de strasbourg a amiens",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Amiens",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "amiens",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "3567",
+      "sentence": "avec mes amis albert et florence , je voudrais aller de strasbourg à perpignan",
+      "expected_origin": "Strasbourg",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "strasbourg",
+      "predicted_dest": "perpignan",
+      "category": "name_ambiguity",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "3582",
+      "sentence": "je dois aller de brest a dijon",
+      "expected_origin": "Brest",
+      "expected_dest": "Dijon",
+      "predicted_origin": "brest",
+      "predicted_dest": "dijon",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "5705",
+      "sentence": "Comment me rendre à Port Boulet depuis Tours",
+      "expected_origin": "Tours",
+      "expected_dest": "Port-Boulet",
+      "predicted_origin": "Tours",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "6054",
+      "sentence": "billet amiens nice",
+      "expected_origin": "Amiens",
+      "expected_dest": "Nice",
+      "predicted_origin": "amiens",
+      "predicted_dest": "nice",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "7342",
+      "sentence": "je voudrais un bilet de aix - en - provenc à nîme",
+      "expected_origin": "Aix-en-Provence",
+      "expected_dest": "Nîmes",
+      "predicted_origin": "",
+      "predicted_dest": "",
+      "category": "misspelling",
+      "difficulty": "hard"
+    },
+    {
+      "sentenceID": "2977",
+      "sentence": "Je souhaite me rendre à Aix en Provence en partant de Villeurbanne",
+      "expected_origin": "Villeurbanne",
+      "expected_dest": "Aix-en-Provence",
+      "predicted_origin": "Villeurbanne",
+      "predicted_dest": "",
+      "category": "compound_name",
+      "difficulty": "medium"
+    },
+    {
+      "sentenceID": "4584",
+      "sentence": "je voudrais un billet de lyon a perpignan",
+      "expected_origin": "Lyon",
+      "expected_dest": "Perpignan",
+      "predicted_origin": "lyon",
+      "predicted_dest": "perpignan",
+      "category": "no_capitals",
+      "difficulty": "medium"
+    }
+  ]
+}
