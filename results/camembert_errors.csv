@@ -1,284 +1,35 @@
 sentenceID,sentence,expected_origin,expected_dest,predicted_origin,predicted_dest,category,difficulty
-909,bilet marsel toulouse,Marseille,Toulouse,,toulouse,misspelling,hard
-5139,Comment aller a Bordeaus depuis Clermont - Ferrand,Clermont-Ferrand,Bordeaux,Clermont-Ferrand,,misspelling,hard
-4473,un billet marceille nante,Marseille,Nantes,,,misspelling,hard
-4657,billet villeurbanne limoges,Villeurbanne,Limoges,villeurbanne,limoges,no_capitals,medium
-6385,Comment aller a Aix - en - Provenc depuis Lille,Lille,Aix-en-Provence,Lille,,misspelling,hard
-3216,Je souhaite me rendre a Bordeaux depui Limmoges,Limoges,Bordeaux,,Bordeaux,misspelling,hard
-3308,je veux aller de marsel à tour,Marseille,Tours,,,misspelling,hard
-1731,billet aix - en - provence paris,Aix-en-Provence,Paris,aix-en-provence,paris,no_capitals,medium
-2248,billet nantes limoges,Nantes,Limoges,nantes,limoges,no_capitals,medium
-9939,je voudrais un billet de tours a montpellier,Tours,Montpellier,tours,montpellier,no_capitals,medium
-4724,bilet lee mans lionne,Le Mans,Lyon,lee,,misspelling,hard
-1125,comment aller a angeers depuis nice,Nice,Angers,nice,,misspelling,hard
-1204,comment aller a saint - étienne depuis le mans,Le Mans,Saint-Étienne,le mans,saint-étienne,misspelling,hard
-5412,je veux aller de le manns à toulo,Le Mans,Toulon,,,misspelling,hard
-2558,je voudrais un bilet de saint - étienn à clermont - - ferrand,Saint-Étienne,Clermont-Ferrand,,clermont--ferrand,misspelling,hard
-7875,un billet monntpellier nîmes,Montpellier,Nîmes,,nîmes,misspelling,hard
-498,Commen aler de Reim a Montpellier,Reims,Montpellier,,Montpellier,misspelling,hard
-4803,Je veux aller de Bordo à Lilles,Bordeaux,Lille,,,misspelling,hard
-9881,trajet reims tours,Reims,Tours,reims,tours,no_capitals,medium
-5696,commen aler de reims a metz,Reims,Metz,reims,metz,misspelling,hard
-311,trajet aix - en - provence angers,Aix-en-Provence,Angers,aix-en-provence,angers,no_capitals,medium
-5127,Je souhaite me rendre à Salon de Provence en partant de Saint Étienne,Saint-Étienne,Salon-de-Provence,,,compound_name,medium
-7162,je voudrais un billet de nice a reims,Nice,Reims,nice,reims,no_capitals,medium
-5238,Je veux aller de Villeurbann à Nîmees,Villeurbanne,Nîmes,,,misspelling,hard
-7071,De Dijon vers Saint Étienne,Dijon,Saint-Étienne,Dijon,,compound_name,medium
-6443,Je veux aller de Lion à Dijo,Lyon,Dijon,,,misspelling,hard
-293,Je souhaite me rendre à La Roche sur Yon en partant de Nîmes,Nîmes,La Roche-sur-Yon,Nîmes,,compound_name,medium
-7375,bilet reiims le man,Reims,Le Mans,,,misspelling,hard
-8944,je veux aller de villeurbannne à toulouse,Villeurbanne,Toulouse,,toulouse,misspelling,hard
-6003,Je voudrais un bilet de Clermont - Ferran à Saint - Étienne,Clermont-Ferrand,Saint-Étienne,,Saint-Étienne,misspelling,hard
-7846,trajet tours toulouse,Tours,Toulouse,tours,toulouse,no_capitals,medium
-6592,Comment aller à Saint Étienne depuis Brest,Brest,Saint-Étienne,Brest,,compound_name,medium
-3224,Je veux aller de Aix en Provence à Lyon,Aix-en-Provence,Lyon,,Lyon,compound_name,medium
-7419,je voudrais un billet de marseille a aix - en - provence,Marseille,Aix-en-Provence,marseille,aix-en-provence,no_capitals,medium
-5429,un billet reims saint - étienn,Reims,Saint-Étienne,reims,,misspelling,hard
-3989,retrouver rémy à toulouse en partant de aix - en - provence,Aix-en-Provence,Toulouse,aix-en-provence,toulouse,name_ambiguity,hard
-9562,de toulon vers reims,Toulon,Reims,toulon,reims,no_capitals,medium
-1298,Trajet Saint - Étienn Monttpellier,Saint-Étienne,Montpellier,,,misspelling,hard
-7483,Un billet Peerpignan Lill,Perpignan,Lille,Peerpignan,,misspelling,hard
-7355,Bilet Nices Nantez,Nice,Nantes,,,misspelling,hard
-5195,je veux aller de annecy à tooulon,Annecy,Toulon,annecy,,misspelling,hard
-7777,Je souhaite me rendre a Clermont - Ferraand depui Limoge,Limoges,Clermont-Ferrand,,,misspelling,hard
-680,"paris , lourdes et moi voulons aller de angers à rennes",Angers,Rennes,angers,rennes,name_ambiguity,hard
-5319,comment aller a limoges depuis villeurbanne,Villeurbanne,Limoges,villeurbanne,limoges,no_capitals,medium
-4668,Train de Nantes à Aix les Bains,Nantes,Aix-les-Bains,Nantes,,compound_name,medium
-9415,commen aler de tolouse a marseile,Toulouse,Marseille,,,misspelling,hard
-5472,Comment aller à Bourg en Bresse depuis Saint Étienne,Saint-Étienne,Bourg-en-Bresse,,,compound_name,medium
-5935,je veux aller de anger à montpelliier,Angers,Montpellier,,,misspelling,hard
-2317,"avec mes amis lourdes et albert , je voudrais aller de perpignan à paris",Perpignan,Paris,perpignan,paris,name_ambiguity,hard
-26,de villeurbanne vers toulouse,Villeurbanne,Toulouse,villeurbanne,toulouse,no_capitals,medium
-3644,Je veux aller de Bourg en Bresse à Tours,Bourg-en-Bresse,Tours,,Tours,compound_name,medium
-1464,Commen aler de Lion a Limogees,Lyon,Limoges,,,misspelling,hard
-3203,"rémy , lourdes et moi voulons aller de toulouse à le mans",Toulouse,Le Mans,toulouse,le mans,name_ambiguity,hard
-3802,je voudrais un billet de le havre a nantes,Le Havre,Nantes,le havre,nantes,no_capitals,medium
-4787,Un billet Le Maans Le Havr,Le Mans,Le Havre,,,misspelling,hard
-8123,un train de nantes a perpignan,Nantes,Perpignan,nantes,perpignan,no_capitals,medium
-3595,un billet clermont - ferrand montpellier s'il vous plait,Clermont-Ferrand,Montpellier,clermont-ferrand,montpellier,no_capitals,medium
-7116,Un billet de Grenoble pour Port Boulet,Grenoble,Port-Boulet,Grenoble,,compound_name,medium
-6332,Je veux aller de Annec à Nîme,Annecy,Nîmes,,,misspelling,hard
-8820,"albert , paris et moi voulons aller de nice à le mans",Nice,Le Mans,nice,le mans,name_ambiguity,hard
-870,De Strasbourg vers La Roche sur Yon,Strasbourg,La Roche-sur-Yon,Strasbourg,,compound_name,medium
-5405,Billet Nice Port Boulet,Nice,Port-Boulet,Nice,,compound_name,medium
-639,bilet le hhavre nîmmes,Le Havre,Nîmes,,,misspelling,hard
-8499,retrouver rémy à florence en partant de grenoble,Grenoble,Florence,grenoble,florence,name_ambiguity,hard
-6708,"clément , florence et moi voulons aller de grenoble à paris",Grenoble,Paris,grenoble,paris,name_ambiguity,hard
-225,un train de nice a rennes,Nice,Rennes,nice,rennes,no_capitals,medium
-8299,un train de lyon a perpignan,Lyon,Perpignan,lyon,perpignan,no_capitals,medium
-8086,comment aller a clermont - ferrand depuis tours,Tours,Clermont-Ferrand,tours,clermont-ferrand,no_capitals,medium
-7043,Je veux aller de Dijon à La Roche sur Yon,Dijon,La Roche-sur-Yon,Dijon,,compound_name,medium
-4933,retrouver paris à nice en partant de marseille,Marseille,Nice,marseille,nice,name_ambiguity,hard
-7391,comment aller a dijon depuis brest,Brest,Dijon,brest,dijon,no_capitals,medium
-5136,Un billet Nices Grenobl,Nice,Grenoble,,,misspelling,hard
-3533,Je vais à Paris voir mon ami Paris en partant de Le Mans,Le Mans,Paris,Le Mans,,name_ambiguity,medium
-8605,trajet le havvre bordo,Le Havre,Bordeaux,,,misspelling,hard
-4513,Billet Aix les Bains Saint Étienne,Aix-les-Bains,Saint-Étienne,,,compound_name,medium
-1521,un billet perpigna toure,Perpignan,Tours,,,misspelling,hard
-9657,"avec mes amis paris et lourdes , je voudrais aller de dijon à clermont - ferrand",Dijon,Clermont-Ferrand,dijon,clermont-ferrand,name_ambiguity,hard
-3736,Un billet de Toulouse pour Bourg en Bresse,Toulouse,Bourg-en-Bresse,Toulouse,,compound_name,medium
-8312,je souhaite me rendre a metz depuis toulouse,Toulouse,Metz,toulouse,metz,no_capitals,medium
-8029,je veux aller de nante à nîmmes,Nantes,Nîmes,,,misspelling,hard
-6382,je voudrais un billet de brest a reims,Brest,Reims,brest,reims,no_capitals,medium
-4138,comment aller a montpellier depuis limoges,Limoges,Montpellier,limoges,montpellier,no_capitals,medium
-7769,Je souhaite me rendre a Strasbourg depui Clermont - Ferran,Clermont-Ferrand,Strasbourg,,Strasbourg,misspelling,hard
-6881,je dois aller de nice a marseille,Nice,Marseille,nice,marseille,no_capitals,medium
-8893,commen aler de tolouse a diijon,Toulouse,Dijon,,,misspelling,hard
-532,je voyage avec rémy et clément de angers vers paris,Angers,Paris,angers,paris,name_ambiguity,hard
-3838,je voudrais un bilet de grenoble à rennes,Grenoble,Rennes,grenoble,rennes,misspelling,hard
-3390,retrouver rémy à amiens en partant de saint - étienne,Saint-Étienne,Amiens,saint-étienne,amiens,name_ambiguity,hard
-7854,un billet metz rennnes,Metz,Rennes,metz,,misspelling,hard
-6971,Je souhaite me rendre a Perpigna depui Saint - Étienn,Saint-Étienne,Perpignan,,,misspelling,hard
-5682,Je souhaite me rendre à Reims en partant de Aix les Bains,Aix-les-Bains,Reims,,Reims,compound_name,medium
-4730,Comment aller à Saint Étienne depuis Annecy,Annecy,Saint-Étienne,Annecy,,compound_name,medium
-4494,je voyage avec lourdes et florence de paris vers le havre,Paris,Le Havre,paris,le havre,name_ambiguity,hard
-7679,un train de paris a rennes,Paris,Rennes,paris,rennes,no_capitals,medium
-5279,Trajet Strasbourg Aix les Bains,Strasbourg,Aix-les-Bains,Strasbourg,,compound_name,medium
-6529,Commen aler de Marseile a Clermont - Ferran,Marseille,Clermont-Ferrand,,,misspelling,hard
-6604,Trajet Dijo Saint - Étienne,Dijon,Saint-Étienne,,Saint-Étienne,misspelling,hard
-8163,je dois aller de tours a toulouse,Tours,Toulouse,tours,toulouse,no_capitals,medium
-2524,un train de amiens a paris,Amiens,Paris,amiens,paris,no_capitals,medium
-7984,je voyage avec rémy et paris de montpellier vers clermont - ferrand,Montpellier,Clermont-Ferrand,montpellier,clermont-ferrand,name_ambiguity,hard
-7915,"florence , clément et moi voulons aller de angers à florence",Angers,Florence,angers,florence,name_ambiguity,hard
-3826,je voyage avec paris et clément de perpignan vers le havre,Perpignan,Le Havre,perpignan,le havre,name_ambiguity,hard
-5590,Un billet Clermont - Ferrand Paric,Clermont-Ferrand,Paris,Clermont-Ferrand,,misspelling,hard
-5369,retrouver florence à villeurbanne en partant de perpignan,Perpignan,Villeurbanne,perpignan,villeurbanne,name_ambiguity,hard
-5351,comment aller a perpignan depuis rennes,Rennes,Perpignan,rennes,perpignan,no_capitals,medium
-4497,billet bordeaux annecy,Bordeaux,Annecy,bordeaux,annecy,no_capitals,medium
-2661,je veux aller de toulon a reims,Toulon,Reims,toulon,reims,no_capitals,medium
-9020,Je veux aller de Metz à Bordeau,Metz,Bordeaux,Metz,,misspelling,hard
-6208,"avec mes amis florence et paris , je voudrais aller de metz à le mans",Metz,Le Mans,metz,le mans,name_ambiguity,hard
-5597,un train de dijon a le havre,Dijon,Le Havre,dijon,le havre,no_capitals,medium
-3149,je souhaite me rendre a nice depuis limoges,Limoges,Nice,limoges,nice,no_capitals,medium
-5901,Trajet Angers Brrest,Angers,Brest,Angers,,misspelling,hard
-7968,bilet bres viilleurbanne,Brest,Villeurbanne,,,misspelling,hard
-8105,comment aller a lyon depuis toulouse,Toulouse,Lyon,toulouse,lyon,no_capitals,medium
-2060,je souhaite me rendre a limoges depuis villeurbanne,Villeurbanne,Limoges,villeurbanne,limoges,no_capitals,medium
-8196,je veux aller de aix - en - provenc à bordeaus,Aix-en-Provence,Bordeaux,,,misspelling,hard
-2571,je veux aller de annec à nices,Annecy,Nice,,,misspelling,hard
-1718,je voudrais un bilet de lyon à nîmees,Lyon,Nîmes,lyon,,misspelling,hard
-3402,comment aller a bordeau depuis dijon,Dijon,Bordeaux,dijon,,misspelling,hard
-9924,de villeurbanne vers strasbourg,Villeurbanne,Strasbourg,villeurbanne,strasbourg,no_capitals,medium
-1525,de strasbourg vers nice,Strasbourg,Nice,strasbourg,nice,no_capitals,medium
-6433,je souhaite me rendre a metz depui reiims,Reims,Metz,,metz,misspelling,hard
-9548,Trajet Salon de Provence Amiens,Salon-de-Provence,Amiens,,Amiens,compound_name,medium
-2620,Billet Châlons en Champagne Saint Étienne,Châlons-en-Champagne,Saint-Étienne,,,compound_name,medium
-36,"avec mes amis rémy et paris , je voudrais aller de le havre à nantes",Le Havre,Nantes,le havre,nantes,name_ambiguity,hard
-7715,je veux aller de dijon a toulon,Dijon,Toulon,dijon,toulon,no_capitals,medium
-2547,Je souhaite me rendre à Grenoble en partant de Salon de Provence,Salon-de-Provence,Grenoble,,Grenoble,compound_name,medium
-1595,un train de rennes a bordeaux,Rennes,Bordeaux,rennes,bordeaux,no_capitals,medium
-9427,je voudrais un billet de le havre a le mans,Le Havre,Le Mans,le havre,le mans,no_capitals,medium
-6925,Trajet Annec Limoges,Annecy,Limoges,,Limoges,misspelling,hard
-8019,trajet angers tours,Angers,Tours,angers,tours,no_capitals,medium
-1381,"avec mes amis rémy et clément , je voudrais aller de toulouse à angers",Toulouse,Angers,toulouse,angers,name_ambiguity,hard
-3572,comment aller a annecy depuis nice,Nice,Annecy,nice,annecy,no_capitals,medium
-8400,Je veux aller de Nîmes à Saint - Étieenne,Nîmes,Saint-Étienne,Nîmes,Saint-,misspelling,hard
-6573,retrouver rémy à florence en partant de rennes,Rennes,Florence,rennes,florence,name_ambiguity,hard
-3998,Trajet Villeurbann Anggers,Villeurbanne,Angers,,,misspelling,hard
-931,Comment aller à Metz depuis Salon de Provence,Salon-de-Provence,Metz,,Metz,compound_name,medium
-3969,je souhaite me rendre a bordo depui marceille,Marseille,Bordeaux,,,misspelling,hard
-2227,retrouver clément à grenoble en partant de dijon,Dijon,Grenoble,dijon,grenoble,name_ambiguity,hard
-8407,un train de amiens a toulon,Amiens,Toulon,amiens,toulon,no_capitals,medium
-4029,je veux aller de strasbourg à bordeaux,Strasbourg,Bordeaux,strasbourg,bordeaux,misspelling,hard
-6175,je veux aller de anger à clermont - fferrand,Angers,Clermont-Ferrand,anger,clermont-fferrand,misspelling,hard
-3174,je souhaite me rendre a nîmes depuis montpellier,Montpellier,Nîmes,montpellier,nîmes,no_capitals,medium
-4733,Trajet Dijon Limoge,Dijon,Limoges,Dijon,,misspelling,hard
-5856,trajet aix - en - provence lyon,Aix-en-Provence,Lyon,aix-en-provence,lyon,no_capitals,medium
-2195,retrouver rémy à lyon en partant de villeurbanne,Villeurbanne,Lyon,villeurbanne,lyon,name_ambiguity,hard
-44,Comment aller a Anneecy depuis Perpignan,Perpignan,Annecy,Perpignan,,misspelling,hard
-9136,comment aller a nante depuis nîîmes,Nîmes,Nantes,,,misspelling,hard
-9949,commen aler de reim a nice,Reims,Nice,reim,nice,misspelling,hard
-8031,un train de saint - étienne a dijon,Saint-Étienne,Dijon,saint-étienne,dijon,no_capitals,medium
-682,je veux aller de villeurbanne a lille,Villeurbanne,Lille,villeurbanne,lille,no_capitals,medium
-8318,Je veux aller de Limoge à Reim,Limoges,Reims,,,misspelling,hard
-8474,retrouver clément à nice en partant de perpignan,Perpignan,Nice,perpignan,nice,name_ambiguity,hard
-278,Trajet Paris Nise,Paris,Nice,Paris,,misspelling,hard
-9585,un billet lion metz,Lyon,Metz,,metz,misspelling,hard
-1370,Trajet Reiims Le Havr,Reims,Le Havre,,,misspelling,hard
-5328,billet strasbourg marseille,Strasbourg,Marseille,strasbourg,marseille,no_capitals,medium
-8670,Un billet de Amiens pour Châlons en Champagne,Amiens,Châlons-en-Champagne,Amiens,,compound_name,medium
-2727,je voyage avec clément et rémy de lille vers paris,Lille,Paris,lille,paris,name_ambiguity,hard
-4990,je veux aller de montpellier a marseille,Montpellier,Marseille,montpellier,marseille,no_capitals,medium
-8640,Bilet Toulouze Le Havre,Toulouse,Le Havre,,Le Havre,misspelling,hard
-2678,bilet angers toulouse,Angers,Toulouse,angers,toulouse,misspelling,hard
-3061,retrouver lourdes à florence en partant de lille,Lille,Florence,lille,florence,name_ambiguity,hard
-4957,je veux aller de marseille a metz,Marseille,Metz,marseille,metz,no_capitals,medium
-5085,Trajet Perpignan Breest,Perpignan,Brest,Perpignan,,misspelling,hard
-2823,commen aler de paris a reims,Paris,Reims,paris,reims,misspelling,hard
-2089,Je veux aller de Perpignan à Port Boulet,Perpignan,Port-Boulet,Perpignan,,compound_name,medium
-7983,je dois aller de lille a villeurbanne,Lille,Villeurbanne,lille,villeurbanne,no_capitals,medium
-1496,Un billet de Aix en Provence pour Aix en Provence,Aix-en-Provence,Aix-en-Provence,,,compound_name,medium
-4442,billet reims villeurbanne,Reims,Villeurbanne,reims,villeurbanne,no_capitals,medium
-3959,"avec mes amis florence et clément , je voudrais aller de angers à dijon",Angers,Dijon,angers,dijon,name_ambiguity,hard
-5564,retrouver paris à villeurbanne en partant de annecy,Annecy,Villeurbanne,annecy,villeurbanne,name_ambiguity,hard
-1590,commen aler de bordo a nantes,Bordeaux,Nantes,,nantes,misspelling,hard
-6055,de lille vers le havre,Lille,Le Havre,lille,le havre,no_capitals,medium
-2943,Commen aler de Nisse a Aix - en - Provenc,Nice,Aix-en-Provence,,,misspelling,hard
-4868,"avec mes amis paris et albert , je voudrais aller de strasbourg à brest",Strasbourg,Brest,strasbourg,brest,name_ambiguity,hard
-5611,je voudrais un bilet de nîîmes à toulo,Nîmes,Toulon,,,misspelling,hard
-4435,je veux aller de villeurbanne a nîmes,Villeurbanne,Nîmes,villeurbanne,nîmes,no_capitals,medium
-9920,Commen aler de Dijo a Limoge,Dijon,Limoges,,,misspelling,hard
-8282,je souhaite me rendre a saint - étienne depui angers,Angers,Saint-Étienne,angers,saint-étienne,misspelling,hard
-3696,commen aler de dijon a amiiens,Dijon,Amiens,dijon,,misspelling,hard
-795,"paris , lourdes et moi voulons aller de nantes à florence",Nantes,Florence,nantes,florence,name_ambiguity,hard
-5491,Comment aller a Saint - Étienne depuis Le Manns,Le Mans,Saint-Étienne,,Saint-Étienne,misspelling,hard
-6079,Comment aller a Marsel depuis Montpellie,Montpellier,Marseille,,,misspelling,hard
-3512,je voudrais un billet de nantes a reims,Nantes,Reims,nantes,reims,no_capitals,medium
-5633,je souhaite me rendre a saint - étienne depuis villeurbanne,Villeurbanne,Saint-Étienne,villeurbanne,saint-étienne,no_capitals,medium
-3485,je voudrais un bilet de marsel à saint - - étienne,Marseille,Saint-Étienne,,saint--étienne,misspelling,hard
-5936,un train de paris a nîmes,Paris,Nîmes,paris,nîmes,no_capitals,medium
-7453,"albert , florence et moi voulons aller de lyon à metz",Lyon,Metz,lyon,metz,name_ambiguity,hard
-151,retrouver albert à nîmes en partant de villeurbanne,Villeurbanne,Nîmes,villeurbanne,nîmes,name_ambiguity,hard
-9357,billet toulon grenoble,Toulon,Grenoble,toulon,grenoble,no_capitals,medium
-1916,je souhaite me rendre a bordeau depui reim,Reims,Bordeaux,,,misspelling,hard
-2244,je veux aller de limoge à clermont - ferran,Limoges,Clermont-Ferrand,limoge,,misspelling,hard
-716,"avec mes amis florence et albert , je voudrais aller de strasbourg à le mans",Strasbourg,Le Mans,strasbourg,le mans,name_ambiguity,hard
-9642,je veux aller de lill à lion,Lille,Lyon,,,misspelling,hard
-8403,un train de le mans a grenoble,Le Mans,Grenoble,le mans,grenoble,no_capitals,medium
-1361,je souhaite me rendre a grenoble depuis toulon,Toulon,Grenoble,toulon,grenoble,no_capitals,medium
-67,un billet toulo montpelliier,Toulon,Montpellier,,,misspelling,hard
-5041,trajet amiens bordo,Amiens,Bordeaux,amiens,,misspelling,hard
-9674,de toulon vers amiens,Toulon,Amiens,toulon,amiens,no_capitals,medium
-6989,billet aix - en - provence strasbourg,Aix-en-Provence,Strasbourg,aix-en-provence,strasbourg,no_capitals,medium
-5393,je veux aller de toulouse à villeurbannne,Toulouse,Villeurbanne,toulouse,,misspelling,hard
-2372,je voyage avec albert et florence de nîmes vers florence,Nîmes,Florence,nîmes,florence,name_ambiguity,hard
-9150,"avec mes amis paris et rémy , je voudrais aller de montpellier à saint - étienne",Montpellier,Saint-Étienne,montpellier,saint-étienne,name_ambiguity,hard
-4695,un billet toulouse metz s'il vous plait,Toulouse,Metz,toulouse,metz,no_capitals,medium
-6804,Comment aller a Reeims depuis Marseile,Marseille,Reims,,,misspelling,hard
-9602,je voyage avec florence et albert de angers vers florence,Angers,Florence,angers,florence,name_ambiguity,hard
-6639,je dois aller de montpellier a toulouse,Montpellier,Toulouse,montpellier,toulouse,no_capitals,medium
-8643,je voudrais un bilet de le haavre à renne,Le Havre,Rennes,,,misspelling,hard
-2734,je voudrais un billet de limoges a grenoble,Limoges,Grenoble,limoges,grenoble,no_capitals,medium
-388,je voyage avec paris et lourdes de nantes vers nîmes,Nantes,Nîmes,nantes,nîmes,name_ambiguity,hard
-7245,Comment aller a Tourz depuis Annec,Annecy,Tours,,,misspelling,hard
-3907,comment aller a paris depuis nîmes,Nîmes,Paris,nîmes,paris,no_capitals,medium
-9527,De La Roche sur Yon vers Limoges,La Roche-sur-Yon,Limoges,,Limoges,compound_name,medium
-3084,de perpignan vers villeurbanne,Perpignan,Villeurbanne,perpignan,villeurbanne,no_capitals,medium
-4501,comment aller a tours depuis montpellie,Montpellier,Tours,,tours,misspelling,hard
-7333,comment aller a clermont - ferrand depuis nîmes,Nîmes,Clermont-Ferrand,nîmes,clermont-ferrand,no_capitals,medium
-6393,Je souhaite me rendre a Renne depui Aix - en - Provenc,Aix-en-Provence,Rennes,,,misspelling,hard
-4896,trajet nisse annecy,Nice,Annecy,,annecy,misspelling,hard
-2847,trajet villeurbanne toulouse,Villeurbanne,Toulouse,villeurbanne,toulouse,no_capitals,medium
-2632,comment aller a montpeellier depuis rennes,Rennes,Montpellier,rennes,,misspelling,hard
-4585,"rémy , albert et moi voulons aller de villeurbanne à le havre",Villeurbanne,Le Havre,villeurbanne,le havre,name_ambiguity,hard
-6807,Je souhaite me rendre a Bres depui Anneecy,Annecy,Brest,,,misspelling,hard
-1671,je souhaite me rendre a perpignan depuis lille,Lille,Perpignan,lille,perpignan,no_capitals,medium
-9434,je dois aller de annecy a tours,Annecy,Tours,annecy,tours,no_capitals,medium
-7768,un billet nantes nice s'il vous plait,Nantes,Nice,nantes,nice,no_capitals,medium
-3265,je souhaite me rendre a perpigna depui angers,Angers,Perpignan,angers,,misspelling,hard
-9751,"paris , lourdes et moi voulons aller de toulon à paris",Toulon,Paris,toulon,paris,name_ambiguity,hard
-8754,un billet annecy toulouse s'il vous plait,Annecy,Toulouse,annecy,toulouse,no_capitals,medium
-6466,je veux aller de saint - étienne a toulouse,Saint-Étienne,Toulouse,saint-étienne,toulouse,no_capitals,medium
-9235,comment aller a saint - étienn depuis aix - enn - provence,Aix-en-Provence,Saint-Étienne,,,misspelling,hard
-3967,un billet anggers lile,Angers,Lille,,,misspelling,hard
-6993,Un billet de La Roche sur Yon pour Toulon,La Roche-sur-Yon,Toulon,,Toulon,compound_name,medium
-2826,je veux aller de dijon a perpignan,Dijon,Perpignan,dijon,perpignan,no_capitals,medium
-2062,De Limoges vers Boulogne sur Mer,Limoges,Boulogne-sur-Mer,Limoges,,compound_name,medium
-7589,Commen aler de Bordeaux a Nîmees,Bordeaux,Nîmes,Bordeaux,,misspelling,hard
-9523,comment aller a limoge depuis reiims,Reims,Limoges,,,misspelling,hard
-5364,bilet paris le mans,Paris,Le Mans,paris,le mans,misspelling,hard
-7224,comment aller a pariss depuis toulon,Toulon,Paris,toulon,,misspelling,hard
-587,un billet nise limoges,Nice,Limoges,nise,limoges,misspelling,hard
-2064,retrouver albert à florence en partant de bordeaux,Bordeaux,Florence,bordeaux,florence,name_ambiguity,hard
-4466,retrouver lourdes à dijon en partant de lyon,Lyon,Dijon,lyon,dijon,name_ambiguity,hard
-501,je dois aller de dijon a amiens,Dijon,Amiens,dijon,amiens,no_capitals,medium
-3247,trajet metz lilles,Metz,Lille,metz,lilles,misspelling,hard
-544,"clément , albert et moi voulons aller de tours à paris",Tours,Paris,tours,paris,name_ambiguity,hard
-1362,Bilet Anneccy Nîme,Annecy,Nîmes,,,misspelling,hard
-3798,Comment aller à Châlons en Champagne depuis Strasbourg,Strasbourg,Châlons-en-Champagne,Strasbourg,,compound_name,medium
-8297,retrouver albert à toulouse en partant de limoges,Limoges,Toulouse,limoges,toulouse,name_ambiguity,hard
-3790,comment aller a le mans depuis villeurbanne,Villeurbanne,Le Mans,villeurbanne,le mans,no_capitals,medium
-7433,Je veux aller de Lee Mans à Bordo,Le Mans,Bordeaux,,,misspelling,hard
-1085,Je souhaite me rendre à Aix les Bains en partant de Aix en Provence,Aix-en-Provence,Aix-les-Bains,,,compound_name,medium
-1378,billet bordeaux amiens,Bordeaux,Amiens,bordeaux,amiens,no_capitals,medium
-5430,je voudrais un billet de brest a perpignan,Brest,Perpignan,brest,perpignan,no_capitals,medium
-2767,billet angers le havre,Angers,Le Havre,angers,le havre,no_capitals,medium
-4877,je veux aller de nîmes a toulon,Nîmes,Toulon,nîmes,toulon,no_capitals,medium
-3788,trajet nîmes bordeaux,Nîmes,Bordeaux,nîmes,bordeaux,no_capitals,medium
-9054,Trajet Amien Le Havre,Amiens,Le Havre,,Le Havre,misspelling,hard
-7518,trajet bordeaux aix - en - provence,Bordeaux,Aix-en-Provence,bordeaux,aix-en-provence,no_capitals,medium
-9366,un train de montpellier a strasbourg,Montpellier,Strasbourg,montpellier,strasbourg,no_capitals,medium
-1587,je souhaite me rendre a nîmes depuis bordeaux,Bordeaux,Nîmes,bordeaux,nîmes,no_capitals,medium
-3135,je veux aller de tolouse à le havvre,Toulouse,Le Havre,,,misspelling,hard
-8159,"avec mes amis lourdes et clément , je voudrais aller de angers à grenoble",Angers,Grenoble,angers,grenoble,name_ambiguity,hard
-8412,trajet dijon angerrs,Dijon,Angers,dijon,angerrs,misspelling,hard
-1549,retrouver paris à nantes en partant de perpignan,Perpignan,Nantes,perpignan,nantes,name_ambiguity,hard
-4878,Comment aller à Grenoble depuis La Roche sur Yon,La Roche-sur-Yon,Grenoble,,Grenoble,compound_name,medium
-5198,"albert , lourdes et moi voulons aller de nice à nantes",Nice,Nantes,nice,nantes,name_ambiguity,hard
-5758,Comment aller a Brest depuis Annec,Annecy,Brest,,Brest,misspelling,hard
-8546,je voudrais un bilet de clermontt - ferrand à reims,Clermont-Ferrand,Reims,,reims,misspelling,hard
-8332,"florence , albert et moi voulons aller de nîmes à paris",Nîmes,Paris,nîmes,paris,name_ambiguity,hard
-3151,je voudrais un billet de toulon a paris,Toulon,Paris,toulon,paris,no_capitals,medium
-6601,"avec mes amis rémy et clément , je voudrais aller de amiens à saint - étienne",Amiens,Saint-Étienne,amiens,saint-étienne,name_ambiguity,hard
-2280,billet saint - étienne le havre,Saint-Étienne,Le Havre,saint-étienne,le havre,no_capitals,medium
-5514,Bilet Aix - en - Proveence Nise,Aix-en-Provence,Nice,,,misspelling,hard
-1005,Un billet Le Havvre Clerrmont - Ferrand,Le Havre,Clermont-Ferrand,,,misspelling,hard
-5915,commen aler de aiix - en - provence a toulouze,Aix-en-Provence,Toulouse,aiix-en-provence,,misspelling,hard
-6323,je dois aller de strasbourg a amiens,Strasbourg,Amiens,strasbourg,amiens,no_capitals,medium
-3567,"avec mes amis albert et florence , je voudrais aller de strasbourg à perpignan",Strasbourg,Perpignan,strasbourg,perpignan,name_ambiguity,hard
-3582,je dois aller de brest a dijon,Brest,Dijon,brest,dijon,no_capitals,medium
-5705,Comment me rendre à Port Boulet depuis Tours,Tours,Port-Boulet,Tours,,compound_name,medium
-6054,billet amiens nice,Amiens,Nice,amiens,nice,no_capitals,medium
-7342,je voudrais un bilet de aix - en - provenc à nîme,Aix-en-Provence,Nîmes,,,misspelling,hard
-2977,Je souhaite me rendre à Aix en Provence en partant de Villeurbanne,Villeurbanne,Aix-en-Provence,Villeurbanne,,compound_name,medium
-4584,je voudrais un billet de lyon a perpignan,Lyon,Perpignan,lyon,perpignan,no_capitals,medium
+107,Je veu partir de Annec ver toulouse,Annecy,Toulouse,,toulouse,misspelling,hard
+4576,Comment aller à Nantes depuis Bourg en Bresse,Bourg-en-Bresse,Nantes,,Nantes,compound_name,medium
+8204,traje de strasboure a annec,Strasbourg,Annecy,strasboure,,misspelling,hard
+8497,Un tiket de train de Lyl a strasbourg,Lille,Strasbourg,,strasbourg,misspelling,hard
+1992,Un bilet Aix - en - Provenc Toor,Aix-en-Provence,Tours,Aix-en-Provenc,,misspelling,hard
+7217,un biye de marseille ver annec,Marseille,Annecy,marseille,,misspelling,hard
+8139,Je souhaite me rendre à La Roche sur Yon en partant de Saint - Étienne,Saint-Étienne,La Roche-sur-Yon,Saint-Étienne,,compound_name,medium
+1888,je ve aller de pariz a le man,Paris,Le Mans,aller,le man,misspelling,hard
+7533,Je veu aller de Bordo ver Saint - Étienn,Bordeaux,Saint-Étienne,,Saint-Étienn,misspelling,hard
+9096,Je veux aller de Brest vers Aix en Provence,Brest,Aix-en-Provence,Brest,,compound_name,medium
+8009,je veux ale de bordo a villeurbann,Bordeaux,Villeurbanne,,villeurbann,misspelling,hard
+2247,bilet de annnecy ver lill,Annecy,Lille,,lill,misspelling,hard
+7771,Je souhaite me rendre à Salon - de - Provence en partant de Strasbourg,Strasbourg,Salon-de-Provence,Strasbourg,de-Provence en,compound_name,medium
+55,Je souhet aller de marseille ver Bordo,Marseille,Bordeaux,marseille,,misspelling,hard
+3735,Comment aller à Strasbourg depuis La Roche sur Yon,La Roche-sur-Yon,Strasbourg,,Strasbourg,compound_name,medium
+7987,commen me rendr a anneccy depuis brrest,Brest,Annecy,brrest,,misspelling,hard
+4037,"Lourdes , Paris et moi devons aller de Metz à Paris",Metz,Paris,Paris,Paris,name_ambiguity,hard
+2965,Je dois aller de Salon de Provence à Amiens,Salon-de-Provence,Amiens,,Amiens,compound_name,medium
+9927,Me rendre à Limoges depuis Aix en Provence,Aix-en-Provence,Limoges,,Limoges,compound_name,medium
+8931,Comman se rendre de Metz a Bord,Metz,Bordeaux,Metz,,misspelling,hard
+6108,Pour aller de Salon de Provence vers Limoges,Salon-de-Provence,Limoges,,Limoges,compound_name,medium
+5711,je veux ale de raines a saaint - étienne,Rennes,Saint-Étienne,,saaint-étienne,misspelling,hard
+8522,Réservation de Brest à Châlons en Champagne,Brest,Châlons-en-Champagne,,Brest à Châlons en Champagne,compound_name,medium
+8643,un bilet de trin de nisse a annnecy,Nice,Annecy,,,misspelling,hard
+7391,je dois voir Clément et Paris a Toulouse en partant de Paris,Paris,Toulouse,,Toulouse,name_ambiguity,hard
+477,Pour aller à Aix les Bains depuis Perpignan,Perpignan,Aix-les-Bains,,Aix les Bains depuis Perpignan,compound_name,medium
+8725,Billet Metz Aix en Provence,Metz,Aix-en-Provence,,Metz Aix en Provence,compound_name,medium
+6271,Aller à Aix en Provence depuis Brest,Brest,Aix-en-Provence,,Aix en Provence depuis Brest,compound_name,medium
+7029,Je souhaite me rendre à Boulogne sur Mer en partant de Nantes,Nantes,Boulogne-sur-Mer,Nantes,,compound_name,medium
+7291,Je veu me rendr a Nisse de rennes,Rennes,Nice,rennes,,misspelling,hard
+470,je ve aller de annnecy a nantes,Annecy,Nantes,,nantes,misspelling,hard
+2716,Tiket bordeaux Nisse,Bordeaux,Nice,bordeaux,,misspelling,hard
+2565,Je souhaite me rendr a Annec depui metz,Metz,Annecy,metz,,misspelling,hard
+5199,bilet de dijon ver annnecy,Dijon,Annecy,dijon,,misspelling,hard

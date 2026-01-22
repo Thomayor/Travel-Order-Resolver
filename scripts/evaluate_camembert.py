@@ -28,6 +28,35 @@ from nlp.gazetteer import load_gazetteer
 from nlp.postprocessing import extract_entities
 
 
+def fuzzy_match_cities(predicted: str, expected: str, gazetteer) -> bool:
+    """
+    Check if predicted city matches expected city using fuzzy matching.
+
+    Args:
+        predicted: City name predicted by model (may be misspelled)
+        expected: Expected city name from ground truth
+        gazetteer: Gazetteer instance for fuzzy matching
+
+    Returns:
+        True if cities match (exact or fuzzy), False otherwise
+    """
+    if not predicted or not expected:
+        return predicted == expected
+
+    # Exact match (case-insensitive)
+    if predicted.lower().strip() == expected.lower().strip():
+        return True
+
+    # Try fuzzy match: check if predicted resolves to expected
+    matches = gazetteer.fuzzy_match(predicted, max_distance=3)
+    if matches:
+        for match_city, _ in matches:
+            if match_city.lower().strip() == expected.lower().strip():
+                return True
+
+    return False
+
+
 def load_test_data(test_path: str):
     """Load test data from NER JSON."""
     with open(test_path, 'r', encoding='utf-8') as f:
@@ -63,14 +92,13 @@ def evaluate_baseline(test_data, gazetteer):
         # Predict with baseline
         result = baseline.extract(sentence)
 
-        # Check if correct
+        # Check if correct (with fuzzy matching for misspellings)
         expected_origin = metadata['origin'].strip()
         expected_dest = metadata['destination'].strip()
 
-        is_correct = (
-            result['origin'] == expected_origin and
-            result['destination'] == expected_dest
-        )
+        origin_match = fuzzy_match_cities(result['origin'], expected_origin, gazetteer)
+        dest_match = fuzzy_match_cities(result['destination'], expected_dest, gazetteer)
+        is_correct = origin_match and dest_match
 
         if is_correct:
             correct += 1
@@ -98,7 +126,7 @@ def evaluate_baseline(test_data, gazetteer):
     }
 
 
-def evaluate_camembert(model, test_data):
+def evaluate_camembert(model, test_data, gazetteer):
     """Evaluate CamemBERT model on test data."""
     correct = 0
     total = 0
@@ -132,14 +160,13 @@ def evaluate_camembert(model, test_data):
             pred_origin = None
             pred_dest = None
 
-        # Check if correct
+        # Check if correct (with fuzzy matching for misspellings)
         expected_origin = metadata['origin'].strip()
         expected_dest = metadata['destination'].strip()
 
-        is_correct = (
-            pred_origin == expected_origin and
-            pred_dest == expected_dest
-        )
+        origin_match = fuzzy_match_cities(pred_origin, expected_origin, gazetteer)
+        dest_match = fuzzy_match_cities(pred_dest, expected_dest, gazetteer)
+        is_correct = origin_match and dest_match
 
         if is_correct:
             correct += 1
@@ -289,9 +316,9 @@ def main():
     print(f"\nLoading CamemBERT model from: {model_path}")
     camembert_model = load_pretrained_model(str(model_path))
 
-    # Evaluate CamemBERT
+    # Evaluate CamemBERT (with fuzzy matching)
     print("\nEvaluating CamemBERT model...")
-    camembert_results = evaluate_camembert(camembert_model, test_data)
+    camembert_results = evaluate_camembert(camembert_model, test_data, gazetteer)
     print(f"CamemBERT accuracy: {camembert_results['accuracy']*100:.2f}%")
 
     # Print comparison
