@@ -1,0 +1,156 @@
+Collecting transformers
+  Downloading transformers-4.57.6-py3-none-any.whl (12.0 MB)
+     --------------------------------------- 12.0/12.0 MB 36.4 MB/s eta 0:00:00
+Collecting datasets
+  Downloading datasets-4.5.0-py3-none-any.whl (515 kB)
+     ------------------------------------- 515.2/515.2 kB 33.7 MB/s eta 0:00:00
+Collecting torch
+  Downloading torch-2.9.1-cp310-cp310-win_amd64.whl (111.0 MB)
+     ------------------------------------- 111.0/111.0 MB 25.2 MB/s eta 0:00:00
+Collecting accelerate
+  Downloading accelerate-1.12.0-py3-none-any.whl (380 kB)
+     ------------------------------------- 380.9/380.9 kB 24.7 MB/s eta 0:00:00
+Collecting evaluate
+  Downloading evaluate-0.4.6-py3-none-any.whl (84 kB)
+     ---------------------------------------- 84.1/84.1 kB ? eta 0:00:00
+Collecting seqeval
+  Downloading seqeval-1.2.2.tar.gz (43 kB)
+     ---------------------------------------- 43.6/43.6 kB ? eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting safetensors>=0.4.3
+  Downloading safetensors-0.7.0-cp38-abi3-win_amd64.whl (341 kB)
+     -------------------------------------- 341.4/341.4 kB 1.4 MB/s eta 0:00:00
+Collecting requests
+  Using cached requests-2.32.5-py3-none-any.whl (64 kB)
+Collecting pyyaml>=5.1
+  Downloading pyyaml-6.0.3-cp310-cp310-win_amd64.whl (158 kB)
+     -------------------------------------- 158.6/158.6 kB 3.2 MB/s eta 0:00:00
+Collecting regex!=2019.12.17
+  Downloading regex-2026.1.15-cp310-cp310-win_amd64.whl (277 kB)
+     ------------------------------------- 277.8/277.8 kB 16.7 MB/s eta 0:00:00
+Collecting filelock
+  Downloading filelock-3.20.3-py3-none-any.whl (16 kB)
+Collecting tqdm>=4.27
+  Using cached tqdm-4.67.1-py3-none-any.whl (78 kB)
+Collecting huggingface-hub<1.0,>=0.34.0
+  Downloading huggingface_hub-0.36.0-py3-none-any.whl (566 kB)
+     ------------------------------------- 566.1/566.1 kB 17.9 MB/s eta 0:00:00
+Collecting numpy>=1.17
+  Downloading numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+     --------------------------------------- 12.9/12.9 MB 46.7 MB/s eta 0:00:00
+Collecting tokenizers<=0.23.0,>=0.22.0
+  Downloading tokenizers-0.22.2-cp39-abi3-win_amd64.whl (2.7 MB)
+     ---------------------------------------- 2.7/2.7 MB 44.2 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Collecting multiprocess<0.70.19
+  Downloading multiprocess-0.70.18-py310-none-any.whl (134 kB)
+     ---------------------------------------- 134.9/134.9 kB ? eta 0:00:00
+Collecting pyarrow>=21.0.0
+  Downloading pyarrow-22.0.0-cp310-cp310-win_amd64.whl (28.1 MB)
+     --------------------------------------- 28.1/28.1 MB 40.9 MB/s eta 0:00:00
+Collecting dill<0.4.1,>=0.3.0
+  Downloading dill-0.4.0-py3-none-any.whl (119 kB)
+     ---------------------------------------- 119.7/119.7 kB ? eta 0:00:00
+Collecting httpx<1.0.0
+  Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+     ---------------------------------------- 73.5/73.5 kB ? eta 0:00:00
+Collecting xxhash
+  Downloading xxhash-3.6.0-cp310-cp310-win_amd64.whl (31 kB)
+Collecting fsspec[http]<=2025.10.0,>=2023.1.0
+  Downloading fsspec-2025.10.0-py3-none-any.whl (200 kB)
+     ------------------------------------- 201.0/201.0 kB 11.9 MB/s eta 0:00:00
+Collecting pandas
+  Downloading pandas-2.3.3-cp310-cp310-win_amd64.whl (11.3 MB)
+     --------------------------------------- 11.3/11.3 MB 50.3 MB/s eta 0:00:00
+Collecting fsspec>=0.8.5
+  Downloading fsspec-2026.1.0-py3-none-any.whl (201 kB)
+     ---------------------------------------- 201.8/201.8 kB ? eta 0:00:00
+Collecting jinja2
+  Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Collecting sympy>=1.13.3
+  Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+     ---------------------------------------- 6.3/6.3 MB 50.3 MB/s eta 0:00:00
+Collecting typing-extensions>=4.10.0
+  Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Collecting networkx>=2.5.1
+  Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+     ---------------------------------------- 1.7/1.7 MB 36.4 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-7.2.1-cp37-abi3-win_amd64.whl (136 kB)
+     -------------------------------------- 136.9/136.9 kB 7.9 MB/s eta 0:00:00
+Collecting scikit-learn>=0.21.3
+  Downloading scikit_learn-1.7.2-cp310-cp310-win_amd64.whl (8.9 MB)
+     ---------------------------------------- 8.9/8.9 MB 51.6 MB/s eta 0:00:00
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1
+  Downloading aiohttp-3.13.3-cp310-cp310-win_amd64.whl (456 kB)
+     -------------------------------------- 456.7/456.7 kB 7.2 MB/s eta 0:00:00
+Collecting certifi
+  Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+     ---------------------------------------- 152.9/152.9 kB ? eta 0:00:00
+Collecting idna
+  Using cached idna-3.11-py3-none-any.whl (71 kB)
+Collecting anyio
+  Downloading anyio-4.12.1-py3-none-any.whl (113 kB)
+     ---------------------------------------- 113.6/113.6 kB ? eta 0:00:00
+Collecting httpcore==1.*
+  Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+     ---------------------------------------- 78.8/78.8 kB ? eta 0:00:00
+Collecting h11>=0.16
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting urllib3<3,>=1.21.1
+  Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+     ---------------------------------------- 131.6/131.6 kB ? eta 0:00:00
+Collecting charset_normalizer<4,>=2
+  Using cached charset_normalizer-3.4.4-cp310-cp310-win_amd64.whl (107 kB)
+Collecting joblib>=1.2.0
+  Using cached joblib-1.5.3-py3-none-any.whl (309 kB)
+Collecting threadpoolctl>=3.1.0
+  Using cached threadpoolctl-3.6.0-py3-none-any.whl (18 kB)
+Collecting scipy>=1.8.0
+  Using cached scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+Collecting mpmath<1.4,>=1.1.0
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ---------------------------------------- 536.2/536.2 kB ? eta 0:00:00
+Collecting colorama
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting MarkupSafe>=2.0
+  Using cached markupsafe-3.0.3-cp310-cp310-win_amd64.whl (15 kB)
+Collecting pytz>=2020.1
+  Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+     ------------------------------------- 509.2/509.2 kB 31.2 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.2
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Collecting tzdata>=2022.7
+  Downloading tzdata-2025.3-py2.py3-none-any.whl (348 kB)
+     ---------------------------------------- 348.5/348.5 kB ? eta 0:00:00
+Collecting propcache>=0.2.0
+  Downloading propcache-0.4.1-cp310-cp310-win_amd64.whl (41 kB)
+     ---------------------------------------- 41.6/41.6 kB ? eta 0:00:00
+Collecting aiosignal>=1.4.0
+  Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.7.0-cp310-cp310-win_amd64.whl (46 kB)
+     ---------------------------------------- 46.0/46.0 kB ? eta 0:00:00
+Collecting aiohappyeyeballs>=2.5.0
+  Downloading aiohappyeyeballs-2.6.1-py3-none-any.whl (15 kB)
+Collecting attrs>=17.3.0
+  Downloading attrs-25.4.0-py3-none-any.whl (67 kB)
+     ---------------------------------------- 67.6/67.6 kB ? eta 0:00:00
+Collecting frozenlist>=1.1.1
+  Downloading frozenlist-1.8.0-cp310-cp310-win_amd64.whl (43 kB)
+     ---------------------------------------- 43.8/43.8 kB ? eta 0:00:00
+Collecting async-timeout<6.0,>=4.0
+  Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Collecting yarl<2.0,>=1.17.0
+  Downloading yarl-1.22.0-cp310-cp310-win_amd64.whl (86 kB)
+     ---------------------------------------- 86.9/86.9 kB 5.1 MB/s eta 0:00:00
+Collecting six>=1.5
+  Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting exceptiongroup>=1.0.2
+  Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Installing collected packages: pytz, mpmath, xxhash, urllib3, tzdata, typing-extensions, threadpoolctl, sympy, six, safetensors, regex, pyyaml, pyarrow, psutil, propcache, packaging, numpy, networkx, MarkupSafe, joblib, idna, h11, fsspec, frozenlist, filelock, dill, colorama, charset_normalizer, certifi, attrs, async-timeout, aiohappyeyeballs, tqdm, scipy, requests, python-dateutil, multiprocess, multidict, jinja2, httpcore, exceptiongroup, aiosignal, yarl, torch, scikit-learn, pandas, huggingface-hub, anyio, tokenizers, seqeval, httpx, aiohttp, accelerate, transformers, datasets, evaluate
+  Running setup.py install for seqeval: started
+  Running setup.py install for seqeval: finished with status 'done'
+Successfully installed MarkupSafe-3.0.3 accelerate-1.12.0 aiohappyeyeballs-2.6.1 aiohttp-3.13.3 aiosignal-1.4.0 anyio-4.12.1 async-timeout-5.0.1 attrs-25.4.0 certifi-2026.1.4 charset_normalizer-3.4.4 colorama-0.4.6 datasets-4.5.0 dill-0.4.0 evaluate-0.4.6 exceptiongroup-1.3.1 filelock-3.20.3 frozenlist-1.8.0 fsspec-2025.10.0 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 huggingface-hub-0.36.0 idna-3.11 jinja2-3.1.6 joblib-1.5.3 mpmath-1.3.0 multidict-6.7.0 multiprocess-0.70.18 networkx-3.4.2 numpy-2.2.6 packaging-25.0 pandas-2.3.3 propcache-0.4.1 psutil-7.2.1 pyarrow-22.0.0 python-dateutil-2.9.0.post0 pytz-2025.2 pyyaml-6.0.3 regex-2026.1.15 requests-2.32.5 safetensors-0.7.0 scikit-learn-1.7.2 scipy-1.15.3 seqeval-1.2.2 six-1.17.0 sympy-1.14.0 threadpoolctl-3.6.0 tokenizers-0.22.2 torch-2.9.1 tqdm-4.67.1 transformers-4.57.6 typing-extensions-4.15.0 tzdata-2025.3 urllib3-2.6.3 xxhash-3.6.0 yarl-1.22.0
