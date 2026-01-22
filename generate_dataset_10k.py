@@ -18,15 +18,9 @@ import os
 
 # Import from existing generators
 from generate_valid_orders import (
-    generate_standard,
-    generate_inverted_order,
-    generate_no_markers,
-    generate_name_ambiguities,
-    generate_compound_names,
-    generate_misspellings,
-    generate_no_capitals,
-    generate_additional_info,
-    generate_complex_questions
+    generate_easy_orders,
+    generate_medium_orders,
+    generate_hard_orders
 )
 
 from generate_invalid_orders import (
@@ -39,79 +33,48 @@ from generate_invalid_orders import (
 
 def generate_valid_orders_7k():
     """
-    Generate ~7,300 valid orders (to get 7,000 after deduplication)
+    Generate ~7,275 valid orders (to get 7,000 after deduplication)
 
-    Adjusted for ~3.5% duplication rate:
-    - standard: 800 (26.7%) -> 1,940 (26.6%)
-    - inverted_order: 400 (13.3%) -> 970 (13.3%)
-    - no_markers: 300 (10%) -> 730 (10%)
-    - name_ambiguities: 500 (16.7%) -> 1,220 (16.7%)
-    - compound_names: 250 (8.3%) -> 605 (8.3%)
-    - misspellings: 300 (10%) -> 730 (10%)
-    - no_capitals: 250 (8.3%) -> 605 (8.3%)
-    - additional_info: 150 (5%) -> 365 (5%)
-    - complex_questions: 50 (1.7%) -> 135 (1.9%)
+    NEW ARCHITECTURE: 3 functions by difficulty level
+    - Easy: 2,400 -> 2,310 after dedup (33%)
+    - Medium: 2,400 -> 2,310 after dedup (33%)
+    - Hard: 2,475 -> 2,380 after dedup (34%)
 
-    Total: 7,300 -> ~7,000 after dedup
+    Distribution: 33% easy / 33% medium / 34% hard
     """
 
     print("=" * 70)
-    print("GENERATING 7,300 VALID ORDERS (target 7,000 after dedup)")
+    print("GENERATING 7,275 VALID ORDERS (target 7,000 after dedup)")
+    print("Distribution: 33% easy / 33% medium / 34% hard")
     print("=" * 70)
 
     all_phrases = []
 
-    # Generate each category with scaled counts (compensating for duplicates)
-    print("\n[1/9] Generating standard phrases (1,940)...")
-    standard, next_id = generate_standard(1940)
-    all_phrases.extend(standard)
-    print(f"      Generated {len(standard)} phrases")
+    # Generate easy orders (2,400 → 2,310 after dedup)
+    print("\n[EASY] Generating easy-difficulty orders (2,400)...")
+    easy, next_id = generate_easy_orders(count=2400, start_id=1)
+    all_phrases.extend(easy)
+    print(f"      Generated {len(easy)} phrases")
 
-    print("\n[2/9] Generating inverted order phrases (970)...")
-    inverted, next_id = generate_inverted_order(970, start_id=next_id)
-    all_phrases.extend(inverted)
-    print(f"      Generated {len(inverted)} phrases")
+    # Generate medium orders (2,400 → 2,310 after dedup)
+    print("\n[MEDIUM] Generating medium-difficulty orders (2,400)...")
+    medium, next_id = generate_medium_orders(count=2400, start_id=next_id)
+    all_phrases.extend(medium)
+    print(f"      Generated {len(medium)} phrases")
 
-    print("\n[3/9] Generating no markers phrases (730)...")
-    no_markers, next_id = generate_no_markers(730, start_id=next_id)
-    all_phrases.extend(no_markers)
-    print(f"      Generated {len(no_markers)} phrases")
-
-    print("\n[4/9] Generating name ambiguities phrases (1,220)...")
-    name_ambig, next_id = generate_name_ambiguities(1220, start_id=next_id)
-    all_phrases.extend(name_ambig)
-    print(f"      Generated {len(name_ambig)} phrases")
-
-    print("\n[5/9] Generating compound names phrases (605)...")
-    compound, next_id = generate_compound_names(605, start_id=next_id)
-    all_phrases.extend(compound)
-    print(f"      Generated {len(compound)} phrases")
-
-    print("\n[6/9] Generating misspellings phrases (730)...")
-    misspell_phrases, next_id = generate_misspellings(730, start_id=next_id)
-    all_phrases.extend(misspell_phrases)
-    print(f"      Generated {len(misspell_phrases)} phrases")
-
-    print("\n[7/9] Generating no capitals phrases (605)...")
-    no_caps, next_id = generate_no_capitals(605, start_id=next_id)
-    all_phrases.extend(no_caps)
-    print(f"      Generated {len(no_caps)} phrases")
-
-    print("\n[8/9] Generating additional info phrases (365)...")
-    additional, next_id = generate_additional_info(365, start_id=next_id)
-    all_phrases.extend(additional)
-    print(f"      Generated {len(additional)} phrases")
-
-    print("\n[9/9] Generating complex questions phrases (135)...")
-    complex_q, next_id = generate_complex_questions(135, start_id=next_id)
-    all_phrases.extend(complex_q)
-    print(f"      Generated {len(complex_q)} phrases")
+    # Generate hard orders (2,475 → 2,380 after dedup)
+    print("\n[HARD] Generating hard-difficulty orders (2,475)...")
+    hard, next_id = generate_hard_orders(count=2475, start_id=next_id)
+    all_phrases.extend(hard)
+    print(f"      Generated {len(hard)} phrases")
 
     # Reassign sequential IDs
     for i, phrase in enumerate(all_phrases, 1):
         phrase['sentenceID'] = i
 
     print(f"\n[OK] Total valid phrases generated: {len(all_phrases)}")
+    print(f"     Expected after dedup: ~7,000")
+    print(f"     Distribution: {len(easy)} easy / {len(medium)} medium / {len(hard)} hard")
 
     return all_phrases
 

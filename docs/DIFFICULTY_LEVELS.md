@@ -6,13 +6,24 @@ Les phrases du dataset sont classées en **3 niveaux de difficulté** basés sur
 
 ---
 
-## Distribution dans le Dataset (10K)
+## Distribution dans le Dataset (10K) - NEW (2026-01-22)
 
-| Difficulté | Count | Pourcentage | Baseline Accuracy |
-|------------|-------|-------------|-------------------|
-| **Easy** | 1,423 | 20.3% | **87.14%** ✅ |
-| **Medium** | 4,179 | 59.7% | **73.39%** ✅ |
-| **Hard** | 1,398 | 20.0% | **34.84%** ⚠️ |
+| Difficulté | Count | Pourcentage | Target Baseline Accuracy |
+|------------|-------|-------------|-------------------------|
+| **Easy** | 2,309 | 33.0% | **~87%** ✅ |
+| **Medium** | 2,300 | 32.9% | **~73%** ✅ |
+| **Hard** | 2,391 | 34.2% | **~35%** ⚠️ |
+
+**Distribution Previous (2026-01-09):**
+- Easy: 1,423 (20.3%)
+- Medium: 4,179 (59.7%)
+- Hard: 1,398 (20.0%)
+
+**Changes:**
+- ✅ Rebalanced to 33%/33%/34% (more balanced representation)
+- ✅ Increased templates from ~90 to 600 (x6.7 increase)
+- ✅ New architecture: 3 functions by difficulty level
+- ✅ Improved template diversity and naturalness
 
 ---
 
@@ -279,15 +290,34 @@ Certains facteurs transforment une phrase medium en hard:
 
 ## Distribution Recommandée
 
-Pour un dataset équilibré:
-- **20-25% Easy**: Valider que le modèle fonctionne sur cas simples
-- **55-65% Medium**: Majorité des cas réels
-- **15-25% Hard**: Pousser les limites du modèle
+Pour un dataset équilibré et représentatif:
 
-Notre dataset 10K: **20.3% Easy / 59.7% Medium / 20.0% Hard** ✅
+**Nouvelle approche (2026-01-22):**
+- **33% Easy**: Valider que le modèle fonctionne sur cas simples
+- **33% Medium**: Représenter la complexité réelle des requêtes
+- **33% Hard**: Pousser les limites du modèle
+
+Notre dataset 10K: **33.0% Easy / 32.9% Medium / 34.2% Hard** ✅
+
+**Ancienne approche (2026-01-09):**
+- 20-25% Easy / 55-65% Medium / 15-25% Hard
+- Problème: Sur-représentation de medium, sous-représentation de easy/hard
+
+**Avantages de la nouvelle distribution:**
+1. **Meilleure couverture**: Chaque difficulté équitablement représentée
+2. **Entraînement équilibré**: CamemBERT voit autant de cas faciles que difficiles
+3. **Évaluation plus fiable**: Métrique de performance plus représentative
+4. **Réduction du biais**: Évite la sur-optimisation sur les cas medium
 
 ---
 
-**Date**: 2026-01-09
+**Last Update**: 2026-01-22
 **Dataset**: 10,000 sentences (7,000 valid)
-**Source**: generate_valid_orders.py
+**Architecture**: 3 functions by difficulty level (generate_easy_orders, generate_medium_orders, generate_hard_orders)
+**Templates**: 600 total (200 per difficulty level)
+**Source**: [generate_valid_orders.py](../generate_valid_orders.py)
+
+**Previous Version** (2026-01-09):
+- Architecture: 9 functions by category
+- Templates: ~90 total
+- Distribution: 20%/60%/20%
