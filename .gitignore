@@ -52,10 +52,9 @@ data/raw/*.json
 data/train.csv
 data/val.csv
 data/test.csv
-# Keep NER datasets (needed for training by team members)
-# data/train_ner.json
-# data/val_ner.json
-# data/test_ner.json
+data/train_ner.json
+data/val_ner.json
+data/test_ner.json
 
 # Results - keep final results, ignore intermediate ones
 results/checkpoint-*/
