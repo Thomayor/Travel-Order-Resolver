@@ -2,7 +2,7 @@
 DATASET SPLIT STATISTICS
 ============================================================
 
-Date: 2026-01-16 15:39:33
+Date: 2026-01-22 13:45:40
 Random seed: 42
 Input file: data/dataset_final.csv
 
@@ -27,41 +27,41 @@ Test Set (1,500 sentences, 15.0%):
 
 Category Distribution (Valid Orders):
   additional_info:
-    Train: 231 (65.4%)
-    Val: 54 (15.3%)
-    Test: 68 (19.3%)
+    Train: 320 (67.4%)
+    Val: 83 (17.5%)
+    Test: 72 (15.2%)
   complex_question:
-    Train: 95 (71.4%)
-    Val: 15 (11.3%)
-    Test: 23 (17.3%)
+    Train: 351 (70.9%)
+    Val: 67 (13.5%)
+    Test: 77 (15.6%)
   compound_name:
-    Train: 396 (68.6%)
-    Val: 89 (15.4%)
-    Test: 92 (15.9%)
+    Train: 436 (73.5%)
+    Val: 78 (13.2%)
+    Test: 79 (13.3%)
   inverted_order:
-    Train: 628 (68.5%)
-    Val: 157 (17.1%)
-    Test: 132 (14.4%)
+    Train: 413 (71.3%)
+    Val: 78 (13.5%)
+    Test: 88 (15.2%)
   misspelling:
-    Train: 525 (72.8%)
-    Val: 112 (15.5%)
-    Test: 84 (11.7%)
+    Train: 851 (69.8%)
+    Val: 193 (15.8%)
+    Test: 175 (14.4%)
   name_ambiguity:
-    Train: 838 (70.4%)
-    Val: 173 (14.5%)
-    Test: 179 (15.0%)
+    Train: 473 (69.9%)
+    Val: 107 (15.8%)
+    Test: 97 (14.3%)
   no_capitals:
-    Train: 405 (70.4%)
-    Val: 93 (16.2%)
-    Test: 77 (13.4%)
+    Train: 641 (70.1%)
+    Val: 137 (15.0%)
+    Test: 137 (15.0%)
   no_markers:
-    Train: 489 (70.3%)
-    Val: 98 (14.1%)
-    Test: 109 (15.7%)
+    Train: 501 (67.8%)
+    Val: 118 (16.0%)
+    Test: 120 (16.2%)
   standard:
-    Train: 1293 (70.3%)
-    Val: 259 (14.1%)
-    Test: 286 (15.6%)
+    Train: 914 (69.9%)
+    Val: 189 (14.4%)
+    Test: 205 (15.7%)
 
 [OK] Stratified split ensures balanced class distribution
 [OK] No data leakage between sets

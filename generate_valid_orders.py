@@ -1,23 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Generate valid travel orders dataset (3,000 phrases)
+Generate valid travel orders dataset (7,000 phrases)
 
-Categories:
-1. Standard (800): Clear markers
-2. Inverted order (400): Destination before origin
-3. No markers (300): "billet X Y"
-4. Name ambiguities (500): Florence, Paris, Albert, Lourdes
-5. Compound names (250): Port-Boulet, Aix-en-Provence
-6. Spelling errors (300): misspellings
-7. No capitals/accents (250): lowercase
-8. Additional info (150): times, passengers
-9. Complex questions (50): "fastest way", "how long"
+NEW ARCHITECTURE: 3 functions by difficulty level
+- generate_easy_orders(): 200 templates → 2,310 sentences (33%)
+- generate_medium_orders(): 200 templates → 2,310 sentences (33%)
+- generate_hard_orders(): 200 templates → 2,380 sentences (34%)
 
-Difficulty distribution:
-- Easy (900): 30%
-- Medium (1,500): 50%
-- Hard (600): 20%
+Distribution: 33% easy / 33% medium / 34% hard
 """
 
 import csv
@@ -43,15 +34,18 @@ AMBIGUOUS_NAMES = ["Albert", "Florence", "Paris", "Lourdes", "Rémy", "Clément"
 
 # Common misspellings
 MISSPELLINGS = {
-    "Paris": ["Pari", "Paric", "Pariss"],
-    "Lyon": ["Lion", "Lyo", "Lionne"],
-    "Marseille": ["Marsel", "Marseile", "Marceille"],
-    "Toulouse": ["Tolouse", "Toulouze", "Toulouse"],
-    "Nice": ["Nise", "Nices", "Nisse"],
-    "Bordeaux": ["Bordo", "Bordeau", "Bordeaus"],
-    "Lille": ["Lile", "Lilles", "Lill"],
-    "Nantes": ["Nante", "Nantess", "Nantez"],
-    "Tours": ["Tour", "Tourz", "Toure"],
+    "Paris": ["Pari", "Paric", "Pariss", "Pariis", "Pariz"],
+    "Lyon": ["Lion", "Lyo", "Lionne", "Lione", "Lyhon"],
+    "Marseille": ["Marsel", "Marseile", "Marceille", "Marseiye", "Marsei"],
+    "Toulouse": ["Tolouse", "Toulouze", "Toulouse", "Tolooze", "Touluse"],
+    "Nice": ["Nise", "Nices", "Nisse", "Niice", "Nicce"],
+    "Bordeaux": ["Bordo", "Bordeau", "Bordeaus", "Bordau", "Bord"],
+    "Lille": ["Lile", "Lilles", "Lill", "Lile", "Lyl"],
+    "Nantes": ["Nante", "Nantess", "Nantez", "Nantte", "Nante"],
+    "Tours": ["Tour", "Tourz", "Toure", "Touurs", "Toor"],
+    "Rennes": ["Rene", "Renss", "Renn", "Rene", "Raines"],
+    "Strasbourg": ["Strasborg", "Strasbourge", "Strazburg", "Strasboure"],
+    "Montpellier": ["Montpelier", "Montpellié", "Montpellie", "Monpelier"],
 }
 
 def misspell(city):
@@ -67,110 +61,251 @@ def misspell(city):
             return city[:idx] + city[idx] + city[idx:]
     return city
 
-def generate_standard(count=800):
-    """Generate standard phrases with clear markers"""
 
-    templates_easy = [
-        ("Je voudrais un billet de {origin} à {dest}", "easy"),
-        ("Je souhaite me rendre à {dest} depuis {origin}", "easy"),
-        ("Un aller simple de {origin} à {dest}", "easy"),
-        ("Un billet {origin} {dest} s'il vous plaît", "easy"),
-        ("Je veux aller de {origin} à {dest}", "easy"),
-        ("Comment aller de {origin} à {dest}", "easy"),
-        ("Quel est le prix d'un billet de {origin} à {dest}", "easy"),
-        ("Y a-t-il un train de {origin} vers {dest}", "easy"),
-        ("Je cherche un train de {origin} à {dest}", "easy"),
-        ("Pouvez-vous me donner les horaires de {origin} à {dest}", "easy"),
-        ("Un train de {origin} pour {dest}", "easy"),
-        ("Je dois me rendre de {origin} à {dest}", "easy"),
-        ("Trajet de {origin} vers {dest}", "easy"),
-        ("Départ {origin} arrivée {dest}", "easy"),
-        ("De {origin} vers {dest} s'il vous plaît", "easy"),
+def generate_easy_orders(count=2400, start_id=1):
+    """Generate easy-difficulty travel orders (200 templates)
+
+    Args:
+        count: Number of sentences to generate (default 2400 for 2310 after dedup)
+        start_id: Starting sentence ID
+
+    Returns:
+        (phrases, next_id): List of phrase dicts and next available ID
+
+    Templates:
+        - 80 standard with clear structure ("Je veux aller de X à Y")
+        - 40 direct format ("Billet X Y", "Train X Y")
+        - 80 lowercase but clear structure
+    """
+
+    # Standard templates with clear structure (80 templates)
+    templates_standard = [
+        ("Je voudrais un billet de {origin} à {dest}", "standard"),
+        ("Un aller simple de {origin} à {dest}", "standard"),
+        ("Je veux aller de {origin} à {dest}", "standard"),
+        ("Un billet {origin} {dest} s'il vous plaît", "standard"),
+        ("Je souhaite me rendre à {dest} depuis {origin}", "standard"),
+        ("Comment aller de {origin} à {dest}", "standard"),
+        ("Quel est le prix d'un billet de {origin} à {dest}", "standard"),
+        ("Y a-t-il un train de {origin} vers {dest}", "standard"),
+        ("Je cherche un train de {origin} à {dest}", "standard"),
+        ("Pouvez-vous me donner les horaires de {origin} à {dest}", "standard"),
+        ("Un train de {origin} pour {dest}", "standard"),
+        ("Je dois me rendre de {origin} à {dest}", "standard"),
+        ("Trajet de {origin} vers {dest}", "standard"),
+        ("Départ {origin} arrivée {dest}", "standard"),
+        ("De {origin} vers {dest} s'il vous plaît", "standard"),
+        ("Pourriez-vous me réserver un billet de {origin} à {dest}", "standard"),
+        ("Je souhaiterais obtenir un billet de {origin} à {dest}", "standard"),
+        ("Il me faudrait un titre de transport de {origin} à {dest}", "standard"),
+        ("Je prends le train de {origin} à {dest}", "standard"),
+        ("Mon trajet est de {origin} à {dest}", "standard"),
+        ("C'est pour un voyage de {origin} à {dest}", "standard"),
+        ("Le billet de {origin} à {dest} coûte combien", "standard"),
+        ("Il y a des trains de {origin} à {dest}", "standard"),
+        ("Les horaires de {origin} à {dest} svp", "standard"),
+        ("Je voudrais voyager de {origin} à {dest}", "standard"),
+        ("Un aller de {origin} à {dest} merci", "standard"),
+        ("Pour aller de {origin} à {dest}", "standard"),
+        ("Depuis {origin} vers {dest}", "standard"),
+        ("Train au départ de {origin} pour {dest}", "standard"),
+        ("Voyage de {origin} à {dest}", "standard"),
+        ("Aller de {origin} à {dest}", "standard"),
+        ("De {origin} jusqu'à {dest}", "standard"),
+        ("Un ticket de {origin} à {dest}", "standard"),
+        ("Place dans le train de {origin} à {dest}", "standard"),
+        ("Réservation de {origin} à {dest}", "standard"),
+        ("Partir de {origin} et aller à {dest}", "standard"),
+        ("Je pars de {origin} pour {dest}", "standard"),
+        ("Direction {dest} depuis {origin}", "standard"),
+        ("Itinéraire de {origin} à {dest}", "standard"),
+        ("Route de {origin} vers {dest}", "standard"),
+        ("Je me rends de {origin} à {dest}", "standard"),
+        ("Transport de {origin} à {dest}", "standard"),
+        ("Aller chercher un billet de {origin} à {dest}", "standard"),
+        ("Il me faut un billet de {origin} à {dest}", "standard"),
+        ("Besoin d'un billet de {origin} à {dest}", "standard"),
+        ("Je vais de {origin} à {dest}", "standard"),
+        ("Pour me rendre de {origin} à {dest}", "standard"),
+        ("De {origin} à {dest} en train", "standard"),
+        ("Trajet en train de {origin} à {dest}", "standard"),
+        ("Aller en train de {origin} à {dest}", "standard"),
+        ("Le train de {origin} à {dest}", "standard"),
+        ("Prendre le train de {origin} à {dest}", "standard"),
+        ("Je souhaite partir de {origin} vers {dest}", "standard"),
+        ("Voyager de {origin} vers {dest}", "standard"),
+        ("Un voyage de {origin} à {dest}", "standard"),
+        ("Depuis {origin} jusqu'à {dest}", "standard"),
+        ("Au départ de {origin} vers {dest}", "standard"),
+        ("En partant de {origin} vers {dest}", "standard"),
+        ("Je désire aller de {origin} à {dest}", "standard"),
+        ("J'aimerais aller de {origin} à {dest}", "standard"),
+        ("Pour voyager de {origin} à {dest}", "standard"),
+        ("Aller simple de {origin} vers {dest}", "standard"),
+        ("Un trajet de {origin} vers {dest}", "standard"),
+        ("Départ de {origin} destination {dest}", "standard"),
+        ("Origine {origin} destination {dest}", "standard"),
+        ("De {origin} pour aller à {dest}", "standard"),
+        ("Partir de {origin} direction {dest}", "standard"),
+        ("Train de {origin} direction {dest}", "standard"),
+        ("Je veux partir de {origin} à {dest}", "standard"),
+        ("Rejoindre {dest} depuis {origin}", "standard"),
+        ("Aller vers {dest} depuis {origin}", "standard"),
+        ("Me rendre à {dest} de {origin}", "standard"),
+        ("Partir à {dest} de {origin}", "standard"),
+        ("Voyage depuis {origin} vers {dest}", "standard"),
+        ("Trajet depuis {origin} vers {dest}", "standard"),
+        ("De {origin} en direction de {dest}", "standard"),
+        ("Au départ de {origin} pour {dest}", "standard"),
+        ("Je dois partir de {origin} à {dest}", "standard"),
+        ("J'ai besoin d'aller de {origin} à {dest}", "standard"),
+        ("Faut que j'aille de {origin} à {dest}", "standard"),
     ]
 
-    templates_medium = [
-        ("Quand part le prochain train de {origin} vers {dest}", "medium"),
-        ("À quelle heure y a-t-il des trains de {origin} à {dest}", "medium"),
-        ("Quel est l'horaire des trains au départ de {origin} pour {dest}", "medium"),
-        ("Combien coûte un billet de train de {origin} à {dest}", "medium"),
-        ("Je voudrais réserver un billet de {origin} pour {dest}", "medium"),
-        ("Pouvez-vous me réserver une place de {origin} à {dest}", "medium"),
-        ("Y a-t-il des trains directs de {origin} à {dest}", "medium"),
-        ("Quel est le temps de trajet de {origin} à {dest}", "medium"),
+    # Direct format templates (40 templates)
+    templates_direct = [
+        ("Billet {origin} {dest}", "no_markers"),
+        ("Train {origin} {dest}", "no_markers"),
+        ("Trajet {origin} {dest}", "no_markers"),
+        ("{origin} {dest} s'il vous plaît", "no_markers"),
+        ("{origin} {dest} demain", "no_markers"),
+        ("Un billet {origin} {dest}", "no_markers"),
+        ("Réservation {origin} {dest}", "no_markers"),
+        ("{origin} {dest} aujourd'hui", "no_markers"),
+        ("{origin} {dest} ce soir", "no_markers"),
+        ("{origin} {dest} aller simple", "no_markers"),
+        ("Place {origin} {dest}", "no_markers"),
+        ("Ticket {origin} {dest}", "no_markers"),
+        ("{origin} {dest} svp", "no_markers"),
+        ("{origin} {dest} merci", "no_markers"),
+        ("Transport {origin} {dest}", "no_markers"),
+        ("{origin} {dest} direct", "no_markers"),
+        ("{origin} {dest} rapide", "no_markers"),
+        ("{origin} {dest} pour demain", "no_markers"),
+        ("{origin} {dest} ce matin", "no_markers"),
+        ("{origin} {dest} cet après-midi", "no_markers"),
+        ("Voyage {origin} {dest}", "no_markers"),
+        ("{origin} {dest} maintenant", "no_markers"),
+        ("{origin} {dest} tout de suite", "no_markers"),
+        ("{origin} {dest} bientôt", "no_markers"),
+        ("{origin} {dest} prochain train", "no_markers"),
+        ("Départ {origin} {dest}", "no_markers"),
+        ("Aller {origin} {dest}", "no_markers"),
+        ("{origin} {dest} merci beaucoup", "no_markers"),
+        ("{origin} {dest} s'il te plaît", "no_markers"),
+        ("{origin} {dest} TGV", "no_markers"),
+        ("{origin} {dest} train", "no_markers"),
+        ("{origin} {dest} direct svp", "no_markers"),
+        ("{origin} {dest} aller", "no_markers"),
+        ("{origin} {dest} simple", "no_markers"),
+        ("Billet svp {origin} {dest}", "no_markers"),
+        ("Train svp {origin} {dest}", "no_markers"),
+        ("{origin} {dest} voyager", "no_markers"),
+        ("{origin} {dest} partir", "no_markers"),
+        ("{origin} {dest} réserver", "no_markers"),
+        ("{origin} {dest} horaires", "no_markers"),
     ]
 
-    phrases = []
-    sentence_id = 1
-
-    # 70% easy, 30% medium
-    easy_count = int(count * 0.7)
-    medium_count = count - easy_count
-
-    for _ in range(easy_count):
-        template, difficulty = random.choice(templates_easy)
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        sentence = template.format(origin=origin, dest=dest)
-
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'standard',
-            'notes': ''
-        })
-        sentence_id += 1
-
-    for _ in range(medium_count):
-        template, difficulty = random.choice(templates_medium)
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        sentence = template.format(origin=origin, dest=dest)
-
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'standard',
-            'notes': ''
-        })
-        sentence_id += 1
-
-    return phrases, sentence_id
-
-def generate_inverted_order(count=400, start_id=1):
-    """Generate phrases with inverted order (destination before origin)"""
-
-    templates = [
-        ("Je veux aller à {dest} en partant de {origin}", "medium"),
-        ("Comment se rendre à {dest} si on part de {origin}", "medium"),
-        ("Pour aller à {dest} depuis {origin}", "medium"),
-        ("À {dest} en partance de {origin}", "medium"),
-        ("Vers {dest} au départ de {origin}", "medium"),
-        ("Direction {dest} en partant de {origin}", "medium"),
-        ("Cap sur {dest} depuis {origin}", "medium"),
-        ("Je me rends à {dest} en provenance de {origin}", "medium"),
-        ("Trajet vers {dest} au départ de {origin}", "medium"),
-        ("Pour me rendre à {dest} je pars de {origin}", "medium"),
+    # Lowercase templates with clear structure (80 templates)
+    templates_lowercase = [
+        ("je voudrais un billet de {origin} a {dest}", "no_capitals"),
+        ("je veux aller de {origin} a {dest}", "no_capitals"),
+        ("un billet {origin} {dest} sil vous plait", "no_capitals"),
+        ("comment aller de {origin} a {dest}", "no_capitals"),
+        ("je souhaite me rendre a {dest} depuis {origin}", "no_capitals"),
+        ("trajet de {origin} vers {dest}", "no_capitals"),
+        ("billet {origin} {dest}", "no_capitals"),
+        ("je dois aller de {origin} a {dest}", "no_capitals"),
+        ("de {origin} vers {dest}", "no_capitals"),
+        ("un train de {origin} a {dest}", "no_capitals"),
+        ("je prends un billet de {origin} a {dest}", "no_capitals"),
+        ("cest pour aller de {origin} a {dest}", "no_capitals"),
+        ("train {origin} {dest} sil vous plait", "no_capitals"),
+        ("je dois me rendre de {origin} a {dest}", "no_capitals"),
+        ("partir de {origin} vers {dest}", "no_capitals"),
+        ("aller de {origin} a {dest}", "no_capitals"),
+        ("un aller simple de {origin} a {dest}", "no_capitals"),
+        ("je vais de {origin} a {dest}", "no_capitals"),
+        ("voyage de {origin} a {dest}", "no_capitals"),
+        ("depuis {origin} jusqua {dest}", "no_capitals"),
+        ("pour aller de {origin} a {dest}", "no_capitals"),
+        ("train au depart de {origin} pour {dest}", "no_capitals"),
+        ("je cherche un train de {origin} a {dest}", "no_capitals"),
+        ("reservation de {origin} a {dest}", "no_capitals"),
+        ("un ticket de {origin} a {dest}", "no_capitals"),
+        ("direction {dest} depuis {origin}", "no_capitals"),
+        ("itineraire de {origin} a {dest}", "no_capitals"),
+        ("route de {origin} vers {dest}", "no_capitals"),
+        ("transport de {origin} a {dest}", "no_capitals"),
+        ("il me faut un billet de {origin} a {dest}", "no_capitals"),
+        ("besoin dun billet de {origin} a {dest}", "no_capitals"),
+        ("pour me rendre de {origin} a {dest}", "no_capitals"),
+        ("de {origin} a {dest} en train", "no_capitals"),
+        ("trajet en train de {origin} a {dest}", "no_capitals"),
+        ("aller en train de {origin} a {dest}", "no_capitals"),
+        ("le train de {origin} a {dest}", "no_capitals"),
+        ("prendre le train de {origin} a {dest}", "no_capitals"),
+        ("je souhaite partir de {origin} vers {dest}", "no_capitals"),
+        ("voyager de {origin} vers {dest}", "no_capitals"),
+        ("un voyage de {origin} a {dest}", "no_capitals"),
+        ("au depart de {origin} vers {dest}", "no_capitals"),
+        ("en partant de {origin} vers {dest}", "no_capitals"),
+        ("je desire aller de {origin} a {dest}", "no_capitals"),
+        ("jaimerais aller de {origin} a {dest}", "no_capitals"),
+        ("pour voyager de {origin} a {dest}", "no_capitals"),
+        ("aller simple de {origin} vers {dest}", "no_capitals"),
+        ("un trajet de {origin} vers {dest}", "no_capitals"),
+        ("depart de {origin} destination {dest}", "no_capitals"),
+        ("origine {origin} destination {dest}", "no_capitals"),
+        ("de {origin} pour aller a {dest}", "no_capitals"),
+        ("partir de {origin} direction {dest}", "no_capitals"),
+        ("train de {origin} direction {dest}", "no_capitals"),
+        ("je veux partir de {origin} a {dest}", "no_capitals"),
+        ("rejoindre {dest} depuis {origin}", "no_capitals"),
+        ("aller vers {dest} depuis {origin}", "no_capitals"),
+        ("me rendre a {dest} de {origin}", "no_capitals"),
+        ("partir a {dest} de {origin}", "no_capitals"),
+        ("voyage depuis {origin} vers {dest}", "no_capitals"),
+        ("trajet depuis {origin} vers {dest}", "no_capitals"),
+        ("de {origin} en direction de {dest}", "no_capitals"),
+        ("au depart de {origin} pour {dest}", "no_capitals"),
+        ("je dois partir de {origin} a {dest}", "no_capitals"),
+        ("jai besoin daller de {origin} a {dest}", "no_capitals"),
+        ("faut que jaille de {origin} a {dest}", "no_capitals"),
+        ("un billet de {origin} vers {dest}", "no_capitals"),
+        ("je vais prendre le train de {origin} a {dest}", "no_capitals"),
+        ("cest pour un voyage de {origin} a {dest}", "no_capitals"),
+        ("aller chercher un billet de {origin} a {dest}", "no_capitals"),
+        ("place dans le train de {origin} a {dest}", "no_capitals"),
+        ("partir de {origin} et aller a {dest}", "no_capitals"),
+        ("je pars de {origin} pour {dest}", "no_capitals"),
+        ("mon trajet est de {origin} a {dest}", "no_capitals"),
+        ("les horaires de {origin} a {dest} svp", "no_capitals"),
+        ("il y a des trains de {origin} a {dest}", "no_capitals"),
+        ("le billet de {origin} a {dest} coute combien", "no_capitals"),
+        ("y a-t-il un train de {origin} vers {dest}", "no_capitals"),
+        ("pouvez-vous me donner les horaires de {origin} a {dest}", "no_capitals"),
+        ("depart {origin} arrivee {dest}", "no_capitals"),
+        ("un aller de {origin} a {dest} merci", "no_capitals"),
+        ("je voudrais voyager de {origin} a {dest}", "no_capitals"),
     ]
+
+    # Combine all templates (200 total)
+    all_templates = templates_standard + templates_direct + templates_lowercase
 
     phrases = []
     sentence_id = start_id
 
     for _ in range(count):
-        template, difficulty = random.choice(templates)
+        template, category = random.choice(all_templates)
         origin = random.choice(MAIN_CITIES)
         dest = random.choice([c for c in MAIN_CITIES if c != origin])
 
         sentence = template.format(origin=origin, dest=dest)
+
+        # Lowercase for no_capitals category
+        if category == "no_capitals":
+            sentence = sentence.lower()
 
         phrases.append({
             'sentenceID': sentence_id,
@@ -178,272 +313,588 @@ def generate_inverted_order(count=400, start_id=1):
             'origin': origin,
             'destination': dest,
             'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'inverted_order',
+            'difficulty': 'easy',
+            'category': category,
             'notes': ''
         })
         sentence_id += 1
 
     return phrases, sentence_id
 
-def generate_no_markers(count=300, start_id=1):
-    """Generate phrases without clear markers"""
 
-    templates = [
-        ("Billet {origin} {dest}", "medium"),
-        ("Trajet {origin} {dest}", "medium"),
-        ("{origin} {dest} demain", "medium"),
-        ("{origin} {dest} s'il vous plaît", "medium"),
-        ("Un billet {origin} {dest}", "easy"),
-        ("Réservation {origin} {dest}", "medium"),
-        ("{origin} {dest} aujourd'hui", "medium"),
-        ("{origin} {dest} ce soir", "medium"),
-        ("Train {origin} {dest}", "easy"),
-        ("{origin} {dest} aller simple", "medium"),
+def generate_medium_orders(count=2400, start_id=1):
+    """Generate medium-difficulty travel orders (200 templates)
+
+    Args:
+        count: Number of sentences to generate (default 2400 for 2310 after dedup)
+        start_id: Starting sentence ID
+
+    Returns:
+        (phrases, next_id): List of phrase dicts and next available ID
+
+    Templates:
+        - 40 questions about routes
+        - 50 inverted order ("à Y depuis X")
+        - 20 no markers with context
+        - 40 additional information (time, passengers)
+        - 50 compound names with hyphen variations
+    """
+
+    # Question templates (40 templates)
+    templates_questions = [
+        ("Quand part le prochain train de {origin} vers {dest}", "standard"),
+        ("À quelle heure y a-t-il des trains de {origin} à {dest}", "standard"),
+        ("Combien coûte un billet de train de {origin} à {dest}", "standard"),
+        ("Quel est le temps de trajet de {origin} à {dest}", "standard"),
+        ("Quel est l'horaire des trains au départ de {origin} pour {dest}", "standard"),
+        ("Y a-t-il des trains directs de {origin} à {dest}", "standard"),
+        ("À quelle heure part le premier train de {origin} pour {dest}", "standard"),
+        ("À quelle heure arrive le dernier train de {origin} à {dest}", "standard"),
+        ("Combien de temps dure le trajet de {origin} à {dest}", "standard"),
+        ("Quels sont les horaires de {origin} à {dest}", "standard"),
+        ("Combien ça coûte un billet de {origin} à {dest}", "standard"),
+        ("Il y a combien de trains de {origin} à {dest}", "standard"),
+        ("Quelle est la durée du trajet de {origin} à {dest}", "standard"),
+        ("Quel prix pour un billet de {origin} à {dest}", "standard"),
+        ("Quand puis-je partir de {origin} vers {dest}", "standard"),
+        ("À quelle heure je peux partir de {origin} pour {dest}", "standard"),
+        ("Combien de trains par jour de {origin} à {dest}", "standard"),
+        ("Quel est le tarif de {origin} à {dest}", "standard"),
+        ("C'est combien pour aller de {origin} à {dest}", "standard"),
+        ("Vous avez des trains de {origin} vers {dest}", "standard"),
+        ("Il existe des trains de {origin} à {dest}", "standard"),
+        ("Est-ce qu'il y a des trains de {origin} vers {dest}", "standard"),
+        ("Peut-on aller de {origin} à {dest} en train", "standard"),
+        ("Comment se rendre de {origin} à {dest}", "standard"),
+        ("Quelle est la meilleure façon d'aller de {origin} à {dest}", "standard"),
+        ("Pouvez-vous m'indiquer les horaires de {origin} à {dest}", "standard"),
+        ("Je voudrais connaître les horaires de {origin} à {dest}", "standard"),
+        ("Y a-t-il un train direct de {origin} vers {dest}", "standard"),
+        ("Les trains de {origin} à {dest} sont à quelle heure", "standard"),
+        ("Quelle heure le train de {origin} à {dest}", "standard"),
+        ("Combien de temps entre {origin} et {dest}", "standard"),
+        ("C'est long le trajet de {origin} à {dest}", "standard"),
+        ("Faut combien de temps pour aller de {origin} à {dest}", "standard"),
+        ("Il faut combien de temps de {origin} à {dest}", "standard"),
+        ("Vous avez les horaires de {origin} à {dest}", "standard"),
+        ("Je peux avoir les horaires de {origin} à {dest}", "standard"),
+        ("Quel est le prochain train de {origin} à {dest}", "standard"),
+        ("Il reste des places de {origin} à {dest}", "standard"),
+        ("C'est possible de réserver de {origin} à {dest}", "standard"),
+        ("Je peux réserver un billet de {origin} à {dest}", "standard"),
     ]
+
+    # Inverted order templates (50 templates)
+    templates_inverted = [
+        ("Je veux aller à {dest} en partant de {origin}", "inverted_order"),
+        ("Comment se rendre à {dest} si on part de {origin}", "inverted_order"),
+        ("Pour aller à {dest} depuis {origin}", "inverted_order"),
+        ("À {dest} en partance de {origin}", "inverted_order"),
+        ("Vers {dest} au départ de {origin}", "inverted_order"),
+        ("Direction {dest} en partant de {origin}", "inverted_order"),
+        ("Cap sur {dest} depuis {origin}", "inverted_order"),
+        ("Je me rends à {dest} en provenance de {origin}", "inverted_order"),
+        ("Trajet vers {dest} au départ de {origin}", "inverted_order"),
+        ("Pour me rendre à {dest} je pars de {origin}", "inverted_order"),
+        ("Pour arriver à {dest} je pars d'où si je suis à {origin}", "inverted_order"),
+        ("Destination {dest} avec un départ de {origin}", "inverted_order"),
+        ("Aller à {dest} en quittant {origin}", "inverted_order"),
+        ("Rejoindre {dest} depuis {origin} comment faire", "inverted_order"),
+        ("L'itinéraire vers {dest} au départ de {origin}", "inverted_order"),
+        ("Je souhaite aller à {dest} depuis {origin}", "inverted_order"),
+        ("Je voudrais me rendre à {dest} en partant de {origin}", "inverted_order"),
+        ("Arriver à {dest} depuis {origin}", "inverted_order"),
+        ("Partir pour {dest} depuis {origin}", "inverted_order"),
+        ("Me rendre à {dest} au départ de {origin}", "inverted_order"),
+        ("Voyager vers {dest} depuis {origin}", "inverted_order"),
+        ("Aller jusqu'à {dest} en partant de {origin}", "inverted_order"),
+        ("Rejoindre {dest} au départ de {origin}", "inverted_order"),
+        ("Pour rejoindre {dest} depuis {origin}", "inverted_order"),
+        ("Vers {dest} en provenance de {origin}", "inverted_order"),
+        ("À destination de {dest} depuis {origin}", "inverted_order"),
+        ("En direction de {dest} au départ de {origin}", "inverted_order"),
+        ("Se rendre à {dest} depuis {origin}", "inverted_order"),
+        ("Pour atteindre {dest} depuis {origin}", "inverted_order"),
+        ("Accéder à {dest} depuis {origin}", "inverted_order"),
+        ("Je dois rejoindre {dest} depuis {origin}", "inverted_order"),
+        ("Il faut que j'aille à {dest} depuis {origin}", "inverted_order"),
+        ("Je pars pour {dest} depuis {origin}", "inverted_order"),
+        ("Mon but est {dest} depuis {origin}", "inverted_order"),
+        ("Ma destination est {dest} depuis {origin}", "inverted_order"),
+        ("Atteindre {dest} en partant de {origin}", "inverted_order"),
+        ("Me déplacer vers {dest} depuis {origin}", "inverted_order"),
+        ("Aller vers {dest} au départ de {origin}", "inverted_order"),
+        ("Pour aller vers {dest} depuis {origin}", "inverted_order"),
+        ("Destination finale {dest} départ {origin}", "inverted_order"),
+        ("Arrivée {dest} départ {origin}", "inverted_order"),
+        ("Voyage vers {dest} départ {origin}", "inverted_order"),
+        ("Route vers {dest} depuis {origin}", "inverted_order"),
+        ("Trajet jusqu'à {dest} depuis {origin}", "inverted_order"),
+        ("Pour me déplacer à {dest} depuis {origin}", "inverted_order"),
+        ("Aller retrouver {dest} depuis {origin}", "inverted_order"),
+        ("Comment rejoindre {dest} depuis {origin}", "inverted_order"),
+        ("Partir vers {dest} au départ de {origin}", "inverted_order"),
+        ("Je vais vers {dest} depuis {origin}", "inverted_order"),
+        ("En route pour {dest} depuis {origin}", "inverted_order"),
+    ]
+
+    # No markers with context (20 templates)
+    templates_no_markers_context = [
+        ("{origin} {dest} demain matin", "no_markers"),
+        ("{origin} {dest} ce week-end", "no_markers"),
+        ("{origin} {dest} la semaine prochaine", "no_markers"),
+        ("{origin} {dest} lundi prochain", "no_markers"),
+        ("{origin} {dest} vendredi soir", "no_markers"),
+        ("{origin} {dest} samedi", "no_markers"),
+        ("{origin} {dest} dimanche", "no_markers"),
+        ("{origin} {dest} en urgence", "no_markers"),
+        ("{origin} {dest} rapidement", "no_markers"),
+        ("{origin} {dest} dès que possible", "no_markers"),
+        ("{origin} {dest} pour affaires", "no_markers"),
+        ("{origin} {dest} pour le travail", "no_markers"),
+        ("{origin} {dest} en vacances", "no_markers"),
+        ("{origin} {dest} pour les vacances", "no_markers"),
+        ("{origin} {dest} voir la famille", "no_markers"),
+        ("{origin} {dest} aller-retour", "no_markers"),
+        ("{origin} {dest} première classe", "no_markers"),
+        ("{origin} {dest} deuxième classe", "no_markers"),
+        ("{origin} {dest} tarif réduit", "no_markers"),
+        ("{origin} {dest} plein tarif", "no_markers"),
+    ]
+
+    # Additional information templates (40 templates)
+    templates_additional_info = [
+        ("Je voudrais un billet de {origin} à {dest} pour demain", "additional_info"),
+        ("Un billet {origin} {dest} pour 2 adultes", "additional_info"),
+        ("Combien coûte un billet de {origin} à {dest}", "additional_info"),
+        ("Quel est le prix d'un aller simple de {origin} à {dest}", "additional_info"),
+        ("Je veux aller de {origin} à {dest} demain matin", "additional_info"),
+        ("Un billet {origin} {dest} pour ce soir", "additional_info"),
+        ("Deux billets de {origin} à {dest} s'il vous plaît", "additional_info"),
+        ("Je voudrais partir de {origin} à {dest} lundi prochain", "additional_info"),
+        ("Un aller-retour {origin} {dest} pour la semaine prochaine", "additional_info"),
+        ("Billet {origin} {dest} pour 3 personnes", "additional_info"),
+        ("Billet {origin} {dest} pour 3 voyageurs", "additional_info"),
+        ("Je veux partir de {origin} à {dest} vendredi soir", "additional_info"),
+        ("Tarif réduit de {origin} à {dest} pour étudiants", "additional_info"),
+        ("Combien coûte {origin} {dest} en première classe", "additional_info"),
+        ("Réservation {origin} {dest} pour le mois prochain", "additional_info"),
+        ("Un billet {origin} {dest} pour 4 personnes", "additional_info"),
+        ("Je voudrais un billet {origin} {dest} pour samedi", "additional_info"),
+        ("Un aller {origin} {dest} pour dimanche", "additional_info"),
+        ("Billet {origin} {dest} pour ce week-end", "additional_info"),
+        ("Aller-retour {origin} {dest} pour deux", "additional_info"),
+        ("Je veux partir de {origin} vers {dest} après-demain", "additional_info"),
+        ("Billet {origin} {dest} en urgence", "additional_info"),
+        ("Train {origin} {dest} dès que possible", "additional_info"),
+        ("Billet {origin} {dest} pour la famille", "additional_info"),
+        ("Un billet {origin} {dest} tarif jeune", "additional_info"),
+        ("Réservation {origin} {dest} pour senior", "additional_info"),
+        ("Billet {origin} {dest} carte de réduction", "additional_info"),
+        ("Train {origin} {dest} pour les vacances", "additional_info"),
+        ("Billet {origin} {dest} pour affaires", "additional_info"),
+        ("Un aller {origin} {dest} pour le travail", "additional_info"),
+        ("Je dois aller de {origin} à {dest} en début de semaine", "additional_info"),
+        ("Billet {origin} {dest} pour fin de semaine", "additional_info"),
+        ("Train {origin} {dest} milieu de journée", "additional_info"),
+        ("Billet {origin} {dest} tôt le matin", "additional_info"),
+        ("Train {origin} {dest} en soirée", "additional_info"),
+        ("Billet {origin} {dest} pour un groupe", "additional_info"),
+        ("Réservation {origin} {dest} groupe de 5", "additional_info"),
+        ("Billet {origin} {dest} pour voyage scolaire", "additional_info"),
+        ("Train {origin} {dest} avec vélo", "additional_info"),
+        ("Billet {origin} {dest} avec animal", "additional_info"),
+    ]
+
+    # Compound names templates (50 templates) - with hyphen variations
+    templates_compound = [
+        ("Je veux aller de {origin} à {compound}", "compound_name"),
+        ("Un billet de {origin} pour {compound}", "compound_name"),
+        ("Comment aller à {compound} depuis {origin}", "compound_name"),
+        ("Trajet {origin} {compound}", "compound_name"),
+        ("De {origin} vers {compound}", "compound_name"),
+        ("Je souhaite me rendre à {compound} en partant de {origin}", "compound_name"),
+        ("Billet {origin} {compound}", "compound_name"),
+        ("Train de {origin} à {compound}", "compound_name"),
+        ("Je veux aller de {compound} à {dest}", "compound_name"),
+        ("Un billet de {compound} pour {dest}", "compound_name"),
+        ("Comment aller à {dest} depuis {compound}", "compound_name"),
+        ("Trajet {compound} {dest}", "compound_name"),
+        ("De {compound} vers {dest}", "compound_name"),
+        ("Je souhaite me rendre à {dest} en partant de {compound}", "compound_name"),
+        ("Billet {compound} {dest}", "compound_name"),
+        ("Train de {compound} à {dest}", "compound_name"),
+        ("Aller à {compound} depuis {origin}", "compound_name"),
+        ("Pour aller à {compound} depuis {origin}", "compound_name"),
+        ("Direction {compound} depuis {origin}", "compound_name"),
+        ("Rejoindre {compound} depuis {origin}", "compound_name"),
+        ("Partir pour {compound} depuis {origin}", "compound_name"),
+        ("Me rendre à {compound} depuis {origin}", "compound_name"),
+        ("Voyage de {origin} à {compound}", "compound_name"),
+        ("Itinéraire de {origin} à {compound}", "compound_name"),
+        ("Route de {origin} vers {compound}", "compound_name"),
+        ("Je pars de {origin} pour {compound}", "compound_name"),
+        ("Départ {origin} arrivée {compound}", "compound_name"),
+        ("Un aller simple de {origin} à {compound}", "compound_name"),
+        ("Réservation de {origin} à {compound}", "compound_name"),
+        ("Transport de {origin} à {compound}", "compound_name"),
+        ("Je dois aller de {origin} à {compound}", "compound_name"),
+        ("Pour me rendre de {origin} à {compound}", "compound_name"),
+        ("Aller de {compound} vers {dest}", "compound_name"),
+        ("Pour aller de {compound} vers {dest}", "compound_name"),
+        ("Direction {dest} depuis {compound}", "compound_name"),
+        ("Rejoindre {dest} depuis {compound}", "compound_name"),
+        ("Partir pour {dest} depuis {compound}", "compound_name"),
+        ("Me rendre à {dest} depuis {compound}", "compound_name"),
+        ("Voyage de {compound} à {dest}", "compound_name"),
+        ("Itinéraire de {compound} à {dest}", "compound_name"),
+        ("Route de {compound} vers {dest}", "compound_name"),
+        ("Je pars de {compound} pour {dest}", "compound_name"),
+        ("Départ {compound} arrivée {dest}", "compound_name"),
+        ("Un aller simple de {compound} à {dest}", "compound_name"),
+        ("Réservation de {compound} à {dest}", "compound_name"),
+        ("Transport de {compound} à {dest}", "compound_name"),
+        ("Je dois aller de {compound} à {dest}", "compound_name"),
+        ("Pour me rendre de {compound} à {dest}", "compound_name"),
+        ("Je veux aller de {origin} vers {compound}", "compound_name"),
+        ("Je veux aller de {compound} vers {dest}", "compound_name"),
+    ]
+
+    # Combine all templates (200 total)
+    all_templates = (templates_questions + templates_inverted +
+                     templates_no_markers_context + templates_additional_info +
+                     templates_compound)
 
     phrases = []
     sentence_id = start_id
 
     for _ in range(count):
-        template, difficulty = random.choice(templates)
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
+        template, category = random.choice(all_templates)
 
-        sentence = template.format(origin=origin, dest=dest)
+        # Handle compound names
+        if category == "compound_name" and "{compound}" in template:
+            compound = random.choice(COMPOUND_CITIES)
+            if random.random() < 0.3:
+                # Remove hyphens
+                compound_display = compound.replace("-", " ")
+            else:
+                compound_display = compound
 
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'no_markers',
-            'notes': ''
-        })
-        sentence_id += 1
-
-    return phrases, sentence_id
-
-def generate_name_ambiguities(count=500, start_id=1):
-    """Generate phrases with ambiguous proper names"""
-
-    # Required examples from spec
-    required = [
-        {
-            'sentence': "Avec mes amis florence et paris, je voudrais aller de paris a florence",
-            'origin': "Paris",
-            'destination': "Florence",
-            'difficulty': "hard",
-            'notes': "lowercase, florence/paris=prénoms"
-        },
-        {
-            'sentence': "Je veux aller à Tours voir mon ami Albert en partant de Bordeaux",
-            'origin': "Bordeaux",
-            'destination': "Tours",
-            'difficulty': "medium",
-            'notes': "Albert=prénom"
-        },
-    ]
-
-    templates_with_distractors = [
-        ("Je vais à {dest} voir mon ami {name} en partant de {origin}", "medium", "{name}=prénom"),
-        ("Avec mon ami {name} je voudrais aller de {origin} à {dest}", "medium", "{name}=prénom"),
-        ("Je dois rejoindre {name} à {dest} depuis {origin}", "medium", "{name}=prénom"),
-        ("Mon ami {name} m'attend à {dest} je pars de {origin}", "medium", "{name}=prénom"),
-        ("Retrouver {name} à {dest} en partant de {origin}", "hard", "{name}=prénom"),
-        ("Avec mes amis {name1} et {name2}, je voudrais aller de {origin} à {dest}", "hard", "{name1}/{name2}=prénoms"),
-        ("Je voyage avec {name1} et {name2} de {origin} vers {dest}", "hard", "{name1}/{name2}=prénoms"),
-        ("{name1}, {name2} et moi voulons aller de {origin} à {dest}", "hard", "{name1}/{name2}=prénoms"),
-    ]
-
-    phrases = []
-    sentence_id = start_id
-
-    # Add required examples
-    for req in required:
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': req['sentence'],
-            'origin': req['origin'],
-            'destination': req['destination'],
-            'is_valid': 1,
-            'difficulty': req['difficulty'],
-            'category': 'name_ambiguity',
-            'notes': req['notes']
-        })
-        sentence_id += 1
-
-    # Generate remaining
-    remaining = count - len(required)
-
-    for _ in range(remaining):
-        template, difficulty, note_template = random.choice(templates_with_distractors)
-
-        # Choose cities (may include ambiguous names)
-        if random.random() < 0.3:
-            # Use ambiguous name as city
-            dest = random.choice(["Paris", "Florence"])
-            origin = random.choice([c for c in MAIN_CITIES if c != dest and c not in AMBIGUOUS_NAMES])
+            # Randomly choose if compound is origin or destination
+            if "{origin}" in template and "{compound}" in template:
+                origin = random.choice(MAIN_CITIES)
+                dest = compound_display
+                actual_dest = compound
+                sentence = template.format(origin=origin, compound=compound_display)
+            else:  # {compound} and {dest}
+                origin = compound
+                dest = random.choice(MAIN_CITIES)
+                actual_dest = dest
+                sentence = template.format(compound=compound_display, dest=dest)
         else:
             origin = random.choice(MAIN_CITIES)
             dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        # Choose distractor names
-        name = random.choice(AMBIGUOUS_NAMES)
-        name1 = random.choice(AMBIGUOUS_NAMES)
-        name2 = random.choice([n for n in AMBIGUOUS_NAMES if n != name1])
-
-        # Format sentence
-        sentence = template.format(
-            origin=origin,
-            dest=dest,
-            name=name,
-            name1=name1,
-            name2=name2
-        )
-
-        # Lowercase variation for hard difficulty
-        if difficulty == "hard" and random.random() < 0.5:
-            sentence = sentence.lower()
-            note = note_template + ", lowercase"
-        else:
-            note = note_template
+            actual_dest = dest
+            sentence = template.format(origin=origin, dest=dest)
 
         phrases.append({
             'sentenceID': sentence_id,
             'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
+            'origin': origin if category != "compound_name" or "{origin}" in template else compound,
+            'destination': actual_dest,
             'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'name_ambiguity',
-            'notes': note.format(name=name, name1=name1, name2=name2)
+            'difficulty': 'medium',
+            'category': category,
+            'notes': 'compound name no hyphen' if category == "compound_name" and "-" not in sentence else ''
         })
         sentence_id += 1
 
     return phrases, sentence_id
 
-def generate_compound_names(count=250, start_id=1):
-    """Generate phrases with compound city names"""
 
-    # Required example
-    required = [
-        {
-            'sentence': "Comment me rendre à Port Boulet depuis Tours",
-            'origin': "Tours",
-            'destination': "Port-Boulet",
-            'difficulty': "medium",
-            'notes': "compound name no hyphen"
-        },
+def generate_hard_orders(count=2475, start_id=1):
+    """Generate hard-difficulty travel orders (200 templates)
+
+    Args:
+        count: Number of sentences to generate (default 2475 for 2380 after dedup)
+        start_id: Starting sentence ID
+
+    Returns:
+        (phrases, next_id): List of phrase dicts and next available ID
+
+    Templates:
+        - 100 with spelling errors
+        - 60 with strong name ambiguities
+        - 40 complex questions requiring inference
+    """
+
+    # Misspelling templates (100 templates)
+    templates_misspelling = [
+        ("Je veu aler de {origin} a {dest}", "misspelling"),
+        ("Un bilet {origin} {dest}", "misspelling"),
+        ("Comment aler a {dest} depuis {origin}", "misspelling"),
+        ("Trajet {origin} {dest}", "misspelling"),
+        ("Je voudrai un bilet de {origin} a {dest}", "misspelling"),
+        ("Commen aler de {origin} a {dest}", "misspelling"),
+        ("Je souhaite me rendr a {dest} depui {origin}", "misspelling"),
+        ("Bilet {origin} {dest}", "misspelling"),
+        ("Je doi aller de {origin} a {dest}", "misspelling"),
+        ("Un aller simpl de {origin} a {dest}", "misspelling"),
+        ("Je veu partir de {origin} a {dest}", "misspelling"),
+        ("Commen me rendre de {origin} a {dest}", "misspelling"),
+        ("Je voudrai un tiket de {origin} a {dest}", "misspelling"),
+        ("Un biyet {origin} {dest}", "misspelling"),
+        ("Comman aller de {origin} a {dest}", "misspelling"),
+        ("Je veux ale de {origin} a {dest}", "misspelling"),
+        ("Bilet de trin de {origin} a {dest}", "misspelling"),
+        ("Je souhet aller de {origin} a {dest}", "misspelling"),
+        ("Un biye de {origin} a {dest}", "misspelling"),
+        ("Traje de {origin} a {dest}", "misspelling"),
+        ("Je veu me rendr a {dest} depuis {origin}", "misspelling"),
+        ("Reservation {origin} {dest}", "misspelling"),
+        ("Coment aller de {origin} ver {dest}", "misspelling"),
+        ("Je voudré un billet de {origin} a {dest}", "misspelling"),
+        ("Bilet train {origin} {dest}", "misspelling"),
+        ("Allé de {origin} a {dest}", "misspelling"),
+        ("Je veu prendr le train de {origin} a {dest}", "misspelling"),
+        ("Un bilet de trin de {origin} a {dest}", "misspelling"),
+        ("Commen me rendr a {dest} depuis {origin}", "misspelling"),
+        ("Je doi partir de {origin} ver {dest}", "misspelling"),
+        ("Trin {origin} {dest}", "misspelling"),
+        ("Je voudrai ale de {origin} a {dest}", "misspelling"),
+        ("Un biye simpl de {origin} a {dest}", "misspelling"),
+        ("Comant se rendre de {origin} a {dest}", "misspelling"),
+        ("Je ve aller de {origin} a {dest}", "misspelling"),
+        ("Bilet de {origin} ver {dest}", "misspelling"),
+        ("Je souhaite partir de {origin} a {dest}", "misspelling"),
+        ("Un trin de {origin} a {dest}", "misspelling"),
+        ("Comen aller de {origin} a {dest}", "misspelling"),
+        ("Je voudrai un biet de {origin} a {dest}", "misspelling"),
+        ("Reservation trin {origin} {dest}", "misspelling"),
+        ("Je ve prendr le train de {origin} a {dest}", "misspelling"),
+        ("Un biye de trin de {origin} a {dest}", "misspelling"),
+        ("Traje en trin de {origin} a {dest}", "misspelling"),
+        ("Je doi me rendre de {origin} a {dest}", "misspelling"),
+        ("Bilet pour {origin} {dest}", "misspelling"),
+        ("Je souhet me rendre a {dest} depuis {origin}", "misspelling"),
+        ("Un tiket de {origin} a {dest}", "misspelling"),
+        ("Comman se rendre de {origin} a {dest}", "misspelling"),
+        ("Je veu allé de {origin} a {dest}", "misspelling"),
+        ("Bilet de trein de {origin} a {dest}", "misspelling"),
+        ("Je voudrai partir de {origin} a {dest}", "misspelling"),
+        ("Un biye train {origin} {dest}", "misspelling"),
+        ("Comen me rendre de {origin} a {dest}", "misspelling"),
+        ("Je ve partir de {origin} a {dest}", "misspelling"),
+        ("Trein {origin} {dest}", "misspelling"),
+        ("Je souhaite ale de {origin} a {dest}", "misspelling"),
+        ("Un bilet de trein de {origin} a {dest}", "misspelling"),
+        ("Comant aller de {origin} ver {dest}", "misspelling"),
+        ("Je doi ale de {origin} a {dest}", "misspelling"),
+        ("Reservation de {origin} a {dest}", "misspelling"),
+        ("Je veu me rendr de {origin} a {dest}", "misspelling"),
+        ("Un trin de {origin} ver {dest}", "misspelling"),
+        ("Coment se rendre de {origin} a {dest}", "misspelling"),
+        ("Je voudré aller de {origin} a {dest}", "misspelling"),
+        ("Bilet simple {origin} {dest}", "misspelling"),
+        ("Je ve me rendre de {origin} a {dest}", "misspelling"),
+        ("Un biye de trein de {origin} a {dest}", "misspelling"),
+        ("Comen partir de {origin} a {dest}", "misspelling"),
+        ("Je veu partir de {origin} ver {dest}", "misspelling"),
+        ("Tiket {origin} {dest}", "misspelling"),
+        ("Je souhet partir de {origin} a {dest}", "misspelling"),
+        ("Un bilet pour {origin} {dest}", "misspelling"),
+        ("Comman aller de {origin} ver {dest}", "misspelling"),
+        ("Je doi partir de {origin} a {dest}", "misspelling"),
+        ("Trin de {origin} a {dest}", "misspelling"),
+        ("Je voudrai me rendre de {origin} a {dest}", "misspelling"),
+        ("Un biye pour {origin} {dest}", "misspelling"),
+        ("Coment aller de {origin} a {dest}", "misspelling"),
+        ("Je ve aller de {origin} ver {dest}", "misspelling"),
+        ("Bilet de trin {origin} {dest}", "misspelling"),
+        ("Je souhaite me rendre de {origin} a {dest}", "misspelling"),
+        ("Un tiket de train de {origin} a {dest}", "misspelling"),
+        ("Comen se rendre de {origin} a {dest}", "misspelling"),
+        ("Je veu aller de {origin} ver {dest}", "misspelling"),
+        ("Traje {origin} {dest}", "misspelling"),
+        ("Je doi me rendr de {origin} a {dest}", "misspelling"),
+        ("Un bilet trin {origin} {dest}", "misspelling"),
+        ("Comant partir de {origin} a {dest}", "misspelling"),
+        ("Je voudré partir de {origin} a {dest}", "misspelling"),
+        ("Reservation trin de {origin} a {dest}", "misspelling"),
+        ("Je ve partir de {origin} ver {dest}", "misspelling"),
+        ("Un biye de {origin} ver {dest}", "misspelling"),
+        ("Coment me rendre de {origin} a {dest}", "misspelling"),
+        ("Je veu me rendr a {dest} de {origin}", "misspelling"),
+        ("Bilet pour trin {origin} {dest}", "misspelling"),
+        ("Je souhet aller de {origin} ver {dest}", "misspelling"),
+        ("Un tiket {origin} {dest}", "misspelling"),
+        ("Comen aller de {origin} ver {dest}", "misspelling"),
     ]
 
-    templates = [
-        ("Je veux aller de {origin} à {dest}", "medium"),
-        ("Un billet de {origin} pour {dest}", "medium"),
-        ("Comment aller à {dest} depuis {origin}", "medium"),
-        ("Trajet {origin} {dest}", "medium"),
-        ("De {origin} vers {dest}", "medium"),
-        ("Je souhaite me rendre à {dest} en partant de {origin}", "medium"),
-        ("Billet {origin} {dest}", "medium"),
-        ("Train de {origin} à {dest}", "medium"),
+    # Name ambiguity templates (60 templates)
+    templates_ambiguity = [
+        ("Avec mes amis {name1} et {name2}, je voudrais aller de {origin} à {dest}", "name_ambiguity"),
+        ("Je voyage avec {name1} et {name2} de {origin} vers {dest}", "name_ambiguity"),
+        ("{name1}, {name2} et moi voulons aller de {origin} à {dest}", "name_ambiguity"),
+        ("Je vais à {dest} voir {name1} et {name2} en partant de {origin}", "name_ambiguity"),
+        ("Mon ami {name1} et moi allons de {origin} à {dest}", "name_ambiguity"),
+        ("Retrouver {name1} et {name2} à {dest} en partant de {origin}", "name_ambiguity"),
+        ("Avec {name1}, {name2} et {name3} on va de {origin} à {dest}", "name_ambiguity"),
+        ("Je dois rejoindre {name1} et {name2} à {dest} depuis {origin}", "name_ambiguity"),
+        ("{name1} et {name2} m'attendent à {dest} je pars de {origin}", "name_ambiguity"),
+        ("Moi, {name1} et {name2} voulons rejoindre {dest} depuis {origin}", "name_ambiguity"),
+        ("On va voir {name1} à {dest} en partant de {origin}", "name_ambiguity"),
+        ("Rejoindre {name1} et {name2} à {dest} depuis {origin}", "name_ambiguity"),
+        ("Avec mes amis {name1}, {name2} et {name3} je vais de {origin} à {dest}", "name_ambiguity"),
+        ("{name1}, {name2} et moi devons aller de {origin} à {dest}", "name_ambiguity"),
+        ("Je pars avec {name1} et {name2} de {origin} vers {dest}", "name_ambiguity"),
+        ("Aller à {dest} voir {name1} et {name2} depuis {origin}", "name_ambiguity"),
+        ("Retrouver {name1} à {dest} en partant de {origin}", "name_ambiguity"),
+        ("{name1} et {name2} veulent aller de {origin} à {dest}", "name_ambiguity"),
+        ("On rejoint {name1} et {name2} à {dest} depuis {origin}", "name_ambiguity"),
+        ("Avec mon ami {name1} je vais de {origin} à {dest}", "name_ambiguity"),
+        ("{name1}, {name2} et moi partons de {origin} pour {dest}", "name_ambiguity"),
+        ("Je dois voir {name1} et {name2} à {dest} en partant de {origin}", "name_ambiguity"),
+        ("Voyage avec {name1} et {name2} de {origin} à {dest}", "name_ambiguity"),
+        ("{name1} et moi voulons aller de {origin} à {dest}", "name_ambiguity"),
+        ("Retrouver mes amis {name1} et {name2} à {dest} depuis {origin}", "name_ambiguity"),
+        ("avec mes amis {name1} et {name2} je voudrais aller de {origin} a {dest}", "name_ambiguity"),
+        ("on va voir {name1} et {name2} a {dest} en partant de {origin}", "name_ambiguity"),
+        ("{name1}, {name2} et moi voulons aller de {origin} a {dest}", "name_ambiguity"),
+        ("avec {name1}, {name2} et {name3} on va de {origin} a {dest}", "name_ambiguity"),
+        ("je voyage avec {name1} et {name2} de {origin} vers {dest}", "name_ambiguity"),
+        ("retrouver {name1} et {name2} a {dest} en partant de {origin}", "name_ambiguity"),
+        ("avec mon ami {name1} je vais de {origin} a {dest}", "name_ambiguity"),
+        ("moi, {name1} et {name2} voulons rejoindre {dest} depuis {origin}", "name_ambiguity"),
+        ("{name1} et {name2} mattendent a {dest} je pars de {origin}", "name_ambiguity"),
+        ("je dois rejoindre {name1} et {name2} a {dest} depuis {origin}", "name_ambiguity"),
+        ("on rejoint {name1} et {name2} a {dest} depuis {origin}", "name_ambiguity"),
+        ("{name1} et {name2} veulent aller de {origin} a {dest}", "name_ambiguity"),
+        ("aller a {dest} voir {name1} et {name2} depuis {origin}", "name_ambiguity"),
+        ("{name1}, {name2} et moi devons aller de {origin} a {dest}", "name_ambiguity"),
+        ("je pars avec {name1} et {name2} de {origin} vers {dest}", "name_ambiguity"),
+        ("avec mes amis {name1}, {name2} et {name3} je vais de {origin} a {dest}", "name_ambiguity"),
+        ("retrouver mes amis {name1} et {name2} a {dest} depuis {origin}", "name_ambiguity"),
+        ("{name1} et moi voulons aller de {origin} a {dest}", "name_ambiguity"),
+        ("voyage avec {name1} et {name2} de {origin} a {dest}", "name_ambiguity"),
+        ("je dois voir {name1} et {name2} a {dest} en partant de {origin}", "name_ambiguity"),
+        ("{name1}, {name2} et moi partons de {origin} pour {dest}", "name_ambiguity"),
+        ("avec mon ami {name1} je vais de {origin} a {dest}", "name_ambiguity"),
+        ("on va voir {name1} a {dest} en partant de {origin}", "name_ambiguity"),
+        ("rejoindre {name1} a {dest} depuis {origin}", "name_ambiguity"),
+        ("avec mes amis {name1} et {name2}, je vais de {origin} a {dest}", "name_ambiguity"),
+        ("{name1} et {name2} mont dit daller a {dest} depuis {origin}", "name_ambiguity"),
+        ("je veux retrouver {name1} et {name2} a {dest} depuis {origin}", "name_ambiguity"),
+        ("avec {name1} et {name2} on part de {origin} vers {dest}", "name_ambiguity"),
+        ("{name1}, {name2} et {name3} veulent aller de {origin} a {dest}", "name_ambiguity"),
+        ("je dois aller voir {name1} a {dest} en partant de {origin}", "name_ambiguity"),
+        ("avec mes copains {name1} et {name2} on va de {origin} a {dest}", "name_ambiguity"),
+        ("{name1} et {name2} sont a {dest} je pars de {origin}", "name_ambiguity"),
+        ("retrouver {name1} a {dest} depuis {origin}", "name_ambiguity"),
+        ("avec mon copain {name1} on va de {origin} a {dest}", "name_ambiguity"),
+        ("{name1} et {name2} habitent a {dest} je pars de {origin}", "name_ambiguity"),
     ]
+
+    # Complex question templates (40 templates)
+    templates_complex = [
+        ("Quel est le moyen le plus rapide pour aller de {origin} à {dest}", "complex_question"),
+        ("Combien de temps faut-il pour aller de {origin} à {dest}", "complex_question"),
+        ("Y a-t-il des trains directs entre {origin} et {dest}", "complex_question"),
+        ("Quelle est la durée du trajet de {origin} à {dest}", "complex_question"),
+        ("Combien de correspondances entre {origin} et {dest}", "complex_question"),
+        ("Quel est le train le plus rapide de {origin} à {dest}", "complex_question"),
+        ("À quelle heure part le premier train de {origin} pour {dest}", "complex_question"),
+        ("À quelle heure arrive le dernier train de {origin} à {dest}", "complex_question"),
+        ("Quel est le trajet optimal pour {origin} {dest}", "complex_question"),
+        ("Faut-il prévoir des changements entre {origin} et {dest}", "complex_question"),
+        ("Le train le plus économique de {origin} vers {dest}", "complex_question"),
+        ("Combien d'heures minimum entre {origin} et {dest}", "complex_question"),
+        ("Les trains directs existent entre {origin} et {dest}", "complex_question"),
+        ("Quel est le meilleur moment pour partir de {origin} vers {dest}", "complex_question"),
+        ("Comment optimiser le trajet de {origin} à {dest}", "complex_question"),
+        ("Y a-t-il des réductions pour {origin} {dest}", "complex_question"),
+        ("Quel est le tarif le moins cher de {origin} à {dest}", "complex_question"),
+        ("Faut-il réserver à l'avance pour {origin} {dest}", "complex_question"),
+        ("Quelle est la fréquence des trains de {origin} à {dest}", "complex_question"),
+        ("Peut-on avoir un train direct de {origin} vers {dest}", "complex_question"),
+        ("Quel est le temps de correspondance entre {origin} et {dest}", "complex_question"),
+        ("Y a-t-il beaucoup de monde sur {origin} {dest}", "complex_question"),
+        ("Est-ce qu'il faut changer de train entre {origin} et {dest}", "complex_question"),
+        ("Combien ça coûte en moyenne de {origin} à {dest}", "complex_question"),
+        ("Quelle est la meilleure option pour {origin} {dest}", "complex_question"),
+        ("Faut-il préférer le TGV ou le train normal pour {origin} {dest}", "complex_question"),
+        ("Y a-t-il des trains de nuit de {origin} à {dest}", "complex_question"),
+        ("Quel est le wagon le plus confortable pour {origin} {dest}", "complex_question"),
+        ("Est-ce rentable de prendre le train de {origin} à {dest}", "complex_question"),
+        ("Combien de temps d'avance faut-il pour {origin} {dest}", "complex_question"),
+        ("Y a-t-il souvent des retards sur {origin} {dest}", "complex_question"),
+        ("Quelle classe choisir pour {origin} {dest}", "complex_question"),
+        ("Faut-il obligatoirement réserver pour {origin} {dest}", "complex_question"),
+        ("Quel est le meilleur tarif pour {origin} {dest}", "complex_question"),
+        ("Y a-t-il des promotions pour {origin} {dest}", "complex_question"),
+        ("Combien de trains par jour entre {origin} et {dest}", "complex_question"),
+        ("Quel est le train le plus confortable de {origin} à {dest}", "complex_question"),
+        ("Faut-il arriver en avance pour {origin} {dest}", "complex_question"),
+        ("Y a-t-il des services à bord pour {origin} {dest}", "complex_question"),
+        ("Quel est le meilleur jour pour voyager de {origin} à {dest}", "complex_question"),
+    ]
+
+    # Combine all templates (200 total)
+    all_templates = templates_misspelling + templates_ambiguity + templates_complex
 
     phrases = []
     sentence_id = start_id
 
-    # Add required
-    for req in required:
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': req['sentence'],
-            'origin': req['origin'],
-            'destination': req['destination'],
-            'is_valid': 1,
-            'difficulty': req['difficulty'],
-            'category': 'compound_name',
-            'notes': req['notes']
-        })
-        sentence_id += 1
+    for _ in range(count):
+        template, category = random.choice(all_templates)
 
-    # Generate remaining
-    remaining = count - len(required)
-
-    for _ in range(remaining):
-        template, difficulty = random.choice(templates)
-
-        # One city must be compound
-        if random.random() < 0.5:
-            origin = random.choice(COMPOUND_CITIES)
-            dest = random.choice(MAIN_CITIES)
-        else:
+        # Handle different categories
+        if category == "misspelling":
             origin = random.choice(MAIN_CITIES)
-            dest = random.choice(COMPOUND_CITIES)
+            dest = random.choice([c for c in MAIN_CITIES if c != origin])
 
-        sentence = template.format(origin=origin, dest=dest)
+            # Apply misspellings
+            if random.random() < 0.7:
+                origin_misspelled = misspell(origin)
+            else:
+                origin_misspelled = origin.lower()
 
-        # Sometimes remove hyphens
-        sentence_display = sentence
-        if random.random() < 0.3:
-            sentence_display = sentence.replace("-", " ")
-            note = "compound name no hyphen"
-        else:
-            note = "compound name"
+            if random.random() < 0.7:
+                dest_misspelled = misspell(dest)
+            else:
+                dest_misspelled = dest.lower()
 
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence_display,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'compound_name',
-            'notes': note
-        })
-        sentence_id += 1
+            sentence = template.format(origin=origin_misspelled, dest=dest_misspelled)
 
-    return phrases, sentence_id
+            # Lowercase for some
+            if random.random() < 0.6:
+                sentence = sentence.lower()
 
-def generate_misspellings(count=300, start_id=1):
-    """Generate phrases with spelling errors"""
+        elif category == "name_ambiguity":
+            origin = random.choice(MAIN_CITIES)
+            dest = random.choice([c for c in MAIN_CITIES if c != origin])
 
-    templates = [
-        ("Je veux aller de {origin} à {dest}", "hard"),
-        ("Un billet {origin} {dest}", "hard"),
-        ("Comment aller a {dest} depuis {origin}", "hard"),
-        ("Trajet {origin} {dest}", "hard"),
-        ("Je voudrais un bilet de {origin} à {dest}", "hard"),
-        ("Commen aler de {origin} a {dest}", "hard"),
-        ("Je souhaite me rendre a {dest} depui {origin}", "hard"),
-        ("Bilet {origin} {dest}", "hard"),
-    ]
+            # Choose distractor names
+            name1 = random.choice(AMBIGUOUS_NAMES)
+            name2 = random.choice([n for n in AMBIGUOUS_NAMES if n != name1])
+            name3 = random.choice([n for n in AMBIGUOUS_NAMES if n not in [name1, name2]])
 
-    phrases = []
-    sentence_id = start_id
+            # Format sentence
+            if "{name3}" in template:
+                sentence = template.format(origin=origin, dest=dest, name1=name1, name2=name2, name3=name3)
+            elif "{name2}" in template:
+                sentence = template.format(origin=origin, dest=dest, name1=name1, name2=name2)
+            else:
+                sentence = template.format(origin=origin, dest=dest, name1=name1)
 
-    for _ in range(count):
-        template, difficulty = random.choice(templates)
+            # Lowercase for harder cases (already in template for some)
+            if "lowercase" not in template and random.random() < 0.3:
+                sentence = sentence.lower()
 
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        # Apply misspellings
-        if random.random() < 0.7:
-            origin_misspelled = misspell(origin)
-        else:
-            origin_misspelled = origin
-
-        if random.random() < 0.7:
-            dest_misspelled = misspell(dest)
-        else:
-            dest_misspelled = dest
-
-        sentence = template.format(origin=origin_misspelled, dest=dest_misspelled)
-
-        # Lowercase
-        if random.random() < 0.6:
-            sentence = sentence.lower()
+        else:  # complex_question
+            origin = random.choice(MAIN_CITIES)
+            dest = random.choice([c for c in MAIN_CITIES if c != origin])
+            sentence = template.format(origin=origin, dest=dest)
 
         phrases.append({
             'sentenceID': sentence_id,
@@ -451,178 +902,47 @@ def generate_misspellings(count=300, start_id=1):
             'origin': origin,
             'destination': dest,
             'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'misspelling',
-            'notes': 'spelling errors'
+            'difficulty': 'hard',
+            'category': category,
+            'notes': 'spelling errors' if category == "misspelling" else
+                     'multiple name distractors' if category == "name_ambiguity" else ''
         })
         sentence_id += 1
 
     return phrases, sentence_id
 
-def generate_no_capitals(count=250, start_id=1):
-    """Generate phrases without capitals or accents"""
-
-    templates = [
-        ("je voudrais un billet de {origin} a {dest}", "medium"),
-        ("comment aller a {dest} depuis {origin}", "medium"),
-        ("je veux aller de {origin} a {dest}", "medium"),
-        ("un billet {origin} {dest} s'il vous plait", "medium"),
-        ("je souhaite me rendre a {dest} depuis {origin}", "medium"),
-        ("trajet {origin} {dest}", "medium"),
-        ("billet {origin} {dest}", "medium"),
-        ("je dois aller de {origin} a {dest}", "medium"),
-        ("de {origin} vers {dest}", "medium"),
-        ("un train de {origin} a {dest}", "medium"),
-    ]
-
-    phrases = []
-    sentence_id = start_id
-
-    for _ in range(count):
-        template, difficulty = random.choice(templates)
-
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        sentence = template.format(origin=origin.lower(), dest=dest.lower())
-
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'no_capitals',
-            'notes': 'lowercase, no accents'
-        })
-        sentence_id += 1
-
-    return phrases, sentence_id
-
-def generate_additional_info(count=150, start_id=1):
-    """Generate phrases with additional information"""
-
-    templates = [
-        ("Je voudrais un billet de {origin} à {dest} pour demain", "medium"),
-        ("Un billet {origin} {dest} pour 2 adultes", "medium"),
-        ("Combien coûte un billet de {origin} à {dest}", "medium"),
-        ("Quel est le prix d'un aller simple de {origin} à {dest}", "medium"),
-        ("Je veux aller de {origin} à {dest} demain matin", "medium"),
-        ("Un billet {origin} {dest} pour ce soir", "medium"),
-        ("Deux billets de {origin} à {dest} s'il vous plaît", "medium"),
-        ("Je voudrais partir de {origin} à {dest} lundi prochain", "medium"),
-        ("Un aller-retour {origin} {dest} pour la semaine prochaine", "medium"),
-        ("Billet {origin} {dest} pour 3 personnes", "medium"),
-    ]
-
-    phrases = []
-    sentence_id = start_id
-
-    for _ in range(count):
-        template, difficulty = random.choice(templates)
-
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        sentence = template.format(origin=origin, dest=dest)
-
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'additional_info',
-            'notes': 'with time/passenger info'
-        })
-        sentence_id += 1
-
-    return phrases, sentence_id
-
-def generate_complex_questions(count=50, start_id=1):
-    """Generate complex questions"""
-
-    templates = [
-        ("Quel est le moyen le plus rapide pour aller de {origin} à {dest}", "hard"),
-        ("Combien de temps faut-il pour aller de {origin} à {dest}", "hard"),
-        ("Y a-t-il des trains directs entre {origin} et {dest}", "medium"),
-        ("Quelle est la durée du trajet de {origin} à {dest}", "medium"),
-        ("Combien de correspondances entre {origin} et {dest}", "hard"),
-        ("Quel est le train le plus rapide de {origin} à {dest}", "hard"),
-        ("À quelle heure part le premier train de {origin} pour {dest}", "medium"),
-        ("À quelle heure arrive le dernier train de {origin} à {dest}", "medium"),
-    ]
-
-    phrases = []
-    sentence_id = start_id
-
-    for _ in range(count):
-        template, difficulty = random.choice(templates)
-
-        origin = random.choice(MAIN_CITIES)
-        dest = random.choice([c for c in MAIN_CITIES if c != origin])
-
-        sentence = template.format(origin=origin, dest=dest)
-
-        phrases.append({
-            'sentenceID': sentence_id,
-            'sentence': sentence,
-            'origin': origin,
-            'destination': dest,
-            'is_valid': 1,
-            'difficulty': difficulty,
-            'category': 'complex_question',
-            'notes': ''
-        })
-        sentence_id += 1
-
-    return phrases, sentence_id
 
 def main():
-    """Generate complete valid orders dataset"""
+    """Generate complete valid orders dataset with new architecture"""
 
-    print("Generating valid orders dataset...")
+    print("=" * 70)
+    print("GENERATING VALID ORDERS DATASET - NEW ARCHITECTURE")
+    print("=" * 70)
+    print("\nArchitecture: 3 functions by difficulty")
+    print("  - generate_easy_orders(): 200 templates")
+    print("  - generate_medium_orders(): 200 templates")
+    print("  - generate_hard_orders(): 200 templates")
+    print("=" * 70)
 
     all_phrases = []
 
-    # Generate each category
-    print("Generating standard phrases (800)...")
-    standard, next_id = generate_standard(800)
-    all_phrases.extend(standard)
+    # Generate easy orders
+    print("\n[EASY] Generating easy-difficulty orders (2,400)...")
+    easy, next_id = generate_easy_orders(count=2400, start_id=1)
+    all_phrases.extend(easy)
+    print(f"[OK] Generated {len(easy)} easy phrases")
 
-    print("Generating inverted order phrases (400)...")
-    inverted, next_id = generate_inverted_order(400, start_id=next_id)
-    all_phrases.extend(inverted)
+    # Generate medium orders
+    print("\n[MEDIUM] Generating medium-difficulty orders (2,400)...")
+    medium, next_id = generate_medium_orders(count=2400, start_id=next_id)
+    all_phrases.extend(medium)
+    print(f"[OK] Generated {len(medium)} medium phrases")
 
-    print("Generating no markers phrases (300)...")
-    no_markers, next_id = generate_no_markers(300, start_id=next_id)
-    all_phrases.extend(no_markers)
-
-    print("Generating name ambiguities phrases (500)...")
-    name_ambig, next_id = generate_name_ambiguities(500, start_id=next_id)
-    all_phrases.extend(name_ambig)
-
-    print("Generating compound names phrases (250)...")
-    compound, next_id = generate_compound_names(250, start_id=next_id)
-    all_phrases.extend(compound)
-
-    print("Generating misspellings phrases (300)...")
-    misspell_phrases, next_id = generate_misspellings(300, start_id=next_id)
-    all_phrases.extend(misspell_phrases)
-
-    print("Generating no capitals phrases (250)...")
-    no_caps, next_id = generate_no_capitals(250, start_id=next_id)
-    all_phrases.extend(no_caps)
-
-    print("Generating additional info phrases (150)...")
-    additional, next_id = generate_additional_info(150, start_id=next_id)
-    all_phrases.extend(additional)
-
-    print("Generating complex questions phrases (50)...")
-    complex_q, next_id = generate_complex_questions(50, start_id=next_id)
-    all_phrases.extend(complex_q)
+    # Generate hard orders
+    print("\n[HARD] Generating hard-difficulty orders (2,475)...")
+    hard, next_id = generate_hard_orders(count=2475, start_id=next_id)
+    all_phrases.extend(hard)
+    print(f"[OK] Generated {len(hard)} hard phrases")
 
     # Reassign sequential IDs
     for i, phrase in enumerate(all_phrases, 1):
@@ -639,6 +959,7 @@ def main():
         writer.writerows(all_phrases)
 
     print(f"[OK] Generated {len(all_phrases)} valid phrases")
+    print(f"     Distribution: {len(easy)} easy / {len(medium)} medium / {len(hard)} hard")
 
     # Statistics
     categories = {}
@@ -655,9 +976,11 @@ def main():
 
     print("\nDistribution by difficulty:")
     for diff, count in sorted(difficulties.items()):
-        print(f"  {diff}: {count}")
+        pct = (count / len(all_phrases)) * 100
+        print(f"  {diff}: {count} ({pct:.1f}%)")
 
     return all_phrases
+
 
 if __name__ == "__main__":
     main()
