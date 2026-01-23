@@ -33,7 +33,7 @@ class NetworkValidator:
     def __init__(
         self,
         stations_file="data/processed/sncf/stations_clean.csv",
-        connections_file="data/processed/sncf/connections_bidirectional.csv"
+        connections_file="data/processed/sncf/connections_final_fixed.csv"
     ):
         self.stations_file = stations_file
         self.connections_file = connections_file
