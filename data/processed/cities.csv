@@ -1,0 +1,2411 @@
+city_name,city_name_normalized,station_count,primary_station,primary_uic_code,centroid_latitude,centroid_longitude,all_stations
+Saint,saint,176,Saint-Brieuc,87473009,46.506435036571425,2.424918325142857,Saint-Agnan; Saint-Agne; Saint-Amand-les-Eaux; Saint-Amand-Longpré; Saint-Amarin; Saint-Amour; Saint-André-de-Corcy; Saint-André-de-Cubzac; Saint-André-le-Gaz; Saint-André-lez-Lille; Saint-Antoine; Saint-Antoine-de-Breuilh; Saint-Antoine-du-Rocher; Saint-Armel; Saint-Astier; Saint-Aubin-sur-Scie; Saint-Aulaire; Saint-Aunès; Saint-Avold; Saint-Ay; Saint-Blaise-la-Roche Poutay; Saint-Bonnet-de-Rochefort; Saint-Brice-sur-Vienne; Saint-Brieuc; Saint-Césaire; Saint-Chamas; Saint-Chamond; Saint-Chély-d'Apcher; Saint-Chéron; Saint-Christophe-Vallon; Saint-Claude; Saint-Cloud; Saint-Cyprien; Saint-Cyprien Arènes; Saint-Cyr-en-Val La Source; Saint-Cyr-l'École; Saint-Denis-de-Pile; Saint-Denis-des-Murs; Saint-Denis-lès-Martel; Saint-Dié-des-Vosges; Saint-Dizier; Saint-Égrève Saint-Robert; Saint-Émilion; Saint-Erme-Outre-et-Ramecourt; Saint-Étienne-de-Montluc; Saint-Étienne-du-Rouvray; Saint-Fargeau-Ponthierry; Saint-Féliu-d'Avall; Saint-Florent-sur-Cher; Saint-Fons; Saint-Gaudens; Saint-Geniès-de-Malgoirès; Saint-Genouph; Saint-Georges-d'Aurac; Saint-Georges-de-Commiers; Saint-Georges-de-Luzençon; Saint-Georges-de-Reneins; Saint-Geours-de-Maremne; Saint-Germain-au-Mont-d'Or; Saint-Germain-des-Fossés; Saint-Germain-du-Puy; Saint-Germain-les-Belles; Saint-Germain-sur-Ille; Saint-Gervais-les-Bains Le Fayet; Saint-Gildas-des-Bois; Saint-Gilles Lycée Haut-Rhin; Saint-Gilles-Croix-de-Vie; Saint-Gratien; Saint-Hilaire-de-Chaléons; Saint-Hilaire-de-Riez; Saint-Hilaire-sur-Helpe; Saint-Jacques-de-la-Lande; Saint-Jean-d'Angély; Saint-Jean-de-Losne; Saint-Jean-de-Maurienne Arvan; Saint-Jean-de-Verges; Saint-Jean-Pied-de-Port; Saint-Jodard; Saint-Jory; Saint-Joseph le Castellas; Saint-Julien-du-Sault; Saint-Julien-en-Genevois; Saint-Junien; Saint-Just-en-Chaussée; Saint-Laurent-d'Aigouze; Saint-Laurent-du-Var; Saint-Laurent-en-Grandvaux; Saint-Léger-sur-Dheune; Saint-Léon-sur-l'Isle; Saint-Léonard-de-Noblat; Saint-Leu-d'Esserent; Saint-Leu-la-Forêt; Saint-Lô; Saint-Lothain; Saint-Loubès; Saint-Louis; Saint-Louis La Chaussée; Saint-Macaire; Saint-Maixent-L'École; Saint-Malo; Saint-Mammès; Saint-Marcel; Saint-Marcel en Dombes; Saint-Marcellin; Saint-Mars-la-Brière; Saint-Martin d'Étampes; Saint-Martin du Touch; Saint-Martin-d'Oney; Saint-Martin-de-Crau; Saint-Martin-du-Mont; Saint-Martin-le-Beau; Saint-Martory; Saint-Mathurin-sur-Loire; Saint-Maurice-de-Beynost; Saint-Médard-d'Eyrans; Saint-Médard-de-Guizières; Saint-Médard-sur-Ille; Saint-Michel Notre-Dame; Saint-Michel-sur-Meurthe; Saint-Michel-sur-Orge; Saint-Nabord; Saint-Nazaire; Saint-Nom-la-Bretèche Forêt de Marly; Saint-Nom-la-Bretèche Forêt de Marly T13; Saint-Omer; Saint-Omer-en-Chaussée; Saint-Ouen; Saint-Ouen-l'Aumône; Saint-Ouen-l'Aumône Liesse; Saint-Ouen-l'Aumône Quartier de l'Église; Saint-Paterne-Racan; Saint-Patrice; Saint-Paul-de-Varax; Saint-Pé-de-Bigorre; Saint-Péray; Saint-Piat; Saint-Pierre-d'Albigny; Saint-Pierre-d'Aurillac; Saint-Pierre-de-Chignac; Saint-Pierre-des-Corps; Saint-Pierre-en-Faucigny; Saint-Pierre-la-Cour; Saint-Pierre-le-Moûtier; Saint-Pierre-Quiberon; Saint-Pierre-sur-Dives; Saint-Pol-sur-Ternoise; Saint-Priest; Saint-Priest-Taurion; Saint-Quentin; Saint-Quentin-Fallavier; Saint-Rambert-d'Albon; Saint-Rambert-en-Bugey; Saint-Raphaël Valescure; Saint-Remy-en-l'Eau; Saint-Roch; Saint-Romain-de-Popey; Saint-Romain-le-Puy; Saint-Rome-de-Cernon; Saint-Saturnin-lès-Avignon; Saint-Savinien; Saint-Saviol; Saint-Sébastien; Saint-Sébastien Frêne Rond; Saint-Sébastien Pas Enchantés; Saint-Seurin-sur-l'Isle; Saint-Sulpice (Tarn); Saint-Sulpice-Laurière; Saint-Symphorien-de-Marmagne; Saint-Thégonnec; Saint-Vallier sur Rhône; Saint-Victor-l'Abbaye; Saint-Victurnien; Saint-Vincent le Château; Saint-Vincent-de-Tyrosse; Saint-Vit; Saint-Yrieix-la-Perche
+Pont,pont,14,Pont-Melvez,87473520,48.0935932095511,2.4853623062004178,Pont-à-Mousson; Pont-à-Vendin; Pont-d'Ain; Pont-de-Buis; Pont-de-l'Arche; Pont-de-Veyle; Pont-du-Château; Pont-l'Évêque; Pont-Melvez; Pont-Remy; Pont-Saint-Esprit; Pont-Saint-Vincent; Pont-Sainte-Maxence; Pont-sur-Yonne
+Sainte,sainte,11,Sainte-Anne,87476648,46.502721427272725,1.7454197818181818,Sainte-Anne; Sainte-Bazeille; Sainte-Cécile-d'Andorge; Sainte-Colombe; Sainte-Colombe Septveilles; Sainte-Foy-la-Grande; Sainte-Gauburge; Sainte-Geneviève-des-Bois; Sainte-Lizaigne; Sainte-Marthe en Provence; Sainte-Pazanne
+Villeneuve,villeneuve,8,Villeneuve-Loubet,87756304,46.72863465,3.1185677625,Villeneuve-la-Comtesse; Villeneuve-la-Guyard; Villeneuve-le-Roi; Villeneuve-lès-Maguelone; Villeneuve-Loubet; Villeneuve-Saint-Georges; Villeneuve-sur-Allier; Villeneuve-sur-Yonne
+Lyon,lyon,7,Lyon Part Dieu,87723197,45.75530285714286,4.862442142857142,Lyon Gorge de Loup; Lyon Jean Macé; Lyon Part Dieu; Lyon Perrache; Lyon Saint-Exupéry TGV; Lyon Saint-Paul; Lyon Vaise
+Paris,paris,7,Paris Bercy Bourgogne - Pays d'Auvergne,87686667,48.85724057142858,2.3543729999999994,Paris Austerlitz; Paris Bercy Bourgogne - Pays d'Auvergne; Paris Est; Paris Gare de Lyon; Paris Gare du Nord; Paris Montparnasse; Paris Saint-Lazare
+Villefranche,villefranche,7,Villefranche - Vernet-les-Bains,87784686,44.56448711428571,2.996237742857143,Villefranche - Vernet-les-Bains; Villefranche-de-Lauragais; Villefranche-de-Rouergue; Villefranche-du-Périgord; Villefranche-sur-Cher; Villefranche-sur-Mer; Villefranche-sur-Saône
+Château,chateau,6,Château-Arnoux-Saint-Auban,87751230,46.95954271666667,2.2207247666666663,Château-Arnoux-Saint-Auban; Château-du-Loir; Château-Gaillard; Château-l'Évêque; Château-Renault; Château-Thierry
+La Ferté,la ferte,6,La Ferté-Alais,87681452,48.3177253,2.1880056666666667,La Ferté-Alais; La Ferté-Bernard; La Ferté-Imbault; La Ferté-Milon; La Ferté-Saint-Aubin; La Ferté-sous-Jouarre
+Port,port,6,Port-Brillet,87478750,44.718674033333336,1.8568918666666667,Port-Brillet; Port-de-Bouc; Port-de-Piles; Port-la-Nouvelle; Port-Sainte-Marie; Port-Vendres
+Montreuil,montreuil,5,Montreuil,87382879,48.81743143999999,0.8596299999999999,Montreuil; Montreuil sur Mer; Montreuil-Bellay; Montreuil-sur-Ille; Montreuil-sur-Thérain
+Saint-Étienne,saint-etienne,5,Saint-Étienne Bellevue,87726190,45.44188504,4.3871201399999995,Saint-Étienne Bellevue; Saint-Étienne Carnot; Saint-Étienne Châteaucreux; Saint-Étienne La Terrasse; Saint-Étienne Le Clapier
+Villers,villers,5,Villers-Bretonneux,87313437,49.415970120000004,2.06707672,Villers-Bretonneux; Villers-Cotterêts; Villers-Saint-Paul; Villers-Saint-Sépulcre; Villers-sur-Mer
+Épinay,epinay,5,Épinay - Villetaneuse,87271122,48.86070279999999,2.3210280666666665,Épinay - Villetaneuse; Épinay - Villetaneuse T11; Épinay-sur-Orge; Épinay-sur-Seine; Épinay-sur-Seine T11
+Bourg,bourg,4,Bourg-Bruche,87214775,45.652912625,5.268049575,Bourg-Bruche; Bourg-en-Bresse; Bourg-Madame; Bourg-Saint-Maurice
+Champagné,champagne,4,Champagne-Ardenne TGV,87171926,48.694194700000004,2.342650325,Champagné; Champagne-Ardenne TGV; Champagne-sur-Oise; Champagne-sur-Seine
+Lille,lille,4,Lille Europe,87223263,50.62550660000001,3.06395575,Lille CHR; Lille Europe; Lille Flandres; Lille Porte de Douai
+Mulhouse,mulhouse,4,Mulhouse,87182063,47.74606875,7.3156669999999995,Mulhouse; Mulhouse Dornach; Mulhouse Musées; Mulhouse Zu Rhein Tram-Train
+Nice,nice,4,Nice,87756056,43.700647,7.2649295,Nice; Nice Pont Michel; Nice Riquier; Nice Saint-Augustin
+Nogent,nogent,4,Nogent - Le Perreux,87113746,48.378767795,2.38398542,Nogent - Le Perreux; Nogent-le-Rotrou; Nogent-sur-Seine; Nogent-sur-Vernisson
+Besançon,besançon,3,Besançon Franche-Comté TGV,87300863,47.2649173528439,6.003036031687418,Besançon Franche-Comté TGV; Besançon Mouillère; Besançon Viotte
+Châteauneuf,chateauneuf,3,Châteauneuf - Bujaleuf,87592105,46.07198879999999,1.3018284333333334,Châteauneuf - Bujaleuf; Châteauneuf-sur-Charente; Châteauneuf-sur-Cher
+L'Isle,l'isle,3,L'Isle-Jourdain,87611806,45.55740256666667,4.2969268000000005,L'Isle-d'Abeau; L'Isle-Jourdain; L'Isle-sur-le-Doubs
+La Roche,la roche,3,La Roche-Maurice,87474262,47.07125616666667,0.22105586666666657,La Roche-Maurice; La Roche-sur-Foron; La Roche-sur-Yon
+Luc,luc,3,Luc,87734368,44.51971723333333,3.966886966666667,Luc; Luc-en-Diois; Luc-la-Primaube
+Marseille,marseille,3,Marseille Saint-Charles,87751008,45.38990550333333,4.2472003,Marseille Blancarde; Marseille Saint-Charles; Marseille-en-Beauvaisis
+Montigny,montigny,3,Montigny - Beauchamp,87276089,49.23523333333333,2.7081736666666667,Montigny - Beauchamp; Montigny-en-Ostrevent; Montigny-sur-Loing
+Pagny,pagny,3,Pagny-le-Château,87713669,48.242664033333334,5.653245066666666,Pagny-le-Château; Pagny-sur-Meuse; Pagny-sur-Moselle
+Vic,vic,3,Vic - Mireval,87773531,44.713852233333334,3.2127312999999997,Vic - Mireval; Vic-le-Comte; Vic-sur-Cère
+Vitry,vitry,3,Vitry-en-Artois,87342113,49.282173066666665,3.323964433333334,Vitry-en-Artois; Vitry-le-François; Vitry-sur-Seine
+Ailly,ailly,2,Ailly-sur-Noye,87313221,49.84143,2.28239,Ailly-sur-Noye; Ailly-sur-Somme
+Aix-en-Provence,aix-en-provence,2,Aix-en-Provence TGV,87319012,43.4890745,5.3814395,Aix-en-Provence; Aix-en-Provence TGV
+Angers,angers,2,Angers Saint-Laud,87484006,47.46586845,-0.544357,Angers Maître École; Angers Saint-Laud
+Aubigny,aubigny,2,Aubigny-au-Bac,87345447,50.31075075,2.87575525,Aubigny-au-Bac; Aubigny-en-Artois
+Aubin,aubin,2,Aubin,87613224,47.46094495,2.1049255000000002,Aubin; Aubin-Saint-Vaast
+Azay,azay,2,Azay-le-Rideau,87571638,47.3158039,0.65376365,Azay-le-Rideau; Azay-sur-Cher
+Bagnols,bagnols,2,Bagnols - Chadenet,87783647,44.345119249999996,4.127605,Bagnols - Chadenet; Bagnols-sur-Cèze
+Bailleul,bailleul,2,Bailleul,87286179,50.53214285,2.78771545,Bailleul; Bailleul-Sir-Berthoult
+Bar,bar,2,Bar-le-Duc,87175042,48.505923949999996,4.9367464000000005,Bar-le-Duc; Bar-sur-Aube
+Belfort,belfort,2,Belfort - Montbéliard TGV,87300822,47.6096105,6.875821500000001,Belfort; Belfort - Montbéliard TGV
+Blangy,blangy,2,Blangy-sur-Bresle,87313809,50.17863805,1.89903295,Blangy-sur-Bresle; Blangy-sur-Ternoise
+Bois,bois,2,Bois-Colombes,87381079,48.6945235,2.4820830000000003,Bois-Colombes; Bois-le-Roi
+Bretigny,bretigny,2,Bretigny - Norges,87712265,47.998363499999996,3.7064809,Bretigny - Norges; Brétigny-sur-Orge
+Bruyères,bruyeres,2,Bruyères,87144154,48.6800524,4.5223637,Bruyères; Bruyères-sur-Oise
+Calais,calais,2,Calais,87317263,50.927351,1.8308550000000001,Calais; Calais - Fréthun
+Cesson,cesson,2,Cesson,87682161,48.33922,0.495845,Cesson; Cesson-Sévigné
+Chantenay,chantenay,2,Chantenay,87481051,46.9627215,0.7888604,Chantenay; Chantenay-Saint-Imbert
+Chaumont,chaumont,2,Chaumont,87142000,48.685575,3.50367,Chaumont; Chaumont-en-Vexin
+Châtel,chatel,2,Châtel - Nomexy,87144071,47.92246275,5.0114262499999995,Châtel - Nomexy; Châtel-Censoir
+Collonges,collonges,2,Collonges - Fontaines,87721225,46.52518175,5.0559807,Collonges - Fontaines; Collonges-lès-Premières
+Conflans,conflans,2,Conflans - Jarny,87192666,49.081374749999995,3.9830076500000002,Conflans - Jarny; Conflans-Sainte-Honorine
+Courcelles,courcelles,2,Courcelles-le-Comte,87342063,49.616407949999996,4.54951385,Courcelles-le-Comte; Courcelles-sur-Nied
+Crouy,crouy,2,Crouy,87271874,49.247765150000006,3.2099974,Crouy; Crouy-sur-Ourcq
+Crépy,crepy,2,Crépy - Couvron,87296152,49.42728755,3.20159295,Crépy - Couvron; Crépy-en-Valois
+Dannemarie,dannemarie,2,Dannemarie,87182253,47.4157185,6.499370900000001,Dannemarie; Dannemarie - Velesmes
+Dijon,dijon,2,Dijon,87713040,47.323088,5.04104,Dijon; Dijon Porte Neuve
+Dommartin,dommartin,2,Dommartin - Lissieu,87721738,47.8197167,3.5635728,Dommartin - Lissieu; Dommartin - Remiencourt
+Grenoble,grenoble,2,Grenoble,87747006,45.188185000000004,5.749662000000001,Grenoble; Grenoble Universités - Gières
+Grésy,gresy,2,Grésy-sur-Aix,87746107,45.65947405,6.09051675,Grésy-sur-Aix; Grésy-sur-Isère
+Ham,ham,2,Ham,87313494,50.16494505,2.7681482,Ham; Ham-en-Artois
+Herrlisheim,herrlisheim,2,Herrlisheim,87212340,48.37227365,7.6154487500000005,Herrlisheim; Herrlisheim-près-Colmar
+Igney,igney,2,Igney,87144089,48.45883255,6.602426250000001,Igney; Igney - Avricourt
+Joigny,joigny,2,Joigny,87683243,48.90376185,4.08016045,Joigny; Joigny-sur-Meuse
+Jouy,jouy,2,Jouy,87394155,48.6376312,1.8604633,Jouy; Jouy-en-Josas
+La Chapelle,la chapelle,2,La Chapelle-Saint-Mesmin,87543371,47.572078149999996,1.0226502499999999,La Chapelle-Saint-Mesmin; La Chapelle-sur-Loire
+La Mothe,la mothe,2,La Mothe-Achard,87486423,46.493812,-0.8947387,La Mothe-Achard; La Mothe-Saint-Héray
+La Tour,la tour,2,La Tour-de-Salvagny,87721548,45.6800794,5.08329205,La Tour-de-Salvagny; La Tour-du-Pin
+Lamothe,lamothe,2,Lamothe-Landerron,87582882,44.70829085,0.03335445,Lamothe-Landerron; Lamothe-Montravel
+Laval,laval,2,Laval,87478404,46.5137089,0.58540215,Laval; Laval-de-Cère
+Le Creusot,le creusot,2,Le Creusot - Montceau-les-Mines - Montchanin TGV,87694109,46.786579,4.4649766500000005,Le Creusot; Le Creusot - Montceau-les-Mines - Montchanin TGV
+Le Mans,le mans,2,Le Mans,87396002,48.00528,0.18351456500000002,Le Mans; Le Mans Hôpital-Université
+Le Pont,le pont,2,Le Pont-de-Beauvoisin,87741470,45.32489545,5.6903194500000005,Le Pont-de-Beauvoisin; Le Pont-de-Claix
+Le Theil,le theil,2,Le Theil - La Rouge,87396333,48.0930192,-0.3687672,Le Theil - La Rouge; Le Theil-de-Bretagne
+Liancourt,liancourt,2,Liancourt - Rantigny,87276212,49.272603200000006,2.1754315,Liancourt - Rantigny; Liancourt-Saint-Pierre
+Limoges,limoges,2,Limoges Bénédictins,87592006,45.837250350000005,1.25938535,Limoges Bénédictins; Limoges Montjovis
+Longueil,longueil,2,Longueil-Annel,87272195,49.4048909,2.7904811499999997,Longueil-Annel; Longueil-Sainte-Marie
+Longueville,longueville,2,Longueville,87116137,49.1527294,2.1800827,Longueville; Longueville-sur-Scie
+Lunel,lunel,2,Lunel,87773408,43.68028245,4.1124129,Lunel; Lunel-Viel
+Mareil,mareil,2,Mareil-Marly,87382812;87733667,48.8872135,1.97529175,Mareil-Marly; Mareil-sur-Mauldre
+Marsac,marsac,2,Marsac,87597625,45.64009445,1.1240866999999999,Marsac; Marsac-sur-L'isle
+Massy,massy,2,Massy - Palaiseau,87393579,48.7303654,2.2656001000000003,Massy - Palaiseau; Massy - Verrières
+Metz,metz,2,Metz,87192039,49.1231375,6.1722515,Metz; Metz Nord
+Mont,mont,2,Mont-de-Marsan,87671016,46.2224218,2.9724922,Mont-de-Marsan; Mont-sur-Meurthe
+Montfort,montfort,2,Montfort-le-Gesnois,87396291,48.089721850000004,-0.77135865,Montfort-le-Gesnois; Montfort-sur-Meu
+Montpellier,montpellier,2,Montpellier Saint-Roch,87773002,43.5997625,3.9026484999999997,Montpellier Saint-Roch; Montpellier Sud de France
+Nanteuil,nanteuil,2,Nanteuil - Saâcy,87116558,49.0582791,3.0073036,Nanteuil - Saâcy; Nanteuil-le-Haudouin
+Noisy,noisy,2,Noisy-le-Roi,87393876;87733659,48.86890345,2.2605724,Noisy-le-Roi; Noisy-le-Sec
+Notre,notre,2,Notre-Dame de Briançon,87741694,46.49944265,3.58790185,Notre-Dame de Briançon; Notre-Dame-d'Oé
+Nîmes,nimes,2,Nîmes,87775007,43.8245505,4.4367625,Nîmes; Nîmes Pont du Gard
+Pierre,pierre,2,Pierre-Buffière,87592253,45.7030999,3.0858863000000003,Pierre-Bénite; Pierre-Buffière
+Pierrefitte,pierrefitte,2,Pierrefitte - Stains,87271163,48.96409,2.37213,Pierrefitte - Stains; Pierrefitte - Stains T11
+Plaisir,plaisir,2,Plaisir - Grignon,87393421,48.8310537,1.9516755,Plaisir - Grignon; Plaisir - Les Clayes
+Poix,poix,2,Poix-Terron,87172171,49.7139286,3.31315565,Poix-de-Picardie; Poix-Terron
+Reims,reims,2,Reims,87171009,49.24633165,4.023463850000001,Reims; Reims Maison Blanche
+Romilly,romilly,2,Romilly-la-Puthenaye,87387175,48.75917715,2.2918745499999997,Romilly-la-Puthenaye; Romilly-sur-Seine
+Rosières,rosieres,2,Rosières-aux-Salines,87141127,49.214079999999996,4.5309335,Rosières-aux-Salines; Rosières-en-Santerre
+Rosny,rosny,2,Rosny-sous-Bois,87113704,48.9341385,2.05784,Rosny-sous-Bois; Rosny-sur-Seine
+Saint-Hilaire,saint-hilaire,2,Saint-Hilaire - Brizambourg,87491324,45.460705250000004,2.35456775,Saint-Hilaire - Brizambourg; Saint-Hilaire - Saint-Nazaire
+Saint-Sulpice,saint-sulpice,2,Saint-Sulpice - Auteuil,87313684,47.130828300000005,0.86213915,Saint-Sulpice - Auteuil; Saint-Sulpice - Izon
+Selles,selles,2,Selles-Saint-Denis,87576140,47.335040649999996,1.73420135,Selles-Saint-Denis; Selles-sur-Cher
+Strasbourg,strasbourg,2,Strasbourg,87212027,48.574128349999995,7.71481475,Strasbourg; Strasbourg Roethig
+Sévérac,severac,2,Sévérac,87476754,45.937258150000005,0.4921190500000001,Sévérac; Sévérac-d'Aveyron
+Tarascon,tarascon,2,Tarascon,87765354,43.32543475,3.1285690500000003,Tarascon; Tarascon-sur-Ariège
+Toulon,toulon,2,Toulon,87755009,43.126741821318355,5.951024052118161,Toulon; Toulon Sainte-Musse
+Val,val,2,Val-de-Reuil,87415877,49.2266785,2.7231785,Val-de-Reuil; Val-de-Vesle
+Varennes,varennes,2,Varennes-sur-Allier,87696351,46.764950850000005,2.5043502,Varennes-sur-Allier; Varennes-sur-Fouzon
+Vendôme,vendome,2,Vendôme - Villiers-sur-Loir TGV,87571216,47.8120434,1.0445079,Vendôme; Vendôme - Villiers-sur-Loir TGV
+Verneuil,verneuil,2,Verneuil-l'Étang,87116079,48.69358735,1.87709925,Verneuil-l'Étang; Verneuil-sur-Avre
+Vieux,vieux,2,Vieux-Thann,87182550,47.803956,7.1260666,Vieux-Thann; Vieux-Thann Zone Industrielle
+Viry,viry,2,Viry-Châtillon,87681312,49.15181565,2.8183760500000004,Viry-Châtillon; Viry-Noureuil
+Abancourt,abancourt,1,Abancourt,87313759,49.6852237,1.7743058,Abancourt
+Abbaretz,abbaretz,1,Abbaretz,87481614,47.5546432,-1.5244159,Abbaretz
+Abbeville,abbeville,1,Abbeville,87317362,50.10221,1.82449,Abbeville
+Ablon,ablon,1,Ablon-sur-Seine,87545269,48.725468,2.419151,Ablon-sur-Seine
+Achiet,achiet,1,Achiet-le-Grand,87342048,50.1317525,2.780168,Achiet-le-Grand
+Achères Grand Cormier,acheres grand cormier,1,Achères Grand Cormier,87386052,48.9551835,2.0919031,Achères Grand Cormier
+Achères Ville,acheres ville,1,Achères Ville,87381657,48.97011,2.07739,Achères Ville
+Agay,agay,1,Agay,87757559,43.4313701,6.8564997,Agay
+Agde,agde,1,Agde,87781278,43.31728,3.466203,Agde
+Agen,agen,1,Agen,87586008,44.208311,0.620932,Agen
+Agonac,agonac,1,Agonac,87595157,45.2865966,0.7486706,Agonac
+Aguilcourt,aguilcourt,1,Aguilcourt - Variscourt,87171702,49.408017,3.973137,Aguilcourt - Variscourt
+Aigrefeuille le Thou,aigrefeuille le thou,1,Aigrefeuille le Thou,87485193,46.09402,-0.95168,Aigrefeuille le Thou
+Aiguebelette,aiguebelette,1,Aiguebelette-le-Lac,87741421,45.5363048,5.8131468,Aiguebelette-le-Lac
+Aiguebelle,aiguebelle,1,Aiguebelle,87741256,45.5437225,6.3067175,Aiguebelle
+Aigueperse,aigueperse,1,Aigueperse,87734129,46.0147884,3.1982621,Aigueperse
+Aigues,aigues,1,Aigues-Mortes,87775858,43.5709008,4.1912102,Aigues-Mortes
+Aiguillon,aiguillon,1,Aiguillon,87586693,44.2987224,0.3352388,Aiguillon
+Aillevillers,aillevillers,1,Aillevillers,87185629,47.9138876,6.3372988,Aillevillers
+Aimargues,aimargues,1,Aimargues,87775833,43.6786107,4.2082933,Aimargues
+Aime,aime,1,Aime - La Plagne,87741769,45.5544,6.648646,Aime - La Plagne
+Aiserey,aiserey,1,Aiserey,87713636,47.170501,5.1582447,Aiserey
+Aix,aix,1,Aix-les-Bains le Revard,87741132,45.688161,5.909371,Aix-les-Bains le Revard
+Aixe,aixe,1,Aixe-sur-Vienne,87592667,45.7965002,1.1456892,Aixe-sur-Vienne
+Alaï,alai,1,Alaï,87722744,45.7521198,4.7717824,Alaï
+Albens,albens,1,Albens,87746115,45.785946,5.9483418,Albens
+Albert,albert,1,Albert,87313072,50.00546,2.64453,Albert
+Albertville,albertville,1,Albertville,87741645,45.672977,6.383167,Albertville
+Albi,albi,1,Albi,87615005,43.92238,2.137958,Albi
+Albi Madeleine,albi madeleine,1,Albi Madeleine,87615195,43.938011,2.1409629,Albi Madeleine
+Albias,albias,1,Albias,87613398,44.0919078,1.4448012,Albias
+Albigny,albigny,1,Albigny - Neuville,87721266,45.874921,4.832874,Albigny - Neuville
+Alençon,alençon,1,Alençon,87444711,48.433884,0.098531,Alençon
+Allassac,allassac,1,Allassac,87594234,45.2589385,1.4731471,Allassac
+Allenc,allenc,1,Allenc,87783654,44.541296,3.6638926,Allenc
+Alleyras,alleyras,1,Alleyras,87731885,44.919217,3.673517,Alleyras
+Allée Royale,allee royale,1,Allée Royale,87710913,48.81431,2.07827,Allée Royale
+Allée de la Tour Rendez,allee de la tour rendez,1,Allée de la Tour Rendez-Vous,87113878,48.897109,2.506475,Allée de la Tour Rendez-Vous
+Altkirch,altkirch,1,Altkirch,87182238,47.6270174,7.2392493,Altkirch
+Alès,ales,1,Alès,87775288,44.127825,4.084948,Alès
+Amagne,amagne,1,Amagne - Lucquy,87172262,49.5238187,4.4738775,Amagne - Lucquy
+Ambazac,ambazac,1,Ambazac,87592311,45.9529056,1.406501,Ambazac
+Amboise,amboise,1,Amboise,87574343,47.42148,0.981299,Amboise
+Ambronay,ambronay,1,Ambronay - Priay,87743146,46.0115941,5.3382579,Ambronay - Priay
+Ambérieu,amberieu,1,Ambérieu-en-Bugey,87743716,45.954008,5.342388,Ambérieu-en-Bugey
+Amiens,amiens,1,Amiens,87313874,49.890746,2.312592,Amiens
+Amifontaine,amifontaine,1,Amifontaine,87171744,49.4847322,3.9105811,Amifontaine
+Amilly Ouerray,amilly ouerray,1,Amilly Ouerray,87394205,48.4381825,1.3892882,Amilly Ouerray
+Amplepuis,amplepuis,1,Amplepuis,87721035,45.970982,4.326844,Amplepuis
+Ancenis,ancenis,1,Ancenis,87481192,47.369334,-1.177763,Ancenis
+Anchamps,anchamps,1,Anchamps,87172858,49.9307448,4.6702434,Anchamps
+Anché,anche,1,Anché - Voulon,87575332,46.3496187,0.2503424,Anché - Voulon
+Ancy,ancy,1,Ancy-sur-Moselle,87192419,49.0575093,6.0627661,Ancy-sur-Moselle
+Andelot,andelot,1,Andelot-en-Montagne,87715102,46.8594671,5.923584,Andelot-en-Montagne
+Andorre,andorre,1,Andorre – l’Hospitalet,87611517,42.5894535,1.8002635,Andorre – l’Hospitalet
+Andrésy,andresy,1,Andrésy,87381491,48.9747,2.04928,Andrésy
+Andrézieux,andrezieux,1,Andrézieux-Bouthéon,87726406,45.5217037,4.254834,Andrézieux-Bouthéon
+Angerville,angerville,1,Angerville,87543090,48.3112062,2.0034931,Angerville
+Angoulins sur Mer,angoulins sur mer,1,Angoulins sur Mer,87485102,46.108057,-1.1154503,Angoulins sur Mer
+Angoulême,angouleme,1,Angoulême,87583005,45.653572,0.164608,Angoulême
+Anizy,anizy,1,Anizy - Pinon,87296566,49.4960073,3.4487637,Anizy - Pinon
+Annappes,annappes,1,Annappes,87286856,50.6227708,3.1475351,Annappes
+Annecy,annecy,1,Annecy,87746008,45.901965,6.121835,Annecy
+Annemasse,annemasse,1,Annemasse,87745497,46.199222,6.23652,Annemasse
+Anor,anor,1,Anor,87295055,49.984892,4.0929803,Anor
+Anse Halte,anse halte,1,Anse Halte,87721324,45.93929,4.71987,Anse Halte
+Anthéor Cap Roux,antheor cap roux,1,Anthéor Cap Roux,87757567,43.4349641,6.8921036,Anthéor Cap Roux
+Antibes,antibes,1,Antibes,87757674,43.585784,7.119498,Antibes
+Anvin,anvin,1,Anvin,87317255,50.446845,2.25494,Anvin
+Apach,apach,1,Apach,87191643,49.458836,6.371972,Apach
+Appilly,appilly,1,Appilly,87296459,49.5808826,3.1221903,Appilly
+Arbanats,arbanats,1,Arbanats,87582726,44.6743555,-0.3954517,Arbanats
+Arbois,arbois,1,Arbois,87718155,46.912509,5.7648273,Arbois
+Arc,arc,1,Arc-et-Senans,87718841,47.0303516,5.7767843,Arc-et-Senans
+Arcachon,arcachon,1,Arcachon,87582668,44.659009,-1.16523,Arcachon
+Arches,arches,1,Arches,87144410,48.1198133,6.5283085,Arches
+Arcy,arcy,1,Arcy-sur-Cure,87683680,47.6008461,3.7668885,Arcy-sur-Cure
+Arenc Euroméditerranée,arenc euromediterranee,1,Arenc Euroméditerranée,87580340,43.3132339,5.3676221,Arenc Euroméditerranée
+Arengosse,arengosse,1,Arengosse,87671479,44.0069764,-0.8093835,Arengosse
+Argelès,argeles,1,Argelès-sur-Mer,87784231,42.54397,3.022349,Argelès-sur-Mer
+Argentan,argentan,1,Argentan,87444539,48.738545,-0.025291,Argentan
+Argenteuil,argenteuil,1,Argenteuil,87381848,48.94686,2.25727,Argenteuil
+Argentière,argentiere,1,Argentière,87746859,45.9819438,6.9264844,Argentière
+Argenton,argenton,1,Argenton-sur-Creuse,87597120,46.592248,1.518305,Argenton-sur-Creuse
+Arles,arles,1,Arles,87753657,43.684853,4.63203,Arles
+Arleux,arleux,1,Arleux,87345421,50.2863204,3.1208073,Arleux
+Armentières,armentieres,1,Armentières,87286146,50.68084,2.87763,Armentières
+Arnage,arnage,1,Arnage,87396549,47.9285663,0.1898826,Arnage
+Arnèke,arneke,1,Arnèke,87281121,50.831522,2.4083063,Arnèke
+Arpajon,arpajon,1,Arpajon,87545467,48.58617,2.24112,Arpajon
+Arras,arras,1,Arras,87342014,50.286673,2.781942,Arras
+Arrou,arrou,1,Arrou,87394486,48.0997945,1.1285567,Arrou
+Ars,ars,1,Ars-sur-Moselle,87192401,49.0744745,6.0776461,Ars-sur-Moselle
+Artenay,artenay,1,Artenay,87543058,48.0808761,1.8833705,Artenay
+Artix,artix,1,Artix,87672212,43.3931062,-0.5701881,Artix
+Arvant,arvant,1,Arvant,87734251,45.3653797,3.3106747,Arvant
+Ascq,ascq,1,Ascq,87286864,50.6218591,3.1598992,Ascq
+Asnières,asnieres,1,Asnières-sur-Seine,87381137,48.9058,2.28324,Asnières-sur-Seine
+Aspres,aspres,1,Aspres-sur-Buëch,87763250,44.519428,5.7545655,Aspres-sur-Buëch
+Assat,assat,1,Assat,87672162,43.2543993,-0.2950176,Assat
+Assier,assier,1,Assier,87613075,44.6746197,1.8697681,Assier
+Athis,athis,1,Athis-Mons,87545251,48.712557,2.403749,Athis-Mons
+Aubagne,aubagne,1,Aubagne,87751750,43.296045,5.56658,Aubagne
+Aubazines,aubazines,1,Aubazines - Saint-Hilaire,87594465,45.1816781,1.6412346,Aubazines - Saint-Hilaire
+Aubergenville Élisabethville,aubergenville elisabethville,1,Aubergenville Élisabethville,87386730,48.971825,1.8484987,Aubergenville Élisabethville
+Aubiat,aubiat,1,Aubiat,87734111,45.983812,3.1605115,Aubiat
+Aubie,aubie,1,Aubie - Saint-Antoine,87491233,45.0151419,-0.4198843,Aubie - Saint-Antoine
+Aubiet,aubiet,1,Aubiet,87611764,43.6502068,0.7891179,Aubiet
+Aubigné,aubigne,1,Aubigné-Racan,87396572,47.686945,0.2657714,Aubigné-Racan
+Auboué,auboue,1,Auboué,87191684,49.216163,5.9714608,Auboué
+Aubrives,aubrives,1,Aubrives,87172122,50.1044507,4.7616512,Aubrives
+Auch,auch,1,Auch,87611749,43.647488,0.596661,Auch
+Auchy,auchy,1,Auchy-lès-Hesdin,87317230,50.3963631,2.1022448,Auchy-lès-Hesdin
+Audrieu,audrieu,1,Audrieu,87444059,49.2161315,-0.5960138,Audrieu
+Audruicq,audruicq,1,Audruicq,87281428,50.87567,2.07636,Audruicq
+Audun,audun,1,Audun-le-Roman,87194357,49.36682,5.89139,Audun-le-Roman
+Auffay,auffay,1,Auffay,87415158,49.716044,1.098441,Auffay
+Aulnat Aéroport,aulnat aeroport,1,Aulnat Aéroport,87562421,45.7920571,3.1614332,Aulnat Aéroport
+Aulnay,aulnay,1,Aulnay-sous-Bois,87271411,48.93179,2.49431,Aulnay-sous-Bois
+Aulnoye,aulnoye,1,Aulnoye-Aymeries,87295600,50.19749,3.84337,Aulnoye-Aymeries
+Aumale,aumale,1,Aumale,87313767,49.7650371,1.7560425,Aumale
+Aumont,aumont,1,Aumont-Aubrac,87783266,44.7181699,3.2835489,Aumont-Aubrac
+Auneau,auneau,1,Auneau,87545657,48.4458242,1.77998,Auneau
+Auray,auray,1,Auray,87476200,47.68022,-2.999995,Auray
+Aurec,aurec,1,Aurec-sur-Loire,87726760,45.3711611,4.1983439,Aurec-sur-Loire
+Aurillac,aurillac,1,Aurillac,87645002,44.921092,2.435655,Aurillac
+Auterive,auterive,1,Auterive,87611384,43.348993,1.468831,Auterive
+Auvers,auvers,1,Auvers-sur-Oise,87276543,49.07062,2.17526,Auvers-sur-Oise
+Auxerre Saint,auxerre saint,1,Auxerre Saint-Gervais,87683573,47.797645,3.58514,Auxerre Saint-Gervais
+Auxonne,auxonne,1,Auxonne,87713347,47.192663,5.37737,Auxonne
+Avallon,avallon,1,Avallon,87683789,47.4957553,3.9124463,Avallon
+Avenay,avenay,1,Avenay,87171579,49.0647826,4.043689,Avenay
+Avenue Foch,avenue foch,1,Avenue Foch,87381038,48.870971,2.2756167,Avenue Foch
+Avenue Henri Martin,avenue henri martin,1,Avenue Henri Martin,87381046,48.8644077,2.272238,Avenue Henri Martin
+Avenue du Président Kennedy Maison de Radio France,avenue du president kennedy maison de radio france,1,Avenue du Président Kennedy Maison de Radio France,87543207,48.853322,2.279969,Avenue du Président Kennedy Maison de Radio France
+Avesnelles,avesnelles,1,Avesnelles,87295725,50.1185513,3.9485876,Avesnelles
+Avesnes,avesnes,1,Avesnes-sur-Helpe,87295733,50.12674,3.93295,Avesnes-sur-Helpe
+Avignon Centre,avignon centre,1,Avignon Centre,87765008,43.9419,4.805281,Avignon Centre
+Avignon TGV,avignon tgv,1,Avignon TGV,87318964;87981902,43.921586,4.786079,Avignon TGV
+Avignonet,avignonet,1,Avignonet-Lauragais,87616011,43.3638769,1.7872687,Avignonet-Lauragais
+Avion,avion,1,Avion,87342584,50.40723,2.83365,Avion
+Avord,avord,1,Avord,87576439,47.0349061,2.6523757,Avord
+Avoudrey,avoudrey,1,Avoudrey,87718551,47.1298359,6.434573,Avoudrey
+Avranches,avranches,1,Avranches,87448514,48.6902445,-1.3700755,Avranches
+Avrechy,avrechy,1,Avrechy,87313296,49.4446439,2.4179608,Avrechy
+Ax,ax,1,Ax-les-Thermes,87611533,42.7247967,1.8332516,Ax-les-Thermes
+Ay,ay,1,Ay,87171561,49.0487318,4.0015644,Ay
+Aytré Plage,aytre plage,1,Aytré Plage,87437806,46.1273815,-1.1280462,Aytré Plage
+Azerailles,azerailles,1,Azerailles,87141408,48.4913355,6.695778,Azerailles
+Aéroport Charles de Gaulle 1,aeroport charles de gaulle 1,1,Aéroport Charles de Gaulle 1,87271460,49.00956,2.56135,Aéroport Charles de Gaulle 1
+Aéroport Charles de Gaulle 2 TGV,aeroport charles de gaulle 2 tgv,1,Aéroport Charles de Gaulle 2 TGV,87001479;87271494,49.003652,2.570892,Aéroport Charles de Gaulle 2 TGV
+Babinière,babiniere,1,Babinière,87590349,47.25875274,-1.544928378,Babinière
+Baccarat,baccarat,1,Baccarat,87141416,48.452405,6.74383,Baccarat
+Bagnac,bagnac,1,Bagnac-sur-Célé,87613604,44.6652105,2.1602503,Bagnac-sur-Célé
+Bagneaux,bagneaux,1,Bagneaux-sur-Loing,87684191,48.2304802,2.7033327,Bagneaux-sur-Loing
+Baillargues,baillargues,1,Baillargues,87773457,43.6533234,4.0071585,Baillargues
+Bailleau,bailleau,1,Bailleau-le-Pin,87394411,48.3668028,1.3248851,Bailleau-le-Pin
+Bailly,bailly,1,Bailly,87710780,48.837331,2.073981,Bailly
+Bains,bains,1,Bains-les-Bains,87144147,47.9811282,6.2952683,Bains-les-Bains
+Baisieux,baisieux,1,Baisieux,87286872,50.61845,3.2347796,Baisieux
+Balagny Saint,balagny saint,1,Balagny Saint-Épin,87313569,49.2942448,2.3441977,Balagny Saint-Épin
+Balbigny,balbigny,1,Balbigny,87726869,45.817858,4.187443,Balbigny
+Ballan,ballan,1,Ballan-Miré,87571604,47.3369919,0.6188975,Ballan-Miré
+Ballancourt,ballancourt,1,Ballancourt-sur-Essonne,87681437,48.532114,2.371274,Ballancourt-sur-Essonne
+Balsièges,balsieges,1,Balsièges,87111864,44.4820108,3.4560976,Balsièges
+Banassac,banassac,1,Banassac - La Canourgue,87783324,44.4477632,3.1958518,Banassac - La Canourgue
+Bandol,bandol,1,Bandol,87755223,43.140344,5.750118,Bandol
+Bannalec,bannalec,1,Bannalec,87474189,47.9267473,-3.7065268,Bannalec
+Bantzenheim,bantzenheim,1,Bantzenheim,87182840,47.8109675,7.5038675,Bantzenheim
+Banyuls,banyuls,1,Banyuls-sur-Mer,87784298,42.4829582,3.1250496,Banyuls-sur-Mer
+Baraqueville Carcenac Peyralès,baraqueville carcenac peyrales,1,Baraqueville Carcenac Peyralès,87615757,44.2704368,2.4275453,Baraqueville Carcenac Peyralès
+Barentin,barentin,1,Barentin,87411264,49.549123,0.953517,Barentin
+Barjac,barjac,1,Barjac,87783563,44.4992638,3.4109786,Barjac
+Baroncourt,baroncourt,1,Baroncourt,87192658,49.2845332,5.6997387,Baroncourt
+Barr,barr,1,Barr,87214247,48.4032933,7.4565189,Barr
+Barsac,barsac,1,Barsac,87582759,44.6054306,-0.3215775,Barsac
+Bartenheim,bartenheim,1,Bartenheim,87182113,47.6349313,7.4872561,Bartenheim
+Bas,bas,1,Bas - Monistrol-sur-Loire,87726778,45.297596,4.139602,Bas - Monistrol-sur-Loire
+Bas Évette,bas evette,1,Bas Évette,87184200,47.6810089,6.8068494,Bas Évette
+Base Aérienne,base aerienne,1,Base Aérienne,87699223,47.320184,1.681869,Base Aérienne
+Basse,basse,1,Basse-Ham,87191601,49.3805708,6.2348709,Basse-Ham
+Bassens,bassens,1,Bassens,87581850,44.9012933,-0.5223144,Bassens
+Batz,batz,1,Batz-sur-Mer,87481770,47.2809541,-2.4789866,Batz-sur-Mer
+Baule,baule,1,Baule,87574152,47.8117535,1.668127,Baule
+Baume,baume,1,Baume-les-Dames,87718460,47.353937,6.359603,Baume-les-Dames
+Bauvin,bauvin,1,Bauvin - Provin,87345280,50.51168,2.9054,Bauvin - Provin
+Bayeux,bayeux,1,Bayeux,87444067,49.269836,-0.698056,Bayeux
+Bayon,bayon,1,Bayon,87141218,48.468046,6.322569,Bayon
+Bayonne,bayonne,1,Bayonne,87673004,43.496801,-1.470306,Bayonne
+Bazancourt,bazancourt,1,Bazancourt,87171462,49.361202,4.173887,Bazancourt
+Baziège,baziege,1,Baziège,87611723,43.4535696,1.6205019,Baziège
+Beau Marais,beau marais,1,Beau Marais,87317610,50.945371,1.8983301,Beau Marais
+Beaucaire,beaucaire,1,Beaucaire,87775023,43.80209,4.6470865,Beaucaire
+Beaugency,beaugency,1,Beaugency,87574160,47.778365,1.625938,Beaugency
+Beaulieu,beaulieu,1,Beaulieu-sur-Mer,87756379,43.706651,7.331545,Beaulieu-sur-Mer
+Beaumont,beaumont,1,Beaumont-le-Roger,87387183,49.0741722,0.7727865,Beaumont-le-Roger
+Beaune,beaune,1,Beaune,87713545,47.023053,4.848379,Beaune
+Beaurainville,beaurainville,1,Beaurainville,87317198,50.422891,1.895345,Beaurainville
+Beautiran,beautiran,1,Beautiran,87582700,44.701041,-0.45017,Beautiran
+Beauvais,beauvais,1,Beauvais,87313510,49.42648,2.08869,Beauvais
+Beauvoir,beauvoir,1,Beauvoir-sur-Niort,87485342,46.1768857,-0.4687544,Beauvoir-sur-Niort
+Beauvoisin,beauvoisin,1,Beauvoisin,87775809,43.7245026,4.3212178,Beauvoisin
+Bedous,bedous,1,Bedous,87672774,42.99589,-0.60348,Bedous
+Beillant,beillant,1,Beillant,87491076,45.7007999,-0.5265079,Beillant
+Bellac,bellac,1,Bellac,87592485,46.1252044,1.0461168,Bellac
+Belle-Isle,belle-isle,1,Belle-Isle - Bégard,87473165,48.5935901,-3.3228532,Belle-Isle - Bégard
+Bellegarde,bellegarde,1,Bellegarde-sur-Valserine,87745000,46.109425,5.823483,Bellegarde-sur-Valserine
+Bellenaves,bellenaves,1,Bellenaves,87641068,46.199256,3.0665239,Bellenaves
+Bellevigny,bellevigny,1,Bellevigny,87486142,46.788316,-1.4346673,Bellevigny
+Belleville,belleville,1,Belleville,87141804,48.8195721,6.1018641,Belleville
+Belleville sur Sâone,belleville sur saone,1,Belleville sur Sâone,87721357,46.111917,4.729028,Belleville sur Sâone
+Bellevue,bellevue,1,Bellevue,87393116,48.8190033,2.2296743,Bellevue
+Bellignat,bellignat,1,Bellignat,87743526,46.2381265,5.6298849,Bellignat
+Belloy,belloy,1,Belloy - Saint-Martin,87276550,49.09807,2.36135,Belloy - Saint-Martin
+Belvezet,belvezet,1,Belvezet,87783670,44.5617971,3.7518919,Belvezet
+Belvès,belves,1,Belvès,87595876,44.7773978,1.0118831,Belvès
+Belz,belz,1,Belz - Ploemel,87476408,47.652466,-3.0721919,Belz - Ploemel
+Benfeld,benfeld,1,Benfeld,87214122,48.3735367,7.584125,Benfeld
+Bengy,bengy,1,Bengy-sur-Craon,87576447,47.0004698,2.7492361,Bengy-sur-Craon
+Bergerac,bergerac,1,Bergerac,87584268,44.857061,0.489174,Bergerac
+Bergues,bergues,1,Bergues,87281105,50.96901,2.42574,Bergues
+Berlaimont,berlaimont,1,Berlaimont,87295808,50.1980095,3.8105316,Berlaimont
+Bernay,bernay,1,Bernay,87444299,49.087102,0.595634,Bernay
+Bersac,bersac,1,Bersac-sur-Rivalier,87592352,46.0837459,1.4321682,Bersac-sur-Rivalier
+Berthelming,berthelming,1,Berthelming,87215335,48.8096475,7.0087859,Berthelming
+Bertrichamps,bertrichamps,1,Bertrichamps,87141424,48.4283359,6.7912343,Bertrichamps
+Bertry,bertry,1,Bertry,87345553,50.0911265,3.4489955,Bertry
+Beslé,besle,1,Beslé,87471219,47.6988788,-1.8706374,Beslé
+Bessancourt,bessancourt,1,Bessancourt,87276642,49.03576,2.21004,Bessancourt
+Bessay,bessay,1,Bessay-sur-Allier,87696336,46.4435849,3.3606477,Bessay-sur-Allier
+Betton,betton,1,Betton,87471045,48.1814803,-1.6344745,Betton
+Beuvrages,beuvrages,1,Beuvrages,87343160,50.3894892,3.5061396,Beuvrages
+Beuvry lès Béthune,beuvry les bethune,1,Beuvry lès Béthune,87342402,50.5356021,2.6924093,Beuvry lès Béthune
+Beynes,beynes,1,Beynes,87393363,48.8593599,1.8755696,Beynes
+Beynost,beynost,1,Beynost,87723544,45.833915,5.006969,Beynost
+Biache,biache,1,Biache-Saint-Vaast,87342097,50.3162525,2.9414975,Biache-Saint-Vaast
+Biarritz,biarritz,1,Biarritz,87673400,43.459397,-1.545915,Biarritz
+Bibliothèque François Mitterrand,bibliotheque françois mitterrand,1,Bibliothèque François Mitterrand,87328328,48.82984,2.37684,Bibliothèque François Mitterrand
+Bidarray Pont Noblia,bidarray pont noblia,1,Bidarray Pont Noblia,87673699,43.2682991,-1.3453233,Bidarray Pont Noblia
+Bidos,bidos,1,Bidos,87691949,43.17892,-0.6069,Bidos
+Biganos Facture,biganos facture,1,Biganos Facture,87582478,44.637384,-0.96621,Biganos Facture
+Bigny,bigny,1,Bigny,87576306,46.8015763,2.368638,Bigny
+Billy,billy,1,Billy-Montigny,87345140,50.41556,2.91206,Billy-Montigny
+Biot,biot,1,Biot,87757690,43.610951,7.12609,Biot
+Bischheim,bischheim,1,Bischheim,87212308,48.6118352,7.7422165,Bischheim
+Bischoffsheim,bischoffsheim,1,Bischoffsheim,87214296,48.48701,7.49772,Bischoffsheim
+Bischwiller,bischwiller,1,Bischwiller,87213611,48.765753,7.8516536,Bischwiller
+Bitschwiller,bitschwiller,1,Bitschwiller-lès-Thann,87182576,47.8273719,7.078514,Bitschwiller-lès-Thann
+Bièvres,bievres,1,Bièvres,87393546,48.7513289,2.2157279,Bièvres
+Blainville,blainville,1,Blainville - Damelevières,87141135,48.564971,6.386953,Blainville - Damelevières
+Blaisy,blaisy,1,Blaisy-Bas,87713073,47.3734427,4.7410755,Blaisy-Bas
+Blanquefort,blanquefort,1,Blanquefort,87581728,44.917556,-0.62392,Blanquefort
+Blanzy,blanzy,1,Blanzy,87694612,46.694064,4.3913585,Blanzy
+Blois,blois,1,Blois - Chambord,87574004,47.585445,1.323823,Blois - Chambord
+Blonville-sur-Mer,blonville-sur-mer,1,Blonville-sur-Mer - Benerville,87444380,49.3313919,0.0356856,Blonville-sur-Mer - Benerville
+Bléré,blere,1,Bléré - La Croix,87574475,47.3377228,0.9877583,Bléré - La Croix
+Bogny,bogny,1,Bogny-sur-Meuse,87172049,49.8583117,4.7632317,Bogny-sur-Meuse
+Bohain,bohain,1,Bohain-en-Vermandois,87296269,49.9884143,3.4431289,Bohain-en-Vermandois
+Boigneville,boigneville,1,Boigneville,87684407,48.342078,2.3789793,Boigneville
+Bois-d'Oingt,bois-d'oingt,1,Bois-d'Oingt - Légny,87721787,45.9065839,4.575043,Bois-d'Oingt - Légny
+Boisleux,boisleux,1,Boisleux-au-Mont,87342071,50.2104665,2.771855,Boisleux-au-Mont
+Boisseaux,boisseaux,1,Boisseaux,87543082,48.2566238,1.9727681,Boisseaux
+Boisset,boisset,1,Boisset,87645184,44.786038,2.2497669,Boisset
+Boissise,boissise,1,Boissise-le-Roi,87682518,48.529319,2.572953,Boissise-le-Roi
+Boissy,boissy,1,Boissy-l'Aillerie,87381152,49.07598,2.02513,Boissy-l'Aillerie
+Bollwiller,bollwiller,1,Bollwiller,87182709,47.8569694,7.2672555,Bollwiller
+Bollène La Croisière,bollene la croisiere,1,Bollène La Croisière,87764357,44.271525,4.707908,Bollène La Croisière
+Bologne,bologne,1,Bologne,87142224,48.1986877,5.1342228,Bologne
+Bondy,bondy,1,Bondy,87113407,48.894208,2.4786,Bondy
+Bonnemain,bonnemain,1,Bonnemain,87478065,48.4764049,-1.7654125,Bonnemain
+Bonneval,bonneval,1,Bonneval,87545731,48.1862958,1.3861845,Bonneval
+Bonneville,bonneville,1,Bonneville,87746339,46.077772,6.416524,Bonneville
+Bonnières,bonnieres,1,Bonnières-sur-Seine,87415893,49.038788,1.582205,Bonnières-sur-Seine
+Bons,bons,1,Bons-en-Chablais,87745596,46.270046,6.366246,Bons-en-Chablais
+Bonson,bonson,1,Bonson,87726414,45.5221941,4.2163084,Bonson
+Boran,boran,1,Boran-sur-Oise,87276444,49.1671348,2.362537,Boran-sur-Oise
+Bordeaux,bordeaux,1,Bordeaux Saint-Jean,87581009,44.825873,-0.556697,Bordeaux Saint-Jean
+Bords,bords,1,Bords,87491019,45.8944625,-0.7985436,Bords
+Bornel,bornel,1,Bornel - Belle-Église,87276717,49.19471,2.20717,Bornel - Belle-Église
+Bouaye,bouaye,1,Bouaye,87481200,47.1380806,-1.6810992,Bouaye
+Boucau,boucau,1,Boucau,87673095,43.5234217,-1.4905872,Boucau
+Bouchain,bouchain,1,Bouchain,87345389,50.2780892,3.3319096,Bouchain
+Boucoiran,boucoiran,1,Boucoiran-et-Nozières,87775346,43.9926943,4.187634,Boucoiran-et-Nozières
+Bouffémont,bouffemont,1,Bouffémont - Moisselles,87276485,49.04514,2.32272,Bouffémont - Moisselles
+Bougival,bougival,1,Bougival,87382440,48.8542135,2.1323749,Bougival
+Boulainvilliers,boulainvilliers,1,Boulainvilliers,87543181,48.85645,2.275149,Boulainvilliers
+Boulazac,boulazac,1,Boulazac,87725473,45.172291,0.772645,Boulazac
+Boulogne,boulogne,1,Boulogne-sur-Mer,87317586,50.7157,1.60964,Boulogne-sur-Mer
+Boulogne Tintelleries,boulogne tintelleries,1,Boulogne Tintelleries,87317016,50.72729,1.60904,Boulogne Tintelleries
+Boulouris sur Mer,boulouris sur mer,1,Boulouris sur Mer,87757534,43.4163471,6.8082519,Boulouris sur Mer
+Bouray,bouray,1,Bouray,87545178,48.533149,2.290596,Bouray
+Bourbourg,bourbourg,1,Bourbourg,87281279,50.952267,2.1942305,Bourbourg
+Bourges,bourges,1,Bourges,87576207,47.094145,2.394255,Bourges
+Bourgneuf,bourgneuf,1,Bourgneuf-en-Retz,87481242,47.0469634,-1.9551942,Bourgneuf-en-Retz
+Bourgoin,bourgoin,1,Bourgoin-Jallieu,87723429,45.583954,5.273401,Bourgoin-Jallieu
+Bourgtheroulde,bourgtheroulde,1,Bourgtheroulde - Thuit-Hébert,87415323,49.3174381,0.8383198,Bourgtheroulde - Thuit-Hébert
+Bournezeau,bournezeau,1,Bournezeau,87486324,46.6518258,-1.1806169,Bournezeau
+Bourron-Marlotte,bourron-marlotte,1,Bourron-Marlotte - Grez,87684118,48.3326884,2.6924552,Bourron-Marlotte - Grez
+Boussay,boussay,1,Boussay - La Bruffière,87481176,47.0505741,-1.1828046,Boussay - La Bruffière
+Boussens,boussens,1,Boussens,87611095,43.179617,0.972543,Boussens
+Boussy,boussy,1,Boussy-Saint-Antoine,87682138,48.680893,2.532726,Boussy-Saint-Antoine
+Bouthéon,boutheon,1,Bouthéon,87726216,45.5246289,4.2777187,Bouthéon
+Boutigny,boutigny,1,Boutigny-sur-Essonne,87681478,48.43495,2.37636,Boutigny-sur-Essonne
+Boves,boves,1,Boves,87313213,49.8462355,2.3981165,Boves
+Boën,boen,1,Boën-sur-Lignon,87726471,45.7413612,4.0051544,Boën-sur-Lignon
+Bram,bram,1,Bram,87615054,43.2441014,2.1191467,Bram
+Brandérion,branderion,1,Brandérion,87476242,47.7823179,-3.1940402,Brandérion
+Brassac-les-Mines,brassac-les-mines,1,Brassac-les-Mines - Sainte-Florine,87734244,45.414246,3.330167,Brassac-les-Mines - Sainte-Florine
+Brax,brax,1,Brax - Léguevin,87611822,43.614887,1.236922,Brax - Léguevin
+Brazey,brazey,1,Brazey-en-Plaine,87713644,47.1314549,5.2121276,Brazey-en-Plaine
+Brebières,brebieres,1,Brebières,87345108,50.33624,3.0142,Brebières
+Breitenbach,breitenbach,1,Breitenbach,87182659,48.0285326,7.1040522,Breitenbach
+Bressuire,bressuire,1,Bressuire,87487249,46.8384462,-0.4963269,Bressuire
+Brest,brest,1,Brest,87474007,48.38811,-4.478903,Brest
+Breteil,breteil,1,Breteil,87471102,48.1405713,-1.8972095,Breteil
+Bretenoux,bretenoux,1,Bretenoux - Biars,87594762,44.9273692,1.8436871,Bretenoux - Biars
+Breteuil,breteuil,1,Breteuil,87313247,49.626389,2.3845164,Breteuil
+Bretoncelles,bretoncelles,1,Bretoncelles,87394270,48.4326737,0.8923825,Bretoncelles
+Bretteville,bretteville,1,Bretteville - Norrey,87444042,49.2034112,-0.5127396,Bretteville - Norrey
+Breuil,breuil,1,Breuil - Romain,87171322,49.3084141,3.7665322,Breuil - Romain
+Breuillet,breuillet,1,Breuillet - Bruyères-le-Châtel,87545483,48.577228,2.191721,Breuillet - Bruyères-le-Châtel
+Breuillet Village,breuillet village,1,Breuillet Village,87545491,48.564776,2.171207,Breuillet Village
+Briançon,briançon,1,Briançon,87763607,44.889853,6.633007,Briançon
+Briare,briare,1,Briare,87696088,47.6464312,2.7337154,Briare
+Brignac,brignac,1,Brignac,87592063,45.8635812,1.4406315,Brignac
+Brignais,brignais,1,Brignais,87722728,45.6737721,4.7636596,Brignais
+Brignoud,brignoud,1,Brignoud,87747451,45.26245,5.901472,Brignoud
+Brimeux,brimeux,1,Brimeux,87317180,50.4470409,1.8313826,Brimeux
+Brion,brion,1,Brion - Montréal-la-Cluse,87131961,46.1757013,5.5585203,Brion - Montréal-la-Cluse
+Brionne,brionne,1,Brionne,87415364,49.1964187,0.7115304,Brionne
+Brioude,brioude,1,Brioude,87734269,45.3006493,3.3786344,Brioude
+Briouze,briouze,1,Briouze,87448084,48.7018622,-0.3682036,Briouze
+Brive,brive,1,Brive-la-Gaillarde,87594002,45.152618,1.528655,Brive-la-Gaillarde
+Broons,broons,1,Broons,87473074,48.3332957,-2.2356578,Broons
+Brou,brou,1,Brou,87394452,48.2157588,1.1606705,Brou
+Broye,broye,1,Broye,87694166,46.8619444,4.2960996,Broye
+Bruges,bruges,1,Bruges,87581736,44.8870124,-0.609445,Bruges
+Brumath,brumath,1,Brumath,87212134,48.7331082,7.7004016,Brumath
+Brunoy,brunoy,1,Brunoy,87682120,48.699112,2.506422,Brunoy
+Brunémont,brunemont,1,Brunémont,87345439,50.2783197,3.1453509,Brunémont
+Bruz,bruz,1,Bruz,87471037,48.0286,-1.7518088,Bruz
+Bréauté,breaute,1,Bréauté - Beuzeville,87413344,49.603396,0.417489,Bréauté - Beuzeville
+Brélidy,brelidy,1,Brélidy - Plouëc,87473827,48.669204,-3.196269,Brélidy - Plouëc
+Bréval,breval,1,Bréval,87381624,48.94336,1.54191,Bréval
+Bueil,bueil,1,Bueil,87387092,48.9253816,1.4435896,Bueil
+Bugeat,bugeat,1,Bugeat,87592162,45.6005968,1.9248147,Bugeat
+Buire,buire,1,Buire-sur-l'Ancre,87316067,49.9647735,2.5981885,Buire-sur-l'Ancre
+Bully,bully,1,Bully - Grenay,87342105,50.44843,2.73317,Bully - Grenay
+Buno,buno,1,Buno - Gironville,87681510,48.370847,2.3871153,Buno - Gironville
+Busigny,busigny,1,Busigny,87296244,50.0397236,3.4461174,Busigny
+Bussac,bussac,1,Bussac-Forêt,87491191,45.211928,-0.3682457,Bussac-Forêt
+Busseau sur Creuse,busseau sur creuse,1,Busseau sur Creuse,87597708,46.1230257,2.0229244,Busseau sur Creuse
+Bussière,bussiere,1,Bussière-Galant,87592741,45.6076224,1.0261372,Bussière-Galant
+Buzy en Béarn,buzy en bearn,1,Buzy en Béarn,87672634,43.1482723,-0.4558864,Buzy en Béarn
+Byans,byans,1,Byans-sur-Doubs,87718122,47.1185334,5.8520589,Byans-sur-Doubs
+Bègles,begles,1,Bègles,87581801,44.7995389,-0.5552495,Bègles
+Béard,beard,1,Béard,87696468,46.8652207,3.3179944,Béard
+Bécon les Bruyères,becon les bruyeres,1,Bécon les Bruyères,87382002,48.90592,2.26838,Bécon les Bruyères
+Bédarieux,bedarieux,1,Bédarieux,87781609,43.6086972,3.1495688,Bédarieux
+Bédarrides,bedarrides,1,Bédarrides,87765198,44.0407636,4.8931321,Bédarrides
+Bénesse,benesse,1,Bénesse-Maremne,87673285,43.6277484,-1.3698505,Bénesse-Maremne
+Bénestroff,benestroff,1,Bénestroff,87192302,48.90656,6.75266,Bénestroff
+Béning,bening,1,Béning-lès-Saint-Avold,87193250,49.1379541,6.8282982,Béning-lès-Saint-Avold
+Bétaille,betaille,1,Bétaille,87594747,44.9424281,1.7344108,Bétaille
+Béthune,bethune,1,Béthune,87342006,50.52144,2.64055,Béthune
+Béziers,beziers,1,Béziers,87781005,43.33633,3.218873,Béziers
+Cadaujac,cadaujac,1,Cadaujac,87582684,44.7520628,-0.5376186,Cadaujac
+Caen,caen,1,Caen,87444000,49.176354,-0.347613,Caen
+Caffiers,caffiers,1,Caffiers,87317321,50.8500679,1.8120345,Caffiers
+Cagnes,cagnes,1,Cagnes-sur-Mer,87756320,43.65813,7.14864,Cagnes-sur-Mer
+Cahors,cahors,1,Cahors,87613000,44.449275,1.433325,Cahors
+Callac,callac,1,Callac,87473546,48.4062201,-3.419782,Callac
+Calonne,calonne,1,Calonne-Ricouart,87342543,50.4827036,2.4812098,Calonne-Ricouart
+Cambo,cambo,1,Cambo-les-Bains,87673657,43.3656242,-1.3966849,Cambo-les-Bains
+Cambrai,cambrai,1,Cambrai,87345520,50.17662,3.24118,Cambrai
+Campagnac,campagnac,1,Campagnac - Saint-Geniez,87783340,44.4219559,3.0664008,Campagnac - Saint-Geniez
+Cannes,cannes,1,Cannes,87757625,43.553839,7.019682,Cannes
+Cannes La Bocca,cannes la bocca,1,Cannes La Bocca,87757617,43.548787,6.986601,Cannes La Bocca
+Cantin,cantin,1,Cantin,87345413,50.3124545,3.121943,Cantin
+Cap,cap,1,Cap-d'Ail,87756395,43.7205382,7.3943362,Cap-d'Ail
+Capdenac,capdenac,1,Capdenac,87613109,44.5782458,2.0779632,Capdenac
+Capvern,capvern,1,Capvern,87671156,43.1033454,0.3296393,Capvern
+Carbonne,carbonne,1,Carbonne,87611061,43.298206,1.212531,Carbonne
+Carcassonne,carcassonne,1,Carcassonne,87615286,43.218029,2.351824,Carcassonne
+Carentan,carentan,1,Carentan,87447243,49.302482,-1.244938,Carentan
+Carhaix,carhaix,1,Carhaix-Plouguer,87473504,48.2780022,-3.5622173,Carhaix-Plouguer
+Carignan,carignan,1,Carignan,87172353,49.6285736,5.1684754,Carignan
+Carmaux,carmaux,1,Carmaux,87615625,44.048782,2.152401,Carmaux
+Carnoles,carnoles,1,Carnoles,87756478,43.76203,7.48139,Carnoles
+Carnoules,carnoules,1,Carnoules,87755371,43.2974104,6.1862531,Carnoules
+Carnoët,carnoet,1,Carnoët - Locarn,87473561,48.3405242,-3.4908822,Carnoët - Locarn
+Carpentras,carpentras,1,Carpentras,87765735,44.0499488,5.044141,Carpentras
+Carry,carry,1,Carry-le-Rouet,87753566,43.336592,5.153594,Carry-le-Rouet
+Casino Lacroix Laval,casino lacroix laval,1,Casino Lacroix Laval,87208553,45.7878115,4.7309383,Casino Lacroix Laval
+Cassel,cassel,1,Cassel,87281139,50.7875916,2.4599722,Cassel
+Cassis,cassis,1,Cassis,87751776,43.23406,5.553055,Cassis
+Castelnau,castelnau,1,Castelnau-d'Estrétefonds,87611665,43.786196,1.341761,Castelnau-d'Estrétefonds
+Castelnaudary,castelnaudary,1,Castelnaudary,87615039,43.312292,1.95039,Castelnaudary
+Castelsarrasin,castelsarrasin,1,Castelsarrasin,87611897,44.0403503,1.1143954,Castelsarrasin
+Castillon,castillon,1,Castillon-la-Bataille,87584136,44.856999,-0.04066,Castillon-la-Bataille
+Castres,castres,1,Castres,87615468,43.599131,2.231223,Castres
+Cattenières,cattenieres,1,Cattenières,87345587,50.1280738,3.3337877,Cattenières
+Caudrot,caudrot,1,Caudrot,87582841,44.5801152,-0.1452784,Caudrot
+Caudry,caudry,1,Caudry,87345561,50.11146,3.40983,Caudry
+Caudéran Mérignac,cauderan merignac,1,Caudéran Mérignac,87581538,44.84288,-0.6274337,Caudéran Mérignac
+Caulnes,caulnes,1,Caulnes,87473066,48.2844264,-2.155593,Caulnes
+Caussade,caussade,1,Caussade,87613356,44.1622668,1.5336541,Caussade
+Cavaillon,cavaillon,1,Cavaillon,87765503,43.834554,5.043613,Cavaillon
+Cavignac,cavignac,1,Cavignac,87491217,45.105163,-0.382243,Cavignac
+Cazères,cazeres,1,Cazères,87611079,43.212834,1.083106,Cazères
+Ceilhes,ceilhes,1,Ceilhes - Roqueredonde,87781542,43.8122656,3.1551583,Ceilhes - Roqueredonde
+Cenon,cenon,1,Cenon,87581595,44.8563465,-0.5336487,Cenon
+Cerbère,cerbere,1,Cerbère,87785006,42.4417732,3.1634033,Cerbère
+Cercottes,cercottes,1,Cercottes,87543033,47.9861553,1.8849813,Cercottes
+Cercy,cercy,1,Cercy-la-Tour,87696492,46.8578816,3.6452029,Cercy-la-Tour
+Cergy Préfecture,cergy prefecture,1,Cergy Préfecture,87381905,49.03639,2.07982,Cergy Préfecture
+Cergy Saint,cergy saint,1,Cergy Saint-Christophe,87382499,49.0496151,2.0343975,Cergy Saint-Christophe
+Cergy le Haut,cergy le haut,1,Cergy le Haut,87382655,49.0484932,2.0118725,Cergy le Haut
+Cerizay,cerizay,1,Cerizay,87487280,46.8176878,-0.6689931,Cerizay
+Cernay (Haut,cernay (haut,1,Cernay (Haut-Rhin),87182410,47.802,7.1737,Cernay (Haut-Rhin)
+Cernay (Val,cernay (val,1,Cernay (Val-d'Oise),87276063,48.98539,2.2568,Cernay (Val-d'Oise)
+Cessieu,cessieu,1,Cessieu,87723452,45.5611596,5.3761179,Cessieu
+Ceyzériat,ceyzeriat,1,Ceyzériat,87743302,46.1834877,5.3258417,Ceyzériat
+Chabenet,chabenet,1,Chabenet,87597112,46.6265259,1.5076773,Chabenet
+Chabris,chabris,1,Chabris,87576223,47.2549836,1.6459424,Chabris
+Chagny,chagny,1,Chagny,87713578,46.907269,4.749682,Chagny
+Chaingy Fourneaux Plage,chaingy fourneaux plage,1,Chaingy Fourneaux Plage,87574111,47.8770705,1.782422,Chaingy Fourneaux Plage
+Chalais,chalais,1,Chalais,87583690,45.2708327,0.0435966,Chalais
+Challans,challans,1,Challans,87481390,46.843962,-1.871879,Challans
+Chalon,chalon,1,Chalon-sur-Saône,87725002,46.781612,4.843454,Chalon-sur-Saône
+Chalonnes,chalonnes,1,Chalonnes-sur-Loire,87484204,47.34306,-0.74306,Chalonnes-sur-Loire
+Chamalières,chamalieres,1,Chamalières-sur-Loire,87734731,45.2047385,3.9909202,Chamalières-sur-Loire
+Chamarande,chamarande,1,Chamarande,87545152,48.514244,2.215854,Chamarande
+Chambly,chambly,1,Chambly,87276725,49.16362,2.24048,Chambly
+Chamborigaud,chamborigaud,1,Chamborigaud,87775221,44.3002429,3.9793332,Chamborigaud
+Chambourg,chambourg,1,Chambourg-sur-Indre,87571463,47.1821629,0.9648363,Chambourg-sur-Indre
+Chambéry,chambery,1,Chambéry - Challes-les-Eaux,87741009,45.571302,5.919547,Chambéry - Challes-les-Eaux
+Chamelet,chamelet,1,Chamelet,87721829,45.9816414,4.5069346,Chamelet
+Chamonix,chamonix,1,Chamonix-Mont-Blanc,87746784,45.92277,6.87363,Chamonix-Mont-Blanc
+Chamonix Aiguille du Midi,chamonix aiguille du midi,1,Chamonix Aiguille du Midi,87462085,45.91993,6.8667152,Chamonix Aiguille du Midi
+Chamousset,chamousset,1,Chamousset,87741231,45.5575744,6.2067432,Chamousset
+Champ de Courses d'Enghien,champ de courses d'enghien,1,Champ de Courses d'Enghien,87276030,48.97975,2.29189,Champ de Courses d'Enghien
+Champ de Mars Tour Eiffel,champ de mars tour eiffel,1,Champ de Mars Tour Eiffel,87393058,48.8551134,2.2892141,Champ de Mars Tour Eiffel
+Champagney,champagney,1,Champagney,87185348,47.7031399,6.7012773,Champagney
+Champagnole,champagnole,1,Champagnole,87715326,46.7492981,5.9100314,Champagnole
+Champagnole Paul,champagnole paul,1,Champagnole Paul-Émile Victor,87352047,46.742483,5.9198128,Champagnole Paul-Émile Victor
+Champbenoist,champbenoist,1,Champbenoist - Poigny,87115873,48.545567,3.287434,Champbenoist - Poigny
+Champigneulles,champigneulles,1,Champigneulles,87141085,48.73499,6.16913,Champigneulles
+Champigny sur Yonne,champigny sur yonne,1,Champigny sur Yonne,87683128,48.3237418,3.1305718,Champigny sur Yonne
+Champlan,champlan,1,Champlan,87725457,48.70804,2.28073,Champlan
+Champs,champs,1,Champs - Saint-Bris,87683615,47.7388182,3.6034756,Champs - Saint-Bris
+Champtocé,champtoce,1,Champtocé-sur-Loire,87484352,47.4102457,-0.8685747,Champtocé-sur-Loire
+Chanac,chanac,1,Chanac,87783530,44.4739786,3.3454117,Chanac
+Changis,changis,1,Changis - Saint-Jean,87116509,48.95936,3.025394,Changis - Saint-Jean
+Chanteloup,chanteloup,1,Chanteloup-les-Vignes,87381475,48.97095,2.02771,Chanteloup-les-Vignes
+Chantilly,chantilly,1,Chantilly - Gouvieux,87276113,49.18724,2.45979,Chantilly - Gouvieux
+Chantonnay,chantonnay,1,Chantonnay,87486332,46.6898472,-1.0544144,Chantonnay
+Chapeauroux,chapeauroux,1,Chapeauroux,87734343,44.8380008,3.741923,Chapeauroux
+Chaponost,chaponost,1,Chaponost,87722710,45.6984889,4.7643014,Chaponost
+Chaponval,chaponval,1,Chaponval,87276162,49.0694825,2.1423781,Chaponval
+Charbonnières,charbonnieres,1,Charbonnières-les-Bains,87721530,45.782142,4.735912,Charbonnières-les-Bains
+Charleville,charleville,1,Charleville-Mézières,87172007,49.767915,4.724952,Charleville-Mézières
+Charmes,charmes,1,Charmes,87144055,48.378483,6.301537,Charmes
+Chars,chars,1,Chars,87381194,49.16268,1.93671,Chars
+Chartres,chartres,1,Chartres,87394007,48.4482023,1.4813128,Chartres
+Chartrettes,chartrettes,1,Chartrettes,87682419,48.4870771,2.6950059,Chartrettes
+Chasse,chasse,1,Chasse-sur-Rhône,87722561,45.58237,4.794843,Chasse-sur-Rhône
+Chasseneuil,chasseneuil,1,Chasseneuil-du-Poitou,87575225,46.6517702,0.3730275,Chasseneuil-du-Poitou
+Chasseradès,chasserades,1,Chasseradès,87775148,44.5539847,3.8399319,Chasseradès
+Chauffailles,chauffailles,1,Chauffailles,87694778,46.2074552,4.3454278,Chauffailles
+Chaugey,chaugey,1,Chaugey,87712679,47.0872036,5.2551914,Chaugey
+Chaulnes,chaulnes,1,Chaulnes,87313478,49.8076201,2.8011421,Chaulnes
+Chauny,chauny,1,Chauny,87296616,49.61119,3.22354,Chauny
+Chaux,chaux,1,Chaux-des-Crotenay,87715383,46.6545926,5.9438595,Chaux-des-Crotenay
+Chaville,chaville,1,Chaville - Vélizy,87393173,48.7998005,2.1845267,Chaville - Vélizy
+Chaville Rive Droite,chaville rive droite,1,Chaville Rive Droite,87382333,48.81213,2.18785,Chaville Rive Droite
+Chaville Rive Gauche,chaville rive gauche,1,Chaville Rive Gauche,87393207,48.8047497,2.1882472,Chaville Rive Gauche
+Chazay,chazay,1,Chazay - Marcilly,87721415,45.8729618,4.7252221,Chazay - Marcilly
+Chedde,chedde,1,Chedde,87746701,45.9263464,6.7197662,Chedde
+Cheilly,cheilly,1,Cheilly-lès-Maranges,87694398,46.8924768,4.6758424,Cheilly-lès-Maranges
+Chelles,chelles,1,Chelles - Gournay,87116111,48.874128,2.582484,Chelles - Gournay
+Chemilly,chemilly,1,Chemilly - Appoigny,87683532,47.8972366,3.5543936,Chemilly - Appoigny
+Chemillé,chemille,1,Chemillé-en-Anjou,87484246,47.217748,-0.731989,Chemillé-en-Anjou
+Chemin d'Antony,chemin d'antony,1,Chemin d'Antony,87546317,48.748143,2.3126207,Chemin d'Antony
+Chenevières,chenevieres,1,Chenevières,87141382,48.5195062,6.6325613,Chenevières
+Chenonceaux,chenonceaux,1,Chenonceaux,87574491,47.330554,1.0661,Chenonceaux
+Cherbourg,cherbourg,1,Cherbourg-en-Cotentin,87444877,49.633505,-1.621515,Cherbourg-en-Cotentin
+Chessy,chessy,1,Chessy,87721761,45.885545,4.6222625,Chessy
+Chevaigné,chevaigne,1,Chevaigné,87471458,48.2089042,-1.6307622,Chevaigné
+Chevillon,chevillon,1,Chevillon,87175117,48.5245505,5.1117843,Chevillon
+Chevilly,chevilly,1,Chevilly,87543041,48.0266215,1.8793013,Chevilly
+Chevrières,chevrieres,1,Chevrières,87276311,49.3373064,2.6828025,Chevrières
+Chilly,chilly,1,Chilly-Mazarin,87393637,48.7004413,2.3081837,Chilly-Mazarin
+Chindrieux,chindrieux,1,Chindrieux,87741116,45.8034376,5.8468876,Chindrieux
+Chinon,chinon,1,Chinon,87571687,47.163047,0.251538,Chinon
+Chirac,chirac,1,Chirac,87783290,44.5246607,3.2638181,Chirac
+Chissay,chissay,1,Chissay-en-Touraine,87574848,47.3349004,1.1333044,Chissay-en-Touraine
+Chocques,chocques,1,Chocques,87342220,50.5382038,2.564749,Chocques
+Choisy,choisy,1,Choisy-le-Roi,87545285,48.763974,2.411102,Choisy-le-Roi
+Cholet,cholet,1,Cholet,87484303,47.065698,-0.869583,Cholet
+Chorges,chorges,1,Chorges,87763425,44.5458415,6.2718887,Chorges
+Chouzy,chouzy,1,Chouzy-sur-Cisse,87574301,47.5203249,1.247846,Chouzy-sur-Cisse
+Châbons,chabons,1,Châbons,87747212,45.4383566,5.4281009,Châbons
+Châlons,chalons,1,Châlons-en-Champagne,87174003,48.955252,4.348656,Châlons-en-Champagne
+Châteaubourg,chateaubourg,1,Châteaubourg,87471524,48.106361,-1.405159,Châteaubourg
+Châteaubriant,chateaubriant,1,Châteaubriant,87481648;87590372,47.7175212,-1.3715152,Châteaubriant
+Châteaudun,chateaudun,1,Châteaudun,87545756,48.073463,1.338133,Châteaudun
+Châteaulin,chateaulin,1,Châteaulin,87474064,48.2016033,-4.094308,Châteaulin
+Châteauroux,chateauroux,1,Châteauroux,87597005,46.809737,1.699536,Châteauroux
+Châtelaillon,chatelaillon,1,Châtelaillon-Plage,87485110,46.0783303,-1.0908909,Châtelaillon-Plage
+Châtelaudren,chatelaudren,1,Châtelaudren - Plouagat,87473140,48.5332189,-2.9746782,Châtelaudren - Plouagat
+Châtellerault,chatellerault,1,Châtellerault,87575142,46.818594,0.549279,Châtellerault
+Châtillon d'Azergues,chatillon d'azergues,1,Châtillon d'Azergues,87721753,45.8751815,4.6451164,Châtillon d'Azergues
+Chézy,chezy,1,Chézy-sur-Marne,87116574,48.9919109,3.3644624,Chézy-sur-Marne
+Cinq,cinq,1,Cinq-Mars-la-Pile,87571836,47.3452264,0.4604878,Cinq-Mars-la-Pile
+Cintegabelle,cintegabelle,1,Cintegabelle,87611376,43.3054202,1.5204268,Cintegabelle
+Cires,cires,1,Cires-lès-Mello,87313551,49.2717956,2.3601903,Cires-lès-Mello
+Ciry,ciry,1,Ciry-le-Noble,87694646,46.6040913,4.2997146,Ciry-le-Noble
+Civrieux,civrieux,1,Civrieux-d'Azergues,87721746,45.8591831,4.7182413,Civrieux-d'Azergues
+Cize,cize,1,Cize - Bolozon,87743344,46.2134803,5.4540677,Cize - Bolozon
+Clacy,clacy,1,Clacy - Mons,87296178,49.5439229,3.5766816,Clacy - Mons
+Clamart,clamart,1,Clamart,87391565,48.813844,2.2733273,Clamart
+Clamecy,clamecy,1,Clamecy,87696807,47.4666984,3.5207672,Clamecy
+Clelles,clelles,1,Clelles - Mens,87747626,44.8272443,5.6050622,Clelles - Mens
+Clermont La Pardieu,clermont la pardieu,1,Clermont La Pardieu,87782607,45.766947,3.134163,Clermont La Pardieu
+Clermont La Rotonde,clermont la rotonde,1,Clermont La Rotonde,87396895,45.7680954,3.0909704,Clermont La Rotonde
+Clermont de l'Oise,clermont de l'oise,1,Clermont de l'Oise,87313304,49.38531,2.41767,Clermont de l'Oise
+Clermont-Ferrand,clermont-ferrand,1,Clermont-Ferrand,87734004,45.778945,3.100543,Clermont-Ferrand
+Clerval,clerval,1,Clerval,87184622,47.3966577,6.4920574,Clerval
+Clichy,clichy,1,Clichy - Levallois,87381129,48.89678,2.2982,Clichy - Levallois
+Clisson,clisson,1,Clisson,87481440,47.086142,-1.286172,Clisson
+Cloyes,cloyes,1,Cloyes-sur-le-Loir,87574509,47.9921032,1.2433542,Cloyes-sur-le-Loir
+Cluses,cluses,1,Cluses,87746370,46.061447,6.582663,Cluses
+Clères,cleres,1,Clères,87411819,49.598964,1.106184,Clères
+Coarraze,coarraze,1,Coarraze - Nay,87672139,43.1818351,-0.2416429,Coarraze - Nay
+Coat Guégan,coat guegan,1,Coat Guégan,87473579,48.4803156,-3.2738023,Coat Guégan
+Cognac,cognac,1,Cognac,87491449,45.684682,-0.326112,Cognac
+Coignières,coignieres,1,Coignières,87393272,48.7437672,1.920809,Coignières
+Collioure,collioure,1,Collioure,87784256,42.5269437,3.0782319,Collioure
+Colmar,colmar,1,Colmar,87182014,48.073201,7.346967,Colmar
+Colmar Mésanges,colmar mesanges,1,Colmar Mésanges,87402297,48.0860048,7.3336703,Colmar Mésanges
+Colmar Saint,colmar saint,1,Colmar Saint-Joseph,87181222,48.0816399,7.3453397,Colmar Saint-Joseph
+Colombes,colombes,1,Colombes,87381087,48.92383,2.25939,Colombes
+Colombier,colombier,1,Colombier-Fontaine,87184556,47.4554849,6.6890071,Colombier-Fontaine
+Colomiers,colomiers,1,Colomiers,87611467,43.603734,1.334221,Colomiers
+Colomiers Lycée International,colomiers lycee international,1,Colomiers Lycée International,87611921,43.6163055,1.3141157,Colomiers Lycée International
+Combourg,combourg,1,Combourg,87478057,48.41609,-1.72792,Combourg
+Combs-la-Ville,combs-la-ville,1,Combs-la-Ville - Quincy,87682146,48.667179,2.547798,Combs-la-Ville - Quincy
+Commentry,commentry,1,Commentry,87641415,46.295102,2.739949,Commentry
+Commercy,commercy,1,Commercy,87175257,48.765749,5.58861,Commercy
+Compans,compans,1,Compans,87272047,48.9915767,2.6652718,Compans
+Compiègne,compiegne,1,Compiègne,87276691,49.422005,2.823679,Compiègne
+Conches,conches,1,Conches-en-Ouche,87387159,48.9623603,0.9378895,Conches-en-Ouche
+Condat,condat,1,Condat - Le Lardin,87594382,45.1267128,1.2267493,Condat - Le Lardin
+Condé,conde,1,Condé-sur-Huisne,87394288,48.3834826,0.8487023,Condé-sur-Huisne
+Conflans Fin d'Oise,conflans fin d'oise,1,Conflans Fin d'Oise,87381459,48.98931,2.07465,Conflans Fin d'Oise
+Conlie,conlie,1,Conlie,87396218,48.1272909,-0.0113736,Conlie
+Connerré,connerre,1,Connerré - Beillé,87396309,48.0735,0.48687,Connerré - Beillé
+Contrexéville,contrexeville,1,Contrexéville,87144287,48.1796129,5.890633,Contrexéville
+Corbehem,corbehem,1,Corbehem,87345116,50.3428545,3.0405375,Corbehem
+Corbeil,corbeil,1,Corbeil-Essonnes,87681007,48.61403,2.47401,Corbeil-Essonnes
+Corbie,corbie,1,Corbie,87313056,49.9116183,2.4996846,Corbie
+Corbigny,corbigny,1,Corbigny,87696617,47.254807,3.6773226,Corbigny
+Corcy,corcy,1,Corcy,87272286,49.2550929,3.2157221,Corcy
+Cordemais,cordemais,1,Cordemais,87481820,47.3021502,-1.8466771,Cordemais
+Cordes,cordes,1,Cordes - Vindrac,87613802,44.067189,1.900229,Cordes - Vindrac
+Corgoloin,corgoloin,1,Corgoloin,87713537,47.0841982,4.9171231,Corgoloin
+Cormeilles,cormeilles,1,Cormeilles-en-Parisis,87381863,48.96864,2.19358,Cormeilles-en-Parisis
+Cormery,cormery,1,Cormery,87571430,47.26254,0.833953,Cormery
+Cornil,cornil,1,Cornil,87594481,45.2151758,1.6978482,Cornil
+Coron de Méricourt,coron de mericourt,1,Coron de Méricourt,87345132,50.4150048,2.8854084,Coron de Méricourt
+Corps,corps,1,Corps-Nuds,87471326,47.9851669,-1.5754724,Corps-Nuds
+Corrèze,correze,1,Corrèze,87594119,45.3294801,1.8810793,Corrèze
+Corseul,corseul,1,Corseul - Languenan,87478180,48.4960574,-2.1414331,Corseul - Languenan
+Cosne,cosne,1,Cosne-Cours-sur-Loire,87696146,47.413996,2.931981,Cosne-Cours-sur-Loire
+Coucy,coucy,1,Coucy-lès-Eppes,87171769,49.556282,3.7748209,Coucy-lès-Eppes
+Coudekerque,coudekerque,1,Coudekerque-Branche,87281402,51.0177069,2.3751425,Coudekerque-Branche
+Couffoulens,couffoulens,1,Couffoulens - Leuc,87615120,43.1555365,2.3161754,Couffoulens - Leuc
+Couilly,couilly,1,Couilly - Saint-Germain - Quincy,87116731,48.8830205,2.854057,Couilly - Saint-Germain - Quincy
+Coulanges,coulanges,1,Coulanges-sur-Yonne,87696831,47.5270546,3.5472388,Coulanges-sur-Yonne
+Coulommiers,coulommiers,1,Coulommiers,87116301,48.808006,3.08225,Coulommiers
+Courbevoie,courbevoie,1,Courbevoie,87382200,48.89831,2.24804,Courbevoie
+Courcay,courcay,1,Courcay - Tauxigny,87571448,47.2377076,0.867867,Courcay - Tauxigny
+Courcy,courcy,1,Courcy - Brimont,87171710,49.3296003,4.0134623,Courcy - Brimont
+Coursan,coursan,1,Coursan,87781161,43.23369,3.0510465,Coursan
+Courtalain,courtalain,1,Courtalain - Saint-Pellerin,87394494,48.0735988,1.1270043,Courtalain - Saint-Pellerin
+Courthézon,courthezon,1,Courthézon,87765180,44.0899478,4.8881802,Courthézon
+Courville,courville,1,Courville-sur-Eure,87394221,48.451236,1.234836,Courville-sur-Eure
+Cousance,cousance,1,Cousance,87718270,46.5353569,5.3868216,Cousance
+Coutances,coutances,1,Coutances,87447110,49.042928,-1.441726,Coutances
+Coutras,coutras,1,Coutras,87584516,45.03661,-0.13169,Coutras
+Couzon,couzon,1,Couzon-au-Mont-d'Or,87721241,45.8486737,4.8294786,Couzon-au-Mont-d'Or
+Couëron,coueron,1,Couëron,87481804,47.2220412,-1.7235014,Couëron
+Cramoisy,cramoisy,1,Cramoisy,87313544,49.256625,2.40489,Cramoisy
+Cransac,cransac,1,Cransac,87613232,44.522951,2.2718666,Cransac
+Cravant,cravant,1,Cravant - Bazarnes,87683649,47.6785079,3.6811741,Cravant - Bazarnes
+Creil,creil,1,Creil,87276006,49.263757,2.4692439,Creil
+Crest,crest,1,Crest,87761783,44.7301546,5.0160968,Crest
+Croix,croix,1,Croix - Wasquehal,87286716,50.6785574,3.1380315,Croix - Wasquehal
+Croix L'Allumette,croix l'allumette,1,Croix L'Allumette,87281055,50.6872009,3.1516591,Croix L'Allumette
+Croix Sainte,croix sainte,1,Croix Sainte,87753491,43.4088317,5.0196445,Croix Sainte
+Croix du Prince,croix du prince,1,Croix du Prince,87672600,43.2857104,-0.3791261,Croix du Prince
+Cros de Cagnes,cros de cagnes,1,Cros de Cagnes,87756338,43.660465,7.167111,Cros de Cagnes
+Crécy,crecy,1,Crécy-la-Chapelle,87116772,48.859391,2.905748,Crécy-la-Chapelle
+Crépieux la Pape,crepieux la pape,1,Crépieux la Pape,87723502,45.8038348,4.8922918,Crépieux la Pape
+Créteil Pompadour,creteil pompadour,1,Créteil Pompadour,87608802,48.7715403,2.4352763,Créteil Pompadour
+Crêches,creches,1,Crêches-sur-Saône,87725713,46.2461762,4.7840233,Crêches-sur-Saône
+Cubzac,cubzac,1,Cubzac-les-Ponts,87491266,44.9729407,-0.4590937,Cubzac-les-Ponts
+Cuers,cuers,1,Cuers - Pierrefeu,87755355,43.2364281,6.0856855,Cuers - Pierrefeu
+Cugand,cugand,1,Cugand,87481457,47.0582602,-1.253301,Cugand
+Cuinchy,cuinchy,1,Cuinchy,87342410,50.5219693,2.7473533,Cuinchy
+Culmont,culmont,1,Culmont - Chalindrey,87142125,47.8100902,5.4432217,Culmont - Chalindrey
+Culoz,culoz,1,Culoz,87741074,45.843264,5.778784,Culoz
+Cérons,cerons,1,Cérons,87582742,44.632346,-0.340526,Cérons
+Dachstein,dachstein,1,Dachstein,87214551,48.5428546,7.5330038,Dachstein
+Dambach,dambach,1,Dambach-la-Ville,87214213,48.3216345,7.4355565,Dambach-la-Ville
+Damiatte,damiatte,1,Damiatte - Saint-Paul,87615484,43.6566194,1.9733585,Damiatte - Saint-Paul
+Dammartin,dammartin,1,Dammartin - Juilly - Saint-Mard,87271536,49.03219,2.69887,Dammartin - Juilly - Saint-Mard
+Dangé,dange,1,Dangé-Saint-Romain,87575126,46.9378397,0.6087754,Dangé-Saint-Romain
+Danjoutin,danjoutin,1,Danjoutin,87700146,47.6175,6.86919,Danjoutin
+Dannes,dannes,1,Dannes - Camiers,87317081,50.5759062,1.614825,Dannes - Camiers
+Daours,daours,1,Daours,87315044,49.899267,2.4590533,Daours
+Dardilly Le Jubin,dardilly le jubin,1,Dardilly Le Jubin,87721449,45.815143,4.7613451,Dardilly Le Jubin
+Dardilly Les Mouilles,dardilly les mouilles,1,Dardilly Les Mouilles,87721480,45.7967409,4.7600288,Dardilly Les Mouilles
+Darsac,darsac,1,Darsac,87734673,45.14211,3.7365537,Darsac
+Dax,dax,1,Dax,87673202,43.720472,-1.050301,Dax
+Decize,decize,1,Decize,87696484,46.837362,3.467274,Decize
+Delle,delle,1,Delle,87184440,47.50593,7.00962,Delle
+Deluz,deluz,1,Deluz,87718429,47.2925132,6.199733,Deluz
+Denain,denain,1,Denain,87343459,50.3345415,3.388699,Denain
+Dettwiller,dettwiller,1,Dettwiller,87212183,48.7518969,7.4652459,Dettwiller
+Deuil,deuil,1,Deuil - Montmagny,87276345,48.97589,2.33785,Deuil - Montmagny
+Deville,deville,1,Deville,87172064,49.8796028,4.7072062,Deville
+Die,die,1,Die,87761841,44.7582549,5.3632053,Die
+Diemeringen,diemeringen,1,Diemeringen,87215665,48.9405,7.18529,Diemeringen
+Dieppe,dieppe,1,Dieppe,87415018,49.921788,1.081133,Dieppe
+Dieulouard,dieulouard,1,Dieulouard,87141812,48.843367,6.071489,Dieulouard
+Dieupentale,dieupentale,1,Dieupentale,87611681,43.8654687,1.2760011,Dieupentale
+Digoin,digoin,1,Digoin,87694695,46.4851604,3.9876537,Digoin
+Dinan,dinan,1,Dinan,87478164,48.456764,-2.053542,Dinan
+Dingé,dinge,1,Dingé,87478040,48.3507382,-1.6859729,Dingé
+Dirinon,dirinon,1,Dirinon,87474015,48.3926343,-4.2855034,Dirinon
+Dissay,dissay,1,Dissay,87575191,46.703544,0.4210161,Dissay
+Dives,dives,1,Dives-sur-Mer Port Guillaume,87337378,49.2910882,-0.1008455,Dives-sur-Mer Port Guillaume
+Dives-sur-Mer,dives-sur-mer,1,Dives-sur-Mer - Cabourg,87444414,49.2864776,-0.1074996,Dives-sur-Mer - Cabourg
+Dol,dol,1,Dol-de-Bretagne,87478073,48.54425,-1.750536,Dol-de-Bretagne
+Dole,dole,1,Dole,87713412,47.096084,5.488105,Dole
+Dombasle,dombasle,1,Dombasle-sur-Meurthe,87141119,48.623275,6.343478,Dombasle-sur-Meurthe
+Domblans,domblans,1,Domblans - Voiteur,87718213,46.7627809,5.5977462,Domblans - Voiteur
+Domfront,domfront,1,Domfront-en-Champagne,87396200,48.1076766,0.0262592,Domfront-en-Champagne
+Domont,domont,1,Domont,87276436,49.03268,2.33746,Domont
+Dompierre,dompierre,1,Dompierre-sur-Helpe,87295774,50.146144,3.871144,Dompierre-sur-Helpe
+Dompierre Sept Fons,dompierre sept fons,1,Dompierre Sept Fons,87696427,46.5263166,3.6749309,Dompierre Sept Fons
+Don,don,1,Don - Sainghin,87286435,50.55176,2.91458,Don - Sainghin
+Donchery,donchery,1,Donchery,87172239,49.6981267,4.8747529,Donchery
+Donges,donges,1,Donges,87481721,47.3151,-2.07236,Donges
+Donjeux,donjeux,1,Donjeux,87142273,48.3658544,5.1482245,Donjeux
+Donzère,donzere,1,Donzère,87764290,44.4433646,4.7046262,Donzère
+Dordives,dordives,1,Dordives,87684233,48.1471796,2.7628787,Dordives
+Dorlisheim,dorlisheim,1,Dorlisheim,87214338,48.5249915,7.4930546,Dorlisheim
+Dormans,dormans,1,Dormans,87171512,49.0791611,3.641709,Dormans
+Douai,douai,1,Douai,87345009,50.371677,3.089986,Douai
+Dourdan,dourdan,1,Dourdan,87545525,48.533466,2.009643,Dourdan
+Dourdan La Forêt,dourdan la foret,1,Dourdan La Forêt,87540179,48.535314,1.994908,Dourdan La Forêt
+Dourges,dourges,1,Dourges,87345165,50.43192,2.98697,Dourges
+Drancy,drancy,1,Drancy,87271403,48.93298,2.45497,Drancy
+Drap,drap,1,Drap - Cantaron,87756775,43.7599599,7.3168739,Drap - Cantaron
+Drefféac,dreffeac,1,Drefféac,87476770,47.4817568,-2.0503661,Drefféac
+Dreuil,dreuil,1,Dreuil-lès-Amiens,87316075,49.91444,2.23091,Dreuil-lès-Amiens
+Dreux,dreux,1,Dreux,87393488,48.7314561,1.3701604,Dreux
+Drusenheim,drusenheim,1,Drusenheim,87212357,48.7659128,7.9478463,Drusenheim
+Druye,druye,1,Druye,87571612,47.3070191,0.5354805,Druye
+Dugny,dugny,1,Dugny - La Courneuve T11,87697342,48.9439,2.4115,Dugny - La Courneuve T11
+Dunkerque,dunkerque,1,Dunkerque,87281006,51.03047,2.368961,Dunkerque
+Duppigheim,duppigheim,1,Duppigheim,87214536,48.5439674,7.5868091,Duppigheim
+Durtol,durtol,1,Durtol - Nohanent,87641449,45.7947707,3.048557,Durtol - Nohanent
+Duttlenheim,duttlenheim,1,Duttlenheim,87214544,48.5453531,7.5661529,Duttlenheim
+Dégagnac,degagnac,1,Dégagnac,87613174,44.6534974,1.3400861,Dégagnac
+Ebblinghem,ebblinghem,1,Ebblinghem,87281469,50.7306459,2.409148,Ebblinghem
+Ebersheim,ebersheim,1,Ebersheim,87214106,48.3099953,7.494471,Ebersheim
+Ecully,ecully,1,Ecully - Tassin,87721506,45.7657162,4.7795238,Ecully - Tassin
+Eichhoffen,eichhoffen,1,Eichhoffen,87214239,48.3824829,7.4495524,Eichhoffen
+Einvaux,einvaux,1,Einvaux,87141200,48.5034859,6.3932959,Einvaux
+Elbeuf,elbeuf,1,Elbeuf - Saint-Aubin,87411173,49.302766,1.00993,Elbeuf - Saint-Aubin
+Elne,elne,1,Elne,87784207,42.5971138,2.9635851,Elne
+Embrun,embrun,1,Embrun,87763466,44.567008,6.496773,Embrun
+Enghien,enghien,1,Enghien-les-Bains,87276022,48.97309,2.30699,Enghien-les-Bains
+Ennevelin,ennevelin,1,Ennevelin,87287276,50.5492981,3.1586612,Ennevelin
+Entraigues,entraigues,1,Entraigues-sur-la-Sorgue,87765826,44.0054278,4.9226971,Entraigues-sur-la-Sorgue
+Entzheim Aéroport,entzheim aeroport,1,Entzheim Aéroport,87214528,48.54699,7.62794,Entzheim Aéroport
+Epfig,epfig,1,Epfig,87214221,48.3637643,7.4504053,Epfig
+Erdre Active,erdre active,1,Erdre Active,87590356,47.282902,-1.544552,Erdre Active
+Ermont,ermont,1,Ermont - Eaubonne,87534131;87276055,48.98032,2.27176,Ermont - Eaubonne
+Ermont Halte,ermont halte,1,Ermont Halte,87276584,48.9898,2.26323,Ermont Halte
+Erstein,erstein,1,Erstein,87214148,48.4229857,7.6387869,Erstein
+Esbly,esbly,1,Esbly,87116327,48.90314191,2.81059946,Esbly
+Escalquens,escalquens,1,Escalquens,87611707,43.5170958,1.5422774,Escalquens
+Escaudœuvres,escaudœuvres,1,Escaudœuvres,87345496,50.1918249,3.2754949,Escaudœuvres
+Esches,esches,1,Esches,87272096,49.2125205,2.1708125,Esches
+Esquelbecq,esquelbecq,1,Esquelbecq,87281113,50.8894369,2.4121536,Esquelbecq
+Essonnes Robinson,essonnes robinson,1,Essonnes Robinson,87681601,48.606095,2.463701,Essonnes Robinson
+Estressin,estressin,1,Estressin,87722579,45.540285,4.868273,Estressin
+Estrées,estrees,1,Estrées-Saint-Denis,87313387,49.4382161,2.642402,Estrées-Saint-Denis
+Esvres sur Indre,esvres sur indre,1,Esvres sur Indre,87571422,47.2841016,0.7816519,Esvres sur Indre
+Eu,eu,1,Eu,87317537,50.0541988,1.416837,Eu
+Eymoutiers Vassivière,eymoutiers vassiviere,1,Eymoutiers Vassivière,87592121,45.7397876,1.7412237,Eymoutiers Vassivière
+Farbus,farbus,1,Farbus,87342527,50.357641,2.8310408,Farbus
+Faremoutiers,faremoutiers,1,Faremoutiers - Pommeuse,87116277,48.808494,2.993109,Faremoutiers - Pommeuse
+Farschviller,farschviller,1,Farschviller,87193524,49.0878773,6.9080815,Farschviller
+Farébersviller,farebersviller,1,Farébersviller,87193516,49.1181603,6.8618926,Farébersviller
+Faubourg d'Orléans,faubourg d'orleans,1,Faubourg d'Orléans,87576173,47.3669948,1.7403794,Faubourg d'Orléans
+Faulquemont,faulquemont,1,Faulquemont,87193359,49.0453391,6.6039774,Faulquemont
+Fegersheim,fegersheim,1,Fegersheim - Lipsheim,87212266,48.4905892,7.6724806,Fegersheim - Lipsheim
+Fellering,fellering,1,Fellering,87182626,47.8975893,6.9871347,Fellering
+Ferrières,ferrieres,1,Ferrières - Fontenay,87684241,48.0964767,2.7726332,Ferrières - Fontenay
+Feuquières,feuquieres,1,Feuquières - Broquiers,87313742,49.6545751,1.8305169,Feuquières - Broquiers
+Feurs,feurs,1,Feurs,87726877,45.744156,4.230573,Feurs
+Feyzin,feyzin,1,Feyzin,87722538,45.6658584,4.8531349,Feyzin
+Figeac,figeac,1,Figeac,87613091,44.603515,2.037355,Figeac
+Firminy,firminy,1,Firminy,87726729,45.391625,4.28643,Firminy
+Fismes,fismes,1,Fismes,87171330,49.310665,3.68213,Fismes
+Flavy,flavy,1,Flavy-le-Martel,87296871,49.7187375,3.1905076,Flavy-le-Martel
+Flaxlanden,flaxlanden,1,Flaxlanden,87181040,47.6986924,7.3044703,Flaxlanden
+Flers,flers,1,Flers,87448001,48.744785,-0.573216,Flers
+Fleurieux,fleurieux,1,Fleurieux-sur-l'Arbresle,87721563,45.8449944,4.6603815,Fleurieux-sur-l'Arbresle
+Fleurville,fleurville,1,Fleurville - Pont-de-Vaux,87725663,46.4509279,4.8840722,Fleurville - Pont-de-Vaux
+Flez-Cuzy,flez-cuzy,1,Flez-Cuzy - Tannay,87696633,47.3630583,3.6149926,Flez-Cuzy - Tannay
+Foix,foix,1,Foix,87611616,42.969746,1.607147,Foix
+Folligny,folligny,1,Folligny,87447649,48.8299461,-1.4072231,Folligny
+Fons,fons,1,Fons - Saint-Mamert,87775379,43.9073195,4.2066687,Fons - Saint-Mamert
+Font,font,1,Font-Romeu-Odeillo-Via,87784819,42.4912317,2.0383917,Font-Romeu-Odeillo-Via
+Fontaine,fontaine,1,Fontaine-le-Port,87682427,48.4871358,2.7514043,Fontaine-le-Port
+Fontainebleau,fontainebleau,1,Fontainebleau - Avon,87682211,48.416371,2.72634,Fontainebleau - Avon
+Fontaines,fontaines,1,Fontaines - Mercurey,87713586,46.8512109,4.7750693,Fontaines - Mercurey
+Fontenay,fontenay,1,Fontenay-le-Fleury,87393405,48.8074032,2.0404603,Fontenay-le-Fleury
+Fontenoy,fontenoy,1,Fontenoy-sur-Moselle,87141051,48.711721,5.9803654,Fontenoy-sur-Moselle
+Fontpédrouse,fontpedrouse,1,Fontpédrouse,87784769,42.5138062,2.1886585,Fontpédrouse
+Forbach,forbach,1,Forbach,87193003,49.1892278,6.9013184,Forbach
+Formerie,formerie,1,Formerie,87313833,49.6542178,1.7229081,Formerie
+Fors,fors,1,Fors,87485326,46.2345203,-0.4069449,Fors
+Fos,fos,1,Fos-sur-Mer,87753442,43.428029,4.974579,Fos-sur-Mer
+Foucart,foucart,1,Foucart - Alvimare,87413377,49.608289,0.5969601,Foucart - Alvimare
+Fouday,fouday,1,Fouday,87214734,48.4248874,7.1874246,Fouday
+Foug,foug,1,Foug,87141036,48.6792561,5.7912761,Foug
+Fougeray,fougeray,1,Fougeray - Langon,87471201,47.7297956,-1.8510921,Fougeray - Langon
+Fougeré,fougere,1,Fougeré,87486316,46.6653044,-1.2319718,Fougeré
+Fouilloy,fouilloy,1,Fouilloy,87313841,49.7366368,1.8260404,Fouilloy
+Fouquereuil,fouquereuil,1,Fouquereuil,87342204,50.5255091,2.6074449,Fouquereuil
+Fourchambault,fourchambault,1,Fourchambault,87696229,47.0189684,3.0873673,Fourchambault
+Fourmies,fourmies,1,Fourmies,87295048,50.01541,4.05357,Fourmies
+Fourqueux,fourqueux,1,Fourqueux - Bel-Air,87733675;87366922,48.89494,2.0705,Fourqueux - Bel-Air
+Foëcy,foecy,1,Foëcy,87576108,47.1756905,2.1625062,Foëcy
+Fraisses,fraisses,1,Fraisses - Unieux,87726737,45.3948228,4.2610375,Fraisses - Unieux
+Franchet d'Esperey,franchet d'esperey,1,Franchet d'Esperey,87417444,49.2425356,4.013869,Franchet d'Esperey
+Francheville,francheville,1,Francheville,87722702,45.7336473,4.7693729,Francheville
+Franconville,franconville,1,Franconville - Le Plessis-Bouchard,87276071,48.99358,2.23514,Franconville - Le Plessis-Bouchard
+Franois,franois,1,Franois,87718304,47.2273609,5.937498,Franois
+Frasne,frasne,1,Frasne,87715136,46.857596,6.157767,Frasne
+Freinville Sevran,freinville sevran,1,Freinville Sevran,87113894,48.926637,2.519019,Freinville Sevran
+Fresnoy,fresnoy,1,Fresnoy-le-Grand,87296293,49.9501964,3.43268,Fresnoy-le-Grand
+Fretin,fretin,1,Fretin,87286641,50.5599254,3.1495133,Fretin
+Fromental,fromental,1,Fromental,87592360,46.1715646,1.4324317,Fromental
+Froncles Buxières,froncles buxieres,1,Froncles Buxières,87142240,48.29674,5.14156,Froncles Buxières
+Frontenex,frontenex,1,Frontenex,87741629,45.6305461,6.3140556,Frontenex
+Frontignan,frontignan,1,Frontignan,87773556,43.444934,3.758689,Frontignan
+Frouard,frouard,1,Frouard,87141077,48.75545,6.14411,Frouard
+Frynaudour,frynaudour,1,Frynaudour,87473876,48.7275919,-3.1284527,Frynaudour
+Fréjus,frejus,1,Fréjus,87757500,43.432032,6.732941,Fréjus
+Frénouville,frenouville,1,Frénouville - Cagny,87444182,49.1411192,-0.2603256,Frénouville - Cagny
+Frépillon,frepillon,1,Frépillon,87276659,49.0462,2.19717,Frépillon
+Fréteval,freteval,1,Fréteval - Morée,87574533,47.8919172,1.211813,Fréteval - Morée
+Frévin,frevin,1,Frévin-Capelle,87342212,50.3473177,2.6338262,Frévin-Capelle
+Fumay,fumay,1,Fumay,87172098,49.986048,4.6926,Fumay
+Futuroscope,futuroscope,1,Futuroscope,87324095,46.669918,0.377209,Futuroscope
+Fécamp,fecamp,1,Fécamp,87413542,49.759277,0.375287,Fécamp
+Fépin,fepin,1,Fépin,87172874,50.0234644,4.7266156,Fépin
+Gadagne,gadagne,1,Gadagne,87765446,43.9296817,4.9568087,Gadagne
+Gagny,gagny,1,Gagny,87113514,48.883125,2.527106,Gagny
+Gaillac,gaillac,1,Gaillac,87615252,43.905969,1.894855,Gaillac
+Gaillon,gaillon,1,Gaillon - Aubevoye,87415620,49.174626,1.352461,Gaillon - Aubevoye
+Gallargues,gallargues,1,Gallargues-le-Montueux,87775130,43.716229,4.1715027,Gallargues-le-Montueux
+Gallieni Cancéropôle,gallieni canceropole,1,Gallieni Cancéropôle,87497461,43.5730877,1.4195801,Gallieni Cancéropôle
+Galuzot,galuzot,1,Galuzot,87694638,46.6421069,4.3300578,Galuzot
+Gambsheim,gambsheim,1,Gambsheim,87212332,48.6948699,7.8791884,Gambsheim
+Gan,gan,1,Gan,87672618,43.2335932,-0.391462,Gan
+Gandrange,gandrange,1,Gandrange - Amnéville,87191742,49.2608222,6.1358897,Gandrange - Amnéville
+Gannat,gannat,1,Gannat,87732404,46.0975964,3.2047514,Gannat
+Gannes,gannes,1,Gannes,87313262,49.5723315,2.4370074,Gannes
+Gap,gap,1,Gap,87763003,44.563693,6.085638,Gap
+Garancières,garancieres,1,Garancières - La Queue,87393439,48.8106338,1.7647546,Garancières - La Queue
+Garches,garches,1,Garches - Marnes-la-Coquette,87382259,48.83839,2.18692,Garches - Marnes-la-Coquette
+Garchizy,garchizy,1,Garchizy,87691436,47.0429987,3.0858769,Garchizy
+Gardanne,gardanne,1,Gardanne,87751420,43.455992,5.463332,Gardanne
+Gardonne,gardonne,1,Gardonne,87584235,44.8347538,0.3319427,Gardonne
+Gargan,gargan,1,Gargan,87113860,48.908159,2.517109,Gargan
+Gargenville,gargenville,1,Gargenville,87381566,48.98318,1.8089,Gargenville
+Garges,garges,1,Garges - Sarcelles,87276196,48.97663,2.39078,Garges - Sarcelles
+Gauriaguet,gauriaguet,1,Gauriaguet,87491225,45.0542936,-0.3992689,Gauriaguet
+Gazeran,gazeran,1,Gazeran,87393348,48.6259183,1.7718857,Gazeran
+Gazinet Cestas,gazinet cestas,1,Gazinet Cestas,87582403,44.772218,-0.69949,Gazinet Cestas
+Geispolsheim,geispolsheim,1,Geispolsheim,87212258,48.5190515,7.6843578,Geispolsheim
+Gemeaux,gemeaux,1,Gemeaux,87713842,47.478542,5.1293074,Gemeaux
+Genlis,genlis,1,Genlis,87713313,47.244579,5.223406,Genlis
+Gennevilliers,gennevilliers,1,Gennevilliers,87271205,48.93368,2.30699,Gennevilliers
+Germaine,germaine,1,Germaine,87171587,49.1277634,4.0228976,Germaine
+Gertwiller,gertwiller,1,Gertwiller,87214254,48.4133621,7.4663166,Gertwiller
+Gerzat,gerzat,1,Gerzat,87734046,45.8335879,3.1431045,Gerzat
+Gestel,gestel,1,Gestel,87476309,47.8029905,-3.4431341,Gestel
+Gevrey,gevrey,1,Gevrey-Chambertin,87713503,47.2274694,4.999058,Gevrey-Chambertin
+Gien,gien,1,Gien,87684290,47.699088,2.636205,Gien
+Gignac,gignac,1,Gignac - Cressensac,87594325,45.0146074,1.4831648,Gignac - Cressensac
+Gilley,gilley,1,Gilley,87718577,47.0500626,6.4925676,Gilley
+Gilly,gilly,1,Gilly-sur-Loire,87694869,46.5370137,3.7821607,Gilly-sur-Loire
+Gimont Cahuzac,gimont cahuzac,1,Gimont Cahuzac,87611772,43.6330525,0.8676246,Gimont Cahuzac
+Gironde,gironde,1,Gironde-sur-Dropt,87582858,44.583292,-0.0920127,Gironde-sur-Dropt
+Gisors,gisors,1,Gisors,87381244,49.28512,1.78455,Gisors
+Givet,givet,1,Givet,87172130,50.14025067,4.81798595,Givet
+Givors,givors,1,Givors,87722405,45.584948,4.766086,Givors
+Givors Canal,givors canal,1,Givors Canal,87722439,45.5957662,4.7725754,Givors Canal
+Gièvres,gievres,1,Gièvres,87576876,47.2787925,1.6678267,Gièvres
+Golfe Juan Vallauris,golfe juan vallauris,1,Golfe Juan Vallauris,87757641,43.566501,7.073578,Golfe Juan Vallauris
+Goncelin,goncelin,1,Goncelin,87747477,45.341941,5.974136,Goncelin
+Gonfaron,gonfaron,1,Gonfaron,87755397,43.3171516,6.2817644,Gonfaron
+Gorges,gorges,1,Gorges,87481432,47.1001487,-1.3058778,Gorges
+Gourdon,gourdon,1,Gourdon,87613141,44.7419445,1.389237,Gourdon
+Gourland,gourland,1,Gourland,87473801,48.5609981,-3.1668191,Gourland
+Gournay,gournay,1,Gournay - Ferrières,87381293,49.4813674,1.7380891,Gournay - Ferrières
+Goussainville,goussainville,1,Goussainville,87276246,49.0240732,2.4632464,Goussainville
+Goxwiller,goxwiller,1,Goxwiller,87214270,48.4327551,7.4787296,Goxwiller
+Graffenstaden,graffenstaden,1,Graffenstaden,87212241,48.5324375,7.6897861,Graffenstaden
+Graffenwald,graffenwald,1,Graffenwald,87181131,47.7808232,7.2247908,Graffenwald
+Gragnague,gragnague,1,Gragnague,87615377,43.696179,1.567731,Gragnague
+Gramat,gramat,1,Gramat,87613059,44.7734284,1.7223028,Gramat
+Grand,grand,1,Grand-Combe la Pise,87775254,44.2098159,4.0329591,Grand-Combe la Pise
+Grand Bourg,grand bourg,1,Grand Bourg,87681353,48.648004,2.435939,Grand Bourg
+Grande,grande,1,Grande-Synthe,87281311,51.0026884,2.3133547,Grande-Synthe
+Grandvillars,grandvillars,1,Grandvillars,87184432,47.53763,6.9785,Grandvillars
+Grandvilliers,grandvilliers,1,Grandvilliers,87313734,49.6593779,1.9384836,Grandvilliers
+Granville,granville,1,Granville,87447680,48.838456,-1.587757,Granville
+Grasse,grasse,1,Grasse,87757724,43.653317,6.925524,Grasse
+Gravelines,gravelines,1,Gravelines,87281246,50.978736,2.1232852,Gravelines
+Gravigny Balizy,gravigny balizy,1,Gravigny Balizy,87393645,48.6851718,2.317846,Gravigny Balizy
+Gresswiller,gresswiller,1,Gresswiller,87214593,48.53334,7.42468,Gresswiller
+Gretz,gretz,1,Gretz-Armainvilliers,87116012,48.74544,2.728824,Gretz-Armainvilliers
+Grigny Centre,grigny centre,1,Grigny Centre,87681379,48.65343,2.395797,Grigny Centre
+Grigny le Sablon,grigny le sablon,1,Grigny le Sablon,87722298,45.6072601,4.796144,Grigny le Sablon
+Grisolles,grisolles,1,Grisolles,87611673,43.8269619,1.3023292,Grisolles
+Groisy,groisy,1,Groisy - Thorens-Glières,87746248,46.0111205,6.17568,Groisy - Thorens-Glières
+Gros Noyer Saint,gros noyer saint,1,Gros Noyer Saint-Prix,87276592,48.99682,2.2588,Gros Noyer Saint-Prix
+Groslay,groslay,1,Groslay,87276360,48.98462,2.35358,Groslay
+Guichen,guichen,1,Guichen - Bourg-des-Comptes,87471151,47.9350963,-1.7601845,Guichen - Bourg-des-Comptes
+Guignicourt,guignicourt,1,Guignicourt,87171736,49.434862,3.961334,Guignicourt
+Guillerval,guillerval,1,Guillerval,87545129,48.3744455,2.0598748,Guillerval
+Guimiliau,guimiliau,1,Guimiliau,87474296,48.4852675,-3.9996163,Guimiliau
+Guingamp,guingamp,1,Guingamp,87473207,48.555659,-3.143343,Guingamp
+Gujan,gujan,1,Gujan-Mestras,87582619,44.640454,-1.06906,Gujan-Mestras
+Gundershoffen,gundershoffen,1,Gundershoffen,87213223,48.905261,7.6535345,Gundershoffen
+Gunsbach,gunsbach,1,Gunsbach - Griesbach,87182386,48.0414908,7.1748407,Gunsbach - Griesbach
+Guérard,guerard,1,Guérard - La Celle-sur-Morin,87116269,48.810588,2.954783,Guérard - La Celle-sur-Morin
+Guéret,gueret,1,Guéret,87597609,46.1741863,1.8793855,Guéret
+Guéthary,guethary,1,Guéthary,87673459,43.4253491,-1.6098615,Guéthary
+Génelard,genelard,1,Génelard,87694653,46.5812177,4.2379965,Génelard
+Génolhac,genolhac,1,Génolhac,87775213,44.3471626,3.9516407,Génolhac
+Générac,generac,1,Générac,87775791,43.7324379,4.3434742,Générac
+Habsheim,habsheim,1,Habsheim,87182089,47.737691,7.417979,Habsheim
+Hachette,hachette,1,Hachette,87297523,50.1582852,3.7434526,Hachette
+Hagondange,hagondange,1,Hagondange,87191114,49.25356,6.16448,Hagondange
+Haguenau,haguenau,1,Haguenau,87213058,48.8134498,7.7827255,Haguenau
+Halsou,halsou,1,Halsou - Larressore,87673640,43.3781301,-1.4279003,Halsou - Larressore
+Haluchère Batignolles,haluchere batignolles,1,Haluchère Batignolles,87590331,47.249142,-1.5224436,Haluchère Batignolles
+Hangest,hangest,1,Hangest-sur-Somme,87313114,49.9822011,2.0661412,Hangest-sur-Somme
+Harfleur,harfleur,1,Harfleur,87413302,49.5136336,0.1989828,Harfleur
+Hargicourt,hargicourt,1,Hargicourt - Pierrepont,87313338,49.7138593,2.5317673,Hargicourt - Pierrepont
+Hatrize,hatrize,1,Hatrize,87192724,49.1934741,5.9071141,Hatrize
+Haubourdin,haubourdin,1,Haubourdin,87286096,50.6070495,2.990153,Haubourdin
+Haussmann Saint,haussmann saint,1,Haussmann Saint-Lazare,87281899,48.87478,2.32862,Haussmann Saint-Lazare
+Haute Picardie TGV,haute picardie tgv,1,Haute Picardie TGV,87313882,49.859182,2.8319,Haute Picardie TGV
+Hautmont,hautmont,1,Hautmont,87295568,50.25398,3.91522,Hautmont
+Hayange,hayange,1,Hayange,87191239,49.33053,6.07245,Hayange
+Haybes,haybes,1,Haybes,87172106,50.0116888,4.7045378,Haybes
+Hazebrouck,hazebrouck,1,Hazebrouck,87286302,50.72501,2.54129,Hazebrouck
+Heiligenberg,heiligenberg,1,Heiligenberg - Mollkirch,87214627,48.5273135,7.381426,Heiligenberg - Mollkirch
+Heilles,heilles,1,Heilles - Mouchy,87316398,49.340531,2.2725858,Heilles - Mouchy
+Heilly,heilly,1,Heilly,87316059,49.9435191,2.5396593,Heilly
+Hellemmes,hellemmes,1,Hellemmes,87286062,50.6226402,3.1149328,Hellemmes
+Hendaye,hendaye,1,Hendaye,87677005,43.353132,-1.781724,Hendaye
+Hennebont,hennebont,1,Hennebont,87476259,47.7990019,-3.2857467,Hennebont
+Herblay,herblay,1,Herblay,87381889,48.99042,2.16208,Herblay
+Herchies,herchies,1,Herchies,87313692,49.4879546,2.0109273,Herchies
+Hermes,hermes,1,Hermes - Berthecourt,87313585,49.3544055,2.2416554,Hermes - Berthecourt
+Herny,herny,1,Herny,87193383,49.0036084,6.4769285,Herny
+Hesdigneul,hesdigneul,1,Hesdigneul-lès-Boulogne,87317107,50.6609475,1.6669967,Hesdigneul-lès-Boulogne
+Hesdin,hesdin,1,Hesdin,87317222,50.378286,2.0351881,Hesdin
+Hettange,hettange,1,Hettange-Grande,87191163,49.4076754,6.1566738,Hettange-Grande
+Hirson,hirson,1,Hirson,87295063,49.91455,4.08432,Hirson
+Hirson Écoles,hirson ecoles,1,Hirson Écoles,87324335,49.9288321,4.0861491,Hirson Écoles
+Hochfelden,hochfelden,1,Hochfelden,87212167,48.7554199,7.572355,Hochfelden
+Hoelschloch,hoelschloch,1,Hoelschloch,87213413,48.9163252,7.8314949,Hoelschloch
+Hoenheim Tram,hoenheim tram,1,Hoenheim Tram,87338517,48.6285976,7.7581387,Hoenheim Tram
+Hoerdt,hoerdt,1,Hoerdt,87213686,48.7029518,7.7794059,Hoerdt
+Hoffen,hoffen,1,Hoffen,87213447,48.9312475,7.933587,Hoffen
+Hombourg,hombourg,1,Hombourg-Haut,87193276,49.1261085,6.7742703,Hombourg-Haut
+Homécourt,homecourt,1,Homécourt,87191692,49.2182988,5.9991714,Homécourt
+Houdan,houdan,1,Houdan,87393462,48.7958005,1.6027371,Houdan
+Houdemont,houdemont,1,Houdemont,87141473,48.645478,6.1797255,Houdemont
+Houilles,houilles,1,Houilles - Carrières-sur-Seine,87386409,48.9199636,2.1850828,Houilles - Carrières-sur-Seine
+Houlgate,houlgate,1,Houlgate,87444406,49.3000711,-0.0772276,Houlgate
+Hundling,hundling,1,Hundling,87193540,49.1066949,6.9775394,Hundling
+Huriel,huriel,1,Huriel,87641217,46.3714332,2.4762569,Huriel
+Hyères,hyeres,1,Hyères,87755629,43.108867,6.124223,Hyères
+Hénin,henin,1,Hénin-Beaumont,87345157,50.41706,2.95211,Hénin-Beaumont
+Héricourt,hericourt,1,Héricourt,87184507,47.5729701,6.7691977,Héricourt
+Héricy,hericy,1,Héricy,87682435,48.4424848,2.7605339,Héricy
+Igny,igny,1,Igny,87393561,48.7399008,2.2313626,Igny
+Ille,ille,1,Ille-sur-Têt,87784561,42.6682396,2.6242863,Ille-sur-Têt
+Illfurth,illfurth,1,Illfurth,87182204,47.6764322,7.2685712,Illfurth
+Illiers,illiers,1,Illiers-Combray,87394437,48.303937,1.2448745,Illiers-Combray
+Imphy,imphy,1,Imphy,87696450,46.9333537,3.2597113,Imphy
+Ingersheim,ingersheim,1,Ingersheim - Cité Scolaire,87303875,48.08883,7.29823,Ingersheim - Cité Scolaire
+Ingrandes,ingrandes,1,Ingrandes-Le Fresne-sur-Loire,87484360,47.4056382,-0.9210198,Ingrandes-Le Fresne-sur-Loire
+Ingrandes sur Vienne,ingrandes sur vienne,1,Ingrandes sur Vienne,87575134,46.8746283,0.5691164,Ingrandes sur Vienne
+Ingwiller,ingwiller,1,Ingwiller,87213785,48.8723277,7.477155,Ingwiller
+Invalides,invalides,1,Invalides,87393033,48.8619133,2.3150151,Invalides
+Irigny Yvours,irigny yvours,1,Irigny Yvours,87722249,45.69002,4.83229,Irigny Yvours
+Is,is,1,Is-sur-Tille,87713859,47.520454,5.129481,Is-sur-Tille
+Isbergues,isbergues,1,Isbergues,87342279,50.61399,2.46277,Isbergues
+Isles,isles,1,Isles - Armentières - Congis,87116616,48.9980994,3.0072998,Isles - Armentières - Congis
+Issoire,issoire,1,Issoire,87734202,45.543884,3.25398,Issoire
+Issou,issou,1,Issou - Porcheville,87381574,48.97931,1.78532,Issou - Porcheville
+Issoudun,issoudun,1,Issoudun,87597062,46.948763,1.985834,Issoudun
+Issy,issy,1,Issy-les-Moulineaux,87393074,48.8201001,2.2593469,Issy-les-Moulineaux
+Issy Val de Seine,issy val de seine,1,Issy Val de Seine,87393306,48.8295555,2.2635936,Issy Val de Seine
+Issé,isse,1,Issé,87481622,47.6268289,-1.45068,Issé
+Istres,istres,1,Istres,87753418,43.5153953,4.9804272,Istres
+Iteuil,iteuil,1,Iteuil,87577403,46.4841223,0.3168298,Iteuil
+Itxassou,itxassou,1,Itxassou,87673665,43.324043,-1.3956111,Itxassou
+Ivry,ivry,1,Ivry-sur-Seine,87545301,48.814371,2.39099,Ivry-sur-Seine
+Iwuy,iwuy,1,Iwuy,87345397,50.2255015,3.3298634,Iwuy
+Janzé,janze,1,Janzé,87471334,47.955364,-1.497538,Janzé
+Jarnac,jarnac,1,Jarnac,87491472,45.6711292,-0.1777613,Jarnac
+Jarrie,jarrie,1,Jarrie - Vizille,87747535,45.0854543,5.7424487,Jarrie - Vizille
+Jarville,jarville,1,Jarville-la-Malgrange,87141010,48.6698381,6.2024643,Jarville-la-Malgrange
+Jaunay,jaunay,1,Jaunay-Clan,87575217,46.682044,0.3816535,Jaunay-Clan
+Jaux,jaux,1,Jaux,87272013,49.3868029,2.777316,Jaux
+Javel,javel,1,Javel,87393066,48.8462046,2.2768401,Javel
+Jeumont,jeumont,1,Jeumont,87295014,50.29606,4.08645,Jeumont
+Joinville,joinville,1,Joinville,87175091,48.4442977,5.143503,Joinville
+Joncet,joncet,1,Joncet,87784710,42.5615245,2.3111464,Joncet
+Joncherey,joncherey,1,Joncherey,87700153,47.5262,6.9988,Joncherey
+Jonchery,jonchery,1,Jonchery-sur-Vesle,87171314,49.290057,3.819422,Jonchery-sur-Vesle
+Jonzac,jonzac,1,Jonzac,87491142,45.4387456,-0.44164,Jonzac
+Joué,joue,1,Joué-lès-Tours,87571885,47.3541741,0.6675586,Joué-lès-Tours
+Juan les Pins,juan les pins,1,Juan les Pins,87757666,43.570896,7.11144,Juan les Pins
+Juvisy,juvisy,1,Juvisy-sur-Orge,87545244,48.68917,2.38267,Juvisy-sur-Orge
+Juziers,juziers,1,Juziers,87381558,48.99244,1.84579,Juziers
+Jœuf,jœuf,1,Jœuf,87191700,49.2250083,6.0177021,Jœuf
+Kalhausen,kalhausen,1,Kalhausen,87193664,49.0350585,7.125352,Kalhausen
+Ker Lann,ker lann,1,Ker Lann,87159947,48.0429857,-1.7398306,Ker Lann
+Kerhostin,kerhostin,1,Kerhostin,87476432,47.5369524,-3.1363795,Kerhostin
+Kerhuon,kerhuon,1,Kerhuon,87474213,48.4096627,-4.3882136,Kerhuon
+Kilstett,kilstett,1,Kilstett,87212324,48.6793065,7.8549031,Kilstett
+Koenigsmacker,koenigsmacker,1,Koenigsmacker,87191619,49.3965538,6.2735503,Koenigsmacker
+Kogenheim,kogenheim,1,Kogenheim,87214114,48.3389532,7.5353085,Kogenheim
+Krimmeri Meinau,krimmeri meinau,1,Krimmeri Meinau,87338525,48.56358,7.75259,Krimmeri Meinau
+Kruth,kruth,1,Kruth,87182642,47.92396,6.9690938,Kruth
+Kurtzenhouse,kurtzenhouse,1,Kurtzenhouse,87213660,48.741862,7.8130449,Kurtzenhouse
+L'Abbaye,l'abbaye,1,L'Abbaye,87113886,48.922211,2.516874,L'Abbaye
+L'Aigle,l'aigle,1,L'Aigle,87444638,48.766229,0.620014,L'Aigle
+L'Aiguille,l'aiguille,1,L'Aiguille,87592634,45.7783702,1.2049024,L'Aiguille
+L'Arbresle,l'arbresle,1,L'Arbresle,87721431,45.833299,4.618319,L'Arbresle
+L'Argentière Les Écrins,l'argentiere les ecrins,1,L'Argentière Les Écrins,87763557,44.7909802,6.5564162,L'Argentière Les Écrins
+L'Ariane La Trinité,l'ariane la trinite,1,L'Ariane La Trinité,87751529,43.7343716,7.3025298,L'Ariane La Trinité
+L'Estaque,l'estaque,1,L'Estaque,87751602,43.363628,5.3213598,L'Estaque
+L'Etang les Sablons,l'etang les sablons,1,L'Etang les Sablons,87726109,48.87230206521716,2.068874406268012,L'Etang les Sablons
+L'Herbergement,l'herbergement,1,L'Herbergement - Les Brouzils,87486126,46.9069172,-1.3712431,L'Herbergement - Les Brouzils
+L'Hermitage,l'hermitage,1,L'Hermitage - Mordelles,87471060,48.123142,-1.8192987,L'Hermitage - Mordelles
+L'Hôpital,l'hopital,1,L'Hôpital-du-Grosbois,87718528,47.1691016,6.2130861,L'Hôpital-du-Grosbois
+L'Isle-Adam,l'isle-adam,1,L'Isle-Adam - Parmain,87276527,49.11482,2.20976,L'Isle-Adam - Parmain
+L'Isle-sur-la-Sorgue,l'isle-sur-la-sorgue,1,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,87765479,43.917393,5.047615,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse
+L'Isthme,l'isthme,1,L'Isthme,87476275,47.54653639699773,-3.1335359717958777,L'Isthme
+L'Étang,l'etang,1,L'Étang-la-Ville,87382473,48.86822,2.0766932,L'Étang-la-Ville
+La Barasse,la barasse,1,La Barasse,87635581,43.2858384,5.4845101,La Barasse
+La Barre Ormesson,la barre ormesson,1,La Barre Ormesson,87271171,48.96633,2.31688,La Barre Ormesson
+La Basse Indre,la basse indre,1,La Basse Indre - Saint-Herblain,87481069,47.2040872,-1.6603088,La Basse Indre - Saint-Herblain
+La Bassée,la bassee,1,La Bassée - Violaines,87342436,50.52799,2.80482,La Bassée - Violaines
+La Bastide,la bastide,1,La Bastide - Saint-Laurent-les-Bains,87775171,44.5934829,3.9042849,La Bastide - Saint-Laurent-les-Bains
+La Baule,la baule,1,La Baule-Escoublac,87481754,47.28869,-2.389102,La Baule-Escoublac
+La Baule Les Pins,la baule les pins,1,La Baule Les Pins,87481697,47.2835196,-2.3648441,La Baule Les Pins
+La Bernerie,la bernerie,1,La Bernerie-en-Retz,87481267,47.0832616,-2.0341408,La Bernerie-en-Retz
+La Bohalle,la bohalle,1,La Bohalle,87487843,47.4342356,-0.4000426,La Bohalle
+La Bonneville,la bonneville,1,La Bonneville-sur-Iton,87387142,48.9884615,1.035014,La Bonneville-sur-Iton
+La Borne Blanche,la borne blanche,1,La Borne Blanche,87276287,49.126985,2.5058656,La Borne Blanche
+La Brillanne,la brillanne,1,La Brillanne - Oraison,87751271,43.9247771,5.8923199,La Brillanne - Oraison
+La Brohinière,la brohiniere,1,La Brohinière,87471094,48.2134717,-2.110452,La Brohinière
+La Celle,la celle,1,La Celle-Saint-Cloud,87382432,48.84259,2.13797,La Celle-Saint-Cloud
+La Chaize,la chaize,1,La Chaize-le-Vicomte,87486308,46.676779,-1.2820678,La Chaize-le-Vicomte
+La Chapelle Aulnay,la chapelle aulnay,1,La Chapelle Aulnay,87590364,47.30859,-1.5415,La Chapelle Aulnay
+La Chapelle Centre,la chapelle centre,1,La Chapelle Centre,87481564,47.2972029,-1.548012,La Chapelle Centre
+La Charité,la charite,1,La Charité-sur-Loire,87696195,47.179914,3.023883,La Charité-sur-Loire
+La Chaumusse,la chaumusse,1,La Chaumusse - Fort-du-Plasne,87715391,46.6048753,5.9613342,La Chaumusse - Fort-du-Plasne
+La Chaussée,la chaussee,1,La Chaussée-Saint-Victor,87574251,47.6127952,1.3537834,La Chaussée-Saint-Victor
+La Ciotat,la ciotat,1,La Ciotat - Ceyreste,87751784,43.199593,5.632647,La Ciotat - Ceyreste
+La Clayette,la clayette,1,La Clayette - Baudemont,87694737,46.2881469,4.2984195,La Clayette - Baudemont
+La Coquille,la coquille,1,La Coquille,87592501,45.5408509,0.9744005,La Coquille
+La Courneuve,la courneuve,1,La Courneuve - Aubervilliers,87271304,48.9242,2.38443,La Courneuve - Aubervilliers
+La Couronne,la couronne,1,La Couronne,87583617,45.604570970062376,0.1011570895580505,La Couronne
+La Couronne Carro,la couronne carro,1,La Couronne Carro,87753541,43.3398078,5.0517077,La Couronne Carro
+La Crau,la crau,1,La Crau,87755611,43.1449352,6.0687663,La Crau
+La Croix de Méan,la croix de mean,1,La Croix de Méan,87481689,47.300426,-2.1932575,La Croix de Méan
+La Crèche,la creche,1,La Crèche,87485474,46.3604181,-0.2962081,La Crèche
+La Douzillère,la douzillere,1,La Douzillère,87009696,47.3388167,0.6528244,La Douzillère
+La Défense,la defense,1,La Défense,87382218,48.89308,2.23763,La Défense
+La Défense Grande Arche RER E,la defense grande arche rer e,1,La Défense Grande Arche RER E,87731430,,,La Défense Grande Arche RER E
+La Faloise,la faloise,1,La Faloise,87313239,49.696527,2.3485813,La Faloise
+La Fontaine,la fontaine,1,La Fontaine,87286427,50.5661459,2.9261079,La Fontaine
+La Forest,la forest,1,La Forest-Landerneau,87474221,48.4263093,-4.3074515,La Forest-Landerneau
+La Fouillouse,la fouillouse,1,La Fouillouse,87726232,45.4977675,4.3170839,La Fouillouse
+La Frayère,la frayere,1,La Frayère,87757740,43.5581088,6.9720902,La Frayère
+La Fresnais,la fresnais,1,La Fresnais,87478081,48.593655,-1.8432199,La Fresnais
+La Frette,la frette,1,La Frette - Montigny,87381871,48.98035,2.18019,La Frette - Montigny
+La Fère,la fere,1,La Fère,87296632,49.65802,3.36981,La Fère
+La Garde,la garde,1,La Garde,87755306,43.1187044,6.0100767,La Garde
+La Garenne,la garenne,1,La Garenne-Colombes,87386003,48.9093952,2.2396414,La Garenne-Colombes
+La Gorp,la gorp,1,La Gorp,87584755,44.9288345,-0.4963844,La Gorp
+La Gouesnière,la gouesniere,1,La Gouesnière - Cancale - Saint-Méloir-des-Ondes,87478099,48.6144207,-1.9058105,La Gouesnière - Cancale - Saint-Méloir-des-Ondes
+La Grande,la grande,1,La Grande-Paroisse,87682476,48.3787751,2.8971614,La Grande-Paroisse
+La Grave d'Ambarès,la grave d'ambares,1,La Grave d'Ambarès,87491274,44.9356421,-0.477021,La Grave d'Ambarès
+La Guerche,la guerche,1,La Guerche-sur-l'Aubois,87576470,46.9477388,2.9485731,La Guerche-sur-l'Aubois
+La Guierche,la guierche,1,La Guierche,87396036,48.1138773,0.1931016,La Guierche
+La Haie,la haie,1,La Haie-Fouassière,87481416,47.1615899,-1.392195,La Haie-Fouassière
+La Hisse,la hisse,1,La Hisse,87478156,48.4961248,-2.0036608,La Hisse
+La Hume,la hume,1,La Hume,87582635,44.639879,-1.116,La Hume
+La Hutte Coulombiers,la hutte coulombiers,1,La Hutte Coulombiers,87396093,48.303495,0.1056788,La Hutte Coulombiers
+La Jarrie,la jarrie,1,La Jarrie,87485185,46.12045,-1.02347,La Jarrie
+La Jonchère,la jonchere,1,La Jonchère-Saint-Maurice,87592337,45.9944577,1.4803853,La Jonchère-Saint-Maurice
+La Joux,la joux,1,La Joux,87746842,45.9657075,6.910179,La Joux
+La Levade,la levade,1,La Levade,87775247,44.228602,4.0102736,La Levade
+La Loupe,la loupe,1,La Loupe,87394254,48.4737398,1.0109416,La Loupe
+La Madeleine,la madeleine,1,La Madeleine,87286187,50.6608037,3.0725804,La Madeleine
+La Marche,la marche,1,La Marche,87691394,47.1396975,3.0395468,La Marche
+La Membrolle,la membrolle,1,La Membrolle-sur-Choisille,87571513,47.4313179,0.6407872,La Membrolle-sur-Choisille
+La Meyze,la meyze,1,La Meyze,87592808,45.6212964,1.2123135,La Meyze
+La Méaugon,la meaugon,1,La Méaugon,87473124,48.4996127,-2.8439358,La Méaugon
+La Ménitré,la menitre,1,La Ménitré,87487884,47.397422,-0.275818,La Ménitré
+La Norville,la norville,1,La Norville - Saint-Germain-lès-Arpajon,87545459,48.591617,2.267586,La Norville - Saint-Germain-lès-Arpajon
+La Pauline Hyères,la pauline hyeres,1,La Pauline Hyères,87755314,43.1364769,6.0351027,La Pauline Hyères
+La Penne,la penne,1,La Penne-sur-Huveaune,87751743,43.2846765,5.5155698,La Penne-sur-Huveaune
+La Plaine Stade de France,la plaine stade de france,1,La Plaine Stade de France - Saint-Denis - Aubervilliers,87164798,48.91839,2.36257,La Plaine Stade de France - Saint-Denis - Aubervilliers
+La Pomme,la pomme,1,La Pomme,87751719,43.2905165,5.4413152,La Pomme
+La Porcherie,la porcherie,1,La Porcherie,87592295,45.5740586,1.5383469,La Porcherie
+La Possonnière,la possonniere,1,La Possonnière,87484337,47.3713848,-0.6917009,La Possonnière
+La Poterie,la poterie,1,La Poterie,87334508,48.0923448,-1.6307729,La Poterie
+La Redonne Ensuès,la redonne ensues,1,La Redonne Ensuès,87753574,43.33447,5.1975675,La Redonne Ensuès
+La Ricamarie,la ricamarie,1,La Ricamarie,87726703,45.4041516,4.360686,La Ricamarie
+La Rivière,la riviere,1,La Rivière-Drugeon,87715144,46.8701507,6.2133331,La Rivière-Drugeon
+La Rivière de Mansac,la riviere de mansac,1,La Rivière de Mansac,87594416,45.139681,1.3655086,La Rivière de Mansac
+La Rochelle,la rochelle,1,La Rochelle,87485003,46.15269,-1.145305,La Rochelle
+La Rochelle Porte Dauphine,la rochelle porte dauphine,1,La Rochelle Porte Dauphine,87437798,46.16755,-1.1518412,La Rochelle Porte Dauphine
+La Réole,la reole,1,La Réole,87582866,44.579742,-0.03057,La Réole
+La Seyne,la seyne,1,La Seyne - Six-Fours,87755264,43.116959,5.876966,La Seyne - Six-Fours
+La Souterraine,la souterraine,1,La Souterraine,87592378,46.239792,1.492151,La Souterraine
+La Suze,la suze,1,La Suze-sur-Sarthe,87396366,47.8919891,0.0266367,La Suze-sur-Sarthe
+La Taye,la taye,1,La Taye,87394403,48.4077566,1.3734019,La Taye
+La Teste,la teste,1,La Teste-de-Buch,87582643,44.636924,-1.14295,La Teste-de-Buch
+La Tricherie,la tricherie,1,La Tricherie,87575183,46.7288206,0.4412021,La Tricherie
+La Trinité Victor,la trinite victor,1,La Trinité Victor,87756767,43.7427854,7.3114604,La Trinité Victor
+La Valbonne,la valbonne,1,La Valbonne,87723577,45.849225,5.124911,La Valbonne
+La Verpillière,la verpilliere,1,La Verpillière,87723395,45.6276,5.150866,La Verpillière
+La Verrière,la verriere,1,La Verrière,87393256,48.7556954,1.943674,La Verrière
+La Ville,la ville,1,La Ville-Dieu-du-Temple,87611459,44.0355186,1.2149646,La Ville-Dieu-du-Temple
+La Ville Gozet,la ville gozet,1,La Ville Gozet,87641191,46.3497686,2.5918028,La Ville Gozet
+La Villette Saint,la villette saint,1,La Villette Saint-Prest,87394171,48.4827197,1.5228734,La Villette Saint-Prest
+La Wantzenau,la wantzenau,1,La Wantzenau,87212316,48.6651895,7.8247832,La Wantzenau
+Labenne,labenne,1,Labenne,87673293,43.5870509,-1.4288712,Labenne
+Labergement,labergement,1,Labergement-Sainte-Marie,87715219,46.77632,6.28011,Labergement-Sainte-Marie
+Laboissière,laboissiere,1,Laboissière - Le Déluge,87313676,49.2885368,2.1361486,Laboissière - Le Déluge
+Labouheyre,labouheyre,1,Labouheyre,87582551,44.2106292,-0.9209296,Labouheyre
+Labruguière,labruguiere,1,Labruguière,87615526,43.5425692,2.2594728,Labruguière
+Labège Innopole,labege innopole,1,Labège Innopole,87612002,43.5473613,1.5129784,Labège Innopole
+Labège Village,labege village,1,Labège Village,87612028,43.5305367,1.5329207,Labège Village
+Lacapelle,lacapelle,1,Lacapelle-Viescamp,87645150,44.9202424,2.2654689,Lacapelle-Viescamp
+Lacelle,lacelle,1,Lacelle,87592147,45.6412701,1.8264798,Lacelle
+Lachaud Curmilhac,lachaud curmilhac,1,Lachaud Curmilhac,87731828,45.1228045,3.6104913,Lachaud Curmilhac
+Lacourtensourt,lacourtensourt,1,Lacourtensourt,87611434,43.6638838,1.4138687,Lacourtensourt
+Lafarge,lafarge,1,Lafarge,87592733,45.6338338,1.130859,Lafarge
+Lagny,lagny,1,Lagny - Thorigny,87116319,48.88218325,2.70404228,Lagny - Thorigny
+Laguépie,laguepie,1,Laguépie,87613471,44.1455256,1.9692195,Laguépie
+Laifour,laifour,1,Laifour,87172072,49.911256,4.6923484,Laifour
+Laigneville,laigneville,1,Laigneville,87276204,49.29276,2.44894,Laigneville
+Laigné,laigne,1,Laigné - Saint-Gervais,87396556,47.8740074,0.2172097,Laigné - Saint-Gervais
+Laillé,laille,1,Laillé,87471144,47.9717527,-1.7495654,Laillé
+Laissey,laissey,1,Laissey,87718437,47.298723,6.23304,Laissey
+Lalbenque,lalbenque,1,Lalbenque - Fontanes,87613323,44.3332389,1.5116628,Lalbenque - Fontanes
+Lalinde,lalinde,1,Lalinde,87584441,44.8396152,0.7427811,Lalinde
+Lamagistère,lamagistere,1,Lamagistère,87611855,44.1267231,0.8255002,Lamagistère
+Lamanon,lamanon,1,Lamanon,87753731,43.6999662,5.0913333,Lamanon
+Lamballe,lamballe,1,Lamballe,87473108,48.46606,-2.511546,Lamballe
+Lamonzie,lamonzie,1,Lamonzie-Saint-Martin,87584243,44.8450247,0.3854609,Lamonzie-Saint-Martin
+Lamotte,lamotte,1,Lamotte-Beuvron,87543140,47.593898,2.022499,Lamotte-Beuvron
+Lamure,lamure,1,Lamure-sur-Azergues,87721860,46.0610834,4.4921137,Lamure-sur-Azergues
+Lancerf,lancerf,1,Lancerf,87473850,48.761873,-3.1181396,Lancerf
+Lancey,lancey,1,Lancey,87417501,45.2344784,5.8809758,Lancey
+Landas,landas,1,Landas,87286575,50.4687775,3.290568,Landas
+Landaul,landaul,1,Landaul - Mendon,87476226,47.7359877,-3.0860172,Landaul - Mendon
+Landerneau,landerneau,1,Landerneau,87474239,48.453572,-4.256528,Landerneau
+Landivisiau,landivisiau,1,Landivisiau,87474270,48.496002,-4.082181,Landivisiau
+Landrecies,landrecies,1,Landrecies,87295642,50.1283138,3.681997,Landrecies
+Landry,landry,1,Landry,87741777,45.5741713,6.7338182,Landry
+Landébia,landebia,1,Landébia,87473264,48.5074212,-2.3313716,Landébia
+Landévant,landevant,1,Landévant,87476234,47.759578,-3.1251313,Landévant
+Laneuveville,laneuveville,1,Laneuveville-devant-Nancy,87141093,48.65564,6.22792,Laneuveville-devant-Nancy
+Langeac,langeac,1,Langeac,87734319,45.10125,3.490672,Langeac
+Langeais,langeais,1,Langeais,87571828,47.324114,0.410557,Langeais
+Langogne,langogne,1,Langogne,87734350,44.732776,3.8573047,Langogne
+Langon,langon,1,Langon,87582775,44.555448,-0.25554,Langon
+Langres,langres,1,Langres,87142091,47.8769474,5.3444064,Langres
+Lannemezan,lannemezan,1,Lannemezan,87671123,43.114273,0.387367,Lannemezan
+Lannion,lannion,1,Lannion,87473223,48.727638,-3.460353,Lannion
+Lantenay,lantenay,1,Lantenay,87712323,47.3351085,4.860963,Lantenay
+Laon,laon,1,Laon,87296012,49.57061,3.62443,Laon
+Lapeyrouse,lapeyrouse,1,Lapeyrouse,87641043,46.2267825,2.893393,Lapeyrouse
+Laragne,laragne,1,Laragne-Montéglin,87763755,44.3164984,5.8189832,Laragne-Montéglin
+Lardenne,lardenne,1,Lardenne,87611939,43.5966262,1.3839252,Lardenne
+Lardy,lardy,1,Lardy,87545160,48.520639,2.255739,Lardy
+Laroche,laroche,1,Laroche - Migennes,87683268,47.960998,3.513191,Laroche - Migennes
+Laroque,laroque,1,Laroque-Timbaut,87586412,44.2875163,0.7497189,Laroque-Timbaut
+Laroquebrou,laroquebrou,1,Laroquebrou,87645135,44.9641658,2.1929167,Laroquebrou
+Lathus,lathus,1,Lathus-Saint-Rémy,87575498,46.3380917,0.965009,Lathus-Saint-Rémy
+Latour-de-Carol,latour-de-carol,1,Latour-de-Carol - Enveitg,87611483,42.4590464,1.9045027,Latour-de-Carol - Enveitg
+Lauterbourg,lauterbourg,1,Lauterbourg,87212464,48.9676973,8.1826817,Lauterbourg
+Lavaufranche,lavaufranche,1,Lavaufranche,87597740,46.3212869,2.2700972,Lavaufranche
+Lavaur,lavaur,1,Lavaur,87615476,43.703479,1.813146,Lavaur
+Lavilletertre,lavilletertre,1,Lavilletertre,87381202,49.2024666,1.9206361,Lavilletertre
+Lavoûte,lavoute,1,Lavoûte-sur-Loire,87734707,45.1214503,3.9054101,Lavoûte-sur-Loire
+Le Blanc,le blanc,1,Le Blanc-Mesnil,87271478,48.93248,2.47747,Le Blanc-Mesnil
+Le Bosquet,le bosquet,1,Le Bosquet,87757757,43.5515285,6.9816599,Le Bosquet
+Le Bourget,le bourget,1,Le Bourget,87271395,48.93096,2.42571,Le Bourget
+Le Bourget T11,le bourget t11,1,Le Bourget T11,87697359,,,Le Bourget T11
+Le Bouscat,le bouscat,1,Le Bouscat - Saint-Germaine,87738096,44.87092649534621,-0.614049444932229,Le Bouscat - Saint-Germaine
+Le Bousquet,le bousquet,1,Le Bousquet-d'Orb,87781583,43.6912097,3.1689379,Le Bousquet-d'Orb
+Le Bras de Fer,le bras de fer,1,Le Bras de Fer,87681395,48.623287,2.450625,Le Bras de Fer
+Le Breuil,le breuil,1,Le Breuil-sur-Couze,87734228,45.4670838,3.2621478,Le Breuil-sur-Couze
+Le Bruel,le bruel,1,Le Bruel,87783548,44.4813286,3.358325,Le Bruel
+Le Buet,le buet,1,Le Buet,87746883,46.018805,6.9204119,Le Buet
+Le Bugue,le bugue,1,Le Bugue,87595744,44.9056892,0.942795,Le Bugue
+Le Buisson,le buisson,1,Le Buisson-de-Cadouin,87595751,44.84723,0.9081756,Le Buisson-de-Cadouin
+Le Burg,le burg,1,Le Burg,87594614,45.2157957,1.4298135,Le Burg
+Le Cailar,le cailar,1,Le Cailar,87775825,43.6834141,4.2354236,Le Cailar
+Le Cateau,le cateau,1,Le Cateau-Cambrésis,87295220,50.0914606,3.5400454,Le Cateau-Cambrésis
+Le Cellier,le cellier,1,Le Cellier,87481168,47.3135164,-1.3506694,Le Cellier
+Le Cendre,le cendre,1,Le Cendre - Orcet,87734160,45.723796,3.188666,Le Cendre - Orcet
+Le Chambon,le chambon,1,Le Chambon-Feugerolles,87726711,45.3947427,4.3223823,Le Chambon-Feugerolles
+Le Chénay Gagny,le chenay gagny,1,Le Chénay Gagny,87113522,48.877129,2.552692,Le Chénay Gagny
+Le Coteau,le coteau,1,Le Coteau,87726828,46.023984,4.086248,Le Coteau
+Le Coudray,le coudray,1,Le Coudray-Montceaux,87681635,48.5661679,2.4924649,Le Coudray-Montceaux
+Le Croisic,le croisic,1,Le Croisic,87481788,47.289836,-2.507442,Le Croisic
+Le Dorat,le dorat,1,Le Dorat,87592543,46.2110908,1.0793364,Le Dorat
+Le Dramont,le dramont,1,Le Dramont,87757542,43.4178193,6.8442467,Le Dramont
+Le Fauga,le fauga,1,Le Fauga,87611046,43.4043288,1.2827183,Le Fauga
+Le Genest,le genest,1,Le Genest-Saint-Isle,87478743,48.0967372,-0.8858084,Le Genest-Saint-Isle
+Le Grand,le grand,1,Le Grand-Lemps,87747220,45.3966261,5.4231117,Le Grand-Lemps
+Le Grand Jardin,le grand jardin,1,Le Grand Jardin,87444323,49.1505827,0.2271143,Le Grand Jardin
+Le Grau,le grau,1,Le Grau-du-Roi,87775866,43.5371273,4.140338,Le Grau-du-Roi
+Le Haut Banc,le haut banc,1,Le Haut Banc,87316687,50.8163364,1.7722209,Le Haut Banc
+Le Havre,le havre,1,Le Havre,87413013,49.492996,0.125677,Le Havre
+Le Lioran,le lioran,1,Le Lioran,87645473,45.0905458,2.7533365,Le Lioran
+Le Luc,le luc,1,Le Luc - Le Cannet,87755405,43.3902379,6.3430972,Le Luc - Le Cannet
+Le Meux,le meux,1,Le Meux - La Croix-Saint-Ouen,87276733,49.3594029,2.7532645,Le Meux - La Croix-Saint-Ouen
+Le Molay,le molay,1,Le Molay-Littry,87444083,49.2493263,-0.8809741,Le Molay-Littry
+Le Monastier,le monastier,1,Le Monastier-Pin-Moriès,87783308,44.5089682,3.252057,Le Monastier-Pin-Moriès
+Le Mée,le mee,1,Le Mée-sur-Seine,87682179,48.540086,2.624116,Le Mée-sur-Seine
+Le Méridien La Ferrière,le meridien la ferriere,1,Le Méridien La Ferrière,87721522,45.7684995,4.7484432,Le Méridien La Ferrière
+Le Pallet,le pallet,1,Le Pallet,87481424,47.143831,-1.346898,Le Pallet
+Le Perray,le perray,1,Le Perray-en-Yvelines,87393298,48.6933406,1.856057,Le Perray-en-Yvelines
+Le Plessis,le plessis,1,Le Plessis-Belleville,87271551,49.0959033,2.7448073,Le Plessis-Belleville
+Le Plessis Chenet,le plessis chenet,1,Le Plessis Chenet,87681627,48.5735652,2.479586,Le Plessis Chenet
+Le Poirier Université,le poirier universite,1,Le Poirier Université,87343210,50.33006,3.50273,Le Poirier Université
+Le Pouliguen,le pouliguen,1,Le Pouliguen,87481762,47.2825404,-2.4331446,Le Pouliguen
+Le Puy,le puy,1,Le Puy-en-Velay,87734699,45.042866,3.892421,Le Puy-en-Velay
+Le Péage,le peage,1,Le Péage-de-Roussillon,87722678,45.371797,4.795402,Le Péage-de-Roussillon
+Le Pénity,le penity,1,Le Pénity,87473553,48.3646275,-3.4763815,Le Pénity
+Le Quesnoy,le quesnoy,1,Le Quesnoy,87295857,50.25021,3.64552,Le Quesnoy
+Le Raincy,le raincy,1,Le Raincy - Villemomble - Montfermeil,87113472,48.889325,2.512062,Le Raincy - Villemomble - Montfermeil
+Le Rouget,le rouget,1,Le Rouget,87645192,44.8565391,2.2355043,Le Rouget
+Le Soler,le soler,1,Le Soler,87784512,42.6787626,2.7930798,Le Soler
+Le Stade,le stade,1,Le Stade,87381095,48.93093,2.26056,Le Stade
+Le Teich,le teich,1,Le Teich,87582601,44.632507,-1.025556,Le Teich
+Le Thor,le thor,1,Le Thor,87765453,43.9265047,4.9962663,Le Thor
+Le Toec,le toec,1,Le Toec,87353573,43.5956037,1.4014496,Le Toec
+Le Trayas,le trayas,1,Le Trayas,87757575,43.4746639,6.9243444,Le Trayas
+Le Tréport,le treport,1,Le Tréport - Mers-les-Bains,87317529,50.0628592,1.3763738,Le Tréport - Mers-les-Bains
+Le Val d'Or,le val d'or,1,Le Val d'Or,87382366,48.85645,2.21636,Le Val d'Or
+Le Verdon,le verdon,1,Le Verdon-sur-Mer,87581389,45.5492065,-1.0650925,Le Verdon-sur-Mer
+Le Vernet d'Ariège,le vernet d'ariege,1,Le Vernet d'Ariège,87611350,43.1894138,1.6116214,Le Vernet d'Ariège
+Le Vert de Maisons,le vert de maisons,1,Le Vert de Maisons,87681247,48.78934,2.43148,Le Vert de Maisons
+Le Vieux Briollay,le vieux briollay,1,Le Vieux Briollay,87484139,47.5739696,-0.4829396,Le Vieux Briollay
+Leforest,leforest,1,Leforest,87345223,50.4278,3.05977,Leforest
+Lens,lens,1,Lens,87345025,50.426818,2.828254,Lens
+Lentilly,lentilly,1,Lentilly,87721555,45.82163,4.667103,Lentilly
+Lentilly Charpenay,lentilly charpenay,1,Lentilly Charpenay,87566919,45.8165247,4.6824009,Lentilly Charpenay
+Les Abrets,les abrets,1,Les Abrets - Fitilieu,87741496,45.5421091,5.5754876,Les Abrets - Fitilieu
+Les Arcs,les arcs,1,Les Arcs - Draguignan,87755447,43.455524,6.482498,Les Arcs - Draguignan
+Les Ardoines,les ardoines,1,Les Ardoines,87492108,48.782945,2.409046,Les Ardoines
+Les Aubrais,les aubrais,1,Les Aubrais,87543017,47.926801,1.906629,Les Aubrais
+Les Bardys,les bardys,1,Les Bardys,87592048,45.9046873,1.377389,Les Bardys
+Les Bons Pères,les bons peres,1,Les Bons Pères,87297515,50.2798638,4.010967,Les Bons Pères
+Les Bossons,les bossons,1,Les Bossons,87746768,45.9067455,6.8391969,Les Bossons
+Les Boullereaux Champigny,les boullereaux champigny,1,Les Boullereaux Champigny,87113779,48.824926,2.511884,Les Boullereaux Champigny
+Les Cabannes,les cabannes,1,Les Cabannes,87611574,42.7862854,1.6862985,Les Cabannes
+Les Cabrils,les cabrils,1,Les Cabrils,87781559,43.779707,3.1860831,Les Cabrils
+Les Cauquillous,les cauquillous,1,Les Cauquillous,87328021,43.7340198,1.7546798,Les Cauquillous
+Les Clairières de Verneuil,les clairieres de verneuil,1,Les Clairières de Verneuil,87386664,48.9922407,1.955265,Les Clairières de Verneuil
+Les Coquetiers,les coquetiers,1,Les Coquetiers,87113845,48.89244,2.499415,Les Coquetiers
+Les Deux Jumeaux,les deux jumeaux,1,Les Deux Jumeaux,87677104,43.3699568,-1.7643532,Les Deux Jumeaux
+Les Essarts,les essarts,1,Les Essarts-le-Roi,87393280,48.7217171,1.8904047,Les Essarts-le-Roi
+Les Eyzies,les eyzies,1,Les Eyzies-de-Tayac-Sireuil,87595736,44.9411916,1.0081942,Les Eyzies-de-Tayac-Sireuil
+Les Flachères,les flacheres,1,Les Flachères,87721704,45.7774345,4.7541523,Les Flachères
+Les Fontinettes,les fontinettes,1,Les Fontinettes,87317305,50.940831,1.8496343,Les Fontinettes
+Les Grésillons,les gresillons,1,Les Grésillons,87272146,48.92007,2.31441,Les Grésillons
+Les Houches,les houches,1,Les Houches,87746743,45.8935639,6.796924,Les Houches
+Les Lacs,les lacs,1,Les Lacs,87471516,48.1094359,-1.3208165,Les Lacs
+Les Laumes Alésia,les laumes alesia,1,Les Laumes Alésia,87713115,47.543054,4.462602,Les Laumes Alésia
+Les Mais,les mais,1,Les Mais,87473587,48.4262577,-3.3828609,Les Mais
+Les Martres,les martres,1,Les Martres-de-Veyre,87734178,45.688155,3.193228,Les Martres-de-Veyre
+Les Moussoux,les moussoux,1,Les Moussoux,87746818,45.9166347,6.8589899,Les Moussoux
+Les Moutiers,les moutiers,1,Les Moutiers-en-Retz,87481259,47.0618983,-2.0009628,Les Moutiers-en-Retz
+Les Mureaux,les mureaux,1,Les Mureaux,87386680,48.9927897,1.9129871,Les Mureaux
+Les Noues,les noues,1,Les Noues,87276238,49.03234,2.47633,Les Noues
+Les Ormes,les ormes,1,Les Ormes,87575118,46.9718269,0.6079476,Les Ormes
+Les Pavillons,les pavillons,1,Les Pavillons-sous-Bois,87113852,48.902418,2.511781,Les Pavillons-sous-Bois
+Les Perrières,les perrieres,1,Les Perrières,87691600,47.0055213,3.1467144,Les Perrières
+Les Portes de Saint,les portes de saint,1,Les Portes de Saint-Cyr,87710921,48.8062,2.07716,Les Portes de Saint-Cyr
+Les Praz de Chamonix,les praz de chamonix,1,Les Praz de Chamonix,87746826,45.9394594,6.888753,Les Praz de Chamonix
+Les Pélerins,les pelerins,1,Les Pélerins,87746776,45.9125671,6.8472858,Les Pélerins
+Les Quatre,les quatre,1,Les Quatre-Routes-du-Lot,87594564,44.9974864,1.6439067,Les Quatre-Routes-du-Lot
+Les Quatre Roues,les quatre roues,1,Les Quatre Roues,87576181,47.3325521,1.7025282,Les Quatre Roues
+Les Ramassiers,les ramassiers,1,Les Ramassiers,87353581,43.6024594,1.3528032,Les Ramassiers
+Les Rosiers,les rosiers,1,Les Rosiers-sur-Loire,87487876,47.3625386,-0.2205371,Les Rosiers-sur-Loire
+Les Sables,les sables,1,Les Sables-d'Olonne,87486449,46.499917,-1.78105,Les Sables-d'Olonne
+Les Sables Blancs,les sables blancs,1,Les Sables Blancs,87476267,47.57518,-3.13201,Les Sables Blancs
+Les Salelles,les salelles,1,Les Salelles,87783514,44.4832687,3.2804008,Les Salelles
+Les Saules,les saules,1,Les Saules,87546226,48.7454924,2.417366,Les Saules
+Les Tines,les tines,1,Les Tines,87746834,45.9505693,6.8991603,Les Tines
+Les Trillers,les trillers,1,Les Trillers,87641373,46.4147461,2.6001018,Les Trillers
+Les Vallées,les vallees,1,Les Vallées,87386300,48.913408,2.257909,Les Vallées
+Les Versannes,les versannes,1,Les Versannes,87595702,45.088775,0.8574682,Les Versannes
+Les Yvris Noisy,les yvris noisy,1,Les Yvris Noisy-le-Grand,87113803,48.823182,2.579828,Les Yvris Noisy-le-Grand
+Les Échets,les echets,1,Les Échets,87723718,45.8746675,4.9108215,Les Échets
+Les Églisottes,les eglisottes,1,Les Églisottes-et-Chalaures,87584532,45.0942299,-0.0437576,Les Églisottes-et-Chalaures
+Lesparre,lesparre,1,Lesparre-Médoc,87581314,45.3035166,-0.9454015,Lesparre-Médoc
+Lesquin,lesquin,1,Lesquin,87286849,50.59068,3.11771,Lesquin
+Leucate La Franqui,leucate la franqui,1,Leucate La Franqui,87781088,42.9327725,3.0128555,Leucate La Franqui
+Leval,leval,1,Leval,87295790,50.1845311,3.8366811,Leval
+Lexos,lexos,1,Lexos,87613489,44.1423958,1.8851014,Lexos
+Lezennes,lezennes,1,Lezennes,87287102,50.6205699,3.0986481,Lezennes
+Lezoux,lezoux,1,Lezoux,87734442,45.8212175,3.385986,Lezoux
+Libercourt,libercourt,1,Libercourt,87345256,50.48025,3.00867,Libercourt
+Libourne,libourne,1,Libourne,87584052,44.915888,-0.236344,Libourne
+Liesle,liesle,1,Liesle,87718130,47.0587683,5.8208121,Liesle
+Lieusaint,lieusaint,1,Lieusaint - Moissy,87682153,48.628305,2.568935,Lieusaint - Moissy
+Ligugé,liguge,1,Ligugé,87575274,46.5203091,0.3331733,Ligugé
+Lillers,lillers,1,Lillers,87342238,50.56163,2.47903,Lillers
+Limay,limay,1,Limay,87381582,48.9841,1.74731,Limay
+Limeray,limeray,1,Limeray,87574335,47.4502088,1.0499661,Limeray
+Limersheim,limersheim,1,Limersheim,87212274,48.4617328,7.6603581,Limersheim
+Limoux,limoux,1,Limoux,87615161,43.0563831,2.2228288,Limoux
+Limoux Flassian,limoux flassian,1,Limoux Flassian,87598755,43.0684511,2.2182832,Limoux Flassian
+Lingolsheim,lingolsheim,1,Lingolsheim,87214502,48.5594092,7.6781143,Lingolsheim
+Lisieux,lisieux,1,Lisieux,87444265,49.138299,0.231143,Lisieux
+Lisière Pereire,lisiere pereire,1,Lisière Pereire,87733683,48.9032098,2.0733132,Lisière Pereire
+Lisle,lisle,1,Lisle-sur-Tarn,87615310,43.85639,1.80823,Lisle-sur-Tarn
+Lison,lison,1,Lison,87447219,49.226834,-1.050339,Lison
+Liverdun,liverdun,1,Liverdun,87141069,48.7493158,6.0617374,Liverdun
+Livron,livron,1,Livron-sur-Drôme,87761247,44.7796035,4.8305412,Livron-sur-Drôme
+Livry,livry,1,Livry-sur-Seine,87682401,48.5104579,2.6788796,Livry-sur-Seine
+Lizy,lizy,1,Lizy-sur-Ourcq,87116632,49.021929,3.031718,Lizy-sur-Ourcq
+Liévin,lievin,1,Liévin,87345041,50.434139,2.7716316,Liévin
+Loches,loches,1,Loches,87571471,47.130464,1.000467,Loches
+Logelbach,logelbach,1,Logelbach,87182345,48.087299,7.3206082,Logelbach
+Loison,loison,1,Loison-sous-Lens,87345231,50.4401891,2.8592403,Loison-sous-Lens
+Loivre,loivre,1,Loivre,87171728,49.3466786,3.9906699,Loivre
+Longages,longages,1,Longages - Noé,87611053,43.3563239,1.2519529,Longages - Noé
+Longecourt,longecourt,1,Longecourt-en-Plaine,87712620,47.1937936,5.1346952,Longecourt-en-Plaine
+Longjumeau,longjumeau,1,Longjumeau,87393611,48.7020364,2.2943957,Longjumeau
+Longpont,longpont,1,Longpont,87271775,49.2726851,3.2301676,Longpont
+Longpré,longpre,1,Longpré-les-Corps-Saints,87313122,50.01128,2.00277,Longpré-les-Corps-Saints
+Longroy,longroy,1,Longroy - Gamaches,87313817,49.9818917,1.5526598,Longroy - Gamaches
+Longueau,longueau,1,Longueau,87313049,49.86344,2.35215,Longueau
+Longuerue,longuerue,1,Longuerue - Vieux-Manoir,87411447,49.5566781,1.2762275,Longuerue - Vieux-Manoir
+Longuyon,longuyon,1,Longuyon,87194274,49.4442555,5.604482,Longuyon
+Longwy,longwy,1,Longwy,87194001,49.5129923,5.7696358,Longwy
+Lons,lons,1,Lons-le-Saunier,87718239,46.66858,5.551108,Lons-le-Saunier
+Loos,loos,1,Loos-en-Gohelle,87345033,50.4378798,2.7933955,Loos-en-Gohelle
+Loos lez Lille,loos lez lille,1,Loos lez Lille,87286112,50.6128165,3.0170581,Loos lez Lille
+Loreux,loreux,1,Loreux,87576157,47.3902731,1.8345356,Loreux
+Lorient Bretagne Sud,lorient bretagne sud,1,Lorient Bretagne Sud,87476002,47.755597,-3.366221,Lorient Bretagne Sud
+Loriol,loriol,1,Loriol-sur-Drôme,87761262,44.7544973,4.8171679,Loriol-sur-Drôme
+Lorraine TGV,lorraine tgv,1,Lorraine TGV,87142109,48.947773,6.169838,Lorraine TGV
+Lothiers,lothiers,1,Lothiers,87597104,46.6946801,1.5629763,Lothiers
+Louhans,louhans,1,Louhans,87713735,46.6309,5.2174853,Louhans
+Loulay,loulay,1,Loulay,87491290,46.0435165,-0.5017525,Loulay
+Lourches,lourches,1,Lourches,87343475,50.3102834,3.3434016,Lourches
+Lourdes,lourdes,1,Lourdes,87671339,43.10037,-0.042174,Lourdes
+Louroux,louroux,1,Louroux-de-Bouble,87641050,46.2241289,2.9849368,Louroux-de-Bouble
+Louveciennes,louveciennes,1,Louveciennes,87382457,48.8610361,2.1230176,Louveciennes
+Louvres,louvres,1,Louvres,87276253,49.0496573,2.5018967,Louvres
+Louvroil,louvroil,1,Louvroil,87295535,50.2683469,3.9535768,Louvroil
+Lozanne,lozanne,1,Lozanne,87721423,45.85414,4.681501,Lozanne
+Luant,luant,1,Luant,87597096,46.7357683,1.5901964,Luant
+Lucé,luce,1,Lucé,87394015,48.4366725,1.4529681,Lucé
+Ludon,ludon,1,Ludon-Médoc,87581181,44.9744015,-0.6118009,Ludon-Médoc
+Ludres,ludres,1,Ludres,87141481,48.6219545,6.1709118,Ludres
+Lumes,lumes,1,Lumes,87172189,49.7327973,4.7833571,Lumes
+Lunas,lunas,1,Lunas,87781575,43.7095814,3.1948986,Lunas
+Lunery,lunery,1,Lunery,87576280,46.9351795,2.275014,Lunery
+Lunéville,luneville,1,Lunéville,87141150,48.588233,6.49727,Lunéville
+Lurbe,lurbe,1,Lurbe-Saint-Christau,87672741,43.12099,-0.60408,Lurbe-Saint-Christau
+Lure,lure,1,Lure,87185249,47.683269,6.4925787,Lure
+Lus,lus,1,Lus-la-Croix-Haute,87747667,44.6709898,5.6973678,Lus-la-Croix-Haute
+Lusignan,lusignan,1,Lusignan,87485540,46.4354949,0.116555,Lusignan
+Lussac,lussac,1,Lussac-les-Châteaux,87575845,46.4051106,0.7186918,Lussac-les-Châteaux
+Luttenbach,luttenbach,1,Luttenbach-près-Munster,87182543,48.0352559,7.1186307,Luttenbach-près-Munster
+Lutzelbourg,lutzelbourg,1,Lutzelbourg,87215160,48.7299065,7.2516808,Lutzelbourg
+Lutzelhouse,lutzelhouse,1,Lutzelhouse,87214650,48.51812,7.29391,Lutzelhouse
+Luxeuil,luxeuil,1,Luxeuil-les-Bains,87185595,47.8148606,6.3726593,Luxeuil-les-Bains
+Luxé,luxe,1,Luxé,87583823,45.8873947,0.1094107,Luxé
+Luzarches,luzarches,1,Luzarches,87276576,49.11719,2.42074,Luzarches
+Luzenac,luzenac,1,Luzenac - Garanou,87611558,42.7642849,1.7531248,Luzenac - Garanou
+Luzy,luzy,1,Luzy,87696534,46.7940793,3.9693245,Luzy
+Luçon,luçon,1,Luçon,87486258,46.4638232,-1.1674217,Luçon
+Lycée Henri Sellier,lycee henri sellier,1,Lycée Henri Sellier,87988717,48.91646,2.51504,Lycée Henri Sellier
+Lépin-le-Lac,lepin-le-lac,1,Lépin-le-Lac - La Bauche,87741439,45.541519,5.7649834,Lépin-le-Lac - La Bauche
+Lérouville,lerouville,1,Lérouville,87175240,48.7972181,5.5387053,Lérouville
+Lézignan,lezignan,1,Lézignan-Corbières,87615112,43.1999609,2.7699635,Lézignan-Corbières
+Macau,macau,1,Macau,87581199,45.0040981,-0.6200068,Macau
+Machecoul,machecoul,1,Machecoul,87481366,46.9905038,-1.8227524,Machecoul
+Machilly,machilly,1,Machilly,87745588,46.2512825,6.3282335,Machilly
+Magalas,magalas,1,Magalas,87781666,43.4675998,3.2295415,Magalas
+Magenta,magenta,1,Magenta,87281873,48.87986,2.35835,Magenta
+Magland,magland,1,Magland,87746412,46.016945,6.6215075,Magland
+Magnac,magnac,1,Magnac - Vicq,87592279,45.6288007,1.4438445,Magnac - Vicq
+Magnette,magnette,1,Magnette,87641365,46.4641418,2.6028771,Magnette
+Magneux,magneux,1,Magneux - Courlandon,87400986,49.3100006,3.7331444,Magneux - Courlandon
+Magny,magny,1,Magny - Blandainville,87394429,48.3342906,1.2811066,Magny - Blandainville
+Mailly,mailly,1,Mailly-la-Ville,87683847,47.6041692,3.6751472,Mailly-la-Ville
+Maillé,maille,1,Maillé,87575068,47.0533855,0.5830236,Maillé
+Maintenon,maintenon,1,Maintenon,87394130,48.5854793,1.5920651,Maintenon
+Maisons,maisons,1,Maisons-Laffitte,87386425,48.9456394,2.1443153,Maisons-Laffitte
+Maisons-Alfort,maisons-alfort,1,Maisons-Alfort - Alfortville,87681155,48.802071,2.426977,Maisons-Alfort - Alfortville
+Maisse,maisse,1,Maisse,87681486,48.39304,2.39312,Maisse
+Maizières,maizieres,1,Maizières-lès-Metz,87191106,49.2155349,6.1588762,Maizières-lès-Metz
+Malansac,malansac,1,Malansac,87476689,47.6756185,-2.2961796,Malansac
+Malaunay,malaunay,1,Malaunay - Le Houlme,87411256,49.5133331,1.0395776,Malaunay - Le Houlme
+Malesherbes,malesherbes,1,Malesherbes,87684415,48.2934325,2.4012177,Malesherbes
+Malling,malling,1,Malling,87191627,49.42152,6.302207,Malling
+Mamirolle,mamirolle,1,Mamirolle,87718510,47.1998712,6.1617411,Mamirolle
+Mandelieu,mandelieu,1,Mandelieu-la-Napoule,87757591,43.523903,6.941313,Mandelieu-la-Napoule
+Manosque,manosque,1,Manosque - Gréoux-les-Bains,87751321,43.8231945,5.7933241,Manosque - Gréoux-les-Bains
+Mantes,mantes,1,Mantes-la-Jolie,87381509,48.98984,1.70337,Mantes-la-Jolie
+Mantes Station,mantes station,1,Mantes Station,87381590,48.98366,1.71581,Mantes Station
+Marbache,marbache,1,Marbache,87141796,48.8010405,6.1091755,Marbache
+Marcelcave,marcelcave,1,Marcelcave,87313445,49.8532165,2.5819031,Marcelcave
+Marcheprime,marcheprime,1,Marcheprime,87582445,44.690543,-0.85381,Marcheprime
+Marchezais,marchezais,1,Marchezais - Broué,87393470,48.7684736,1.513444,Marchezais - Broué
+Maresquel,maresquel,1,Maresquel-Ecquemicourt,87317206,50.4078186,1.9313418,Maresquel-Ecquemicourt
+Mareuil,mareuil,1,Mareuil-sur-Ourcq,87116665,49.1355418,3.075653,Mareuil-sur-Ourcq
+Margaux,margaux,1,Margaux,87581215,45.0358307,-0.6854145,Margaux
+Margival,margival,1,Margival,87271882,49.4393862,3.4027491,Margival
+Marienthal,marienthal,1,Marienthal,87213603,48.781863,7.8231894,Marienthal
+Marignier,marignier,1,Marignier,87746347,46.0887815,6.507826,Marignier
+Marigny,marigny,1,Marigny,87485334,46.1990832,-0.428404,Marigny
+Marles,marles,1,Marles-en-Brie,87116228,48.733976,2.868099,Marles-en-Brie
+Marlieux,marlieux,1,Marlieux - Châtillon,87723767,46.0638765,5.0731097,Marlieux - Châtillon
+Marly,marly,1,Marly-le-Roi,87382465,48.8713084,2.0965436,Marly-le-Roi
+Marmagne,marmagne,1,Marmagne,87576132,47.1001505,2.2819971,Marmagne
+Marmagne sous Creusot,marmagne sous creusot,1,Marmagne sous Creusot,87694182,46.8334607,4.3601911,Marmagne sous Creusot
+Marmande,marmande,1,Marmande,87586545,44.503019,0.168044,Marmande
+Marne,marne,1,Marne-la-Vallée Chessy,87111849,48.869856,2.78272,Marne-la-Vallée Chessy
+Maroeuil,maroeuil,1,Maroeuil,87342188,50.322603,2.6983279,Maroeuil
+Marolles,marolles,1,Marolles-en-Hurepoix,87545186,48.565345,2.290327,Marolles-en-Hurepoix
+Maromme,maromme,1,Maromme,87411249,49.479935,1.050485,Maromme
+Marquillies,marquillies,1,Marquillies,87342469,50.5477246,2.8661707,Marquillies
+Marquise,marquise,1,Marquise - Rinxent,87317339,50.8056635,1.72988,Marquise - Rinxent
+Marquixanes,marquixanes,1,Marquixanes,87784629,42.6428224,2.4858388,Marquixanes
+Marseillan Plage,marseillan plage,1,Marseillan Plage,87781294,43.3181964,3.5355281,Marseillan Plage
+Marssac,marssac,1,Marssac-sur-Tarn,87615419,43.9151803,2.026913,Marssac-sur-Tarn
+Martigné,martigne,1,Martigné-Ferchaud,87471367,47.8321302,-1.3137943,Martigné-Ferchaud
+Martigues,martigues,1,Martigues,87753509,43.3929209,5.0257804,Martigues
+Martres,martres,1,Martres-Tolosane,87611087,43.1962069,1.0167558,Martres-Tolosane
+Marvejols,marvejols,1,Marvejols,87783282,44.5446819,3.2810718,Marvejols
+Masseret,masseret,1,Masseret,87594820,45.536175,1.5415396,Masseret
+Massiac,massiac,1,Massiac - Blesle,87734871,45.2537695,3.1965518,Massiac - Blesle
+Massy Europe,massy europe,1,Massy Europe,87725465,48.72342,2.27194,Massy Europe
+Massy TGV,massy tgv,1,Massy TGV,87393702,48.725758,2.261254,Massy TGV
+Massérac,masserac,1,Massérac,87471227,47.6745316,-1.9144441,Massérac
+Matzenheim,matzenheim,1,Matzenheim,87214130,48.3987556,7.6196003,Matzenheim
+Maubeuge,maubeuge,1,Maubeuge,87295006,50.27298,3.96677,Maubeuge
+Maule,maule,1,Maule,87381723,48.90917,1.85708,Maule
+Maurecourt,maurecourt,1,Maurecourt,87381483,48.98712,2.05963,Maurecourt
+Maurois,maurois,1,Maurois,87345546,50.0674506,3.4562554,Maurois
+Maurs,maurs,1,Maurs,87645168,44.7061543,2.1995656,Maurs
+Mauves,mauves,1,Mauves-sur-Loire,87481150,47.2930211,-1.3893042,Mauves-sur-Loire
+Mauzac,mauzac,1,Mauzac-et-Grand-Castang,87584466,44.8558291,0.7899658,Mauzac-et-Grand-Castang
+Mauzé,mauze,1,Mauzé-sur-le-Mignon,87485250,46.1995881,-0.6737264,Mauzé-sur-le-Mignon
+Mayet,mayet,1,Mayet,87396580,47.7601465,0.2659384,Mayet
+Mazamet,mazamet,1,Mazamet,87615542,43.4977847,2.3747346,Mazamet
+Mazingarbe,mazingarbe,1,Mazingarbe,87342121,50.4608957,2.7005447,Mazingarbe
+Meaux,meaux,1,Meaux,87116103,48.957759,2.874041,Meaux
+Mehun,mehun,1,Mehun-sur-Yèvre,87576116,47.1394406,2.2071342,Mehun-sur-Yèvre
+Melun,melun,1,Melun,87682005,48.527662,2.655404,Melun
+Menars,menars,1,Menars,87574244,47.6450036,1.405617,Menars
+Mende,mende,1,Mende,87783605,44.522322,3.5019875,Mende
+Mennecy,mennecy,1,Mennecy,87681411,48.5709075,2.433165,Mennecy
+Mennessis,mennessis,1,Mennessis,87296434,49.6915989,3.2711145,Mennessis
+Mennetou,mennetou,1,Mennetou-sur-Cher,87576728,47.2688835,1.8765238,Mennetou-sur-Cher
+Menton,menton,1,Menton,87756486,43.774444,7.4933,Menton
+Menton Garavan,menton garavan,1,Menton Garavan,87756494,43.785202,7.517297,Menton Garavan
+Mer,mer,1,Mer,87574194,47.70586,1.506373,Mer
+Mertzwiller,mertzwiller,1,Mertzwiller,87213207,48.872013,7.6781895,Mertzwiller
+Mervans,mervans,1,Mervans,87713701,46.7988928,5.1794099,Mervans
+Merxheim,merxheim,1,Merxheim,87182725,47.9126413,7.3022795,Merxheim
+Messac,messac,1,Messac - Guipry,87471185,47.82225,-1.81822,Messac - Guipry
+Messein,messein,1,Messein,87141499,48.6128788,6.1378364,Messein
+Mesves,mesves,1,Mesves - Bulcy,87696187,47.2420755,3.0065175,Mesves - Bulcy
+Mesvres,mesvres,1,Mesvres,87694158,46.862799,4.2449659,Mesvres
+Metzeral,metzeral,1,Metzeral,87182816,48.0133301,7.0733383,Metzeral
+Meudon,meudon,1,Meudon,87393108,48.8147527,2.2410999,Meudon
+Meudon Val Fleury,meudon val fleury,1,Meudon Val Fleury,87393082,48.8079884,2.2409045,Meudon Val Fleury
+Meulan,meulan,1,Meulan - Hardricourt,87381830,49.00564,1.90213,Meulan - Hardricourt
+Meung,meung,1,Meung-sur-Loire,87574137,47.829926,1.691928,Meung-sur-Loire
+Meurchin,meurchin,1,Meurchin,87345272,50.4970516,2.8930903,Meurchin
+Meursault,meursault,1,Meursault,87713560,46.9690497,4.7954444,Meursault
+Meuse TGV,meuse tgv,1,Meuse TGV,87147322,48.978549,5.270954,Meuse TGV
+Meximieux,meximieux,1,Meximieux - Pérouges,87723585,45.901615,5.193534,Meximieux - Pérouges
+Meymac,meymac,1,Meymac,87594275,45.5302313,2.1640905,Meymac
+Meyrargues,meyrargues,1,Meyrargues,87751370,43.6440076,5.5395738,Meyrargues
+Mignaloux,mignaloux,1,Mignaloux - Nouaillé,87575704,46.5261427,0.4117391,Mignaloux - Nouaillé
+Milhaud,milhaud,1,Milhaud,87775098,43.7884886,4.3033268,Milhaud
+Millas,millas,1,Millas,87784546,42.6888961,2.6937502,Millas
+Millau,millau,1,Millau,87783001,44.102344,3.07457,Millau
+Milly,milly,1,Milly-sur-Thérain,87313700,49.5035256,1.988233,Milly-sur-Thérain
+Miniac,miniac,1,Miniac-Morvan,87478131,48.5315134,-1.914787,Miniac-Morvan
+Mionnay,mionnay,1,Mionnay,87723726,45.8966784,4.919752,Mionnay
+Miramas,miramas,1,Miramas,87753004,43.580704,5.000264,Miramas
+Miraumont,miraumont,1,Miraumont,87342030,50.0958521,2.7344755,Miraumont
+Miribel,miribel,1,Miribel,87723528,45.822088,4.95394,Miribel
+Mitry,mitry,1,Mitry - Claye,87271528,48.97569,2.64247,Mitry - Claye
+Modane,modane,1,Modane,87742007,45.193365,6.658161,Modane
+Mohon,mohon,1,Mohon,87172155,49.752584,4.73313,Mohon
+Moirans,moirans,1,Moirans,87747329,45.322185,5.581915,Moirans
+Moirans La Galifette,moirans la galifette,1,Moirans La Galifette,87747691,45.324154,5.56517,Moirans La Galifette
+Moissac,moissac,1,Moissac,87611889,44.1024178,1.077345,Moissac
+Molsheim,molsheim,1,Molsheim,87214577,48.53705,7.50044,Molsheim
+Mommenheim,mommenheim,1,Mommenheim,87212142,48.7561587,7.6422273,Mommenheim
+Monestier,monestier,1,Monestier-de-Clermont,87747592,44.911996,5.6339702,Monestier-de-Clermont
+Monistrol,monistrol,1,Monistrol-d'Allier,87734335,44.9696648,3.6500424,Monistrol-d'Allier
+Monnaie,monnaie,1,Monnaie,87574681,47.4987491,0.7932851,Monnaie
+Monnerville,monnerville,1,Monnerville,87545111,48.3484915,2.0320595,Monnerville
+Monsempron,monsempron,1,Monsempron-Libos,87586453,44.486631,0.9412277,Monsempron-Libos
+Mont de Terre,mont de terre,1,Mont de Terre,87287128,50.6176672,3.0966031,Mont de Terre
+Mont-Dauphin,mont-dauphin,1,Mont-Dauphin - Guillestre,87763508,44.6746283,6.6156027,Mont-Dauphin - Guillestre
+Mont-Louis,mont-louis,1,Mont-Louis - La Cabanasse,87784793,42.5020902,2.1131379,Mont-Louis - La Cabanasse
+Montaigu,montaigu,1,Montaigu,87481465,46.983705,-1.316236,Montaigu
+Montaigut,montaigut,1,Montaigut-le-Blanc,87597674,46.1367425,1.7339815,Montaigut-le-Blanc
+Montargis,montargis,1,Montargis,87684001,48.006862,2.742783,Montargis
+Montastruc,montastruc,1,Montastruc-la-Conseillère,87615369,43.715985,1.5979,Montastruc-la-Conseillère
+Montataire,montataire,1,Montataire,87276618,49.2510365,2.4362155,Montataire
+Montauban,montauban,1,Montauban-de-Bretagne,87471086,48.190241,-2.052675,Montauban-de-Bretagne
+Montauban Ville Bourbon,montauban ville bourbon,1,Montauban Ville Bourbon,87611244,44.014387,1.341496,Montauban Ville Bourbon
+Montaudran,montaudran,1,Montaudran,87612010,43.5734591,1.4804356,Montaudran
+Montaut Bétharram,montaut betharram,1,Montaut Bétharram,87672113,43.1269731,-0.1982813,Montaut Bétharram
+Montbard,montbard,1,Montbard,87713131,47.618747,4.33616,Montbard
+Montbarrey,montbarrey,1,Montbarrey,87718866,47.0359922,5.6366081,Montbarrey
+Montbartier,montbartier,1,Montbartier,87611699,43.9241555,1.264501,Montbartier
+Montbazon,montbazon,1,Montbazon,87571406,47.2917191,0.7214769,Montbazon
+Montbizot,montbizot,1,Montbizot,87396044,48.151513,0.1908607,Montbizot
+Montbrison,montbrison,1,Montbrison,87726448,45.604454,4.078282,Montbrison
+Montbéliard,montbeliard,1,Montbéliard,87184523,47.5105086,6.8013763,Montbéliard
+Montceau,montceau,1,Montceau-les-Mines,87694620,46.6706636,4.3610264,Montceau-les-Mines
+Montchanin,montchanin,1,Montchanin,87694307,46.7592649,4.4814867,Montchanin
+Montdidier,montdidier,1,Montdidier,87313346,49.64147,2.563,Montdidier
+Monte,monte,1,Monte-Carlo Country Club,87338590,43.75438,7.44821,Monte-Carlo Country Club
+Montendre,montendre,1,Montendre,87491183,45.2805457,-0.3961726,Montendre
+Montereau,montereau,1,Montereau,87682302,48.379934,2.942972,Montereau
+Montescourt,montescourt,1,Montescourt-Lizerolles,87296418,49.7380842,3.2519756,Montescourt-Lizerolles
+Monteux,monteux,1,Monteux,87765818,44.0374619,4.9947813,Monteux
+Montfavet,montfavet,1,Montfavet,87765412,43.932635,4.873943,Montfavet
+Montferrand,montferrand,1,Montferrand - Thoraise,87718106,47.1847414,5.9074815,Montferrand - Thoraise
+Montfort-l'Amaury,montfort-l'amaury,1,Montfort-l'Amaury - Méré,87393892,48.80224,1.8153507,Montfort-l'Amaury - Méré
+Montgeron,montgeron,1,Montgeron - Crosne,87682104,48.708094,2.462224,Montgeron - Crosne
+Montgeroult,montgeroult,1,Montgeroult - Courcelles,87381160,49.0805828,2.0034959,Montgeroult - Courcelles
+Monthermé,montherme,1,Monthermé,87172056,49.865621,4.74053,Monthermé
+Montlaur,montlaur,1,Montlaur,87618207,43.4752405,1.5776454,Montlaur
+Montlouis,montlouis,1,Montlouis-sur-Loire,87571273,47.3915307,0.8173987,Montlouis-sur-Loire
+Montluel,montluel,1,Montluel,87723569,45.84777,5.057503,Montluel
+Montluçon,montluçon,1,Montluçon,87641001,46.338101,2.596159,Montluçon
+Montluçon Rimard,montluçon rimard,1,Montluçon Rimard,87323675,46.3355913,2.6115119,Montluçon Rimard
+Montmoreau,montmoreau,1,Montmoreau,87583674,45.3982987,0.1380013,Montmoreau
+Montmorillon,montmorillon,1,Montmorillon,87575480,46.4174979,0.8737467,Montmorillon
+Montmédy,montmedy,1,Montmédy,87194209,49.5228775,5.3716718,Montmédy
+Montmélian,montmelian,1,Montmélian,87741181,45.503059,6.043289,Montmélian
+Montoir,montoir,1,Montoir-de-Bretagne,87481713,47.3210164,-2.1616777,Montoir-de-Bretagne
+Montpaon,montpaon,1,Montpaon,87781534,43.8685236,3.1097221,Montpaon
+Montpon,montpon,1,Montpon-Ménestérol,87595322,45.006326,0.159328,Montpon-Ménestérol
+Montrabé,montrabe,1,Montrabé,87611848,43.6450204,1.5240482,Montrabé
+Montreux,montreux,1,Montreux-Vieux,87184275,47.6178576,7.0253947,Montreux-Vieux
+Montrichard,montrichard,1,Montrichard,87574855,47.3437658,1.1717596,Montrichard
+Montroc le Planet,montroc le planet,1,Montroc le Planet,87746867,45.996415,6.9345425,Montroc le Planet
+Montrond,montrond,1,Montrond-les-Bains,87726885,45.644429,4.248814,Montrond-les-Bains
+Montry,montry,1,Montry - Condé,87116400,48.8908268,2.8262345,Montry - Condé
+Montréjeau,montrejeau,1,Montréjeau - Gourdan-Polignan,87611152,43.078109,0.5735,Montréjeau - Gourdan-Polignan
+Monts,monts,1,Monts,87575035,47.2818,0.65448,Monts
+Montsoult,montsoult,1,Montsoult - Maffliers,87276493,49.06611,2.32229,Montsoult - Maffliers
+Montsûrs,montsurs,1,Montsûrs,87478537,48.14149,-0.5506416,Montsûrs
+Montville,montville,1,Montville,87411801,49.551284,1.070046,Montville
+Montélimar,montelimar,1,Montélimar,87764001,44.559079,4.744792,Montélimar
+Montérolier,monterolier,1,Montérolier - Buchy,87411454,49.6031854,1.3347457,Montérolier - Buchy
+Monéteau,moneteau,1,Monéteau - Gurgy,87683557,47.8507856,3.5798071,Monéteau - Gurgy
+Moosch,moosch,1,Moosch,87182592,47.8607454,7.0507631,Moosch
+Morannes,morannes,1,Morannes,87484170,47.7390902,-0.4179693,Morannes
+Morbier,morbier,1,Morbier,87715433,46.5392164,6.0176446,Morbier
+Morcenx,morcenx,1,Morcenx,87673103,44.033565,-0.90864,Morcenx
+Moret,moret,1,Moret - Veneux-les-Sablons,87682278,48.37838,2.79941,Moret - Veneux-les-Sablons
+Moreuil,moreuil,1,Moreuil,87313320,49.77699,2.47582,Moreuil
+Morez,morez,1,Morez,87715441,46.5262166,6.023578,Morez
+Morgny,morgny,1,Morgny-la-Pommeraye,87411439,49.5232183,1.2478526,Morgny-la-Pommeraye
+Morhange,morhange,1,Morhange,87192286,48.9366239,6.6590266,Morhange
+Morières,morieres,1,Morières-lès-Avignon,87765420,43.9414696,4.9082052,Morières-lès-Avignon
+Morlaix,morlaix,1,Morlaix,87474338,48.57797,-3.832514,Morlaix
+Mormant,mormant,1,Mormant,87116087,48.613564,2.88881,Mormant
+Morre,morre,1,Morre,87391300,47.2259417,6.0673029,Morre
+Mortcerf,mortcerf,1,Mortcerf,87116244,48.7892191,2.9075554,Mortcerf
+Morteau,morteau,1,Morteau,87718619,47.053727,6.604653,Morteau
+Morvillars,morvillars,1,Morvillars,87184424,47.54952,6.93511,Morvillars
+Mothern,mothern,1,Mothern,87212456,48.9347327,8.1615803,Mothern
+Motteville,motteville,1,Motteville,87411280,49.6365717,0.8497988,Motteville
+Mouans,mouans,1,Mouans-Sartoux,87401323,43.620318,6.974114,Mouans-Sartoux
+Mouchard,mouchard,1,Mouchard,87718833,46.976911,5.799644,Mouchard
+Moulin Galant,moulin galant,1,Moulin Galant,87681403,48.58626,2.47332,Moulin Galant
+Moulins sur Allier,moulins sur allier,1,Moulins sur Allier,87696328,46.561346,3.338842,Moulins sur Allier
+Moulis,moulis,1,Moulis - Listrac,87581231,45.0840273,-0.7447365,Moulis - Listrac
+Moult,moult,1,Moult - Argences,87444190,49.1111851,-0.1864355,Moult - Argences
+Mourmelon,mourmelon,1,Mourmelon-le-Petit,87174409,49.1313076,4.3180982,Mourmelon-le-Petit
+Mouroux,mouroux,1,Mouroux,87116285,48.8139949,3.0423421,Mouroux
+Moustéru,mousteru,1,Moustéru,87473512,48.5074512,-3.2435052,Moustéru
+Mouy,mouy,1,Mouy - Bury,87313577,49.32045,2.32635,Mouy - Bury
+Moyeuvre,moyeuvre,1,Moyeuvre-Grande,87191718,49.246713,6.043226,Moyeuvre-Grande
+Moûtiers,moutiers,1,Moûtiers - Salins - Brides-les-Bains,87741728,45.486344,6.531425,Moûtiers - Salins - Brides-les-Bains
+Muhlbach,muhlbach,1,Muhlbach-sur-Munster,87182733,48.0246077,7.0875666,Muhlbach-sur-Munster
+Muizon,muizon,1,Muizon,87171298,49.2781012,3.8915287,Muizon
+Mullerhof,mullerhof,1,Mullerhof,87214643,48.52451,7.3119577,Mullerhof
+Munchhausen,munchhausen,1,Munchhausen,87212449,48.9237982,8.1409912,Munchhausen
+Mundolsheim,mundolsheim,1,Mundolsheim,87212100,48.6447732,7.721389,Mundolsheim
+Munster,munster,1,Munster,87182394,48.0383438,7.1341728,Munster
+Munster Badischhof,munster badischhof,1,Munster Badischhof,87386540,48.0390754,7.1528861,Munster Badischhof
+Murat,murat,1,Murat,87645481,45.1091483,2.8696045,Murat
+Muret,muret,1,Muret,87611038,43.464824,1.324449,Muret
+Mussidan,mussidan,1,Mussidan,87595298,45.034329,0.354071,Mussidan
+Musée d'Orsay,musee d'orsay,1,Musée d'Orsay,87547307,48.86079,2.325671,Musée d'Orsay
+Mutzig,mutzig,1,Mutzig,87214585,48.5337753,7.4621581,Mutzig
+Mâcon,macon,1,Mâcon,87725689,46.302572,4.824887,Mâcon
+Mâcon Loché TGV,macon loche tgv,1,Mâcon Loché TGV,87725705,46.282884,4.778876,Mâcon Loché TGV
+Mâlain,malain,1,Mâlain,87713065,47.3270025,4.8105362,Mâlain
+Ménil Flin,menil flin,1,Ménil Flin,87141390,48.5050204,6.6592265,Ménil Flin
+Mérens,merens,1,Mérens-les-Vals,87611525,42.6594883,1.8371278,Mérens-les-Vals
+Mérenvielle,merenvielle,1,Mérenvielle,87611814,43.6365051,1.1503303,Mérenvielle
+Méricourt,mericourt,1,Méricourt - Ribemont,87313064,49.9556384,2.5726254,Méricourt - Ribemont
+Mériel,meriel,1,Mériel,87276675,49.07777,2.20528,Mériel
+Mérignac Arlac,merignac arlac,1,Mérignac Arlac,87278259,44.8265601,-0.6261402,Mérignac Arlac
+Méroux,meroux,1,Méroux,87184408,47.58659,6.89903,Méroux
+Méru,meru,1,Méru,87313668,49.23233,2.13254,Méru
+Méry,mery,1,Méry-sur-Oise,87276667,49.05766,2.19074,Méry-sur-Oise
+Mézidon,mezidon,1,Mézidon-Canon,87444208,49.071,-0.07496,Mézidon-Canon
+Mézériat,mezeriat,1,Mézériat,87725838,46.2350502,5.046622,Mézériat
+Naintré,naintre,1,Naintré,87575175,46.7595303,0.4963446,Naintré
+Najac,najac,1,Najac,87613463,44.221802,1.9761625,Najac
+Namps,namps,1,Namps - Quevauvillers,87313379,49.8082274,2.1053184,Namps - Quevauvillers
+Nancy,nancy,1,Nancy,87141002,48.689861,6.174583,Nancy
+Nangis,nangis,1,Nangis,87116095,48.561336,3.012619,Nangis
+Nanterre La Folie,nanterre la folie,1,Nanterre La Folie,87386011,48.897377,2.224397,Nanterre La Folie
+Nanterre Université,nanterre universite,1,Nanterre Université,87386318,48.90122,2.2158277,Nanterre Université
+Nantes,nantes,1,Nantes,87481002,47.216148,-1.542356,Nantes
+Nantiat,nantiat,1,Nantiat,87592444,46.0056192,1.1563734,Nantiat
+Nançois,nançois,1,Nançois - Tronville,87175067,48.7180423,5.2912016,Nançois - Tronville
+Narbonne,narbonne,1,Narbonne,87781104,43.190387,3.00591,Narbonne
+Naucelle,naucelle,1,Naucelle,87615732,44.1854793,2.363504,Naucelle
+Neau,neau,1,Neau,87478545,48.1574807,-0.4766725,Neau
+Nemours,nemours,1,Nemours - Saint-Pierre,87684126,48.267884,2.685754,Nemours - Saint-Pierre
+Nerpuy,nerpuy,1,Nerpuy,87575167,46.7834177,0.5256884,Nerpuy
+Nesle,nesle,1,Nesle,87313486,49.7639147,2.9089882,Nesle
+Neufchâteau,neufchateau,1,Neufchâteau,87141291,48.3583428,5.6904018,Neufchâteau
+Neufchâtel,neufchatel,1,Neufchâtel-Hardelot,87317099,50.62364,1.643115,Neufchâtel-Hardelot
+Neuilly,neuilly,1,Neuilly - Porte Maillot,87381020,48.877983,2.284516,Neuilly - Porte Maillot
+Neuilly Porte Maillot RER E,neuilly porte maillot rer e,1,Neuilly Porte Maillot RER E,87731448,,,Neuilly Porte Maillot RER E
+Neuillé,neuille,1,Neuillé-Pont-Pierre,87571547,47.5580135,0.5649155,Neuillé-Pont-Pierre
+Neussargues,neussargues,1,Neussargues,87645507,45.1253044,2.9791866,Neussargues
+Neuves,neuves,1,Neuves-Maisons,87141507,48.6147666,6.1078904,Neuves-Maisons
+Neuvic,neuvic,1,Neuvic,87595272,45.0999632,0.4450162,Neuvic
+Neuville,neuville,1,Neuville-sur-Sarthe,87396028,48.0705577,0.1997294,Neuville-sur-Sarthe
+Neuville Université,neuville universite,1,Neuville Université,87334482,49.01426,2.07886,Neuville Université
+Neuvy,neuvy,1,Neuvy-Pailloux,87597070,46.883564,1.8642473,Neuvy-Pailloux
+Nevers,nevers,1,Nevers,87696005,46.987282,3.150743,Nevers
+Nevers Le Banlay,nevers le banlay,1,Nevers Le Banlay,87559070,47.0068974,3.1636746,Nevers Le Banlay
+Nexon,nexon,1,Nexon,87592725,45.6915692,1.1784396,Nexon
+Niederbronn,niederbronn,1,Niederbronn-les-Bains,87213256,48.9523989,7.6341348,Niederbronn-les-Bains
+Nieppe,nieppe,1,Nieppe,87287151,50.6966975,2.8289655,Nieppe
+Nieul,nieul,1,Nieul,87592410,45.9273896,1.1723974,Nieul
+Niolon,niolon,1,Niolon,87753582,43.340223,5.2569415,Niolon
+Niort,niort,1,Niort,87485300,46.319491,-0.454639,Niort
+Niversac,niversac,1,Niversac,87595512,45.1383083,0.8082195,Niversac
+Nogent-l'Artaud,nogent-l'artaud,1,Nogent-l'Artaud - Charly,87116566,48.968872,3.3220981,Nogent-l'Artaud - Charly
+Nointel,nointel,1,Nointel - Mours,87276758,49.1327,2.28066,Nointel - Mours
+Noizay,noizay,1,Noizay,87574368,47.4096869,0.8959456,Noizay
+Nomain,nomain,1,Nomain,87286609,50.5023744,3.2063499,Nomain
+Nonancourt,nonancourt,1,Nonancourt,87393553,48.7757257,1.1929162,Nonancourt
+Nort,nort,1,Nort-sur-Erdre,87481598,47.4419243,-1.5033645,Nort-sur-Erdre
+Nortkerque,nortkerque,1,Nortkerque,87287292,50.8829544,2.0231501,Nortkerque
+Nouan,nouan,1,Nouan-le-Fuzelier,87543157,47.5337788,2.0330957,Nouan-le-Fuzelier
+Nouvion,nouvion,1,Nouvion-sur-Meuse,87172213,49.6973135,4.794973,Nouvion-sur-Meuse
+Nouzonville,nouzonville,1,Nouzonville,87172023,49.8120125,4.7428155,Nouzonville
+Novillars,novillars,1,Novillars,87718411,47.2839618,6.1327011,Novillars
+Novéant,noveant,1,Novéant-sur-Moselle,87192427,49.028635,6.052101,Novéant-sur-Moselle
+Noyal,noyal,1,Noyal - Acigné,87471540,48.1187915,-1.5277646,Noyal - Acigné
+Noyelles,noyelles,1,Noyelles-sur-Mer,87317396,50.1875408,1.7045772,Noyelles-sur-Mer
+Noyen,noyen,1,Noyen-sur-Sarthe,87396374,47.8744544,-0.0981755,Noyen-sur-Sarthe
+Noyon,noyon,1,Noyon,87276782,49.57736,3.00641,Noyon
+Nozières,nozieres,1,Nozières - Brignon,87775353,43.9760134,4.2072916,Nozières - Brignon
+Nuits,nuits,1,Nuits-Saint-Georges,87713529,47.130545,4.956204,Nuits-Saint-Georges
+Nuits sous Ravières,nuits sous ravieres,1,Nuits sous Ravières,87713156,47.7291142,4.211186,Nuits sous Ravières
+Nurieux,nurieux,1,Nurieux-Volognat,87743351,46.1842195,5.5327486,Nurieux-Volognat
+Négrondes,negrondes,1,Négrondes,87595132,45.3460288,0.8611999,Négrondes
+Nérondes,nerondes,1,Nérondes,87576454,46.9996897,2.8221695,Nérondes
+Nézel,nezel,1,Nézel - Aulnay,87381731,48.9387638,1.8405298,Nézel - Aulnay
+Nœux,nœux,1,Nœux-les-Mines,87342139,50.48297,2.67393,Nœux-les-Mines
+Obermodern,obermodern,1,Obermodern-Zutzendorf,87213165,48.8426083,7.547015,Obermodern-Zutzendorf
+Obernai,obernai,1,Obernai,87214288,48.46219,7.48881,Obernai
+Objat,objat,1,Objat,87594630,45.2647335,1.4068293,Objat
+Oderen,oderen,1,Oderen,87182634,47.9118756,6.9734829,Oderen
+Oermingen,oermingen,1,Oermingen,87215632,49.0003724,7.1317322,Oermingen
+Ogeu,ogeu,1,Ogeu-les-Bains,87672709,43.153939,-0.5076467,Ogeu-les-Bains
+Oissel,oissel,1,Oissel,87411207,49.34306,1.101799,Oissel
+Olette,olette,1,Olette - Canaveilles,87784728,42.55472,2.2719309,Olette - Canaveilles
+Ollioules,ollioules,1,Ollioules - Sanary-sur-Mer,87755231,43.122586,5.824979,Ollioules - Sanary-sur-Mer
+Olonne,olonne,1,Olonne-sur-Mer,87486431,46.5486605,-1.76738,Olonne-sur-Mer
+Oloron,oloron,1,Oloron-Sainte-Marie,87672725,43.1947669,-0.6122826,Oloron-Sainte-Marie
+Ondres,ondres,1,Ondres,87673319,43.5685809,-1.4571793,Ondres
+Onville,onville,1,Onville,87192435,49.01367,5.97909,Onville
+Onzain,onzain,1,Onzain - Chaumont-sur-Loire,87574319,47.492,1.18595,Onzain - Chaumont-sur-Loire
+Orange,orange,1,Orange,87765107,44.137304,4.819594,Orange
+Orangis Bois de l'Épine,orangis bois de l'epine,1,Orangis Bois de l'Épine,87681346,48.63626,2.407736,Orangis Bois de l'Épine
+Orchamps,orchamps,1,Orchamps,87718361,47.1500962,5.659147,Orchamps
+Orchies,orchies,1,Orchies,87286583,50.47705,3.24888,Orchies
+Orgerus,orgerus,1,Orgerus - Béhoust,87393447,48.8267809,1.7028344,Orgerus - Béhoust
+Orgon,orgon,1,Orgon,87753707,43.7859131,5.0456738,Orgon
+Orly Ville,orly ville,1,Orly Ville,87546200,48.741815,2.40265,Orly Ville
+Orléans,orleans,1,Orléans,87543009,47.90796,1.904666,Orléans
+Ormoy,ormoy,1,Ormoy-Villers,87271585,49.2003204,2.8379502,Ormoy-Villers
+Orry-la-Ville,orry-la-ville,1,Orry-la-Ville - Coye,87276279,49.13895,2.49,Orry-la-Ville - Coye
+Ors,ors,1,Ors,87295667,50.1031718,3.626754,Ors
+Orthez,orthez,1,Orthez,87672253,43.484242,-0.76776,Orthez
+Osny,osny,1,Osny,87381145,49.06283,2.05771,Osny
+Ossès,osses,1,Ossès - Saint-Martin-d'Arrossa,87673707,43.2352119,-1.3048922,Ossès - Saint-Martin-d'Arrossa
+Ostricourt,ostricourt,1,Ostricourt,87345249,50.44542,3.03244,Ostricourt
+Oudon,oudon,1,Oudon,87481184,47.3433655,-1.291992,Oudon
+Ouges,ouges,1,Ouges,87712604,47.2559157,5.0727895,Ouges
+Oullins,oullins,1,Oullins,87722207,45.7166261,4.8135793,Oullins
+Ourscamp,ourscamp,1,Ourscamp,87276774,49.5341405,2.9540017,Ourscamp
+Oyonnax,oyonnax,1,Oyonnax,87743534,46.259742,5.653338,Oyonnax
+Ozoir,ozoir,1,Ozoir-la-Ferrière,87116020,48.77072,2.689841,Ozoir-la-Ferrière
+Paimpol,paimpol,1,Paimpol,87473868,48.77694,-3.0460958,Paimpol
+Pamiers,pamiers,1,Pamiers,87611343,43.116207,1.619451,Pamiers
+Pamproux,pamproux,1,Pamproux,87485524,46.3996295,-0.051931,Pamproux
+Pantin,pantin,1,Pantin,87113209,48.898096,2.400685,Pantin
+Paray,paray,1,Paray-le-Monial,87694687,46.447312,4.113744,Paray-le-Monial
+Parc des Expositions,parc des expositions,1,Parc des Expositions,87271486,48.97334,2.51382,Parc des Expositions
+Parempuyre,parempuyre,1,Parempuyre,87581710,44.9447032,-0.6193396,Parempuyre
+Parent,parent,1,Parent - Coudes - Champeix,87734194,45.6139737,3.2178245,Parent - Coudes - Champeix
+Parsac,parsac,1,Parsac - Gouzon,87597724,46.1986154,2.1744416,Parsac - Gouzon
+Pas des Lanciers,pas des lanciers,1,Pas des Lanciers,87753285,43.409655,5.253822,Pas des Lanciers
+Pau,pau,1,Pau,87672006,43.291762,-0.369626,Pau
+Pauillac,pauillac,1,Pauillac,87581256,45.2038438,-0.7551342,Pauillac
+Paulhaguet,paulhaguet,1,Paulhaguet,87734293,45.2101978,3.5004445,Paulhaguet
+Pavilly,pavilly,1,Pavilly,87411272,49.563897,0.950644,Pavilly
+Peltre,peltre,1,Peltre,87192203,49.073877,6.2220476,Peltre
+Penhoët,penhoet,1,Penhoët,87321745,47.2907444,-2.2008664,Penhoët
+Penne,penne,1,Penne-d'Agenais,87586438,44.3799858,0.8029779,Penne-d'Agenais
+Penthièvre,penthievre,1,Penthièvre,87476424,47.5580254,-3.1330754,Penthièvre
+Pernes,pernes,1,Pernes - Camblain,87342550,50.4802048,2.4310823,Pernes - Camblain
+Perpignan,perpignan,1,Perpignan,87784009,42.696292,2.879779,Perpignan
+Perrignier,perrignier,1,Perrignier,87745620,46.303259,6.4249208,Perrignier
+Pers,pers,1,Pers,87645176,44.887025,2.2403887,Pers
+Persan,persan,1,Persan - Beaumont,87276469,49.14795,2.27914,Persan - Beaumont
+Pertuis,pertuis,1,Pertuis,87751362,43.6845547,5.5037023,Pertuis
+Pessac,pessac,1,Pessac,87581751,44.80461,-0.63185,Pessac
+Pessac Alouette,pessac alouette,1,Pessac Alouette,87581793,44.793355,-0.65965,Pessac Alouette
+Petit,petit,1,Petit-Croix,87184267,47.6101045,6.9947414,Petit-Croix
+Petit Jouy,petit jouy,1,Petit Jouy - Les Loges,87393504,48.770943,2.1470148,Petit Jouy - Les Loges
+Petit Vaux,petit vaux,1,Petit Vaux,87393652,48.675859,2.3339755,Petit Vaux
+Peyrehorade,peyrehorade,1,Peyrehorade,87672337,43.5468102,-1.1157577,Peyrehorade
+Peyrilhac,peyrilhac,1,Peyrilhac - Saint-Jouvent,87592428,45.9596182,1.1699844,Peyrilhac - Saint-Jouvent
+Pezou,pezou,1,Pezou,87574541,47.8673364,1.1408714,Pezou
+Phalempin,phalempin,1,Phalempin,87286500,50.5154,3.0199,Phalempin
+Pibrac,pibrac,1,Pibrac,87611830,43.621364,1.289237,Pibrac
+Picon Busserine,picon busserine,1,Picon Busserine,87759290,43.3309989,5.3927456,Picon Busserine
+Picquigny,picquigny,1,Picquigny,87313106,49.9461557,2.1432765,Picquigny
+Pierrelatte,pierrelatte,1,Pierrelatte,87764308,44.374719,4.703783,Pierrelatte
+Pierrelaye,pierrelaye,1,Pierrelaye,87276097,49.01955,2.15371,Pierrelaye
+Pignans,pignans,1,Pignans,87755389,43.298475,6.2248459,Pignans
+Pihen,pihen,1,Pihen-lès-Guînes,87316679,50.8727855,1.7845632,Pihen-lès-Guînes
+Pins,pins,1,Pins-Justaret,87618116,43.479213,1.399645,Pins-Justaret
+Plancoët,plancoet,1,Plancoët,87473272,48.5216785,-2.2289207,Plancoët
+Plerguer,plerguer,1,Plerguer,87478123,48.5314637,-1.8505895,Plerguer
+Plestan,plestan,1,Plestan,87473090,48.4256462,-2.4424607,Plestan
+Pleudihen,pleudihen,1,Pleudihen-sur-Rance,87478149,48.4993822,-1.9617515,Pleudihen-sur-Rance
+Pleyber,pleyber,1,Pleyber-Christ,87474320,48.5078255,-3.8825543,Pleyber-Christ
+Plouaret Trégor,plouaret tregor,1,Plouaret Trégor,87473181,48.6062816,-3.4668231,Plouaret Trégor
+Plougonver,plougonver,1,Plougonver,87473538,48.4584133,-3.3704584,Plougonver
+Plouharnel,plouharnel,1,Plouharnel - Carnac,87476416,47.6042943,-3.1184482,Plouharnel - Carnac
+Plouigneau,plouigneau,1,Plouigneau,87474411,48.5647064,-3.7100572,Plouigneau
+Plounérin,plounerin,1,Plounérin,87473199,48.5816298,-3.5682311,Plounérin
+Plouvara,plouvara,1,Plouvara - Plerneuf,87473132,48.508585,-2.8925136,Plouvara - Plerneuf
+Pléchâtel,plechatel,1,Pléchâtel,87471177,47.8719509,-1.7763615,Pléchâtel
+Plénée,plenee,1,Plénée-Jugon,87473082,48.376656,-2.3546108,Plénée-Jugon
+Podensac,podensac,1,Podensac,87582734,44.6489664,-0.3589057,Podensac
+Pointe de Grave,pointe de grave,1,Pointe de Grave,87581397,45.567067,-1.0658575,Pointe de Grave
+Poissy,poissy,1,Poissy,87386573,48.9329014,2.0413676,Poissy
+Poitiers,poitiers,1,Poitiers,87575001,46.582275,0.333241,Poitiers
+Poligny,poligny,1,Poligny,87718189,46.8443393,5.7001051,Poligny
+Poliénas,polienas,1,Poliénas,87761742,45.256006,5.4735849,Poliénas
+Polliat,polliat,1,Polliat,87725846,46.24464,5.1238268,Polliat
+Pomas,pomas,1,Pomas,87615146,43.1123875,2.2892273,Pomas
+Pompey,pompey,1,Pompey,87141788,48.77304,6.13061,Pompey
+Pons,pons,1,Pons,87491100,45.5780767,-0.5389124,Pons
+Pont Cardinet,pont cardinet,1,Pont Cardinet,87381111,48.88755,2.31425,Pont Cardinet
+Pont Petit,pont petit,1,Pont Petit,87276154,49.06004,2.13046,Pont Petit
+Pont d'Ardres,pont d'ardres,1,Pont d'Ardres,87281410,50.8920781,1.9712144,Pont d'Ardres
+Pont de Bois,pont de bois,1,Pont de Bois,87286831,50.62403,3.13026,Pont de Bois
+Pont de Briques,pont de briques,1,Pont de Briques,87317115,50.6828164,1.6268038,Pont de Briques
+Pont de Dore,pont de dore,1,Pont de Dore,87734459,45.8427833,3.4903254,Pont de Dore
+Pont de Lignon,pont de lignon,1,Pont de Lignon,87726786,45.2597792,4.1372431,Pont de Lignon
+Pont de Rungis Aéroport d'Orly,pont de rungis aeroport d'orly,1,Pont de Rungis Aéroport d'Orly,87546192,48.748163,2.372792,Pont de Rungis Aéroport d'Orly
+Pont de Sallaumines,pont de sallaumines,1,Pont de Sallaumines,87345124,50.4157922,2.8632044,Pont de Sallaumines
+Pont de l'Alma,pont de l'alma,1,Pont de l'Alma,87393041,48.8625705,2.3010287,Pont de l'Alma
+Pont de la Deûle,pont de la deule,1,Pont de la Deûle,87345207,50.39813,3.08503,Pont de la Deûle
+Pont du Garigliano,pont du garigliano,1,Pont du Garigliano - Hôpital Européen Georges Pompidou,87393322,48.839464,2.2712276,Pont du Garigliano - Hôpital Européen Georges Pompidou
+Pontanevaux,pontanevaux,1,Pontanevaux,87725721,46.2130321,4.7728891,Pontanevaux
+Pontarlier,pontarlier,1,Pontarlier,87715003,46.900944,6.353524,Pontarlier
+Pontchaillou,pontchaillou,1,Pontchaillou,87471391,48.11918,-1.69107,Pontchaillou
+Pontcharra,pontcharra,1,Pontcharra - Saint-Forgeux,87721464,45.8714911,4.4927781,Pontcharra - Saint-Forgeux
+Pontcharra sur Bréda,pontcharra sur breda,1,Pontcharra sur Bréda,87747493,45.434151,6.007917,Pontcharra sur Bréda
+Pontchâteau,pontchateau,1,Pontchâteau,87481846,47.435399,-2.088201,Pontchâteau
+Pontgouin,pontgouin,1,Pontgouin,87394247,48.477867,1.1414359,Pontgouin
+Ponthierry,ponthierry,1,Ponthierry - Pringy,87682526,48.534933,2.54459,Ponthierry - Pringy
+Pontmort,pontmort,1,Pontmort,87734103,45.939486,3.1601248,Pontmort
+Pontoise,pontoise,1,Pontoise,87276139,49.04709,2.09545,Pontoise
+Pontorson,pontorson,1,Pontorson - Mont-Saint-Michel,87478263,48.5527286,-1.5049307,Pontorson - Mont-Saint-Michel
+Pontrieux,pontrieux,1,Pontrieux,87473843,48.7056437,-3.1574281,Pontrieux
+Pontrieux Halte,pontrieux halte,1,Pontrieux Halte,87473835,48.6980361,-3.1644959,Pontrieux Halte
+Porchefontaine,porchefontaine,1,Porchefontaine,87393165,48.7969381,2.1540156,Porchefontaine
+Pornic,pornic,1,Pornic,87481283,47.1145616,-2.0975565,Pornic
+Pornichet,pornichet,1,Pornichet,87481747,47.2705354,-2.3445765,Pornichet
+Port Boulet,port boulet,1,Port Boulet,87571794,47.248836,0.155648,Port Boulet
+Port-Saint-Père,port-saint-pere,1,Port-Saint-Père - Saint-Mars,87481218,47.1164915,-1.7393069,Port-Saint-Père - Saint-Mars
+Porte de Clichy,porte de clichy,1,Porte de Clichy,87111278,48.89399,2.31462,Porte de Clichy
+Portet Saint,portet saint,1,Portet Saint-Simon,87611400,43.527904,1.389243,Portet Saint-Simon
+Portets,portets,1,Portets,87582718,44.6929765,-0.4253931,Portets
+Porté,porte,1,Porté-Puymorens,87611509,42.539136,1.8248462,Porté-Puymorens
+Pougny,pougny,1,Pougny - Chancy,87745380,46.1446674,5.9613614,Pougny - Chancy
+Pougues,pougues,1,Pougues-les-Eaux,87696211,47.0767837,3.0940304,Pougues-les-Eaux
+Pouilly,pouilly,1,Pouilly-sur-Loire,87696179,47.2821696,2.9660634,Pouilly-sur-Loire
+Pouxeux,pouxeux,1,Pouxeux,87144428,48.1039421,6.5810266,Pouxeux
+Pouzauges,pouzauges,1,Pouzauges,87487314,46.7523536,-0.8146784,Pouzauges
+Prades,prades,1,Prades - Molitg-les-Bains,87784637,42.6170988,2.4294184,Prades - Molitg-les-Bains
+Preignac,preignac,1,Preignac,87582767,44.5783064,-0.3022296,Preignac
+Presles Courcelles,presles courcelles,1,Presles Courcelles,87276501,49.11346,2.28759,Presles Courcelles
+Prin,prin,1,Prin-Deyrançon,87485268,46.2190177,-0.6365007,Prin-Deyrançon
+Pringy,pringy,1,Pringy,87746206,45.9395239,6.1232736,Pringy
+Prissé,prisse,1,Prissé-la-Charrière,87485359,46.15277,-0.4936249,Prissé-la-Charrière
+Prouvy,prouvy,1,Prouvy - Thiant,87343418,50.3167933,3.4610838,Prouvy - Thiant
+Provenchères,provencheres,1,Provenchères-sur-Fave,87144345,48.3046291,7.0854904,Provenchères-sur-Fave
+Provins,provins,1,Provins,87116160,48.55577,3.302822,Provins
+Prunay,prunay,1,Prunay,87171629,49.1988,4.18364,Prunay
+Pruniers,pruniers,1,Pruniers-en-Sologne,87576199,47.313174,1.6722045,Pruniers-en-Sologne
+Précy,precy,1,Précy-sur-Oise,87276410,49.2033492,2.3764638,Précy-sur-Oise
+Puget,puget,1,Puget-Ville,87755363,43.283085,6.1384483,Puget-Ville
+Puteaux,puteaux,1,Puteaux,87382382,48.88351,2.2335,Puteaux
+Puybrun,puybrun,1,Puybrun,87594754,44.9216335,1.7841548,Puybrun
+Puyoô,puyoo,1,Puyoô,87672279,43.5245425,-0.9108149,Puyoô
+Péreire,pereire,1,Péreire - Levallois,87381012,48.8853581,2.2979465,Péreire - Levallois
+Pérenchies,perenchies,1,Pérenchies,87286278,50.66697,2.97729,Pérenchies
+Périgueux,perigueux,1,Périgueux,87595009,45.187408,0.707879,Périgueux
+Questembert,questembert,1,Questembert,87476671,47.6831803,-2.4496002,Questembert
+Quiberon,quiberon,1,Quiberon,87476457,47.4852978,-3.1181869,Quiberon
+Quimper,quimper,1,Quimper,87474098,47.994455,-4.092103,Quimper
+Quimperlé,quimperle,1,Quimperlé,87476317,47.869375,-3.552693,Quimperlé
+Quincieux,quincieux,1,Quincieux,87721290,45.9068815,4.7785643,Quincieux
+Quédillac,quedillac,1,Quédillac,87473058,48.2484804,-2.1452204,Quédillac
+Rabastens,rabastens,1,Rabastens - Coufouleux,87615328,43.819751,1.730567,Rabastens - Coufouleux
+Raedersheim,raedersheim,1,Raedersheim,87182717,47.8869059,7.2840467,Raedersheim
+Raismes,raismes,1,Raismes,87343319,50.3902495,3.4788322,Raismes
+Rambouillet,rambouillet,1,Rambouillet,87393314,48.64377,1.83154,Rambouillet
+Ranchot,ranchot,1,Ranchot,87718338,47.1525633,5.7246607,Ranchot
+Rang-du-Fliers,rang-du-fliers,1,Rang-du-Fliers - Verton - Berck,87317057,50.41579,1.64805,Rang-du-Fliers - Verton - Berck
+Ranguin,ranguin,1,Ranguin,87757732,43.5691636,6.9693134,Ranguin
+Ranspach,ranspach,1,Ranspach,87182402,47.88157,7.01266,Ranspach
+Raon,raon,1,Raon-l'Étape,87144626,48.404002,6.837302,Raon-l'Étape
+Rassuen,rassuen,1,Rassuen,87753426,43.4966716,4.9731266,Rassuen
+Razac,razac,1,Razac-sur-l'Isle,87595223,45.1659287,0.5992849,Razac-sur-l'Isle
+Recquignies,recquignies,1,Recquignies,87295022,50.2840466,4.0445029,Recquignies
+Redon,redon,1,Redon,87471300,47.652004,-2.08777,Redon
+Reichshoffen,reichshoffen,1,Reichshoffen,87213249,48.9310582,7.658132,Reichshoffen
+Reignac,reignac,1,Reignac-sur-Indre,87571455,47.2178494,0.9013322,Reignac-sur-Indre
+Reignier,reignier,1,Reignier-Ésery,87746511,46.1256159,6.2675466,Reignier-Ésery
+Remiremont,remiremont,1,Remiremont,87144451,48.016363,6.598855,Remiremont
+Remise à Jorelle,remise a jorelle,1,Remise à Jorelle,87988709,48.89317,2.487751,Remise à Jorelle
+Remy,remy,1,Remy,87313403,49.4331452,2.7059434,Remy
+Renescure,renescure,1,Renescure,87281451,50.732006,2.3713644,Renescure
+Rennes,rennes,1,Rennes,87471003,48.103517,-1.672744,Rennes
+Rethel,rethel,1,Rethel,87172270,49.504393,4.369566,Rethel
+Retiers,retiers,1,Retiers,87471359,47.9132599,-1.3898439,Retiers
+Retournac,retournac,1,Retournac,87734749,45.2013468,4.0361169,Retournac
+Reuilly,reuilly,1,Reuilly,87597039,47.0853677,2.0474783,Reuilly
+Revigny,revigny,1,Revigny-sur-Ornain,87175018,48.8240449,4.9855736,Revigny-sur-Ornain
+Revin,revin,1,Revin,87172080,49.938756,4.642536,Revin
+Rezé Pont Rousseau,reze pont rousseau,1,Rezé Pont Rousseau,87481036,47.1932425,-1.5495445,Rezé Pont Rousseau
+Ria,ria,1,Ria-Sirach,87784660,42.6034078,2.3907488,Ria-Sirach
+Ribécourt,ribecourt,1,Ribécourt-Dreslincourt,87276766,49.50633,2.92714,Ribécourt-Dreslincourt
+Riedseltz,riedseltz,1,Riedseltz,87213462,48.991063,7.962988,Riedseltz
+Rieux,rieux,1,Rieux - Angicourt,87276352,49.29866,2.5214,Rieux - Angicourt
+Rilly,rilly,1,Rilly-la-Montagne,87171595,49.1664524,4.0408608,Rilly-la-Montagne
+Riom,riom,1,Riom - Châtel-Guyon,87734053,45.889965,3.120498,Riom - Châtel-Guyon
+Ris,ris,1,Ris-Orangis,87681338,48.659442,2.41442,Ris-Orangis
+Rivarennes,rivarennes,1,Rivarennes,87571653,47.2677425,0.3618999,Rivarennes
+Rive,rive,1,Rive-de-Gier,87726331,45.524324,4.606648,Rive-de-Gier
+Rives,rives,1,Rives,87747246,45.357535,5.491893,Rives
+Rivesaltes,rivesaltes,1,Rivesaltes,87784173,42.7664405,2.86789,Rivesaltes
+Rixheim,rixheim,1,Rixheim,87182071,47.74896,7.406404,Rixheim
+Roanne,roanne,1,Roanne,87726802,46.039383,4.063207,Roanne
+Rocamadour,rocamadour,1,Rocamadour - Padirac,87613042,44.8183562,1.6573487,Rocamadour - Padirac
+Roche,roche,1,Roche-lez-Beaupré,87718403,47.2762881,6.1109651,Roche-lez-Beaupré
+Rochefort,rochefort,1,Rochefort,87485144,45.947189,-0.963556,Rochefort
+Rochy,rochy,1,Rochy-Condé,87313601,49.3986042,2.1727344,Rochy-Condé
+Rodez,rodez,1,Rodez,87613422,44.362633,2.58056,Rodez
+Roeschwoog,roeschwoog,1,Roeschwoog,87212407,48.8334661,8.0298738,Roeschwoog
+Rognac,rognac,1,Rognac,87753251,43.4866,5.230666,Rognac
+Roissy,roissy,1,Roissy-en-Brie,87116038,48.795481,2.650165,Roissy-en-Brie
+Romans,romans,1,Romans - Bourg-de-Péage,87761650,45.048857,5.0498,Romans - Bourg-de-Péage
+Romanèche,romaneche,1,Romanèche-Thorins,87725739,46.1763913,4.7421014,Romanèche-Thorins
+Rombas,rombas,1,Rombas - Clouange,87191734,49.2560553,6.0990538,Rombas - Clouange
+Romorantin,romorantin,1,Romorantin-Lanthenay,87576025,47.3554468,1.7390137,Romorantin-Lanthenay
+Ronchamp,ronchamp,1,Ronchamp,87185314,47.6990308,6.6232791,Ronchamp
+Ronchin,ronchin,1,Ronchin,87286534,50.6045664,3.0783734,Ronchin
+Roppenheim,roppenheim,1,Roppenheim,87212415,48.8510962,8.0623108,Roppenheim
+Roquebrune,roquebrune,1,Roquebrune-Cap-Martin,87756460,43.7606178,7.457343,Roquebrune-Cap-Martin
+Roquesérière,roqueseriere,1,Roquesérière - Buzet,87615351,43.7512472,1.6198753,Roquesérière - Buzet
+Rosa Parks,rosa parks,1,Rosa Parks,87654798,48.89602,2.37397,Rosa Parks
+Rosheim,rosheim,1,Rosheim,87214320,48.50525,7.49093,Rosheim
+Rosny Bois Perrier,rosny bois perrier,1,Rosny Bois Perrier,87113696,48.882568,2.480987,Rosny Bois Perrier
+Rosporden,rosporden,1,Rosporden,87474155,47.960273,-3.832763,Rosporden
+Rosult,rosult,1,Rosult,87286567,50.4563667,3.3490115,Rosult
+Rothau,rothau,1,Rothau,87214726,48.4590026,7.2074902,Rothau
+Roubaix,roubaix,1,Roubaix,87286732,50.69561,3.16348,Roubaix
+Rouen,rouen,1,Rouen Rive Droite,87411017,49.448764,1.094087,Rouen Rive Droite
+Rouffach,rouffach,1,Rouffach,87182337,47.9602481,7.312455,Rouffach
+Rougemont Chanteloup,rougemont chanteloup,1,Rougemont Chanteloup,87431791,48.930895,2.51502,Rougemont Chanteloup
+Rouillé,rouille,1,Rouillé,87485532,46.4190206,0.042169,Rouillé
+Rountzenheim,rountzenheim,1,Rountzenheim,87212373,48.820435,8.0119078,Rountzenheim
+Royan,royan,1,Royan,87491803,45.625886,-1.016703,Royan
+Royat,royat,1,Royat - Chamalières,87734038,45.7676495,3.0615022,Royat - Chamalières
+Rue,rue,1,Rue,87317404,50.27308,1.6757,Rue
+Ruffec,ruffec,1,Ruffec,87583849,46.0305185,0.1902055,Ruffec
+Ruffey,ruffey,1,Ruffey-lès-Echirey,87713826,47.370587,5.079358,Ruffey-lès-Echirey
+Rully,rully,1,Rully,87712026,46.8804303,4.761033,Rully
+Rumilly,rumilly,1,Rumilly,87746149,45.862989,5.947938,Rumilly
+Ruminghem,ruminghem,1,Ruminghem,87287300,50.8620636,2.1576706,Ruminghem
+Rungis La Fraternelle,rungis la fraternelle,1,Rungis La Fraternelle,87546291,48.74032,2.35298,Rungis La Fraternelle
+Russ Hersbach,russ hersbach,1,Russ Hersbach,87214684,48.4982211,7.2519246,Russ Hersbach
+Réaumont,reaumont,1,Réaumont - Saint-Cassien,87747279,45.3688217,5.5346895,Réaumont - Saint-Cassien
+Réding,reding,1,Réding,87215079,48.7429595,7.095885,Réding
+Régny,regny,1,Régny,87721050,45.987705,4.2150753,Régny
+Rémilly,remilly,1,Rémilly,87192237,49.0140249,6.3950968,Rémilly
+Rœux,rœux,1,Rœux,87342089,50.3034404,2.8950172,Rœux
+Saales,saales,1,Saales,87214783,48.3471556,7.1103726,Saales
+Sablé,sable,1,Sablé-sur-Sarthe,87396408,47.8415934,-0.3419359,Sablé-sur-Sarthe
+Saillagouse,saillagouse,1,Saillagouse,87784835,42.4568855,2.0321126,Saillagouse
+Saillans,saillans,1,Saillans,87761817,44.6944365,5.1940397,Saillans
+Saillat,saillat,1,Saillat - Chassenon,87592717,45.8696297,0.8117415,Saillat - Chassenon
+Sain,sain,1,Sain-Bel,87721605,45.811097,4.6012445,Sain-Bel
+Saincaize,saincaize,1,Saincaize-Meauce,87696260,46.9314165,3.0718704,Saincaize-Meauce
+Sains,sains,1,Sains-du-Nord,87295709,50.0889485,4.0016955,Sains-du-Nord
+Saint-Aignan,saint-aignan,1,Saint-Aignan - Noyers,87574897,47.2869126,1.3838369,Saint-Aignan - Noyers
+Saint-Aigulin,saint-aigulin,1,Saint-Aigulin - La Roche-Chalais,87584540,45.1573163,-0.0189768,Saint-Aigulin - La Roche-Chalais
+Saint-Amand-Montrond,saint-amand-montrond,1,Saint-Amand-Montrond - Orval,87576322,46.7265409,2.4859441,Saint-Amand-Montrond - Orval
+Saint-Aubin,saint-aubin,1,Saint-Aubin - Saint-Luperce,87394213,48.4476422,1.3318387,Saint-Aubin - Saint-Luperce
+Saint-Avre,saint-avre,1,Saint-Avre - La Chambre,87741306,45.3530978,6.3028277,Saint-Avre - La Chambre
+Saint-Béron,saint-beron,1,Saint-Béron - La Bridoire,87741454,45.5038935,5.7319345,Saint-Béron - La Bridoire
+Saint-Clair,saint-clair,1,Saint-Clair - Les Roches,87722652,45.450392,4.769707,Saint-Clair - Les Roches
+Saint-Clément,saint-clement,1,Saint-Clément - Laronxe,87141374,48.5312283,6.6081108,Saint-Clément - Laronxe
+Saint-Cyr Les Lecques,saint-cyr les lecques,1,Saint-Cyr Les Lecques - La Cadière,87755215,43.185509,5.703858,Saint-Cyr Les Lecques - La Cadière
+Saint-Denis,saint-denis,1,Saint-Denis,87271015,48.9354933,2.3459524,Saint-Denis
+Saint-Florentin,saint-florentin,1,Saint-Florentin - Vergigny,87683318,47.981058,3.731036,Saint-Florentin - Vergigny
+Saint-Flour,saint-flour,1,Saint-Flour - Chaudes-Aigues,87783175,45.0350122,3.1062862,Saint-Flour - Chaudes-Aigues
+Saint-Jean-de-Luz,saint-jean-de-luz,1,Saint-Jean-de-Luz - Ciboure,87677120,43.385838,-1.66122,Saint-Jean-de-Luz - Ciboure
+Saint-Julien,saint-julien,1,Saint-Julien - Clénay,87713834,47.4060132,5.1281864,Saint-Julien - Clénay
+Saint-Laurent,saint-laurent,1,Saint-Laurent - Gainneville,87413310,49.5285649,0.2522963,Saint-Laurent - Gainneville
+Saint-Laurent-de-la-Prée,saint-laurent-de-la-pree,1,Saint-Laurent-de-la-Prée - Fouras,87485136,45.9930002,-1.0274305,Saint-Laurent-de-la-Prée - Fouras
+Saint-Mariens,saint-mariens,1,Saint-Mariens - Saint-Yzan,87491209,45.139072,-0.3917824,Saint-Mariens - Saint-Yzan
+Saint-Michel,saint-michel,1,Saint-Michel - Valloire,87742361,45.216916,6.4719135,Saint-Michel - Valloire
+Saint-Quentin en Yvelines,saint-quentin en yvelines,1,Saint-Quentin en Yvelines - Montigny-le-Bretonneux,87393843,48.78657,2.04523,Saint-Quentin en Yvelines - Montigny-le-Bretonneux
+Saint-Senoux,saint-senoux,1,Saint-Senoux - Pléchâtel,87471169,47.8977519,-1.7661904,Saint-Senoux - Pléchâtel
+Saint-Victor,saint-victor,1,Saint-Victor - Thizy,87721043,46.0024781,4.2810245,Saint-Victor - Thizy
+Sainte-Eulalie,sainte-eulalie,1,Sainte-Eulalie - Carbon-Blanc,87491282,44.8978327,-0.4939737,Sainte-Eulalie - Carbon-Blanc
+Sainte-Maure,sainte-maure,1,Sainte-Maure - Noyant,87575050,47.1112361,0.5769439,Sainte-Maure - Noyant
+Saintes,saintes,1,Saintes,87491001,45.74874,-0.6179,Saintes
+Salbris,salbris,1,Salbris,87543165,47.42522,2.04778,Salbris
+Sallanches,sallanches,1,Sallanches - Combloux - Megève,87746438,45.935702,6.636431,Sallanches - Combloux - Megève
+Sallaumines,sallaumines,1,Sallaumines,87345215,50.4223266,2.8556769,Sallaumines
+Salles,salles,1,Salles-Courbatiès,87613877,44.4751593,2.0787662,Salles-Courbatiès
+Salomé,salome,1,Salomé,87342451,50.5414529,2.8366078,Salomé
+Salon,salon,1,Salon-de-Provence,87753764,43.639061,5.088569,Salon-de-Provence
+Salses,salses,1,Salses-le-Château,87784157,42.8356091,2.9174466,Salses-le-Château
+Sannois,sannois,1,Sannois,87276188,48.97016,2.26377,Sannois
+Sanry,sanry,1,Sanry-sur-Nied,87192229,49.0445991,6.3399775,Sanry-sur-Nied
+Santenay les Bains,santenay les bains,1,Santenay les Bains,87713594,46.9106752,4.7017523,Santenay les Bains
+Santes,santes,1,Santes,87286401,50.5920123,2.961977,Santes
+Santeuil,santeuil,1,Santeuil - Le Perchay,87381186,49.12416,1.94893,Santeuil - Le Perchay
+Sarcelles,sarcelles,1,Sarcelles - Saint-Brice,87276386,48.99529,2.36867,Sarcelles - Saint-Brice
+Sarlat,sarlat,1,Sarlat-la-Canéda,87595827,44.8770213,1.220328,Sarlat-la-Canéda
+Sarliève,sarlieve,1,Sarliève - Cournon,87734152,45.7387697,3.1681196,Sarliève - Cournon
+Sarrance,sarrance,1,Sarrance,87672766,43.0496,-0.599962,Sarrance
+Sarre,sarre,1,Sarre-Union,87215459,48.9360172,7.0850443,Sarre-Union
+Sarrebourg,sarrebourg,1,Sarrebourg,87215012,48.73808,7.05285,Sarrebourg
+Sarreguemines,sarreguemines,1,Sarreguemines,87193615,49.1073357,7.0686398,Sarreguemines
+Sartrouville,sartrouville,1,Sartrouville,87386417,48.9379523,2.1575173,Sartrouville
+Sathonay,sathonay,1,Sathonay - Rillieux,87723700,45.820264,4.875315,Sathonay - Rillieux
+Saubusse,saubusse,1,Saubusse,87673251,43.6603331,-1.1901703,Saubusse
+Saujon,saujon,1,Saujon,87491811,45.6665019,-0.9300187,Saujon
+Saulon,saulon,1,Saulon,87713628,47.224035,5.1045991,Saulon
+Saumur,saumur,1,Saumur,87487603,47.269,-0.07136,Saumur
+Sausset,sausset,1,Sausset-les-Pins,87753558,43.332864,5.110001,Sausset-les-Pins
+Sauveterre,sauveterre,1,Sauveterre-la-Lémance,87586495,44.5893893,1.0115419,Sauveterre-la-Lémance
+Savenay,savenay,1,Savenay,87481838,47.35859,-1.950957,Savenay
+Savennières,savennieres,1,Savennières - Béhuard,87484329,47.3817332,-0.6540004,Savennières - Béhuard
+Saverdun,saverdun,1,Saverdun,87611368,43.239357,1.570616,Saverdun
+Saverne,saverne,1,Saverne,87212225,48.7444606,7.3620802,Saverne
+Savigny,savigny,1,Savigny-sur-Orge,87545236,48.67614,2.35173,Savigny-sur-Orge
+Savigny-le-Temple,savigny-le-temple,1,Savigny-le-Temple - Nandy,87682187,48.595519,2.583678,Savigny-le-Temple - Nandy
+Savonnières,savonnieres,1,Savonnières,87571844,47.3605797,0.5441817,Savonnières
+Savy,savy,1,Savy-Berlette,87342253,50.3538756,2.5577316,Savy-Berlette
+Saône,saone,1,Saône,87718502,47.2097669,6.1013089,Saône
+Sceaux,sceaux,1,Sceaux - Boëssé,87396317,48.1221004,0.5724063,Sceaux - Boëssé
+Scherwiller,scherwiller,1,Scherwiller,87214205,48.2869344,7.4301867,Scherwiller
+Schirmeck,schirmeck,1,Schirmeck - La Broque,87214692,48.47973,7.21594,Schirmeck - La Broque
+Schweighouse,schweighouse,1,Schweighouse-sur-Moder,87213108,48.8286765,7.7425635,Schweighouse-sur-Moder
+Schwindratzheim,schwindratzheim,1,Schwindratzheim,87212159,48.7536468,7.6005468,Schwindratzheim
+Seclin,seclin,1,Seclin,87286518,50.5486319,3.0350084,Seclin
+Sedan,sedan,1,Sedan,87172254,49.695024,4.930373,Sedan
+Seltz,seltz,1,Seltz,87212431,48.8965635,8.0986724,Seltz
+Sennecey,sennecey,1,Sennecey-le-Grand,87725614,46.6406445,4.874316,Sennecey-le-Grand
+Senozan,senozan,1,Senozan,87725671,46.3921451,4.8710626,Senozan
+Sens,sens,1,Sens,87683003,48.197856,3.267833,Sens
+Sept,sept,1,Sept-Saulx,87171645,49.1511332,4.2569742,Sept-Saulx
+Septèmes,septemes,1,Septèmes-les-Vallons,87751800,43.4031137,5.3701756,Septèmes-les-Vallons
+Sermaise,sermaise,1,Sermaise,87545517,48.53536,2.06865,Sermaise
+Sermizelles,sermizelles,1,Sermizelles - Vézelay,87683722,47.5289068,3.7928695,Sermizelles - Vézelay
+Serqueux,serqueux,1,Serqueux,87411470,49.6315093,1.5395267,Serqueux
+Serquigny,serquigny,1,Serquigny,87444315,49.1074117,0.7189895,Serquigny
+Serres,serres,1,Serres,87763722,44.4246573,5.7184201,Serres
+Servas,servas,1,Servas - Lent,87723791,46.1306663,5.1681312,Servas - Lent
+Servon,servon,1,Servon-sur-Vilaine,87471532,48.112224,-1.4667757,Servon-sur-Vilaine
+Servoz,servoz,1,Servoz,87746719,45.9244592,6.763444,Servoz
+Sessenheim,sessenheim,1,Sessenheim,87212365,48.7964628,7.9893194,Sessenheim
+Seugy,seugy,1,Seugy,87272039,49.1189923,2.3989116,Seugy
+Seurre,seurre,1,Seurre,87713677,46.9964114,5.1513121,Seurre
+Sevran,sevran,1,Sevran - Livry,87271429,48.93601,2.53484,Sevran - Livry
+Sevran Beaudottes,sevran beaudottes,1,Sevran Beaudottes,87271445,48.94743,2.52474,Sevran Beaudottes
+Seyssel,seyssel,1,Seyssel - Corbonod,87745828,45.9630307,5.8315162,Seyssel - Corbonod
+Sierck,sierck,1,Sierck-les-Bains,87191635,49.443655,6.350327,Sierck-les-Bains
+Sierentz,sierentz,1,Sierentz,87182105,47.656047,7.459142,Sierentz
+Sillé,sille,1,Sillé-le-Guillaume,87396234,48.1818735,-0.1289696,Sillé-le-Guillaume
+Simandre,simandre,1,Simandre-sur-Suran,87743336,46.2202097,5.4210929,Simandre-sur-Suran
+Simiane,simiane,1,Simiane-Collongue,87751438,43.434747,5.426148,Simiane-Collongue
+Sin,sin,1,Sin-le-Noble,87345405,50.356612,3.112777,Sin-le-Noble
+Siorac,siorac,1,Siorac-en-Périgord,87595769,44.8197409,0.9844566,Siorac-en-Périgord
+Sisteron,sisteron,1,Sisteron,87751206,44.1902025,5.9465888,Sisteron
+Soissons,soissons,1,Soissons,87271817,49.3691983,3.3381259,Soissons
+Solignac,solignac,1,Solignac - Le Vigen,87592246,45.7561586,1.2856817,Solignac - Le Vigen
+Solliès,sollies,1,Solliès-Pont,87755330,43.1907805,6.0464158,Solliès-Pont
+Somain,somain,1,Somain,87345314,50.3557,3.27738,Somain
+Sommery,sommery,1,Sommery,87411462,49.6297244,1.4353726,Sommery
+Sorgues,sorgues,1,Sorgues - Châteauneuf-du-Pape,87765206,44.0053909,4.8756182,Sorgues - Châteauneuf-du-Pape
+Sotteville,sotteville,1,Sotteville-lès-Rouen,87411223,49.4129479,1.102362,Sotteville-lès-Rouen
+Souillac,souillac,1,Souillac,87594333,44.902127,1.466605,Souillac
+Soulac,soulac,1,Soulac-sur-Mer,87581371,45.5081769,-1.1175894,Soulac-sur-Mer
+Soultz,soultz,1,Soultz-sous-Forêts,87213421,48.9347687,7.8827184,Soultz-sous-Forêts
+Souppes,souppes,1,Souppes - Château-Landon,87684217,48.181907,2.734971,Souppes - Château-Landon
+Sous le Bois,sous le bois,1,Sous le Bois,87295543,50.2655833,3.93961,Sous le Bois
+Stade de France Saint,stade de france saint,1,Stade de France Saint-Denis,87164780,48.91779,2.35134,Stade de France Saint-Denis
+Staffelfelden,staffelfelden,1,Staffelfelden,87182691,47.8279612,7.2651657,Staffelfelden
+Stains La Cerisaie T11,stains la cerisaie t11,1,Stains La Cerisaie T11,87697334,48.9548,2.39209,Stains La Cerisaie T11
+Steenbecque,steenbecque,1,Steenbecque,87342295,50.6806568,2.510089,Steenbecque
+Steenwerck,steenwerck,1,Steenwerck,87286161,50.713459,2.7855769,Steenwerck
+Steinbourg,steinbourg,1,Steinbourg,87212209,48.7635292,7.416299,Steinbourg
+Stephansfeld,stephansfeld,1,Stephansfeld,87212126,48.7175872,7.7045946,Stephansfeld
+Strazeele,strazeele,1,Strazeele,87286203,50.713492,2.6312181,Strazeele
+Sucé,suce,1,Sucé-sur-Erdre,87590828,47.3431347,-1.5299873,Sucé-sur-Erdre
+Surdon,surdon,1,Surdon,87444562,48.6647685,0.1344097,Surdon
+Suresnes Mont Valérien,suresnes mont valerien,1,Suresnes Mont Valérien,87382374,48.87155,2.22131,Suresnes Mont Valérien
+Surgères,surgeres,1,Surgères,87485227,46.113238,-0.762284,Surgères
+Survilliers,survilliers,1,Survilliers - Fosses,87276261,49.09961,2.52527,Survilliers - Fosses
+Sury,sury,1,Sury-le-Comtal,87726422,45.5291194,4.1824904,Sury-le-Comtal
+Suèvres,suevres,1,Suèvres,87574236,47.6802248,1.4540981,Suèvres
+Sète,sete,1,Sète,87773200,43.412485,3.69656,Sète
+Sèvres,sevres,1,Sèvres - Ville-d'Avray,87382341,48.82746,2.20051,Sèvres - Ville-d'Avray
+Sèvres Rive Gauche,sevres rive gauche,1,Sèvres Rive Gauche,87393124,48.8214311,2.2147536,Sèvres Rive Gauche
+Sées,sees,1,Sées,87444695,48.5998998,0.1661851,Sées
+Sélestat,selestat,1,Sélestat,87214056,48.2601166,7.443278,Sélestat
+Sénas,senas,1,Sénas,87753715,43.7409571,5.0733645,Sénas
+Sérifontaine,serifontaine,1,Sérifontaine,87381269,49.3572878,1.7639818,Sérifontaine
+Sérézin,serezin,1,Sérézin-du-Rhône,87722546,45.62716,4.81806,Sérézin-du-Rhône
+Tacoignières,tacoignieres,1,Tacoignières - Richebourg,87393454,48.8295827,1.6689566,Tacoignières - Richebourg
+Taconnaz,taconnaz,1,Taconnaz,87746750,45.8992065,6.8258755,Taconnaz
+Tain-l'Hermitage,tain-l'hermitage,1,Tain-l'Hermitage - Tournon,87761163,45.072183,4.839967,Tain-l'Hermitage - Tournon
+Talence Médoquine,talence medoquine,1,Talence Médoquine,87748350,44.81649,-0.60062,Talence Médoquine
+Tanus,tanus,1,Tanus,87615674,44.1003384,2.3151214,Tanus
+Tarare,tarare,1,Tarare,87721472,45.889921,4.439208,Tarare
+Tarbes,tarbes,1,Tarbes,87671008,43.239955,0.069415,Tarbes
+Tassin,tassin,1,Tassin,87721514,45.76151,4.75857,Tassin
+Taverny,taverny,1,Taverny,87276634,49.02536,2.22187,Taverny
+Teillé,teille,1,Teillé,87396051,48.1812341,0.1913397,Teillé
+Templeuve,templeuve,1,Templeuve,87286625,50.52863,3.17559,Templeuve
+Tenay,tenay,1,Tenay - Hauteville,87743757,45.9222096,5.5016101,Tenay - Hauteville
+Tergnier,tergnier,1,Tergnier,87296442,49.6591862,3.2972491,Tergnier
+Terrasson,terrasson,1,Terrasson-Lavilledieu,87594408,45.1357901,1.3004219,Terrasson-Lavilledieu
+Tessonnières,tessonnieres,1,Tessonnières,87615245,43.9284209,1.9369531,Tessonnières
+Teting,teting,1,Teting-sur-Nied,87193342,49.051605,6.6646267,Teting-sur-Nied
+Thann,thann,1,Thann,87182568,47.8088208,7.1069795,Thann
+Thann Centre,thann centre,1,Thann Centre,87472605,47.8099229,7.101046,Thann Centre
+Thann Saint,thann saint,1,Thann Saint-Jacques,87182881,47.8133155,7.0938473,Thann Saint-Jacques
+Thaon,thaon,1,Thaon,87144097,48.24465,6.416384,Thaon
+Theillay,theillay,1,Theillay,87543199,47.3139904,2.0443867,Theillay
+Thenissey,thenissey,1,Thenissey,87713099,47.4947945,4.6221929,Thenissey
+Thenon,thenon,1,Thenon,87595579,45.1601857,1.0686905,Thenon
+Thiaville,thiaville,1,Thiaville-sur-Meurthe,87141432,48.4139874,6.8102635,Thiaville-sur-Meurthe
+Thiennes,thiennes,1,Thiennes,87342287,50.6523561,2.4729218,Thiennes
+Thiers,thiers,1,Thiers,87734475,45.8610502,3.5431798,Thiers
+Thieux,thieux,1,Thieux - Nantouillet,87272054,49.0084346,2.6805271,Thieux - Nantouillet
+Thionville,thionville,1,Thionville,87191007,49.353931,6.169543,Thionville
+Thiviers,thiviers,1,Thiviers,87595124,45.418965,0.921348,Thiviers
+Thomery,thomery,1,Thomery,87682252,48.394462,2.763995,Thomery
+Thonon,thonon,1,Thonon-les-Bains,87745646,46.369004,6.481669,Thonon-les-Bains
+Thouars,thouars,1,Thouars,87487009,46.9852442,-0.2097941,Thouars
+Thouaré,thouare,1,Thouaré-sur-Loire,87481143,47.2651143,-1.4409626,Thouaré-sur-Loire
+Thourotte,thourotte,1,Thourotte,87276741,49.4760722,2.8830021,Thourotte
+Thun le Paradis,thun le paradis,1,Thun le Paradis,87381822,49.00687,1.91922,Thun le Paradis
+Thuès Carença,thues carença,1,Thuès Carença,87784751,42.5229486,2.2227279,Thuès Carença
+Théoule,theoule,1,Théoule-sur-Mer,87757583,43.5134929,6.9367978,Théoule-sur-Mer
+Thésée,thesee,1,Thésée,87328195,47.322271,1.3120568,Thésée
+Thézy,thezy,1,Thézy-Glimont,87316125,49.8118528,2.435931,Thézy-Glimont
+Tieffenbach,tieffenbach,1,Tieffenbach - Struth,87215699,48.9062169,7.25527,Tieffenbach - Struth
+Tiercé,tierce,1,Tiercé,87484147,47.617532,-0.469347,Tiercé
+Tincques,tincques,1,Tincques,87342303,50.35699,2.4980285,Tincques
+Tonnay,tonnay,1,Tonnay-Charente,87485151,45.9433989,-0.8978981,Tonnay-Charente
+Tonneins,tonneins,1,Tonneins,87586651,44.392796,0.314093,Tonneins
+Tonnerre,tonnerre,1,Tonnerre,87713198,47.85938,3.97355,Tonnerre
+Torfou,torfou,1,Torfou-Sèvremoine,87486894,47.0331153,-1.1173797,Torfou-Sèvremoine
+Torpes,torpes,1,Torpes - Boussières,87718114,47.1637546,5.8887804,Torpes - Boussières
+Toul,toul,1,Toul,87141044,48.679018,5.880615,Toul
+Toulouse,toulouse,1,Toulouse Matabiau,87611004,43.611206,1.453616,Toulouse Matabiau
+Tourcoing,tourcoing,1,Tourcoing,87286542,50.71683,3.16804,Tourcoing
+Tournan,tournan,1,Tournan-en-Brie,87116210,48.7393088,2.75957134,Tournan-en-Brie
+Tournay,tournay,1,Tournay,87671172,43.1836066,0.2389703,Tournay
+Tournemire,tournemire,1,Tournemire - Roquefort,87783456,43.9698002,3.0166261,Tournemire - Roquefort
+Tournus,tournus,1,Tournus,87725622,46.56668,4.906647,Tournus
+Tours,tours,1,Tours,87571000,47.389781,0.693703,Tours
+Tourville,tourville,1,Tourville-la-Rivière,87411181,49.3248177,1.098964,Tourville-la-Rivière
+Toury,toury,1,Toury,87543074,48.193606,1.939565,Toury
+Tracy,tracy,1,Tracy - Sancerre,87696161,47.3376398,2.8804164,Tracy - Sancerre
+Traou Nez,traou nez,1,Traou Nez,87322347,48.74858987607243,-3.1349542664976724,Traou Nez
+Trappes,trappes,1,Trappes,87393835,48.7751158,2.0066335,Trappes
+Tricot,tricot,1,Tricot,87313353,49.5619878,2.5815586,Tricot
+Trie,trie,1,Trie-Château,87381236,49.2827168,1.8180386,Trie-Château
+Triel,triel,1,Triel-sur-Seine,87381806,48.98099,2.00577,Triel-sur-Seine
+Trilport,trilport,1,Trilport,87116491,48.96013551,2.94953688,Trilport
+Trith,trith,1,Trith-Saint-Léger,87343400,50.3318146,3.4893247,Trith-Saint-Léger
+Trois Chênes,trois chenes,1,Trois Chênes,87184242,47.6480822,6.8462281,Trois Chênes
+Tronsanges,tronsanges,1,Tronsanges,87696203,47.113029,3.0541532,Tronsanges
+Trouville,trouville,1,Trouville - Deauville,87444372,49.360005,0.084167,Trouville - Deauville
+Troyes,troyes,1,Troyes,87118000,48.296069,4.065281,Troyes
+Trégonneau,tregonneau,1,Trégonneau - Squiffiec,87473819,48.6243578,-3.1742524,Trégonneau - Squiffiec
+Trélazé,trelaze,1,Trélazé,87701532,47.45272,-0.4696,Trélazé
+Trémolat,tremolat,1,Trémolat,87584474,44.8625105,0.8303278,Trémolat
+Tulle,tulle,1,Tulle,87594499,45.258725,1.756467,Tulle
+Tullins Fures,tullins fures,1,Tullins Fures,87761759,45.300996,5.492194,Tullins Fures
+Turckheim,turckheim,1,Turckheim,87182352,48.0856288,7.279466,Turckheim
+Turenne,turenne,1,Turenne,87594556,45.0379541,1.6007045,Turenne
+Uchaud,uchaud,1,Uchaud,87775106,43.7583991,4.2683101,Uchaud
+Uckange,uckange,1,Uckange,87191130,49.3032605,6.1567735,Uckange
+Urmatt,urmatt,1,Urmatt,87214635,48.5257763,7.3385385,Urmatt
+Urt,urt,1,Urt,87672386,43.4993785,-1.3005564,Urt
+Urçay,urçay,1,Urçay - La Perche,87576348,46.6295123,2.5865708,Urçay - La Perche
+Us,us,1,Us,87381178,49.09969,1.97076,Us
+Ussel,ussel,1,Ussel,87594093,45.5574383,2.3143439,Ussel
+Ustaritz Jatxou,ustaritz jatxou,1,Ustaritz Jatxou,87673624,43.4048083,-1.4489654,Ustaritz Jatxou
+Uzerche,uzerche,1,Uzerche,87594200,45.4407088,1.5702735,Uzerche
+Vaas,vaas,1,Vaas,87396598,47.6707702,0.3165096,Vaas
+Vaires,vaires,1,Vaires - Torcy,87116293,48.874953,2.639986,Vaires - Torcy
+Val d'Argenteuil,val d'argenteuil,1,Val d'Argenteuil,87381798,48.95042,2.23088,Val d'Argenteuil
+Val de Fontenay,val de fontenay,1,Val de Fontenay,87113712,48.854238,2.489097,Val de Fontenay
+Valdahon,valdahon,1,Valdahon,87718544,47.14975,6.342275,Valdahon
+Valdahon Camp Militaire,valdahon camp militaire,1,Valdahon Camp Militaire,87718601,47.1510452,6.3148621,Valdahon Camp Militaire
+Valence,valence,1,Valence,87761007,44.928049,4.893273,Valence
+Valence TGV Rhône,valence tgv rhone,1,Valence TGV Rhône-Alpes Sud,87763029,44.991545,4.978703,Valence TGV Rhône-Alpes Sud
+Valence d'Agen,valence d'agen,1,Valence d'Agen,87611863,44.1117317,0.8915743,Valence d'Agen
+Valenciennes,valenciennes,1,Valenciennes,87343004,50.363259,3.517115,Valenciennes
+Valençay,valençay,1,Valençay,87576215,47.163172,1.5584442,Valençay
+Valergues,valergues,1,Valergues - Lansargues,87773432,43.672678,4.0601085,Valergues - Lansargues
+Valleiry,valleiry,1,Valleiry,87745414,46.1092875,5.96735,Valleiry
+Valleroy,valleroy,1,Valleroy - Moineville,87192732,49.2056957,5.9360165,Valleroy - Moineville
+Vallon,vallon,1,Vallon-en-Sully,87641357,46.5363284,2.6107538,Vallon-en-Sully
+Vallorcine,vallorcine,1,Vallorcine,87746875,46.0324983,6.9326694,Vallorcine
+Valmondois,valmondois,1,Valmondois,87276535,49.09182,2.20238,Valmondois
+Valognes,valognes,1,Valognes,87447284,49.505454,-1.47986,Valognes
+Vandières,vandieres,1,Vandières,87192476,48.9521683,6.0392275,Vandières
+Vannes,vannes,1,Vannes,87476606,47.665169,-2.75245,Vannes
+Vanves,vanves,1,Vanves - Malakoff,87391532,48.8181959,2.2920988,Vanves - Malakoff
+Varades,varades,1,Varades - Saint-Florent le Vieil,87484386,47.3744471,-1.019712,Varades - Saint-Florent le Vieil
+Varangéville,varangeville,1,Varangéville - Saint-Nicolas,87141101,48.63533929,6.31286037,Varangéville - Saint-Nicolas
+Varetz,varetz,1,Varetz,87594606,45.1911631,1.4472859,Varetz
+Varilhes,varilhes,1,Varilhes,87611327,43.0415593,1.6284818,Varilhes
+Vauboyen,vauboyen,1,Vauboyen,87393538,48.7590575,2.192119,Vauboyen
+Vaucelles,vaucelles,1,Vaucelles,87276626,49.02193,2.22885,Vaucelles
+Vaucresson,vaucresson,1,Vaucresson,87382267,48.83688,2.15255,Vaucresson
+Vaudagne,vaudagne,1,Vaudagne,87746727,45.9088517,6.7726673,Vaudagne
+Vaumoise,vaumoise,1,Vaumoise,87271601,49.2339406,2.9885685,Vaumoise
+Vauvert,vauvert,1,Vauvert,87775817,43.6950375,4.270165,Vauvert
+Vaux,vaux,1,Vaux-sur-Seine,87381814,49.00699,1.96342,Vaux-sur-Seine
+Vauxaillon,vauxaillon,1,Vauxaillon,87297283,49.4741418,3.4096166,Vauxaillon
+Vauzelles,vauzelles,1,Vauzelles,87691469,47.0013565,3.1342094,Vauzelles
+Vayrac,vayrac,1,Vayrac,87594739,44.9501471,1.7062871,Vayrac
+Vayres,vayres,1,Vayres,87584714,44.89717,-0.31686,Vayres
+Veauche,veauche,1,Veauche - Saint-Galmier,87726208,45.565928,4.293438,Veauche - Saint-Galmier
+Veigné,veigne,1,Veigné,87571414,47.2915255,0.7348815,Veigné
+Velars,velars,1,Velars-sur-Ouche,87712331,47.3265197,4.9274603,Velars-sur-Ouche
+Vendenheim,vendenheim,1,Vendenheim,87212118,48.6659659,7.7177824,Vendenheim
+Vendeuvre,vendeuvre,1,Vendeuvre-sur-Barse,87118257,48.2400686,4.4672135,Vendeuvre-sur-Barse
+Venerque,venerque,1,Venerque - Vernet,87611392,43.433361,1.426079,Venerque - Vernet
+Verdun,verdun,1,Verdun,87175778,49.165406,5.379701,Verdun
+Vergèze,vergeze,1,Vergèze - Codognan,87775114,43.739877,4.218842,Vergèze - Codognan
+Vermenton,vermenton,1,Vermenton,87683664,47.6605943,3.7320212,Vermenton
+Vern,vern,1,Vern-sur-Seiche,87471029,48.0469707,-1.5966524,Vern-sur-Seiche
+Vernaison,vernaison,1,Vernaison,87722264,45.6456478,4.8132908,Vernaison
+Vernon,vernon,1,Vernon - Giverny,87415604,49.091336,1.47857,Vernon - Giverny
+Vernou,vernou,1,Vernou-la-Celle-sur-Seine,87682468,48.3864547,2.8424649,Vernou-la-Celle-sur-Seine
+Vernouillet,vernouillet,1,Vernouillet - Verneuil,87386656,48.9811884,1.9828731,Vernouillet - Verneuil
+Verrey,verrey,1,Verrey-sous-Salmaise,87713081,47.4385905,4.6700223,Verrey-sous-Salmaise
+Versailles Chantiers,versailles chantiers,1,Versailles Chantiers,87393009,48.7958264,2.1358827,Versailles Chantiers
+Versailles Château Rive Gauche,versailles chateau rive gauche,1,Versailles Château Rive Gauche,87393157,48.8003635,2.1288274,Versailles Château Rive Gauche
+Versailles Rive Droite,versailles rive droite,1,Versailles Rive Droite,87382861,48.8096525,2.1347523,Versailles Rive Droite
+Versigny,versigny,1,Versigny,87296608,49.6574494,3.4335692,Versigny
+Vert Galant,vert galant,1,Vert Galant,87271437,48.94467,2.5667,Vert Galant
+Vertaizon,vertaizon,1,Vertaizon,87734426,45.784543,3.288269,Vertaizon
+Vertou,vertou,1,Vertou,87481408,47.1861428,-1.4780052,Vertou
+Verzeille,verzeille,1,Verzeille,87615138,43.1304633,2.3212626,Verzeille
+Vesoul,vesoul,1,Vesoul,87185009,47.6177734,6.151926,Vesoul
+Veuves,veuves,1,Veuves - Monteaux,87574327,47.4756722,1.1238749,Veuves - Monteaux
+Veynes Dévoluy,veynes devoluy,1,Veynes Dévoluy,87763300,44.5320046,5.815764,Veynes Dévoluy
+Viaduc Sainte,viaduc sainte,1,Viaduc Sainte-Marie,87746735,45.897096,6.7850134,Viaduc Sainte-Marie
+Viarmes,viarmes,1,Viarmes,87276568,49.11692,2.36838,Viarmes
+Vias,vias,1,Vias,87781260,43.315653,3.4253562,Vias
+Vichy,vichy,1,Vichy,87732008,46.126979,3.430448,Vichy
+Vidauban,vidauban,1,Vidauban,87755421,43.4309416,6.4338501,Vidauban
+Vieilleville,vieilleville,1,Vieilleville,87597633,46.0910959,1.6736439,Vieilleville
+Vielmur,vielmur,1,Vielmur-sur-Agout,87615492,43.623928,2.0895781,Vielmur-sur-Agout
+Vienne,vienne,1,Vienne,87722587,45.521207,4.874211,Vienne
+Vierzon,vierzon,1,Vierzon,87576009,47.226497,2.059822,Vierzon
+Vierzon Forges,vierzon forges,1,Vierzon Forges,87576090,47.2099931,2.0994545,Vierzon Forges
+Vierzy,vierzy,1,Vierzy,87271783,49.2910309,3.2773026,Vierzy
+Vif,vif,1,Vif,87747576,45.0476532,5.6854542,Vif
+Vigeois,vigeois,1,Vigeois,87594218,45.3829467,1.5149455,Vigeois
+Vigneux,vigneux,1,Vigneux-sur-Seine,87681304,48.70816,2.41446,Vigneux-sur-Seine
+Vignory,vignory,1,Vignory,87142232,48.2701366,5.1241594,Vignory
+Villabé,villabe,1,Villabé,87681619,48.592637,2.461572,Villabé
+Villaines,villaines,1,Villaines-sous-Bois,87272021,49.0798273,2.3513736,Villaines-sous-Bois
+Villars,villars,1,Villars-les-Dombes,87723759,46.004206,5.028404,Villars-les-Dombes
+Villedieu,villedieu,1,Villedieu-les-Poêles,87447698,48.8340495,-1.225559,Villedieu-les-Poêles
+Villefort,villefort,1,Villefort,87775197,44.4395099,3.9240146,Villefort
+Villefranque,villefranque,1,Villefranque,87673616,43.4313998,-1.4564514,Villefranque
+Villeherviers,villeherviers,1,Villeherviers,87576165,47.3694005,1.7972555,Villeherviers
+Villenave,villenave,1,Villenave-d'Ornon,87581835,44.7683428,-0.5472574,Villenave-d'Ornon
+Villeneuve Triage,villeneuve triage,1,Villeneuve Triage,87681809,48.745198,2.438192,Villeneuve Triage
+Villennes,villennes,1,Villennes-sur-Seine,87386649,48.9394602,1.9993185,Villennes-sur-Seine
+Villenouvelle,villenouvelle,1,Villenouvelle,87618215,43.4330358,1.661081,Villenouvelle
+Villeparisis,villeparisis,1,Villeparisis - Mitry-le-Neuf,87271510,48.95325,2.60243,Villeparisis - Mitry-le-Neuf
+Villeperdue,villeperdue,1,Villeperdue,87575043,47.2020438,0.6336449,Villeperdue
+Villepinte,villepinte,1,Villepinte,87271452,48.96292,2.51205,Villepinte
+Villepreux,villepreux,1,Villepreux - Les Clayes,87393413,48.8239168,1.9930652,Villepreux - Les Clayes
+Villereversure,villereversure,1,Villereversure,87743328,46.1944145,5.3977089,Villereversure
+Villetaneuse Université,villetaneuse universite,1,Villetaneuse Université,87697318,48.96,2.34251,Villetaneuse Université
+Villiers,villiers,1,Villiers - Neauphle - Pontchartrain,87393884,48.81550666129636,1.876934489891097,Villiers - Neauphle - Pontchartrain
+Villiers Montbarbin,villiers montbarbin,1,Villiers Montbarbin,87116749,48.8632544,2.8830418,Villiers Montbarbin
+Villiers-le-Bel,villiers-le-bel,1,Villiers-le-Bel - Gonesse - Arnouville,87276220,48.994175,2.4162288,Villiers-le-Bel - Gonesse - Arnouville
+Villiers-sur-Marne,villiers-sur-marne,1,Villiers-sur-Marne - Le Plessis-Trévise,87113795,48.823039,2.541761,Villiers-sur-Marne - Le Plessis-Trévise
+Vimy,vimy,1,Vimy,87342576,50.3732316,2.8229549,Vimy
+Vinay,vinay,1,Vinay,87761726,45.20797,5.41005,Vinay
+Vincelles,vincelles,1,Vincelles,87683631,47.7042304,3.6284728,Vincelles
+Vincey,vincey,1,Vincey,87144063,48.3436471,6.3355129,Vincey
+Vinça,vinça,1,Vinça,87784611,42.6481368,2.5276163,Vinça
+Vions,vions,1,Vions - Chanaz,87741108,45.8243131,5.8072311,Vions - Chanaz
+Vire,vire,1,Vire,87448159,48.846329,-0.882884,Vire
+Vireux,vireux,1,Vireux-Molhain,87172114,50.0827968,4.7233909,Vireux-Molhain
+Virieu sur Bourbre,virieu sur bourbre,1,Virieu sur Bourbre,87747204,45.491703,5.4721424,Virieu sur Bourbre
+Virieu-le-Grand,virieu-le-grand,1,Virieu-le-Grand - Belley,87741504,45.8482817,5.6536162,Virieu-le-Grand - Belley
+Viroflay Rive Droite,viroflay rive droite,1,Viroflay Rive Droite,87382887,48.8056695,2.1683208,Viroflay Rive Droite
+Viroflay Rive Gauche,viroflay rive gauche,1,Viroflay Rive Gauche,87393215,48.800517,2.1711466,Viroflay Rive Gauche
+Vis à Marles,vis a marles,1,Vis à Marles,87342535,50.5050115,2.5171137,Vis à Marles
+Vitrolles Aéroport Marseille Provence,vitrolles aeroport marseille provence,1,Vitrolles Aéroport Marseille Provence,87439554,43.441734,5.237122,Vitrolles Aéroport Marseille Provence
+Vitré,vitre,1,Vitré,87471508,48.122671,-1.211754,Vitré
+Vittel,vittel,1,Vittel,87144279,48.2024882,5.9418718,Vittel
+Viviers,viviers,1,Viviers-du-Lac,87741140,45.648502,5.9033389,Viviers-du-Lac
+Viviez,viviez,1,Viviez - Decazeville,87613661,44.5555678,2.2182582,Viviez - Decazeville
+Vivoin,vivoin,1,Vivoin - Beaumont,87396077,48.2302093,0.1447829,Vivoin - Beaumont
+Vivonne,vivonne,1,Vivonne,87575290,46.4266355,0.2653156,Vivonne
+Voiron,voiron,1,Voiron,87747287,45.364037,5.595054,Voiron
+Voivres,voivres,1,Voivres-lès-le-Mans,87396358,47.9304199,0.0853466,Voivres-lès-le-Mans
+Volvic,volvic,1,Volvic,87641423,45.864715,3.0031455,Volvic
+Vonnas,vonnas,1,Vonnas,87725820,46.2272852,4.9916677,Vonnas
+Voreppe,voreppe,1,Voreppe,87747337,45.290417,5.632119,Voreppe
+Vorey,vorey,1,Vorey,87734723,45.1829093,3.911422,Vorey
+Vosves,vosves,1,Vosves,87682500,48.5151115,2.5991469,Vosves
+Vougeot,vougeot,1,Vougeot - Gilly-lès-Cîteaux,87713511,47.1755556,4.9715685,Vougeot - Gilly-lès-Cîteaux
+Voujeaucourt,voujeaucourt,1,Voujeaucourt,87184531,47.4789729,6.7699667,Voujeaucourt
+Voutré,voutre,1,Voutré,87478560,48.1340521,-0.2921804,Voutré
+Voves,voves,1,Voves,87545707,48.2750095,1.6222874,Voves
+Vrigne,vrigne,1,Vrigne-Meuse,87172221,49.7010822,4.8438063,Vrigne-Meuse
+Vulaines-sur-Seine,vulaines-sur-seine,1,Vulaines-sur-Seine - Samoreau,87682443,48.4305468,2.7531008,Vulaines-sur-Seine - Samoreau
+Vélines,velines,1,Vélines,87584177,44.8520145,0.1036584,Vélines
+Vénissieux,venissieux,1,Vénissieux,87723320,45.705551,4.888109,Vénissieux
+Véretz,veretz,1,Véretz - Montlouis,87574434,47.3715058,0.8199079,Véretz - Montlouis
+Wacquemoulin,wacquemoulin,1,Wacquemoulin,87316208,49.5032575,2.6116581,Wacquemoulin
+Walbach,walbach,1,Walbach,87182360,48.0580062,7.2334758,Walbach
+Walbourg,walbourg,1,Walbourg,87213405,48.8862164,7.8092705,Walbourg
+Walheim,walheim,1,Walheim,87181065,47.6416406,7.2633202,Walheim
+Waligator Parc,waligator parc,1,Waligator Parc,87191098,49.22492,6.15946,Waligator Parc
+Wallers,wallers,1,Wallers,87343301,50.384611,3.3937454,Wallers
+Wambaix,wambaix,1,Wambaix,87345595,50.1338767,3.3114074,Wambaix
+Watten,watten,1,Watten - Éperlecques,87281436,50.8254043,2.2079599,Watten - Éperlecques
+Wattignies,wattignies,1,Wattignies - Templemars,87286526,50.5793139,3.051975,Wattignies - Templemars
+Wavrin,wavrin,1,Wavrin,87286419,50.57443,2.93672,Wavrin
+Wesserling,wesserling,1,Wesserling,87182618,47.8899651,6.997519,Wesserling
+Weyersheim,weyersheim,1,Weyersheim,87213678,48.7177903,7.7971027,Weyersheim
+Wihr-au-Val,wihr-au-val,1,Wihr-au-Val - Soultzbach,87182378,48.0460522,7.2095351,Wihr-au-Val - Soultzbach
+Willer,willer,1,Willer-sur-Thur,87182584,47.8425494,7.0693196,Willer-sur-Thur
+Wilwisheim,wilwisheim,1,Wilwisheim,87212175,48.745831,7.5077599,Wilwisheim
+Wimille,wimille,1,Wimille - Wimereux,87317123,50.7638456,1.6137455,Wimille - Wimereux
+Wingen,wingen,1,Wingen-sur-Moder,87213744,48.9200646,7.3811114,Wingen-sur-Moder
+Wisches,wisches,1,Wisches,87214676,48.5076495,7.2700936,Wisches
+Wissembourg,wissembourg,1,Wissembourg,87213470,49.0318895,7.9501435,Wissembourg
+Woippy,woippy,1,Woippy,87192088,49.1487965,6.155621,Woippy
+Xertigny,xertigny,1,Xertigny,87144121,48.0530255,6.3767687,Xertigny
+Ychoux,ychoux,1,Ychoux,87582536,44.3292659,-0.9460318,Ychoux
+Yerres,yerres,1,Yerres,87682112,48.706759,2.48337,Yerres
+Yffiniac,yffiniac,1,Yffiniac,87473116,48.4702462,-2.6524629,Yffiniac
+Ygos,ygos,1,Ygos-Saint-Saturnin,87671487,43.9781851,-0.7361528,Ygos-Saint-Saturnin
+Ytrac,ytrac,1,Ytrac,87645101,44.9106891,2.3644474,Ytrac
+Yvetot,yvetot,1,Yvetot,87413385,49.622035,0.750115,Yvetot
+Zillisheim,zillisheim,1,Zillisheim,87182196,47.6943143,7.2945376,Zillisheim
+Èze,eze,1,Èze,87756387,43.7221842,7.3568031,Èze
+Échirolles,echirolles,1,Échirolles,87725895,45.153022,5.718943,Échirolles
+École,ecole,1,École-Valentin,87710731,47.2749834,5.9944745,École-Valentin
+Écommoy,ecommoy,1,Écommoy,87396564,47.8246286,0.2691867,Écommoy
+Écouen,ecouen,1,Écouen - Ézanville,87276394,49.02273,2.36325,Écouen - Ézanville
+Égletons,egletons,1,Égletons,87594168,45.4023816,2.0651243,Égletons
+Égly,egly,1,Égly,87545475,48.582364,2.222138,Égly
+Éguzon,eguzon,1,Éguzon-Chantôme,87597153,46.4397694,1.5521707,Éguzon-Chantôme
+Éloyes,eloyes,1,Éloyes,87144436,48.087067,6.6001593,Éloyes
+Émerainville,emerainville,1,Émerainville - Pontault-Combault,87116046,48.806034,2.618004,Émerainville - Pontault-Combault
+Épanvilliers,epanvilliers,1,Épanvilliers,87575357,46.2254951,0.2357576,Épanvilliers
+Épernay,epernay,1,Épernay,87171553,49.046289,3.959798,Épernay
+Épernon,epernon,1,Épernon,87394114,48.6052471,1.6812578,Épernon
+Épierre,epierre,1,Épierre - Saint-Léger,87741280,45.457027,6.292521,Épierre - Saint-Léger
+Épinal,epinal,1,Épinal,87144006,48.178005,6.441787,Épinal
+Épluches,epluches,1,Épluches,87276147,49.0549329,2.1225973,Épluches
+Épône,epone,1,Épône - Mézières,87386763,48.9631225,1.8085932,Épône - Mézières
+Éragny,eragny,1,Éragny - Neuville,87381418,49.01824,2.09104,Éragny - Neuville
+Étain,etain,1,Étain,87175794,49.2074907,5.6398079,Étain
+Étainhus,etainhus,1,Étainhus - Saint-Romain,87413328,49.5612151,0.3310234,Étainhus - Saint-Romain
+Étalans,etalans,1,Étalans,87718536,47.155884,6.2706173,Étalans
+Étampes,etampes,1,Étampes,87545137,48.436661,2.159468,Étampes
+Étang,etang,1,Étang-sur-Arroux,87694141,46.8679082,4.1838415,Étang-sur-Arroux
+Étaples,etaples,1,Étaples - Le Touquet,87317065,50.51686,1.64231,Étaples - Le Touquet
+Étigny,etigny,1,Étigny - Véron,87683201,48.1386835,3.2904186,Étigny - Véron
+Étival,etival,1,Étival-Clairefontaine,87144642,48.3671987,6.8769607,Étival-Clairefontaine
+Étriché,etriche,1,Étriché - Châteauneuf,87484154,47.6567082,-0.4608993,Étriché - Châteauneuf
+Étréchy,etrechy,1,Étréchy,87545145,48.493727,2.194323,Étréchy
+Évian,evian,1,Évian-les-Bains,87745679,46.397915,6.577457,Évian-les-Bains
+Évreux Normandie,evreux normandie,1,Évreux Normandie,87387001,49.018748,1.149629,Évreux Normandie
+Évron,evron,1,Évron,87478552,48.155501,-0.397338,Évron
+Évry,evry,1,Évry-Courcouronnes,87681387,48.625507,2.428581,Évry-Courcouronnes
+Évry Val de Seine,evry val de seine,1,Évry Val de Seine,87681361,48.63442,2.45209,Évry Val de Seine

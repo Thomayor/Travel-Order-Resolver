@@ -1,0 +1,628 @@
+origin_uic,destination_uic,origin_name,destination_name,trip_count,duration_minutes,source
+87271494,87111849,Aéroport Charles de Gaulle 2 TGV,Marne-la-Vallée Chessy,572,11,GTFS_TGV
+87111849,87271494,Marne-la-Vallée Chessy,Aéroport Charles de Gaulle 2 TGV,500,11,GTFS_TGV
+87481002,87484006,Nantes,Angers Saint-Laud,410,38,GTFS_TGV
+87484006,87481002,Angers Saint-Laud,Nantes,354,38,GTFS_TGV
+87393702,87111849,Massy TGV,Marne-la-Vallée Chessy,337,29,GTFS_TGV
+87581009,87391003,Bordeaux Saint-Jean,Paris Montparnasse,301,136,GTFS_TGV
+87471003,87391003,Rennes,Paris Montparnasse,295,92,GTFS_TGV
+87391003,87581009,Paris Montparnasse,Bordeaux Saint-Jean,284,135,GTFS_TGV
+87111849,87393702,Marne-la-Vallée Chessy,Massy TGV,282,31,GTFS_TGV
+87396002,87393702,Le Mans,Massy TGV,271,52,GTFS_TGV
+87484006,87396002,Angers Saint-Laud,Le Mans,265,40,GTFS_TGV
+87393702,87396002,Massy TGV,Le Mans,265,51,GTFS_TGV
+87319012,87318964,Aix-en-Provence TGV,Avignon TGV,254,20,GTFS_TGV
+87751008,87319012,Marseille Saint-Charles,Aix-en-Provence TGV,253,11,GTFS_TGV
+87391003,87471003,Paris Montparnasse,Rennes,248,89,GTFS_TGV
+87111849,87723197,Marne-la-Vallée Chessy,Lyon Part Dieu,238,107,GTFS_TGV
+87223263,87271494,Lille Europe,Aéroport Charles de Gaulle 2 TGV,225,56,GTFS_TGV
+87581009,87673202,Bordeaux Saint-Jean,Dax,221,73,GTFS_TGV
+87396002,87484006,Le Mans,Angers Saint-Laud,216,38,GTFS_TGV
+87318964,87319012,Avignon TGV,Aix-en-Provence TGV,210,20,GTFS_TGV
+87319012,87751008,Aix-en-Provence TGV,Marseille Saint-Charles,208,12,GTFS_TGV
+87673202,87581009,Dax,Bordeaux Saint-Jean,206,78,GTFS_TGV
+87396002,87391003,Le Mans,Paris Montparnasse,201,59,GTFS_TGV
+87575001,87571240,Poitiers,Saint-Pierre-des-Corps,198,32,GTFS_TGV
+87313882,87271494,Haute Picardie TGV,Aéroport Charles de Gaulle 2 TGV,191,30,GTFS_TGV
+87723197,87763029,Lyon Part Dieu,Valence TGV Rhône-Alpes Sud,186,38,GTFS_TGV
+87723197,87722025,Lyon Part Dieu,Lyon Perrache,184,8,GTFS_TGV
+87571240,87393702,Saint-Pierre-des-Corps,Massy TGV,182,56,GTFS_TGV
+87722025,87723197,Lyon Perrache,Lyon Part Dieu,181,8,GTFS_TGV
+87391003,87396002,Paris Montparnasse,Le Mans,176,57,GTFS_TGV
+87271494,87223263,Aéroport Charles de Gaulle 2 TGV,Lille Europe,175,55,GTFS_TGV
+87723197,87111849,Lyon Part Dieu,Marne-la-Vallée Chessy,174,106,GTFS_TGV
+87581009,87583005,Bordeaux Saint-Jean,Angoulême,173,41,GTFS_TGV
+87271494,87313882,Aéroport Charles de Gaulle 2 TGV,Haute Picardie TGV,172,29,GTFS_TGV
+87471003,87478404,Rennes,Laval,166,26,GTFS_TGV
+87478404,87471003,Laval,Rennes,161,27,GTFS_TGV
+87775007,87773002,Nîmes,Montpellier Saint-Roch,159,26,GTFS_TGV
+87763029,87775007,Valence TGV Rhône-Alpes Sud,Nîmes,159,45,GTFS_TGV
+87583005,87581009,Angoulême,Bordeaux Saint-Jean,156,42,GTFS_TGV
+87571240,87575001,Saint-Pierre-des-Corps,Poitiers,153,32,GTFS_TGV
+87318964,87686006,Avignon TGV,Paris Gare de Lyon,150,165,GTFS_TGV
+87142109,87212027,Lorraine TGV,Strasbourg,147,37,GTFS_TGV
+87741777,87741793,Landry,Bourg-Saint-Maurice,143,7,GTFS_TGV
+87741769,87741777,Aime - La Plagne,Landry,143,7,GTFS_TGV
+87741728,87741769,Moûtiers - Salins - Brides-les-Bains,Aime - La Plagne,143,15,GTFS_TGV
+87741645,87741728,Albertville,Moûtiers - Salins - Brides-les-Bains,143,22,GTFS_TGV
+87393702,87571240,Massy TGV,Saint-Pierre-des-Corps,142,56,GTFS_TGV
+87741777,87741769,Landry,Aime - La Plagne,141,7,GTFS_TGV
+87741728,87741645,Moûtiers - Salins - Brides-les-Bains,Albertville,141,23,GTFS_TGV
+87741793,87741777,Bourg-Saint-Maurice,Landry,141,7,GTFS_TGV
+87741769,87741728,Aime - La Plagne,Moûtiers - Salins - Brides-les-Bains,141,15,GTFS_TGV
+87583005,87575001,Angoulême,Poitiers,138,41,GTFS_TGV
+87673202,87673004,Dax,Bayonne,134,30,GTFS_TGV
+87673004,87673400,Bayonne,Biarritz,134,9,GTFS_TGV
+87673400,87677120,Biarritz,Saint-Jean-de-Luz - Ciboure,134,13,GTFS_TGV
+87677120,87677005,Saint-Jean-de-Luz - Ciboure,Hendaye,134,13,GTFS_TGV
+87473207,87473009,Guingamp,Saint-Brieuc,132,15,GTFS_TGV
+87473009,87473207,Saint-Brieuc,Guingamp,131,15,GTFS_TGV
+87478404,87396002,Laval,Le Mans,128,29,GTFS_TGV
+87342014,87313882,Arras,Haute Picardie TGV,127,18,GTFS_TGV
+87171926,87147322,Champagne-Ardenne TGV,Meuse TGV,125,24,GTFS_TGV
+87391003,87571216,Paris Montparnasse,Vendôme - Villiers-sur-Loir TGV,124,44,GTFS_TGV
+87212027,87142109,Strasbourg,Lorraine TGV,123,36,GTFS_TGV
+87396002,87478404,Le Mans,Laval,123,30,GTFS_TGV
+87571216,87571240,Vendôme - Villiers-sur-Loir TGV,Saint-Pierre-des-Corps,123,23,GTFS_TGV
+87391003,87393702,Paris Montparnasse,Massy TGV,122,9,GTFS_TGV
+87396002,87471003,Le Mans,Rennes,122,46,GTFS_TGV
+87677005,87677120,Hendaye,Saint-Jean-de-Luz - Ciboure,121,10,GTFS_TGV
+87673004,87673202,Bayonne,Dax,121,32,GTFS_TGV
+87673400,87673004,Biarritz,Bayonne,121,12,GTFS_TGV
+87575001,87583005,Poitiers,Angoulême,121,40,GTFS_TGV
+87677120,87673400,Saint-Jean-de-Luz - Ciboure,Biarritz,121,10,GTFS_TGV
+87318964,87723197,Avignon TGV,Lyon Part Dieu,118,67,GTFS_TGV
+87171926,87271494,Champagne-Ardenne TGV,Aéroport Charles de Gaulle 2 TGV,118,31,GTFS_TGV
+87741645,87741009,Albertville,Chambéry - Challes-les-Eaux,114,38,GTFS_TGV
+87147322,87142109,Meuse TGV,Lorraine TGV,112,18,GTFS_TGV
+87741009,87741645,Chambéry - Challes-les-Eaux,Albertville,110,36,GTFS_TGV
+87686006,87763029,Paris Gare de Lyon,Valence TGV Rhône-Alpes Sud,110,133,GTFS_TGV
+87393702,87723197,Massy TGV,Lyon Part Dieu,109,123,GTFS_TGV
+87471003,87396002,Rennes,Le Mans,108,48,GTFS_TGV
+87313882,87223263,Haute Picardie TGV,Lille Europe,106,31,GTFS_TGV
+87474338,87474007,Morlaix,Brest,103,33,GTFS_TGV
+87686006,87723197,Paris Gare de Lyon,Lyon Part Dieu,102,118,GTFS_TGV
+87474007,87474338,Brest,Morlaix,101,30,GTFS_TGV
+87471003,87473009,Rennes,Saint-Brieuc,101,46,GTFS_TGV
+87147322,87171926,Meuse TGV,Champagne-Ardenne TGV,101,24,GTFS_TGV
+87474098,87476002,Quimper,Lorient Bretagne Sud,100,33,GTFS_TGV
+87686006,87741009,Paris Gare de Lyon,Chambéry - Challes-les-Eaux,100,188,GTFS_TGV
+87763029,87723197,Valence TGV Rhône-Alpes Sud,Lyon Part Dieu,98,40,GTFS_TGV
+87723197,87393702,Lyon Part Dieu,Massy TGV,97,123,GTFS_TGV
+87571240,87571000,Saint-Pierre-des-Corps,Tours,97,5,GTFS_TGV
+87773002,87775007,Montpellier Saint-Roch,Nîmes,96,25,GTFS_TGV
+87723197,87318964,Lyon Part Dieu,Avignon TGV,96,65,GTFS_TGV
+87476606,87476200,Vannes,Auray,95,10,GTFS_TGV
+87171272,87171926,Reims Maison Blanche,Champagne-Ardenne TGV,95,6,GTFS_TGV
+87417444,87171272,Franchet d'Esperey,Reims Maison Blanche,95,2,GTFS_TGV
+87741009,87686006,Chambéry - Challes-les-Eaux,Paris Gare de Lyon,95,189,GTFS_TGV
+87171009,87417444,Reims,Franchet d'Esperey,95,2,GTFS_TGV
+87476200,87476002,Auray,Lorient Bretagne Sud,95,16,GTFS_TGV
+87775007,87763029,Nîmes,Valence TGV Rhône-Alpes Sud,94,44,GTFS_TGV
+87741009,87725705,Chambéry - Challes-les-Eaux,Mâcon Loché TGV,94,76,GTFS_TGV
+87345009,87342014,Douai,Arras,92,17,GTFS_TGV
+87286005,87345009,Lille Flandres,Douai,92,20,GTFS_TGV
+87473009,87471003,Saint-Brieuc,Rennes,92,48,GTFS_TGV
+87725705,87686006,Mâcon Loché TGV,Paris Gare de Lyon,91,94,GTFS_TGV
+87485227,87485003,Surgères,La Rochelle,90,21,GTFS_TGV
+87473207,87474338,Guingamp,Morlaix,90,27,GTFS_TGV
+87485300,87485227,Niort,Surgères,90,18,GTFS_TGV
+87393702,87581009,Massy TGV,Bordeaux Saint-Jean,90,130,GTFS_TGV
+87686006,87318964,Paris Gare de Lyon,Avignon TGV,89,162,GTFS_TGV
+87571000,87571240,Tours,Saint-Pierre-des-Corps,88,5,GTFS_TGV
+87142109,87147322,Lorraine TGV,Meuse TGV,88,18,GTFS_TGV
+87586008,87581009,Agen,Bordeaux Saint-Jean,88,75,GTFS_TGV
+87476200,87476606,Auray,Vannes,87,10,GTFS_TGV
+87476002,87476200,Lorient Bretagne Sud,Auray,87,15,GTFS_TGV
+87671339,87671008,Lourdes,Tarbes,87,15,GTFS_TGV
+87672006,87671339,Pau,Lourdes,87,26,GTFS_TGV
+87271494,87171926,Aéroport Charles de Gaulle 2 TGV,Champagne-Ardenne TGV,85,32,GTFS_TGV
+87671339,87672006,Lourdes,Pau,85,26,GTFS_TGV
+87671008,87671339,Tarbes,Lourdes,85,14,GTFS_TGV
+87688887,87703975,Montpellier Sud de France,Nîmes Pont du Gard,85,19,GTFS_TGV
+87484006,87391003,Angers Saint-Laud,Paris Montparnasse,85,87,GTFS_TGV
+87485003,87485227,La Rochelle,Surgères,84,18,GTFS_TGV
+87571216,87391003,Vendôme - Villiers-sur-Loir TGV,Paris Montparnasse,84,46,GTFS_TGV
+87581009,87586008,Bordeaux Saint-Jean,Agen,84,73,GTFS_TGV
+87485227,87485300,Surgères,Niort,84,18,GTFS_TGV
+87723197,87686006,Lyon Part Dieu,Paris Gare de Lyon,83,117,GTFS_TGV
+87781104,87784009,Narbonne,Perpignan,81,34,GTFS_TGV
+87781278,87781005,Agde,Béziers,81,14,GTFS_TGV
+87781005,87781104,Béziers,Narbonne,81,14,GTFS_TGV
+87773200,87781278,Sète,Agde,81,13,GTFS_TGV
+87171462,87171009,Bazancourt,Reims,81,11,GTFS_TGV
+87172270,87171462,Rethel,Bazancourt,81,12,GTFS_TGV
+87703975,87763029,Nîmes Pont du Gard,Valence TGV Rhône-Alpes Sud,80,38,GTFS_TGV
+87703975,87688887,Nîmes Pont du Gard,Montpellier Sud de France,79,20,GTFS_TGV
+87417444,87171009,Franchet d'Esperey,Reims,78,4,GTFS_TGV
+87171272,87417444,Reims Maison Blanche,Franchet d'Esperey,78,1,GTFS_TGV
+87171926,87171272,Champagne-Ardenne TGV,Reims Maison Blanche,78,5,GTFS_TGV
+87686006,87762906,Paris Gare de Lyon,Lyon Saint-Exupéry TGV,78,112,GTFS_TGV
+87763029,87703975,Valence TGV Rhône-Alpes Sud,Nîmes Pont du Gard,78,37,GTFS_TGV
+87741132,87741009,Aix-les-Bains le Revard,Chambéry - Challes-les-Eaux,77,11,GTFS_TGV
+87481002,87481705,Nantes,Saint-Nazaire,77,34,GTFS_TGV
+87113001,87212027,Paris Est,Strasbourg,76,107,GTFS_TGV
+87571240,87571216,Saint-Pierre-des-Corps,Vendôme - Villiers-sur-Loir TGV,76,21,GTFS_TGV
+87474338,87473207,Morlaix,Guingamp,76,26,GTFS_TGV
+87763029,87686006,Valence TGV Rhône-Alpes Sud,Paris Gare de Lyon,76,136,GTFS_TGV
+87476002,87474098,Lorient Bretagne Sud,Quimper,76,33,GTFS_TGV
+87172254,87172239,Sedan,Donchery,73,4,GTFS_TGV
+87481705,87481002,Saint-Nazaire,Nantes,73,35,GTFS_TGV
+87171009,87171462,Reims,Bazancourt,72,9,GTFS_TGV
+87751602,87753285,L'Estaque,Pas des Lanciers,72,6,GTFS_TGV
+87753251,87753202,Rognac,Saint-Chamas,72,11,GTFS_TGV
+87753285,87439554,Pas des Lanciers,Vitrolles Aéroport Marseille Provence,72,3,GTFS_TGV
+87439554,87753251,Vitrolles Aéroport Marseille Provence,Rognac,72,4,GTFS_TGV
+87753202,87753004,Saint-Chamas,Miramas,72,5,GTFS_TGV
+87171462,87172270,Bazancourt,Rethel,72,12,GTFS_TGV
+87172262,87172270,Amagne - Lucquy,Rethel,72,5,GTFS_TGV
+87751008,87751602,Marseille Saint-Charles,L'Estaque,71,8,GTFS_TGV
+87391003,87478404,Paris Montparnasse,Laval,71,75,GTFS_TGV
+87172007,87172171,Charleville-Mézières,Poix-Terron,70,11,GTFS_TGV
+87172171,87172262,Poix-Terron,Amagne - Lucquy,70,13,GTFS_TGV
+87673202,87672253,Dax,Orthez,70,27,GTFS_TGV
+87672253,87672006,Orthez,Pau,70,22,GTFS_TGV
+87746008,87741132,Annecy,Aix-les-Bains le Revard,69,28,GTFS_TGV
+87757674,87757625,Antibes,Cannes,69,8,GTFS_TGV
+87756056,87757674,Nice,Antibes,69,17,GTFS_TGV
+87476606,87471003,Vannes,Rennes,69,58,GTFS_TGV
+87686006,87694109,Paris Gare de Lyon,Le Creusot - Montceau-les-Mines - Montchanin TGV,68,80,GTFS_TGV
+87212027,87113001,Strasbourg,Paris Est,67,106,GTFS_TGV
+87473009,87473108,Saint-Brieuc,Lamballe,66,9,GTFS_TGV
+87313882,87342014,Haute Picardie TGV,Arras,66,18,GTFS_TGV
+87575001,87485300,Poitiers,Niort,66,43,GTFS_TGV
+87763029,87318964,Valence TGV Rhône-Alpes Sud,Avignon TGV,66,32,GTFS_TGV
+87473108,87471003,Lamballe,Rennes,66,40,GTFS_TGV
+87172239,87172254,Donchery,Sedan,65,5,GTFS_TGV
+87172262,87172171,Amagne - Lucquy,Poix-Terron,65,14,GTFS_TGV
+87172270,87172262,Rethel,Amagne - Lucquy,65,5,GTFS_TGV
+87172171,87172007,Poix-Terron,Charleville-Mézières,65,12,GTFS_TGV
+87223263,87313882,Lille Europe,Haute Picardie TGV,64,29,GTFS_TGV
+87586008,87611244,Agen,Montauban Ville Bourbon,64,34,GTFS_TGV
+87611244,87611004,Montauban Ville Bourbon,Toulouse Matabiau,64,36,GTFS_TGV
+87473108,87473009,Lamballe,Saint-Brieuc,64,10,GTFS_TGV
+87725705,87741009,Mâcon Loché TGV,Chambéry - Challes-les-Eaux,64,76,GTFS_TGV
+87471003,87473108,Rennes,Lamballe,64,37,GTFS_TGV
+87478073,87471003,Dol-de-Bretagne,Rennes,62,34,GTFS_TGV
+87478107,87478073,Saint-Malo,Dol-de-Bretagne,62,13,GTFS_TGV
+87471003,87476606,Rennes,Vannes,62,57,GTFS_TGV
+87755009,87751008,Toulon,Marseille Saint-Charles,62,43,GTFS_TGV
+87686006,87725705,Paris Gare de Lyon,Mâcon Loché TGV,62,92,GTFS_TGV
+87762906,87686006,Lyon Saint-Exupéry TGV,Paris Gare de Lyon,62,112,GTFS_TGV
+87113001,87171926,Paris Est,Champagne-Ardenne TGV,61,41,GTFS_TGV
+87741009,87741132,Chambéry - Challes-les-Eaux,Aix-les-Bains le Revard,60,10,GTFS_TGV
+87753285,87751602,Pas des Lanciers,L'Estaque,59,6,GTFS_TGV
+87753004,87753202,Miramas,Saint-Chamas,59,4,GTFS_TGV
+87757625,87757526,Cannes,Saint-Raphaël Valescure,59,23,GTFS_TGV
+87753251,87439554,Rognac,Vitrolles Aéroport Marseille Provence,59,4,GTFS_TGV
+87111849,87171926,Marne-la-Vallée Chessy,Champagne-Ardenne TGV,59,29,GTFS_TGV
+87753202,87753251,Saint-Chamas,Rognac,59,11,GTFS_TGV
+87439554,87753285,Vitrolles Aéroport Marseille Provence,Pas des Lanciers,59,3,GTFS_TGV
+87751602,87751008,L'Estaque,Marseille Saint-Charles,59,9,GTFS_TGV
+87318964,87765008,Avignon TGV,Avignon Centre,58,5,GTFS_TGV
+87478073,87478107,Dol-de-Bretagne,Saint-Malo,58,14,GTFS_TGV
+87471003,87478073,Rennes,Dol-de-Bretagne,58,34,GTFS_TGV
+87723197,87694109,Lyon Part Dieu,Le Creusot - Montceau-les-Mines - Montchanin TGV,58,40,GTFS_TGV
+87781104,87781005,Narbonne,Béziers,57,14,GTFS_TGV
+87571240,87575142,Saint-Pierre-des-Corps,Châtellerault,57,27,GTFS_TGV
+87784009,87781104,Perpignan,Narbonne,57,35,GTFS_TGV
+87571240,87391003,Saint-Pierre-des-Corps,Paris Montparnasse,56,63,GTFS_TGV
+87773002,87773200,Montpellier Saint-Roch,Sète,56,14,GTFS_TGV
+87742320,87741306,Saint-Jean-de-Maurienne Arvan,Saint-Avre - La Chambre,55,7,GTFS_TGV
+87742361,87742320,Saint-Michel - Valloire,Saint-Jean-de-Maurienne Arvan,55,11,GTFS_TGV
+87742007,87742361,Modane,Saint-Michel - Valloire,55,13,GTFS_TGV
+87781005,87781278,Béziers,Agde,54,13,GTFS_TGV
+87781278,87773200,Agde,Sète,54,13,GTFS_TGV
+87741132,87746008,Aix-les-Bains le Revard,Annecy,54,29,GTFS_TGV
+87476606,87471300,Vannes,Redon,54,24,GTFS_TGV
+87765008,87318964,Avignon Centre,Avignon TGV,53,5,GTFS_TGV
+87171926,87113001,Champagne-Ardenne TGV,Paris Est,52,42,GTFS_TGV
+87391003,87575001,Paris Montparnasse,Poitiers,52,84,GTFS_TGV
+87694109,87723197,Le Creusot - Montceau-les-Mines - Montchanin TGV,Lyon Part Dieu,51,41,GTFS_TGV
+87478404,87391003,Laval,Paris Montparnasse,51,74,GTFS_TGV
+87672006,87672253,Pau,Orthez,50,21,GTFS_TGV
+87672253,87673202,Orthez,Dax,50,26,GTFS_TGV
+87694109,87686006,Le Creusot - Montceau-les-Mines - Montchanin TGV,Paris Gare de Lyon,49,81,GTFS_TGV
+87474338,87473181,Morlaix,Plouaret Trégor,49,15,GTFS_TGV
+87473181,87473207,Plouaret Trégor,Guingamp,49,13,GTFS_TGV
+87751008,87686006,Marseille Saint-Charles,Paris Gare de Lyon,49,185,GTFS_TGV
+87476002,87476606,Lorient Bretagne Sud,Vannes,49,23,GTFS_TGV
+87393702,87391003,Massy TGV,Paris Montparnasse,47,10,GTFS_TGV
+87471300,87471003,Redon,Rennes,47,35,GTFS_TGV
+87271494,87286005,Aéroport Charles de Gaulle 2 TGV,Lille Flandres,47,57,GTFS_TGV
+87581009,87393702,Bordeaux Saint-Jean,Massy TGV,47,129,GTFS_TGV
+87575001,87391003,Poitiers,Paris Montparnasse,46,85,GTFS_TGV
+87481788,87481754,Le Croisic,La Baule-Escoublac,46,8,GTFS_TGV
+87481754,87481705,La Baule-Escoublac,Saint-Nazaire,46,13,GTFS_TGV
+87391003,87571240,Paris Montparnasse,Saint-Pierre-des-Corps,45,62,GTFS_TGV
+87753715,87753731,Sénas,Lamanon,45,4,GTFS_TGV
+87765446,87765453,Gadagne,Le Thor,45,4,GTFS_TGV
+87753764,87753004,Salon-de-Provence,Miramas,45,10,GTFS_TGV
+87765453,87765479,Le Thor,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,45,4,GTFS_TGV
+87765420,87765438,Morières-lès-Avignon,Saint-Saturnin-lès-Avignon,45,3,GTFS_TGV
+87391003,87484006,Paris Montparnasse,Angers Saint-Laud,45,84,GTFS_TGV
+87765438,87765446,Saint-Saturnin-lès-Avignon,Gadagne,45,3,GTFS_TGV
+87753731,87753764,Lamanon,Salon-de-Provence,45,6,GTFS_TGV
+87481754,87481788,La Baule-Escoublac,Le Croisic,45,10,GTFS_TGV
+87765008,87765412,Avignon Centre,Montfavet,45,6,GTFS_TGV
+87765412,87765420,Montfavet,Morières-lès-Avignon,45,4,GTFS_TGV
+87481705,87481754,Saint-Nazaire,La Baule-Escoublac,45,13,GTFS_TGV
+87765479,87765503,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,Cavaillon,45,7,GTFS_TGV
+87765503,87753707,Cavaillon,Orgon,45,5,GTFS_TGV
+87753707,87753715,Orgon,Sénas,45,5,GTFS_TGV
+87172221,87172213,Vrigne-Meuse,Nouvion-sur-Meuse,44,4,GTFS_TGV
+87172189,87172155,Lumes,Mohon,44,4,GTFS_TGV
+87757526,87755009,Saint-Raphaël Valescure,Toulon,44,49,GTFS_TGV
+87611004,87586008,Toulouse Matabiau,Agen,44,72,GTFS_TGV
+87172155,87172007,Mohon,Charleville-Mézières,44,4,GTFS_TGV
+87172213,87172189,Nouvion-sur-Meuse,Lumes,44,3,GTFS_TGV
+87172239,87172221,Donchery,Vrigne-Meuse,44,3,GTFS_TGV
+87171009,87113001,Reims,Paris Est,43,46,GTFS_TGV
+87471300,87476606,Redon,Vannes,43,24,GTFS_TGV
+87762906,87747006,Lyon Saint-Exupéry TGV,Grenoble,43,64,GTFS_TGV
+87396408,87484006,Sablé-sur-Sarthe,Angers Saint-Laud,42,20,GTFS_TGV
+87342014,87223263,Arras,Lille Europe,42,23,GTFS_TGV
+87765479,87765453,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,Le Thor,42,4,GTFS_TGV
+87753731,87753715,Lamanon,Sénas,42,4,GTFS_TGV
+87753764,87753731,Salon-de-Provence,Lamanon,42,6,GTFS_TGV
+87765438,87765420,Saint-Saturnin-lès-Avignon,Morières-lès-Avignon,42,4,GTFS_TGV
+87765446,87765438,Gadagne,Saint-Saturnin-lès-Avignon,42,3,GTFS_TGV
+87765453,87765446,Le Thor,Gadagne,42,3,GTFS_TGV
+87765420,87765412,Morières-lès-Avignon,Montfavet,42,3,GTFS_TGV
+87765412,87765008,Montfavet,Avignon Centre,42,8,GTFS_TGV
+87753004,87753764,Miramas,Salon-de-Provence,42,10,GTFS_TGV
+87765503,87765479,Cavaillon,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,42,7,GTFS_TGV
+87753707,87765503,Orgon,Cavaillon,42,6,GTFS_TGV
+87753715,87753707,Sénas,Orgon,42,5,GTFS_TGV
+87485300,87575001,Niort,Poitiers,41,43,GTFS_TGV
+87571240,87484006,Saint-Pierre-des-Corps,Angers Saint-Laud,40,54,GTFS_TGV
+87741306,87742320,Saint-Avre - La Chambre,Saint-Jean-de-Maurienne Arvan,40,9,GTFS_TGV
+87742361,87742007,Saint-Michel - Valloire,Modane,40,16,GTFS_TGV
+87742320,87742361,Saint-Jean-de-Maurienne Arvan,Saint-Michel - Valloire,40,10,GTFS_TGV
+87765107,87765008,Orange,Avignon Centre,39,15,GTFS_TGV
+87745000,87686006,Bellegarde-sur-Valserine,Paris Gare de Lyon,39,177,GTFS_TGV
+87747006,87762906,Grenoble,Lyon Saint-Exupéry TGV,39,66,GTFS_TGV
+87171926,87142109,Champagne-Ardenne TGV,Lorraine TGV,39,38,GTFS_TGV
+87745497,87745000,Annemasse,Bellegarde-sur-Valserine,39,40,GTFS_TGV
+87485490,87485300,Saint-Maixent-L'École,Niort,39,15,GTFS_TGV
+87147322,87141002,Meuse TGV,Nancy,39,35,GTFS_TGV
+87300863,87713040,Besançon Franche-Comté TGV,Dijon,38,28,GTFS_TGV
+87611244,87586008,Montauban Ville Bourbon,Agen,38,35,GTFS_TGV
+87611004,87611244,Toulouse Matabiau,Montauban Ville Bourbon,38,35,GTFS_TGV
+87182063,87300822,Mulhouse,Belfort - Montbéliard TGV,38,22,GTFS_TGV
+87300822,87300863,Belfort - Montbéliard TGV,Besançon Franche-Comté TGV,38,21,GTFS_TGV
+87761007,87764001,Valence,Montélimar,37,22,GTFS_TGV
+87757625,87757674,Cannes,Antibes,37,8,GTFS_TGV
+87757674,87756056,Antibes,Nice,37,17,GTFS_TGV
+87762906,87761007,Lyon Saint-Exupéry TGV,Valence,37,29,GTFS_TGV
+87764001,87765107,Montélimar,Orange,37,26,GTFS_TGV
+87473207,87473181,Guingamp,Plouaret Trégor,36,14,GTFS_TGV
+87583005,87391003,Angoulême,Paris Montparnasse,35,110,GTFS_TGV
+87686006,87745000,Paris Gare de Lyon,Bellegarde-sur-Valserine,35,179,GTFS_TGV
+87745000,87745497,Bellegarde-sur-Valserine,Annemasse,35,37,GTFS_TGV
+87575001,87485490,Poitiers,Saint-Maixent-L'École,35,33,GTFS_TGV
+87318964,87751008,Avignon TGV,Marseille Saint-Charles,35,29,GTFS_TGV
+87391003,87583005,Paris Montparnasse,Angoulême,35,108,GTFS_TGV
+87672006,87673202,Pau,Dax,35,46,GTFS_TGV
+87172221,87172239,Vrigne-Meuse,Donchery,34,3,GTFS_TGV
+87172213,87172221,Nouvion-sur-Meuse,Vrigne-Meuse,34,3,GTFS_TGV
+87172189,87172213,Lumes,Nouvion-sur-Meuse,34,3,GTFS_TGV
+87172007,87172155,Charleville-Mézières,Mohon,34,3,GTFS_TGV
+87172155,87172189,Mohon,Lumes,34,4,GTFS_TGV
+87142109,87171926,Lorraine TGV,Champagne-Ardenne TGV,33,38,GTFS_TGV
+87473181,87474338,Plouaret Trégor,Morlaix,33,16,GTFS_TGV
+87485300,87485003,Niort,La Rochelle,33,38,GTFS_TGV
+87476002,87476317,Lorient Bretagne Sud,Quimperlé,33,11,GTFS_TGV
+87471003,87471300,Rennes,Redon,33,34,GTFS_TGV
+87575142,87575001,Châtellerault,Poitiers,33,19,GTFS_TGV
+87476317,87474155,Quimperlé,Rosporden,33,13,GTFS_TGV
+87474155,87474098,Rosporden,Quimper,33,12,GTFS_TGV
+87478404,87471508,Laval,Vitré,33,18,GTFS_TGV
+87471508,87471003,Vitré,Rennes,33,21,GTFS_TGV
+87478107,87471003,Saint-Malo,Rennes,33,45,GTFS_TGV
+87746370,87746438,Cluses,Sallanches - Combloux - Megève,33,14,GTFS_TGV
+87746438,87746479,Sallanches - Combloux - Megève,Saint-Gervais-les-Bains Le Fayet,33,6,GTFS_TGV
+87192039,87113001,Metz,Paris Est,32,85,GTFS_TGV
+87113001,87192039,Paris Est,Metz,32,84,GTFS_TGV
+87686006,87741645,Paris Gare de Lyon,Albertville,32,232,GTFS_TGV
+87113001,87141002,Paris Est,Nancy,32,91,GTFS_TGV
+87486019,87481002,La Roche-sur-Yon,Nantes,32,45,GTFS_TGV
+87191007,87192039,Thionville,Metz,32,21,GTFS_TGV
+87485490,87575001,Saint-Maixent-L'École,Poitiers,31,32,GTFS_TGV
+87686006,87751008,Paris Gare de Lyon,Marseille Saint-Charles,31,185,GTFS_TGV
+87741306,87741009,Saint-Avre - La Chambre,Chambéry - Challes-les-Eaux,31,34,GTFS_TGV
+87485300,87485490,Niort,Saint-Maixent-L'École,31,14,GTFS_TGV
+87172007,87172213,Charleville-Mézières,Nouvion-sur-Meuse,31,10,GTFS_TGV
+87723197,87726000,Lyon Part Dieu,Saint-Étienne Châteaucreux,31,42,GTFS_TGV
+87172213,87172239,Nouvion-sur-Meuse,Donchery,31,6,GTFS_TGV
+87746479,87746438,Saint-Gervais-les-Bains Le Fayet,Sallanches - Combloux - Megève,30,6,GTFS_TGV
+87746438,87746370,Sallanches - Combloux - Megève,Cluses,30,14,GTFS_TGV
+87753657,87753004,Arles,Miramas,30,22,GTFS_TGV
+87765008,87753657,Avignon Centre,Arles,30,17,GTFS_TGV
+87486449,87486019,Les Sables-d'Olonne,La Roche-sur-Yon,29,25,GTFS_TGV
+87172213,87172007,Nouvion-sur-Meuse,Charleville-Mézières,29,10,GTFS_TGV
+87172239,87172213,Donchery,Nouvion-sur-Meuse,29,6,GTFS_TGV
+87773200,87773002,Sète,Montpellier Saint-Roch,29,17,GTFS_TGV
+87113001,87171009,Paris Est,Reims,29,46,GTFS_TGV
+87113001,87147322,Paris Est,Meuse TGV,29,60,GTFS_TGV
+87473009,87474007,Saint-Brieuc,Brest,28,70,GTFS_TGV
+87751008,87755009,Marseille Saint-Charles,Toulon,28,42,GTFS_TGV
+87757526,87757625,Saint-Raphaël Valescure,Cannes,28,25,GTFS_TGV
+87755009,87757526,Toulon,Saint-Raphaël Valescure,28,48,GTFS_TGV
+87713040,87300863,Dijon,Besançon Franche-Comté TGV,28,27,GTFS_TGV
+87765206,87765826,Sorgues - Châteauneuf-du-Pape,Entraigues-sur-la-Sorgue,27,5,GTFS_TGV
+87484006,87396408,Angers Saint-Laud,Sablé-sur-Sarthe,27,20,GTFS_TGV
+87765826,87765818,Entraigues-sur-la-Sorgue,Monteux,27,7,GTFS_TGV
+87300863,87300822,Besançon Franche-Comté TGV,Belfort - Montbéliard TGV,27,21,GTFS_TGV
+87581009,87575001,Bordeaux Saint-Jean,Poitiers,27,63,GTFS_TGV
+87745497,87746370,Annemasse,Cluses,27,33,GTFS_TGV
+87300822,87182063,Belfort - Montbéliard TGV,Mulhouse,27,22,GTFS_TGV
+87746370,87745497,Cluses,Annemasse,27,42,GTFS_TGV
+87741645,87686006,Albertville,Paris Gare de Lyon,27,229,GTFS_TGV
+87765818,87765735,Monteux,Carpentras,27,6,GTFS_TGV
+87765008,87765206,Avignon Centre,Sorgues - Châteauneuf-du-Pape,27,8,GTFS_TGV
+87581009,87611004,Bordeaux Saint-Jean,Toulouse Matabiau,27,141,GTFS_TGV
+87765008,87765107,Avignon Centre,Orange,26,14,GTFS_TGV
+87474098,87474155,Quimper,Rosporden,26,11,GTFS_TGV
+87391003,87396408,Paris Montparnasse,Sablé-sur-Sarthe,26,64,GTFS_TGV
+87765206,87765008,Sorgues - Châteauneuf-du-Pape,Avignon Centre,26,8,GTFS_TGV
+87765826,87765206,Entraigues-sur-la-Sorgue,Sorgues - Châteauneuf-du-Pape,26,5,GTFS_TGV
+87765818,87765826,Monteux,Entraigues-sur-la-Sorgue,26,6,GTFS_TGV
+87765735,87765818,Carpentras,Monteux,26,5,GTFS_TGV
+87474155,87476317,Rosporden,Quimperlé,26,13,GTFS_TGV
+87764001,87761007,Montélimar,Valence,26,22,GTFS_TGV
+87761007,87762906,Valence,Lyon Saint-Exupéry TGV,26,32,GTFS_TGV
+87765107,87764001,Orange,Montélimar,26,25,GTFS_TGV
+87172007,87172270,Charleville-Mézières,Rethel,26,28,GTFS_TGV
+87481002,87486019,Nantes,La Roche-sur-Yon,26,40,GTFS_TGV
+87474007,87473009,Brest,Saint-Brieuc,26,68,GTFS_TGV
+87476317,87476002,Quimperlé,Lorient Bretagne Sud,26,11,GTFS_TGV
+87141002,87147322,Nancy,Meuse TGV,25,34,GTFS_TGV
+87741009,87393702,Chambéry - Challes-les-Eaux,Massy TGV,25,210,GTFS_TGV
+87575142,87571240,Châtellerault,Saint-Pierre-des-Corps,25,30,GTFS_TGV
+87141002,87113001,Nancy,Paris Est,25,90,GTFS_TGV
+87486019,87486449,La Roche-sur-Yon,Les Sables-d'Olonne,25,26,GTFS_TGV
+87688887,87773200,Montpellier Sud de France,Sète,25,14,GTFS_TGV
+87286005,87271494,Lille Flandres,Aéroport Charles de Gaulle 2 TGV,25,62,GTFS_TGV
+87192039,87191007,Metz,Thionville,25,18,GTFS_TGV
+87773200,87688887,Sète,Montpellier Sud de France,25,17,GTFS_TGV
+87755447,87755009,Les Arcs - Draguignan,Toulon,25,35,GTFS_TGV
+87391003,87481002,Paris Montparnasse,Nantes,24,122,GTFS_TGV
+87741306,87686006,Saint-Avre - La Chambre,Paris Gare de Lyon,24,230,GTFS_TGV
+87741009,87741306,Chambéry - Challes-les-Eaux,Saint-Avre - La Chambre,24,37,GTFS_TGV
+87575142,87324095,Châtellerault,Futuroscope,24,13,GTFS_TGV
+87147322,87113001,Meuse TGV,Paris Est,24,60,GTFS_TGV
+87324095,87575001,Futuroscope,Poitiers,24,9,GTFS_TGV
+87484006,87487603,Angers Saint-Laud,Saumur,23,21,GTFS_TGV
+87487603,87571240,Saumur,Saint-Pierre-des-Corps,23,33,GTFS_TGV
+87745646,87745679,Thonon-les-Bains,Évian-les-Bains,23,8,GTFS_TGV
+87745497,87745646,Annemasse,Thonon-les-Bains,23,31,GTFS_TGV
+87476606,87476002,Vannes,Lorient Bretagne Sud,22,24,GTFS_TGV
+87481002,87391003,Nantes,Paris Montparnasse,21,122,GTFS_TGV
+87396408,87391003,Sablé-sur-Sarthe,Paris Montparnasse,21,72,GTFS_TGV
+87755009,87318964,Toulon,Avignon TGV,20,67,GTFS_TGV
+87745679,87745646,Évian-les-Bains,Thonon-les-Bains,20,9,GTFS_TGV
+87745646,87745497,Thonon-les-Bains,Annemasse,20,24,GTFS_TGV
+87481762,87481754,Le Pouliguen,La Baule-Escoublac,20,4,GTFS_TGV
+87481754,87481747,La Baule-Escoublac,Pornichet,20,4,GTFS_TGV
+87111849,87396002,Marne-la-Vallée Chessy,Le Mans,20,196,GTFS_TGV
+87713040,87713131,Dijon,Montbard,20,38,GTFS_TGV
+87342014,87345009,Arras,Douai,20,15,GTFS_TGV
+87686006,87713040,Paris Gare de Lyon,Dijon,20,96,GTFS_TGV
+87481762,87481788,Le Pouliguen,Le Croisic,20,6,GTFS_TGV
+87481705,87481747,Saint-Nazaire,Pornichet,20,10,GTFS_TGV
+87481754,87481762,La Baule-Escoublac,Le Pouliguen,20,3,GTFS_TGV
+87481788,87481762,Le Croisic,Le Pouliguen,20,5,GTFS_TGV
+87481747,87481754,Pornichet,La Baule-Escoublac,20,4,GTFS_TGV
+87393702,87575001,Massy TGV,Poitiers,20,82,GTFS_TGV
+87345009,87286005,Douai,Lille Flandres,20,21,GTFS_TGV
+87481747,87481705,Pornichet,Saint-Nazaire,20,10,GTFS_TGV
+87726000,87723197,Saint-Étienne Châteaucreux,Lyon Part Dieu,19,45,GTFS_TGV
+87223263,87342014,Lille Europe,Arras,19,22,GTFS_TGV
+87324095,87575142,Futuroscope,Châtellerault,19,12,GTFS_TGV
+87575001,87324095,Poitiers,Futuroscope,19,8,GTFS_TGV
+87586008,87611004,Agen,Toulouse Matabiau,19,70,GTFS_TGV
+87713131,87686006,Montbard,Paris Gare de Lyon,19,66,GTFS_TGV
+87694109,87725705,Le Creusot - Montceau-les-Mines - Montchanin TGV,Mâcon Loché TGV,19,18,GTFS_TGV
+87396002,87111849,Le Mans,Marne-la-Vallée Chessy,19,175,GTFS_TGV
+87393702,87741009,Massy TGV,Chambéry - Challes-les-Eaux,18,204,GTFS_TGV
+87474239,87474007,Landerneau,Brest,18,14,GTFS_TGV
+87485300,87571240,Niort,Saint-Pierre-des-Corps,18,64,GTFS_TGV
+87713040,87686006,Dijon,Paris Gare de Lyon,17,99,GTFS_TGV
+87485003,87485300,La Rochelle,Niort,17,34,GTFS_TGV
+87611004,87581009,Toulouse Matabiau,Bordeaux Saint-Jean,17,143,GTFS_TGV
+87172270,87172007,Rethel,Charleville-Mézières,17,28,GTFS_TGV
+87215012,87212225,Sarrebourg,Saverne,17,16,GTFS_TGV
+87673202,87672006,Dax,Pau,17,47,GTFS_TGV
+87212225,87212027,Saverne,Strasbourg,17,26,GTFS_TGV
+87172270,87171009,Rethel,Reims,17,21,GTFS_TGV
+87474338,87474239,Morlaix,Landerneau,17,22,GTFS_TGV
+87474007,87474239,Brest,Landerneau,17,11,GTFS_TGV
+87753657,87765008,Arles,Avignon Centre,17,17,GTFS_TGV
+87753004,87753657,Miramas,Arles,17,21,GTFS_TGV
+87474239,87474338,Landerneau,Morlaix,17,21,GTFS_TGV
+87391003,87473009,Paris Montparnasse,Saint-Brieuc,16,166,GTFS_TGV
+87396002,87396408,Le Mans,Sablé-sur-Sarthe,16,19,GTFS_TGV
+87686006,87741306,Paris Gare de Lyon,Saint-Avre - La Chambre,16,230,GTFS_TGV
+87286005,87342014,Lille Flandres,Arras,16,25,GTFS_TGV
+87141002,87144006,Nancy,Épinal,15,41,GTFS_TGV
+87725705,87723197,Mâcon Loché TGV,Lyon Part Dieu,15,26,GTFS_TGV
+87686006,87745497,Paris Gare de Lyon,Annemasse,15,223,GTFS_TGV
+87757526,87755447,Saint-Raphaël Valescure,Les Arcs - Draguignan,15,14,GTFS_TGV
+87144006,87144451,Épinal,Remiremont,15,22,GTFS_TGV
+87571240,87485300,Saint-Pierre-des-Corps,Niort,14,63,GTFS_TGV
+87471003,87471508,Rennes,Vitré,13,23,GTFS_TGV
+87686006,87319012,Paris Gare de Lyon,Aix-en-Provence TGV,13,176,GTFS_TGV
+87476606,87391003,Vannes,Paris Montparnasse,13,154,GTFS_TGV
+87141002,87215012,Nancy,Sarrebourg,13,39,GTFS_TGV
+87471508,87478404,Vitré,Laval,13,17,GTFS_TGV
+87141002,87171926,Nancy,Champagne-Ardenne TGV,13,53,GTFS_TGV
+87192039,87171926,Metz,Champagne-Ardenne TGV,13,48,GTFS_TGV
+87391003,87476606,Paris Montparnasse,Vannes,12,148,GTFS_TGV
+87212027,87182014,Strasbourg,Colmar,12,31,GTFS_TGV
+87171926,87212027,Champagne-Ardenne TGV,Strasbourg,12,71,GTFS_TGV
+87111849,87741009,Marne-la-Vallée Chessy,Chambéry - Challes-les-Eaux,12,176,GTFS_TGV
+87171926,87141002,Champagne-Ardenne TGV,Nancy,12,55,GTFS_TGV
+87172254,87172007,Sedan,Charleville-Mézières,12,15,GTFS_TGV
+87319012,87755009,Aix-en-Provence TGV,Toulon,12,50,GTFS_TGV
+87755629,87755009,Hyères,Toulon,12,13,GTFS_TGV
+87393579,87396002,Massy - Palaiseau,Le Mans,11,127,GTFS_TGV
+87214056,87182014,Sélestat,Colmar,11,11,GTFS_TGV
+87755447,87757625,Les Arcs - Draguignan,Cannes,11,40,GTFS_TGV
+87755009,87755447,Toulon,Les Arcs - Draguignan,11,38,GTFS_TGV
+87212027,87214056,Strasbourg,Sélestat,11,19,GTFS_TGV
+87393702,87484006,Massy TGV,Angers Saint-Laud,11,97,GTFS_TGV
+87485300,87391003,Niort,Paris Montparnasse,11,116,GTFS_TGV
+87723197,87393579,Lyon Part Dieu,Massy - Palaiseau,11,160,GTFS_TGV
+87171009,87172270,Reims,Rethel,10,20,GTFS_TGV
+87741009,87111849,Chambéry - Challes-les-Eaux,Marne-la-Vallée Chessy,10,171,GTFS_TGV
+87757625,87755447,Cannes,Les Arcs - Draguignan,10,37,GTFS_TGV
+87182014,87212027,Colmar,Strasbourg,10,28,GTFS_TGV
+87144451,87144006,Remiremont,Épinal,10,21,GTFS_TGV
+87144006,87141002,Épinal,Nancy,10,43,GTFS_TGV
+87214056,87212027,Sélestat,Strasbourg,10,21,GTFS_TGV
+87473009,87474338,Saint-Brieuc,Morlaix,10,40,GTFS_TGV
+87182014,87214056,Colmar,Sélestat,10,11,GTFS_TGV
+87171926,87174003,Champagne-Ardenne TGV,Châlons-en-Champagne,9,22,GTFS_TGV
+87471003,87478107,Rennes,Saint-Malo,9,46,GTFS_TGV
+87571240,87111849,Saint-Pierre-des-Corps,Marne-la-Vallée Chessy,9,129,GTFS_TGV
+87212027,87171926,Strasbourg,Champagne-Ardenne TGV,9,69,GTFS_TGV
+87694109,87111849,Le Creusot - Montceau-les-Mines - Montchanin TGV,Marne-la-Vallée Chessy,9,72,GTFS_TGV
+87484006,87571240,Angers Saint-Laud,Saint-Pierre-des-Corps,9,48,GTFS_TGV
+87763029,87391003,Valence TGV Rhône-Alpes Sud,Paris Montparnasse,9,169,GTFS_TGV
+87318964,87763029,Avignon TGV,Valence TGV Rhône-Alpes Sud,9,34,GTFS_TGV
+87393579,87723197,Massy - Palaiseau,Lyon Part Dieu,9,149,GTFS_TGV
+87396002,87393579,Le Mans,Massy - Palaiseau,9,142,GTFS_TGV
+87393009,87396002,Versailles Chantiers,Le Mans,8,110,GTFS_TGV
+87396002,87393009,Le Mans,Versailles Chantiers,8,112,GTFS_TGV
+87745497,87686006,Annemasse,Paris Gare de Lyon,8,231,GTFS_TGV
+87393009,87723197,Versailles Chantiers,Lyon Part Dieu,8,174,GTFS_TGV
+87192039,87147322,Metz,Meuse TGV,8,27,GTFS_TGV
+87174003,87174276,Châlons-en-Champagne,Vitry-le-François,8,16,GTFS_TGV
+87172007,87172254,Charleville-Mézières,Sedan,8,16,GTFS_TGV
+87171926,87192039,Champagne-Ardenne TGV,Metz,8,49,GTFS_TGV
+87571240,87487603,Saint-Pierre-des-Corps,Saumur,8,31,GTFS_TGV
+87142109,87113001,Lorraine TGV,Paris Est,8,75,GTFS_TGV
+87174276,87175042,Vitry-le-François,Bar-le-Duc,8,24,GTFS_TGV
+87318964,87755009,Avignon TGV,Toulon,8,66,GTFS_TGV
+87111849,87571240,Marne-la-Vallée Chessy,Saint-Pierre-des-Corps,8,128,GTFS_TGV
+87713131,87713040,Montbard,Dijon,8,35,GTFS_TGV
+87686006,87713131,Paris Gare de Lyon,Montbard,8,62,GTFS_TGV
+87487603,87484006,Saumur,Angers Saint-Laud,8,21,GTFS_TGV
+87755009,87755629,Toulon,Hyères,8,16,GTFS_TGV
+87725705,87111849,Mâcon Loché TGV,Marne-la-Vallée Chessy,7,86,GTFS_TGV
+87481002,87471003,Nantes,Rennes,7,79,GTFS_TGV
+87484006,87393702,Angers Saint-Laud,Massy TGV,7,83,GTFS_TGV
+87212225,87215012,Saverne,Sarrebourg,7,15,GTFS_TGV
+87581009,87571216,Bordeaux Saint-Jean,Vendôme - Villiers-sur-Loir TGV,7,89,GTFS_TGV
+87141002,87141150,Nancy,Lunéville,7,17,GTFS_TGV
+87212027,87212225,Strasbourg,Saverne,7,22,GTFS_TGV
+87686006,87747006,Paris Gare de Lyon,Grenoble,7,183,GTFS_TGV
+87484006,87481192,Angers Saint-Laud,Ancenis,7,21,GTFS_TGV
+87481192,87481002,Ancenis,Nantes,7,18,GTFS_TGV
+87111849,87725705,Marne-la-Vallée Chessy,Mâcon Loché TGV,6,86,GTFS_TGV
+87481002,87481192,Nantes,Ancenis,6,19,GTFS_TGV
+87396408,87396002,Sablé-sur-Sarthe,Le Mans,6,20,GTFS_TGV
+87575001,87575142,Poitiers,Châtellerault,6,16,GTFS_TGV
+87473223,87473207,Lannion,Guingamp,6,27,GTFS_TGV
+87761007,87686006,Valence,Paris Gare de Lyon,6,163,GTFS_TGV
+87319012,87686006,Aix-en-Provence TGV,Paris Gare de Lyon,6,182,GTFS_TGV
+87747006,87686006,Grenoble,Paris Gare de Lyon,6,194,GTFS_TGV
+87575001,87393702,Poitiers,Massy TGV,6,80,GTFS_TGV
+87481192,87484006,Ancenis,Angers Saint-Laud,6,27,GTFS_TGV
+87391003,87471300,Paris Montparnasse,Redon,5,127,GTFS_TGV
+87391003,87763029,Paris Montparnasse,Valence TGV Rhône-Alpes Sud,5,165,GTFS_TGV
+87686006,87761007,Paris Gare de Lyon,Valence,5,148,GTFS_TGV
+87473009,87391003,Saint-Brieuc,Paris Montparnasse,5,135,GTFS_TGV
+87481002,87471300,Nantes,Redon,5,42,GTFS_TGV
+87723197,87393009,Lyon Part Dieu,Versailles Chantiers,5,170,GTFS_TGV
+87546192,87393009,Pont de Rungis Aéroport d'Orly,Versailles Chantiers,5,24,GTFS_TGV
+87473207,87473223,Guingamp,Lannion,5,29,GTFS_TGV
+87686006,87746370,Paris Gare de Lyon,Cluses,4,315,GTFS_TGV
+87391003,87485300,Paris Montparnasse,Niort,4,118,GTFS_TGV
+87141150,87141002,Lunéville,Nancy,4,19,GTFS_TGV
+87741132,87725705,Aix-les-Bains le Revard,Mâcon Loché TGV,4,88,GTFS_TGV
+87111849,87762906,Marne-la-Vallée Chessy,Lyon Saint-Exupéry TGV,4,105,GTFS_TGV
+87141150,87215012,Lunéville,Sarrebourg,4,24,GTFS_TGV
+87215012,87141002,Sarrebourg,Nancy,4,40,GTFS_TGV
+87755009,87319012,Toulon,Aix-en-Provence TGV,4,53,GTFS_TGV
+87703975,87723197,Nîmes Pont du Gard,Lyon Part Dieu,4,77,GTFS_TGV
+87212027,87147322,Strasbourg,Meuse TGV,4,49,GTFS_TGV
+87391003,87485490,Paris Montparnasse,Saint-Maixent-L'École,4,105,GTFS_TGV
+87725705,87722025,Mâcon Loché TGV,Lyon Perrache,4,40,GTFS_TGV
+87471300,87481002,Redon,Nantes,4,43,GTFS_TGV
+87725705,87741132,Mâcon Loché TGV,Aix-les-Bains le Revard,4,99,GTFS_TGV
+87746008,87741009,Annecy,Chambéry - Challes-les-Eaux,4,54,GTFS_TGV
+87342014,87286005,Arras,Lille Flandres,4,26,GTFS_TGV
+87723197,87747006,Lyon Part Dieu,Grenoble,4,77,GTFS_TGV
+87396002,87481002,Le Mans,Nantes,3,121,GTFS_TGV
+87741009,87746008,Chambéry - Challes-les-Eaux,Annecy,3,44,GTFS_TGV
+87111849,87545244,Marne-la-Vallée Chessy,Juvisy-sur-Orge,3,29,GTFS_TGV
+87147322,87212027,Meuse TGV,Strasbourg,3,51,GTFS_TGV
+87545244,87393009,Juvisy-sur-Orge,Versailles Chantiers,3,42,GTFS_TGV
+87471300,87391003,Redon,Paris Montparnasse,3,137,GTFS_TGV
+87473181,87473223,Plouaret Trégor,Lannion,3,16,GTFS_TGV
+87762906,87111849,Lyon Saint-Exupéry TGV,Marne-la-Vallée Chessy,3,106,GTFS_TGV
+87141150,87144014,Lunéville,Saint-Dié-des-Vosges,3,34,GTFS_TGV
+87171926,87171009,Champagne-Ardenne TGV,Reims,3,8,GTFS_TGV
+87694109,87546192,Le Creusot - Montceau-les-Mines - Montchanin TGV,Pont de Rungis Aéroport d'Orly,3,85,GTFS_TGV
+87725705,87694109,Mâcon Loché TGV,Le Creusot - Montceau-les-Mines - Montchanin TGV,3,19,GTFS_TGV
+87723197,87725705,Lyon Part Dieu,Mâcon Loché TGV,3,26,GTFS_TGV
+87111849,87694109,Marne-la-Vallée Chessy,Le Creusot - Montceau-les-Mines - Montchanin TGV,2,72,GTFS_TGV
+87723197,87546192,Lyon Part Dieu,Pont de Rungis Aéroport d'Orly,2,113,GTFS_TGV
+87741009,87393009,Chambéry - Challes-les-Eaux,Versailles Chantiers,2,219,GTFS_TGV
+87481002,87396002,Nantes,Le Mans,2,119,GTFS_TGV
+87411017,87413013,Rouen Rive Droite,Le Havre,2,48,GTFS_TGV
+87393009,87411017,Versailles Chantiers,Rouen Rive Droite,2,76,GTFS_TGV
+87393702,87746370,Massy TGV,Cluses,2,334,GTFS_TGV
+87746370,87393702,Cluses,Massy TGV,2,334,GTFS_TGV
+87471003,87481002,Rennes,Nantes,2,75,GTFS_TGV
+87747006,87723197,Grenoble,Lyon Part Dieu,2,83,GTFS_TGV
+87471003,87476002,Rennes,Lorient Bretagne Sud,2,80,GTFS_TGV
+87751008,87318964,Marseille Saint-Charles,Avignon TGV,2,27,GTFS_TGV
+87393009,87741009,Versailles Chantiers,Chambéry - Challes-les-Eaux,2,255,GTFS_TGV
+87751081,87755009,Marseille Blancarde,Toulon,2,38,GTFS_TGV
+87686006,87755009,Paris Gare de Lyon,Toulon,2,229,GTFS_TGV
+87762906,87763029,Lyon Saint-Exupéry TGV,Valence TGV Rhône-Alpes Sud,2,24,GTFS_TGV
+87757625,87756056,Cannes,Nice,2,34,GTFS_TGV
+87271494,87318964,Aéroport Charles de Gaulle 2 TGV,Avignon TGV,2,162,GTFS_TGV
+87319012,87751081,Aix-en-Provence TGV,Marseille Blancarde,2,14,GTFS_TGV
+87172007,87172262,Charleville-Mézières,Amagne - Lucquy,2,22,GTFS_TGV
+87411017,87393009,Rouen Rive Droite,Versailles Chantiers,2,82,GTFS_TGV
+87775007,87686006,Nîmes,Paris Gare de Lyon,2,178,GTFS_TGV
+87141002,87144014,Nancy,Saint-Dié-des-Vosges,2,49,GTFS_TGV
+87215012,87141150,Sarrebourg,Lunéville,2,24,GTFS_TGV
+87111849,87763029,Marne-la-Vallée Chessy,Valence TGV Rhône-Alpes Sud,2,126,GTFS_TGV
+87144014,87141150,Saint-Dié-des-Vosges,Lunéville,2,32,GTFS_TGV
+87763029,87765107,Valence TGV Rhône-Alpes Sud,Orange,2,32,GTFS_TGV
+87751008,87271494,Marseille Saint-Charles,Aéroport Charles de Gaulle 2 TGV,2,178,GTFS_TGV
+87781005,87688887,Béziers,Montpellier Sud de France,2,46,GTFS_TGV
+87413013,87411017,Le Havre,Rouen Rive Droite,2,42,GTFS_TGV
+87300863,87718007,Besançon Franche-Comté TGV,Besançon Viotte,1,10,GTFS_TGV
+87713131,87111849,Montbard,Marne-la-Vallée Chessy,1,52,GTFS_TGV
+87575001,87581009,Poitiers,Bordeaux Saint-Jean,1,61,GTFS_TGV
+87746370,87686006,Cluses,Paris Gare de Lyon,1,340,GTFS_TGV
+87575001,87571216,Poitiers,Vendôme - Villiers-sur-Loir TGV,1,51,GTFS_TGV
+87713040,87111849,Dijon,Marne-la-Vallée Chessy,1,88,GTFS_TGV
+87174003,87171926,Châlons-en-Champagne,Champagne-Ardenne TGV,1,19,GTFS_TGV
+87571216,87575001,Vendôme - Villiers-sur-Loir TGV,Poitiers,1,46,GTFS_TGV
+87111849,87318964,Marne-la-Vallée Chessy,Avignon TGV,1,155,GTFS_TGV
+87171009,87172007,Reims,Charleville-Mézières,1,80,GTFS_TGV
+87271494,87723197,Aéroport Charles de Gaulle 2 TGV,Lyon Part Dieu,1,122,GTFS_TGV
+87318964,87391003,Avignon TGV,Paris Montparnasse,1,206,GTFS_TGV
+87113001,87142109,Paris Est,Lorraine TGV,1,74,GTFS_TGV
+87144014,87141002,Saint-Dié-des-Vosges,Nancy,1,54,GTFS_TGV
+87174276,87174003,Vitry-le-François,Châlons-en-Champagne,1,16,GTFS_TGV
+87175042,87174276,Bar-le-Duc,Vitry-le-François,1,23,GTFS_TGV
+87215012,87192039,Sarrebourg,Metz,1,46,GTFS_TGV
+87474007,87473207,Brest,Guingamp,1,56,GTFS_TGV
+87474338,87473009,Morlaix,Saint-Brieuc,1,43,GTFS_TGV
+87473009,87474239,Saint-Brieuc,Landerneau,1,59,GTFS_TGV
+87703975,87761007,Nîmes Pont du Gard,Valence,1,120,GTFS_TGV
+87761007,87703975,Valence,Nîmes Pont du Gard,1,89,GTFS_TGV
+87723197,87761007,Lyon Part Dieu,Valence,1,45,GTFS_TGV
+87781005,87773002,Béziers,Montpellier Saint-Roch,1,48,GTFS_TGV
+87723197,87319012,Lyon Part Dieu,Aix-en-Provence TGV,1,127,GTFS_TGV
+87391003,87318964,Paris Montparnasse,Avignon TGV,1,199,GTFS_TGV
+87396002,87741645,Le Mans,Albertville,1,539,GTFS_TGV
+87751081,87751602,Marseille Blancarde,L'Estaque,1,7,GTFS_TGV
