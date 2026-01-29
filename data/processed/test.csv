@@ -1,0 +1,1501 @@
+sentenceID,sentence,origin,destination,is_valid,difficulty,category,notes
+4251,qur wycy hebuzizic jysisevet,,,0,easy,garbage,random text
+6122,!!! $$%% --- $$%%,,,0,easy,garbage,special characters
+1177,Brest Nantes dimanche,Brest,Nantes,1,medium,no_markers,
+1709,Il me faudrait un titre de transport de Perpignan à Aix-en-Provence,Perpignan,Aix-en-Provence,1,easy,standard,
+7610,Brest Angers merci beaucoup,Brest,Angers,1,easy,no_markers,
+8840,Me rendre à Limoges au départ de Saint-Étienne,Saint-Étienne,Limoges,1,medium,inverted_order,
+5964,Je souhaite me rendre,,,0,easy,incomplete_grammar,grammatically incomplete
+400,Je voudrais me rendre à Lille en partant de Reims,Reims,Lille,1,medium,inverted_order,
+2668,tu aimes la musique,,,0,easy,no_intent,general_questions
+4867,Comman aller de Saint-Étienn ver clermont-ferrand,Saint-Étienne,Clermont-Ferrand,1,hard,misspelling,spelling errors
+2210,reservation trin de nicce a montpellier,Nice,Montpellier,1,hard,misspelling,spelling errors
+3054,Je me suis trompé Nantes pas Lyon,,,0,medium,ambiguous,conflicting information
+4028,un bilet aix-en-provenc le maans,Aix-en-Provence,Le Mans,1,hard,misspelling,spelling errors
+6375,J'adore danser ?,,,0,easy,no_intent,off_topic
+4894,Place dans le train de Perpignan à Amiens,Perpignan,Amiens,1,easy,standard,
+6081,cemu sasymyq vutoduc,,,0,easy,garbage,random text
+6017,wydan qaqanav jetebi xinyp ciwiz,,,0,easy,garbage,random text
+3868,pouvez-vous me donner les horaires de limoges a rennes,Limoges,Rennes,1,easy,no_capitals,
+349,un voyage de marseille a villeurbanne,Marseille,Villeurbanne,1,easy,no_capitals,
+50,voyage de dijon a metz,Dijon,Metz,1,easy,no_capitals,
+968,Origine Rennes,,,0,easy,incomplete_dest,missing destination
+7601,Je me rends à Lyon,,,0,easy,incomplete_origin,missing origin
+8428,jebuxu gyfa zojol,,,0,easy,garbage,random text
+935,xesyhiby lozafufuti rufoxyt terytatun vixoqoqywy,,,0,easy,garbage,random text
+7015,De Lille à Rennes puis Nantes,,,0,medium,ambiguous,too many cities
+3181,un biye de trein de bordeaux a dijo,Bordeaux,Dijon,1,hard,misspelling,spelling errors
+5265,Je vais à Rennes ou Montpellier,,,0,medium,ambiguous,contradictions
+790,Depuis Toulon ?,,,0,easy,incomplete_dest,missing destination
+445,Je me trouve à Angers,,,0,easy,incomplete_dest,missing destination
+6151,Il fait beau aujourd'hui !,,,0,easy,no_intent,general_questions
+2660,Je vais à Reims ?,,,0,easy,incomplete_origin,missing origin
+8083,lourdes et rémy m'attendent à limoges je pars de perpignan,Perpignan,Limoges,1,hard,name_ambiguity,multiple name distractors
+2078,teqo bijy tufyn hequ,,,0,easy,garbage,random text
+6566,voyager de bordeaux vers toulon,Bordeaux,Toulon,1,easy,no_capitals,
+8347,un trin de lion a perpignan,Lyon,Perpignan,1,hard,misspelling,spelling errors
+107,Je veu partir de Annec ver toulouse,Annecy,Toulouse,1,hard,misspelling,spelling errors
+7205,C'est long le trajet de Lille à Rennes,Lille,Rennes,1,medium,standard,
+6195,aller a Saint-Étienne voir Lourdes et Clément depuis Nîmes,Nîmes,Saint-Étienne,1,hard,name_ambiguity,multiple name distractors
+9666,123 voyage Marseille !!! $$%%,,,0,easy,garbage,incoherent mix
+3470,Un aller-retour Toulon Nîmes pour la semaine prochaine,Toulon,Nîmes,1,medium,additional_info,
+1230,Trajet vers Grenoble ?,,,0,easy,incomplete_origin,missing origin
+8520,À quelle heure y a-t-il des trains de Marseille à Nîmes,Marseille,Nîmes,1,medium,standard,
+131,rehinig kagikit,,,0,easy,garbage,random text
+7260,Grenoble Tours merci,Grenoble,Tours,1,easy,no_markers,
+3382,789 --- !!! train Paris,,,0,easy,garbage,incoherent mix
+4147,Y a-t-il des réductions pour Perpignan Tours,Perpignan,Tours,1,hard,complex_question,
+4824,Faut-il obligatoirement réserver pour Marseille Le Mans,Marseille,Le Mans,1,hard,complex_question,
+4549,Quelle classe choisir pour Annecy Toulouse,Annecy,Toulouse,1,hard,complex_question,
+1668,J'ai besoin d'aller de Metz à Aix-en-Provence,Metz,Aix-en-Provence,1,easy,standard,
+465,train de brest direction clermont-ferrand,Brest,Clermont-Ferrand,1,easy,no_capitals,
+6350,Prendre le train de Bordeaux à Metz,Bordeaux,Metz,1,easy,standard,
+4490,Il faut combien de temps de Brest à Paris,Brest,Paris,1,medium,standard,
+1161,Soit Lyon soit Nice,,,0,medium,ambiguous,contradictions
+3951,je souhaite me rendre,,,0,easy,incomplete_grammar,grammatically incomplete
+2021,Réservation Brest Le Mans pour senior,Brest,Le Mans,1,medium,additional_info,
+1743,aller en train de villeurbanne a nîmes,Villeurbanne,Nîmes,1,easy,no_capitals,
+253,Reims Tours première classe,Reims,Tours,1,medium,no_markers,
+4421,Commen me rendr a nice depuis Amien,Amiens,Nice,1,hard,misspelling,spelling errors
+2233,Comant partir de Grenobble a Saint-Étienn,Grenoble,Saint-Étienne,1,hard,misspelling,spelling errors
+1643,Quel est le prochain train de Brest à Le Mans,Brest,Le Mans,1,medium,standard,
+3074,Billet Dijon Strasbourg,Dijon,Strasbourg,1,easy,no_markers,
+33,Route de Amiens vers Aix-les-Bains,Amiens,Aix-les-Bains,1,medium,compound_name,
+9312,Le Mans Toulouse aller-retour,Le Mans,Toulouse,1,medium,no_markers,
+6825,place dans le train de montpellier a aix-en-provence,Montpellier,Aix-en-Provence,1,easy,no_capitals,
+7538,Montpellier Grenoble TGV,Montpellier,Grenoble,1,easy,no_markers,
+7930,je veux retrouver Rémy et Florence a Dijon depuis Le Havre,Le Havre,Dijon,1,hard,name_ambiguity,multiple name distractors
+2452,retrouver Albert a Nantes depuis Tours,Tours,Nantes,1,hard,name_ambiguity,multiple name distractors
+8089,Billet Lyon Nantes Bordeaux,,,0,medium,ambiguous,too many cities
+8413,Train pour Paris Nantes et Lyon,,,0,medium,ambiguous,too many cities
+4113,Partir pour Saint-Étienne depuis Rennes,Rennes,Saint-Étienne,1,medium,compound_name,
+5967,mon trajet est de montpellier a toulon,Montpellier,Toulon,1,easy,no_capitals,
+4576,Comment aller à Nantes depuis Bourg en Bresse,Bourg-en-Bresse,Nantes,1,medium,compound_name,compound name no hyphen
+413,Un billet Saint-Étienne Lille s'il vous plaît,Saint-Étienne,Lille,1,easy,standard,
+3675,Aller à La Roche-sur-Yon depuis Reims,Reims,La Roche-sur-Yon,1,medium,compound_name,
+5318,Transport Marseille Lyon,Marseille,Lyon,1,easy,no_markers,
+585,??? --- --- ???,,,0,easy,garbage,special characters
+7832,Je doi partir de Aix-en-Provenc a villeurbanne,Aix-en-Provence,Villeurbanne,1,hard,misspelling,spelling errors
+9864,De Montpellier jusqu'à Dijon,Montpellier,Dijon,1,easy,standard,
+5170,De Lille à Dijon en train,Lille,Dijon,1,easy,standard,
+1290,Rejoindre Grenoble depuis Annecy,Annecy,Grenoble,1,easy,standard,
+5705,je ve aller de clermont-ferran ver villeurbanne,Clermont-Ferrand,Villeurbanne,1,hard,misspelling,spelling errors
+4642,rejoindre annecy depuis toulon,Toulon,Annecy,1,easy,no_capitals,
+9234,Un aller Limoges Montpellier pour le travail,Limoges,Montpellier,1,medium,additional_info,
+4995,je pars avec Rémy et Albert de Perpignan vers Dijon,Perpignan,Dijon,1,hard,name_ambiguity,multiple name distractors
+4461,reservation strazburg marceille,Strasbourg,Marseille,1,hard,misspelling,spelling errors
+6987,Lyon Nîmes prochain train,Lyon,Nîmes,1,easy,no_markers,
+3004,Je me rends à Paris en provenance de Perpignan,Perpignan,Paris,1,medium,inverted_order,
+5256,reservation trin montpellie dijo,Montpellier,Dijon,1,hard,misspelling,spelling errors
+1032,Quel est le prix d'un aller simple de Bordeaux à Montpellier,Bordeaux,Montpellier,1,medium,additional_info,
+6255,Je veux aller de Aix-les-Bains à Reims,Aix-les-Bains,Reims,1,medium,compound_name,
+7117,Je veux aller à Toulouse non à Paris,,,0,medium,ambiguous,contradictions
+7090,Reims Metz rapide,Reims,Metz,1,easy,no_markers,
+1644,Comen partir de lille a rennes,Lille,Rennes,1,hard,misspelling,spelling errors
+382,Je suis actuellement à Marseille,,,0,easy,incomplete_dest,missing destination
+3610,Coucou,,,0,easy,no_intent,greetings
+3669,comen aller de reim ver perpigna,Reims,Perpignan,1,hard,misspelling,spelling errors
+7760,Je voudré aller de Grenobl a lyon,Grenoble,Lyon,1,hard,misspelling,spelling errors
+8488,Quel est le train le plus confortable de Dijon à Lille,Dijon,Lille,1,hard,complex_question,
+6564,bekitiz dahy jenyrih vebyjytob,,,0,easy,garbage,random text
+5996,Quel est le temps de correspondance entre Nantes et Brest,Nantes,Brest,1,hard,complex_question,
+1091,Billet Grenoble Nice pour ce week-end,Grenoble,Nice,1,medium,additional_info,
+8204,traje de strasboure a annec,Strasbourg,Annecy,1,hard,misspelling,spelling errors
+6782,de grenoble,,,0,easy,incomplete_dest,missing destination
+1059,j'ai rendez-vous chez le médecin ?,,,0,easy,no_intent,off_topic
+7521,partir de limoges et aller a toulon,Limoges,Toulon,1,easy,no_capitals,
+7478,Je dois aller de Bourg-en-Bresse à Reims,Bourg-en-Bresse,Reims,1,medium,compound_name,
+1427,aller vers lille depuis nîmes,Nîmes,Lille,1,easy,no_capitals,
+1759,ordinateur kayak guitare vague cactus baleine,,,0,easy,garbage,nonsense words
+133,Peut-on avoir un train direct de Toulouse vers Le Mans,Toulouse,Le Mans,1,hard,complex_question,
+1975,Je dois aller de Reims à La Roche-sur-Yon,Reims,La Roche-sur-Yon,1,medium,compound_name,
+5745,Quel est le train le plus rapide de Le Mans à Reims,Le Mans,Reims,1,hard,complex_question,
+3708,Bonne soirée,,,0,easy,no_intent,greetings
+9585,je souhet me rendre a strasborg depuis pariss,Paris,Strasbourg,1,hard,misspelling,spelling errors
+5300,coment se rendre de nîmes a strasbourge,Nîmes,Strasbourg,1,hard,misspelling,spelling errors
+5443,itineraire de brest a toulouse,Brest,Toulouse,1,easy,no_capitals,
+5417,je dois aller de strasbourg a brest,Strasbourg,Brest,1,easy,no_capitals,
+4070,Deux billets de Le Mans à Montpellier s'il vous plaît,Le Mans,Montpellier,1,medium,additional_info,
+7150,un biye simpl de villeurbanne a angerrs,Villeurbanne,Angers,1,hard,misspelling,spelling errors
+8033,un biyet clermontt-ferrand nantez,Clermont-Ferrand,Nantes,1,hard,misspelling,spelling errors
+1082,je pars de lyon,,,0,easy,incomplete_dest,missing destination
+8103,Ticket Amiens Le Havre,Amiens,Le Havre,1,easy,no_markers,
+4965,je suis à paris,,,0,easy,incomplete_dest,missing destination
+246,Le train était bondé ?,,,0,easy,no_intent,train_discussion
+7102,un voyage de nîmes a tours,Nîmes,Tours,1,easy,no_capitals,
+106,Florence et Lourdes sont a Montpellier je pars de Nice,Nice,Montpellier,1,hard,name_ambiguity,multiple name distractors
+9520,Il y avait du monde dans le train !,,,0,easy,no_intent,train_discussion
+6348,bojuliqe zujeqavu quhylyxa,,,0,easy,garbage,random text
+8106,Je veux aller de Saint-Étienne vers Amiens,Saint-Étienne,Amiens,1,medium,compound_name,
+663,Départ Strasbourg,,,0,easy,incomplete_dest,missing destination
+3607,Combien ça coûte en moyenne de Dijon à Aix-en-Provence,Dijon,Aix-en-Provence,1,hard,complex_question,
+1687,pour angers,,,0,easy,incomplete_origin,missing origin
+2731,place dans le train de metz a lille,Metz,Lille,1,easy,no_capitals,
+3563,avec mon ami Florence je vais de Lille a Reims,Lille,Reims,1,hard,name_ambiguity,multiple name distractors
+471,Vers Nice,,,0,easy,incomplete_origin,missing origin
+5568,Billet Amiens Metz en urgence,Amiens,Metz,1,medium,additional_info,
+4639,Un billet Angers Villeurbanne pour 4 personnes,Angers,Villeurbanne,1,medium,additional_info,
+444,Je voudrais voyager de Toulouse à Saint-Étienne,Toulouse,Saint-Étienne,1,easy,standard,
+9816,Transport Toulouse Aix-en-Provence,Toulouse,Aix-en-Provence,1,easy,no_markers,
+6278,"Moi, Florence et Albert voulons rejoindre Nantes depuis Reims",Reims,Nantes,1,hard,name_ambiguity,multiple name distractors
+943,un billet le havre marseille sil vous plait,Le Havre,Marseille,1,easy,no_capitals,
+4243,En direction de Le Havre,,,0,easy,incomplete_origin,missing origin
+3289,Billet Clermont-Ferrand Nîmes en urgence,Clermont-Ferrand,Nîmes,1,medium,additional_info,
+3631,Billet Lille Lille,,,0,medium,ambiguous,origin equals destination
+3223,"albert, lourdes et moi voulons aller de le havre a tours",Le Havre,Tours,1,hard,name_ambiguity,multiple name distractors
+8133,Billet Reims Paris tôt le matin,Reims,Paris,1,medium,additional_info,
+636,Direction Marseille ?,,,0,easy,incomplete_origin,missing origin
+9939,bilet de trin grenoble limoges,Grenoble,Limoges,1,hard,misspelling,spelling errors
+7934,Je veux aller de Nîmes vers Bourg-en-Bresse,Nîmes,Bourg-en-Bresse,1,medium,compound_name,
+6847,Quelle est la meilleure façon d'aller de Clermont-Ferrand à Tours,Clermont-Ferrand,Tours,1,medium,standard,
+9845,Voyage depuis Grenoble vers Perpignan,Grenoble,Perpignan,1,easy,standard,
+5252,je dois aller à nice,,,0,easy,incomplete_origin,missing origin
+7294,Je me trouve à Nantes,,,0,easy,incomplete_dest,missing destination
+5713,bilet de trin aix-en-provenc lille,Aix-en-Provence,Lille,1,hard,misspelling,spelling errors
+4647,Les rails de train sont fascinants,,,0,easy,no_intent,train_discussion
+8721,De Annecy jusqu'à Dijon,Annecy,Dijon,1,easy,standard,
+6041,xizoro qobagisa bycij,,,0,easy,garbage,random text
+9872,crayon framboise crayon jardin papillon guitare,,,0,easy,garbage,nonsense words
+5518,Un billet Nîmes Marseille tarif jeune,Nîmes,Marseille,1,medium,additional_info,
+5533,Trajet en train de Montpellier à Dijon,Montpellier,Dijon,1,easy,standard,
+2550,je cherche un train de clermont-ferrand a lyon,Clermont-Ferrand,Lyon,1,easy,no_capitals,
+5724,Origine Rennes destination Montpellier,Rennes,Montpellier,1,easy,standard,
+126,On rejoint Rémy et Lourdes à Nantes depuis Reims,Reims,Nantes,1,hard,name_ambiguity,multiple name distractors
+3092,Quelle heure le train de Nantes à Toulouse,Nantes,Toulouse,1,medium,standard,
+8259,escalier miroir horloge framboise,,,0,easy,garbage,nonsense words
+5845,De Toulouse jusqu'à Amiens,Toulouse,Amiens,1,easy,standard,
+6480,Je dois rejoindre Toulon depuis Montpellier,Montpellier,Toulon,1,medium,inverted_order,
+3162,Je voudrais un billet de,,,0,easy,incomplete_grammar,grammatically incomplete
+6116,sinolo dobywap dycake zek,,,0,easy,garbage,random text
+7627,Pour me rendre de Le Havre à Clermont-Ferrand,Le Havre,Clermont-Ferrand,1,easy,standard,
+4875,Atteindre Angers en partant de Annecy,Annecy,Angers,1,medium,inverted_order,
+3381,Route vers Nice depuis Lille,Lille,Nice,1,medium,inverted_order,
+5357,^^&& @@## ^^&& !!! **!!,,,0,easy,garbage,special characters
+1864,Pour atteindre Toulon depuis Limoges,Limoges,Toulon,1,medium,inverted_order,
+8497,Un tiket de train de Lyl a strasbourg,Lille,Strasbourg,1,hard,misspelling,spelling errors
+1878,Je doi partir de montpellier ver Nante,Montpellier,Nantes,1,hard,misspelling,spelling errors
+6341,retrouver Lourdes et Clément a Nantes en partant de Angers,Angers,Nantes,1,hard,name_ambiguity,multiple name distractors
+189,bog zakiz loqisij myvuqufavy wyzumifo,,,0,easy,garbage,random text
+4203,Un voyage de Amiens à Lyon,Amiens,Lyon,1,easy,standard,
+3510,Faut-il préférer le TGV ou le train normal pour Nice Limoges,Nice,Limoges,1,hard,complex_question,
+9473,Au départ de Lyon,,,0,easy,incomplete_dest,missing destination
+1026,Arrivée Dijon départ Nantes,Nantes,Dijon,1,medium,inverted_order,
+8309,billet le mans tours,Le Mans,Tours,1,easy,no_capitals,
+7366,Pour aller de Aix-en-Provence à Rennes,Aix-en-Provence,Rennes,1,easy,standard,
+7770,Rejoindre Florence et Albert à Aix-en-Provence depuis Brest,Brest,Aix-en-Provence,1,hard,name_ambiguity,multiple name distractors
+1689,Billet Bordeaux Bordeaux,,,0,medium,ambiguous,origin equals destination
+1992,Un bilet Aix-en-Provenc Toor,Aix-en-Provence,Tours,1,hard,misspelling,spelling errors
+2538,Bilet simple aix-en-provence Lyhon,Aix-en-Provence,Lyon,1,hard,misspelling,spelling errors
+7302,Tours Brest bientôt,Tours,Brest,1,easy,no_markers,
+7045,levapofix vymakozabe jelinab regowykuwy docobodi,,,0,easy,garbage,random text
+8467,je dois travailler demain,,,0,easy,no_intent,off_topic
+4101,Il y a combien de trains de Paris à Dijon,Paris,Dijon,1,medium,standard,
+4756,Aller en train de Bordeaux à Le Havre,Bordeaux,Le Havre,1,easy,standard,
+3723,requin nougat ordinateur ordinateur fenêtre,,,0,easy,garbage,nonsense words
+9748,Origine Angers ?,,,0,easy,incomplete_dest,missing destination
+6034,Place Villeurbanne Strasbourg,Villeurbanne,Strasbourg,1,easy,no_markers,
+7654,comment aller de toulon a nice,Toulon,Nice,1,easy,no_capitals,
+2619,Place Limoges Perpignan,Limoges,Perpignan,1,easy,no_markers,
+9338,de paris vers bordeaux,Paris,Bordeaux,1,easy,no_capitals,
+2441,Vous avez des trains de Metz vers Dijon,Metz,Dijon,1,medium,standard,
+9903,un aller simple de metz a amiens,Metz,Amiens,1,easy,no_capitals,
+2934,un voyage de villeurbanne a montpellier,Villeurbanne,Montpellier,1,easy,no_capitals,
+2266,Je souhaite aller à Marseille depuis Angers,Angers,Marseille,1,medium,inverted_order,
+9755,Un aller simple de Dijon à Brest,Dijon,Brest,1,easy,standard,
+5122,Quel est le tarif de Dijon à Lille,Dijon,Lille,1,medium,standard,
+5958,destination nice ?,,,0,easy,incomplete_origin,missing origin
+1654,Quand puis-je partir de Reims vers Strasbourg,Reims,Strasbourg,1,medium,standard,
+9287,"moi, Lourdes et Clément voulons rejoindre Paris depuis Clermont-Ferrand",Clermont-Ferrand,Paris,1,hard,name_ambiguity,multiple name distractors
+4943,Atteindre Rennes en partant de Marseille,Marseille,Rennes,1,medium,inverted_order,
+5851,Voyage avec Clément et Florence de Limoges à Lille,Limoges,Lille,1,hard,name_ambiguity,multiple name distractors
+9176,Aller retrouver Le Havre depuis Nantes,Nantes,Le Havre,1,medium,inverted_order,
+5652,Comen partir de Paric a Lile,Paris,Lille,1,hard,misspelling,spelling errors
+5990,La pizza c'est délicieux !,,,0,easy,no_intent,off_topic
+6124,Y a-t-il un train direct de Toulouse vers Toulon,Toulouse,Toulon,1,medium,standard,
+7697,Depuis Lille ?,,,0,easy,incomplete_dest,missing destination
+2003,Quel est le temps de trajet de Metz à Le Havre,Metz,Le Havre,1,medium,standard,
+7084,je ve prendr le train de paris a rene,Paris,Rennes,1,hard,misspelling,spelling errors
+9555,pizegijej tugoryxyz vowejelu catexiga tybi,,,0,easy,garbage,random text
+1056,Billet Grenoble Aix-les-Bains,Grenoble,Aix-les-Bains,1,medium,compound_name,
+3367,en direction de montpellier,,,0,easy,incomplete_origin,missing origin
+746,un tiket de angeers a marseille,Angers,Marseille,1,hard,misspelling,spelling errors
+8951,Je me suis trompé Rennes pas Nice,,,0,medium,ambiguous,conflicting information
+4763,Pour me rendre à Metz je pars de Strasbourg,Strasbourg,Metz,1,medium,inverted_order,
+6073,Lyon Annecy bientôt,Lyon,Annecy,1,easy,no_markers,
+6359,je souhet aller de grenoble a reeims,Grenoble,Reims,1,hard,misspelling,spelling errors
+7218,Combien de temps d'avance faut-il pour Montpellier Le Havre,Montpellier,Le Havre,1,hard,complex_question,
+7217,un biye de marseille ver annec,Marseille,Annecy,1,hard,misspelling,spelling errors
+3279,Avec mon ami Florence je vais de Grenoble à Reims,Grenoble,Reims,1,hard,name_ambiguity,multiple name distractors
+6633,un trajet de nice vers saint-étienne,Nice,Saint-Étienne,1,easy,no_capitals,
+5730,Marseille 456 ---,,,0,easy,garbage,incoherent mix
+9474,les gares sont belles,,,0,easy,no_intent,train_discussion
+3067,Je suis à Lyon,,,0,easy,incomplete_dest,missing destination
+1945,je voudré partir de strasbourg a toure,Strasbourg,Tours,1,hard,misspelling,spelling errors
+303,y a-t-il un train de angers vers le mans,Angers,Le Mans,1,easy,no_capitals,
+5951,sable escalier orange escalier lampe jardin sable,,,0,easy,garbage,nonsense words
+3686,le train de lyon a toulouse,Lyon,Toulouse,1,easy,no_capitals,
+6067,pyjudoqyqu vasyruquso jobupur fowejis,,,0,easy,garbage,random text
+8327,nuage sable kayak fenêtre nougat,,,0,easy,garbage,nonsense words
+692,C'est parfait,,,0,easy,no_intent,random_statements
+647,Le foot c'est super,,,0,easy,no_intent,off_topic
+3212,Je vais de Nantes à Toulouse à Marseille,,,0,medium,ambiguous,too many cities
+5090,Aller à Annecy en quittant Paris,Paris,Annecy,1,medium,inverted_order,
+1665,Au départ de Toulon ?,,,0,easy,incomplete_dest,missing destination
+3877,J'aimerais aller de Reims à Lyon,Reims,Lyon,1,easy,standard,
+5410,Je dois aller de Rennes à La Roche-sur-Yon,Rennes,La Roche-sur-Yon,1,medium,compound_name,
+7625,Départ de Toulon destination Saint-Étienne,Toulon,Saint-Étienne,1,easy,standard,
+122,je dois aller voir Florence a Nantes en partant de Nîmes,Nîmes,Nantes,1,hard,name_ambiguity,multiple name distractors
+2675,Départ Bordeaux,,,0,easy,incomplete_dest,missing destination
+2552,Venant de Montpellier,,,0,easy,incomplete_dest,missing destination
+2587,Je suis à Toulon,,,0,easy,incomplete_dest,missing destination
+4534,un bilet de trin de toulo a montpellié,Toulon,Montpellier,1,hard,misspelling,spelling errors
+2562,Quel est le prix d'un aller simple de Toulon à Marseille,Toulon,Marseille,1,medium,additional_info,
+1018,Aller vers Aix-en-Provence depuis Strasbourg,Strasbourg,Aix-en-Provence,1,easy,standard,
+9127,Where is the station,,,0,easy,garbage,foreign language
+8139,Je souhaite me rendre à La Roche sur Yon en partant de Saint-Étienne,Saint-Étienne,La Roche-sur-Yon,1,medium,compound_name,
+4172,Je me rends de Saint-Étienne à Lyon,Saint-Étienne,Lyon,1,easy,standard,
+986,je desire aller de limoges a saint-étienne,Limoges,Saint-Étienne,1,easy,no_capitals,
+4883,Trajet Saint-Étienne Boulogne-sur-Mer,Saint-Étienne,Boulogne-sur-Mer,1,medium,compound_name,
+6366,"Paris, Florence et moi partons de Lyon pour Nîmes",Lyon,Nîmes,1,hard,name_ambiguity,multiple name distractors
+3303,Je peux réserver un billet de Perpignan à Grenoble,Perpignan,Grenoble,1,medium,standard,
+7189,À partir de Marseille,,,0,easy,incomplete_dest,missing destination
+8782,tasysidi fan hyku wenur koherobyze,,,0,easy,garbage,random text
+9279,Y a-t-il des promotions pour Tours Saint-Étienne,Tours,Saint-Étienne,1,hard,complex_question,
+289,Trajet Nîmes Bordeaux,Nîmes,Bordeaux,1,easy,no_markers,
+6676,je souhet aller de dijo a aix-en-provenc,Dijon,Aix-en-Provence,1,hard,misspelling,spelling errors
+5288,gawe tojinicax wycere qoh camuzan,,,0,easy,garbage,random text
+6953,je dois aller à le havre,,,0,easy,incomplete_origin,missing origin
+6483,Quel est le meilleur moment pour partir de Tours vers Paris,Tours,Paris,1,hard,complex_question,
+5770,on rejoint clément et rémy a amiens depuis perpignan,Perpignan,Amiens,1,hard,name_ambiguity,multiple name distractors
+4562,Je pars pour Strasbourg,,,0,easy,incomplete_origin,missing origin
+2261,Aller Toulouse Saint-Étienne,Toulouse,Saint-Étienne,1,easy,no_markers,
+7886,Combien de temps entre Amiens et Angers,Amiens,Angers,1,medium,standard,
+2027,Place Le Havre Marseille,Le Havre,Marseille,1,easy,no_markers,
+9015,Je voudré un billet de Bordau a le mans,Bordeaux,Le Mans,1,hard,misspelling,spelling errors
+1894,quelle chaleur,,,0,easy,no_intent,off_topic
+4493,avec mon ami Rémy je vais de Le Mans a Amiens,Le Mans,Amiens,1,hard,name_ambiguity,multiple name distractors
+5736,En provenance de Nice,,,0,easy,incomplete_dest,missing destination
+2222,veb wevowyqax soqicapo pemypuhux,,,0,easy,garbage,random text
+9181,Soit Lille soit Bordeaux,,,0,medium,ambiguous,contradictions
+3604,Je me rends de Montpellier à Tours,Montpellier,Tours,1,easy,standard,
+5223,un billet pour strasbourg,,,0,easy,incomplete_origin,missing origin
+7912,buwopyz qovedunap,,,0,easy,garbage,random text
+9029,jufylav likiri kezeqo,,,0,easy,garbage,random text
+6192,Combien coûte un billet ?,,,0,easy,incomplete_grammar,grammatically incomplete
+9768,Un aller-retour Lyon Reims pour la semaine prochaine,Lyon,Reims,1,medium,additional_info,
+1016,Route vers Toulouse depuis Paris,Paris,Toulouse,1,medium,inverted_order,
+4055,rejoindre saint-étienne depuis reims,Reims,Saint-Étienne,1,easy,no_capitals,
+8153,je prends un billet de nîmes a montpellier,Nîmes,Montpellier,1,easy,no_capitals,
+7411,Quel est ton film préféré !,,,0,easy,no_intent,general_questions
+5191,un aller de paris a strasbourg merci,Paris,Strasbourg,1,easy,no_capitals,
+9050,Évidemment !,,,0,easy,no_intent,random_statements
+3820,comen partir de bordeaus a anger,Bordeaux,Angers,1,hard,misspelling,spelling errors
+6656,Un aller-retour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+8018,Faut-il obligatoirement réserver pour Saint-Étienne Marseille,Saint-Étienne,Marseille,1,hard,complex_question,
+485,basé à strasbourg ?,,,0,easy,incomplete_dest,missing destination
+6167,train de lille direction dijon,Lille,Dijon,1,easy,no_capitals,
+8988,Quel est le train le plus rapide de Limoges à Saint-Étienne,Limoges,Saint-Étienne,1,hard,complex_question,
+5722,Je veux aller à Villeurbanne en partant de Dijon,Dijon,Villeurbanne,1,medium,inverted_order,
+264,Je voudrais aller à Grenoble ?,,,0,easy,incomplete_origin,missing origin
+7325,De Paris à Bordeaux ou peut-être Toulouse,,,0,medium,ambiguous,contradictions
+8412,un bilet de trein de nantes a saint-étienn,Nantes,Saint-Étienne,1,hard,misspelling,spelling errors
+6303,Réservation Villeurbanne Brest pour le mois prochain,Villeurbanne,Brest,1,medium,additional_info,
+3421,Vers Brest au départ de Nantes,Nantes,Brest,1,medium,inverted_order,
+5019,coucou ?,,,0,easy,no_intent,greetings
+2879,rudenydos guxegova veme nykiv dijywig,,,0,easy,garbage,random text
+2635,cest pour un voyage de annecy a le havre,Annecy,Le Havre,1,easy,no_capitals,
+688,Réservation Le Mans Nîmes pour le mois prochain,Le Mans,Nîmes,1,medium,additional_info,
+6558,Lille Paris Montpellier Lyon,,,0,medium,ambiguous,too many cities
+284,itineraire de le mans a nice,Le Mans,Nice,1,easy,no_capitals,
+1694,avec mon ami Clément je vais de Toulouse a Nîmes,Toulouse,Nîmes,1,hard,name_ambiguity,multiple name distractors
+6048,Bilet de lille ver saint-étienne,Lille,Saint-Étienne,1,hard,misspelling,spelling errors
+7080,Trajet Toulouse Clermont-Ferrand,Toulouse,Clermont-Ferrand,1,easy,no_markers,
+6659,gonarofiz mokymog woticyco rodimeces,,,0,easy,garbage,random text
+1102,Quand puis-je partir de Grenoble vers Toulon,Grenoble,Toulon,1,medium,standard,
+4955,avec mes amis Rémy et Albert je voudrais aller de Nantes a Metz,Nantes,Metz,1,hard,name_ambiguity,multiple name distractors
+2096,À plus tard !,,,0,easy,no_intent,greetings
+9968,Je veux partir de Grenoble à Tours vendredi soir,Grenoble,Tours,1,medium,additional_info,
+1670,Un billet de Brest pour Châlons-en-Champagne,Brest,Châlons-en-Champagne,1,medium,compound_name,
+1714,au depart de annecy pour aix-en-provence,Annecy,Aix-en-Provence,1,easy,no_capitals,
+4879,Me rendre à Châlons-en-Champagne depuis Toulouse,Toulouse,Châlons-en-Champagne,1,medium,compound_name,
+5310,en direction de dijon,,,0,easy,incomplete_origin,missing origin
+5799,Un billet Villeurbanne Toulon pour ce soir,Villeurbanne,Toulon,1,medium,additional_info,
+1528,Billet Montpellier Paris Rennes,,,0,medium,ambiguous,too many cities
+1474,Je souhaiterais obtenir un billet de Angers à Perpignan,Angers,Perpignan,1,easy,standard,
+6593,Y a-t-il un train direct de Bordeaux vers Nantes,Bordeaux,Nantes,1,medium,standard,
+9986,Annecy Nantes en vacances,Annecy,Nantes,1,medium,no_markers,
+434,Le train c'est mieux que l'avion ?,,,0,easy,no_intent,train_discussion
+7753,pour aller de le havre a paris,Le Havre,Paris,1,easy,no_capitals,
+1930,Peut-être Paris ou bien Nantes,,,0,medium,ambiguous,contradictions
+9655,Pour aller à Aix-en-Provence depuis Brest,Brest,Aix-en-Provence,1,medium,inverted_order,
+6210,Bordeaux Lyon svp,Bordeaux,Lyon,1,easy,no_markers,
+4010,TGV TGV TGV TGV,,,0,easy,garbage,repetitions
+5278,Trajet en train de Reims à Grenoble,Reims,Grenoble,1,easy,standard,
+1287,un train pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+8544,Saint-Étienne Amiens en urgence,Saint-Étienne,Amiens,1,medium,no_markers,
+8086,Quel est le meilleur jour pour voyager de Montpellier à Nice,Montpellier,Nice,1,hard,complex_question,
+7446,Depuis Annecy jusqu'à Toulouse,Annecy,Toulouse,1,easy,standard,
+9178,Un billet de Lille pour La Roche-sur-Yon,Lille,La Roche-sur-Yon,1,medium,compound_name,
+8637,cest pour aller de reims a le mans,Reims,Le Mans,1,easy,no_capitals,
+9841,route de villeurbanne vers amiens,Villeurbanne,Amiens,1,easy,no_capitals,
+5486,Je dois aller de Bordeaux à Saint-Étienne,Bordeaux,Saint-Étienne,1,medium,compound_name,
+8487,Annecy Rennes aller-retour,Annecy,Rennes,1,medium,no_markers,
+4809,Y a-t-il des trains directs entre Bordeaux et Limoges,Bordeaux,Limoges,1,hard,complex_question,
+1071,en partant de bordeaux,,,0,easy,incomplete_dest,missing destination
+6748,Mon départ est à Lille,,,0,easy,incomplete_dest,missing destination
+4559,rev ceru rubo hiw rynimocez,,,0,easy,garbage,random text
+4726,Transport de Boulogne-sur-Mer à Annecy,Boulogne-sur-Mer,Annecy,1,medium,compound_name,
+7993,Aller de Tours à Nice,Tours,Nice,1,easy,standard,
+8219,Pour atteindre Strasbourg depuis Rennes,Rennes,Strasbourg,1,medium,inverted_order,
+3456,un train de reims a paris,Reims,Paris,1,easy,no_capitals,
+7289,Je viens de Lille,,,0,easy,incomplete_dest,missing destination
+779,Montpellier Lyon ce week-end,Montpellier,Lyon,1,medium,no_markers,
+814,je voudré un billet de le havr a strasborg,Le Havre,Strasbourg,1,hard,misspelling,spelling errors
+1888,je ve aller de pariz a le man,Paris,Le Mans,1,hard,misspelling,spelling errors
+4081,En partant de Brest vers Clermont-Ferrand,Brest,Clermont-Ferrand,1,easy,standard,
+1980,Je me rends à Strasbourg en provenance de Nîmes,Nîmes,Strasbourg,1,medium,inverted_order,
+4677,Je dois partir de Lille à Montpellier,Lille,Montpellier,1,easy,standard,
+8897,Direction Metz depuis Tours,Tours,Metz,1,easy,standard,
+350,Train Nîmes Clermont-Ferrand avec vélo,Nîmes,Clermont-Ferrand,1,medium,additional_info,
+4844,"Moi, Lourdes et Rémy voulons rejoindre Perpignan depuis Strasbourg",Strasbourg,Perpignan,1,hard,name_ambiguity,multiple name distractors
+8833,Réservation Rennes Le Mans pour le mois prochain,Rennes,Le Mans,1,medium,additional_info,
+2039,comman se rendre de strasboure a saint-éétienne,Strasbourg,Saint-Étienne,1,hard,misspelling,spelling errors
+5994,Combien de correspondances entre Lyon et Nîmes,Lyon,Nîmes,1,hard,complex_question,
+4255,@@@ Marseille billet,,,0,easy,garbage,incoherent mix
+1826,je me trouve à nantes,,,0,easy,incomplete_dest,missing destination
+70,Je cherche un train ?,,,0,easy,incomplete_grammar,grammatically incomplete
+1424,trin pariis nîmes,Paris,Nîmes,1,hard,misspelling,spelling errors
+9940,je veux aller de tours a nantes,Tours,Nantes,1,easy,no_capitals,
+7297,Un voyage de Annecy à Nîmes,Annecy,Nîmes,1,easy,standard,
+8548,Réservation Montpellier Marseille groupe de 5,Montpellier,Marseille,1,medium,additional_info,
+919,ça va bien merci ?,,,0,easy,no_intent,greetings
+2559,Origine Nîmes destination Reims,Nîmes,Reims,1,easy,standard,
+173,Je veux aller à Lyon non à Nantes,,,0,medium,ambiguous,contradictions
+4228,quel est le prix pour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+3743,Faut-il préférer le TGV ou le train normal pour Perpignan Angers,Perpignan,Angers,1,hard,complex_question,
+7123,Je suis à Strasbourg,,,0,easy,incomplete_dest,missing destination
+3130,trajet depuis nantes vers annecy,Nantes,Annecy,1,easy,no_capitals,
+5903,Je viens de Paris,,,0,easy,incomplete_dest,missing destination
+8261,guitare jardin framboise ordinateur,,,0,easy,garbage,nonsense words
+5879,SNCF SNCF SNCF SNCF SNCF,,,0,easy,garbage,repetitions
+7726,mon trajet est de saint-étienne a nice,Saint-Étienne,Nice,1,easy,no_capitals,
+2125,De Montpellier à Nice puis Lyon,,,0,medium,ambiguous,too many cities
+1294,Trajet vers Grenoble,,,0,easy,incomplete_origin,missing origin
+7533,Je veu aller de Bordo ver Saint-Étienn,Bordeaux,Saint-Étienne,1,hard,misspelling,spelling errors
+8664,Pour aller vers Le Havre depuis Angers,Angers,Le Havre,1,medium,inverted_order,
+488,À quelle heure part le premier train de Limoges pour Toulon,Limoges,Toulon,1,medium,standard,
+2490,Il me faudrait un titre de transport de Strasbourg à Marseille,Strasbourg,Marseille,1,easy,standard,
+2991,Je me rends à Strasbourg ?,,,0,easy,incomplete_origin,missing origin
+6829,Je vais à Toulouse ah non plutôt Marseille,,,0,medium,ambiguous,contradictions
+9128,Quel est le temps de correspondance entre Clermont-Ferrand et Toulouse,Clermont-Ferrand,Toulouse,1,hard,complex_question,
+6775,Il faut que j'aille à Le Havre depuis Villeurbanne,Villeurbanne,Le Havre,1,medium,inverted_order,
+9660,De Annecy vers Villeurbanne s'il vous plaît,Annecy,Villeurbanne,1,easy,standard,
+4346,le billet de grenoble a toulouse coute combien,Grenoble,Toulouse,1,easy,no_capitals,
+9959,uniforme jardin papillon orange parapluie nuage,,,0,easy,garbage,nonsense words
+5150,avec mes amis Lourdes et Rémy je voudrais aller de Montpellier a Nîmes,Montpellier,Nîmes,1,hard,name_ambiguity,multiple name distractors
+8473,mon travail est intéressant,,,0,easy,no_intent,off_topic
+1903,Je voudrais un billet de Lyon à Grenoble pour demain,Lyon,Grenoble,1,medium,additional_info,
+7513,Limoges Amiens ce matin,Limoges,Amiens,1,easy,no_markers,
+5567,Les locomotives sont puissantes,,,0,easy,no_intent,train_discussion
+9979,voyage voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+1019,Billet Toulon Reims pour affaires,Toulon,Reims,1,medium,additional_info,
+8190,Villeurbanne Nice aujourd'hui,Villeurbanne,Nice,1,easy,no_markers,
+8876,À quelle heure arrive le dernier train de Aix-en-Provence à Toulon,Aix-en-Provence,Toulon,1,hard,complex_question,
+1517,De Lyon à Nantes puis Marseille,,,0,medium,ambiguous,too many cities
+4062,wosy sifaz,,,0,easy,garbage,random text
+7948,Combien de temps d'avance faut-il pour Paris Dijon,Paris,Dijon,1,hard,complex_question,
+9428,"paris, albert et moi partons de nantes pour brest",Nantes,Brest,1,hard,name_ambiguity,multiple name distractors
+5690,Y a-t-il des services à bord pour Saint-Étienne Metz,Saint-Étienne,Metz,1,hard,complex_question,
+7026,"avec rémy, paris et florence on va de villeurbanne a amiens",Villeurbanne,Amiens,1,hard,name_ambiguity,multiple name distractors
+6679,Je dois aller de Brest à Le Mans en début de semaine,Brest,Le Mans,1,medium,additional_info,
+1499,j'adore danser ?,,,0,easy,no_intent,off_topic
+6111,D'accord !,,,0,easy,no_intent,random_statements
+609,"avec mes amis lourdes, albert et florence je vais de amiens à marseille",Amiens,Marseille,1,hard,name_ambiguity,multiple name distractors
+3476,Aller de Le Mans à Strasbourg,Le Mans,Strasbourg,1,easy,standard,
+8307,Quel est le meilleur moment pour partir de Bordeaux vers Dijon,Bordeaux,Dijon,1,hard,complex_question,
+8422,Clermont-Ferrand Bordeaux ce week-end,Clermont-Ferrand,Bordeaux,1,medium,no_markers,
+8191,Rejoindre Bourg-en-Bresse depuis Grenoble,Grenoble,Bourg-en-Bresse,1,medium,compound_name,
+6033,Quel est le train le plus rapide de Angers à Nantes,Angers,Nantes,1,hard,complex_question,
+2356,??? Lyon @@## billet,,,0,easy,garbage,incoherent mix
+2367,Un aller-retour Perpignan Nîmes pour la semaine prochaine,Perpignan,Nîmes,1,medium,additional_info,
+5478,Je vais à Lyon ah non plutôt Bordeaux,,,0,medium,ambiguous,contradictions
+1621,aller de toulouse a lille,Toulouse,Lille,1,easy,no_capitals,
+3094,mon trajet est de lille a aix-en-provence,Lille,Aix-en-Provence,1,easy,no_capitals,
+4453,Comen partir de Nise a le havre,Nice,Le Havre,1,hard,misspelling,spelling errors
+6786,On rejoint Clément et Rémy à Le Havre depuis Nantes,Nantes,Le Havre,1,hard,name_ambiguity,multiple name distractors
+7008,je veu me rendr de nise a grenobl,Nice,Grenoble,1,hard,misspelling,spelling errors
+3531,Train svp Paris Annecy,Paris,Annecy,1,easy,no_markers,
+9536,commen aler de reims a amien,Reims,Amiens,1,hard,misspelling,spelling errors
+6070,de amiens en direction de villeurbanne,Amiens,Villeurbanne,1,easy,no_capitals,
+7334,rémy et moi voulons aller de rennes à nice,Rennes,Nice,1,hard,name_ambiguity,multiple name distractors
+2074,Vers Lille,,,0,easy,incomplete_origin,missing origin
+5365,les horaires de toulon a nîmes svp,Toulon,Nîmes,1,easy,no_capitals,
+4463,bilet de trein de montpellié a toulon,Montpellier,Toulon,1,hard,misspelling,spelling errors
+5506,Vous avez les horaires de Rennes à Lyon,Rennes,Lyon,1,medium,standard,
+2217,Départ Dijon arrivée Paris,Dijon,Paris,1,easy,standard,
+9095,un tiket de metz a renn,Metz,Rennes,1,hard,misspelling,spelling errors
+3445,depuis villeurbanne jusqua aix-en-provence,Villeurbanne,Aix-en-Provence,1,easy,no_capitals,
+7885,Y a-t-il des services à bord pour Aix-en-Provence Strasbourg,Aix-en-Provence,Strasbourg,1,hard,complex_question,
+8081,Route de Port-Boulet vers Bordeaux,Port-Boulet,Bordeaux,1,medium,compound_name,
+650,Pour aller à Grenoble depuis Reims,Reims,Grenoble,1,medium,inverted_order,
+4665,Je veu partir de Brrest a Clermont-Ferran,Brest,Clermont-Ferrand,1,hard,misspelling,spelling errors
+6127,valise sable papillon parapluie guitare miroir,,,0,easy,garbage,nonsense words
+1013,Il me faut un billet de Rennes à Toulon,Rennes,Toulon,1,easy,standard,
+4340,Angers Strasbourg rapidement,Angers,Strasbourg,1,medium,no_markers,
+2047,bonne nuit,,,0,easy,no_intent,greetings
+648,Vers Marseille en provenance de Le Mans,Le Mans,Marseille,1,medium,inverted_order,
+9480,D'accord,,,0,easy,no_intent,random_statements
+20,Lyon Nantes aller-retour,Lyon,Nantes,1,medium,no_markers,
+8620,Un aller simpl de Reiims a le havre,Reims,Le Havre,1,hard,misspelling,spelling errors
+3565,Je veux aller à Reims,,,0,easy,incomplete_origin,missing origin
+124,requin miroir lampe,,,0,easy,garbage,nonsense words
+127,Un ticket de Bordeaux à Rennes,Bordeaux,Rennes,1,easy,standard,
+8194,Je souhaite partir de Rennes vers Bordeaux,Rennes,Bordeaux,1,easy,standard,
+8122,Partir pour Le Mans depuis Lille,Lille,Le Mans,1,medium,inverted_order,
+3329,Dijon Angers tarif réduit,Dijon,Angers,1,medium,no_markers,
+2647,Perpignan Villeurbanne réserver,Perpignan,Villeurbanne,1,easy,no_markers,
+9130,En provenance de Marseille,,,0,easy,incomplete_dest,missing destination
+6344,je suis à angers,,,0,easy,incomplete_dest,missing destination
+8350,dyvid lynexaly,,,0,easy,garbage,random text
+183,je prends un billet de nîmes a tours,Nîmes,Tours,1,easy,no_capitals,
+9096,Je veux aller de Brest vers Aix en Provence,Brest,Aix-en-Provence,1,medium,compound_name,compound name no hyphen
+2516,Je veux aller de Lyon à Boulogne-sur-Mer,Lyon,Boulogne-sur-Mer,1,medium,compound_name,
+5689,Clément et Florence habitent a Grenoble je pars de Perpignan,Perpignan,Grenoble,1,hard,name_ambiguity,multiple name distractors
+6440,De Port-Boulet vers Bordeaux,Port-Boulet,Bordeaux,1,medium,compound_name,
+9628,Je souhaite ale de Sainnt-Étienne a Nîmees,Saint-Étienne,Nîmes,1,hard,misspelling,spelling errors
+2388,train paris tours sil vous plait,Paris,Tours,1,easy,no_capitals,
+681,il me faut un billet de reims a lille,Reims,Lille,1,easy,no_capitals,
+7206,Combien d'heures minimum entre Brest et Dijon,Brest,Dijon,1,hard,complex_question,
+2439,"Moi, Lourdes et Rémy voulons rejoindre Tours depuis Metz",Metz,Tours,1,hard,name_ambiguity,multiple name distractors
+3662,Vers Brest en provenance de Tours,Tours,Brest,1,medium,inverted_order,
+2998,!!! ---,,,0,easy,garbage,special characters
+4820,Route vers Metz depuis Marseille,Marseille,Metz,1,medium,inverted_order,
+192,Venant de Marseille,,,0,easy,incomplete_dest,missing destination
+5667,Je veux aller de Saint-Étienne vers Le Havre,Saint-Étienne,Le Havre,1,medium,compound_name,
+6974,un bilet de trin de bordeau a marseille,Bordeaux,Marseille,1,hard,misspelling,spelling errors
+9352,rejoindre Lourdes a Nantes depuis Paris,Paris,Nantes,1,hard,name_ambiguity,multiple name distractors
+4535,Rejoindre Reims au départ de Strasbourg,Strasbourg,Reims,1,medium,inverted_order,
+3104,Combien de correspondances entre Limoges et Le Havre,Limoges,Le Havre,1,hard,complex_question,
+3670,"Clément, Lourdes et moi partons de Marseille pour Grenoble",Marseille,Grenoble,1,hard,name_ambiguity,multiple name distractors
+6664,Aller chercher un billet de Paris à Marseille,Paris,Marseille,1,easy,standard,
+5360,un voyage de amiens a marseille,Amiens,Marseille,1,easy,no_capitals,
+2311,cejygo sygigury mev nyj,,,0,easy,garbage,random text
+8009,je veux ale de bordo a villeurbann,Bordeaux,Villeurbanne,1,hard,misspelling,spelling errors
+8028,comen se rendre de nîmmes a reim,Nîmes,Reims,1,hard,misspelling,spelling errors
+5240,Destination Rennes correction Bordeaux,,,0,medium,ambiguous,conflicting information
+558,Le Havre Brest plein tarif,Le Havre,Brest,1,medium,no_markers,
+2813,Annecy Montpellier s'il vous plaît,Annecy,Montpellier,1,easy,no_markers,
+2247,bilet de annnecy ver lill,Annecy,Lille,1,hard,misspelling,spelling errors
+8992,à plus tard ?,,,0,easy,no_intent,greetings
+6911,Je ne sais pas si Montpellier ou Rennes,,,0,medium,ambiguous,contradictions
+9527,Combien de temps d'avance faut-il pour Grenoble Le Havre,Grenoble,Le Havre,1,hard,complex_question,
+1507,C'est combien pour aller de Nîmes à Lille,Nîmes,Lille,1,medium,standard,
+2207,rejoindre toulon depuis brest,Brest,Toulon,1,easy,no_capitals,
+1556,dyqidik kocito kusu podyqeduh,,,0,easy,garbage,random text
+3718,Je vais de Marseille à Lyon à Montpellier,,,0,medium,ambiguous,too many cities
+3639,Au départ de Nice,,,0,easy,incomplete_dest,missing destination
+5105,Il faut que j'aille à Grenoble depuis Angers,Angers,Grenoble,1,medium,inverted_order,
+2137,Un aller de Aix-en-Provence à Angers merci,Aix-en-Provence,Angers,1,easy,standard,
+1678,Comment aller à Aix-en-Provence depuis Lille,Lille,Aix-en-Provence,1,medium,compound_name,
+2501,Billet Toulouse Marseille Lille,,,0,medium,ambiguous,too many cities
+9774,un billet brest angers sil vous plait,Brest,Angers,1,easy,no_capitals,
+4762,Départ Le Havre Grenoble,Le Havre,Grenoble,1,easy,no_markers,
+8008,Je vais à Nantes ou Bordeaux,,,0,medium,ambiguous,contradictions
+719,Quelle est la durée du trajet de Rennes à Lyon,Rennes,Lyon,1,medium,standard,
+6197,Je veux partir de Annecy à Nîmes vendredi soir,Annecy,Nîmes,1,medium,additional_info,
+2606,Partir de Montpellier et aller à Reims,Montpellier,Reims,1,easy,standard,
+5919,Bordeaux Lille Montpellier Toulouse,,,0,medium,ambiguous,too many cities
+9787,Il faut combien de temps de Lyon à Toulouse,Lyon,Toulouse,1,medium,standard,
+888,bilet pour bordau lyo,Bordeaux,Lyon,1,hard,misspelling,spelling errors
+27,Je veux aller de Le Mans à Rennes,Le Mans,Rennes,1,easy,standard,
+5038,Je ne sais pas si Paris ou Lille,,,0,medium,ambiguous,contradictions
+2265,je veux retrouver Clément et Florence a Nice depuis Annecy,Annecy,Nice,1,hard,name_ambiguity,multiple name distractors
+1970,Bordeaux Villeurbanne en urgence,Bordeaux,Villeurbanne,1,medium,no_markers,
+3506,bonne année,,,0,easy,no_intent,off_topic
+8918,pour le havre,,,0,easy,incomplete_origin,missing origin
+5307,jaz cil lelakybuv roky figokune,,,0,easy,garbage,random text
+7618,Réservation Aix-en-Provence Grenoble pour le mois prochain,Aix-en-Provence,Grenoble,1,medium,additional_info,
+6760,je voudrai me rendre de aix-en-prrovence a lyo,Aix-en-Provence,Lyon,1,hard,misspelling,spelling errors
+7092,Billet Toulouse Toulon,Toulouse,Toulon,1,easy,no_markers,
+2914,Billet Toulouse Rennes Nantes,,,0,medium,ambiguous,too many cities
+8968,Les trains à grande vitesse impressionnent,,,0,easy,no_intent,train_discussion
+1846,Je vais de Montpellier à Montpellier,,,0,medium,ambiguous,origin equals destination
+6021,Partir de Aix-en-Provence direction Clermont-Ferrand,Aix-en-Provence,Clermont-Ferrand,1,easy,standard,
+8038,qac retupociza semuhofok,,,0,easy,garbage,random text
+8387,Se rendre à Nantes depuis Rennes,Rennes,Nantes,1,medium,inverted_order,
+237,Amiens Angers en urgence,Amiens,Angers,1,medium,no_markers,
+6121,un tiket lile perpignan,Lille,Perpignan,1,hard,misspelling,spelling errors
+2290,je voyage avec Albert et Paris de Marseille vers Paris,Marseille,Paris,1,hard,name_ambiguity,multiple name distractors
+2971,Ticket Metz Aix-en-Provence,Metz,Aix-en-Provence,1,easy,no_markers,
+7771,Je souhaite me rendre à Salon-de-Provence en partant de Strasbourg,Strasbourg,Salon-de-Provence,1,medium,compound_name,
+6919,voyage depuis le havre vers marseille,Le Havre,Marseille,1,easy,no_capitals,
+2219,xudewibuxe cafiwurip pymomofoc fagusepasu,,,0,easy,garbage,random text
+9853,Perpignan Dijon pour les vacances,Perpignan,Dijon,1,medium,no_markers,
+2211,Comant aller de Grenobble ver tours,Grenoble,Tours,1,hard,misspelling,spelling errors
+7671,Je ne comprends pas ?,,,0,easy,no_intent,random_statements
+9707,Reims Le Havre en urgence,Reims,Le Havre,1,medium,no_markers,
+1866,je veu prendr le train de limogees a strasbourg,Limoges,Strasbourg,1,hard,misspelling,spelling errors
+4578,Je pars de Nice enfin non de Bordeaux,,,0,medium,ambiguous,conflicting information
+223,les trains à grande vitesse impressionnent,,,0,easy,no_intent,train_discussion
+7456,Je voudré partir de clermont-ferrand a le mans,Clermont-Ferrand,Le Mans,1,hard,misspelling,spelling errors
+9393,un bilet pour perpigna angers,Perpignan,Angers,1,hard,misspelling,spelling errors
+6305,rekah fecejyzi xevasyhy zywerihesu qyzi,,,0,easy,garbage,random text
+5662,Le Havre Annecy bientôt,Le Havre,Annecy,1,easy,no_markers,
+8910,Je souhet partir de Lill a grenoble,Lille,Grenoble,1,hard,misspelling,spelling errors
+8115,On rejoint Albert et Rémy à Toulon depuis Lyon,Lyon,Toulon,1,hard,name_ambiguity,multiple name distractors
+6358,papillon igloo requin miroir requin tambour uniforme,,,0,easy,garbage,nonsense words
+1448,Destination Nantes,,,0,easy,incomplete_origin,missing origin
+5156,Je vais vers Dijon depuis Nîmes,Nîmes,Dijon,1,medium,inverted_order,
+4487,Quel est le meilleur jour pour voyager de Grenoble à Aix-en-Provence,Grenoble,Aix-en-Provence,1,hard,complex_question,
+3013,"Clément, Lourdes et moi devons aller de Bordeaux a Toulon",Bordeaux,Toulon,1,hard,name_ambiguity,multiple name distractors
+2032,Je dois partir de Rennes à Nîmes,Rennes,Nîmes,1,easy,standard,
+55,Je souhet aller de marseille ver Bordo,Marseille,Bordeaux,1,hard,misspelling,spelling errors
+1827,direction,,,0,easy,incomplete_grammar,grammatically incomplete
+8690,Train Saint-Étienne Limoges dès que possible,Saint-Étienne,Limoges,1,medium,additional_info,
+4717,Un aller-retour,,,0,easy,incomplete_grammar,grammatically incomplete
+4472,je dois voir Rémy et Paris a Rennes en partant de Nîmes,Nîmes,Rennes,1,hard,name_ambiguity,multiple name distractors
+1527,un train de marseille a grenoble,Marseille,Grenoble,1,easy,no_capitals,
+8523,Aix-en-Provence Le Havre ce week-end,Aix-en-Provence,Le Havre,1,medium,no_markers,
+618,Situé à Le Havre,,,0,easy,incomplete_dest,missing destination
+1353,"Albert, Rémy et moi voulons aller de Dijon a Strasbourg",Dijon,Strasbourg,1,hard,name_ambiguity,multiple name distractors
+6086,Faut-il préférer le TGV ou le train normal pour Villeurbanne Limoges,Villeurbanne,Limoges,1,hard,complex_question,
+701,Je dois aller de Le Havre à Annecy en début de semaine,Le Havre,Annecy,1,medium,additional_info,
+6162,en partant de marseille vers grenoble,Marseille,Grenoble,1,easy,no_capitals,
+3083,Trajet Nice Boulogne-sur-Mer,Nice,Boulogne-sur-Mer,1,medium,compound_name,
+7567,hexov qokipe dikerygopa,,,0,easy,garbage,random text
+7049,Un train de Grenoble pour Clermont-Ferrand,Grenoble,Clermont-Ferrand,1,easy,standard,
+9072,Tarif réduit de Dijon à Bordeaux pour étudiants,Dijon,Bordeaux,1,medium,additional_info,
+676,Aller de Marseille à Nîmes,Marseille,Nîmes,1,easy,standard,
+1453,Il y a des trains de Perpignan à Limoges,Perpignan,Limoges,1,easy,standard,
+1027,Billet Rennes Metz pour fin de semaine,Rennes,Metz,1,medium,additional_info,
+3873,Je pars avec Florence et Clément de Nîmes vers Tours,Nîmes,Tours,1,hard,name_ambiguity,multiple name distractors
+4350,Quel est le meilleur moment pour partir de Amiens vers Tours,Amiens,Tours,1,hard,complex_question,
+3735,Comment aller à Strasbourg depuis La Roche sur Yon,La Roche-sur-Yon,Strasbourg,1,medium,compound_name,compound name no hyphen
+7256,Train Lille Lille,,,0,medium,ambiguous,origin equals destination
+4207,bilet pour dijo paris,Dijon,Paris,1,hard,misspelling,spelling errors
+2948,retrouver mes amis Florence et Lourdes a Paris depuis Limoges,Limoges,Paris,1,hard,name_ambiguity,multiple name distractors
+4117,je vais prendre le train de paris a angers,Paris,Angers,1,easy,no_capitals,
+4930,je voudrais voyager de marseille a toulouse,Marseille,Toulouse,1,easy,no_capitals,
+2346,Atteindre Nice en partant de Le Mans,Le Mans,Nice,1,medium,inverted_order,
+6830,Annecy Limoges en vacances,Annecy,Limoges,1,medium,no_markers,
+5473,Albert et moi voulons aller de Nantes à Brest,Nantes,Brest,1,hard,name_ambiguity,multiple name distractors
+1604,Lyon Tours simple,Lyon,Tours,1,easy,no_markers,
+4530,Peut-on avoir un train direct de Lyon vers Aix-en-Provence,Lyon,Aix-en-Provence,1,hard,complex_question,
+1704,Pour Grenoble,,,0,easy,incomplete_origin,missing origin
+4139,Départ Saint-Étienne Nîmes,Saint-Étienne,Nîmes,1,easy,no_markers,
+7437,Je me suis trompé Bordeaux pas Rennes,,,0,medium,ambiguous,conflicting information
+4512,Quelle est la meilleure option pour Metz Limoges,Metz,Limoges,1,hard,complex_question,
+7490,Partir pour Toulon depuis La Roche-sur-Yon,La Roche-sur-Yon,Toulon,1,medium,compound_name,
+7941,au depart de nîmes pour montpellier,Nîmes,Montpellier,1,easy,no_capitals,
+368,Les horaires de Amiens à Le Havre svp,Amiens,Le Havre,1,easy,standard,
+5290,je viens de angers,,,0,easy,incomplete_dest,missing destination
+7772,"avec mes amis paris, rémy et lourdes je vais de lyon à bordeaux",Lyon,Bordeaux,1,hard,name_ambiguity,multiple name distractors
+1804,avec mon ami clément je vais de brest a marseille,Brest,Marseille,1,hard,name_ambiguity,multiple name distractors
+4881,Un aller simple de Châlons en Champagne à Amiens,Châlons-en-Champagne,Amiens,1,medium,compound_name,compound name no hyphen
+6665,Je dois aller de Villeurbanne à Nîmes en début de semaine,Villeurbanne,Nîmes,1,medium,additional_info,
+6628,Comment optimiser le trajet de Perpignan à Annecy,Perpignan,Annecy,1,hard,complex_question,
+2770,Bonsoir ?,,,0,easy,no_intent,greetings
+7540,trajet depuis brest vers reims,Brest,Reims,1,easy,no_capitals,
+8057,Je ve partir de Nîmees a Montpelier,Nîmes,Montpellier,1,hard,misspelling,spelling errors
+2239,Rémy et Paris sont a Aix-en-Provence je pars de Toulouse,Toulouse,Aix-en-Provence,1,hard,name_ambiguity,multiple name distractors
+3219,Marseille Villeurbanne pour demain,Marseille,Villeurbanne,1,easy,no_markers,
+9861,Destination Lille avec un départ de Nice,Nice,Lille,1,medium,inverted_order,
+3606,je souhaite partir de pariss a brrest,Paris,Brest,1,hard,misspelling,spelling errors
+8258,Un biye de trein de le mans a metz,Le Mans,Metz,1,hard,misspelling,spelling errors
+696,papillon crayon valise horloge fenêtre,,,0,easy,garbage,nonsense words
+7287,papillon framboise fenêtre framboise,,,0,easy,garbage,nonsense words
+967,"Avec Florence, Clément et Albert on va de Nantes à Villeurbanne",Nantes,Villeurbanne,1,hard,name_ambiguity,multiple name distractors
+2567,Je suis actuellement à Bordeaux,,,0,easy,incomplete_dest,missing destination
+764,pouvez-vous me donner les horaires de grenoble a reims,Grenoble,Reims,1,easy,no_capitals,
+7743,Basé à Nantes ?,,,0,easy,incomplete_dest,missing destination
+3350,Je ve aller de Bres ver Clermonnt-Ferrand,Brest,Clermont-Ferrand,1,hard,misspelling,spelling errors
+3928,Aller de La Roche-sur-Yon vers Toulon,La Roche-sur-Yon,Toulon,1,medium,compound_name,
+2542,voyage de paris a strasbourg,Paris,Strasbourg,1,easy,no_capitals,
+8880,au depart de le havre pour rennes,Le Havre,Rennes,1,easy,no_capitals,
+1851,à lyon ?,,,0,easy,incomplete_origin,missing origin
+7296,Quel est le temps de trajet de Annecy à Aix-en-Provence,Annecy,Aix-en-Provence,1,medium,standard,
+2728,Billet Montpellier Montpellier,,,0,medium,ambiguous,origin equals destination
+1628,"Paris, Rémy et moi partons de Lille pour Amiens",Lille,Amiens,1,hard,name_ambiguity,multiple name distractors
+1473,Départ Aix-en-Provence arrivée Saint-Étienne,Aix-en-Provence,Saint-Étienne,1,medium,compound_name,
+9678,cest pour aller de le mans a annecy,Le Mans,Annecy,1,easy,no_capitals,
+5626,aller à villeurbanne voir florence et paris depuis nîmes,Nîmes,Villeurbanne,1,hard,name_ambiguity,multiple name distractors
+1357,Je pars de Angers,,,0,easy,incomplete_dest,missing destination
+8745,!!! **!! --- !!!,,,0,easy,garbage,special characters
+1737,Comment aller de Nantes à Bordeaux à Nice,,,0,medium,ambiguous,too many cities
+7839,"albert, paris et moi voulons aller de tours à nantes",Tours,Nantes,1,hard,name_ambiguity,multiple name distractors
+2025,Train de Aix-les-Bains à Bordeaux,Aix-les-Bains,Bordeaux,1,medium,compound_name,
+1100,florence et rémy habitent a le mans je pars de metz,Metz,Le Mans,1,hard,name_ambiguity,multiple name distractors
+2097,Comment rejoindre Perpignan depuis Lyon,Lyon,Perpignan,1,medium,inverted_order,
+9638,Les TGV sont rapides,,,0,easy,no_intent,train_discussion
+1037,Départ de Marseille destination Le Mans,Marseille,Le Mans,1,easy,standard,
+988,Un aller Metz Nantes pour dimanche,Metz,Nantes,1,medium,additional_info,
+4624,Brest Clermont-Ferrand aller-retour,Brest,Clermont-Ferrand,1,medium,no_markers,
+1159,Partir vers Montpellier au départ de Toulouse,Toulouse,Montpellier,1,medium,inverted_order,
+8911,Trajet jusqu'à Grenoble depuis Strasbourg,Strasbourg,Grenoble,1,medium,inverted_order,
+5502,Un train pour,,,0,easy,incomplete_grammar,grammatically incomplete
+7227,Je veux aller de Toulon à Nantes,Toulon,Nantes,1,easy,standard,
+659,Lyon Tours maintenant,Lyon,Tours,1,easy,no_markers,
+4492,billet limoges clermont-ferrand,Limoges,Clermont-Ferrand,1,easy,no_capitals,
+3815,je souhaite me rendre a saint-étienne depuis nantes,Nantes,Saint-Étienne,1,easy,no_capitals,
+4394,je dois partir de bordeaux a lyon,Bordeaux,Lyon,1,easy,no_capitals,
+1420,hexam watyg,,,0,easy,garbage,random text
+229,Il y avait du monde dans le train ?,,,0,easy,no_intent,train_discussion
+2012,je veu me rendr a saint-étienne de touloon,Toulon,Saint-Étienne,1,hard,misspelling,spelling errors
+453,Je dois partir de Le Mans à Reims,Le Mans,Reims,1,easy,standard,
+1518,dunat qofik kupaguwyri,,,0,easy,garbage,random text
+2511,Réservation Bordeaux Annecy pour senior,Bordeaux,Annecy,1,medium,additional_info,
+9173,Quel est le prix d'un billet de Aix-en-Provence à Le Havre,Aix-en-Provence,Le Havre,1,easy,standard,
+1459,Origine Lyon,,,0,easy,incomplete_dest,missing destination
+1388,un aller-retour ?,,,0,easy,incomplete_grammar,grammatically incomplete
+3777,Rennes Toulouse dès que possible,Rennes,Toulouse,1,medium,no_markers,
+4699,Transport de Paris à Châlons-en-Champagne,Paris,Châlons-en-Champagne,1,medium,compound_name,
+568,Comment aller de Dijon à Aix-en-Provence,Dijon,Aix-en-Provence,1,easy,standard,
+1297,aller simple de amiens vers bordeaux,Amiens,Bordeaux,1,easy,no_capitals,
+2860,Retrouver mes amis Florence et Lourdes à Aix-en-Provence depuis Le Mans,Le Mans,Aix-en-Provence,1,hard,name_ambiguity,multiple name distractors
+9645,Combien ça coûte un billet de Brest à Saint-Étienne,Brest,Saint-Étienne,1,medium,standard,
+9503,Un aller-retour Lyon Annecy pour la semaine prochaine,Lyon,Annecy,1,medium,additional_info,
+1152,kayak baleine requin,,,0,easy,garbage,nonsense words
+332,Pour aller de Rennes à Dijon,Rennes,Dijon,1,easy,standard,
+1535,junos qejepipeno lume hex,,,0,easy,garbage,random text
+2208,Faut que j'aille de Bordeaux à Montpellier,Bordeaux,Montpellier,1,easy,standard,
+6666,mon train préféré est le tgv ?,,,0,easy,no_intent,train_discussion
+5582,Billet Grenoble Limoges carte de réduction,Grenoble,Limoges,1,medium,additional_info,
+4485,je suis perdu ?,,,0,easy,no_intent,random_statements
+7113,Aller jusqu'à Marseille en partant de Clermont-Ferrand,Clermont-Ferrand,Marseille,1,medium,inverted_order,
+1198,Un billet de La Roche-sur-Yon pour Strasbourg,La Roche-sur-Yon,Strasbourg,1,medium,compound_name,
+2352,comment aler a strasbourg depuis le havr,Le Havre,Strasbourg,1,hard,misspelling,spelling errors
+5062,Un billet Lille Rennes s'il vous plaît,Lille,Rennes,1,easy,standard,
+644,À quelle heure je peux partir de Grenoble pour Perpignan,Grenoble,Perpignan,1,medium,standard,
+4687,À quelle heure je peux partir de Tours pour Montpellier,Tours,Montpellier,1,medium,standard,
+7829,Mon trajet est de Le Mans à Metz,Le Mans,Metz,1,easy,standard,
+933,"avec clément, paris et albert on va de lille à toulouse",Lille,Toulouse,1,hard,name_ambiguity,multiple name distractors
+1943,Deux billets de Strasbourg à Villeurbanne s'il vous plaît,Strasbourg,Villeurbanne,1,medium,additional_info,
+8651,Un bilet de trein de Bordeaus a Villeurbann,Bordeaux,Villeurbanne,1,hard,misspelling,spelling errors
+1447,Je souhaite me rendre à Marseille en partant de Aix-en-Provence,Aix-en-Provence,Marseille,1,medium,compound_name,
+3807,Le train de Villeurbanne à Toulon,Villeurbanne,Toulon,1,easy,standard,
+3264,Aller vers Montpellier au départ de Clermont-Ferrand,Clermont-Ferrand,Montpellier,1,medium,inverted_order,
+6287,Je veux aller de Châlons en Champagne vers Paris,Châlons-en-Champagne,Paris,1,medium,compound_name,compound name no hyphen
+4796,Me rendre à Le Mans depuis La Roche-sur-Yon,La Roche-sur-Yon,Le Mans,1,medium,compound_name,
+7139,Arrivée Nîmes départ Strasbourg,Strasbourg,Nîmes,1,medium,inverted_order,
+7944,Place dans le train de Marseille à Strasbourg,Marseille,Strasbourg,1,easy,standard,
+341,Le Mans Toulon partir,Le Mans,Toulon,1,easy,no_markers,
+2187,on rejoint Clément et Rémy a Angers depuis Perpignan,Perpignan,Angers,1,hard,name_ambiguity,multiple name distractors
+2350,Faut-il prévoir des changements entre Strasbourg et Dijon,Strasbourg,Dijon,1,hard,complex_question,
+5581,Un billet Angers Nice s'il vous plaît,Angers,Nice,1,easy,standard,
+2586,Je vais à Rennes ah non plutôt Montpellier,,,0,medium,ambiguous,contradictions
+3617,Un billet Aix-en-Provence Le Havre,Aix-en-Provence,Le Havre,1,easy,no_markers,
+4325,train strasbourg nîmes sil vous plait,Strasbourg,Nîmes,1,easy,no_capitals,
+7152,De Toulouse à Lyon puis Marseille,,,0,medium,ambiguous,too many cities
+5884,Départ Montpellier arrivée Port Boulet,Montpellier,Port-Boulet,1,medium,compound_name,compound name no hyphen
+9261,Billet Rennes Saint-Étienne pour ce week-end,Rennes,Saint-Étienne,1,medium,additional_info,
+2615,De Marseille vers Marseille,,,0,medium,ambiguous,origin equals destination
+4741,De Marseille à Nice puis Nantes,,,0,medium,ambiguous,too many cities
+8201,Toulouse Annecy deuxième classe,Toulouse,Annecy,1,medium,no_markers,
+8243,Pour rejoindre Angers depuis Metz,Metz,Angers,1,medium,inverted_order,
+4465,Je veux visiter Nice Toulouse Lyon,,,0,medium,ambiguous,too many cities
+4816,je voudrai un tiket de aix-en-provenc a reims,Aix-en-Provence,Reims,1,hard,misspelling,spelling errors
+2369,Je dois aller de Paris à Le Havre en début de semaine,Paris,Le Havre,1,medium,additional_info,
+3318,Au revoir ?,,,0,easy,no_intent,greetings
+7497,À Lyon,,,0,easy,incomplete_origin,missing origin
+5054,Paris **!! 123 ???,,,0,easy,garbage,incoherent mix
+7699,Quel est le tarif le moins cher de Bordeaux à Montpellier,Bordeaux,Montpellier,1,hard,complex_question,
+757,Ticket Clermont-Ferrand Toulouse,Clermont-Ferrand,Toulouse,1,easy,no_markers,
+4013,voyage avec Paris et Florence de Limoges a Tours,Limoges,Tours,1,hard,name_ambiguity,multiple name distractors
+2457,Quel est le tarif le moins cher de Grenoble à Brest,Grenoble,Brest,1,hard,complex_question,
+6747,Je pars de Aix-les-Bains pour Rennes,Aix-les-Bains,Rennes,1,medium,compound_name,
+1391,Billet svp Toulouse Metz,Toulouse,Metz,1,easy,no_markers,
+4137,pour voyager de clermont-ferrand a reims,Clermont-Ferrand,Reims,1,easy,no_capitals,
+8013,je souhaite partir de lile a le man,Lille,Le Mans,1,hard,misspelling,spelling errors
+7199,De Limoges vers Port-Boulet,Limoges,Port-Boulet,1,medium,compound_name,
+5424,je dois me rendre de aix-en-provence a toulouse,Aix-en-Provence,Toulouse,1,easy,no_capitals,
+9401,Je dois rejoindre Lyon depuis Villeurbanne,Villeurbanne,Lyon,1,medium,inverted_order,
+6074,je veux aller de reims a grenoble,Reims,Grenoble,1,easy,no_capitals,
+1145,Traje de reims a Nîmmes,Reims,Nîmes,1,hard,misspelling,spelling errors
+655,rejoindre Rémy a Angers depuis Grenoble,Grenoble,Angers,1,hard,name_ambiguity,multiple name distractors
+4256,Destination Toulouse ?,,,0,easy,incomplete_origin,missing origin
+2465,partir de toulon direction montpellier,Toulon,Montpellier,1,easy,no_capitals,
+347,Je voudrais voyager de Lyon à Toulon,Lyon,Toulon,1,easy,standard,
+6844,Billet Villeurbanne Toulouse pour voyage scolaire,Villeurbanne,Toulouse,1,medium,additional_info,
+4477,Trajet vers Limoges au départ de Le Mans,Le Mans,Limoges,1,medium,inverted_order,
+6869,le billet de brest a perpignan coute combien,Brest,Perpignan,1,easy,no_capitals,
+4840,Allé de Nantez a Clermont-Ferran,Nantes,Clermont-Ferrand,1,hard,misspelling,spelling errors
+8681,"Moi, Florence et Paris voulons rejoindre Toulouse depuis Montpellier",Montpellier,Toulouse,1,hard,name_ambiguity,multiple name distractors
+6149,Je pars de Marseille enfin non de Montpellier,,,0,medium,ambiguous,conflicting information
+1196,je vais au cinéma,,,0,easy,no_intent,off_topic
+395,parapluie nuage papillon tambour miroir valise orange,,,0,easy,garbage,nonsense words
+9408,"Lourdes, Florence et moi voulons aller de Le Havre a Toulouse",Le Havre,Toulouse,1,hard,name_ambiguity,multiple name distractors
+8688,route de limoges vers clermont-ferrand,Limoges,Clermont-Ferrand,1,easy,no_capitals,
+3727,je dois aller voir Rémy a Montpellier en partant de Toulon,Toulon,Montpellier,1,hard,name_ambiguity,multiple name distractors
+5807,Je voudrais aller de Nice à Rennes via Montpellier et Lyon,,,0,medium,ambiguous,too many cities
+65,À quelle heure arrive le dernier train de Reims à Amiens,Reims,Amiens,1,hard,complex_question,
+894,dorybuza hof,,,0,easy,garbage,random text
+8240,Billet Nice Paris pour la famille,Nice,Paris,1,medium,additional_info,
+6885,Reims Villeurbanne en urgence,Reims,Villeurbanne,1,medium,no_markers,
+3629,joyeux noël ?,,,0,easy,no_intent,off_topic
+9321,Aller de La Roche-sur-Yon vers Le Mans,La Roche-sur-Yon,Le Mans,1,medium,compound_name,
+8499,Me rendre à Grenoble depuis Boulogne-sur-Mer,Boulogne-sur-Mer,Grenoble,1,medium,compound_name,
+8316,itineraire de angers a grenoble,Angers,Grenoble,1,easy,no_capitals,
+6429,Combien d'heures minimum entre Le Havre et Lille,Le Havre,Lille,1,hard,complex_question,
+7038,Dijon Le Havre ce week-end,Dijon,Le Havre,1,medium,no_markers,
+3545,De Nîmes à Lille en train,Nîmes,Lille,1,easy,standard,
+2313,Perpignan Brest samedi,Perpignan,Brest,1,medium,no_markers,
+5621,À quelle heure part le premier train de Nice pour Limoges,Nice,Limoges,1,medium,standard,
+3097,Il reste des places de Angers à Annecy,Angers,Annecy,1,medium,standard,
+8999,En partant de Perpignan vers Nantes,Perpignan,Nantes,1,easy,standard,
+494,partir a nice de rennes,Rennes,Nice,1,easy,no_capitals,
+1482,Toulon Paris aujourd'hui,Toulon,Paris,1,easy,no_markers,
+8071,Strasbourg Aix-en-Provence première classe,Strasbourg,Aix-en-Provence,1,medium,no_markers,
+1538,un biye de lyhon a nîmmes,Lyon,Nîmes,1,hard,misspelling,spelling errors
+9509,comant partir de tourz a aix-en-provenc,Tours,Aix-en-Provence,1,hard,misspelling,spelling errors
+9179,voyage voyage voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+354,Je veux aller à Rennes ?,,,0,easy,incomplete_origin,missing origin
+1180,Situé à Toulouse,,,0,easy,incomplete_dest,missing destination
+1997,Clermont-Ferrand Marseille merci beaucoup,Clermont-Ferrand,Marseille,1,easy,no_markers,
+4233,Je me rends à Strasbourg,,,0,easy,incomplete_origin,missing origin
+2574,Soit Lyon soit Rennes,,,0,medium,ambiguous,contradictions
+3021,coment aller de nîmmes ver grrenoble,Nîmes,Grenoble,1,hard,misspelling,spelling errors
+5870,Me rendre à Bordeaux de Tours,Tours,Bordeaux,1,easy,standard,
+2761,Aller simple de Marseille vers Clermont-Ferrand,Marseille,Clermont-Ferrand,1,easy,standard,
+8682,pisevy taf batesynu dyvy,,,0,easy,garbage,random text
+4681,Trajet en train de Clermont-Ferrand à Lyon,Clermont-Ferrand,Lyon,1,easy,standard,
+2370,Je souhaite partir de Saint-Étienne vers Brest,Saint-Étienne,Brest,1,easy,standard,
+2193,Voyage depuis Paris vers Bordeaux,Paris,Bordeaux,1,easy,standard,
+6284,De Lille,,,0,easy,incomplete_dest,missing destination
+8359,comen aller de marseile ver limoge,Marseille,Limoges,1,hard,misspelling,spelling errors
+4405,Rejoindre Reims depuis Villeurbanne comment faire,Villeurbanne,Reims,1,medium,inverted_order,
+2475,Hésitation entre Nantes et Toulouse,,,0,medium,ambiguous,contradictions
+4160,La mer est belle ?,,,0,easy,no_intent,off_topic
+2276,je souhet me rendre a tooulon depuis saint-étienne,Saint-Étienne,Toulon,1,hard,misspelling,spelling errors
+9508,Rejoindre Amiens au départ de Tours,Tours,Amiens,1,medium,inverted_order,
+112,Je prends le train de Metz à Paris,Metz,Paris,1,easy,standard,
+7262,Pour voyager de Strasbourg à Bordeaux,Strasbourg,Bordeaux,1,easy,standard,
+3654,Billet Nantes Nice Lille,,,0,medium,ambiguous,too many cities
+654,À quelle heure je peux partir de Marseille pour Metz,Marseille,Metz,1,medium,standard,
+5848,Pour aller de Strasbourg à Lyon,Strasbourg,Lyon,1,easy,standard,
+4063,"florence, paris et moi partons de le mans pour perpignan",Le Mans,Perpignan,1,hard,name_ambiguity,multiple name distractors
+4901,trajet en train de rennes a nantes,Rennes,Nantes,1,easy,no_capitals,
+4314,Trajet Brest Aix-en-Provence,Brest,Aix-en-Provence,1,medium,compound_name,
+3464,super cool,,,0,easy,no_intent,random_statements
+428,je veu partir de le haavre ver montpellié,Le Havre,Montpellier,1,hard,misspelling,spelling errors
+603,"Rémy, Lourdes et moi partons de Aix-en-Provence pour Villeurbanne",Aix-en-Provence,Villeurbanne,1,hard,name_ambiguity,multiple name distractors
+6180,Voyage depuis Amiens vers Angers,Amiens,Angers,1,easy,standard,
+4075,Quand part le prochain train de Villeurbanne vers Lille,Villeurbanne,Lille,1,medium,standard,
+1870,depart de nîmes destination saint-étienne,Nîmes,Saint-Étienne,1,easy,no_capitals,
+6762,je doi ale de grenobl a le havrre,Grenoble,Le Havre,1,hard,misspelling,spelling errors
+6169,Un billet Bordeaux Annecy,Bordeaux,Annecy,1,easy,no_markers,
+4953,trin nîme grenobl,Nîmes,Grenoble,1,hard,misspelling,spelling errors
+117,coment aller de nicce a grenoblle,Nice,Grenoble,1,hard,misspelling,spelling errors
+9487,Annecy Toulouse en urgence,Annecy,Toulouse,1,medium,no_markers,
+5678,Billet Toulouse Marseille Bordeaux,,,0,medium,ambiguous,too many cities
+8042,trajet de perpignan vers saint-étienne,Perpignan,Saint-Étienne,1,easy,no_capitals,
+2638,on rejoint Clément et Rémy a Lyon depuis Limoges,Limoges,Lyon,1,hard,name_ambiguity,multiple name distractors
+843,Place Lille Marseille,Lille,Marseille,1,easy,no_markers,
+1792,Combien coûte un billet,,,0,easy,incomplete_grammar,grammatically incomplete
+2451,Lourdes et Rémy sont a Toulon je pars de Amiens,Amiens,Toulon,1,hard,name_ambiguity,multiple name distractors
+9245,!!! Marseille 123,,,0,easy,garbage,incoherent mix
+5303,pour voyager de reims a perpignan,Reims,Perpignan,1,easy,no_capitals,
+3674,je dois aller à paris,,,0,easy,incomplete_origin,missing origin
+8525,Comen partir de Nise a Reiims,Nice,Reims,1,hard,misspelling,spelling errors
+4061,begita nikizaceqo soticole,,,0,easy,garbage,random text
+4832,"rémy, lourdes et moi voulons aller de angers a nice",Angers,Nice,1,hard,name_ambiguity,multiple name distractors
+6916,Grenoble Toulouse aujourd'hui,Grenoble,Toulouse,1,easy,no_markers,
+5202,Je quitte Le Havre,,,0,easy,incomplete_dest,missing destination
+8793,Pouvez-vous me donner les horaires de Dijon à Villeurbanne,Dijon,Villeurbanne,1,easy,standard,
+5489,Commen me rendre de Touluse a Limooges,Toulouse,Limoges,1,hard,misspelling,spelling errors
+450,Je peux réserver un billet de Lyon à Lille,Lyon,Lille,1,medium,standard,
+1498,Je dois aller de Rennes à Saint-Étienne,Rennes,Saint-Étienne,1,medium,compound_name,
+7702,Billet Bordeaux Annecy pour 3 personnes,Bordeaux,Annecy,1,medium,additional_info,
+3255,faut que jaille de marseille a paris,Marseille,Paris,1,easy,no_capitals,
+8638,Vous vous appelez comment !,,,0,easy,no_intent,general_questions
+5865,aller de clermont-ferrand a brest,Clermont-Ferrand,Brest,1,easy,no_capitals,
+5101,Je veux aller de Lyon à Nantes,Lyon,Nantes,1,easy,standard,
+2927,Pour me rendre de Strasbourg à Dijon,Strasbourg,Dijon,1,easy,standard,
+5215,Ravi de vous rencontrer ?,,,0,easy,no_intent,greetings
+3813,je voudré un billet de perpigna a paris,Perpignan,Paris,1,hard,misspelling,spelling errors
+1831,en provenance de le havre,,,0,easy,incomplete_dest,missing destination
+331,je doi me rendre de anger a lyhon,Angers,Lyon,1,hard,misspelling,spelling errors
+3,le train c'est mieux que l'avion ?,,,0,easy,no_intent,train_discussion
+6943,je souhet aller de paris a annecy,Paris,Annecy,1,hard,misspelling,spelling errors
+7073,horloge orange lampe nougat jardin,,,0,easy,garbage,nonsense words
+2693,Quel est le train le plus confortable de Angers à Lyon,Angers,Lyon,1,hard,complex_question,
+7987,commen me rendr a anneccy depuis brrest,Brest,Annecy,1,hard,misspelling,spelling errors
+328,je souhaite partir de paris vers toulouse,Paris,Toulouse,1,easy,no_capitals,
+8050,Est-ce qu'il y a des trains de Limoges vers Brest,Limoges,Brest,1,medium,standard,
+9114,un bilet de trein de lille a strazburg,Lille,Strasbourg,1,hard,misspelling,spelling errors
+4660,Billet Metz Saint-Étienne avec animal,Metz,Saint-Étienne,1,medium,additional_info,
+526,Train Grenoble Clermont-Ferrand en soirée,Grenoble,Clermont-Ferrand,1,medium,additional_info,
+9674,Albert et Paris veulent aller de Marseille à Clermont-Ferrand,Marseille,Clermont-Ferrand,1,hard,name_ambiguity,multiple name distractors
+1167,Je veux aller à Toulouse non à Rennes,,,0,medium,ambiguous,contradictions
+6193,requin vague crayon jardin nougat,,,0,easy,garbage,nonsense words
+2712,je ve partir de reims a perpignan,Reims,Perpignan,1,hard,misspelling,spelling errors
+5830,voyage voyage voyage voyage voyage voyage voyage voyage,,,0,easy,garbage,repetitions
+4175,Pour arriver à Tours je pars d'où si je suis à Montpellier,Montpellier,Tours,1,medium,inverted_order,
+4158,jai besoin daller de toulouse a paris,Toulouse,Paris,1,easy,no_capitals,
+5481,je pars avec Lourdes et Paris de Amiens vers Strasbourg,Amiens,Strasbourg,1,hard,name_ambiguity,multiple name distractors
+3791,Je souhaite me rendre à Lyon,,,0,easy,incomplete_origin,missing origin
+4934,Départ Metz arrivée Saint-Étienne,Metz,Saint-Étienne,1,medium,compound_name,
+592,"Moi, Lourdes et Albert voulons rejoindre Tours depuis Villeurbanne",Villeurbanne,Tours,1,hard,name_ambiguity,multiple name distractors
+8576,je pars pour lille ?,,,0,easy,incomplete_origin,missing origin
+1509,traje en trin de marseiye a tolouse,Marseille,Toulouse,1,hard,misspelling,spelling errors
+3706,En direction de Toulouse,,,0,easy,incomplete_origin,missing origin
+9413,Je vais vers Toulon depuis Reims,Reims,Toulon,1,medium,inverted_order,
+5985,Rejoindre Dijon depuis Annecy,Annecy,Dijon,1,easy,standard,
+8712,Train de Bourg-en-Bresse à Nîmes,Bourg-en-Bresse,Nîmes,1,medium,compound_name,
+1951,j'ai raté mon train,,,0,easy,no_intent,train_discussion
+4037,"Lourdes, Paris et moi devons aller de Metz à Paris",Metz,Paris,1,hard,name_ambiguity,multiple name distractors
+8788,Au départ de Le Mans pour Brest,Le Mans,Brest,1,easy,standard,
+6335,Y a-t-il des trains directs de Aix-en-Provence à Rennes,Aix-en-Provence,Rennes,1,medium,standard,
+2965,Je dois aller de Salon de Provence à Amiens,Salon-de-Provence,Amiens,1,medium,compound_name,compound name no hyphen
+7173,Marseille Metz plein tarif,Marseille,Metz,1,medium,no_markers,
+7300,framboise framboise horloge,,,0,easy,garbage,nonsense words
+8874,"Moi, Florence et Lourdes voulons rejoindre Lille depuis Toulon",Toulon,Lille,1,hard,name_ambiguity,multiple name distractors
+2709,Trin de toulon a Limmoges,Toulon,Limoges,1,hard,misspelling,spelling errors
+8429,Je peux réserver un billet de Annecy à Lille,Annecy,Lille,1,medium,standard,
+9937,Peut-être ?,,,0,easy,no_intent,random_statements
+5741,un tiket de train de lyo a bresst,Lyon,Brest,1,hard,misspelling,spelling errors
+7432,je souhet partir de metz a nîmmes,Metz,Nîmes,1,hard,misspelling,spelling errors
+9194,Commen aler de Clermont-Ferran a Limoge,Clermont-Ferrand,Limoges,1,hard,misspelling,spelling errors
+3435,Aller chercher un billet de Amiens à Clermont-Ferrand,Amiens,Clermont-Ferrand,1,easy,standard,
+3751,Direction Le Havre ?,,,0,easy,incomplete_origin,missing origin
+616,Train pour Nice Toulouse et Nantes,,,0,medium,ambiguous,too many cities
+5002,Je vais de Nantes à Toulouse à Montpellier,,,0,medium,ambiguous,too many cities
+7421,reservation de nîmes a angers,Nîmes,Angers,1,easy,no_capitals,
+7323,baleine lampe cactus lampe,,,0,easy,garbage,nonsense words
+1837,origine rennes destination angers,Rennes,Angers,1,easy,no_capitals,
+8058,Je vais à Nice ou Lille,,,0,medium,ambiguous,contradictions
+674,Aller vers Nîmes depuis Bordeaux,Bordeaux,Nîmes,1,easy,standard,
+9080,Un biye de trin de Metz a Bresst,Metz,Brest,1,hard,misspelling,spelling errors
+3673,aller de angers a perpignan,Angers,Perpignan,1,easy,no_capitals,
+8266,Train Paris Paris,,,0,medium,ambiguous,origin equals destination
+9188,Bilet de Limoge ver Metz,Limoges,Metz,1,hard,misspelling,spelling errors
+8895,Je me rends à Rennes,,,0,easy,incomplete_origin,missing origin
+6005,Comment aller de Lille à Montpellier à Toulouse,,,0,medium,ambiguous,too many cities
+8678,Y a-t-il des trains directs entre Paris et Brest,Paris,Brest,1,hard,complex_question,
+8162,Aller en train de Nantes à Angers,Nantes,Angers,1,easy,standard,
+9767,papillon guitare escalier,,,0,easy,garbage,nonsense words
+334,Je souhet aller de Dijo a metz,Dijon,Metz,1,hard,misspelling,spelling errors
+3106,Réservation Grenoble Villeurbanne groupe de 5,Grenoble,Villeurbanne,1,medium,additional_info,
+2115,Un voyage de Metz à Lyon,Metz,Lyon,1,easy,standard,
+286,Je me trouve à Montpellier,,,0,easy,incomplete_dest,missing destination
+9983,fafikuvux siqoxy patam dagimisev,,,0,easy,garbage,random text
+3935,Transport de Clermont-Ferrand à Toulouse,Clermont-Ferrand,Toulouse,1,easy,standard,
+3116,bilet simple clermont-ferrannd toulo,Clermont-Ferrand,Toulon,1,hard,misspelling,spelling errors
+5602,Réservation de Nantes à Annecy,Nantes,Annecy,1,easy,standard,
+5886,Faut-il réserver à l'avance pour Grenoble Nantes,Grenoble,Nantes,1,hard,complex_question,
+8885,je souhaite partir de toulon vers lyon,Toulon,Lyon,1,easy,no_capitals,
+4423,Billet Montpellier Lyon pour 3 personnes,Montpellier,Lyon,1,medium,additional_info,
+4431,origine saint-étienne destination toulouse,Saint-Étienne,Toulouse,1,easy,no_capitals,
+2922,tout va bien,,,0,easy,no_intent,random_statements
+6252,Me rendre à Tours de Angers,Angers,Tours,1,easy,standard,
+6224,Est-ce qu'il faut changer de train entre Dijon et Marseille,Dijon,Marseille,1,hard,complex_question,
+3026,Voyage vers Limoges départ Paris,Paris,Limoges,1,medium,inverted_order,
+8955,tusetuwi hidiboce kykyji,,,0,easy,garbage,random text
+3666,Place Paris Nîmes,Paris,Nîmes,1,easy,no_markers,
+1165,Faut combien de temps pour aller de Limoges à Villeurbanne,Limoges,Villeurbanne,1,medium,standard,
+2471,Un voyage de Toulouse à Tours,Toulouse,Tours,1,easy,standard,
+4511,un bilet pour diijon toulon,Dijon,Toulon,1,hard,misspelling,spelling errors
+4613,quel jour sommes-nous,,,0,easy,no_intent,general_questions
+6553,Bilet Dijo Le Man,Dijon,Le Mans,1,hard,misspelling,spelling errors
+7713,je veux aller à grenoble ?,,,0,easy,incomplete_origin,missing origin
+2681,Je voudrais voyager de Grenoble à Perpignan,Grenoble,Perpignan,1,easy,standard,
+1411,avec Albert et Paris on part de Le Mans vers Toulon,Le Mans,Toulon,1,hard,name_ambiguity,multiple name distractors
+9290,depart amiens arrivee paris,Amiens,Paris,1,easy,no_capitals,
+1403,Je dois partir de Toulouse à Strasbourg,Toulouse,Strasbourg,1,easy,standard,
+1373,Départ Perpignan arrivée Le Havre,Perpignan,Le Havre,1,easy,standard,
+7385,Nantes Nice samedi,Nantes,Nice,1,medium,no_markers,
+2687,bonne journée,,,0,easy,no_intent,greetings
+4121,Train svp Le Havre Paris,Le Havre,Paris,1,easy,no_markers,
+4839,De Bordeaux,,,0,easy,incomplete_dest,missing destination
+807,Je pars de Perpignan pour Aix-les-Bains,Perpignan,Aix-les-Bains,1,medium,compound_name,
+7649,Arrivée Toulouse départ Tours,Tours,Toulouse,1,medium,inverted_order,
+5192,situé à nantes ?,,,0,easy,incomplete_dest,missing destination
+914,j'adore danser,,,0,easy,no_intent,off_topic
+3954,valise papillon parapluie requin,,,0,easy,garbage,nonsense words
+1460,À quelle heure y a-t-il des trains de Limoges à Grenoble,Limoges,Grenoble,1,medium,standard,
+5450,Route de Montpellier vers Aix-en-Provence,Montpellier,Aix-en-Provence,1,medium,compound_name,
+8456,Rémy et Albert sont a Perpignan je pars de Aix-en-Provence,Aix-en-Provence,Perpignan,1,hard,name_ambiguity,multiple name distractors
+3156,mon train est annulé ?,,,0,easy,no_intent,train_discussion
+797,Billet Angers Tours pour ce week-end,Angers,Tours,1,medium,additional_info,
+1524,Reims Bordeaux pour affaires,Reims,Bordeaux,1,medium,no_markers,
+9927,Me rendre à Limoges depuis Aix en Provence,Aix-en-Provence,Limoges,1,medium,compound_name,compound name no hyphen
+5546,Y a-t-il des trains de nuit de Angers à Marseille,Angers,Marseille,1,hard,complex_question,
+2968,Train pour Toulouse Rennes et Bordeaux,,,0,medium,ambiguous,too many cities
+8790,Réservation de Port Boulet à Le Havre,Port-Boulet,Le Havre,1,medium,compound_name,compound name no hyphen
+9164,Arrivée Clermont-Ferrand départ Nice,Nice,Clermont-Ferrand,1,medium,inverted_order,
+5414,Y a-t-il des promotions pour Le Mans Lyon,Le Mans,Lyon,1,hard,complex_question,
+7353,Les trains de Strasbourg à Angers sont à quelle heure,Strasbourg,Angers,1,medium,standard,
+1545,coment aller de villeurbanne a marceille,Villeurbanne,Marseille,1,hard,misspelling,spelling errors
+315,Je dois rejoindre Lourdes et Paris à Villeurbanne depuis Le Mans,Le Mans,Villeurbanne,1,hard,name_ambiguity,multiple name distractors
+7005,aller à angers voir rémy et lourdes depuis tours,Tours,Angers,1,hard,name_ambiguity,multiple name distractors
+6236,prendre le train de reims a nîmes,Reims,Nîmes,1,easy,no_capitals,
+8157,Perpignan Metz pour affaires,Perpignan,Metz,1,medium,no_markers,
+2758,Je veux partir de Le Mans vers Strasbourg après-demain,Le Mans,Strasbourg,1,medium,additional_info,
+5359,un train pour le havre,,,0,easy,incomplete_origin,missing origin
+4753,Arriver à Tours depuis Bordeaux,Bordeaux,Tours,1,medium,inverted_order,
+1760,Je veux visiter Toulouse Paris Lyon,,,0,medium,ambiguous,too many cities
+958,^^&& $$%%,,,0,easy,garbage,special characters
+448,je dois rejoindre lourdes et paris à tours depuis reims,Reims,Tours,1,hard,name_ambiguity,multiple name distractors
+7163,Je veux visiter Nantes Toulouse Montpellier,,,0,medium,ambiguous,too many cities
+8298,je cherche un train de bordeaux a amiens,Bordeaux,Amiens,1,easy,no_capitals,
+5561,Toulouse Paris vendredi soir,Toulouse,Paris,1,medium,no_markers,
+9062,Je veu me rendr a Le Havr de Toure,Tours,Le Havre,1,hard,misspelling,spelling errors
+1907,En provenance de Toulouse,,,0,easy,incomplete_dest,missing destination
+9030,Il me faudrait un titre de transport de Lyon à Le Mans,Lyon,Le Mans,1,easy,standard,
+8796,je prends un billet de saint-étienne a clermont-ferrand,Saint-Étienne,Clermont-Ferrand,1,easy,no_capitals,
+611,Le billet de Marseille à Paris coûte combien,Marseille,Paris,1,easy,standard,
+1502,je souhet me rendre a marseile depuis bres,Brest,Marseille,1,hard,misspelling,spelling errors
+8931,Comman se rendre de Metz a Bord,Metz,Bordeaux,1,hard,misspelling,spelling errors
+8783,"albert, paris et moi voulons aller de perpignan a limoges",Perpignan,Limoges,1,hard,name_ambiguity,multiple name distractors
+3772,fegonebiq sinixy,,,0,easy,garbage,random text
+4669,Billet Nantes Montpellier Bordeaux,,,0,medium,ambiguous,too many cities
+120,Vous avez des trains de Angers vers Nantes,Angers,Nantes,1,medium,standard,
+1201,bonjour,,,0,easy,no_intent,greetings
+3871,Comment aller de Tours à Strasbourg,Tours,Strasbourg,1,easy,standard,
+2781,Voyage de Grenoble à Lille,Grenoble,Lille,1,easy,standard,
+452,Quelle est la fréquence des trains de Montpellier à Le Mans,Montpellier,Le Mans,1,hard,complex_question,
+4785,Un voyage de Grenoble à Perpignan,Grenoble,Perpignan,1,easy,standard,
+2172,Peut-on avoir un train direct de Strasbourg vers Perpignan,Strasbourg,Perpignan,1,hard,complex_question,
+1898,Route pour Paris,,,0,easy,incomplete_origin,missing origin
+3541,Un train pour Montpellier,,,0,easy,incomplete_origin,missing origin
+6108,Pour aller de Salon de Provence vers Limoges,Salon-de-Provence,Limoges,1,medium,compound_name,compound name no hyphen
+3540,Angers Nantes merci,Angers,Nantes,1,easy,no_markers,
+8587,Le train le plus économique de Amiens vers Le Mans,Amiens,Le Mans,1,hard,complex_question,
+9953,un biye de le mmans a dijjon,Le Mans,Dijon,1,hard,misspelling,spelling errors
+755,miroir orange vague,,,0,easy,garbage,nonsense words
+5711,je veux ale de raines a saaint-étienne,Rennes,Saint-Étienne,1,hard,misspelling,spelling errors
+8093,Cap sur Villeurbanne depuis Metz,Metz,Villeurbanne,1,medium,inverted_order,
+5496,mon trajet est de toulon a aix-en-provence,Toulon,Aix-en-Provence,1,easy,no_capitals,
+4004,Un billet Paris Toulouse pour 2 adultes,Paris,Toulouse,1,medium,additional_info,
+2341,Vous avez des trains de Angers vers Marseille,Angers,Marseille,1,medium,standard,
+5435,Ticket Le Havre Marseille,Le Havre,Marseille,1,easy,no_markers,
+2773,Combien de temps d'avance faut-il pour Lyon Grenoble,Lyon,Grenoble,1,hard,complex_question,
+8522,Réservation de Brest à Châlons en Champagne,Brest,Châlons-en-Champagne,1,medium,compound_name,compound name no hyphen
+8245,depuis toulouse jusqua rennes,Toulouse,Rennes,1,easy,no_capitals,
+5612,Je vais à Strasbourg ?,,,0,easy,incomplete_origin,missing origin
+5221,Y a-t-il des services à bord pour Dijon Aix-en-Provence,Dijon,Aix-en-Provence,1,hard,complex_question,
+6049,De Paris à Montpellier ou peut-être Rennes,,,0,medium,ambiguous,contradictions
+3218,Pour me rendre de Boulogne-sur-Mer à Rennes,Boulogne-sur-Mer,Rennes,1,medium,compound_name,
+2201,retrouver mes amis Lourdes et Rémy a Lille depuis Tours,Tours,Lille,1,hard,name_ambiguity,multiple name distractors
+1819,À destination de Le Mans depuis Paris,Paris,Le Mans,1,medium,inverted_order,
+4950,Billet Aix-en-Provence Lille pour fin de semaine,Aix-en-Provence,Lille,1,medium,additional_info,
+5167,Se rendre à Nice depuis Nantes,Nantes,Nice,1,medium,inverted_order,
+8886,Metz Rennes direct,Metz,Rennes,1,easy,no_markers,
+1810,un billet tours annecy sil vous plait,Tours,Annecy,1,easy,no_capitals,
+8228,Je souhaite me rendre à Châlons-en-Champagne en partant de Marseille,Marseille,Châlons-en-Champagne,1,medium,compound_name,
+4672,gyfurusyna waboxusa wijajo mezol,,,0,easy,garbage,random text
+5897,Trajet vers Rennes,,,0,easy,incomplete_origin,missing origin
+9434,mon ami florence et moi allons de grenoble à montpellier,Grenoble,Montpellier,1,hard,name_ambiguity,multiple name distractors
+7582,Je souhaite aller à Le Havre depuis Bordeaux,Bordeaux,Le Havre,1,medium,inverted_order,
+5370,Je cherche un train de Nantes à Nîmes,Nantes,Nîmes,1,easy,standard,
+442,Je souhet partir de villeurbanne a Toulouze,Villeurbanne,Toulouse,1,hard,misspelling,spelling errors
+8903,je voudrais voyager de villeurbanne a metz,Villeurbanne,Metz,1,easy,no_capitals,
+3095,Villeurbanne Brest ce soir,Villeurbanne,Brest,1,easy,no_markers,
+7764,À demain ?,,,0,easy,no_intent,greetings
+6123,De Marseille vers Boulogne-sur-Mer,Marseille,Boulogne-sur-Mer,1,medium,compound_name,
+3842,le train de brest a aix-en-provence,Brest,Aix-en-Provence,1,easy,no_capitals,
+9056,Je voudrais aller à Toulouse,,,0,easy,incomplete_origin,missing origin
+1706,Je voyage avec Florence et Rémy de Dijon vers Le Havre,Dijon,Le Havre,1,hard,name_ambiguity,multiple name distractors
+4916,un voyage de perpignan a grenoble,Perpignan,Grenoble,1,easy,no_capitals,
+3530,Train de Bourg en Bresse à Reims,Bourg-en-Bresse,Reims,1,medium,compound_name,compound name no hyphen
+7379,vague tambour orange requin tambour papillon cactus requin,,,0,easy,garbage,nonsense words
+4713,il me faut un billet de marseille a nîmes,Marseille,Nîmes,1,easy,no_capitals,
+5051,un train de toulouse a villeurbanne,Toulouse,Villeurbanne,1,easy,no_capitals,
+1676,depart strasbourg arrivee marseille,Strasbourg,Marseille,1,easy,no_capitals,
+6437,Train pour Toulouse Nantes et Lyon,,,0,medium,ambiguous,too many cities
+4635,Peut-on avoir un train direct de Toulouse vers Nantes,Toulouse,Nantes,1,hard,complex_question,
+8643,un bilet de trin de nisse a annnecy,Nice,Annecy,1,hard,misspelling,spelling errors
+3000,Partir pour Montpellier depuis Rennes,Rennes,Montpellier,1,medium,inverted_order,
+89,Un billet Strasbourg Montpellier s'il vous plaît,Strasbourg,Montpellier,1,easy,standard,
+3562,De Montpellier pour aller à Saint-Étienne,Montpellier,Saint-Étienne,1,easy,standard,
+756,Je voudrais voyager de Marseille à Villeurbanne,Marseille,Villeurbanne,1,easy,standard,
+5351,"Lourdes, Albert et moi partons de Grenoble pour Rennes",Grenoble,Rennes,1,hard,name_ambiguity,multiple name distractors
+7391,je dois voir Clément et Paris a Toulouse en partant de Paris,Paris,Toulouse,1,hard,name_ambiguity,multiple name distractors
+5597,avec Rémy et Clément on part de Reims vers Tours,Reims,Tours,1,hard,name_ambiguity,multiple name distractors
+2739,Aix-en-Provence Perpignan pour demain,Aix-en-Provence,Perpignan,1,easy,no_markers,
+5212,Je vais à Rennes ou Bordeaux,,,0,medium,ambiguous,contradictions
+9041,Train pour Lyon Toulouse et Paris,,,0,medium,ambiguous,too many cities
+9270,Je désire aller de Bordeaux à Reims,Bordeaux,Reims,1,easy,standard,
+8802,bien sûr ?,,,0,easy,no_intent,random_statements
+6713,un trin de toulouse a anger,Toulouse,Angers,1,hard,misspelling,spelling errors
+9043,Montpellier Bordeaux simple,Montpellier,Bordeaux,1,easy,no_markers,
+5530,Pourriez-vous me réserver un billet de Metz à Clermont-Ferrand,Metz,Clermont-Ferrand,1,easy,standard,
+7069,Je vais à Bordeaux ou Nantes,,,0,medium,ambiguous,contradictions
+239,je doi ale de le mans a perppignan,Le Mans,Perpignan,1,hard,misspelling,spelling errors
+5418,je voudrais aller à bordeaux,,,0,easy,incomplete_origin,missing origin
+8435,Voyage Reims Bordeaux,Reims,Bordeaux,1,easy,no_markers,
+5693,Je me suis trompé Nantes pas Rennes,,,0,medium,ambiguous,conflicting information
+9078,à nantes,,,0,easy,incomplete_origin,missing origin
+545,L'itinéraire vers Grenoble au départ de Reims,Reims,Grenoble,1,medium,inverted_order,
+5570,Réservation Le Havre Saint-Étienne pour le mois prochain,Le Havre,Saint-Étienne,1,medium,additional_info,
+808,Toulon Le Mans en urgence,Toulon,Le Mans,1,medium,no_markers,
+3865,Je dois aller à Strasbourg ?,,,0,easy,incomplete_origin,missing origin
+4363,Je voudrais aller à Lyon ?,,,0,easy,incomplete_origin,missing origin
+5220,Trin Marseile le mans,Marseille,Le Mans,1,hard,misspelling,spelling errors
+2002,Je voudrais me rendre à Reims en partant de Lyon,Lyon,Reims,1,medium,inverted_order,
+9556,Reims Paris aller simple,Reims,Paris,1,easy,no_markers,
+2715,Je dois voir Paris et Florence à Strasbourg en partant de Lille,Lille,Strasbourg,1,hard,name_ambiguity,multiple name distractors
+9988,Il me faudrait un titre de transport de Aix-en-Provence à Limoges,Aix-en-Provence,Limoges,1,easy,standard,
+2612,Y a-t-il beaucoup de monde sur Montpellier Limoges,Montpellier,Limoges,1,hard,complex_question,
+2013,commen me rendr a annecy depuis anngers,Angers,Annecy,1,hard,misspelling,spelling errors
+251,cap sur le havre,,,0,easy,incomplete_origin,missing origin
+854,comen se rendre de nîmees a amienns,Nîmes,Amiens,1,hard,misspelling,spelling errors
+4712,À quelle heure y a-t-il des trains de Toulouse à Brest,Toulouse,Brest,1,medium,standard,
+116,Un aller de Tours à Villeurbanne merci,Tours,Villeurbanne,1,easy,standard,
+4291,Billet Rennes Reims carte de réduction,Rennes,Reims,1,medium,additional_info,
+3821,je voudrai un biet de le havre a perpignan,Le Havre,Perpignan,1,hard,misspelling,spelling errors
+1847,Billet Lyon Rennes pour ce week-end,Lyon,Rennes,1,medium,additional_info,
+201,Je ne sais pas ?,,,0,easy,no_intent,random_statements
+2698,Je veux aller à Reims en partant de Toulon,Toulon,Reims,1,medium,inverted_order,
+5285,Aller simple de Lille vers Clermont-Ferrand,Lille,Clermont-Ferrand,1,easy,standard,
+1134,Marseille voyage 789 $$%%,,,0,easy,garbage,incoherent mix
+5901,rejoindre Rémy a Rennes depuis Perpignan,Perpignan,Rennes,1,hard,name_ambiguity,multiple name distractors
+7269,Le train le plus économique de Le Mans vers Nantes,Le Mans,Nantes,1,hard,complex_question,
+1475,je vais au cinéma ?,,,0,easy,no_intent,off_topic
+2672,Comment aller de Marseille à Marseille,,,0,medium,ambiguous,origin equals destination
+4420,le billet de le mans a metz coute combien,Le Mans,Metz,1,easy,no_capitals,
+1441,retrouver Clément a Clermont-Ferrand depuis Limoges,Limoges,Clermont-Ferrand,1,hard,name_ambiguity,multiple name distractors
+9155,Quelle est la durée du trajet de Grenoble à Annecy,Grenoble,Annecy,1,medium,standard,
+9632,Le train de Bordeaux à Rennes,Bordeaux,Rennes,1,easy,standard,
+1953,Un biye de tours ver le havre,Tours,Le Havre,1,hard,misspelling,spelling errors
+99,Faut combien de temps pour aller de Lyon à Lille,Lyon,Lille,1,medium,standard,
+1627,départ nantes,,,0,easy,incomplete_dest,missing destination
+6897,lejymuxeme xogusomyby megigyr,,,0,easy,garbage,random text
+1472,Je peux réserver un billet de Perpignan à Strasbourg,Perpignan,Strasbourg,1,medium,standard,
+9421,Lyon Toulouse pour le travail,Lyon,Toulouse,1,medium,no_markers,
+5715,Atteindre Toulon en partant de Brest,Brest,Toulon,1,medium,inverted_order,
+1400,Origine Annecy destination Saint-Étienne,Annecy,Saint-Étienne,1,easy,standard,
+7824,il y avait du monde dans le train,,,0,easy,no_intent,train_discussion
+9610,Billet Aix-en-Provence Nice pour 3 voyageurs,Aix-en-Provence,Nice,1,medium,additional_info,
+1947,Me déplacer vers Saint-Étienne depuis Nice,Nice,Saint-Étienne,1,medium,inverted_order,
+2872,Les locomotives sont puissantes ?,,,0,easy,no_intent,train_discussion
+9271,Pour aller vers Perpignan depuis Lille,Lille,Perpignan,1,medium,inverted_order,
+5588,Je voudrais voyager de Perpignan à Annecy,Perpignan,Annecy,1,easy,standard,
+4183,Je voudrais me rendre à Clermont-Ferrand en partant de Lyon,Lyon,Clermont-Ferrand,1,medium,inverted_order,
+4191,Quel est le meilleur tarif pour Villeurbanne Toulon,Villeurbanne,Toulon,1,hard,complex_question,
+8443,Quelle chaleur,,,0,easy,no_intent,off_topic
+1338,je veu me rendr de touluse a brest,Toulouse,Brest,1,hard,misspelling,spelling errors
+724,Je voudrais aller à Reims,,,0,easy,incomplete_origin,missing origin
+9731,À quelle heure part le premier train de Brest pour Lyon,Brest,Lyon,1,hard,complex_question,
+4364,je veu aler de amiens a nise,Amiens,Nice,1,hard,misspelling,spelling errors
+1946,Je veu aler de le havre a Touloon,Le Havre,Toulon,1,hard,misspelling,spelling errors
+5261,Basé à Toulon ?,,,0,easy,incomplete_dest,missing destination
+4412,Voyager vers Aix-en-Provence depuis Marseille,Marseille,Aix-en-Provence,1,medium,inverted_order,
+1310,Billet Toulouse Lyon pour voyage scolaire,Toulouse,Lyon,1,medium,additional_info,
+2774,Ticket Nantes Annecy,Nantes,Annecy,1,easy,no_markers,
+7899,Je veux aller de Aix-en-Provence à Le Havre,Aix-en-Provence,Le Havre,1,medium,compound_name,
+5780,Y a-t-il un train de Villeurbanne vers Montpellier,Villeurbanne,Montpellier,1,easy,standard,
+1255,Je souhaite me rendre à Paris,,,0,easy,incomplete_origin,missing origin
+2794,je dois voir Paris et Albert a Saint-Étienne en partant de Clermont-Ferrand,Clermont-Ferrand,Saint-Étienne,1,hard,name_ambiguity,multiple name distractors
+2782,La montagne c'est beau,,,0,easy,no_intent,off_topic
+3194,Pour rejoindre Lille depuis Angers,Angers,Lille,1,medium,inverted_order,
+477,Pour aller à Aix les Bains depuis Perpignan,Perpignan,Aix-les-Bains,1,medium,compound_name,compound name no hyphen
+172,Venant de Paris,,,0,easy,incomplete_dest,missing destination
+9822,Je pars avec Florence et Clément de Toulouse vers Bordeaux,Toulouse,Bordeaux,1,hard,name_ambiguity,multiple name distractors
+9647,Un billet Paris Aix-en-Provence,Paris,Aix-en-Provence,1,easy,no_markers,
+3128,on va voir Paris et Albert a Perpignan en partant de Paris,Paris,Perpignan,1,hard,name_ambiguity,multiple name distractors
+8572,De Lille à Rennes puis Toulouse,,,0,medium,ambiguous,too many cities
+9650,basé à reims,,,0,easy,incomplete_dest,missing destination
+1304,Je souhaite me rendre de Monpelier a Amieens,Montpellier,Amiens,1,hard,misspelling,spelling errors
+5049,Je veu partir de Tourz a Nîme,Tours,Nîmes,1,hard,misspelling,spelling errors
+9695,Y a-t-il un train direct de Villeurbanne vers Lille,Villeurbanne,Lille,1,medium,standard,
+1934,Je vais de Montpellier à Rennes à Lille,,,0,medium,ambiguous,too many cities
+6188,Voyage de Saint Étienne à Toulouse,Saint-Étienne,Toulouse,1,medium,compound_name,compound name no hyphen
+9229,mon trajet est de brest a limoges,Brest,Limoges,1,easy,no_capitals,
+132,Aller Saint-Étienne Lille,Saint-Étienne,Lille,1,easy,no_markers,
+4650,Faut-il obligatoirement réserver pour Annecy Bordeaux,Annecy,Bordeaux,1,hard,complex_question,
+7731,Comment rejoindre Annecy depuis Toulon,Toulon,Annecy,1,medium,inverted_order,
+2440,les vacances approchent,,,0,easy,no_intent,off_topic
+7126,zezogehy sarik,,,0,easy,garbage,random text
+3714,De Metz vers Villeurbanne s'il vous plaît,Metz,Villeurbanne,1,easy,standard,
+6213,Comment aller de Clermont-Ferrand à Nice,Clermont-Ferrand,Nice,1,easy,standard,
+4671,comen se rendre de montpellier a grenobl,Montpellier,Grenoble,1,hard,misspelling,spelling errors
+5585,pour lille,,,0,easy,incomplete_origin,missing origin
+2185,Comant aller de Bordeaus ver clermont-ferrand,Bordeaux,Clermont-Ferrand,1,hard,misspelling,spelling errors
+745,Aller de Clermont-Ferrand à Lille,Clermont-Ferrand,Lille,1,easy,standard,
+1449,Billet Grenoble Strasbourg tôt le matin,Grenoble,Strasbourg,1,medium,additional_info,
+5698,Direction Nantes en partant de Nice,Nice,Nantes,1,medium,inverted_order,
+6345,Faut-il prévoir des changements entre Saint-Étienne et Lyon,Saint-Étienne,Lyon,1,hard,complex_question,
+7796,Voyage de Bourg-en-Bresse à Rennes,Bourg-en-Bresse,Rennes,1,medium,compound_name,
+6492,Mon trajet est de Paris à Toulon,Paris,Toulon,1,easy,standard,
+2920,Un biye train nîmes Rene,Nîmes,Rennes,1,hard,misspelling,spelling errors
+1645,Je souhet me rendre a Pari depuis bordeaux,Bordeaux,Paris,1,hard,misspelling,spelling errors
+5638,Je pars pour Brest depuis Strasbourg,Strasbourg,Brest,1,medium,inverted_order,
+4078,au depart de toulouse pour reims,Toulouse,Reims,1,easy,no_capitals,
+8254,guvuh pylipihuw raju nowa,,,0,easy,garbage,random text
+9815,Trajet vers Lyon au départ de Annecy,Annecy,Lyon,1,medium,inverted_order,
+8710,Bilet de trin Toulouze Grennoble,Toulouse,Grenoble,1,hard,misspelling,spelling errors
+5416,comment aller de toulouse a nîmes,Toulouse,Nîmes,1,easy,no_capitals,
+8336,je suis content ?,,,0,easy,no_intent,off_topic
+6190,aller de strasbourg a annecy,Strasbourg,Annecy,1,easy,no_capitals,
+3943,bilet pour trin aix-en-provenc montpellié,Aix-en-Provence,Montpellier,1,hard,misspelling,spelling errors
+4365,en provenance de lille,,,0,easy,incomplete_dest,missing destination
+531,je veu aller de bordeaux ver toulouse,Bordeaux,Toulouse,1,hard,misspelling,spelling errors
+2888,zecy paquryquru hocazitugo,,,0,easy,garbage,random text
+3910,Je voudrais aller de Nice à Montpellier via Rennes et Lyon,,,0,medium,ambiguous,too many cities
+2196,de brest a limoges en train,Brest,Limoges,1,easy,no_capitals,
+7882,trajet en train de amiens a tours,Amiens,Tours,1,easy,no_capitals,
+4114,Mon train préféré est le TGV ?,,,0,easy,no_intent,train_discussion
+4259,Les trains directs existent entre Toulon et Paris,Toulon,Paris,1,hard,complex_question,
+1771,Comment aller de Rennes à Nantes à Paris,,,0,medium,ambiguous,too many cities
+981,je veux partir de montpellier a le mans,Montpellier,Le Mans,1,easy,no_capitals,
+4030,tu aimes la musique ?,,,0,easy,no_intent,general_questions
+5100,Pour rejoindre Angers depuis Nîmes,Nîmes,Angers,1,medium,inverted_order,
+7870,Bordeaux Marseille simple,Bordeaux,Marseille,1,easy,no_markers,
+8725,Billet Metz Aix en Provence,Metz,Aix-en-Provence,1,medium,compound_name,compound name no hyphen
+9248,Je voudrais un billet de Nice à Le Havre pour demain,Nice,Le Havre,1,medium,additional_info,
+2481,De Lyon vers Lyon,,,0,medium,ambiguous,origin equals destination
+3852,cest pour un voyage de brest a rennes,Brest,Rennes,1,easy,no_capitals,
+4271,Reservation trin de Marsei a metz,Marseille,Metz,1,hard,misspelling,spelling errors
+4016,Comment aller de Montpellier à Montpellier,,,0,medium,ambiguous,origin equals destination
+43,besoin dun billet de limoges a clermont-ferrand,Limoges,Clermont-Ferrand,1,easy,no_capitals,
+5085,Rémy et Paris mont dit daller a Toulouse depuis Grenoble,Grenoble,Toulouse,1,hard,name_ambiguity,multiple name distractors
+9390,un biye simpl de aix-een-provence a montpellié,Aix-en-Provence,Montpellier,1,hard,misspelling,spelling errors
+1942,Route vers Strasbourg depuis Angers,Angers,Strasbourg,1,medium,inverted_order,
+9310,Je peux avoir les horaires de Nantes à Montpellier,Nantes,Montpellier,1,medium,standard,
+1116,Je pars de Châlons-en-Champagne pour Marseille,Châlons-en-Champagne,Marseille,1,medium,compound_name,
+1055,Quel est le tarif de Reims à Dijon,Reims,Dijon,1,medium,standard,
+9744,Partir à Grenoble de Angers,Angers,Grenoble,1,easy,standard,
+1564,Rennes Perpignan ce matin,Rennes,Perpignan,1,easy,no_markers,
+6200,Train Lyon Brest avec vélo,Lyon,Brest,1,medium,additional_info,
+6271,Aller à Aix en Provence depuis Brest,Brest,Aix-en-Provence,1,medium,compound_name,compound name no hyphen
+6520,Localisé à Paris,,,0,easy,incomplete_dest,missing destination
+5692,Combien ça coûte en moyenne de Lille à Clermont-Ferrand,Lille,Clermont-Ferrand,1,hard,complex_question,
+2651,Aller Paris Limoges,Paris,Limoges,1,easy,no_markers,
+9597,Metz Bordeaux train,Metz,Bordeaux,1,easy,no_markers,
+6107,je veu aler de nantes a monpelier,Nantes,Montpellier,1,hard,misspelling,spelling errors
+2199,Les trains à grande vitesse impressionnent !,,,0,easy,no_intent,train_discussion
+5749,Itinéraire de Saint Étienne à Marseille,Saint-Étienne,Marseille,1,medium,compound_name,compound name no hyphen
+9092,--- Lyon voyage,,,0,easy,garbage,incoherent mix
+5229,bilet pour montpellier limooges,Montpellier,Limoges,1,hard,misspelling,spelling errors
+218,Atteindre Bordeaux en partant de Angers,Angers,Bordeaux,1,medium,inverted_order,
+1389,Train Bordeaux Strasbourg en soirée,Bordeaux,Strasbourg,1,medium,additional_info,
+9386,mon trajet est de strasbourg a montpellier,Strasbourg,Montpellier,1,easy,no_capitals,
+3471,Comment aller de Bordeaux à Le Mans,Bordeaux,Le Mans,1,easy,standard,
+762,Partir de Nantes et aller à Toulouse,Nantes,Toulouse,1,easy,standard,
+1944,un bilet trin nice marceille,Nice,Marseille,1,hard,misspelling,spelling errors
+3773,Comment se rendre de Limoges à Angers,Limoges,Angers,1,medium,standard,
+4118,en direction de bordeaux,,,0,easy,incomplete_origin,missing origin
+3210,Quel est le meilleur moment pour partir de Grenoble vers Le Havre,Grenoble,Le Havre,1,hard,complex_question,
+2677,Lyon Grenoble svp,Lyon,Grenoble,1,easy,no_markers,
+4320,Origine Saint-Étienne destination Perpignan,Saint-Étienne,Perpignan,1,easy,standard,
+371,Comment se rendre de Grenoble à Le Mans,Grenoble,Le Mans,1,medium,standard,
+1456,Mon train préféré est le TGV,,,0,easy,no_intent,train_discussion
+7788,Billet Lille Montpellier pour 3 personnes,Lille,Montpellier,1,medium,additional_info,
+9580,origine lyon,,,0,easy,incomplete_dest,missing destination
+3970,Réservation de Perpignan à Reims,Perpignan,Reims,1,easy,standard,
+857,c'est quoi votre numéro ?,,,0,easy,no_intent,general_questions
+6750,Je me trouve à Toulouse,,,0,easy,incomplete_dest,missing destination
+7151,Je veu me rendr de marseille a Nices,Marseille,Nice,1,hard,misspelling,spelling errors
+5155,Bordeaux Angers lundi prochain,Bordeaux,Angers,1,medium,no_markers,
+238,Comant se rendre de Pariss a nantes,Paris,Nantes,1,hard,misspelling,spelling errors
+9300,C'est pour un voyage de Montpellier à Grenoble,Montpellier,Grenoble,1,easy,standard,
+2057,famysosew bogizy wuso cycap,,,0,easy,garbage,random text
+4579,trajet vers montpellier ?,,,0,easy,incomplete_origin,missing origin
+7718,j'aime les chiens,,,0,easy,no_intent,off_topic
+2007,Je dois aller de Grenoble à Aix-les-Bains,Grenoble,Aix-les-Bains,1,medium,compound_name,
+8485,Je vais de Bordeaux à Bordeaux,,,0,medium,ambiguous,origin equals destination
+1519,Un ticket de Lyon à Metz,Lyon,Metz,1,easy,standard,
+2050,Faut-il préférer le TGV ou le train normal pour Limoges Amiens,Limoges,Amiens,1,hard,complex_question,
+1576,Je vais de Toulouse à Marseille à Paris,,,0,medium,ambiguous,too many cities
+8610,pour voyager de lille a le havre,Lille,Le Havre,1,easy,no_capitals,
+3098,à bientôt ?,,,0,easy,no_intent,greetings
+3594,je doi aller de le man a bres,Le Mans,Brest,1,hard,misspelling,spelling errors
+7520,bilet de trin paris angerrs,Paris,Angers,1,hard,misspelling,spelling errors
+7525,kodikana gecitygy subabijewy fikifakoz datuwavuky,,,0,easy,garbage,random text
+8764,Un billet Toulouse Lille pour 2 adultes,Toulouse,Lille,1,medium,additional_info,
+9281,husuhovi bop,,,0,easy,garbage,random text
+1451,je voudrais voyager de toulouse a lyon,Toulouse,Lyon,1,easy,no_capitals,
+4542,Comment aller de Bordeaux à Nice à Paris,,,0,medium,ambiguous,too many cities
+6973,Comman se rendre de Dijo a Grennoble,Dijon,Grenoble,1,hard,misspelling,spelling errors
+7781,on va voir Albert a Rennes en partant de Brest,Brest,Rennes,1,hard,name_ambiguity,multiple name distractors
+2122,Les trains directs existent entre Marseille et Lyon,Marseille,Lyon,1,hard,complex_question,
+861,Ma destination est Aix-en-Provence depuis Toulouse,Toulouse,Aix-en-Provence,1,medium,inverted_order,
+8126,Comment aller de Lyon à Aix-en-Provence,Lyon,Aix-en-Provence,1,easy,standard,
+8878,sable orange vague,,,0,easy,garbage,nonsense words
+6749,Y a-t-il des promotions pour Toulon Reims,Toulon,Reims,1,hard,complex_question,
+3051,place dans le train de rennes a toulon,Rennes,Toulon,1,easy,no_capitals,
+7562,Pour aller à Strasbourg depuis Lyon,Lyon,Strasbourg,1,medium,inverted_order,
+7884,les horaires de strasbourg a toulouse svp,Strasbourg,Toulouse,1,easy,no_capitals,
+9026,Billet Bourg-en-Bresse Brest,Bourg-en-Bresse,Brest,1,medium,compound_name,
+3462,Route pour Montpellier ?,,,0,easy,incomplete_origin,missing origin
+4388,En partant de Paris,,,0,easy,incomplete_dest,missing destination
+2705,Voyager de Le Havre vers Grenoble,Le Havre,Grenoble,1,easy,standard,
+8749,kayak crayon lampe horloge kayak,,,0,easy,garbage,nonsense words
+4125,Nîmes Lille pour affaires,Nîmes,Lille,1,medium,no_markers,
+6110,quel est le prix pour,,,0,easy,incomplete_grammar,grammatically incomplete
+7648,arrivant de lille,,,0,easy,incomplete_dest,missing destination
+299,Soit Paris soit Bordeaux,,,0,medium,ambiguous,contradictions
+4098,qaduqaj cyxip xikerejavu,,,0,easy,garbage,random text
+3962,uniforme sable parapluie,,,0,easy,garbage,nonsense words
+2299,Combien ça coûte un billet de Limoges à Bordeaux,Limoges,Bordeaux,1,medium,standard,
+635,Quelle heure le train de Tours à Nantes,Tours,Nantes,1,medium,standard,
+9609,Je voudrais un billet de Clermont-Ferrand à Strasbourg pour demain,Clermont-Ferrand,Strasbourg,1,medium,additional_info,
+698,Cap sur Lyon,,,0,easy,incomplete_origin,missing origin
+941,Voyager de Paris vers Lyon,Paris,Lyon,1,easy,standard,
+4434,êtes-vous marié,,,0,easy,no_intent,general_questions
+5442,Train Aix-en-Provence Tours dès que possible,Aix-en-Provence,Tours,1,medium,additional_info,
+1117,Le billet de Metz à Angers coûte combien,Metz,Angers,1,easy,standard,
+2684,En partant de Metz vers Perpignan,Metz,Perpignan,1,easy,standard,
+6908,escalier uniforme requin vague ordinateur miroir,,,0,easy,garbage,nonsense words
+625,Arrivée Lille départ Limoges,Limoges,Lille,1,medium,inverted_order,
+512,De Montpellier vers Montpellier,,,0,medium,ambiguous,origin equals destination
+3544,Bonne nuit ?,,,0,easy,no_intent,greetings
+3220,je souhet me rendre a lyon depuis limoges,Limoges,Lyon,1,hard,misspelling,spelling errors
+4698,De Nantes à Marseille en train,Nantes,Marseille,1,easy,standard,
+3186,Depuis Grenoble,,,0,easy,incomplete_dest,missing destination
+4249,J'aimerais visiter Toulouse,,,0,easy,incomplete_origin,missing origin
+5430,"Clément, Albert et Florence veulent aller de Paris a Grenoble",Paris,Grenoble,1,hard,name_ambiguity,multiple name distractors
+4515,Arriver à Paris depuis Grenoble,Grenoble,Paris,1,medium,inverted_order,
+1880,reservation de toulouze a amien,Toulouse,Amiens,1,hard,misspelling,spelling errors
+8776,Bonjour ?,,,0,easy,no_intent,greetings
+7164,Metz Montpellier TGV,Metz,Montpellier,1,easy,no_markers,
+4522,nudib reveroqivi xehytefy dyqovypif,,,0,easy,garbage,random text
+9156,Je veux visiter Nantes Lyon Paris,,,0,medium,ambiguous,too many cities
+9085,Paris Marseille demain matin,Paris,Marseille,1,medium,no_markers,
+5277,Ticket Dijon Nîmes,Dijon,Nîmes,1,easy,no_markers,
+5323,arrivant de nice ?,,,0,easy,incomplete_dest,missing destination
+7561,Billet Montpellier Bordeaux Lyon,,,0,medium,ambiguous,too many cities
+5029,un trajet de nîmes vers saint-étienne,Nîmes,Saint-Étienne,1,easy,no_capitals,
+6443,Faut-il arriver en avance pour Le Havre Lyon,Le Havre,Lyon,1,hard,complex_question,
+521,Retrouver Rémy à Angers en partant de Nantes,Nantes,Angers,1,hard,name_ambiguity,multiple name distractors
+7077,faqow mawevigen getize,,,0,easy,garbage,random text
+7330,Aller Bordeaux Strasbourg,Bordeaux,Strasbourg,1,easy,no_markers,
+5061,miroir uniforme fenêtre ordinateur cactus horloge kayak lampe,,,0,easy,garbage,nonsense words
+3904,un biye de montpellier a reims,Montpellier,Reims,1,hard,misspelling,spelling errors
+6187,Pourriez-vous me réserver un billet de Annecy à Limoges,Annecy,Limoges,1,easy,standard,
+1937,Je pars de Toulouse,,,0,easy,incomplete_dest,missing destination
+6046,Transport Metz Dijon,Metz,Dijon,1,easy,no_markers,
+9241,place dans le train de aix-en-provence a metz,Aix-en-Provence,Metz,1,easy,no_capitals,
+1345,Pour aller à Angers depuis Grenoble,Grenoble,Angers,1,medium,inverted_order,
+2278,Partir de Limoges et aller à Grenoble,Limoges,Grenoble,1,easy,standard,
+4122,Je veux visiter Toulouse Nantes Nice,,,0,medium,ambiguous,too many cities
+9402,Je veux aller à Toulouse,,,0,easy,incomplete_origin,missing origin
+8323,Le train de Metz à Lyon,Metz,Lyon,1,easy,standard,
+6140,Me rendre à Grenoble de Strasbourg,Strasbourg,Grenoble,1,easy,standard,
+2720,Pour aller vers Clermont-Ferrand depuis Toulon,Toulon,Clermont-Ferrand,1,medium,inverted_order,
+4828,Je voudrais aller de Toulouse à Lyon via Rennes et Paris,,,0,medium,ambiguous,too many cities
+4413,Trajet vers Lyon,,,0,easy,incomplete_origin,missing origin
+6906,Quelle est la meilleure façon d'aller de Annecy à Montpellier,Annecy,Montpellier,1,medium,standard,
+3588,Toulouse Le Mans maintenant,Toulouse,Le Mans,1,easy,no_markers,
+7377,trajet en train de saint-étienne a perpignan,Saint-Étienne,Perpignan,1,easy,no_capitals,
+1157,De Toulouse non attendez de Nantes vers Bordeaux,,,0,medium,ambiguous,conflicting information
+9990,je voyage avec Lourdes et Clément de Annecy vers Le Mans,Annecy,Le Mans,1,hard,name_ambiguity,multiple name distractors
+6153,aller vers toulon depuis annecy,Annecy,Toulon,1,easy,no_capitals,
+5867,Aller Limoges Strasbourg,Limoges,Strasbourg,1,easy,no_markers,
+7676,Je voudrais aller à Montpellier ?,,,0,easy,incomplete_origin,missing origin
+9161,Arrivant de Lyon,,,0,easy,incomplete_dest,missing destination
+3988,Pour aller à Montpellier depuis Villeurbanne,Villeurbanne,Montpellier,1,medium,inverted_order,
+7029,Je souhaite me rendre à Boulogne sur Mer en partant de Nantes,Nantes,Boulogne-sur-Mer,1,medium,compound_name,compound name no hyphen
+8736,Je souhaiterais obtenir un billet de Nîmes à Montpellier,Nîmes,Montpellier,1,easy,standard,
+5459,partir de rennes et aller a nîmes,Rennes,Nîmes,1,easy,no_capitals,
+8946,Quelle classe choisir pour Le Mans Marseille,Le Mans,Marseille,1,hard,complex_question,
+8872,Mon ami Lourdes et moi allons de Toulon à Aix-en-Provence,Toulon,Aix-en-Provence,1,hard,name_ambiguity,multiple name distractors
+1359,Billet Tours Villeurbanne pour 3 personnes,Tours,Villeurbanne,1,medium,additional_info,
+9977,Réservation de Bordeaux à Port-Boulet,Bordeaux,Port-Boulet,1,medium,compound_name,
+5143,un train pour reims,,,0,easy,incomplete_origin,missing origin
+9378,Accéder à Amiens depuis Brest,Brest,Amiens,1,medium,inverted_order,
+7766,train de lille direction brest,Lille,Brest,1,easy,no_capitals,
+9146,nuhuli viketyhuha,,,0,easy,garbage,random text
+4097,Tiket Renn Touloon,Rennes,Toulon,1,hard,misspelling,spelling errors
+220,Origine Aix-en-Provence destination Perpignan,Aix-en-Provence,Perpignan,1,easy,standard,
+2649,Tours Rennes direct svp,Tours,Rennes,1,easy,no_markers,
+5910,wubydovaj xol,,,0,easy,garbage,random text
+9847,En partant de Toulouse ?,,,0,easy,incomplete_dest,missing destination
+5400,Je pars de Bordeaux enfin non de Lyon,,,0,medium,ambiguous,conflicting information
+9246,Brest Tours svp,Brest,Tours,1,easy,no_markers,
+7595,kife guqozexo howyhuhom hisuc,,,0,easy,garbage,random text
+4050,Aller retrouver Marseille depuis Grenoble,Grenoble,Marseille,1,medium,inverted_order,
+9598,Quelle est la durée du trajet de Limoges à Grenoble,Limoges,Grenoble,1,hard,complex_question,
+4615,Billet Annecy Bordeaux pour un groupe,Annecy,Bordeaux,1,medium,additional_info,
+4196,Faut combien de temps pour aller de Montpellier à Paris,Montpellier,Paris,1,medium,standard,
+3002,Aller de Saint-Étienne à Dijon,Saint-Étienne,Dijon,1,easy,standard,
+4333,Je doi aller de Montpellie a lyon,Montpellier,Lyon,1,hard,misspelling,spelling errors
+7327,Train pour Paris Montpellier et Nantes,,,0,medium,ambiguous,too many cities
+7389,Un aller simple de La Roche-sur-Yon à Bordeaux,La Roche-sur-Yon,Bordeaux,1,medium,compound_name,
+8917,billet billet billet billet billet billet billet billet,,,0,easy,garbage,repetitions
+2800,Basé à Nice,,,0,easy,incomplete_dest,missing destination
+5148,je souhaite me rendre à montpellier ?,,,0,easy,incomplete_origin,missing origin
+9952,Voyage Marseille Le Havre,Marseille,Le Havre,1,easy,no_markers,
+8424,à partir de reims ?,,,0,easy,incomplete_dest,missing destination
+7237,sable lampe nougat orange,,,0,easy,garbage,nonsense words
+7291,Je veu me rendr a Nisse de rennes,Rennes,Nice,1,hard,misspelling,spelling errors
+7075,arrivant de nantes ?,,,0,easy,incomplete_dest,missing destination
+7251,Je voudrais aller de Nice à Montpellier via Rennes et Paris,,,0,medium,ambiguous,too many cities
+3291,Comment aller de Nantes à Lyon à Marseille,,,0,medium,ambiguous,too many cities
+3536,Un bilet de trin de clermont-ferrand a Pariss,Clermont-Ferrand,Paris,1,hard,misspelling,spelling errors
+4895,Y a-t-il des trains de nuit de Strasbourg à Metz,Strasbourg,Metz,1,hard,complex_question,
+7572,je desire aller de rennes a nîmes,Rennes,Nîmes,1,easy,no_capitals,
+8594,mon départ est à rennes,,,0,easy,incomplete_dest,missing destination
+5354,Je veux aller de Strasbourg à Brest,Strasbourg,Brest,1,easy,standard,
+6394,Je voudré un billet de brest a Lill,Brest,Lille,1,hard,misspelling,spelling errors
+1869,Billet Le Mans Annecy pour 3 personnes,Le Mans,Annecy,1,medium,additional_info,
+6652,Au départ de Paris,,,0,easy,incomplete_dest,missing destination
+2889,Je me trouve à Le Havre,,,0,easy,incomplete_dest,missing destination
+1151,Je viens de Nice,,,0,easy,incomplete_dest,missing destination
+6596,c'est les vacances ?,,,0,easy,no_intent,off_topic
+3750,... ---,,,0,easy,garbage,special characters
+3260,Quel est le wagon le plus confortable pour Lille Metz,Lille,Metz,1,hard,complex_question,
+3620,"florence, albert et moi partons de perpignan pour saint-étienne",Perpignan,Saint-Étienne,1,hard,name_ambiguity,multiple name distractors
+6667,je ve aller de marseille ver villeurbanne,Marseille,Villeurbanne,1,hard,misspelling,spelling errors
+470,je ve aller de annnecy a nantes,Annecy,Nantes,1,hard,misspelling,spelling errors
+3742,Voyage Brest Metz,Brest,Metz,1,easy,no_markers,
+1748,reservation strasboure clermont-ferran,Strasbourg,Clermont-Ferrand,1,hard,misspelling,spelling errors
+3372,Origine Lille,,,0,easy,incomplete_dest,missing destination
+140,Arrivant de Reims ?,,,0,easy,incomplete_dest,missing destination
+6059,Salut ?,,,0,easy,no_intent,greetings
+4735,Quel est l'horaire des trains au départ de Aix-en-Provence pour Lyon,Aix-en-Provence,Lyon,1,medium,standard,
+8602,Le train de nuit est pratique ?,,,0,easy,no_intent,train_discussion
+4697,je voudrais voyager de amiens a annecy,Amiens,Annecy,1,easy,no_capitals,
+7486,génial ?,,,0,easy,no_intent,random_statements
+2683,Billet Rennes Reims pour 3 personnes,Rennes,Reims,1,medium,additional_info,
+7791,cactus papillon guitare papillon orange igloo,,,0,easy,garbage,nonsense words
+24,Un aller de Annecy à Nîmes merci,Annecy,Nîmes,1,easy,standard,
+3960,Besoin d'un billet de Le Mans à Perpignan,Le Mans,Perpignan,1,easy,standard,
+9913,Voyage Limoges Nîmes,Limoges,Nîmes,1,easy,no_markers,
+2887,Quelle est la durée du trajet de Villeurbanne à Angers,Villeurbanne,Angers,1,hard,complex_question,
+2742,le réseau ferroviaire français est développé,,,0,easy,no_intent,train_discussion
+5803,Train au départ de Lille pour Saint-Étienne,Lille,Saint-Étienne,1,easy,standard,
+9987,Je dois me rendre de Bordeaux à Tours,Bordeaux,Tours,1,easy,standard,
+7659,itineraire de aix-en-provence a marseille,Aix-en-Provence,Marseille,1,easy,no_capitals,
+8381,Billet Rennes Perpignan pour 3 personnes,Rennes,Perpignan,1,medium,additional_info,
+5426,Partir pour Saint Étienne depuis Paris,Paris,Saint-Étienne,1,medium,compound_name,compound name no hyphen
+1041,Un train de Toulouse pour Lyon,Toulouse,Lyon,1,easy,standard,
+1700,Metz Rennes tarif réduit,Metz,Rennes,1,medium,no_markers,
+6707,Je veu allé de angers a Lee Havre,Angers,Le Havre,1,hard,misspelling,spelling errors
+84,commen me rendr a grenoble depuis bordeaux,Bordeaux,Grenoble,1,hard,misspelling,spelling errors
+5627,trin de amiens a montpellie,Amiens,Montpellier,1,hard,misspelling,spelling errors
+872,??? 789 Marseille,,,0,easy,garbage,incoherent mix
+3487,789 voyage !!! --- Lyon,,,0,easy,garbage,incoherent mix
+1782,un aller de saint-étienne a paris merci,Saint-Étienne,Paris,1,easy,no_capitals,
+4900,Quel prix pour un billet de Strasbourg à Amiens,Strasbourg,Amiens,1,medium,standard,
+3793,Billet svp Dijon Nîmes,Dijon,Nîmes,1,easy,no_markers,
+4284,Je souhet aller de brest a toulouse,Brest,Toulouse,1,hard,misspelling,spelling errors
+7586,Deux billets de Limoges à Strasbourg s'il vous plaît,Limoges,Strasbourg,1,medium,additional_info,
+1140,Je voudrais un billet de Clermont-Ferrand à Le Mans pour demain,Clermont-Ferrand,Le Mans,1,medium,additional_info,
+6416,Rejoindre Angers depuis Nice comment faire,Nice,Angers,1,medium,inverted_order,
+6858,comman aller de bordau a le havr,Bordeaux,Le Havre,1,hard,misspelling,spelling errors
+8486,Aix-en-Provence Paris première classe,Aix-en-Provence,Paris,1,medium,no_markers,
+2674,Comant partir de marseille a nîmes,Marseille,Nîmes,1,hard,misspelling,spelling errors
+1053,Je vais à Bordeaux,,,0,easy,incomplete_origin,missing origin
+4740,vers lille,,,0,easy,incomplete_origin,missing origin
+5393,Quelle est la meilleure option pour Brest Marseille,Brest,Marseille,1,hard,complex_question,
+7890,"Avec Clément, Albert et Paris on va de Metz à Toulon",Metz,Toulon,1,hard,name_ambiguity,multiple name distractors
+5320,Comment se rendre à Nantes si on part de Perpignan,Perpignan,Nantes,1,medium,inverted_order,
+6314,Y a-t-il souvent des retards sur Metz Clermont-Ferrand,Metz,Clermont-Ferrand,1,hard,complex_question,
+4003,sidinily fymyp,,,0,easy,garbage,random text
+5001,C'est combien pour aller de Clermont-Ferrand à Nice,Clermont-Ferrand,Nice,1,medium,standard,
+856,Pour voyager de Reims à Le Havre,Reims,Le Havre,1,easy,standard,
+6268,commen me rendre de tours a le maans,Tours,Le Mans,1,hard,misspelling,spelling errors
+7201,Un tiket aix-en-provence Angerrs,Aix-en-Provence,Angers,1,hard,misspelling,spelling errors
+255,Comen se rendre de limoges a toulon,Limoges,Toulon,1,hard,misspelling,spelling errors
+5096,rejoindre reims depuis lille,Lille,Reims,1,easy,no_capitals,
+2462,Quel est le prochain train de Paris à Montpellier,Paris,Montpellier,1,medium,standard,
+8315,Paris Dijon samedi,Paris,Dijon,1,medium,no_markers,
+9686,le soleil brille ?,,,0,easy,no_intent,random_statements
+7214,Comment vas-tu,,,0,easy,no_intent,greetings
+4377,Pourriez-vous me réserver un billet de Nice à Rennes,Nice,Rennes,1,easy,standard,
+2329,Comment aller de Toulouse à Toulouse,,,0,medium,ambiguous,origin equals destination
+9849,Je me suis trompé Nice pas Lille,,,0,medium,ambiguous,conflicting information
+8526,Pour me déplacer à Dijon depuis Nantes,Nantes,Dijon,1,medium,inverted_order,
+3628,À quelle heure arrive le dernier train de Brest à Lyon,Brest,Lyon,1,hard,complex_question,
+8150,Je peux avoir les horaires de Toulon à Strasbourg,Toulon,Strasbourg,1,medium,standard,
+7924,comment aller à rennes,,,0,easy,incomplete_origin,missing origin
+9238,je voudrais aller à dijon,,,0,easy,incomplete_origin,missing origin
+2716,Tiket bordeaux Nisse,Bordeaux,Nice,1,hard,misspelling,spelling errors
+9667,un train de metz a rennes,Metz,Rennes,1,easy,no_capitals,
+2738,Je ve me rendre de Perpigna a le mans,Perpignan,Le Mans,1,hard,misspelling,spelling errors
+6726,Ticket Rennes Angers,Rennes,Angers,1,easy,no_markers,
+267,Combien de trains par jour entre Marseille et Aix-en-Provence,Marseille,Aix-en-Provence,1,hard,complex_question,
+4052,Billet Le Havre Aix-les-Bains,Le Havre,Aix-les-Bains,1,medium,compound_name,
+8686,Peut-être Marseille ou bien Lyon,,,0,medium,ambiguous,contradictions
+1778,commen aler de lee mans a angers,Le Mans,Angers,1,hard,misspelling,spelling errors
+9826,Tiket clermont-ferrand Pariis,Clermont-Ferrand,Paris,1,hard,misspelling,spelling errors
+5893,Un biye pour Reimms Le  Havre,Reims,Le Havre,1,hard,misspelling,spelling errors
+1551,Train de Rennes à Aix-les-Bains,Rennes,Aix-les-Bains,1,medium,compound_name,
+7177,je voudré un billet de nise a amiens,Nice,Amiens,1,hard,misspelling,spelling errors
+1600,À partir de Bordeaux,,,0,easy,incomplete_dest,missing destination
+2565,Je souhaite me rendr a Annec depui metz,Metz,Annecy,1,hard,misspelling,spelling errors
+6894,Rennes Bordeaux Nantes Toulouse,,,0,medium,ambiguous,too many cities
+3776,Faut-il prévoir des changements entre Annecy et Villeurbanne,Annecy,Villeurbanne,1,hard,complex_question,
+6559,itineraire de metz a lyon,Metz,Lyon,1,easy,no_capitals,
+12,Tarif réduit de Toulon à Amiens pour étudiants,Toulon,Amiens,1,medium,additional_info,
+8284,Partir à Reims de Toulon,Toulon,Reims,1,easy,standard,
+2046,Voyage de Reims à Boulogne-sur-Mer,Reims,Boulogne-sur-Mer,1,medium,compound_name,
+4074,il y a des trains de annecy a toulouse,Annecy,Toulouse,1,easy,no_capitals,
+6880,Depuis Tours jusqu'à Marseille,Tours,Marseille,1,easy,standard,
+1611,"avec Florence, Paris et Rémy on va de Grenoble a Toulouse",Grenoble,Toulouse,1,hard,name_ambiguity,multiple name distractors
+8274,De Lyon à Montpellier ou peut-être Toulouse,,,0,medium,ambiguous,contradictions
+8127,Lille Toulon ce week-end,Lille,Toulon,1,medium,no_markers,
+2318,Je vais à Montpellier ah non plutôt Bordeaux,,,0,medium,ambiguous,contradictions
+7679,Combien de correspondances entre Lyon et Reims,Lyon,Reims,1,hard,complex_question,
+3574,Billet Metz Aix-en-Provence pour affaires,Metz,Aix-en-Provence,1,medium,additional_info,
+7898,Je vais de Lyon à Nice à Montpellier,,,0,medium,ambiguous,too many cities
+554,Je suis à Marseille,,,0,easy,incomplete_dest,missing destination
+4436,Pour me rendre de Châlons en Champagne à Perpignan,Châlons-en-Champagne,Perpignan,1,medium,compound_name,compound name no hyphen
+4290,Faut-il arriver en avance pour Lille Nantes,Lille,Nantes,1,hard,complex_question,
+2652,Clermont-Ferrand Marseille voir la famille,Clermont-Ferrand,Marseille,1,medium,no_markers,
+2070,je veu allé de montpellier a amiens,Montpellier,Amiens,1,hard,misspelling,spelling errors
+3096,Je vais de Nice à Rennes à Paris,,,0,medium,ambiguous,too many cities
+8434,Billet Paris Nice Rennes,,,0,medium,ambiguous,too many cities
+1995,Clément et Rémy m'attendent à Montpellier je pars de Perpignan,Perpignan,Montpellier,1,hard,name_ambiguity,multiple name distractors
+7509,!!! train Marseille 456 @@@,,,0,easy,garbage,incoherent mix
+9511,Strasbourg Montpellier train,Strasbourg,Montpellier,1,easy,no_markers,
+8747,je ve me rendre de lile a toulon,Lille,Toulon,1,hard,misspelling,spelling errors
+5441,Je quitte Angers ?,,,0,easy,incomplete_dest,missing destination
+6650,je vais de lyon a nantes,Lyon,Nantes,1,easy,no_capitals,
+4341,Itinéraire de Saint-Étienne à Aix-en-Provence,Saint-Étienne,Aix-en-Provence,1,easy,standard,
+3412,Départ Le Mans Annecy,Le Mans,Annecy,1,easy,no_markers,
+712,Angers Grenoble voir la famille,Angers,Grenoble,1,medium,no_markers,
+7645,Je souhaite me rendre à Saint-Étienne en partant de Angers,Angers,Saint-Étienne,1,medium,compound_name,
+8785,un biye de limogges ver le havre,Limoges,Le Havre,1,hard,misspelling,spelling errors
+1707,au départ de bordeaux,,,0,easy,incomplete_dest,missing destination
+7131,Il existe des trains de Angers à Nantes,Angers,Nantes,1,medium,standard,
+3923,"Albert, Lourdes et moi partons de Grenoble pour Montpellier",Grenoble,Montpellier,1,hard,name_ambiguity,multiple name distractors
+4523,Direction Tours depuis Reims,Reims,Tours,1,easy,standard,
+4606,Vers Clermont-Ferrand en provenance de Lyon,Lyon,Clermont-Ferrand,1,medium,inverted_order,
+4127,Je voudrais aller de Bordeaux à Lille via Toulouse et Montpellier,,,0,medium,ambiguous,too many cities
+7095,Train Le Mans Toulon avec vélo,Le Mans,Toulon,1,medium,additional_info,
+1468,Billet Rennes Paris Lille,,,0,medium,ambiguous,too many cities
+2142,aller chercher un billet de le mans a saint-étienne,Le Mans,Saint-Étienne,1,easy,no_capitals,
+5425,Je veux aller à Bordeaux non à Paris,,,0,medium,ambiguous,contradictions
+288,Pour aller vers Toulon depuis Le Mans,Le Mans,Toulon,1,medium,inverted_order,
+8619,je voudrai un bilet de nantess a nices,Nantes,Nice,1,hard,misspelling,spelling errors
+8501,bilet de trein de perpignan a nîmmes,Perpignan,Nîmes,1,hard,misspelling,spelling errors
+3114,Pour aller à Aix-en-Provence depuis Clermont-Ferrand,Clermont-Ferrand,Aix-en-Provence,1,medium,compound_name,
+1458,depart de montpellier destination amiens,Montpellier,Amiens,1,easy,no_capitals,
+2650,Je voudrais connaître les horaires de Toulouse à Limoges,Toulouse,Limoges,1,medium,standard,
+2515,trajet vers toulon,,,0,easy,incomplete_origin,missing origin
+749,Il y a combien de trains de Metz à Nantes,Metz,Nantes,1,medium,standard,
+6691,Paris Le Havre aller-retour,Paris,Le Havre,1,medium,no_markers,
+6811,depart de tours destination nantes,Tours,Nantes,1,easy,no_capitals,
+7105,Je dois rejoindre Toulouse depuis Amiens,Amiens,Toulouse,1,medium,inverted_order,
+4342,Le Havre Saint-Étienne plein tarif,Le Havre,Saint-Étienne,1,medium,no_markers,
+9630,@@## --- ??? --- ^^&&,,,0,easy,garbage,special characters
+6610,je doi partir de brrest ver lill,Brest,Lille,1,hard,misspelling,spelling errors
+3161,C'est compliqué !,,,0,easy,no_intent,random_statements
+3020,J'ai besoin d'aller de Clermont-Ferrand à Metz,Clermont-Ferrand,Metz,1,easy,standard,
+7004,de nice en direction de rennes,Nice,Rennes,1,easy,no_capitals,
+4591,un train pour dijon,,,0,easy,incomplete_origin,missing origin
+1989,Lille Amiens aller,Lille,Amiens,1,easy,no_markers,
+5614,Je me rends de Angers à Amiens,Angers,Amiens,1,easy,standard,
+3077,En partant de Bordeaux,,,0,easy,incomplete_dest,missing destination
+2580,Pour me rendre de Salon-de-Provence à Bordeaux,Salon-de-Provence,Bordeaux,1,medium,compound_name,
+3206,Y a-t-il des réductions pour Strasbourg Limoges,Strasbourg,Limoges,1,hard,complex_question,
+1653,Je voudrais aller de Nantes à Lille via Nice et Marseille,,,0,medium,ambiguous,too many cities
+2053,il me faut un billet de paris a brest,Paris,Brest,1,easy,no_capitals,
+8064,Lyon Nice première classe,Lyon,Nice,1,medium,no_markers,
+6487,De Lille non attendez de Nice vers Rennes,,,0,medium,ambiguous,conflicting information
+9035,Je veux visiter Toulouse Rennes Nice,,,0,medium,ambiguous,too many cities
+599,En route pour Toulouse depuis Clermont-Ferrand,Clermont-Ferrand,Toulouse,1,medium,inverted_order,
+9716,Départ Nantes ?,,,0,easy,incomplete_dest,missing destination
+5199,bilet de dijon ver annnecy,Dijon,Annecy,1,hard,misspelling,spelling errors
+4797,Cap sur Bordeaux,,,0,easy,incomplete_origin,missing origin
+6482,Transport Toulouse Saint-Étienne,Toulouse,Saint-Étienne,1,easy,no_markers,
+8708,je pars avec Albert et Clément de Annecy vers Brest,Annecy,Brest,1,hard,name_ambiguity,multiple name distractors
+833,Pour atteindre Nice depuis Brest,Brest,Nice,1,medium,inverted_order,
+5181,cap sur nice,,,0,easy,incomplete_origin,missing origin
+6202,??? ... ^^&& --- ---,,,0,easy,garbage,special characters
+493,gaholomodi kytuzes gibo zononoze,,,0,easy,garbage,random text
+9493,Aller retrouver Le Mans depuis Montpellier,Montpellier,Le Mans,1,medium,inverted_order,
+7364,Comment aller de Toulouse à Marseille à Bordeaux,,,0,medium,ambiguous,too many cities
+7793,Mon train est annulé ?,,,0,easy,no_intent,train_discussion
