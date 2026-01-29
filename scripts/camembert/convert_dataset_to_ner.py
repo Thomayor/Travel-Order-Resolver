@@ -28,8 +28,8 @@ from typing import List, Tuple, Dict
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 
-# Add src to path to import gazetteer
-project_root = Path(__file__).parent.parent
+# Add src to path to import gazetteer (3 levels up: convert_dataset_to_ner.py -> camembert -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root / 'src'))
 
 from nlp.gazetteer import Gazetteer

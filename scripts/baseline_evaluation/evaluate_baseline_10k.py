@@ -11,6 +11,11 @@ import csv
 import sys
 import json
 from collections import Counter, defaultdict
+from pathlib import Path
+
+# Add project root to path (2 levels up: baseline_evaluation -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
 
 # Import NLP modules
 from src.nlp.baseline import BaselineExtractor, load_extractor
@@ -342,7 +347,7 @@ def main():
 
     # Load dataset
     print("\nLoading dataset...")
-    dataset = load_dataset('data/dataset_final.csv')
+    dataset = load_dataset('data/raw/dataset_final.csv')
     print(f"  Loaded {len(dataset)} sentences")
 
     # Evaluate each sentence

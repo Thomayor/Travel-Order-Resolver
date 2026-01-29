@@ -22,8 +22,8 @@ import sys
 import argparse
 from pathlib import Path
 
-# Add src to path
-project_root = Path(__file__).parent.parent
+# Add src to path (3 levels up: train_camembert.py -> camembert -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root / 'src'))
 
 from nlp.transformer import CamembertNER
@@ -31,9 +31,9 @@ from nlp.transformer import CamembertNER
 
 def main():
     parser = argparse.ArgumentParser(description='Train CamemBERT NER model')
-    parser.add_argument('--train', type=str, default='data/train_ner.json',
+    parser.add_argument('--train', type=str, default='data/processed/train_ner.json',
                         help='Path to training data')
-    parser.add_argument('--val', type=str, default='data/val_ner.json',
+    parser.add_argument('--val', type=str, default='data/processed/val_ner.json',
                         help='Path to validation data')
     parser.add_argument('--output', type=str, default='models/camembert-ner',
                         help='Output directory for model')

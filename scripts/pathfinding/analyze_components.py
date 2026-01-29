@@ -4,8 +4,11 @@
 import sys
 import os
 import networkx as nx
+from pathlib import Path
 
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '.'))
+# Add project root to path (2 levels up: pathfinding -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root))
 
 from src.pathfinding.graph_loader import build_railway_graph, get_station_info
 

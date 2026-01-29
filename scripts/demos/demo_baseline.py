@@ -2,7 +2,12 @@
 Demo script for baseline NLP extraction
 """
 import sys
-sys.path.insert(0, 'src')
+from pathlib import Path
+
+# Add project root to path (2 levels up: demos -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
+sys.path.insert(0, str(project_root / 'src'))
+
 from nlp.baseline import BaselineExtractor
 
 print('=== Baseline NLP Extractor Demo ===\n')

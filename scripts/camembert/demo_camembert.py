@@ -10,8 +10,8 @@ Usage:
 import sys
 from pathlib import Path
 
-# Add src to path
-project_root = Path(__file__).parent.parent
+# Add src to path (3 levels up: demo_camembert.py -> camembert -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root / 'src'))
 
 from nlp.transformer import load_pretrained_model

@@ -18,8 +18,8 @@ import csv
 from pathlib import Path
 from collections import defaultdict
 
-# Add src to path
-project_root = Path(__file__).parent.parent
+# Add src to path (3 levels up: evaluate_camembert.py -> camembert -> scripts -> root)
+project_root = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(project_root / 'src'))
 
 from nlp.transformer import load_pretrained_model
