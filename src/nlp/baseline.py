@@ -13,16 +13,16 @@ from .preprocessing import preprocess_for_matching, tokenize_french
 from .gazetteer import Gazetteer, load_gazetteer
 
 
-# Keywords for origin
+# Keywords for origin (will be preprocessed to match normalized text)
 ORIGIN_KEYWORDS = [
-    "de", "depuis", "en partance de", "au départ de",
-    "en partant de", "à partir de", "départ"
+    "de", "depuis", "en partance de", "au depart de",
+    "en partant de", "a partir de", "depart"
 ]
 
-# Keywords for destination
+# Keywords for destination (will be preprocessed to match normalized text)
 DESTINATION_KEYWORDS = [
-    "à", "vers", "pour", "jusqu'à", "en direction de",
-    "direction", "arrivée"
+    "a", "vers", "pour", "jusqua", "en direction de",
+    "direction", "arrivee"
 ]
 
 # Common verbs in travel orders
@@ -33,7 +33,7 @@ TRAVEL_VERBS = [
 
 # Words that indicate invalid orders
 INVALID_INDICATORS = [
-    "quel temps", "quelle heure", "comment allez",
+    "quel temps", "quelle heure est", "comment allez",
     "bonjour", "bonsoir", "merci", "azerty"
 ]
 
