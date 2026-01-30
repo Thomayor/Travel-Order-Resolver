@@ -1,6 +1,6 @@
 # Guide de Test - Travel Order Resolver
 
-Ce guide permet à l'intervenant de tester facilement toutes les fonctionnalités du projet.
+Ce guide permet de tester facilement toutes les fonctionnalités du projet.
 
 ## Prérequis
 
