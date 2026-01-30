@@ -360,6 +360,149 @@ def export_graph_stats(graph: nx.Graph, output_file: str):
     print(f"Statistics saved to: {output_file}")
 
 
+def save_graph(
+    graph: nx.Graph,
+    path: str = "models/train_network.pkl"
+) -> bool:
+    """
+    Save graph to disk using pickle for fast loading.
+
+    This allows caching the built graph to avoid rebuilding from CSV files
+    every time. Useful for production deployments and testing.
+
+    Args:
+        graph: NetworkX graph to save
+        path: Path where to save the pickled graph (default: models/train_network.pkl)
+
+    Returns:
+        True if successful, False otherwise
+
+    Example:
+        >>> G = build_railway_graph()
+        >>> save_graph(G, "models/train_network.pkl")
+        Graph saved to: models/train_network.pkl (size: 2.5 MB)
+        True
+
+    Ticket: KAN-36 - Graph loader optimization
+    """
+    import pickle
+    from pathlib import Path
+
+    try:
+        # Create parent directory if it doesn't exist
+        Path(path).parent.mkdir(parents=True, exist_ok=True)
+
+        # Save graph using pickle
+        with open(path, 'wb') as f:
+            pickle.dump(graph, f, protocol=pickle.HIGHEST_PROTOCOL)
+
+        # Get file size for logging
+        import os
+        file_size = os.path.getsize(path) / (1024 * 1024)  # Convert to MB
+
+        print(f"Graph saved to: {path} (size: {file_size:.1f} MB)")
+        return True
+
+    except Exception as e:
+        print(f"Error saving graph: {e}")
+        return False
+
+
+def load_graph(path: str = "models/train_network.pkl") -> Optional[nx.Graph]:
+    """
+    Load graph from disk.
+
+    Much faster than rebuilding from CSV files. Use this in production
+    to avoid the ~2-3 second loading time from CSV.
+
+    Args:
+        path: Path to pickled graph file (default: models/train_network.pkl)
+
+    Returns:
+        NetworkX Graph if successful, None if file not found or error
+
+    Example:
+        >>> G = load_graph("models/train_network.pkl")
+        >>> if G:
+        ...     print(f"Graph loaded: {G.number_of_nodes()} stations")
+        ... else:
+        ...     print("Graph file not found, building from CSV...")
+        ...     G = build_railway_graph()
+
+    Ticket: KAN-36 - Graph loader optimization
+    """
+    import pickle
+    from pathlib import Path
+
+    if not Path(path).exists():
+        print(f"Graph file not found: {path}")
+        return None
+
+    try:
+        with open(path, 'rb') as f:
+            graph = pickle.load(f)
+
+        print(f"Graph loaded from: {path}")
+        print(f"  Stations: {graph.number_of_nodes()}")
+        print(f"  Connections: {graph.number_of_edges()}")
+
+        return graph
+
+    except Exception as e:
+        print(f"Error loading graph: {e}")
+        return None
+
+
+def get_or_build_graph(
+    cache_path: str = "models/train_network.pkl",
+    stations_file: str = "data/processed/sncf/stations_clean.csv",
+    connections_file: str = "data/processed/sncf/connections_final.csv",
+    force_rebuild: bool = False
+) -> nx.Graph:
+    """
+    Get cached graph or build from CSV if not available.
+
+    This is the recommended way to get the graph in production.
+    It will use the cached version if available, otherwise build
+    from CSV and cache it for next time.
+
+    Args:
+        cache_path: Path to cached graph file
+        stations_file: Path to stations CSV (used if rebuilding)
+        connections_file: Path to connections CSV (used if rebuilding)
+        force_rebuild: If True, ignore cache and rebuild from CSV
+
+    Returns:
+        NetworkX Graph
+
+    Example:
+        >>> # First call: builds from CSV and caches (~2-3 seconds)
+        >>> G = get_or_build_graph()
+
+        >>> # Subsequent calls: loads from cache (~0.1 seconds)
+        >>> G = get_or_build_graph()
+
+    Ticket: KAN-36 - Graph loader optimization
+    """
+    if not force_rebuild:
+        # Try to load from cache
+        graph = load_graph(cache_path)
+        if graph is not None:
+            return graph
+
+        print("Cache miss, building graph from CSV files...")
+
+    # Build from CSV
+    print("Building graph from CSV files...")
+    graph = build_railway_graph(stations_file, connections_file)
+
+    # Save to cache
+    print("Saving graph to cache...")
+    save_graph(graph, cache_path)
+
+    return graph
+
+
 if __name__ == "__main__":
     # Example usage
     print("Loading railway network graph...")
