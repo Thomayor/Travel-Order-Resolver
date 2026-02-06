@@ -1,0 +1,40 @@
+======================================================================
+BASELINE VALIDATION REPORT
+======================================================================
+
+SUMMARY
+----------------------------------------------------------------------
+Total sentences: 1500
+Validity detection accuracy: 70.00%
+Extraction accuracy (valid orders): 68.95%
+
+VALIDITY DETECTION
+----------------------------------------------------------------------
+Accuracy:  70.00%
+Precision: 70.00%
+Recall:    100.00%
+F1 Score:  82.35%
+
+EXTRACTION ACCURACY (Valid Orders Only)
+----------------------------------------------------------------------
+Origin accuracy:      81.14%
+Destination accuracy: 79.52%
+Exact match accuracy: 68.95%
+
+BY DIFFICULTY LEVEL
+----------------------------------------------------------------------
+EASY: 87.44% (181/207)
+MEDIUM: 74.80% (472/631)
+HARD: 33.49% (71/212)
+
+BY CATEGORY (Top 10 Weaknesses)
+----------------------------------------------------------------------
+misspelling                   :   9.8% (11/112)
+compound_name                 :  46.1% (41/89)
+complex_question              :  46.7% (7/15)
+name_ambiguity                :  67.0% (116/173)
+inverted_order                :  71.3% (112/157)
+standard                      :  85.3% (221/259)
+no_markers                    :  85.7% (84/98)
+additional_info               :  88.9% (48/54)
+no_capitals                   :  90.3% (84/93)

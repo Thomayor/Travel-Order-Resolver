@@ -1,0 +1,769 @@
+{
+  "validity_detection": {
+    "accuracy": 0.7,
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1": 0.8235294117647058,
+    "tp": 1050,
+    "tn": 0,
+    "fp": 450,
+    "fn": 0
+  },
+  "extraction_accuracy": {
+    "total_valid_orders": 1050,
+    "origin_accuracy": 0.8114285714285714,
+    "destination_accuracy": 0.7952380952380952,
+    "exact_match_accuracy": 0.6895238095238095,
+    "origin_correct": 852,
+    "destination_correct": 835,
+    "exact_match": 724
+  },
+  "by_difficulty": {
+    "easy": {
+      "total": 207,
+      "correct": 181,
+      "accuracy": 0.8743961352657005
+    },
+    "medium": {
+      "total": 631,
+      "correct": 472,
+      "accuracy": 0.7480190174326465
+    },
+    "hard": {
+      "total": 212,
+      "correct": 71,
+      "accuracy": 0.33490566037735847
+    }
+  },
+  "by_category": {
+    "misspelling": {
+      "total": 112,
+      "correct": 11,
+      "accuracy": 0.0982
+    },
+    "compound_name": {
+      "total": 89,
+      "correct": 41,
+      "accuracy": 0.4607
+    },
+    "complex_question": {
+      "total": 15,
+      "correct": 7,
+      "accuracy": 0.4667
+    },
+    "name_ambiguity": {
+      "total": 173,
+      "correct": 116,
+      "accuracy": 0.6705
+    },
+    "inverted_order": {
+      "total": 157,
+      "correct": 112,
+      "accuracy": 0.7134
+    },
+    "standard": {
+      "total": 259,
+      "correct": 221,
+      "accuracy": 0.8533
+    },
+    "no_markers": {
+      "total": 98,
+      "correct": 84,
+      "accuracy": 0.8571
+    },
+    "additional_info": {
+      "total": 54,
+      "correct": 48,
+      "accuracy": 0.8889
+    },
+    "no_capitals": {
+      "total": 93,
+      "correct": 84,
+      "accuracy": 0.9032
+    }
+  },
+  "error_samples": {
+    "compound_name": [
+      {
+        "sentenceID": 2255,
+        "sentence": "Billet Nîmes Boulogne-sur-Mer",
+        "gt_origin": "Nîmes",
+        "gt_destination": "Boulogne-sur-Mer",
+        "pred_origin": "Invalid",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 7085,
+        "sentence": "Un billet de Boulogne sur Mer pour Nice",
+        "gt_origin": "Boulogne-sur-Mer",
+        "gt_destination": "Nice",
+        "pred_origin": "Nice",
+        "pred_destination": "Nice"
+      },
+      {
+        "sentenceID": 167,
+        "sentence": "Comment aller à Boulogne-sur-Mer depuis Reims",
+        "gt_origin": "Reims",
+        "gt_destination": "Boulogne-sur-Mer",
+        "pred_origin": "Reims",
+        "pred_destination": "Reims"
+      },
+      {
+        "sentenceID": 1583,
+        "sentence": "Billet Paris La Roche-sur-Yon",
+        "gt_origin": "Paris",
+        "gt_destination": "La Roche-sur-Yon",
+        "pred_origin": "Invalid",
+        "pred_destination": "Paris"
+      },
+      {
+        "sentenceID": 4486,
+        "sentence": "Train de Nantes à Bourg en Bresse",
+        "gt_origin": "Nantes",
+        "gt_destination": "Bourg-en-Bresse",
+        "pred_origin": "Nantes",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 1659,
+        "sentence": "Je souhaite me rendre à Metz en partant de Boulogne-sur-Mer",
+        "gt_origin": "Boulogne-sur-Mer",
+        "gt_destination": "Metz",
+        "pred_origin": "Invalid",
+        "pred_destination": "Metz"
+      },
+      {
+        "sentenceID": 4180,
+        "sentence": "Billet Salon-de-Provence Lille",
+        "gt_origin": "Salon-de-Provence",
+        "gt_destination": "Lille",
+        "pred_origin": "Invalid",
+        "pred_destination": "Lille"
+      },
+      {
+        "sentenceID": 2830,
+        "sentence": "Train de Amiens à Salon de Provence",
+        "gt_origin": "Amiens",
+        "gt_destination": "Salon-de-Provence",
+        "pred_origin": "Amiens",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 3794,
+        "sentence": "Trajet Boulogne-sur-Mer Montpellier",
+        "gt_origin": "Boulogne-sur-Mer",
+        "gt_destination": "Montpellier",
+        "pred_origin": "Invalid",
+        "pred_destination": "Montpellier"
+      },
+      {
+        "sentenceID": 3508,
+        "sentence": "Je veux aller de Perpignan à Salon-de-Provence",
+        "gt_origin": "Perpignan",
+        "gt_destination": "Salon-de-Provence",
+        "pred_origin": "Perpignan",
+        "pred_destination": "Invalid"
+      }
+    ],
+    "standard": [
+      {
+        "sentenceID": 5377,
+        "sentence": "Je voudrais réserver un billet de Le Havre pour Nice",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Nice",
+        "pred_origin": "Nice",
+        "pred_destination": "Nice"
+      },
+      {
+        "sentenceID": 9729,
+        "sentence": "Je voudrais un billet de Rennes à Annecy",
+        "gt_origin": "Rennes",
+        "gt_destination": "Annecy",
+        "pred_origin": "Rennes",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 1111,
+        "sentence": "Pouvez-vous me donner les horaires de Annecy à Rennes",
+        "gt_origin": "Annecy",
+        "gt_destination": "Rennes",
+        "pred_origin": "Rennes",
+        "pred_destination": "Rennes"
+      },
+      {
+        "sentenceID": 9570,
+        "sentence": "Quel est le prix d'un billet de Annecy à Tours",
+        "gt_origin": "Annecy",
+        "gt_destination": "Tours",
+        "pred_origin": "Tours",
+        "pred_destination": "Tours"
+      },
+      {
+        "sentenceID": 1010,
+        "sentence": "Quel est le temps de trajet de Metz à Annecy",
+        "gt_origin": "Metz",
+        "gt_destination": "Annecy",
+        "pred_origin": "Metz",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 2534,
+        "sentence": "À quelle heure y a-t-il des trains de Amiens à Lille",
+        "gt_origin": "Amiens",
+        "gt_destination": "Lille",
+        "pred_origin": "Amiens",
+        "pred_destination": "Amiens"
+      },
+      {
+        "sentenceID": 8939,
+        "sentence": "Quel est le temps de trajet de Le Mans à Strasbourg",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Strasbourg",
+        "pred_origin": "Strasbourg",
+        "pred_destination": "Strasbourg"
+      },
+      {
+        "sentenceID": 4073,
+        "sentence": "À quelle heure y a-t-il des trains de Aix-en-Provence à Amiens",
+        "gt_origin": "Aix-en-Provence",
+        "gt_destination": "Amiens",
+        "pred_origin": "Aix-En-Provence",
+        "pred_destination": "Aix-En-Provence"
+      },
+      {
+        "sentenceID": 9226,
+        "sentence": "Comment aller de Annecy à Toulouse",
+        "gt_origin": "Annecy",
+        "gt_destination": "Toulouse",
+        "pred_origin": "Toulouse",
+        "pred_destination": "Toulouse"
+      },
+      {
+        "sentenceID": 6410,
+        "sentence": "Quel est l'horaire des trains au départ de Le Mans pour Grenoble",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Grenoble",
+        "pred_origin": "Grenoble",
+        "pred_destination": "Grenoble"
+      }
+    ],
+    "misspelling": [
+      {
+        "sentenceID": 4682,
+        "sentence": "Je souhaite me rendre a Clermont-Ferrand depui Dijo",
+        "gt_origin": "Dijon",
+        "gt_destination": "Clermont-Ferrand",
+        "pred_origin": "Invalid",
+        "pred_destination": "Clermont-Ferrand"
+      },
+      {
+        "sentenceID": 699,
+        "sentence": "trajet tours reeims",
+        "gt_origin": "Tours",
+        "gt_destination": "Reims",
+        "pred_origin": "Invalid",
+        "pred_destination": "Tours"
+      },
+      {
+        "sentenceID": 4502,
+        "sentence": "Commen aler de Le  Mans a Dijon",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Dijon",
+        "pred_origin": "Dijon",
+        "pred_destination": "Dijon"
+      },
+      {
+        "sentenceID": 7433,
+        "sentence": "Je veux aller de Lee Mans à Bordo",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Bordeaux",
+        "pred_origin": "Invalid",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 6540,
+        "sentence": "Je voudrais un bilet de Marsel à Tourz",
+        "gt_origin": "Marseille",
+        "gt_destination": "Tours",
+        "pred_origin": "Invalid",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 5915,
+        "sentence": "commen aler de aiix-en-provence a toulouze",
+        "gt_origin": "Aix-en-Provence",
+        "gt_destination": "Toulouse",
+        "pred_origin": "Invalid",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 7124,
+        "sentence": "Je souhaite me rendre a Dijoon depui Greenoble",
+        "gt_origin": "Grenoble",
+        "gt_destination": "Dijon",
+        "pred_origin": "Invalid",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 4462,
+        "sentence": "bilet villeurbanne clermont-ferran",
+        "gt_origin": "Villeurbanne",
+        "gt_destination": "Clermont-Ferrand",
+        "pred_origin": "Invalid",
+        "pred_destination": "Villeurbanne"
+      },
+      {
+        "sentenceID": 119,
+        "sentence": "je souhaite me rendre a metz depui bres",
+        "gt_origin": "Brest",
+        "gt_destination": "Metz",
+        "pred_origin": "Invalid",
+        "pred_destination": "Metz"
+      },
+      {
+        "sentenceID": 2453,
+        "sentence": "je veux aller de lee havre à metz",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Metz",
+        "pred_origin": "Metz",
+        "pred_destination": "Metz"
+      }
+    ],
+    "inverted_order": [
+      {
+        "sentenceID": 3834,
+        "sentence": "Cap sur Marseille depuis Lyon",
+        "gt_origin": "Lyon",
+        "gt_destination": "Marseille",
+        "pred_origin": "Lyon",
+        "pred_destination": "Lyon"
+      },
+      {
+        "sentenceID": 3721,
+        "sentence": "À Le Havre en partance de Brest",
+        "gt_origin": "Brest",
+        "gt_destination": "Le Havre",
+        "pred_origin": "Brest",
+        "pred_destination": "Brest"
+      },
+      {
+        "sentenceID": 5078,
+        "sentence": "Cap sur Aix-en-Provence depuis Annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Aix-en-Provence",
+        "pred_origin": "Invalid",
+        "pred_destination": "Aix-En-Provence"
+      },
+      {
+        "sentenceID": 5030,
+        "sentence": "Je me rends à Le Mans en provenance de Grenoble",
+        "gt_origin": "Grenoble",
+        "gt_destination": "Le Mans",
+        "pred_origin": "Grenoble",
+        "pred_destination": "Grenoble"
+      },
+      {
+        "sentenceID": 7936,
+        "sentence": "Pour aller à Angers depuis Annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Angers",
+        "pred_origin": "Invalid",
+        "pred_destination": "Angers"
+      },
+      {
+        "sentenceID": 6778,
+        "sentence": "À Perpignan en partance de Annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Perpignan",
+        "pred_origin": "Invalid",
+        "pred_destination": "Perpignan"
+      },
+      {
+        "sentenceID": 9641,
+        "sentence": "Cap sur Rennes depuis Villeurbanne",
+        "gt_origin": "Villeurbanne",
+        "gt_destination": "Rennes",
+        "pred_origin": "Villeurbanne",
+        "pred_destination": "Villeurbanne"
+      },
+      {
+        "sentenceID": 7844,
+        "sentence": "Direction Tours en partant de Saint-Étienne",
+        "gt_origin": "Saint-Étienne",
+        "gt_destination": "Tours",
+        "pred_origin": "Saint-Etienne",
+        "pred_destination": "Saint-Etienne"
+      },
+      {
+        "sentenceID": 9743,
+        "sentence": "Direction Perpignan en partant de Annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Perpignan",
+        "pred_origin": "Invalid",
+        "pred_destination": "Perpignan"
+      },
+      {
+        "sentenceID": 7903,
+        "sentence": "À Le Havre en partance de Toulon",
+        "gt_origin": "Toulon",
+        "gt_destination": "Le Havre",
+        "pred_origin": "Toulon",
+        "pred_destination": "Toulon"
+      }
+    ],
+    "no_markers": [
+      {
+        "sentenceID": 3734,
+        "sentence": "Un billet Annecy Metz",
+        "gt_origin": "Annecy",
+        "gt_destination": "Metz",
+        "pred_origin": "Invalid",
+        "pred_destination": "Metz"
+      },
+      {
+        "sentenceID": 7250,
+        "sentence": "Un billet Annecy Dijon",
+        "gt_origin": "Annecy",
+        "gt_destination": "Dijon",
+        "pred_origin": "Invalid",
+        "pred_destination": "Dijon"
+      },
+      {
+        "sentenceID": 8852,
+        "sentence": "Billet Marseille Annecy",
+        "gt_origin": "Marseille",
+        "gt_destination": "Annecy",
+        "pred_origin": "Invalid",
+        "pred_destination": "Marseille"
+      },
+      {
+        "sentenceID": 4989,
+        "sentence": "Réservation Annecy Saint-Étienne",
+        "gt_origin": "Annecy",
+        "gt_destination": "Saint-Étienne",
+        "pred_origin": "Invalid",
+        "pred_destination": "Saint-Etienne"
+      },
+      {
+        "sentenceID": 2068,
+        "sentence": "Annecy Angers ce soir",
+        "gt_origin": "Annecy",
+        "gt_destination": "Angers",
+        "pred_origin": "Invalid",
+        "pred_destination": "Angers"
+      },
+      {
+        "sentenceID": 1463,
+        "sentence": "Trajet Annecy Reims",
+        "gt_origin": "Annecy",
+        "gt_destination": "Reims",
+        "pred_origin": "Invalid",
+        "pred_destination": "Reims"
+      },
+      {
+        "sentenceID": 242,
+        "sentence": "Annecy Paris ce soir",
+        "gt_origin": "Annecy",
+        "gt_destination": "Paris",
+        "pred_origin": "Invalid",
+        "pred_destination": "Paris"
+      },
+      {
+        "sentenceID": 1109,
+        "sentence": "Le Mans Montpellier aller simple",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Montpellier",
+        "pred_origin": "Montpellier",
+        "pred_destination": "Le Mans"
+      },
+      {
+        "sentenceID": 4452,
+        "sentence": "Le Mans Reims ce soir",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Reims",
+        "pred_origin": "Reims",
+        "pred_destination": "Le Mans"
+      },
+      {
+        "sentenceID": 1642,
+        "sentence": "Billet Le Mans Dijon",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Dijon",
+        "pred_origin": "Dijon",
+        "pred_destination": "Le Mans"
+      }
+    ],
+    "name_ambiguity": [
+      {
+        "sentenceID": 7248,
+        "sentence": "je voyage avec lourdes et rémy de aix-en-provence vers florence",
+        "gt_origin": "Aix-en-Provence",
+        "gt_destination": "Florence",
+        "pred_origin": "Aix-En-Provence",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 4260,
+        "sentence": "retrouver lourdes à florence en partant de annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Florence",
+        "pred_origin": "Invalid",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 9675,
+        "sentence": "clément, paris et moi voulons aller de le havre à marseille",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Marseille",
+        "pred_origin": "Marseille",
+        "pred_destination": "Marseille"
+      },
+      {
+        "sentenceID": 142,
+        "sentence": "Avec mon ami Paris je voudrais aller de Brest à Florence",
+        "gt_origin": "Brest",
+        "gt_destination": "Florence",
+        "pred_origin": "Brest",
+        "pred_destination": "Brest"
+      },
+      {
+        "sentenceID": 5097,
+        "sentence": "Avec mon ami Lourdes je voudrais aller de Annecy à Nîmes",
+        "gt_origin": "Annecy",
+        "gt_destination": "Nîmes",
+        "pred_origin": "Nimes",
+        "pred_destination": "Nimes"
+      },
+      {
+        "sentenceID": 9325,
+        "sentence": "Avec mes amis Albert et Lourdes, je voudrais aller de Dijon à Florence",
+        "gt_origin": "Dijon",
+        "gt_destination": "Florence",
+        "pred_origin": "Dijon",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 3258,
+        "sentence": "Mon ami Rémy m'attend à Dijon je pars de Annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Dijon",
+        "pred_origin": "Invalid",
+        "pred_destination": "Dijon"
+      },
+      {
+        "sentenceID": 8892,
+        "sentence": "Mon ami Paris m'attend à Florence je pars de Le Havre",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Florence",
+        "pred_origin": "Le Havre",
+        "pred_destination": "Le Havre"
+      },
+      {
+        "sentenceID": 7558,
+        "sentence": "Je vais à Florence voir mon ami Paris en partant de Aix-en-Provence",
+        "gt_origin": "Aix-en-Provence",
+        "gt_destination": "Florence",
+        "pred_origin": "Aix-En-Provence",
+        "pred_destination": "Paris"
+      },
+      {
+        "sentenceID": 409,
+        "sentence": "retrouver rémy à le havre en partant de toulouse",
+        "gt_origin": "Toulouse",
+        "gt_destination": "Le Havre",
+        "pred_origin": "Toulouse",
+        "pred_destination": "Toulouse"
+      }
+    ],
+    "no_capitals": [
+      {
+        "sentenceID": 8582,
+        "sentence": "je souhaite me rendre a annecy depuis dijon",
+        "gt_origin": "Dijon",
+        "gt_destination": "Annecy",
+        "pred_origin": "Dijon",
+        "pred_destination": "Dijon"
+      },
+      {
+        "sentenceID": 519,
+        "sentence": "un train de annecy a limoges",
+        "gt_origin": "Annecy",
+        "gt_destination": "Limoges",
+        "pred_origin": "Limoges",
+        "pred_destination": "Limoges"
+      },
+      {
+        "sentenceID": 6259,
+        "sentence": "un train de le mans a paris",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Paris",
+        "pred_origin": "Paris",
+        "pred_destination": "Paris"
+      },
+      {
+        "sentenceID": 6712,
+        "sentence": "je voudrais un billet de annecy a nantes",
+        "gt_origin": "Annecy",
+        "gt_destination": "Nantes",
+        "pred_origin": "Nantes",
+        "pred_destination": "Nantes"
+      },
+      {
+        "sentenceID": 6294,
+        "sentence": "trajet le havre nice",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Nice",
+        "pred_origin": "Nice",
+        "pred_destination": "Le Havre"
+      },
+      {
+        "sentenceID": 6568,
+        "sentence": "de annecy vers marseille",
+        "gt_origin": "Annecy",
+        "gt_destination": "Marseille",
+        "pred_origin": "Marseille",
+        "pred_destination": "Marseille"
+      },
+      {
+        "sentenceID": 377,
+        "sentence": "un train de limoges a annecy",
+        "gt_origin": "Limoges",
+        "gt_destination": "Annecy",
+        "pred_origin": "Limoges",
+        "pred_destination": "Invalid"
+      },
+      {
+        "sentenceID": 5644,
+        "sentence": "comment aller a amiens depuis annecy",
+        "gt_origin": "Annecy",
+        "gt_destination": "Amiens",
+        "pred_origin": "Invalid",
+        "pred_destination": "Amiens"
+      },
+      {
+        "sentenceID": 529,
+        "sentence": "je voudrais un billet de le havre a lyon",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Lyon",
+        "pred_origin": "Lyon",
+        "pred_destination": "Lyon"
+      }
+    ],
+    "complex_question": [
+      {
+        "sentenceID": 3668,
+        "sentence": "Y a-t-il des trains directs entre Le Mans et Lyon",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Lyon",
+        "pred_origin": "Lyon",
+        "pred_destination": "Le Mans"
+      },
+      {
+        "sentenceID": 414,
+        "sentence": "À quelle heure part le premier train de Saint-Étienne pour Reims",
+        "gt_origin": "Saint-Étienne",
+        "gt_destination": "Reims",
+        "pred_origin": "Saint-Etienne",
+        "pred_destination": "Saint-Etienne"
+      },
+      {
+        "sentenceID": 8340,
+        "sentence": "Quel est le moyen le plus rapide pour aller de Annecy à Clermont-Ferrand",
+        "gt_origin": "Annecy",
+        "gt_destination": "Clermont-Ferrand",
+        "pred_origin": "Clermont-Ferrand",
+        "pred_destination": "Clermont-Ferrand"
+      },
+      {
+        "sentenceID": 4210,
+        "sentence": "Quel est le moyen le plus rapide pour aller de Villeurbanne à Limoges",
+        "gt_origin": "Villeurbanne",
+        "gt_destination": "Limoges",
+        "pred_origin": "Villeurbanne",
+        "pred_destination": "Villeurbanne"
+      },
+      {
+        "sentenceID": 6445,
+        "sentence": "Combien de correspondances entre Le Mans et Lille",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Lille",
+        "pred_origin": "Lille",
+        "pred_destination": "Le Mans"
+      },
+      {
+        "sentenceID": 2116,
+        "sentence": "Quel est le moyen le plus rapide pour aller de Perpignan à Nice",
+        "gt_origin": "Perpignan",
+        "gt_destination": "Nice",
+        "pred_origin": "Perpignan",
+        "pred_destination": "Perpignan"
+      },
+      {
+        "sentenceID": 5895,
+        "sentence": "Quel est le moyen le plus rapide pour aller de Bordeaux à Saint-Étienne",
+        "gt_origin": "Bordeaux",
+        "gt_destination": "Saint-Étienne",
+        "pred_origin": "Bordeaux",
+        "pred_destination": "Bordeaux"
+      },
+      {
+        "sentenceID": 4039,
+        "sentence": "À quelle heure part le premier train de Paris pour Amiens",
+        "gt_origin": "Paris",
+        "gt_destination": "Amiens",
+        "pred_origin": "Paris",
+        "pred_destination": "Paris"
+      }
+    ],
+    "additional_info": [
+      {
+        "sentenceID": 8102,
+        "sentence": "Un billet Le Havre Nantes pour ce soir",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Nantes",
+        "pred_origin": "Nantes",
+        "pred_destination": "Le Havre"
+      },
+      {
+        "sentenceID": 6622,
+        "sentence": "Un billet Le Havre Brest pour 2 adultes",
+        "gt_origin": "Le Havre",
+        "gt_destination": "Brest",
+        "pred_origin": "Brest",
+        "pred_destination": "Le Havre"
+      },
+      {
+        "sentenceID": 1764,
+        "sentence": "Billet Annecy Bordeaux pour 3 personnes",
+        "gt_origin": "Annecy",
+        "gt_destination": "Bordeaux",
+        "pred_origin": "Invalid",
+        "pred_destination": "Bordeaux"
+      },
+      {
+        "sentenceID": 5930,
+        "sentence": "Un billet Paris Annecy pour ce soir",
+        "gt_origin": "Paris",
+        "gt_destination": "Annecy",
+        "pred_origin": "Invalid",
+        "pred_destination": "Paris"
+      },
+      {
+        "sentenceID": 4488,
+        "sentence": "Un billet Annecy Le Havre pour ce soir",
+        "gt_origin": "Annecy",
+        "gt_destination": "Le Havre",
+        "pred_origin": "Invalid",
+        "pred_destination": "Le Havre"
+      },
+      {
+        "sentenceID": 9443,
+        "sentence": "Quel est le prix d'un aller simple de Le Mans à Marseille",
+        "gt_origin": "Le Mans",
+        "gt_destination": "Marseille",
+        "pred_origin": "Marseille",
+        "pred_destination": "Marseille"
+      }
+    ]
+  }
+}
