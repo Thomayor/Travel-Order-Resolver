@@ -1,0 +1,12 @@
+sentenceID,Departure,Step1,Step2,Step3,Step4,Destination
+1,Paris,Lyon,,,,
+2,Toulouse,Marseille,,,,
+3,Nantes,Bordeaux,,,,
+4,Lille,Lille,Nice,,,
+5,Paris,Paris,Paris,Strasbourg,,
+6,INVALID,INVALID,,,,
+7,INVALID,INVALID,,,,
+8,Aix-en-Provence,Marseille,Montpellier,Bordeaux,Surgères,La Rochelle
+9,INVALID,INVALID,,,,
+10,INVALID,INVALID,,,,
+11,Paris,Lyon,,,,

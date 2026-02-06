@@ -12,6 +12,64 @@ Ce projet vise à construire un système NLP capable de :
 
 ---
 
+## 🚀 Quick Start
+
+### Utilisation du CLI (Command-Line Interface)
+
+Le système dispose d'un CLI principal pour traiter vos fichiers d'entrée :
+
+```bash
+# Mode simple : Extraction NLP seulement (origine + destination)
+python main.py -i data/input.csv -o data/output.csv
+
+# Mode complet : Avec calcul d'itinéraires
+python main.py -i data/input.csv -o data/output.csv -m full-pipeline
+
+# Mode verbeux pour le debugging
+python main.py -i data/input.csv -o data/output.csv -v
+```
+
+#### Format d'entrée
+
+Fichier CSV avec deux colonnes :
+```csv
+sentenceID,sentence
+1,Je veux aller de Paris à Lyon
+2,Train pour Marseille depuis Toulouse
+3,Quel temps fait-il?
+```
+
+#### Format de sortie
+
+**Mode NLP (`nlp-only`)** :
+```csv
+sentenceID,Departure,Destination
+1,Paris,Lyon
+2,Toulouse,Marseille
+3,INVALID,INVALID
+```
+
+**Mode complet (`full-pipeline`)** :
+```csv
+sentenceID,Departure,Step1,Step2,...,Destination
+1,Paris,Lyon
+2,Toulouse,Montpellier,Marseille
+3,INVALID,INVALID
+```
+
+#### Options du CLI
+
+| Option | Court | Description | Défaut |
+|--------|-------|-------------|--------|
+| `--input` | `-i` | Fichier CSV d'entrée | Requis |
+| `--output` | `-o` | Fichier CSV de sortie | Requis |
+| `--mode` | `-m` | Mode : `nlp-only` ou `full-pipeline` | `nlp-only` |
+| `--verbose` | `-v` | Activer les logs détaillés | `False` |
+| `--help` | `-h` | Afficher l'aide | - |
+| `--version` | | Afficher la version | - |
+
+---
+
 ## 📁 Structure du Projet
 
 ```
