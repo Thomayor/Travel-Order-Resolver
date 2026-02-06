@@ -1,0 +1,65 @@
+======================================================================
+EVALUATION REPORT: Baseline
+======================================================================
+
+Dataset: Test Set
+Date: 2026-02-06 15:40:17
+Total sentences: 1500
+
+SUMMARY
+----------------------------------------------------------------------
+Validity Detection Accuracy: 83.47%
+Extraction Accuracy (Valid Orders): 67.81%
+
+VALIDITY DETECTION
+----------------------------------------------------------------------
+Accuracy:  83.47%
+Precision: 89.94%
+Recall:    86.00%
+F1 Score:  87.93%
+
+Confusion Matrix:
+  True Positives (valid->valid):      903
+  True Negatives (invalid->invalid):  349
+  False Positives (invalid->valid):   101
+  False Negatives (valid->invalid):   147
+
+EXTRACTION ACCURACY (Valid Orders Only)
+----------------------------------------------------------------------
+Total valid orders: 1050
+
+Origin accuracy:       862 / 1050 (82.10%)
+Destination accuracy:  821 / 1050 (78.19%)
+Exact match accuracy:  712 / 1050 (67.81%)
+
+PERFORMANCE BY DIFFICULTY
+----------------------------------------------------------------------
+EASY: 87.32% (186/213)
+MEDIUM: 71.45% (468/655)
+HARD: 31.87% (58/182)
+
+PERFORMANCE BY CATEGORY (Top 10 Weaknesses)
+----------------------------------------------------------------------
+misspelling                   :   1.2% (1/84)
+complex_question              :  34.8% (8/23)
+compound_name                 :  41.3% (38/92)
+inverted_order                :  65.2% (86/132)
+name_ambiguity                :  66.5% (119/179)
+additional_info               :  82.4% (56/68)
+standard                      :  82.9% (237/286)
+no_capitals                   :  87.0% (67/77)
+no_markers                    :  91.7% (100/109)
+
+ROBUSTNESS METRICS
+----------------------------------------------------------------------
+complex_question              :  34.8%
+compound_name                 :  41.3%
+difficulty_easy               :  87.3%
+difficulty_hard               :  31.9%
+difficulty_medium             :  71.5%
+inverted_order                :  65.2%
+misspelling                   :   1.2%
+name_ambiguity                :  66.5%
+no_capitals                   :  87.0%
+
+======================================================================

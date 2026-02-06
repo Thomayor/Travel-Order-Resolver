@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "model_name": "Baseline",
+    "dataset_name": "Test Set",
+    "timestamp": "2026-02-06T15:40:17.254916",
+    "additional_info": {
+      "Total sentences": 1500
+    }
+  },
+  "metrics": {
+    "validity_detection": {
+      "accuracy": 0.8346666666666667,
+      "precision": 0.899402390438247,
+      "recall": 0.86,
+      "f1": 0.8792599805258033,
+      "confusion_matrix": {
+        "tp": 903,
+        "tn": 349,
+        "fp": 101,
+        "fn": 147
+      }
+    },
+    "extraction_accuracy": {
+      "origin": 0.820952380952381,
+      "destination": 0.7819047619047619,
+      "exact_match": 0.6780952380952381,
+      "counts": {
+        "origin_correct": 862,
+        "destination_correct": 821,
+        "exact_match": 712,
+        "total_valid_orders": 1050
+      }
+    },
+    "robustness": {
+      "no_capitals": 0.8701298701298701,
+      "misspelling": 0.011904761904761904,
+      "name_ambiguity": 0.664804469273743,
+      "compound_name": 0.41304347826086957,
+      "complex_question": 0.34782608695652173,
+      "inverted_order": 0.6515151515151515,
+      "difficulty_easy": 0.8732394366197183,
+      "difficulty_medium": 0.7145038167938931,
+      "difficulty_hard": 0.31868131868131866
+    },
+    "by_difficulty": {
+      "easy": {
+        "total": 213,
+        "correct": 186,
+        "accuracy": 0.8732394366197183
+      },
+      "medium": {
+        "total": 655,
+        "correct": 468,
+        "accuracy": 0.7145038167938931
+      },
+      "hard": {
+        "total": 182,
+        "correct": 58,
+        "accuracy": 0.31868131868131866
+      }
+    },
+    "by_category": {
+      "additional_info": {
+        "total": 68,
+        "correct": 56,
+        "accuracy": 0.8235294117647058
+      },
+      "complex_question": {
+        "total": 23,
+        "correct": 8,
+        "accuracy": 0.34782608695652173
+      },
+      "compound_name": {
+        "total": 92,
+        "correct": 38,
+        "accuracy": 0.41304347826086957
+      },
+      "inverted_order": {
+        "total": 132,
+        "correct": 86,
+        "accuracy": 0.6515151515151515
+      },
+      "misspelling": {
+        "total": 84,
+        "correct": 1,
+        "accuracy": 0.011904761904761904
+      },
+      "name_ambiguity": {
+        "total": 179,
+        "correct": 119,
+        "accuracy": 0.664804469273743
+      },
+      "no_capitals": {
+        "total": 77,
+        "correct": 67,
+        "accuracy": 0.8701298701298701
+      },
+      "no_markers": {
+        "total": 109,
+        "correct": 100,
+        "accuracy": 0.9174311926605505
+      },
+      "standard": {
+        "total": 286,
+        "correct": 237,
+        "accuracy": 0.8286713286713286
+      }
+    }
+  }
+}
