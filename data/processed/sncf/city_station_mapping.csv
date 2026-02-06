@@ -26,8 +26,8 @@ aimargues,Aimargues,87775833
 aime,Aime - La Plagne,87741769
 aiserey,Aiserey,87713636
 aix,Aix-les-Bains le Revard,87741132
-aix-en-provence,Aix-en-Provence,87751404
 aix-en-provence,Aix-en-Provence TGV,87319012
+aix-en-provence,Aix-en-Provence,87751404
 aixe,Aixe-sur-Vienne,87592667
 alai,Alaï,87722744
 albens,Albens,87746115
@@ -62,8 +62,8 @@ andelot,Andelot-en-Montagne,87715102
 andorre,Andorre – l’Hospitalet,87611517
 andresy,Andrésy,87381491
 andrezieux,Andrézieux-Bouthéon,87726406
-angers,Angers Maître École,87484048
 angers,Angers Saint-Laud,87484006
+angers,Angers Maître École,87484048
 angerville,Angerville,87543090
 angouleme,Angoulême,87583005
 angoulins sur mer,Angoulins sur Mer,87485102
@@ -226,8 +226,8 @@ bedarrides,Bédarrides,87765198
 bedous,Bedous,87672774
 begles,Bègles,87581801
 beillant,Beillant,87491076
-belfort,Belfort,87184002
 belfort,Belfort - Montbéliard TGV,87300822
+belfort,Belfort,87184002
 bellac,Bellac,87592485
 belle-isle,Belle-Isle - Bégard,87473165
 bellegarde,Bellegarde-sur-Valserine,87745000
@@ -331,9 +331,9 @@ boulouris sur mer,Boulouris sur Mer,87757534
 bouray,Bouray,87545178
 bourbourg,Bourbourg,87281279
 bourg,Bourg-Bruche,87214775
+bourg,Bourg-en-Bresse,87743005
 bourg,Bourg-Madame,87784876
 bourg,Bourg-Saint-Maurice,87741793
-bourg,Bourg-en-Bresse,87743005
 bourges,Bourges,87576207
 bourgneuf,Bourgneuf-en-Retz,87481242
 bourgoin,Bourgoin-Jallieu,87723429
@@ -517,11 +517,11 @@ chasse,Chasse-sur-Rhône,87722561
 chasseneuil,Chasseneuil-du-Poitou,87575225
 chasserades,Chasseradès,87775148
 chateau,Château-Arnoux-Saint-Auban,87751230
+chateau,Château-du-Loir,87396606
 chateau,Château-Gaillard,87543066
+chateau,Château-l'Évêque,87595165
 chateau,Château-Renault,87574665
 chateau,Château-Thierry,87116582
-chateau,Château-du-Loir,87396606
-chateau,Château-l'Évêque,87595165
 chateaubourg,Châteaubourg,87471524
 chateaubriant,Châteaubriant,87481648;87590372
 chateaudun,Châteaudun,87545756
@@ -1103,8 +1103,8 @@ l'etang les sablons,L'Etang les Sablons,87726109
 l'herbergement,L'Herbergement - Les Brouzils,87486126
 l'hermitage,L'Hermitage - Mordelles,87471060
 l'hopital,L'Hôpital-du-Grosbois,87718528
-l'isle,L'Isle-Jourdain,87611806
 l'isle,L'Isle-d'Abeau,87761239
+l'isle,L'Isle-Jourdain,87611806
 l'isle,L'Isle-sur-le-Doubs,87184572
 l'isle-adam,L'Isle-Adam - Parmain,87276527
 l'isle-sur-la-sorgue,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,87765479
@@ -1302,8 +1302,8 @@ le chambon,Le Chambon-Feugerolles,87726711
 le chenay gagny,Le Chénay Gagny,87113522
 le coteau,Le Coteau,87726828
 le coudray,Le Coudray-Montceaux,87681635
-le creusot,Le Creusot,87694000
 le creusot,Le Creusot - Montceau-les-Mines - Montchanin TGV,87694109
+le creusot,Le Creusot,87694000
 le croisic,Le Croisic,87481788
 le dorat,Le Dorat,87592543
 le dramont,Le Dramont,87757542
@@ -1422,8 +1422,8 @@ liesle,Liesle,87718130
 lieusaint,Lieusaint - Moissy,87682153
 lievin,Liévin,87345041
 liguge,Ligugé,87575274
-lille,Lille CHR,87109306
 lille,Lille Europe,87223263
+lille,Lille CHR,87109306
 lille,Lille Flandres,87286005
 lille,Lille Porte de Douai,87287250
 lillers,Lillers,87342238
@@ -1506,11 +1506,11 @@ luzenac,Luzenac - Garanou,87611558
 luzy,Luzy,87696534
 luçon,Luçon,87486258
 lycee henri sellier,Lycée Henri Sellier,87988717
+lyon,Lyon Saint-Exupéry TGV,87762906
+lyon,Lyon Part Dieu,87723197
 lyon,Lyon Gorge de Loup,87721175
 lyon,Lyon Jean Macé,87282624
-lyon,Lyon Part Dieu,87723197
 lyon,Lyon Perrache,87722025
-lyon,Lyon Saint-Exupéry TGV,87762906
 lyon,Lyon Saint-Paul,87721159
 lyon,Lyon Vaise,87721001
 macau,Macau,87581199
@@ -1571,8 +1571,8 @@ marquixanes,Marquixanes,87784629
 marsac,Marsac,87597625
 marsac,Marsac-sur-L'isle,87595207
 marseillan plage,Marseillan Plage,87781294
-marseille,Marseille Blancarde,87751081
 marseille,Marseille Saint-Charles,87751008
+marseille,Marseille Blancarde,87751081
 marseille,Marseille-en-Beauvaisis,87313726
 marssac,Marssac-sur-Tarn,87615419
 martigne,Martigné-Ferchaud,87471367
@@ -1904,12 +1904,12 @@ paray,Paray-le-Monial,87694687
 parc des expositions,Parc des Expositions,87271486
 parempuyre,Parempuyre,87581710
 parent,Parent - Coudes - Champeix,87734194
-paris,Paris Austerlitz,87547026;87547000
-paris,Paris Bercy Bourgogne - Pays d'Auvergne,87686667
-paris,Paris Est,87113001
 paris,Paris Gare de Lyon,87686006;87686030
 paris,Paris Gare du Nord,87271023;87271007;87271031
 paris,Paris Montparnasse,87391003;87391011;87391102
+paris,Paris Austerlitz,87547026;87547000
+paris,Paris Bercy Bourgogne - Pays d'Auvergne,87686667
+paris,Paris Est,87113001
 paris,Paris Saint-Lazare,87384008
 parsac,Parsac - Gouzon,87597724
 pas des lanciers,Pas des Lanciers,87753285
@@ -1970,25 +1970,25 @@ podensac,Podensac,87582734
 pointe de grave,Pointe de Grave,87581397
 poissy,Poissy,87386573
 poitiers,Poitiers,87575001
-poix,Poix-Terron,87172171
 poix,Poix-de-Picardie,87313395
+poix,Poix-Terron,87172171
 polienas,Poliénas,87761742
 poligny,Poligny,87718189
 polliat,Polliat,87725846
 pomas,Pomas,87615146
 pompey,Pompey,87141788
 pons,Pons,87491100
+pont,Pont-d'Ain,87743120
+pont,Pont-de-Buis,87474056
+pont,Pont-de-l'Arche,87415661
+pont,Pont-de-Veyle,87725804
+pont,Pont-du-Château,87734087
+pont,Pont-l'Évêque,87444349
 pont,Pont-Melvez,87473520
 pont,Pont-Remy,87313130
 pont,Pont-Saint-Esprit,87764555
 pont,Pont-Saint-Vincent,87141523
 pont,Pont-Sainte-Maxence,87276329
-pont,Pont-d'Ain,87743120
-pont,Pont-de-Buis,87474056
-pont,Pont-de-Veyle,87725804
-pont,Pont-de-l'Arche,87415661
-pont,Pont-du-Château,87734087
-pont,Pont-l'Évêque,87444349
 pont,Pont-sur-Yonne,87683136
 pont,Pont-à-Mousson,87141820
 pont,Pont-à-Vendin,87345264
@@ -2021,11 +2021,11 @@ porchefontaine,Porchefontaine,87393165
 pornic,Pornic,87481283
 pornichet,Pornichet,87481747
 port,Port-Brillet,87478750
-port,Port-Sainte-Marie,87586107
-port,Port-Vendres,87784264
 port,Port-de-Bouc,87753459
 port,Port-de-Piles,87575076
 port,Port-la-Nouvelle,87781062
+port,Port-Sainte-Marie,87586107
+port,Port-Vendres,87784264
 port boulet,Port Boulet,87571794
 port-saint-pere,Port-Saint-Père - Saint-Mars,87481218
 porte,Porté-Puymorens,87611509
@@ -2160,10 +2160,15 @@ saillat,Saillat - Chassenon,87592717
 sain,Sain-Bel,87721605
 saincaize,Saincaize-Meauce,87696260
 sains,Sains-du-Nord,87295709
+saint,Saint-Jean-d'Angély,87491357
+saint,Saint-Jean-de-Losne,87713651
+saint,Saint-Jean-de-Maurienne Arvan,87742320
+saint,Saint-Jean-de-Verges,87611624
+saint,Saint-Jean-Pied-de-Port,87673723
 saint,Saint-Agnan,87694851
 saint,Saint-Agne,87611301
-saint,Saint-Amand-Longpré,87574640
 saint,Saint-Amand-les-Eaux,87343103
+saint,Saint-Amand-Longpré,87574640
 saint,Saint-Amarin,87182600
 saint,Saint-Amour,87718296
 saint,Saint-André-de-Corcy,87723734
@@ -2228,11 +2233,6 @@ saint,Saint-Hilaire-de-Chaléons,87481234
 saint,Saint-Hilaire-de-Riez,87486563
 saint,Saint-Hilaire-sur-Helpe,87297531
 saint,Saint-Jacques-de-la-Lande,87471052
-saint,Saint-Jean-Pied-de-Port,87673723
-saint,Saint-Jean-d'Angély,87491357
-saint,Saint-Jean-de-Losne,87713651
-saint,Saint-Jean-de-Maurienne Arvan,87742320
-saint,Saint-Jean-de-Verges,87611624
 saint,Saint-Jodard,87726851
 saint,Saint-Jory,87611657
 saint,Saint-Joseph le Castellas,87759316
@@ -2290,7 +2290,6 @@ saint,Saint-Paterne-Racan,87571554
 saint,Saint-Patrice,87571810
 saint,Saint-Paul-de-Varax,87723783
 saint,Saint-Piat,87394148
-saint,Saint-Pierre-Quiberon,87476440
 saint,Saint-Pierre-d'Albigny,87741223
 saint,Saint-Pierre-d'Aurillac,87582833
 saint,Saint-Pierre-de-Chignac,87595520
@@ -2298,6 +2297,7 @@ saint,Saint-Pierre-des-Corps,87571240
 saint,Saint-Pierre-en-Faucigny,87746313
 saint,Saint-Pierre-la-Cour,87478768
 saint,Saint-Pierre-le-Moûtier,87696294
+saint,Saint-Pierre-Quiberon,87476440
 saint,Saint-Pierre-sur-Dives,87444216
 saint,Saint-Pol-sur-Ternoise,87342337
 saint,Saint-Priest,87723353
@@ -2627,8 +2627,8 @@ velars,Velars-sur-Ouche,87712331
 velines,Vélines,87584177
 vendenheim,Vendenheim,87212118
 vendeuvre,Vendeuvre-sur-Barse,87118257
-vendome,Vendôme,87574558
 vendome,Vendôme - Villiers-sur-Loir TGV,87571216
+vendome,Vendôme,87574558
 venerque,Venerque - Vernet,87611392
 venissieux,Vénissieux,87723320
 verdun,Verdun,87175778
@@ -2689,12 +2689,12 @@ villefranche,Villefranche-sur-Saône,87721332
 villefranque,Villefranque,87673616
 villeherviers,Villeherviers,87576165
 villenave,Villenave-d'Ornon,87581835
-villeneuve,Villeneuve-Loubet,87756304
-villeneuve,Villeneuve-Saint-Georges,87681825
 villeneuve,Villeneuve-la-Comtesse,87491258
 villeneuve,Villeneuve-la-Guyard,87683102
 villeneuve,Villeneuve-le-Roi,87545277
+villeneuve,Villeneuve-Loubet,87756304
 villeneuve,Villeneuve-lès-Maguelone,87773515
+villeneuve,Villeneuve-Saint-Georges,87681825
 villeneuve,Villeneuve-sur-Allier,87696310
 villeneuve,Villeneuve-sur-Yonne,87683219
 villeneuve triage,Villeneuve Triage,87681809

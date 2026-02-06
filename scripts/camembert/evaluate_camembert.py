@@ -283,7 +283,7 @@ def main():
     print("=" * 80)
 
     # Paths
-    test_path = project_root / 'data' / 'test_ner.json'
+    test_path = project_root / 'data' / 'processed' / 'test_ner.json'
     model_path = project_root / 'models' / 'camembert-ner'
     results_dir = project_root / 'results'
     results_dir.mkdir(exist_ok=True)
