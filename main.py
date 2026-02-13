@@ -7,25 +7,34 @@ It integrates NLP extraction with pathfinding to process French travel orders.
 
 Usage:
     python main.py --input input.csv --output output.csv
-    python main.py --input input.csv --output output.csv --mode nlp-only
-    python main.py --input input.csv --output output.csv --mode full-pipeline --verbose
+    python main.py --input input.csv --output output.csv --mode full-pipeline
+    python main.py --input input.csv --output output.csv --model camembert
+    python main.py --interactive
+    python main.py --interactive --model camembert
 
 Arguments:
-    --input, -i       Input CSV file (sentenceID,sentence)
-    --output, -o      Output CSV file
-    --mode, -m        Processing mode: nlp-only or full-pipeline (default: nlp-only)
-    --verbose, -v     Enable verbose logging
-    --help, -h        Show this help message
+    --input, -i         Input CSV file (sentenceID,sentence)
+    --output, -o        Output CSV file
+    --mode, -m          Processing mode: nlp-only or full-pipeline (default: nlp-only)
+    --model             NLP model: baseline or camembert (default: baseline)
+    --model-path        Path to CamemBERT model directory (default: models/camembert-ner)
+    --interactive, -I   Interactive mode: enter sentences directly in terminal
+    --verbose, -v       Enable verbose logging
+    --help, -h          Show this help message
 
 Examples:
-    # Extract origin and destination only
+    # Baseline extraction
     python main.py -i data/input.csv -o data/output.csv
 
-    # Find complete routes with pathfinding
-    python main.py -i data/input.csv -o data/output.csv -m full-pipeline
+    # CamemBERT extraction (96.76% accuracy)
+    python main.py -i data/input.csv -o data/output.csv --model camembert
 
-    # Verbose mode for debugging
-    python main.py -i data/input.csv -o data/output.csv -v
+    # Full pipeline with CamemBERT
+    python main.py -i data/input.csv -o data/output.csv --model camembert -m full-pipeline
+
+    # Interactive mode
+    python main.py --interactive
+    python main.py -I --model camembert
 """
 
 import sys
@@ -37,7 +46,7 @@ from typing import Optional
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
-from src.utils.pipeline import process_pipeline
+from src.utils.pipeline import process_pipeline, load_nlp_model, _extract, DEFAULT_MODEL_PATH
 
 
 def setup_logging(verbose: bool = False) -> logging.Logger:
@@ -163,11 +172,11 @@ For more information, see docs/PIPELINE_INTEGRATION.md
         """
     )
 
-    # Required arguments
+    # Input/output arguments (required unless --interactive)
     parser.add_argument(
         '--input', '-i',
         type=str,
-        required=True,
+        default=None,
         metavar='FILE',
         help='Input CSV file (format: sentenceID,sentence)'
     )
@@ -175,7 +184,7 @@ For more information, see docs/PIPELINE_INTEGRATION.md
     parser.add_argument(
         '--output', '-o',
         type=str,
-        required=True,
+        default=None,
         metavar='FILE',
         help='Output CSV file'
     )
@@ -187,6 +196,28 @@ For more information, see docs/PIPELINE_INTEGRATION.md
         choices=['nlp-only', 'full-pipeline'],
         default='nlp-only',
         help='Processing mode (default: nlp-only)'
+    )
+
+    parser.add_argument(
+        '--model',
+        type=str,
+        choices=['baseline', 'camembert'],
+        default='baseline',
+        help='NLP model to use (default: baseline)'
+    )
+
+    parser.add_argument(
+        '--model-path',
+        type=str,
+        default=DEFAULT_MODEL_PATH,
+        metavar='PATH',
+        help=f'Path to CamemBERT model directory (default: {DEFAULT_MODEL_PATH})'
+    )
+
+    parser.add_argument(
+        '--interactive', '-I',
+        action='store_true',
+        help='Interactive mode: enter sentences directly in terminal (no CSV needed)'
     )
 
     parser.add_argument(
@@ -221,6 +252,64 @@ def map_mode_to_pipeline(cli_mode: str) -> str:
     return mode_mapping[cli_mode]
 
 
+def run_interactive(model_type: str, model_path: str, logger: logging.Logger) -> int:
+    """
+    Interactive mode: process sentences entered directly in the terminal.
+
+    Args:
+        model_type: 'baseline' or 'camembert'
+        model_path: Path to CamemBERT model (only used when model_type='camembert')
+        logger: Logger instance
+
+    Returns:
+        Exit code (0 for success, 1 for error)
+    """
+    print(f"Loading NLP model: {model_type}...")
+    try:
+        model = load_nlp_model(model_type, model_path)
+    except Exception as e:
+        logger.error(f"Failed to load model: {e}")
+        print(f"\n[ERROR] Failed to load model: {e}")
+        return 1
+
+    print(f"\nModel loaded successfully ({model_type})")
+    print("Enter French travel order sentences to extract origin and destination.")
+    print("Type 'quit' or 'exit' to stop.\n")
+
+    while True:
+        try:
+            sentence = input("Sentence: ").strip()
+
+            if not sentence:
+                continue
+
+            if sentence.lower() in ['quit', 'exit', 'q']:
+                print("\nGoodbye!")
+                break
+
+            result = _extract(sentence, model, model_type)
+            origin = result.get('origin')
+            destination = result.get('destination')
+            valid = result.get('valid', False)
+
+            print()
+            if valid and origin and destination:
+                print(f"  Origin:      {origin}")
+                print(f"  Destination: {destination}")
+                print(f"  Result:      {origin} -> {destination}")
+            else:
+                print("  Result: INVALID (not a travel order or missing cities)")
+            print()
+
+        except KeyboardInterrupt:
+            print("\n\nInterrupted. Goodbye!")
+            break
+        except Exception as e:
+            print(f"\n[ERROR] {e}\n")
+
+    return 0
+
+
 def main() -> int:
     """
     Main entry point for the CLI application.
@@ -240,13 +329,21 @@ def main() -> int:
     print("=" * 70)
     print()
 
-    # Validate input file
+    # Interactive mode: no CSV needed
+    if args.interactive:
+        return run_interactive(args.model, args.model_path, logger)
+
+    # Validate input/output for CSV mode
+    if not args.input or not args.output:
+        logger.error("--input and --output are required unless --interactive is used")
+        print("[ERROR] --input and --output are required unless --interactive is used")
+        return 1
+
     logger.info("Validating input file...")
     if not validate_input_file(args.input, logger):
         logger.error("Input validation failed")
         return 1
 
-    # Validate output file
     logger.info("Validating output path...")
     if not validate_output_file(args.output, logger):
         logger.error("Output validation failed")
@@ -257,20 +354,25 @@ def main() -> int:
 
     # Print configuration
     print(f"Configuration:")
-    print(f"  Input:  {args.input}")
-    print(f"  Output: {args.output}")
-    print(f"  Mode:   {args.mode} ({pipeline_mode})")
-    print(f"  Verbose: {args.verbose}")
+    print(f"  Input:       {args.input}")
+    print(f"  Output:      {args.output}")
+    print(f"  Mode:        {args.mode} ({pipeline_mode})")
+    print(f"  NLP model:   {args.model}")
+    if args.model == 'camembert':
+        print(f"  Model path:  {args.model_path}")
+    print(f"  Verbose:     {args.verbose}")
     print()
 
     # Run pipeline
     try:
-        logger.info(f"Starting pipeline in {args.mode} mode...")
+        logger.info(f"Starting pipeline in {args.mode} mode with {args.model} model...")
 
         stats = process_pipeline(
             input_file=args.input,
             output_file=args.output,
-            mode=pipeline_mode
+            mode=pipeline_mode,
+            nlp_model=args.model,
+            model_path=args.model_path,
         )
 
         # Print success message
