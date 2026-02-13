@@ -3,9 +3,10 @@ Post-processing Module for Entity Extraction
 
 Extracts origin and destination entities from token-level NER predictions.
 Handles multi-word city names (e.g., "Port-Boulet", "Aix-en-Provence").
+Validates extracted entities against the SNCF gazetteer with fuzzy matching.
 """
 
-from typing import List, Tuple, Optional
+from typing import Dict, List, Optional, Tuple
 
 
 def extract_entities(tokens: List[str], labels: List[str]) -> Tuple[Optional[str], Optional[str]]:
@@ -178,6 +179,91 @@ def extract_all_entities(tokens: List[str], labels: List[str]) -> List[Tuple[str
         entities.append((entity_text, current_type, start_idx, len(tokens)))
 
     return entities
+
+
+def validate_against_gazetteer(entity: str, gazetteer) -> Optional[str]:
+    """
+    Validate an extracted entity against the SNCF gazetteer.
+
+    First tries an exact (normalized) match, then falls back to fuzzy matching
+    to handle residual misspellings from the NER model.
+
+    Args:
+        entity: Extracted city name (may be misspelled or unnormalized)
+        gazetteer: Gazetteer instance with is_valid_location / fuzzy_match methods
+
+    Returns:
+        Canonical city name if found, None otherwise
+    """
+    if not entity:
+        return None
+
+    # Exact match (normalized)
+    canonical = gazetteer.get_canonical_name(entity)
+    if canonical:
+        return canonical
+
+    # Fuzzy match fallback (Levenshtein distance ≤ 2)
+    matches = gazetteer.fuzzy_match(entity, max_distance=2)
+    if matches:
+        return matches[0][0]  # Best match (closest distance)
+
+    return None
+
+
+def fuzzy_match(entity: str, candidates: List[str], max_distance: int = 2) -> Optional[str]:
+    """
+    Find the closest matching candidate for an entity string.
+
+    Uses Levenshtein distance on normalized forms (no accents, lowercase).
+
+    Args:
+        entity: Input string to match
+        candidates: List of candidate strings to compare against
+        max_distance: Maximum edit distance to accept
+
+    Returns:
+        Best matching candidate, or None if no match within max_distance
+    """
+    from .preprocessing import preprocess_for_matching
+
+    if not entity or not candidates:
+        return None
+
+    entity_norm = preprocess_for_matching(entity)
+    best_match = None
+    best_distance = max_distance + 1
+
+    for candidate in candidates:
+        candidate_norm = preprocess_for_matching(candidate)
+        distance = _levenshtein(entity_norm, candidate_norm)
+        if distance < best_distance:
+            best_distance = distance
+            best_match = candidate
+
+    return best_match if best_distance <= max_distance else None
+
+
+def _levenshtein(s1: str, s2: str) -> int:
+    """Compute Levenshtein edit distance between two strings."""
+    if s1 == s2:
+        return 0
+    if not s1:
+        return len(s2)
+    if not s2:
+        return len(s1)
+
+    prev = list(range(len(s2) + 1))
+    for i, c1 in enumerate(s1, 1):
+        curr = [i]
+        for j, c2 in enumerate(s2, 1):
+            curr.append(min(
+                prev[j] + 1,        # deletion
+                curr[j - 1] + 1,    # insertion
+                prev[j - 1] + (c1 != c2),  # substitution
+            ))
+        prev = curr
+    return prev[-1]
 
 
 def validate_extraction(origin: Optional[str], destination: Optional[str]) -> bool:
