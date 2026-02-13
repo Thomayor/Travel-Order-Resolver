@@ -53,6 +53,11 @@ def get_graph_and_mapping():
 def load_split(split: str) -> pd.DataFrame:
     return pd.read_csv(f"data/processed/{split}.csv", encoding="utf-8")
 
+@st.cache_data
+def load_stations_geo() -> pd.DataFrame:
+    df = pd.read_csv("data/processed/sncf/stations_clean.csv", encoding="utf-8")
+    return df[["uic_code", "city_name", "latitude", "longitude"]].dropna()
+
 
 def extract(sentence: str, model, model_type: str) -> dict:
     from src.utils.pipeline import _extract
@@ -64,38 +69,110 @@ def _display_route(cities: list, total_time: float):
     m = int(total_time % 60)
 
     col_a, col_b, col_c = st.columns(3)
-    col_a.metric("Depart",  cities[0])
-    col_b.metric("Arrivee", cities[-1])
-    col_c.metric("Duree",   f"{h}h{m:02d}" if h else f"{m} min")
+    col_a.metric("Depart",   cities[0])
+    col_b.metric("Arrivee",  cities[-1])
+    col_c.metric("Duree",    f"{h}h{m:02d}" if h else f"{m} min")
+    st.caption(f"{len(cities)} gares  •  {len(cities) - 2} arret(s) intermediaire(s)")
 
-    st.markdown("#### Gares traversees")
-    route_str = " -> ".join(
-        f"**{c}**" if i in (0, len(cities) - 1) else c
-        for i, c in enumerate(cities)
-    )
-    st.markdown(route_str)
+    # ── Carte géographique ──────────────────────────────────────────────────
+    stations_geo = load_stations_geo()
+    geo_map = stations_geo.set_index("city_name")
 
-    if len(cities) > 2:
-        st.markdown(f"*{len(cities) - 2} arret(s) intermediaire(s)*")
+    route_coords = []
+    for city in cities:
+        # Try exact match, then case-insensitive
+        if city in geo_map.index:
+            row = geo_map.loc[city]
+        else:
+            matches = stations_geo[
+                stations_geo["city_name"].str.lower() == city.lower()
+            ]
+            row = matches.iloc[0] if not matches.empty else None
 
-    fig = go.Figure(go.Scatter(
-        x=list(range(len(cities))),
-        y=[0] * len(cities),
-        mode="markers+lines+text",
-        text=cities,
-        textposition="top center",
-        marker=dict(size=12, color=["#1E88E5" if i in (0, len(cities)-1) else "#90CAF9"
-                                    for i in range(len(cities))]),
-        line=dict(color="#1E88E5", width=2),
-    ))
-    fig.update_layout(
-        height=180,
-        showlegend=False,
-        yaxis=dict(visible=False, range=[-1, 2]),
-        xaxis=dict(visible=False),
-        margin=dict(l=10, r=10, t=40, b=10),
-    )
-    st.plotly_chart(fig, use_container_width=True)
+        if row is not None:
+            lat = float(row["latitude"]) if not isinstance(row, type(None)) else None
+            lon = float(row["longitude"]) if not isinstance(row, type(None)) else None
+            # handle duplicate city_name (multiple stations per city)
+            if hasattr(lat, '__len__'):
+                lat, lon = float(row["latitude"].iloc[0]), float(row["longitude"].iloc[0])
+            route_coords.append({"city": city, "lat": lat, "lon": lon})
+        else:
+            route_coords.append({"city": city, "lat": None, "lon": None})
+
+    coords_df = pd.DataFrame(route_coords).dropna(subset=["lat", "lon"])
+
+    if not coords_df.empty:
+        fig_map = go.Figure()
+
+        # Line connecting route stations
+        fig_map.add_trace(go.Scattergeo(
+            lat=coords_df["lat"].tolist(),
+            lon=coords_df["lon"].tolist(),
+            mode="lines",
+            line=dict(width=3, color="#1E88E5"),
+            name="Route",
+            showlegend=False,
+        ))
+
+        # All stations (grey background dots)
+        fig_map.add_trace(go.Scattergeo(
+            lat=stations_geo["latitude"].tolist(),
+            lon=stations_geo["longitude"].tolist(),
+            mode="markers",
+            marker=dict(size=3, color="#CCCCCC", opacity=0.4),
+            name="Reseau SNCF",
+            hoverinfo="skip",
+            showlegend=True,
+        ))
+
+        # Route stops
+        colors = [
+            "#FF3B30" if i == 0 else (
+            "#FF3B30" if i == len(coords_df) - 1 else "#1E88E5")
+            for i in range(len(coords_df))
+        ]
+        sizes = [
+            16 if i in (0, len(coords_df) - 1) else 10
+            for i in range(len(coords_df))
+        ]
+        fig_map.add_trace(go.Scattergeo(
+            lat=coords_df["lat"].tolist(),
+            lon=coords_df["lon"].tolist(),
+            mode="markers+text",
+            marker=dict(size=sizes, color=colors, symbol="circle"),
+            text=coords_df["city"].tolist(),
+            textposition="top right",
+            textfont=dict(size=11),
+            name="Gares",
+            showlegend=False,
+        ))
+
+        fig_map.update_geos(
+            scope="europe",
+            center=dict(
+                lat=coords_df["lat"].mean(),
+                lon=coords_df["lon"].mean(),
+            ),
+            projection_scale=6,
+            showland=True, landcolor="#F5F5F5",
+            showcoastlines=True, coastlinecolor="#AAAAAA",
+            showborders=True, bordercolor="#CCCCCC",
+            showframe=False,
+        )
+        fig_map.update_layout(
+            height=480,
+            margin=dict(l=0, r=0, t=10, b=0),
+            legend=dict(x=0.01, y=0.99, bgcolor="rgba(255,255,255,0.7)"),
+        )
+        st.plotly_chart(fig_map, use_container_width=True)
+    else:
+        st.warning("Coordonnees GPS introuvables pour cet itineraire.")
+
+    # ── Liste des gares ─────────────────────────────────────────────────────
+    with st.expander("Voir toutes les gares"):
+        for i, city in enumerate(cities):
+            icon = "🔴" if i in (0, len(cities) - 1) else "🔵"
+            st.markdown(f"{icon} **{city}**" if i in (0, len(cities) - 1) else f"{icon} {city}")
 
 
 def find_route(origin: str, destination: str):
