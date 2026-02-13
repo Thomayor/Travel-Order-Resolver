@@ -80,24 +80,18 @@ def _display_route(cities: list, total_time: float):
 
     route_coords = []
     for city in cities:
-        # Try exact match, then case-insensitive
-        if city in geo_map.index:
-            row = geo_map.loc[city]
-        else:
-            matches = stations_geo[
-                stations_geo["city_name"].str.lower() == city.lower()
-            ]
-            row = matches.iloc[0] if not matches.empty else None
-
-        if row is not None:
-            lat = float(row["latitude"]) if not isinstance(row, type(None)) else None
-            lon = float(row["longitude"]) if not isinstance(row, type(None)) else None
-            # handle duplicate city_name (multiple stations per city)
-            if hasattr(lat, '__len__'):
-                lat, lon = float(row["latitude"].iloc[0]), float(row["longitude"].iloc[0])
-            route_coords.append({"city": city, "lat": lat, "lon": lon})
-        else:
+        matches = stations_geo[
+            stations_geo["city_name"].str.lower() == city.lower()
+        ]
+        if matches.empty:
             route_coords.append({"city": city, "lat": None, "lon": None})
+        else:
+            row = matches.iloc[0]
+            route_coords.append({
+                "city": city,
+                "lat": float(row["latitude"]),
+                "lon": float(row["longitude"]),
+            })
 
     coords_df = pd.DataFrame(route_coords).dropna(subset=["lat", "lon"])
 
