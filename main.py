@@ -11,6 +11,9 @@ Usage:
     python main.py --input input.csv --output output.csv --model camembert
     python main.py --interactive
     python main.py --interactive --model camembert
+    python main.py --evaluate --split val
+    python main.py --evaluate --split test --model camembert
+    python main.py --prepare-data
 
 Arguments:
     --input, -i         Input CSV file (sentenceID,sentence)
@@ -19,6 +22,10 @@ Arguments:
     --model             NLP model: baseline or camembert (default: baseline)
     --model-path        Path to CamemBERT model directory (default: models/camembert-ner)
     --interactive, -I   Interactive mode: enter sentences directly in terminal
+    --evaluate, -e      Evaluate model on a dataset split (val or test)
+    --split             Dataset split to evaluate on: val or test (default: val)
+    --data-dir          Directory containing processed data (default: data/processed)
+    --prepare-data      Tokenise word-level NER data for CamemBERT fine-tuning
     --verbose, -v       Enable verbose logging
     --help, -h          Show this help message
 
@@ -35,6 +42,13 @@ Examples:
     # Interactive mode
     python main.py --interactive
     python main.py -I --model camembert
+
+    # Evaluate on validation set
+    python main.py --evaluate --split val
+    python main.py --evaluate --split test --model camembert
+
+    # Prepare tokenised data for CamemBERT fine-tuning
+    python main.py --prepare-data
 """
 
 import sys
@@ -226,6 +240,35 @@ For more information, see docs/PIPELINE_INTEGRATION.md
     )
 
     parser.add_argument(
+        '--evaluate', '-e',
+        action='store_true',
+        help='Evaluate model on a labelled dataset split (val or test)'
+    )
+
+    parser.add_argument(
+        '--split',
+        type=str,
+        choices=['val', 'test'],
+        default='val',
+        metavar='SPLIT',
+        help='Dataset split to evaluate on: val or test (default: val)'
+    )
+
+    parser.add_argument(
+        '--data-dir',
+        type=str,
+        default='data/processed',
+        metavar='DIR',
+        help='Directory containing processed data splits (default: data/processed)'
+    )
+
+    parser.add_argument(
+        '--prepare-data',
+        action='store_true',
+        help='Tokenise word-level NER data into subword format for CamemBERT fine-tuning'
+    )
+
+    parser.add_argument(
         '--verbose', '-v',
         action='store_true',
         help='Enable verbose logging'
@@ -351,6 +394,171 @@ def run_interactive(model_type: str, model_path: str, logger: logging.Logger) ->
     return 0
 
 
+def run_evaluate(
+    model_type: str,
+    model_path: str,
+    split: str,
+    data_dir: str,
+    logger: logging.Logger,
+) -> int:
+    """
+    Evaluate a model on a labelled dataset split.
+
+    Loads the ground-truth CSV (val.csv / test.csv), runs NLP extraction on
+    every sentence, then computes precision/recall/F1 and per-category accuracy
+    using src.evaluation.metrics.evaluate_model().
+
+    Args:
+        model_type: 'baseline' or 'camembert'
+        model_path: Path to CamemBERT model directory
+        split: 'val' or 'test'
+        data_dir: Directory containing processed CSVs
+        logger: Logger instance
+
+    Returns:
+        Exit code (0 for success, 1 for error)
+    """
+    import pandas as pd
+    from src.evaluation.metrics import evaluate_model
+
+    split_file = Path(data_dir) / f"{split}.csv"
+    if not split_file.exists():
+        logger.error(f"Split file not found: {split_file}")
+        print(f"[ERROR] Split file not found: {split_file}")
+        return 1
+
+    print(f"Loading model: {model_type}...")
+    try:
+        model = load_nlp_model(model_type, model_path)
+    except Exception as e:
+        print(f"[ERROR] Failed to load model: {e}")
+        return 1
+
+    print(f"Loading split: {split_file} ...")
+    ground_truth = pd.read_csv(str(split_file), encoding='utf-8')
+    total = len(ground_truth)
+    print(f"  {total} sentences found.")
+    print()
+
+    # Run inference on every sentence
+    print("Running inference...")
+    rows = []
+    for _, row in ground_truth.iterrows():
+        result = _extract(str(row['sentence']), model, model_type)
+        rows.append({
+            'sentenceID': row['sentenceID'],
+            'origin': result.get('origin') or 'INVALID',
+            'destination': result.get('destination') or 'INVALID',
+        })
+
+    predictions = pd.DataFrame(rows)
+
+    # Evaluate
+    print("Computing metrics...")
+    result = evaluate_model(
+        predictions=predictions,
+        ground_truth=ground_truth,
+        id_column='sentenceID',
+        origin_col_pred='origin',
+        dest_col_pred='destination',
+        origin_col_gt='origin',
+        dest_col_gt='destination',
+        validity_col_gt='is_valid',
+        category_column='category',
+        difficulty_column='difficulty',
+    )
+
+    # Display results
+    print()
+    print("=" * 70)
+    print(f"EVALUATION RESULTS  [{model_type.upper()} / {split.upper()} SET]")
+    print("=" * 70)
+    print()
+    print("Extraction Accuracy (valid orders only):")
+    print(f"  Origin accuracy:      {result.origin_accuracy:.2%}  ({result.origin_correct}/{result.total_valid_orders})")
+    print(f"  Destination accuracy: {result.destination_accuracy:.2%}  ({result.destination_correct}/{result.total_valid_orders})")
+    print(f"  Exact match:          {result.exact_match_accuracy:.2%}  ({result.exact_match}/{result.total_valid_orders})")
+    print()
+    print("Validity Detection:")
+    print(f"  Accuracy:   {result.validity_accuracy:.2%}")
+    print(f"  Precision:  {result.validity_precision:.2%}")
+    print(f"  Recall:     {result.validity_recall:.2%}")
+    print(f"  F1:         {result.validity_f1:.2%}")
+    print(f"  TP={result.true_positives}  TN={result.true_negatives}  FP={result.false_positives}  FN={result.false_negatives}")
+    print()
+
+    if result.by_difficulty:
+        print("By Difficulty:")
+        for difficulty, stats in sorted(result.by_difficulty.items()):
+            bar = '#' * int(stats['accuracy'] * 20)
+            print(f"  {difficulty:<8} {stats['accuracy']:>6.1%}  [{bar:<20}]  ({stats['correct']}/{stats['total']})")
+        print()
+
+    if result.robustness_scores:
+        category_scores = {
+            k: v for k, v in result.robustness_scores.items()
+            if not k.startswith('difficulty_') and v is not None
+        }
+        if category_scores:
+            print("By Category:")
+            for cat, score in sorted(category_scores.items(), key=lambda x: -(x[1] or 0)):
+                bar = '#' * int(score * 20)
+                print(f"  {cat:<22} {score:>6.1%}  [{bar:<20}]")
+            print()
+
+    print("=" * 70)
+    return 0
+
+
+def run_prepare_data(
+    data_dir: str,
+    model_path: str,
+    logger: logging.Logger,
+) -> int:
+    """
+    Tokenise word-level NER data into CamemBERT subword format.
+
+    Uses src.nlp.data_preparation.DataPreparator to convert
+    {split}_ner.json -> {split}_tokens.json (JSONL, HuggingFace-compatible).
+
+    Args:
+        data_dir: Directory containing {split}_ner.json files
+        model_path: CamemBERT model name or path for the tokenizer
+        logger: Logger instance
+
+    Returns:
+        Exit code (0 for success, 1 for error)
+    """
+    try:
+        from src.nlp.data_preparation import DataPreparator
+    except ImportError as e:
+        print(f"[ERROR] transformers/datasets not installed: {e}")
+        print("Run: pip install transformers datasets")
+        return 1
+
+    print(f"Loading tokenizer from: {model_path} ...")
+    try:
+        preparator = DataPreparator(model_name=model_path)
+    except Exception as e:
+        # Fall back to camembert-base if path is a fine-tuned model dir without tokenizer config
+        logger.warning(f"Failed with model_path, falling back to camembert-base: {e}")
+        preparator = DataPreparator(model_name="camembert-base")
+
+    print()
+    all_stats = preparator.prepare_all(data_dir=data_dir)
+
+    print()
+    print("=" * 70)
+    print("DATA PREPARATION COMPLETE")
+    print("=" * 70)
+    for split_name, stats in all_stats.items():
+        print(f"  {split_name:<6}  {stats['num_examples']:>5} examples  "
+              f"avg_subwords={stats['avg_subword_len']:.1f}  "
+              f"truncated={stats['num_truncated']}")
+    print()
+    return 0
+
+
 def main() -> int:
     """
     Main entry point for the CLI application.
@@ -373,6 +581,14 @@ def main() -> int:
     # Interactive mode: no CSV needed
     if args.interactive:
         return run_interactive(args.model, args.model_path, logger)
+
+    # Evaluate mode
+    if args.evaluate:
+        return run_evaluate(args.model, args.model_path, args.split, args.data_dir, logger)
+
+    # Prepare data mode
+    if args.prepare_data:
+        return run_prepare_data(args.data_dir, args.model_path, logger)
 
     # Validate input/output for CSV mode
     if not args.input or not args.output:
