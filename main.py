@@ -46,7 +46,12 @@ from typing import Optional
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
-from src.utils.pipeline import process_pipeline, load_nlp_model, _extract, DEFAULT_MODEL_PATH
+from src.utils.pipeline import (
+    process_pipeline, load_nlp_model, _extract, DEFAULT_MODEL_PATH,
+    load_city_mapping, map_city_to_uic
+)
+from src.pathfinding.graph_loader import get_or_build_graph, get_station_info
+from src.pathfinding.algorithms import dijkstra, InvalidStationError, NoPathError
 
 
 def setup_logging(verbose: bool = False) -> logging.Logger:
@@ -255,6 +260,7 @@ def map_mode_to_pipeline(cli_mode: str) -> str:
 def run_interactive(model_type: str, model_path: str, logger: logging.Logger) -> int:
     """
     Interactive mode: process sentences entered directly in the terminal.
+    Shows NLP extraction AND full train route.
 
     Args:
         model_type: 'baseline' or 'camembert'
@@ -272,8 +278,17 @@ def run_interactive(model_type: str, model_path: str, logger: logging.Logger) ->
         print(f"\n[ERROR] Failed to load model: {e}")
         return 1
 
-    print(f"\nModel loaded successfully ({model_type})")
-    print("Enter French travel order sentences to extract origin and destination.")
+    print("Loading railway network...")
+    try:
+        city_mapping = load_city_mapping()
+        graph = get_or_build_graph()
+    except Exception as e:
+        logger.error(f"Failed to load railway network: {e}")
+        print(f"\n[ERROR] Failed to load railway network: {e}")
+        return 1
+
+    print(f"\nReady ({model_type} model + SNCF network loaded)")
+    print("Enter French travel order sentences.")
     print("Type 'quit' or 'exit' to stop.\n")
 
     while True:
@@ -293,12 +308,38 @@ def run_interactive(model_type: str, model_path: str, logger: logging.Logger) ->
             valid = result.get('valid', False)
 
             print()
-            if valid and origin and destination:
-                print(f"  Origin:      {origin}")
-                print(f"  Destination: {destination}")
-                print(f"  Result:      {origin} -> {destination}")
-            else:
+            if not valid or not origin or not destination:
                 print("  Result: INVALID (not a travel order or missing cities)")
+                print()
+                continue
+
+            print(f"  Origin:      {origin}")
+            print(f"  Destination: {destination}")
+
+            # Pathfinding
+            origin_uic = map_city_to_uic(origin, city_mapping)
+            dest_uic = map_city_to_uic(destination, city_mapping)
+
+            if not origin_uic:
+                print(f"  Route:  [city '{origin}' not found in SNCF network]")
+            elif not dest_uic:
+                print(f"  Route:  [city '{destination}' not found in SNCF network]")
+            else:
+                try:
+                    path, total_time = dijkstra(graph, origin_uic, dest_uic)
+                    # Convert UIC codes to city names
+                    route = []
+                    for uic in path:
+                        info = get_station_info(graph, uic)
+                        if info:
+                            route.append(info.get('city_name', info['station_name']))
+                        else:
+                            route.append(uic)
+                    print(f"  Route:  {' -> '.join(route)}")
+                    print(f"  Time:   {total_time:.0f} min")
+                except (InvalidStationError, NoPathError) as e:
+                    print(f"  Route:  [no path found: {e}]")
+
             print()
 
         except KeyboardInterrupt:
