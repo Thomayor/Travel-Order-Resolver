@@ -150,7 +150,7 @@ def _display_route(cities: list, total_time: float):
             projection_scale=6,
             showland=True, landcolor="#F5F5F5",
             showcoastlines=True, coastlinecolor="#AAAAAA",
-            showborders=True, bordercolor="#CCCCCC",
+            showcountries=True, countrycolor="#CCCCCC",
             showframe=False,
         )
         fig_map.update_layout(
