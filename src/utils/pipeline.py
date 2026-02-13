@@ -31,6 +31,8 @@ from pathlib import Path
 from src.nlp.baseline import BaselineExtractor, load_extractor
 from src.nlp.preprocessing import preprocess_for_matching
 
+DEFAULT_MODEL_PATH = "models/camembert-ner"
+
 # Pathfinding module imports
 from src.pathfinding.graph_loader import get_or_build_graph, get_station_info
 from src.pathfinding.algorithms import dijkstra, InvalidStationError, NoPathError
@@ -50,6 +52,49 @@ logger = logging.getLogger(__name__)
 class PipelineError(Exception):
     """Base exception for pipeline errors."""
     pass
+
+
+def load_nlp_model(model_type: str = 'baseline', model_path: str = DEFAULT_MODEL_PATH):
+    """
+    Load the NLP extraction model.
+
+    Args:
+        model_type: 'baseline' (rule-based) or 'camembert' (transformer)
+        model_path: Path to fine-tuned CamemBERT model (only used when model_type='camembert')
+
+    Returns:
+        Extractor instance (BaselineExtractor or CamembertNER)
+    """
+    if model_type == 'camembert':
+        try:
+            from src.nlp.transformer import load_pretrained_model
+        except ImportError as e:
+            raise PipelineError(
+                "transformers/torch not installed. Run: pip install torch transformers"
+            ) from e
+        logger.info(f"  Loading CamemBERT model from: {model_path}")
+        return load_pretrained_model(model_path)
+    else:
+        logger.info("  Loading baseline (rule-based) extractor...")
+        return load_extractor()
+
+
+def _extract(sentence: str, model, model_type: str) -> Dict:
+    """
+    Unified extraction interface for both baseline and CamemBERT.
+
+    Adapts the different return formats into a single dict:
+    {'origin': str|None, 'destination': str|None, 'valid': bool}
+    """
+    if model_type == 'camembert':
+        _, _, origin, destination = model.predict(sentence)
+        return {
+            'origin': origin,
+            'destination': destination,
+            'valid': bool(origin and destination),
+        }
+    else:
+        return model.extract(sentence)
 
 
 class CityMappingError(PipelineError):
@@ -188,10 +233,11 @@ def handle_errors(sentence_id: str, error: Exception) -> Dict:
 def process_single_sentence(
     sentence_id: str,
     sentence: str,
-    extractor: BaselineExtractor,
+    extractor,
     city_mapping: Dict[str, str],
     graph,
-    include_route: bool = False
+    include_route: bool = False,
+    model_type: str = 'baseline',
 ) -> Dict:
     """
     Process a single sentence through the complete pipeline.
@@ -257,7 +303,7 @@ def process_single_sentence(
 
     try:
         # Step 1: Extract origin and destination using NLP
-        nlp_result = extractor.extract(sentence)
+        nlp_result = _extract(sentence, extractor, model_type)
         result['origin'] = nlp_result.get('origin')
         result['destination'] = nlp_result.get('destination')
         result['valid'] = nlp_result.get('valid', False)
@@ -360,6 +406,8 @@ def process_pipeline(
     input_file: str,
     output_file: str,
     mode: str = 'nlp',
+    nlp_model: str = 'baseline',
+    model_path: str = DEFAULT_MODEL_PATH,
     cache_path: str = "models/train_network.pkl",
     stations_file: str = "data/processed/sncf/stations_clean.csv",
     connections_file: str = "data/processed/sncf/connections_final_fixed.csv",
@@ -440,8 +488,8 @@ def process_pipeline(
         logger.info("Loading resources...")
 
         # Load NLP extractor
-        logger.info("  Loading NLP extractor...")
-        extractor = load_extractor()
+        extractor = load_nlp_model(nlp_model, model_path)
+        logger.info(f"✓ NLP model loaded: {nlp_model}")
 
         # Load city mapping
         logger.info("  Loading city-to-station mapping...")
@@ -480,7 +528,8 @@ def process_pipeline(
                 extractor=extractor,
                 city_mapping=city_mapping,
                 graph=graph,
-                include_route=(mode == 'route')
+                include_route=(mode == 'route'),
+                model_type=nlp_model,
             )
 
             results.append(result)
