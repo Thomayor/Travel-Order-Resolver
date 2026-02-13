@@ -60,4 +60,10 @@ __all__ = [
     'load_extractor'
 ]
 
+try:
+    from .data_preparation import DataPreparator, prepare_split, prepare_all_splits
+    __all__ += ['DataPreparator', 'prepare_split', 'prepare_all_splits']
+except ImportError:
+    pass  # transformers not installed
+
 __version__ = '0.1.0'
