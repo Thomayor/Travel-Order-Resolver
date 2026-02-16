@@ -81,6 +81,10 @@ class CamembertNER:
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model.to(self.device)
 
+        # Load gazetteer for post-processing validation
+        from .gazetteer import load_gazetteer
+        self.gazetteer = load_gazetteer()
+
         print(f"Initialized CamemBERT NER on device: {self.device}")
 
     def load_ner_dataset(self, json_path: str) -> Dataset:
@@ -335,8 +339,19 @@ class CamembertNER:
             previous_word_idx = word_idx
 
         # Extract entities using post-processing
-        from .postprocessing import extract_entities
-        origin, destination = extract_entities(tokens, predicted_labels)
+        from .postprocessing import extract_entities, validate_against_gazetteer
+        origin_raw, destination_raw = extract_entities(tokens, predicted_labels)
+
+        # Validate and correct entities with fuzzy matching (Levenshtein ≤ 2)
+        # This handles residual misspellings: "parisi" → "Paris"
+        # If validation fails (ambiguous like "aix"), keep raw entity for suggestion system
+        origin = validate_against_gazetteer(origin_raw, self.gazetteer) if origin_raw else None
+        if origin is None and origin_raw:
+            origin = origin_raw  # Keep raw entity for suggest_city() in CLI
+
+        destination = validate_against_gazetteer(destination_raw, self.gazetteer) if destination_raw else None
+        if destination is None and destination_raw:
+            destination = destination_raw  # Keep raw entity for suggest_city() in CLI
 
         return tokens, predicted_labels, origin, destination
 

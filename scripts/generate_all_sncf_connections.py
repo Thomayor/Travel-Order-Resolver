@@ -60,19 +60,20 @@ def load_route_types(gtfs_dir: Path) -> dict[str, str]:
     routes = pd.read_csv(gtfs_dir / "routes.txt")
     trips  = pd.read_csv(gtfs_dir / "trips.txt")[["trip_id", "route_id"]]
 
-    def classify(name: str) -> str:
-        if pd.isna(name):
+    def classify(short_name: str, long_name: str) -> str:
+        # Check both short_name and long_name for keywords
+        text = f"{short_name} {long_name}".upper() if not pd.isna(long_name) else str(short_name).upper()
+        if pd.isna(short_name):
             return "TRAIN"
-        n = str(name).upper()
-        if any(k in n for k in ("TGV", "INOUI", "OUIGO", "EUROSTAR", "THALYS")):
+        if any(k in text for k in ("TGV", "INOUI", "OUIGO", "EUROSTAR", "THALYS")):
             return "TGV"
-        if any(k in n for k in ("IC", "INTERCIT", "INTERCITÉS")):
+        if any(k in text for k in ("IC", "INTERCIT", "INTERCITÉS")):
             return "IC"
-        if "TER" in n:
+        if "TER" in text:
             return "TER"
         return "TRAIN"
 
-    routes["line_code"] = routes["route_short_name"].apply(classify)
+    routes["line_code"] = routes.apply(lambda row: classify(row["route_short_name"], row["route_long_name"]), axis=1)
     route_map = dict(zip(routes["route_id"], routes["line_code"]))
     trip_map  = dict(zip(trips["trip_id"], trips["route_id"]))
     return route_map, trip_map
@@ -131,7 +132,7 @@ def build_connections_from_gtfs(gtfs_dir: Path) -> pd.DataFrame:
             if orig_uic == dest_uic:
                 continue
             dur_sec = group.at[i+1, "dep_sec"] - group.at[i, "dep_sec"]
-            if dur_sec <= 0 or dur_sec > 7200:   # ignore 0 or >2h single segments
+            if dur_sec <= 0 or dur_sec > 28800:   # ignore 0 or >8h single segments (allow long-distance TGV)
                 continue
             records.append((orig_uic, dest_uic, round(dur_sec / 60, 1), line_code))
 
@@ -155,7 +156,17 @@ def build_connections_from_gtfs(gtfs_dir: Path) -> pd.DataFrame:
     )
 
     agg["duration_minutes"] = agg["duration_minutes"].round().astype(int)
-    return agg
+
+    # FILTER: Keep only meaningful connections to avoid local-train noise
+    # Keep: ALL TGV/IC connections + high-frequency TER/TRAIN (≥10 trips/day)
+    filtered = agg[
+        (agg["line_code"].isin(["TGV", "IC"])) |
+        (agg["trip_count"] >= 10)
+    ].copy()
+
+    print(f"  Filtered: {len(agg):,} -> {len(filtered):,} connections (removed low-frequency local)")
+
+    return filtered
 
 
 def enrich_with_station_names(df: pd.DataFrame, gtfs_dir: Path) -> pd.DataFrame:

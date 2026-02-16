@@ -321,16 +321,30 @@ class Gazetteer:
 
 def load_gazetteer(filepath: Optional[str] = None) -> Gazetteer:
     """
-    Load and return a Gazetteer instance.
+    Load and return a Gazetteer instance with SNCF station names.
 
     Args:
         filepath: Optional path to JSON file to load additional data
 
     Returns:
-        Gazetteer instance with default French cities
+        Gazetteer instance loaded from SNCF stations
     """
+    import pandas as pd
+
     gaz = Gazetteer()
 
+    # Load from SNCF stations_clean.csv using station_name (not city_name which is broken)
+    stations_file = Path("data/processed/sncf/stations_clean.csv")
+    if stations_file.exists():
+        try:
+            df = pd.read_csv(stations_file, encoding='utf-8')
+            # Use station_name column (city_name is broken for Saint-* cities)
+            for station_name in df['station_name'].dropna().unique():
+                gaz.add_city(station_name)
+        except Exception as e:
+            print(f"Warning: Could not load gazetteer from {stations_file}: {e}")
+
+    # Load additional data from JSON if provided
     if filepath and Path(filepath).exists():
         gaz.load_from_json(filepath)
 

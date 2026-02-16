@@ -55,7 +55,7 @@ import sys
 import argparse
 import logging
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Dict
 
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
@@ -300,6 +300,75 @@ def map_mode_to_pipeline(cli_mode: str) -> str:
     return mode_mapping[cli_mode]
 
 
+def suggest_city(city_name: str, city_mapping: Dict[str, str], model) -> Optional[str]:
+    """
+    Suggest alternative cities when exact match not found.
+
+    Shows all possible matches with connection status and lets user choose.
+
+    Args:
+        city_name: City name that wasn't found
+        city_mapping: City to UIC mapping
+        model: NLP model (has gazetteer attribute if CamemBERT)
+
+    Returns:
+        UIC code of selected city, or None if no valid selection
+    """
+    from src.nlp.postprocessing import get_all_matches
+    from src.nlp.preprocessing import preprocess_for_matching
+
+    # Get gazetteer from model
+    if hasattr(model, 'gazetteer'):
+        gazetteer = model.gazetteer
+    else:
+        from src.nlp.gazetteer import load_gazetteer
+        gazetteer = load_gazetteer()
+
+    # Get all possible matches
+    matches = get_all_matches(city_name, gazetteer)
+
+    if not matches:
+        return None
+
+    if len(matches) == 1:
+        # Only one match, use it directly
+        selected = matches[0]
+        uic = map_city_to_uic(selected, city_mapping)
+        if uic:
+            print(f"  → Corrected '{city_name}' to '{selected}'")
+        return uic
+
+    # Multiple matches - ask user to choose
+    print(f"\n  Ambiguous: '{city_name}' - Multiple matches found:")
+
+    valid_options = []
+    for i, city in enumerate(matches, 1):
+        uic = map_city_to_uic(city, city_mapping)
+        connected = "✓ connected" if uic else "✗ not connected"
+        print(f"    {i}. {city} ({connected})")
+        valid_options.append((i, city, uic))
+
+    # Ask user to choose
+    while True:
+        try:
+            choice = input(f"  Choose [1-{len(matches)}] or 'skip': ").strip().lower()
+
+            if choice in ['skip', 's', '']:
+                return None
+
+            choice_num = int(choice)
+            if 1 <= choice_num <= len(matches):
+                _, selected_city, selected_uic = valid_options[choice_num - 1]
+                print(f"  → Selected: {selected_city}")
+                return selected_uic
+            else:
+                print(f"  Invalid choice. Enter 1-{len(matches)} or 'skip'")
+        except ValueError:
+            print(f"  Invalid input. Enter 1-{len(matches)} or 'skip'")
+        except KeyboardInterrupt:
+            return None
+
+
 def run_interactive(model_type: str, model_path: str, logger: logging.Logger) -> int:
     """
     Interactive mode: process sentences entered directly in the terminal.
@@ -359,23 +428,63 @@ def run_interactive(model_type: str, model_path: str, logger: logging.Logger) ->
             print(f"  Origin:      {origin}")
             print(f"  Destination: {destination}")
 
-            # Pathfinding
+            # Try to map cities to UIC codes
             origin_uic = map_city_to_uic(origin, city_mapping)
             dest_uic = map_city_to_uic(destination, city_mapping)
 
+            # Check for ambiguous short names (≤ 15 chars) EVEN if mapping found
+            # Example: "aix" → Aix-les-Bains OR Aix-en-Provence
+            # Example: "saint lau" → Saint-Laurent-du-Var OR Saint-Laurent-d'Aigouze
+            # Example: "Saint-Denis" → Saint-Denis OR Saint-Dizier
+            from src.nlp.postprocessing import get_all_matches
+
+            if origin_uic and len(origin) <= 15:
+                gazetteer = model.gazetteer if hasattr(model, 'gazetteer') else None
+                if gazetteer:
+                    matches = get_all_matches(origin, gazetteer)
+                    if len(matches) > 1:
+                        # Ambiguous - let user choose
+                        origin_uic = suggest_city(origin, city_mapping, model)
+                        if not origin_uic:
+                            print(f"  Route:  [city '{origin}' not found in SNCF network]")
+                            print()
+                            continue
+
+            if dest_uic and len(destination) <= 15:
+                gazetteer = model.gazetteer if hasattr(model, 'gazetteer') else None
+                if gazetteer:
+                    matches = get_all_matches(destination, gazetteer)
+                    if len(matches) > 1:
+                        # Ambiguous - let user choose
+                        dest_uic = suggest_city(destination, city_mapping, model)
+                        if not dest_uic:
+                            print(f"  Route:  [city '{destination}' not found in SNCF network]")
+                            print()
+                            continue
+
+            # If not found, suggest alternatives
             if not origin_uic:
-                print(f"  Route:  [city '{origin}' not found in SNCF network]")
-            elif not dest_uic:
-                print(f"  Route:  [city '{destination}' not found in SNCF network]")
+                origin_uic = suggest_city(origin, city_mapping, model)
+                if not origin_uic:
+                    print(f"  Route:  [city '{origin}' not found in SNCF network]")
+                    print()
+                    continue
+
+            if not dest_uic:
+                dest_uic = suggest_city(destination, city_mapping, model)
+                if not dest_uic:
+                    print(f"  Route:  [city '{destination}' not found in SNCF network]")
+                    print()
+                    continue
             else:
                 try:
                     path, total_time = dijkstra(graph, origin_uic, dest_uic)
-                    # Convert UIC codes to city names
+                    # Convert UIC codes to station names (not city names to avoid "Saint" alone)
                     route = []
                     for uic in path:
                         info = get_station_info(graph, uic)
                         if info:
-                            route.append(info.get('city_name', info['station_name']))
+                            route.append(info['station_name'])
                         else:
                             route.append(uic)
                     print(f"  Route:  {' -> '.join(route)}")

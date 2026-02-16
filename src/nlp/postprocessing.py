@@ -58,6 +58,8 @@ def extract_entities(tokens: List[str], labels: List[str]) -> Tuple[Optional[str
 
     if origin_tokens:
         origin = reconstruct_city_name(origin_tokens)
+        # Clean prepositions that were incorrectly extracted (e.g., "de Paris" → "Paris")
+        origin = _clean_prepositions(origin)
 
     # Find destination entity
     dest_tokens = []
@@ -77,8 +79,45 @@ def extract_entities(tokens: List[str], labels: List[str]) -> Tuple[Optional[str
 
     if dest_tokens:
         destination = reconstruct_city_name(dest_tokens)
+        # Clean prepositions that were incorrectly extracted
+        destination = _clean_prepositions(destination)
 
     return origin, destination
+
+
+def _clean_prepositions(entity: str) -> str:
+    """
+    Remove French prepositions that were incorrectly extracted by the NER model.
+
+    Args:
+        entity: Extracted city name (may start with preposition)
+
+    Returns:
+        Cleaned city name without leading prepositions
+
+    Examples:
+        >>> _clean_prepositions("de Paris")
+        'Paris'
+        >>> _clean_prepositions("depuis Lyon")
+        'Lyon'
+        >>> _clean_prepositions("à Nice")
+        'Nice'
+    """
+    if not entity:
+        return entity
+
+    # French prepositions that sometimes get extracted by mistake
+    prepositions = ['de', 'depuis', 'à', 'a', 'pour', 'vers', 'du', 'des', 'au', 'aux']
+
+    words = entity.strip().split()
+    if not words:
+        return entity
+
+    # Remove leading prepositions
+    while words and words[0].lower() in prepositions:
+        words.pop(0)
+
+    return ' '.join(words) if words else entity
 
 
 def reconstruct_city_name(token_list: List[str]) -> str:
@@ -198,6 +237,8 @@ def validate_against_gazetteer(entity: str, gazetteer) -> Optional[str]:
     if not entity:
         return None
 
+    from .preprocessing import preprocess_for_matching
+
     # Exact match (normalized)
     canonical = gazetteer.get_canonical_name(entity)
     if canonical:
@@ -208,7 +249,94 @@ def validate_against_gazetteer(entity: str, gazetteer) -> Optional[str]:
     if matches:
         return matches[0][0]  # Best match (closest distance)
 
+    # Prefix matching for short/incomplete names
+    # Handles: "aix" → "Aix-en-Provence", "saint lau" → "Saint-Laurent-du-Var"
+    # Only if entity is short (≤ 10 chars) and no fuzzy match found
+    if len(entity) <= 10:
+        entity_norm = preprocess_for_matching(entity)
+        prefix_matches = []
+
+        for norm_name, canonical_name in gazetteer.normalized_to_original.items():
+            # Check if entity is a prefix of a city name
+            if norm_name.startswith(entity_norm):
+                prefix_matches.append((canonical_name, len(norm_name) - len(entity_norm)))
+
+        if prefix_matches:
+            # AMBIGUITY DETECTION: If multiple prefix matches, return None
+            # This triggers interactive suggestions in CLI/Streamlit
+            if len(prefix_matches) > 1:
+                return None  # Ambiguous - let suggest_city() handle it
+
+            # Single prefix match - auto-correct
+            prefix_matches.sort(key=lambda x: x[1])  # Sort by length difference
+            return prefix_matches[0][0]
+
     return None
+
+
+def get_all_matches(entity: str, gazetteer) -> List[str]:
+    """
+    Get all possible matches for an entity (for suggestions).
+
+    Returns all cities that could match the entity, useful for
+    interactive disambiguation.
+
+    Args:
+        entity: Extracted city name (may be misspelled or unnormalized)
+        gazetteer: Gazetteer instance
+
+    Returns:
+        List of all matching canonical city names (empty if no match)
+    """
+    if not entity:
+        return []
+
+    from .preprocessing import preprocess_for_matching
+
+    all_matches = []
+    entity_norm = preprocess_for_matching(entity)
+
+    # SPECIAL CASE: Saint-* names are often ambiguous (220 cities!)
+    # If entity starts with "saint", use the FULL normalized prefix for matching
+    # Example: "saint lau" → normalized "saintlau" → matches "saintlaurent*"
+    if entity_norm.startswith("saint") and len(entity_norm) <= 15:
+        # Normalize: replace spaces AND hyphens with empty string for flexible matching
+        # "saint lau" → "saintlau", "saint-laurent-du-var" → "saintlaurentduvar"
+        prefix = entity_norm.replace(" ", "").replace("-", "")  # e.g., "saintlau"
+
+        for norm_name, canonical_name in gazetteer.normalized_to_original.items():
+            # Normalize gazetteer entry the same way for comparison
+            norm_name_clean = norm_name.replace(" ", "").replace("-", "")
+            if norm_name_clean.startswith(prefix):
+                all_matches.append(canonical_name)
+
+        # If we found multiple matches, return them for disambiguation
+        if len(all_matches) > 1:
+            return list(dict.fromkeys(all_matches))  # Remove duplicates, preserve order
+
+    # Exact match (normalized)
+    canonical = gazetteer.get_canonical_name(entity)
+    if canonical:
+        return [canonical]  # Exact match, return immediately
+
+    # Fuzzy match (all matches within distance 2)
+    fuzzy_matches = gazetteer.fuzzy_match(entity, max_distance=2)
+    all_matches.extend([match[0] for match in fuzzy_matches])
+
+    # Prefix matching for short names
+    if len(entity) <= 10:
+        entity_norm = preprocess_for_matching(entity)
+        prefix_matches = []
+
+        for norm_name, canonical_name in gazetteer.normalized_to_original.items():
+            if norm_name.startswith(entity_norm) and canonical_name not in all_matches:
+                prefix_matches.append((canonical_name, len(norm_name) - len(entity_norm)))
+
+        # Sort by length difference (shorter first)
+        prefix_matches.sort(key=lambda x: x[1])
+        all_matches.extend([match[0] for match in prefix_matches])
+
+    return all_matches
 
 
 def fuzzy_match(entity: str, candidates: List[str], max_distance: int = 2) -> Optional[str]:

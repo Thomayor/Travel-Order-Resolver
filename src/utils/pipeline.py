@@ -343,13 +343,13 @@ def process_single_sentence(
             # Find full path with intermediate stops
             path, total_time = dijkstra(graph, origin_uic, dest_uic)
 
-            # Convert UIC codes to city names for route
+            # Convert UIC codes to station names for route
             route = []
             for uic in path:
                 station_info = get_station_info(graph, uic)
                 if station_info:
-                    # Use city name, not station name
-                    route.append(station_info.get('city_name', station_info['station_name']))
+                    # Use station name (gare name) to avoid duplicates
+                    route.append(station_info['station_name'])
                 else:
                     route.append(uic)  # Fallback to UIC if info not found
 
