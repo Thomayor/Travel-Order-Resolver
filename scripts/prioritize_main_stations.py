@@ -17,46 +17,65 @@ import pandas as pd
 from pathlib import Path
 
 
-def get_station_priority(station_name: str) -> int:
+def get_station_priority(station_name: str, segment_drg: str = 'C') -> int:
     """
-    Assign priority to station based on name.
+    Assign priority to station based on name and segment_drg.
 
     Lower number = higher priority (will appear first in mapping).
 
     Priority levels:
     - 0: TGV stations
-    - 1: Main intercity stations (Gare de Lyon, Part Dieu, etc.)
-    - 2: Regular stations
+    - 1: Segment A (national hubs) or known main stations
+    - 2: Segment B (regional hubs)
+    - 3: Segment C (local stations) / Other
     """
     name_lower = station_name.lower()
+    drg = str(segment_drg).split(';')[0].strip() if pd.notna(segment_drg) else 'C'
 
-    # Priority 0: TGV stations
+    # Priority 0: TGV stations + major TGV hub stations (even without "TGV" in name)
+    tgv_hubs = [
+        'gare de lyon',         # Paris main TGV hub for south
+        'part dieu',            # Lyon main TGV hub
+        'saint-charles',        # Marseille main station
+        'montparnasse',         # Paris TGV hub for west
+        'gare du nord',         # Paris international hub (Eurostar, Thalys)
+        'saint-jean',           # Bordeaux main station
+        'matabiau',             # Toulouse main station
+    ]
+
     if 'tgv' in name_lower:
         return 0
 
-    # Priority 1: Main intercity hubs
+    for hub in tgv_hubs:
+        if hub in name_lower:
+            return 0
+
+    # Priority 1: Segment A (national hubs) or known main stations
     main_stations = [
-        'gare de lyon',         # Paris main TGV hub
-        'part dieu',            # Lyon main TGV hub
-        'saint-charles',        # Marseille main station
-        'montparnasse',         # Paris TGV hub
-        'gare du nord',         # Paris international hub
-        'saint-jean',           # Bordeaux main station
-        'matabiau',             # Toulouse main station
         'saint-laud',           # Angers main station
         'europe',               # Lille Europe (TGV/Eurostar)
+        'saint-roch',           # Montpellier main station
+        'chateaucreux',         # Saint-Étienne main station
     ]
+
+    if drg == 'A':
+        return 1
 
     for main in main_stations:
         if main in name_lower:
             return 1
 
-    # Priority 2: All other stations
-    return 2
+    # Priority 2: Segment B (regional hubs)
+    if drg == 'B':
+        return 2
+
+    # Priority 3: All other stations (segment C, local)
+    return 3
 
 
-def prioritize_stations(input_file: str, output_file: str):
-    """Reorder stations by priority."""
+def prioritize_stations(input_file: str, output_file: str,
+                        stations_file: str = "data/processed/sncf/stations_clean.csv"):
+    """Reorder stations by priority using station name and segment_drg."""
     print("=" * 70)
     print("PRIORITIZE MAIN TGV STATIONS IN CITY MAPPING")
     print("=" * 70)
@@ -66,10 +85,23 @@ def prioritize_stations(input_file: str, output_file: str):
     print(f"Loading: {input_file}")
     df = pd.read_csv(input_file, encoding='utf-8')
     print(f"  Total rows: {len(df)}")
+
+    # Load segment_drg from stations_clean.csv
+    print(f"Loading station segments from: {stations_file}")
+    stations = pd.read_csv(stations_file, encoding='utf-8', usecols=['uic_code', 'segment_drg'])
+    # Handle multi-UIC codes (take first)
+    stations['uic_code'] = stations['uic_code'].astype(str).str.split(';').str[0].str.strip()
+    drg_map = dict(zip(stations['uic_code'], stations['segment_drg']))
+
+    # Add segment_drg to mapping
+    df['_segment_drg'] = df['uic_code'].astype(str).str.split(';').str[0].str.strip().map(drg_map).fillna('C')
     print()
 
     # Add priority column
-    df['_priority'] = df['station_name'].apply(get_station_priority)
+    df['_priority'] = df.apply(
+        lambda row: get_station_priority(row['station_name'], row['_segment_drg']),
+        axis=1
+    )
     df['_station_name_lower'] = df['station_name'].str.lower()
 
     # Sort by: city_name_normalized, priority (ascending), station_name (alphabetical)
@@ -78,7 +110,7 @@ def prioritize_stations(input_file: str, output_file: str):
     ).reset_index(drop=True)
 
     # Drop temporary columns
-    df_sorted = df_sorted.drop(columns=['_priority', '_station_name_lower'])
+    df_sorted = df_sorted.drop(columns=['_priority', '_station_name_lower', '_segment_drg'])
 
     # Show examples of reordering
     print("Examples of prioritized stations:")
@@ -89,8 +121,9 @@ def prioritize_stations(input_file: str, output_file: str):
         if len(city_stations) > 0:
             print(f"{city.upper()}:")
             for _, row in city_stations.head(3).iterrows():
-                priority = get_station_priority(row['station_name'])
-                priority_label = ["[TGV]", "[MAIN]", "[OTHER]"][priority]
+                drg = drg_map.get(str(row['uic_code']).split(';')[0].strip(), 'C')
+                priority = get_station_priority(row['station_name'], drg)
+                priority_label = {0: "[TGV]", 1: "[HUB-A]", 2: "[REG-B]", 3: "[LOCAL]"}.get(priority, "[?]")
                 print(f"  {priority_label} {row['station_name']} ({row['uic_code']})")
             if len(city_stations) > 3:
                 print(f"  ... and {len(city_stations) - 3} more stations")
@@ -108,13 +141,18 @@ def prioritize_stations(input_file: str, output_file: str):
     print("ANALYSIS")
     print("=" * 70)
 
-    # Count by priority
+    # Count by priority (re-compute using drg_map)
     priority_counts = df_sorted.groupby(
-        df_sorted['station_name'].apply(get_station_priority)
+        df_sorted.apply(
+            lambda row: get_station_priority(
+                row['station_name'],
+                drg_map.get(str(row['uic_code']).split(';')[0].strip(), 'C')
+            ), axis=1
+        )
     ).size()
 
     print("\nStation distribution:")
-    priority_labels = {0: "TGV stations", 1: "Main stations", 2: "Other stations"}
+    priority_labels = {0: "TGV stations", 1: "Hub A / Main stations", 2: "Regional B", 3: "Local C"}
     for priority, count in priority_counts.items():
         print(f"  {priority_labels.get(priority, f'Priority {priority}')}: {count}")
 

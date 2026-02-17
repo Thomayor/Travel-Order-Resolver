@@ -56,7 +56,7 @@ def load_split(split: str) -> pd.DataFrame:
 @st.cache_data
 def load_stations_geo() -> pd.DataFrame:
     df = pd.read_csv("data/processed/sncf/stations_clean.csv", encoding="utf-8")
-    return df[["uic_code", "city_name", "latitude", "longitude"]].dropna()
+    return df[["uic_code", "station_name", "city_name", "latitude", "longitude"]].dropna()
 
 
 def extract(sentence: str, model, model_type: str) -> dict:
@@ -64,7 +64,7 @@ def extract(sentence: str, model, model_type: str) -> dict:
     return _extract(sentence, model, model_type)
 
 
-def _display_route(cities: list, total_time: float):
+def _display_route(cities: list, total_time: float, segments: list = None):
     h = int(total_time // 60)
     m = int(total_time % 60)
 
@@ -80,9 +80,14 @@ def _display_route(cities: list, total_time: float):
 
     route_coords = []
     for city in cities:
+        # Try station_name first, then city_name
         matches = stations_geo[
-            stations_geo["city_name"].str.lower() == city.lower()
+            stations_geo["station_name"].str.lower() == city.lower()
         ]
+        if matches.empty:
+            matches = stations_geo[
+                stations_geo["city_name"].str.lower() == city.lower()
+            ]
         if matches.empty:
             route_coords.append({"city": city, "lat": None, "lon": None})
         else:
@@ -164,6 +169,13 @@ def _display_route(cities: list, total_time: float):
 
     # ── Liste des gares ─────────────────────────────────────────────────────
     with st.expander("Voir toutes les gares"):
+        line_badges = {
+            "TGV": "🚄 *TGV*",
+            "IC": "🚆 *Intercites*",
+            "TER": "🚈 *TER*",
+            "TRAIN": "🚆",
+            "CORRESP": "🚶 *Correspondance*",
+        }
         for i, city in enumerate(cities):
             icon = "🔴" if i in (0, len(cities) - 1) else "🔵"
             st.markdown(f"{icon} **{city}**" if i in (0, len(cities) - 1) else f"{icon} {city}")
@@ -191,11 +203,23 @@ def get_city_suggestions(city_name: str, gazetteer, city_mapping: dict) -> list:
 
 
 def find_route(origin: str, destination: str):
+    """
+    Find route between two cities.
+
+    Returns:
+        (cities, total_time, segments, err, err_type)
+        - cities: list of station names along route
+        - total_time: total travel time in minutes
+        - segments: list of segment dicts with line_code, duration, etc.
+        - err: error message string or None
+        - err_type: "origin" or "destination" if error relates to a specific city, else None
+    """
     from src.utils.pipeline import map_city_to_uic
-    from src.pathfinding.algorithms import dijkstra, InvalidStationError, NoPathError
+    from src.pathfinding.algorithms import dijkstra, get_route_details, InvalidStationError, NoPathError
     from src.pathfinding.graph_loader import get_station_info
-    from src.nlp.gazetteer import load_gazetteer
+    from src.nlp.gazetteer import load_gazetteer, KNOWN_FOREIGN_CITIES
     from src.nlp.postprocessing import get_all_matches
+    from src.nlp.preprocessing import preprocess_for_matching
 
     graph, mapping = get_graph_and_mapping()
     gazetteer = load_gazetteer()
@@ -203,37 +227,38 @@ def find_route(origin: str, destination: str):
     o_uic = map_city_to_uic(origin, mapping)
     d_uic = map_city_to_uic(destination, mapping)
 
-    # Check for ambiguous short names (≤ 15 chars) EVEN if mapping found
-    # Example: "aix" → Aix-les-Bains OR Aix-en-Provence
-    # Example: "saint lau" → Saint-Laurent-du-Var OR Saint-Laurent-d'Aigouze
-    # Example: "Saint-Denis" → Saint-Denis OR Saint-Dizier
+    # Check for ambiguous short names EVEN if mapping found
     if o_uic and len(origin) <= 15:
         matches = get_all_matches(origin, gazetteer)
         if len(matches) > 1:
-            # Ambiguous - trigger suggestion system
-            return None, None, f"Ville '{origin}' ambigue - plusieurs correspondances possibles", "origin"
+            return None, None, None, f"Ville '{origin}' ambigue - plusieurs correspondances possibles", "origin"
 
     if d_uic and len(destination) <= 10:
         matches = get_all_matches(destination, gazetteer)
         if len(matches) > 1:
-            # Ambiguous - trigger suggestion system
-            return None, None, f"Ville '{destination}' ambigue - plusieurs correspondances possibles", "destination"
+            return None, None, None, f"Ville '{destination}' ambigue - plusieurs correspondances possibles", "destination"
 
     if not o_uic:
-        return None, None, f"Ville '{origin}' introuvable dans le reseau SNCF", "origin"
+        norm = preprocess_for_matching(origin)
+        if norm in KNOWN_FOREIGN_CITIES:
+            return None, None, None, f"'{origin}' n'est pas dans le reseau SNCF. Seules les gares francaises sont supportees.", None
+        return None, None, None, f"Ville '{origin}' introuvable dans le reseau SNCF", "origin"
     if not d_uic:
-        return None, None, f"Ville '{destination}' introuvable dans le reseau SNCF", "destination"
+        norm = preprocess_for_matching(destination)
+        if norm in KNOWN_FOREIGN_CITIES:
+            return None, None, None, f"'{destination}' n'est pas dans le reseau SNCF. Seules les gares francaises sont supportees.", None
+        return None, None, None, f"Ville '{destination}' introuvable dans le reseau SNCF", "destination"
 
     try:
         path, total_time = dijkstra(graph, o_uic, d_uic)
         cities = []
         for uic in path:
             info = get_station_info(graph, uic)
-            # Use station_name instead of city_name to avoid "Saint" appearing alone
-            cities.append(info["station_name"] if info else uic)
-        return cities, total_time, None, None
+            cities.append(info.get("station_name", uic) if info else uic)
+        segments = get_route_details(path, graph)
+        return cities, total_time, segments, None, None
     except (InvalidStationError, NoPathError) as e:
-        return None, None, str(e), None
+        return None, None, None, str(e), None
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -472,7 +497,7 @@ with tab_route:
                 st.info(f"Extrait : **{origin_r}** → **{destination_r}**")
 
                 with st.spinner("Calcul de l'itineraire..."):
-                    cities, total_time, err, err_type = find_route(origin_r, destination_r)
+                    cities, total_time, segments, err, err_type = find_route(origin_r, destination_r)
 
                 if err:
                     st.error(err)
@@ -499,7 +524,7 @@ with tab_route:
                         else:
                             st.warning(f"Aucune ville similaire trouvée pour '{city_not_found}'.")
                 elif cities:
-                    _display_route(cities, total_time)
+                    _display_route(cities, total_time, segments)
 
     else:
         c1, c2 = st.columns(2)
@@ -510,7 +535,7 @@ with tab_route:
 
         if st.button("Calculer l'itineraire", type="primary", key="route_btn_direct"):
             with st.spinner("Calcul de l'itineraire..."):
-                cities, total_time, err, err_type = find_route(origin_direct, dest_direct)
+                cities, total_time, segments, err, err_type = find_route(origin_direct, dest_direct)
 
             if err:
                 st.error(err)
@@ -550,17 +575,17 @@ with tab_route:
                                 new_dest = selected_city if err_type == "destination" else dest_direct
 
                                 with st.spinner("Recalcul de l'itinéraire..."):
-                                    cities, total_time, err, _ = find_route(new_origin, new_dest)
+                                    cities, total_time, segments, err, _ = find_route(new_origin, new_dest)
 
                                 if err:
                                     st.error(err)
                                 elif cities:
-                                    st.success(f"✅ Itinéraire trouvé avec **{selected_city}** !")
-                                    _display_route(cities, total_time)
+                                    st.success(f"Itineraire trouve avec **{selected_city}** !")
+                                    _display_route(cities, total_time, segments)
                     else:
                         st.warning(f"Aucune ville similaire trouvée pour '{city_not_found}'.")
             elif cities:
-                _display_route(cities, total_time)
+                _display_route(cities, total_time, segments)
 
 
 # ══════════════════════════════════════════════════════════════════════════════

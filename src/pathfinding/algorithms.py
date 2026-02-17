@@ -31,39 +31,26 @@ def dijkstra(
     graph: nx.Graph,
     origin: str,
     destination: str,
-    weight: str = 'weight'
+    weight: str = 'routing_cost'
 ) -> Tuple[List[str], float]:
     """
     Find shortest path using Dijkstra's algorithm.
 
-    This function uses NetworkX's optimized Dijkstra implementation,
-    which is based on priority queues for O((V+E) log V) complexity.
-
-    Algorithm explanation:
-    1. Start at origin with distance 0
-    2. Maintain priority queue of (distance, station) pairs
-    3. Always process closest unvisited station
-    4. Update distances to neighbors if shorter path found
-    5. Continue until destination reached or all nodes processed
+    Uses 'routing_cost' (which includes hop penalties and line-type multipliers)
+    for pathfinding, but returns the actual travel time from 'weight' attribute.
 
     Args:
         graph: NetworkX graph with railway network
         origin: Origin station UIC code
         destination: Destination station UIC code
-        weight: Edge attribute to use as weight (default: 'weight')
+        weight: Edge attribute for pathfinding (default: 'routing_cost')
 
     Returns:
-        Tuple of (path as list of UIC codes, total travel time in minutes)
+        Tuple of (path as list of UIC codes, total real travel time in minutes)
 
     Raises:
         InvalidStationError: If origin or destination not in graph
         NoPathError: If no path exists between stations
-
-    Example:
-        >>> G = build_railway_graph()
-        >>> path, time = dijkstra(G, '87686006', '87723197')
-        >>> print(f"Path: {path}, Time: {time} minutes")
-        Path: ['87686006', '87723197'], Time: 117 minutes
     """
     # Validate stations exist
     if origin not in graph.nodes():
@@ -79,7 +66,11 @@ def dijkstra(
     # Find shortest path using Dijkstra (NetworkX implementation)
     try:
         path = nx.shortest_path(graph, origin, destination, weight=weight)
-        total_time = nx.shortest_path_length(graph, origin, destination, weight=weight)
+        # Compute real travel time (sum of actual durations, not routing costs)
+        total_time = sum(
+            graph[path[i]][path[i + 1]]['weight']
+            for i in range(len(path) - 1)
+        )
 
         return path, total_time
 
@@ -313,7 +304,8 @@ def get_route_details(
             'from_name': from_info['station_name'] if from_info else from_uic,
             'to_name': to_info['station_name'] if to_info else to_uic,
             'duration': int(edge_data['weight']),
-            'distance_km': edge_data.get('distance_km', None)
+            'distance_km': edge_data.get('distance_km', None),
+            'line_code': edge_data.get('line_code', 'TRAIN'),
         }
 
         segments.append(segment)
