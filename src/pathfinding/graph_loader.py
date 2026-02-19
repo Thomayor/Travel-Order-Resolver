@@ -40,10 +40,14 @@ def load_stations(
     if subset:
         df = df[df['uic_code'].isin(subset)]
 
+    # Build alias map: alternative UIC codes -> primary UIC code
+    uic_alias_map = {}
+
     # Add each station as a node
     for _, station in df.iterrows():
         # Handle multiple UIC codes (semicolon-separated)
-        uic_code = str(station['uic_code']).split(';')[0].strip()
+        all_uics = [u.strip() for u in str(station['uic_code']).split(';')]
+        uic_code = all_uics[0]
 
         graph.add_node(
             uic_code,
@@ -56,6 +60,13 @@ def load_stations(
             longitude=station['longitude'] if pd.notna(station['longitude']) else None,
             segment_drg=station['segment_drg'] if pd.notna(station['segment_drg']) else None
         )
+
+        # Map all alternative UICs to the primary
+        for alt_uic in all_uics[1:]:
+            uic_alias_map[alt_uic] = uic_code
+
+    # Store alias map on graph for use by load_connections
+    graph.graph['uic_alias_map'] = uic_alias_map
 
     return len(graph.nodes())
 
@@ -83,6 +94,8 @@ def load_connections(
     # Load connections data
     df = pd.read_csv(connections_file, encoding='utf-8')
 
+    # Get UIC alias map (built by load_stations) for resolving alternative codes
+    uic_alias_map = graph.graph.get('uic_alias_map', {})
     edges_added = 0
 
     for _, conn in df.iterrows():
@@ -90,23 +103,108 @@ def load_connections(
         origin_uic = str(conn['origin_uic']).split(';')[0].strip()
         dest_uic = str(conn['destination_uic']).split(';')[0].strip()
 
+        # Resolve alternative UIC codes to primary node IDs
+        origin_uic = uic_alias_map.get(origin_uic, origin_uic)
+        dest_uic = uic_alias_map.get(dest_uic, dest_uic)
+
         # Only add edge if both nodes exist
         if origin_uic in graph.nodes() and dest_uic in graph.nodes():
+            line_code = conn.get('line_code', 'TRAIN')
+            duration = conn['duration_minutes']
+            routing_cost = _compute_routing_cost(duration, line_code)
             graph.add_edge(
                 origin_uic,
                 dest_uic,
-                weight=conn['duration_minutes'],
+                weight=duration,
+                routing_cost=routing_cost,
                 distance_km=conn.get('distance_km', None),
-                line_code=conn.get('line_code', None)
+                line_code=line_code
             )
             edges_added += 1
 
     return edges_added
 
 
+# Routing cost penalties per line type
+# multiplier: penalizes slower service types so Dijkstra prefers TGV
+# hop_penalty: fixed cost per segment to discourage multi-hop detours
+_ROUTING_PARAMS = {
+    'TGV':     {'multiplier': 1.0, 'hop_penalty': 5},
+    'IC':      {'multiplier': 1.05, 'hop_penalty': 8},
+    'TER':     {'multiplier': 1.15, 'hop_penalty': 8},
+    'TRAIN':   {'multiplier': 1.15, 'hop_penalty': 8},
+    'CORRESP': {'multiplier': 1.0, 'hop_penalty': 15},
+}
+
+
+def _compute_routing_cost(duration: float, line_code: str) -> float:
+    """Compute routing cost with penalties to prefer TGV and fewer hops."""
+    params = _ROUTING_PARAMS.get(line_code, _ROUTING_PARAMS['TRAIN'])
+    return duration * params['multiplier'] + params['hop_penalty']
+
+
+# Intra-city transfer connections (metro/walk between stations)
+CITY_TRANSFERS = {
+    "paris": {
+        "stations": [
+            "87686006",   # Paris Gare de Lyon
+            "87391003",   # Paris Montparnasse
+            "87113001",   # Paris Est
+            "87384008",   # Paris Saint-Lazare
+            "87271023",   # Paris Gare du Nord
+            "87547026",   # Paris Austerlitz
+            "87686667",   # Paris Bercy
+        ],
+        "duration": 30,
+    },
+    "lyon": {
+        "stations": ["87723197", "87722025"],  # Part Dieu ↔ Perrache
+        "duration": 15,
+    },
+    "lille": {
+        "stations": ["87286005", "87223263"],  # Flandres ↔ Europe
+        "duration": 5,
+    },
+    "marseille": {
+        "stations": ["87751008", "87751602"],  # Saint-Charles ↔ Blancarde
+        "duration": 10,
+    },
+}
+
+
+def add_transfer_edges(graph: nx.Graph) -> int:
+    """
+    Add intra-city transfer edges between major stations in the same city.
+
+    These represent metro/taxi transfers (e.g., Paris Gare de Lyon ↔ Paris Saint-Lazare).
+
+    Returns:
+        Number of transfer edges added
+    """
+    transfers_added = 0
+    for city, config in CITY_TRANSFERS.items():
+        stations = [s for s in config["stations"] if s in graph.nodes()]
+        duration = config["duration"]
+        routing_cost = _compute_routing_cost(duration, "CORRESP")
+
+        for i in range(len(stations)):
+            for j in range(i + 1, len(stations)):
+                if not graph.has_edge(stations[i], stations[j]):
+                    graph.add_edge(
+                        stations[i], stations[j],
+                        weight=duration,
+                        routing_cost=routing_cost,
+                        line_code="CORRESP",
+                        distance_km=None,
+                    )
+                    transfers_added += 1
+
+    return transfers_added
+
+
 def build_railway_graph(
     stations_file: str = "data/processed/sncf/stations_clean.csv",
-    connections_file: str = "data/processed/sncf/connections.csv",
+    connections_file: str = "data/processed/sncf/connections_final_fixed.csv",
     subset: Optional[List[str]] = None
 ) -> nx.Graph:
     """
@@ -133,6 +231,10 @@ def build_railway_graph(
     # Load connections (edges)
     num_connections = load_connections(G, connections_file)
     print(f"Loaded {num_connections} connections")
+
+    # Add intra-city transfer edges (metro between Paris stations, etc.)
+    num_transfers = add_transfer_edges(G)
+    print(f"Added {num_transfers} transfer edges")
 
     return G
 
@@ -266,9 +368,13 @@ def find_path(
         return None
 
     try:
-        # Use Dijkstra's algorithm (NetworkX implementation)
-        path = nx.shortest_path(graph, origin_uic, destination_uic, weight='weight')
-        total_time = nx.shortest_path_length(graph, origin_uic, destination_uic, weight='weight')
+        # Use routing_cost for pathfinding (includes hop penalties)
+        path = nx.shortest_path(graph, origin_uic, destination_uic, weight='routing_cost')
+        # Return real travel time (not routing cost)
+        total_time = sum(
+            graph[path[i]][path[i + 1]]['weight']
+            for i in range(len(path) - 1)
+        )
 
         return path, total_time
     except nx.NetworkXNoPath:
@@ -456,7 +562,7 @@ def load_graph(path: str = "models/train_network.pkl") -> Optional[nx.Graph]:
 def get_or_build_graph(
     cache_path: str = "models/train_network.pkl",
     stations_file: str = "data/processed/sncf/stations_clean.csv",
-    connections_file: str = "data/processed/sncf/connections_final.csv",
+    connections_file: str = "data/processed/sncf/connections_final_fixed.csv",
     force_rebuild: bool = False
 ) -> nx.Graph:
     """

@@ -58,6 +58,8 @@ def extract_entities(tokens: List[str], labels: List[str]) -> Tuple[Optional[str
 
     if origin_tokens:
         origin = reconstruct_city_name(origin_tokens)
+        # Clean prepositions that were incorrectly extracted (e.g., "de Paris" → "Paris")
+        origin = _clean_prepositions(origin)
 
     # Find destination entity
     dest_tokens = []
@@ -77,8 +79,45 @@ def extract_entities(tokens: List[str], labels: List[str]) -> Tuple[Optional[str
 
     if dest_tokens:
         destination = reconstruct_city_name(dest_tokens)
+        # Clean prepositions that were incorrectly extracted
+        destination = _clean_prepositions(destination)
 
     return origin, destination
+
+
+def _clean_prepositions(entity: str) -> str:
+    """
+    Remove French prepositions that were incorrectly extracted by the NER model.
+
+    Args:
+        entity: Extracted city name (may start with preposition)
+
+    Returns:
+        Cleaned city name without leading prepositions
+
+    Examples:
+        >>> _clean_prepositions("de Paris")
+        'Paris'
+        >>> _clean_prepositions("depuis Lyon")
+        'Lyon'
+        >>> _clean_prepositions("à Nice")
+        'Nice'
+    """
+    if not entity:
+        return entity
+
+    # French prepositions that sometimes get extracted by mistake
+    prepositions = ['de', 'depuis', 'à', 'a', 'pour', 'vers', 'du', 'des', 'au', 'aux']
+
+    words = entity.strip().split()
+    if not words:
+        return entity
+
+    # Remove leading prepositions
+    while words and words[0].lower() in prepositions:
+        words.pop(0)
+
+    return ' '.join(words) if words else entity
 
 
 def reconstruct_city_name(token_list: List[str]) -> str:
@@ -198,10 +237,36 @@ def validate_against_gazetteer(entity: str, gazetteer) -> Optional[str]:
     if not entity:
         return None
 
+    from .preprocessing import preprocess_for_matching
+
     # Exact match (normalized)
     canonical = gazetteer.get_canonical_name(entity)
     if canonical:
         return canonical
+
+    # Prefix matching BEFORE fuzzy match for short/incomplete names
+    # This prevents "saint-lau" from fuzzy-matching to "Saint-Ay"
+    # instead of prefix-matching to "Saint-Laurent-*"
+    if len(entity) <= 15:
+        entity_norm = preprocess_for_matching(entity)
+        prefix_matches = []
+
+        for norm_name, canonical_name in gazetteer.normalized_to_original.items():
+            if norm_name.startswith(entity_norm) and norm_name != entity_norm:
+                prefix_matches.append((canonical_name, len(norm_name) - len(entity_norm)))
+
+        if prefix_matches:
+            prefix_matches.sort(key=lambda x: x[1])
+            closest_diff = prefix_matches[0][1]
+            # If closest match is only 1-2 chars longer, it's a typo — resolve directly
+            # e.g. "pari" → "paris" (diff=1), not ambiguous
+            if closest_diff <= 2:
+                return prefix_matches[0][0]
+            # Multiple matches with longer differences = genuinely ambiguous prefix
+            # e.g. "saint-lau" → Saint-Laurent-du-Var, Saint-Laurent-de-Mure, etc.
+            if len(prefix_matches) > 1:
+                return None  # Ambiguous - triggers suggestion system
+            return prefix_matches[0][0]  # Single match - auto-correct
 
     # Fuzzy match fallback (Levenshtein distance ≤ 2)
     matches = gazetteer.fuzzy_match(entity, max_distance=2)
@@ -209,6 +274,71 @@ def validate_against_gazetteer(entity: str, gazetteer) -> Optional[str]:
         return matches[0][0]  # Best match (closest distance)
 
     return None
+
+
+def get_all_matches(entity: str, gazetteer) -> List[str]:
+    """
+    Get all possible matches for an entity (for suggestions).
+
+    Returns all cities that could match the entity, useful for
+    interactive disambiguation.
+
+    Args:
+        entity: Extracted city name (may be misspelled or unnormalized)
+        gazetteer: Gazetteer instance
+
+    Returns:
+        List of all matching canonical city names (empty if no match)
+    """
+    if not entity:
+        return []
+
+    from .preprocessing import preprocess_for_matching
+
+    all_matches = []
+    entity_norm = preprocess_for_matching(entity)
+
+    # SPECIAL CASE: Saint-* names are often ambiguous (220 cities!)
+    # If entity starts with "saint", use the FULL normalized prefix for matching
+    # Example: "saint lau" → normalized "saintlau" → matches "saintlaurent*"
+    if entity_norm.startswith("saint") and len(entity_norm) <= 15:
+        # Normalize: replace spaces AND hyphens with empty string for flexible matching
+        # "saint lau" → "saintlau", "saint-laurent-du-var" → "saintlaurentduvar"
+        prefix = entity_norm.replace(" ", "").replace("-", "")  # e.g., "saintlau"
+
+        for norm_name, canonical_name in gazetteer.normalized_to_original.items():
+            # Normalize gazetteer entry the same way for comparison
+            norm_name_clean = norm_name.replace(" ", "").replace("-", "")
+            if norm_name_clean.startswith(prefix):
+                all_matches.append(canonical_name)
+
+        # If we found multiple matches, return them for disambiguation
+        if len(all_matches) > 1:
+            return list(dict.fromkeys(all_matches))  # Remove duplicates, preserve order
+
+    # Exact match (normalized)
+    canonical = gazetteer.get_canonical_name(entity)
+    if canonical:
+        return [canonical]  # Exact match, return immediately
+
+    # Fuzzy match (all matches within distance 2)
+    fuzzy_matches = gazetteer.fuzzy_match(entity, max_distance=2)
+    all_matches.extend([match[0] for match in fuzzy_matches])
+
+    # Prefix matching for short names
+    if len(entity) <= 10:
+        entity_norm = preprocess_for_matching(entity)
+        prefix_matches = []
+
+        for norm_name, canonical_name in gazetteer.normalized_to_original.items():
+            if norm_name.startswith(entity_norm) and canonical_name not in all_matches:
+                prefix_matches.append((canonical_name, len(norm_name) - len(entity_norm)))
+
+        # Sort by length difference (shorter first)
+        prefix_matches.sort(key=lambda x: x[1])
+        all_matches.extend([match[0] for match in prefix_matches])
+
+    return all_matches
 
 
 def fuzzy_match(entity: str, candidates: List[str], max_distance: int = 2) -> Optional[str]:
@@ -264,6 +394,74 @@ def _levenshtein(s1: str, s2: str) -> int:
             ))
         prev = curr
     return prev[-1]
+
+
+# Context keywords indicating the preceding word is a person name, not a city
+PERSON_CONTEXT_KEYWORDS = {
+    "avec", "chez", "pour", "monsieur", "madame", "mademoiselle",
+    "mr", "mme", "mlle", "docteur", "dr", "professeur", "prof",
+    "ami", "amie", "copain", "copine", "frere", "soeur", "pere", "mere",
+    "oncle", "tante", "cousin", "cousine", "collegue",
+    "mon", "ma", "notre", "votre", "son", "sa",
+}
+
+# City names that are also common person names
+AMBIGUOUS_NAMES = {
+    "florence", "albert", "lourdes", "nancy", "leon",
+    "victor", "eugene", "charlotte", "alice", "rose",
+    "marguerite", "colette", "jean", "pierre",
+}
+
+
+def disambiguate_person_vs_city(
+    tokens: List[str],
+    labels: List[str],
+    origin: Optional[str],
+    destination: Optional[str],
+) -> Tuple[Optional[str], Optional[str]]:
+    """
+    Post-process NER results to detect when an ambiguous name
+    is a person name rather than a city.
+
+    Rules:
+    - If an entity is an ambiguous name preceded by a person-context keyword
+      (e.g., "avec Florence"), it is likely a person name → remove that entity.
+    - If the same ambiguous name appears as both origin and destination,
+      keep only the one in a clear travel context (e.g., "de X", "a X").
+
+    Args:
+        tokens: Original tokens from the sentence
+        labels: BIO labels from NER
+        origin: Extracted origin city name
+        destination: Extracted destination city name
+
+    Returns:
+        Tuple of (origin, destination) after disambiguation
+    """
+    if not tokens or not labels:
+        return origin, destination
+
+    tokens_lower = [t.lower() for t in tokens]
+
+    for entity_type, entity_value in [("ORIGIN", origin), ("DEST", destination)]:
+        if not entity_value:
+            continue
+        if entity_value.lower() not in AMBIGUOUS_NAMES:
+            continue
+
+        # Find the B-tag position for this entity
+        tag = f"B-{entity_type}"
+        for i, label in enumerate(labels):
+            if label == tag:
+                # Check preceding token(s) for person context
+                if i > 0 and tokens_lower[i - 1] in PERSON_CONTEXT_KEYWORDS:
+                    if entity_type == "ORIGIN":
+                        origin = None
+                    else:
+                        destination = None
+                break
+
+    return origin, destination
 
 
 def validate_extraction(origin: Optional[str], destination: Optional[str]) -> bool:

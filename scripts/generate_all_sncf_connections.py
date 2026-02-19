@@ -55,24 +55,26 @@ def load_route_types(gtfs_dir: Path) -> dict[str, str]:
     """
     Return {route_id: line_code} mapping.
 
-    GTFS route_type: 2 = Rail.  We classify by route_short_name prefix.
+    GTFS route_type: 2 = Rail.  We classify by combining route_short_name
+    AND route_long_name, since TGV lines often have numeric short names
+    (e.g. "001G") but "TGV" appears in route_long_name.
     """
     routes = pd.read_csv(gtfs_dir / "routes.txt")
     trips  = pd.read_csv(gtfs_dir / "trips.txt")[["trip_id", "route_id"]]
 
-    def classify(name: str) -> str:
-        if pd.isna(name):
-            return "TRAIN"
-        n = str(name).upper()
-        if any(k in n for k in ("TGV", "INOUI", "OUIGO", "EUROSTAR", "THALYS")):
+    def classify(row) -> str:
+        short = str(row.get("route_short_name", "")).upper() if pd.notna(row.get("route_short_name")) else ""
+        long_name = str(row.get("route_long_name", "")).upper() if pd.notna(row.get("route_long_name")) else ""
+        combined = short + " " + long_name
+        if any(k in combined for k in ("TGV", "INOUI", "OUIGO", "EUROSTAR", "THALYS")):
             return "TGV"
-        if any(k in n for k in ("IC", "INTERCIT", "INTERCITÉS")):
+        if any(k in combined for k in ("IC", "INTERCIT", "INTERCITES")):
             return "IC"
-        if "TER" in n:
+        if "TER" in combined:
             return "TER"
         return "TRAIN"
 
-    routes["line_code"] = routes["route_short_name"].apply(classify)
+    routes["line_code"] = routes.apply(classify, axis=1)
     route_map = dict(zip(routes["route_id"], routes["line_code"]))
     trip_map  = dict(zip(trips["trip_id"], trips["route_id"]))
     return route_map, trip_map
@@ -131,7 +133,7 @@ def build_connections_from_gtfs(gtfs_dir: Path) -> pd.DataFrame:
             if orig_uic == dest_uic:
                 continue
             dur_sec = group.at[i+1, "dep_sec"] - group.at[i, "dep_sec"]
-            if dur_sec <= 0 or dur_sec > 7200:   # ignore 0 or >2h single segments
+            if dur_sec <= 0 or dur_sec > 14400:  # ignore 0 or >4h single segments (allow long TGV)
                 continue
             records.append((orig_uic, dest_uic, round(dur_sec / 60, 1), line_code))
 
@@ -147,15 +149,24 @@ def build_connections_from_gtfs(gtfs_dir: Path) -> pd.DataFrame:
           .reset_index()
     )
 
-    # If multiple line_codes for same (A, B), keep the one with the most trips
+    # If multiple line_codes for same (A, B), keep the FASTEST connection
+    # This ensures TGV (2h Paris-Lyon) wins over TER (5h) for the same pair
     agg = (
-        agg.sort_values("trip_count", ascending=False)
+        agg.sort_values("duration_minutes", ascending=True)
            .drop_duplicates(subset=["origin_uic", "destination_uic"])
            .reset_index(drop=True)
     )
 
     agg["duration_minutes"] = agg["duration_minutes"].round().astype(int)
-    return agg
+
+    # Minimal filter: remove single-trip anomalies (keep trip_count >= 2)
+    # No aggressive filtering needed — routing_cost hop penalties prevent
+    # zigzags on long routes while keeping small rural TER stops accessible
+    filtered = agg[agg["trip_count"] >= 2].copy()
+
+    print(f"  Filtered: {len(agg):,} -> {len(filtered):,} connections (removed single-trip anomalies)")
+
+    return filtered
 
 
 def enrich_with_station_names(df: pd.DataFrame, gtfs_dir: Path) -> pd.DataFrame:
@@ -180,7 +191,7 @@ def make_bidirectional(df: pd.DataFrame) -> pd.DataFrame:
     })
     combined = pd.concat([df, reverse], ignore_index=True)
     combined = (
-        combined.sort_values("trip_count", ascending=False)
+        combined.sort_values("duration_minutes", ascending=True)
                 .drop_duplicates(subset=["origin_uic", "destination_uic"])
                 .reset_index(drop=True)
     )

@@ -31,8 +31,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87476879,87407122,,1,TRAIN,GTFS,Fénétrange Mairie,Fénétrange Carrefour des Étangs,3,gtfs_stop_times
 87476879,87406975,,1,TRAIN,GTFS,Fénétrange Mairie,Fénétrange Gendarmerie,3,gtfs_stop_times
 87476861,87193532,,1,TRAIN,GTFS,Diebling Maison Forestière,Diebling Centre,16,gtfs_stop_times
-85015636,85303347,,1,TRAIN,GTFS,Les Marécottes,La Médettaz,14,gtfs_stop_times
-85015008,85303032,,1,TRAIN,GTFS,Martigny,Les Fumeaux,14,gtfs_stop_times
 87696468,87533547,,1,TRAIN,GTFS,Béard,Béard Bourg,3,gtfs_stop_times
 87193532,87476861,,1,TRAIN,GTFS,Diebling Centre,Diebling Maison Forestière,14,gtfs_stop_times
 87193524,87190801,,1,TRAIN,GTFS,Farschviller,Loupershouse centre,2,gtfs_stop_times
@@ -149,8 +147,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87338152,87578229,,1,TRAIN,GTFS,Gourzon,Bayard-Route-Eurville,14,gtfs_stop_times
 87642298,87642280,,1,TRAIN,GTFS,Neuwiller Rue de Bouxwiller,Neuwiller Pharmacie,22,gtfs_stop_times
 87639963,87639971,,1,TRAIN,GTFS,Ettendorf Place de l'école,Ettendorf  Rue du Pont,5,gtfs_stop_times
-85303347,85015636,,1,TRAIN,GTFS,La Médettaz,Les Marécottes,14,gtfs_stop_times
-85303032,85015008,,1,TRAIN,GTFS,Les Fumeaux,Martigny,14,gtfs_stop_times
 87406884,87406868,,1,TRAIN,GTFS,Farébersviller Rue du Moulin,Farébersviller Cité,13,gtfs_stop_times
 87213827,87639971,,1,TRAIN,GTFS,Ettendorf,Ettendorf  Rue du Pont,4,gtfs_stop_times
 87213827,87639963,,1,TRAIN,GTFS,Ettendorf,Ettendorf Place de l'école,5,gtfs_stop_times
@@ -282,10 +278,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87721811,87761072,,2,TRAIN,GTFS,Ternand,Val-d'Oingt - Saint-Laurent-d'Oingt Gare,11,gtfs_stop_times
 87142273,87338194,,2,TRAIN,GTFS,Donjeux,Rouvroy-sur-Marne,5,gtfs_stop_times
 87143024,87319756,,2,TRAIN,GTFS,Vraincourt,Viéville,9,gtfs_stop_times
-80197871,80359331,,2,TRAIN,GTFS,Kapsweyer,Steinfeld (Pfalz),30,gtfs_stop_times
 87727891,87279893,,2,TRAIN,GTFS,Ville sous la Ferté Four à Chaux,Clairvaux D12,13,gtfs_stop_times
-80359331,80197871,,2,TRAIN,GTFS,Steinfeld (Pfalz),Kapsweyer,22,gtfs_stop_times
-80646133,80191031,,2,TER,GTFS,Maximiliansau Im Ruesten,Woerth (Rhein),28,gtfs_stop_times
 87698746,87698464,,2,TRAIN,GTFS,Ternay Boucherattes,Communay Les Brosses,7,gtfs_stop_times
 87698746,87698753,,2,TRAIN,GTFS,Ternay Boucherattes,Ternay Centre,12,gtfs_stop_times
 87698753,87698746,,2,TRAIN,GTFS,Ternay Centre,Ternay Boucherattes,12,gtfs_stop_times
@@ -369,7 +362,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87338194,87142273,,2,TRAIN,GTFS,Rouvroy-sur-Marne,Donjeux,5,gtfs_stop_times
 87319756,87143024,,2,TRAIN,GTFS,Viéville,Vraincourt,9,gtfs_stop_times
 87279893,87727891,,2,TRAIN,GTFS,Clairvaux D12,Ville sous la Ferté Four à Chaux,13,gtfs_stop_times
-80191031,80646133,,2,TER,GTFS,Woerth (Rhein),Maximiliansau Im Ruesten,28,gtfs_stop_times
 87698464,87698746,,2,TRAIN,GTFS,Communay Les Brosses,Ternay Boucherattes,7,gtfs_stop_times
 87640714,87615203,,2,TRAIN,GTFS,Couiza Saint-Anne,Couiza - Montazels,2,gtfs_stop_times
 87723361,87698712,,2,TRAIN,GTFS,Saint-Pierre-de-Chandieu Ronin,Saint-Pierre-de-Chandieu Charmy,4,gtfs_stop_times
@@ -459,7 +451,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87642314,87642306,,2,TRAIN,GTFS,Bouxwiller Centre,Bouxwiller Lycée Schattenmann,22,gtfs_stop_times
 87642306,87642314,,2,TRAIN,GTFS,Bouxwiller Lycée Schattenmann,Bouxwiller Centre,21,gtfs_stop_times
 87702084,87642314,,2,TRAIN,GTFS,Bouxwiller Clos Des Seigneurs,Bouxwiller Centre,22,gtfs_stop_times
-85010066,85010009,,2,TRAIN,GTFS,Meyrin,Zimeysa,12,gtfs_stop_times
 87279943,87214940,,2,TRAIN,GTFS,Montiéramey Église,Le Ménilot,7,gtfs_stop_times
 87279968,87214981,,2,TRAIN,GTFS,Montaulin Mairie,Daudes,7,gtfs_stop_times
 87214650,87214643,,2,TRAIN,GTFS,Lutzelhouse,Mullerhof,26,gtfs_stop_times
@@ -516,9 +507,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87406827,87406819,,2,TRAIN,GTFS,Kuntzig Place de la Liberté,Kuntzig Bibiche,11,gtfs_stop_times
 87406819,87406827,,2,TRAIN,GTFS,Kuntzig Bibiche,Kuntzig Place de la Liberté,12,gtfs_stop_times
 87784702,87784710,,2,TRAIN,GTFS,Serdinya,Joncet,21,gtfs_stop_times
-85010009,85010066,,2,TRAIN,GTFS,Zimeysa,Meyrin,12,gtfs_stop_times
-85010074,85010066,,2,TRAIN,GTFS,Vernier,Meyrin,12,gtfs_stop_times
-85010066,85010074,,2,TRAIN,GTFS,Meyrin,Vernier,12,gtfs_stop_times
 87727750,87344127,,2,TRAIN,GTFS,Saint-Lyé Mantenay,Saint-Lyé Maisons brûlées,12,gtfs_stop_times
 87407320,87213108,,2,TRAIN,GTFS,Schweighouse-sur-Moder Villa,Schweighouse-sur-Moder,2,gtfs_stop_times
 87192138,87192252,,2,TRAIN,GTFS,Chenois Rue Principale,Lesse Centre,2,gtfs_stop_times
@@ -540,30 +528,18 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87215616,87398735,,2,TRAIN,GTFS,Bar-sur-Aube Piscine,Bar-sur-Aube Hôtel de Ville,3,gtfs_stop_times
 87194019,87193508,,2,TRAIN,GTFS,Ebring Croisement,Theding Allée de la Forêt,14,gtfs_stop_times
 87406868,87193508,,2,TRAIN,GTFS,Farébersviller Cité,Theding Allée de la Forêt,13,gtfs_stop_times
-85010215,85010116,,2,TRAIN,GTFS,Genthod-Bellevue,Les Tuileries,150,gtfs_stop_times
-85010215,85010124,,2,TRAIN,GTFS,Genthod-Bellevue,Creux-de-Genthod,145,gtfs_stop_times
-85010223,85010132,,2,TRAIN,GTFS,Versoix,Pont-Céard,145,gtfs_stop_times
 87407296,87213256,,2,TRAIN,GTFS,Niederbronn-les-Bains Usine,Niederbronn-les-Bains,30,gtfs_stop_times
 87721522,87721530,,2,TRAIN,GTFS,Le Méridien La Ferrière,Charbonnières-les-Bains,56,gtfs_stop_times
 87208553,87721548,,2,TRAIN,GTFS,Casino Lacroix Laval,La Tour-de-Salvagny,41,gtfs_stop_times
 87499913,87696484,,2,TRAIN,GTFS,Decize Ville,Decize,3,gtfs_stop_times
 87407502,87395962,,2,TRAIN,GTFS,Arrest Usine Melius,Sainte-Florine Lycée Claude Favard,2,gtfs_stop_times
-85010132,85010140,,2,TRAIN,GTFS,Pont-Céard,Mies,145,gtfs_stop_times
-85010157,85010140,,2,TRAIN,GTFS,Tannay,Mies,150,gtfs_stop_times
-85010140,85010157,,2,TRAIN,GTFS,Mies,Tannay,145,gtfs_stop_times
-85010231,85010157,,2,TRAIN,GTFS,Coppet,Tannay,150,gtfs_stop_times
-85010116,85010215,,2,TRAIN,GTFS,Les Tuileries,Genthod-Bellevue,145,gtfs_stop_times
-85010132,85010223,,2,TRAIN,GTFS,Pont-Céard,Versoix,150,gtfs_stop_times
-85010157,85010231,,2,TRAIN,GTFS,Tannay,Coppet,145,gtfs_stop_times
 87194274,87406611,,2,TRAIN,GTFS,Longuyon,Longuyon Pont des Deux Eaux,10,gtfs_stop_times
 87406702,87406611,,2,TRAIN,GTFS,Longuyon La Machine,Longuyon Pont des Deux Eaux,11,gtfs_stop_times
 87117523,87193144,,2,TRAIN,GTFS,Hargarten-aux-Mines Rue Principale,Falck Gare,4,gtfs_stop_times
 87117515,87193169,,2,TRAIN,GTFS,Alzing Rue de Brettnach,Brettnach Centre,4,gtfs_stop_times
-85015669,85015685,,2,TRAIN,GTFS,Le Chatelard VS,Le Châtelard Frontière,14,gtfs_stop_times
 87477588,87194001,,2,TRAIN,GTFS,Longwy Route de Metz,Longwy,10,gtfs_stop_times
 87193508,87194019,,2,TRAIN,GTFS,Theding Allée de la Forêt,Ebring Croisement,12,gtfs_stop_times
 87406611,87194274,,2,TRAIN,GTFS,Longuyon Pont des Deux Eaux,Longuyon,11,gtfs_stop_times
-85162727,85162735,,2,TRAIN,GTFS,Genève-Champel,Genève-Eaux-Vives,175,gtfs_stop_times
 87297150,87765396,,2,TRAIN,GTFS,Voyenne,Erlon,16,gtfs_stop_times
 87297150,87765404,,2,TRAIN,GTFS,Voyenne,Voyenne Ecole,17,gtfs_stop_times
 87697151,87697144,,2,TRAIN,GTFS,Argentine-Gemelly-ou-Stade,Argentine-La-Combe,2,gtfs_stop_times
@@ -595,7 +571,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87214981,87279968,,2,TRAIN,GTFS,Daudes,Montaulin Mairie,5,gtfs_stop_times
 87727842,87727834,,2,TRAIN,GTFS,Saint-Mesmin Courlanges,Saint-Mesmin Place du Monument,11,gtfs_stop_times
 87727834,87727842,,2,TRAIN,GTFS,Saint-Mesmin Place du Monument,Saint-Mesmin Courlanges,10,gtfs_stop_times
-85043216,85043141,,2,TRAIN,GTFS,La Chaux-de-Fonds Les Forges,La Chaux-de-Fonds,6,gtfs_stop_times
 87182386,87386540,,2,TRAIN,GTFS,Gunsbach - Griesbach,Munster Badischhof,33,gtfs_stop_times
 87182568,87182550,,2,TRAIN,GTFS,Thann,Vieux-Thann,112,gtfs_stop_times
 87182394,87182543,,2,TRAIN,GTFS,Munster,Luttenbach-près-Munster,39,gtfs_stop_times
@@ -637,7 +612,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87654384,87654392,,2,IC,GTFS,Lichtenberg Église,Lichtenberg Picardie,7,gtfs_stop_times
 87406686,87477570,,2,TRAIN,GTFS,Lexy Providence Usine,Rehon Poste,11,gtfs_stop_times
 87192070,87192088,,2,TRAIN,GTFS,Metz Nord,Woippy,88,gtfs_stop_times
-85010124,85010215,,2,TRAIN,GTFS,Creux-de-Genthod,Genthod-Bellevue,145,gtfs_stop_times
 87405993,87700955,,2,TRAIN,GTFS,Mirecourt Lycée Agricole,Mattaincourt la Poste,7,gtfs_stop_times
 87193177,87117507,,2,TRAIN,GTFS,Bouzonville,Vaudreching Bernanos,13,gtfs_stop_times
 87193177,87406728,,2,TRAIN,GTFS,Bouzonville,Bouzonville Rue d'Alzing,4,gtfs_stop_times
@@ -652,14 +626,10 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87721548,87208553,,2,TRAIN,GTFS,La Tour-de-Salvagny,Casino Lacroix Laval,41,gtfs_stop_times
 87696484,87499913,,2,TRAIN,GTFS,Decize,Decize Ville,3,gtfs_stop_times
 87395962,87407502,,2,TRAIN,GTFS,Sainte-Florine Lycée Claude Favard,Arrest Usine Melius,2,gtfs_stop_times
-85010140,85010132,,2,TRAIN,GTFS,Mies,Pont-Céard,145,gtfs_stop_times
 87345132,87345124,,2,TRAIN,GTFS,Coron de Méricourt,Pont de Sallaumines,10,gtfs_stop_times
 87212134,87212126,,2,TRAIN,GTFS,Brumath,Stephansfeld,57,gtfs_stop_times
-85015685,85015669,,2,TRAIN,GTFS,Le Châtelard Frontière,Le Chatelard VS,14,gtfs_stop_times
 87194001,87477588,,2,TRAIN,GTFS,Longwy,Longwy Route de Metz,10,gtfs_stop_times
-85162735,85162727,,2,TRAIN,GTFS,Genève-Eaux-Vives,Genève-Champel,175,gtfs_stop_times
 87697144,87697151,,2,TRAIN,GTFS,Argentine-La-Combe,Argentine-Gemelly-ou-Stade,2,gtfs_stop_times
-85043141,85043216,,2,TRAIN,GTFS,La Chaux-de-Fonds,La Chaux-de-Fonds Les Forges,6,gtfs_stop_times
 87386540,87182386,,2,TRAIN,GTFS,Munster Badischhof,Gunsbach - Griesbach,33,gtfs_stop_times
 87594275,87450064,,2,TRAIN,GTFS,Meymac,Meymac Bourg,3,gtfs_stop_times
 87500876,87696468,,2,TRAIN,GTFS,Saint-Ouen Arrêt Cars,Béard,3,gtfs_stop_times
@@ -701,7 +671,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87640813,87640821,,3,TRAIN,GTFS,Rombach-le-Franc Scierie,Lièpvre Rue du Vieux Moulin,9,gtfs_stop_times
 87500934,87500991,,3,TRAIN,GTFS,Sougy-sur-Loire BIF,Saint-Léger-des-Vignes Faubourg les Valettes,3,gtfs_stop_times
 87141432,87141424,,3,TRAIN,GTFS,Thiaville,Bertrichamps,5,gtfs_stop_times
-88717124,88718114,,3,TRAIN,GTFS,LOBBES,THUIN,29,gtfs_stop_times
 87718403,87718411,,3,TRAIN,GTFS,Roche-lez-Beaupré,Novillars,10,gtfs_stop_times
 87117515,87406728,,3,TRAIN,GTFS,Alzing Rue de Brettnach,Bouzonville Rue d'Alzing,4,gtfs_stop_times
 87783308,87783290,,3,TRAIN,GTFS,Le Monastier,Chirac,4,gtfs_stop_times
@@ -867,11 +836,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87181552,87665455,,3,TRAIN,GTFS,Saint-Gilles Lycée Haut-Rhin,Walbach La Forge Abri D 417,8,gtfs_stop_times
 87182055,87182667,,3,TRAIN,GTFS,Mulhouse Dornach,Lutterbach,43,gtfs_stop_times
 87751842,87759316,,3,TER,GTFS,Sainte-Marthe en Provence,Saint-Joseph le Castellas,39,gtfs_stop_times
-85161554,85171421,,3,TRAIN,GTFS,Lancy-Pont-Rouge,Lancy-Bachet,194,gtfs_stop_times
-85162735,85162743,,3,TRAIN,GTFS,Genève-Eaux-Vives,Chêne-Bourg,194,gtfs_stop_times
-85162834,85010207,,3,TRAIN,GTFS,Genève-Sécheron,Chambésy,150,gtfs_stop_times
-85171421,85161554,,3,TRAIN,GTFS,Lancy-Bachet,Lancy-Pont-Rouge,175,gtfs_stop_times
-85171421,85162727,,3,TRAIN,GTFS,Lancy-Bachet,Genève-Champel,194,gtfs_stop_times
 87181016,87182139,,3,TRAIN,GTFS,Saint-Louis la Chaussée,Saint-Louis,43,gtfs_stop_times
 87181222,87182345,,3,TRAIN,GTFS,Colmar Saint-Joseph,Logelbach,40,gtfs_stop_times
 87660340,87660365,,3,TRAIN,GTFS,Ingolsheim Centre,Riedseltz Arrêt Chapelle,3,gtfs_stop_times
@@ -891,8 +855,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87697193,87747626,,3,TRAIN,GTFS,Clelles-Mairie,Clelles - Mens,3,gtfs_stop_times
 87175794,87458828,,3,TRAIN,GTFS,Étain,Étain Centre,7,gtfs_stop_times
 87177170,87450874,,3,TRAIN,GTFS,Laissac Place du Foiral,Grèzes Séverac-l'Eglise,12,gtfs_stop_times
-85043158,85043216,,3,TRAIN,GTFS,Le Crêt-du-Locle,La Chaux-de-Fonds Les Forges,7,gtfs_stop_times
-85043216,85043158,,3,TRAIN,GTFS,La Chaux-de-Fonds Les Forges,Le Crêt-du-Locle,6,gtfs_stop_times
 87353599,87611939,,3,TRAIN,GTFS,Saint-Martin du Touch,Lardenne,29,gtfs_stop_times
 87354597,87354589,,3,TRAIN,GTFS,Saint-Sébastien Frêne Rond,Saint-Sébastien Pas Enchantés,42,gtfs_stop_times
 87361980,87594135,,3,TRAIN,GTFS,Rosiers-d'Égletons,Montaignac,3,gtfs_stop_times
@@ -958,16 +920,10 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87641365,87589804,,3,TRAIN,GTFS,Magnette,Reugny Rue De La Bascul,2,gtfs_stop_times
 87676874,87696484,,3,TRAIN,GTFS,Saint-Léger-des-Vignes Mairie,Decize,3,gtfs_stop_times
 87343418,87343400,,3,TRAIN,GTFS,Prouvy - Thiant,Trith-Saint-Léger,29,gtfs_stop_times
-85010207,85010116,,3,TRAIN,GTFS,Chambésy,Les Tuileries,150,gtfs_stop_times
-85010207,85162834,,3,TRAIN,GTFS,Chambésy,Genève-Sécheron,145,gtfs_stop_times
-85010223,85010124,,3,TRAIN,GTFS,Versoix,Creux-de-Genthod,145,gtfs_stop_times
-85015610,85303032,,3,TRAIN,GTFS,Vernayaz MC,Les Fumeaux,14,gtfs_stop_times
-85015644,85303347,,3,TRAIN,GTFS,Le Trétien,La Médettaz,14,gtfs_stop_times
 87342469,87342451,,3,TRAIN,GTFS,Marquillies,Salomé,22,gtfs_stop_times
 87213231,87213249,,3,TRAIN,GTFS,Reichshoffen Usines,Reichshoffen,2,gtfs_stop_times
 87213231,87407262,,3,TRAIN,GTFS,Reichshoffen Usines,Gundershoffen au Cygne,2,gtfs_stop_times
 87213249,87213231,,3,TRAIN,GTFS,Reichshoffen,Reichshoffen Usines,2,gtfs_stop_times
-87212464,80191064,,3,TER,GTFS,Lauterbourg,Berg (Pfalz),30,gtfs_stop_times
 87737593,87737585,,3,TRAIN,GTFS,Sarreguemines Lycée Technique,Sarreguemines Collège Fulrad,2,gtfs_stop_times
 87571406,87571414,,3,TRAIN,GTFS,Montbazon,Veigné,17,gtfs_stop_times
 87473850,87322347,,3,TRAIN,GTFS,Lancerf,Traou Nez,17,gtfs_stop_times
@@ -976,14 +932,9 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342436,87342451,,3,TRAIN,GTFS,La Bassée,Salomé,18,gtfs_stop_times
 87213298,87668152,,3,TRAIN,GTFS,Bannstein Croisement,Éguelshardt Abri,30,gtfs_stop_times
 87343160,87343319,,3,TRAIN,GTFS,Beuvrages,Raismes,12,gtfs_stop_times
-88716704,88716886,,3,TRAIN,GTFS,LABUISSIERE,FONTAINE-VALMONT,29,gtfs_stop_times
 87721225,87721241,,3,TRAIN,GTFS,Collonges - Fontaines,Couzon-au-Mont-d'Or,107,gtfs_stop_times
 87691600,87559070,,3,TRAIN,GTFS,Les Perrières,Nevers le Banlay,9,gtfs_stop_times
 87693390,87594168,,3,TRAIN,GTFS,Egletons-ville,Égletons,2,gtfs_stop_times
-88716704,88716621,,3,TRAIN,GTFS,LABUISSIERE,SOLRE-SUR-SAMBRE,28,gtfs_stop_times
-85010082,85162834,,3,TRAIN,GTFS,Genève Cornavin,Genève-Sécheron,150,gtfs_stop_times
-85010116,85010207,,3,TRAIN,GTFS,Les Tuileries,Chambésy,145,gtfs_stop_times
-85010124,85010223,,3,TRAIN,GTFS,Creux-de-Genthod,Versoix,150,gtfs_stop_times
 87721282,87721266,,3,TRAIN,GTFS,Saint-Germain-au-Mont-d'Or,Albigny - Neuville,77,gtfs_stop_times
 87721282,87721290,,3,TRAIN,GTFS,Saint-Germain-au-Mont-d'Or,Quincieux,112,gtfs_stop_times
 87213611,87213603,,3,TRAIN,GTFS,Bischwiller,Marienthal,48,gtfs_stop_times
@@ -993,7 +944,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342113,87345108,,3,TRAIN,GTFS,Vitry-en-Artois,Brebières Sud,20,gtfs_stop_times
 87213884,87595983,,3,TRAIN,GTFS,Niedermodern Pont de la Moder,La Walck Monument Aux Morts,19,gtfs_stop_times
 87594630,87594622,,3,TRAIN,GTFS,Objat,Saint-Aulaire,13,gtfs_stop_times
-88716621,88716704,,3,TRAIN,GTFS,SOLRE-SUR-SAMBRE,LABUISSIERE,29,gtfs_stop_times
 87734004,87396895,,3,IC,GTFS,Clermont-Ferrand,Clermont la Rotonde,8,gtfs_stop_times
 87476275,87476424,,3,TRAIN,GTFS,L'Isthme,Penthièvre,6,gtfs_stop_times
 87476275,87476432,,3,TRAIN,GTFS,L'Isthme,Kerhostin,6,gtfs_stop_times
@@ -1006,7 +956,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87640144,87635920,,3,TRAIN,GTFS,Suippes Garage,Suippes Camp,9,gtfs_stop_times
 87668152,87213298,,3,TRAIN,GTFS,Éguelshardt Abri,Bannstein Croisement,31,gtfs_stop_times
 87586347,87586362,,3,TRAIN,GTFS,Montestruc-sur-Gers,Sainte-Christie,13,gtfs_stop_times
-85010033,85010009,,3,TRAIN,GTFS,Satigny,Zimeysa,12,gtfs_stop_times
 87214296,87214320,,3,TRAIN,GTFS,Bischoffsheim,Rosheim,70,gtfs_stop_times
 87214221,87214239,,3,TRAIN,GTFS,Epfig,Eichhoffen,37,gtfs_stop_times
 87214239,87214221,,3,TRAIN,GTFS,Eichhoffen,Epfig,37,gtfs_stop_times
@@ -1067,12 +1016,9 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87741272,87697151,,3,TRAIN,GTFS,Argentine,Argentine-Gemelly-ou-Stade,2,gtfs_stop_times
 87756361,87756379,,3,IC,GTFS,Villefranche-sur-Mer,Beaulieu-sur-Mer,164,gtfs_stop_times
 87756379,87756361,,3,IC,GTFS,Beaulieu-sur-Mer,Villefranche-sur-Mer,230,gtfs_stop_times
-88716621,88716472,,3,TRAIN,GTFS,SOLRE-SUR-SAMBRE,ERQUELINNES-VILLAGE,28,gtfs_stop_times
 87703694,87635821,,3,TRAIN,GTFS,Koenigsmacker Metrich École,Koenigsmacker Centre,7,gtfs_stop_times
 87215012,87407189,,3,TRAIN,GTFS,Sarrebourg,Sarrebourg Place Mathey,10,gtfs_stop_times
-88716472,88716621,,3,TRAIN,GTFS,ERQUELINNES-VILLAGE,SOLRE-SUR-SAMBRE,29,gtfs_stop_times
 87728592,87717769,,3,TRAIN,GTFS,Herbitzheim Rue de Hambach,Herbitzheim Msp,8,gtfs_stop_times
-85010017,85010025,,3,TRAIN,GTFS,La Plaine (Suisse),Russin,7,gtfs_stop_times
 87722702,87722744,,3,TRAIN,GTFS,Francheville,Alaï,22,gtfs_stop_times
 87722728,87722710,,3,TRAIN,GTFS,Brignais,Chaponost,27,gtfs_stop_times
 87722744,87722702,,3,TRAIN,GTFS,Alaï,Francheville,21,gtfs_stop_times
@@ -1087,14 +1033,12 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87756353,87756361,,3,IC,GTFS,Nice Riquier,Villefranche-sur-Mer,164,gtfs_stop_times
 87642280,87642272,,3,TRAIN,GTFS,Neuwiller Pharmacie,Dossenheim Lotissement,19,gtfs_stop_times
 87215350,87407031,,3,TRAIN,GTFS,Sarraltroff Gare,Sarrebourg Méphisto,7,gtfs_stop_times
-80194043,80920793,,3,TRAIN,GTFS,Neustadt (Weinstr) Hbf,Neustadt (Weinstraße) Süd,20,gtfs_stop_times
 87171322,87400986,,3,TRAIN,GTFS,Breuil - Romain,Magneux - Courlandon,18,gtfs_stop_times
 87715144,87659631,,3,TRAIN,GTFS,La Rivière,Bouverans Halte Routière,2,gtfs_stop_times
 87722405,87722439,,3,TRAIN,GTFS,Givors Ville,Givors Canal,35,gtfs_stop_times
 87478784,87694729,,3,TRAIN,GTFS,Le Guidon,Dyo,2,gtfs_stop_times
 87215624,87215707,,3,TRAIN,GTFS,Ailleville,Arsonval,5,gtfs_stop_times
 87316075,87313098,,3,TRAIN,GTFS,Dreuil-lès-Amiens,Ailly-sur-Somme,14,gtfs_stop_times
-82007104,82001000,,3,TRAIN,GTFS,Luxembourg secteur Hollerich,Luxembourg,23,gtfs_stop_times
 87643411,87643429,,3,TRAIN,GTFS,Kintzheim Mairie,Orschwiller Chapelle,16,gtfs_stop_times
 87643429,87643411,,3,TRAIN,GTFS,Orschwiller Chapelle,Kintzheim Mairie,16,gtfs_stop_times
 87642272,87642280,,3,TRAIN,GTFS,Dossenheim Lotissement,Neuwiller Pharmacie,22,gtfs_stop_times
@@ -1109,8 +1053,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87316406,87313593,,3,TRAIN,GTFS,Montreuil-sur-Thérain,Villers-Saint-Sépulcre,19,gtfs_stop_times
 87215707,87215624,,3,TRAIN,GTFS,Arsonval,Ailleville,5,gtfs_stop_times
 87215939,87279927,,3,TRAIN,GTFS,Magny-Fouchard,Vauchonvilliers Mairie,5,gtfs_stop_times
-80920793,80194043,,3,TRAIN,GTFS,Neustadt (Weinstraße) Süd,Neustadt (Weinstr) Hbf,27,gtfs_stop_times
-82001000,82007104,,3,TRAIN,GTFS,Luxembourg,Luxembourg secteur Hollerich,23,gtfs_stop_times
 87756478,87756486,,3,IC,GTFS,Carnoles,Menton,194,gtfs_stop_times
 87756486,87756478,,3,IC,GTFS,Menton,Carnoles,259,gtfs_stop_times
 87756767,87751529,,3,IC,GTFS,La Trinité Victor,L'Ariane La Trinité,29,gtfs_stop_times
@@ -1129,7 +1071,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87665513,87665562,,3,TRAIN,GTFS,Luttenbach Fronzell,Breitenbach Restaurant Breit's bar,15,gtfs_stop_times
 87665562,87665513,,3,TRAIN,GTFS,Breitenbach Restaurant Breit's bar,Luttenbach Fronzell,16,gtfs_stop_times
 87481705,87321745,,3,IC,GTFS,Saint-Nazaire,Penhoët,17,gtfs_stop_times
-80194209,80194217,,3,TRAIN,GTFS,Maikammer-Kirrweiler,Edenkoben,20,gtfs_stop_times
 87481754,87481697,,3,IC,GTFS,La Baule-Escoublac,La Baule les Pins,30,gtfs_stop_times
 87484048,87484006,,3,TRAIN,GTFS,Angers Maître École,Angers Saint-Laud,17,gtfs_stop_times
 87313593,87316406,,3,TRAIN,GTFS,Villers-Saint-Sépulcre,Montreuil-sur-Thérain,12,gtfs_stop_times
@@ -1141,10 +1082,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87665455,87181552,,3,TRAIN,GTFS,Walbach La Forge Abri D 417,Saint-Gilles Lycée Haut-Rhin,6,gtfs_stop_times
 87141077,87141788,,3,TRAIN,GTFS,Frouard,Pompey,58,gtfs_stop_times
 87141085,87141077,,3,TRAIN,GTFS,Champigneulles,Frouard,34,gtfs_stop_times
-80359349,80197871,,3,TRAIN,GTFS,Schweighofen,Kapsweyer,30,gtfs_stop_times
-80646133,80191049,,3,TER,GTFS,Maximiliansau Im Ruesten,Hagenbach,26,gtfs_stop_times
-80646141,80191049,,3,TER,GTFS,Neuburg (Rhein),Hagenbach,30,gtfs_stop_times
-80646141,80191064,,3,TER,GTFS,Neuburg (Rhein),Berg (Pfalz),26,gtfs_stop_times
 87698746,87698787,,3,TRAIN,GTFS,Ternay Boucherattes,Ternay Croix du Morze,5,gtfs_stop_times
 87703553,87406983,,3,TRAIN,GTFS,Niederstinzel Principale,Fénétrange Le Val Fleuri,9,gtfs_stop_times
 87141119,87141101,,3,TRAIN,GTFS,Dombasle-sur-Meurthe,Varangéville - Saint-Nicolas,57,gtfs_stop_times
@@ -1156,15 +1093,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87313296,87313288,,3,TRAIN,GTFS,Avrechy,Saint-Remy-en-l'Eau,9,gtfs_stop_times
 87313098,87316075,,3,TRAIN,GTFS,Ailly-sur-Somme,Dreuil-lès-Amiens,17,gtfs_stop_times
 87698787,87698746,,3,TRAIN,GTFS,Ternay Croix du Morze,Ternay Boucherattes,5,gtfs_stop_times
-80197871,80359349,,3,TRAIN,GTFS,Kapsweyer,Schweighofen,22,gtfs_stop_times
 87660605,87214643,,3,TRAIN,GTFS,Lutzelhouse Abri Église,Mullerhof,4,gtfs_stop_times
 87660605,87660688,,3,TRAIN,GTFS,Lutzelhouse Abri Église,Wisches Église,10,gtfs_stop_times
 87660688,87214684,,3,TRAIN,GTFS,Wisches Église,Russ-Hersbach,10,gtfs_stop_times
 87660688,87660605,,3,TRAIN,GTFS,Wisches Église,Lutzelhouse Abri Église,9,gtfs_stop_times
 87660795,87214742,,3,TRAIN,GTFS,Devant Fouday Abri RN 420,Saint-Blaise-la-Roche,2,gtfs_stop_times
-80359331,80194332,,3,TRAIN,GTFS,Steinfeld (Pfalz),Schaidt (Pfalz),30,gtfs_stop_times
-80194225,80194233,,3,TRAIN,GTFS,Edesheim (Pfalz),Knöringen-Essingen,20,gtfs_stop_times
-80194332,80359331,,3,TRAIN,GTFS,Schaidt (Pfalz),Steinfeld (Pfalz),22,gtfs_stop_times
 87703454,87193664,,3,TRAIN,GTFS,Wittring Pont,Kalhausen Gare,13,gtfs_stop_times
 87313064,87316067,,3,TRAIN,GTFS,Méricourt - Ribemont,Buire-sur-l'Ancre,12,gtfs_stop_times
 87742221,87174003,,3,TRAIN,GTFS,Châlons-en-Champagne Marne,Châlons-en-Champagne,10,gtfs_stop_times
@@ -1174,9 +1107,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87272195,87276741,,3,TRAIN,GTFS,Longueil-Annel,Thourotte,35,gtfs_stop_times
 87761072,87761064,,3,TRAIN,GTFS,Val-d'Oingt - Saint-Laurent-d'Oingt Gare,Val-d'Oingt - Saint-Laurent-d'Oingt Bourg,2,gtfs_stop_times
 87645705,87534099,,3,TRAIN,GTFS,Bort-les-Orgues,Bort-les-Orgues Ville,11,gtfs_stop_times
-80194217,80194225,,3,TRAIN,GTFS,Edenkoben,Edesheim (Pfalz),20,gtfs_stop_times
 87665240,87402297,,3,TRAIN,GTFS,Colmar St-Joseph Rue du Val St-Grégoire,Colmar Mésanges,8,gtfs_stop_times
-80194225,80194217,,3,TRAIN,GTFS,Edesheim (Pfalz),Edenkoben,28,gtfs_stop_times
 87741710,87741702,,3,IC,GTFS,Aigueblanche-Centre,La Léchère les Bains Petit Coeur,3,gtfs_stop_times
 87715326,87352047,,3,TRAIN,GTFS,Champagnole,Champagnole Paul-Émile Victor,7,gtfs_stop_times
 87775825,87775833,,3,TRAIN,GTFS,Le Cailar,Aimargues,7,gtfs_stop_times
@@ -1229,7 +1160,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87500900,87499939,,3,TRAIN,GTFS,Saint-Ouen le Port des Bois,Imphy Grand Vernay,3,gtfs_stop_times
 87499939,87499954,,3,TRAIN,GTFS,Imphy Grand Vernay,Imphy Square Lamartine,3,gtfs_stop_times
 87757666,87757641,,3,IC,GTFS,Juan les Pins,Golfe Juan Vallauris,88,gtfs_stop_times
-88716472,88716050,,3,TRAIN,GTFS,ERQUELINNES-VILLAGE,ERQUELINNES,29,gtfs_stop_times
 87286187,87286195,,3,TRAIN,GTFS,La Madeleine,Saint-André,25,gtfs_stop_times
 87286112,87286096,,3,TRAIN,GTFS,Loos lez Lille,Haubourdin,28,gtfs_stop_times
 87286401,87286096,,3,TRAIN,GTFS,Santes,Haubourdin,35,gtfs_stop_times
@@ -1256,20 +1186,15 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87641001,87641191,,3,TRAIN,GTFS,Montluçon,La Ville Gozet,3,gtfs_stop_times
 87741702,87741710,,3,IC,GTFS,La Léchère les Bains Petit Coeur,Aigueblanche-Centre,3,gtfs_stop_times
 87352047,87715326,,3,TRAIN,GTFS,Champagnole Paul-Émile Victor,Champagnole,7,gtfs_stop_times
-80194233,80194225,,3,TRAIN,GTFS,Knöringen-Essingen,Edesheim (Pfalz),20,gtfs_stop_times
-80191064,80646141,,3,TER,GTFS,Berg (Pfalz),Neuburg (Rhein),26,gtfs_stop_times
 87141101,87141119,,3,TRAIN,GTFS,Varangéville - Saint-Nicolas,Dombasle-sur-Meurthe,57,gtfs_stop_times
 87141127,87141119,,3,TRAIN,GTFS,Rosières-aux-Salines,Dombasle-sur-Meurthe,68,gtfs_stop_times
 87144089,87144097,,3,TRAIN,GTFS,Igney,Thaon,25,gtfs_stop_times
 87313288,87313296,,3,TRAIN,GTFS,Saint-Remy-en-l'Eau,Avrechy,9,gtfs_stop_times
-80194217,80194209,,3,TRAIN,GTFS,Edenkoben,Maikammer-Kirrweiler,20,gtfs_stop_times
 87481697,87481754,,3,IC,GTFS,La Baule les Pins,La Baule-Escoublac,30,gtfs_stop_times
 87484006,87484048,,3,TRAIN,GTFS,Angers Saint-Laud,Angers Maître École,17,gtfs_stop_times
 87703595,87703587,,3,TRAIN,GTFS,Gosselming Mairie,Saint-Jean-de-Bassel Église,3,gtfs_stop_times
 87141788,87141077,,3,TRAIN,GTFS,Pompey,Frouard,58,gtfs_stop_times
 87141077,87141085,,3,TRAIN,GTFS,Frouard,Champigneulles,34,gtfs_stop_times
-80191049,80646133,,3,TER,GTFS,Hagenbach,Maximiliansau Im Ruesten,26,gtfs_stop_times
-80191049,80646141,,3,TER,GTFS,Hagenbach,Neuburg (Rhein),30,gtfs_stop_times
 87141432,87144626,,3,TRAIN,GTFS,Thiaville,Raon-l'Étape,7,gtfs_stop_times
 87138370,87146472,,3,TRAIN,GTFS,Loubiere Canabols,Montrozier Gages Pont,10,gtfs_stop_times
 87338590,87756460,,3,IC,GTFS,Monte-Carlo Country Club,Roquebrune-Cap-Martin,41,gtfs_stop_times
@@ -1286,7 +1211,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87131961,87743351,,3,TRAIN,GTFS,Brion - Montréal-la-Cluse Gare,Nurieux Gare,3,gtfs_stop_times
 87695973,87743534,,3,TRAIN,GTFS,Bellignat - Lycée-Arbez-Carme,Oyonnax,2,gtfs_stop_times
 87417881,87152413,,3,TRAIN,GTFS,Maussac le Poteau,Maussac Place de la Poste,3,gtfs_stop_times
-85010025,85010017,,3,TRAIN,GTFS,Russin,La Plaine (Suisse),7,gtfs_stop_times
 87722710,87722728,,3,TRAIN,GTFS,Chaponost,Brignais,27,gtfs_stop_times
 87722231,87722249,,3,TRAIN,GTFS,Pierre-Bénite,Irigny - Yvours,34,gtfs_stop_times
 87407049,87215103,,3,TRAIN,GTFS,Avricourt Rue Des Halles,Igney - Avricourt,7,gtfs_stop_times
@@ -1306,28 +1230,22 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87214254,87214270,,3,TRAIN,GTFS,Gertwiller,Goxwiller,58,gtfs_stop_times
 87741306,87697722,,3,TRAIN,GTFS,Saint-Avre - La Chambre,Saint-Étienne-de-Cuines,2,gtfs_stop_times
 87586362,87586347,,3,TRAIN,GTFS,Sainte-Christie,Montestruc-sur-Gers,13,gtfs_stop_times
-85010009,85010033,,3,TRAIN,GTFS,Zimeysa,Satigny,12,gtfs_stop_times
 87172049,87172056,,3,TRAIN,GTFS,Bogny-sur-Meuse,Monthermé,64,gtfs_stop_times
 87721266,87721282,,3,TRAIN,GTFS,Albigny - Neuville,Saint-Germain-au-Mont-d'Or,77,gtfs_stop_times
 87721290,87721282,,3,TRAIN,GTFS,Quincieux,Saint-Germain-au-Mont-d'Or,112,gtfs_stop_times
 87213603,87213611,,3,TRAIN,GTFS,Marienthal,Bischwiller,48,gtfs_stop_times
 87213678,87213660,,3,TRAIN,GTFS,Weyersheim,Kurtzenhouse,50,gtfs_stop_times
 87594622,87594630,,3,TRAIN,GTFS,Saint-Aulaire,Objat,13,gtfs_stop_times
-80191064,87212464,,3,TER,GTFS,Berg (Pfalz),Lauterbourg,30,gtfs_stop_times
 87737585,87737593,,3,TRAIN,GTFS,Sarreguemines Collège Fulrad,Sarreguemines Lycée Technique,2,gtfs_stop_times
 87473520,87473579,,3,TRAIN,GTFS,Pont-Melvez,Coat Guégan,21,gtfs_stop_times
 87172700,87172304,,3,TRAIN,GTFS,Remilly-Aillicourt,Noyers-Pont-Maugis,4,gtfs_stop_times
 87342451,87342436,,3,TRAIN,GTFS,Salomé,La Bassée,18,gtfs_stop_times
 87343319,87343160,,3,TRAIN,GTFS,Raismes,Beuvrages,12,gtfs_stop_times
-88716886,88716704,,3,TRAIN,GTFS,FONTAINE-VALMONT,LABUISSIERE,29,gtfs_stop_times
 87721241,87721225,,3,TRAIN,GTFS,Couzon-au-Mont-d'Or,Collonges - Fontaines,107,gtfs_stop_times
 87594168,87693390,,3,TRAIN,GTFS,Égletons,Egletons-ville,2,gtfs_stop_times
-85162834,85010082,,3,TRAIN,GTFS,Genève-Sécheron,Genève Cornavin,150,gtfs_stop_times
 87589804,87641365,,3,TRAIN,GTFS,Reugny Rue De La Bascul,Magnette,2,gtfs_stop_times
 87696484,87676874,,3,TRAIN,GTFS,Decize,Saint-Léger-des-Vignes Mairie,3,gtfs_stop_times
 87343400,87343418,,3,TRAIN,GTFS,Trith-Saint-Léger,Prouvy - Thiant,29,gtfs_stop_times
-85303032,85015610,,3,TRAIN,GTFS,Les Fumeaux,Vernayaz MC,14,gtfs_stop_times
-85303347,85015644,,3,TRAIN,GTFS,La Médettaz,Le Trétien,14,gtfs_stop_times
 87342451,87342469,,3,TRAIN,GTFS,Salomé,Marquillies,22,gtfs_stop_times
 87212324,87212316,,3,TER,GTFS,Kilstett,La Wantzenau,22,gtfs_stop_times
 87713826,87712265,,3,TRAIN,GTFS,Ruffey,Bretigny - Norges,30,gtfs_stop_times
@@ -1345,8 +1263,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87697227,87697185,,3,TRAIN,GTFS,Lissieu-Le Bois Dieu RD306,Civrieux-d'Azergues D 385,11,gtfs_stop_times
 87450874,87177170,,3,TRAIN,GTFS,Grèzes Séverac-l'Eglise,Laissac Place du Foiral,12,gtfs_stop_times
 87759316,87751842,,3,TER,GTFS,Saint-Joseph le Castellas,Sainte-Marthe en Provence,39,gtfs_stop_times
-85162743,85162735,,3,TRAIN,GTFS,Chêne-Bourg,Genève-Eaux-Vives,194,gtfs_stop_times
-85162727,85171421,,3,TRAIN,GTFS,Genève-Champel,Lancy-Bachet,194,gtfs_stop_times
 87660365,87660340,,3,TRAIN,GTFS,Riedseltz Arrêt Chapelle,Ingolsheim Centre,3,gtfs_stop_times
 87660373,87660365,,3,TRAIN,GTFS,Riedseltz Salle Polyvalente,Riedseltz Arrêt Chapelle,3,gtfs_stop_times
 87138438,87138321,,3,TRAIN,GTFS,Gaillac-D-Aveyron Lugans,Gaillac-d'Aveyron Bourg,10,gtfs_stop_times
@@ -1415,14 +1331,12 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87141796,87141804,,3,TRAIN,GTFS,Marbache,Belleville,14,gtfs_stop_times
 87659938,87659946,,3,TRAIN,GTFS,Moosch Mairie,Willer-sur-Thur Mairie,12,gtfs_stop_times
 87757757,87757740,,3,IC,GTFS,Le Bosquet,La Frayère,123,gtfs_stop_times
-88716050,88716472,,3,TRAIN,GTFS,ERQUELINNES,ERQUELINNES-VILLAGE,29,gtfs_stop_times
 87286195,87286187,,3,TRAIN,GTFS,Saint-André,La Madeleine,25,gtfs_stop_times
 87286096,87286401,,3,TRAIN,GTFS,Haubourdin,Santes,35,gtfs_stop_times
 87286401,87286419,,3,TRAIN,GTFS,Santes,Wavrin,28,gtfs_stop_times
 87286427,87286435,,3,TRAIN,GTFS,La Fontaine,Don - Sainghin,10,gtfs_stop_times
 87500991,87500934,,3,TRAIN,GTFS,Saint-Léger-des-Vignes Faubourg les Valettes,Sougy-sur-Loire BIF,3,gtfs_stop_times
 87141424,87141432,,3,TRAIN,GTFS,Bertrichamps,Thiaville,5,gtfs_stop_times
-88718114,88717124,,3,TRAIN,GTFS,THUIN,LOBBES,29,gtfs_stop_times
 87286583,87286575,,3,TRAIN,GTFS,Orchies,Landas,36,gtfs_stop_times
 87659961,87659979,,3,TRAIN,GTFS,Thann La Poste,Vieux-Thann Parking de la Gare,2,gtfs_stop_times
 87659987,87182410,,3,TRAIN,GTFS,Cernay Église,Cernay,2,gtfs_stop_times
@@ -1443,12 +1357,9 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87172213,87172221,,4,TGV,GTFS,Nouvion-sur-Meuse,Vrigne-Meuse,44,gtfs_stop_times
 87317115,87317107,,4,TRAIN,GTFS,Pont de Briques,Hesdigneul,2,gtfs_stop_times
 87287292,87281428,,4,TRAIN,GTFS,Nortkerque,Audruicq,14,gtfs_stop_times
-80077990,80659698,,4,TRAIN,GTFS,Berlin-Gesundbrunnen,Berlin Hbf-Lehrter Bahnhof Nord,4,gtfs_stop_times
 87337006,87698621,,4,TRAIN,GTFS,COUX Centre,Privas-Cours-du-Palais,2,gtfs_stop_times
 87723395,87723387,,4,TRAIN,GTFS,La Verpillière,Saint-Quentin-Fallavier,44,gtfs_stop_times
 87141390,87141382,,4,TRAIN,GTFS,Ménil - Flin,Chenevières,4,gtfs_stop_times
-80144154,80144139,,4,TRAIN,GTFS,Neuenburg (Baden),Muellheim (Baden),15,gtfs_stop_times
-87785006,71793150,,4,TRAIN,GTFS,Cerbère,Portbou,39,gtfs_stop_times
 87936989,87639971,,4,TRAIN,GTFS,Buswiller-Eglise,Ettendorf  Rue du Pont,4,gtfs_stop_times
 87594739,87594747,,4,TRAIN,GTFS,Vayrac,Bétaille,2,gtfs_stop_times
 87703629,87707588,,4,TRAIN,GTFS,Oberstinzel Rue Principale,Sarraltroff Rue de la Forêt,2,gtfs_stop_times
@@ -1465,19 +1376,12 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87191098,87191114,,4,TRAIN,GTFS,Walygator parc,Hagondange,25,gtfs_stop_times
 87191114,87191106,,4,TRAIN,GTFS,Hagondange,Maizières-lès-Metz,90,gtfs_stop_times
 87191114,87191742,,4,TRAIN,GTFS,Hagondange,Gandrange - Amnéville,17,gtfs_stop_times
-88850685,88850010,,4,TRAIN,GTFS,FROYENNES,Tournai,54,gtfs_stop_times
-88850010,88850685,,4,TRAIN,GTFS,Tournai,FROYENNES,53,gtfs_stop_times
-80142893,80142901,,4,TRAIN,GTFS,Appenweier,Legelshurst,44,gtfs_stop_times
-80142901,80142893,,4,TRAIN,GTFS,Legelshurst,Appenweier,43,gtfs_stop_times
-80142901,80142919,,4,TRAIN,GTFS,Legelshurst,Kork,44,gtfs_stop_times
 87718338,87718361,,4,TRAIN,GTFS,Ranchot,Orchamps,9,gtfs_stop_times
-88718379,88718528,,4,TRAIN,GTFS,LANDELIES,MARCHIENNE-ZONE,29,gtfs_stop_times
 87734186,87734178,,4,TRAIN,GTFS,Vic-le-Comte,Les Martres-de-Veyre,54,gtfs_stop_times
 87411249,87411256,,4,TRAIN,GTFS,Maromme,Malaunay - Le Houlme,47,gtfs_stop_times
 87411256,87411249,,4,TRAIN,GTFS,Malaunay - Le Houlme,Maromme,46,gtfs_stop_times
 87411439,87411447,,4,TRAIN,GTFS,Morgny,Longuerue - Vieux-Manoir,12,gtfs_stop_times
 87184432,87184424,,4,TRAIN,GTFS,Grandvillars,Morvillars,16,gtfs_stop_times
-80191049,80191031,,4,TER,GTFS,Hagenbach,Woerth (Rhein),2,gtfs_stop_times
 87612002,87611707,,4,TRAIN,GTFS,Labège Innopole,Escalquens,46,gtfs_stop_times
 87411181,87411207,,4,TRAIN,GTFS,Tourville,Oissel,10,gtfs_stop_times
 87411207,87411181,,4,TRAIN,GTFS,Oissel,Tourville,8,gtfs_stop_times
@@ -1490,7 +1394,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87406884,87406850,,4,TRAIN,GTFS,Farébersviller Rue du Moulin,Cocheren Village,13,gtfs_stop_times
 87406934,87199612,,4,IC,GTFS,Bitche Rue de la Paix,Reyersviller Schwangerbach,16,gtfs_stop_times
 87191619,87191601,,4,TRAIN,GTFS,Koenigsmacker,Basse-Ham,6,gtfs_stop_times
-80142919,80142901,,4,TRAIN,GTFS,Kork,Legelshurst,43,gtfs_stop_times
 87191106,87191114,,4,TRAIN,GTFS,Maizières-lès-Metz,Hagondange,79,gtfs_stop_times
 87191114,87191098,,4,TRAIN,GTFS,Hagondange,Walygator parc,23,gtfs_stop_times
 87182881,87659953,,4,TRAIN,GTFS,Thann Saint-Jacques,Bitschwiller-lès-Thann Mairie,10,gtfs_stop_times
@@ -1543,7 +1446,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87117937,87117911,,4,TRAIN,GTFS,Montigny-les-Monts Mairie,Chamoy-Carrefour D1/D23,14,gtfs_stop_times
 87117952,87139865,,4,TRAIN,GTFS,Saint-Jean-de-Bonneval Église,Lirey la Chapelle,14,gtfs_stop_times
 87117978,87117903,,4,TRAIN,GTFS,Villery,Bouilly Mairie,16,gtfs_stop_times
-80142927,80142919,,4,TRAIN,GTFS,Kehl,Kork,43,gtfs_stop_times
 87747337,87747329,,4,TRAIN,GTFS,Voreppe,Moirans,59,gtfs_stop_times
 87721548,87566919,,4,TRAIN,GTFS,La Tour-de-Salvagny,Lentilly Charpenay,41,gtfs_stop_times
 87721555,87698282,,4,TRAIN,GTFS,Lentilly,Fleurieux RN7,14,gtfs_stop_times
@@ -1709,8 +1611,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87694612,87694620,,4,TRAIN,GTFS,Blanzy,Montceau-les-Mines,15,gtfs_stop_times
 87773432,87773457,,4,TRAIN,GTFS,Valergues - Lansargues,Baillargues,20,gtfs_stop_times
 87181016,87182113,,4,TRAIN,GTFS,Saint-Louis la Chaussée,Bartenheim,40,gtfs_stop_times
-85043166,85043158,,4,TRAIN,GTFS,Le Locle,Le Crêt-du-Locle,7,gtfs_stop_times
-85043166,87598219,,4,TRAIN,GTFS,Le Locle,Le Locle Col des Roches,9,gtfs_stop_times
 87753509,87753491,,4,TRAIN,GTFS,Martigues,Croix Sainte,36,gtfs_stop_times
 87361980,87693390,,4,TRAIN,GTFS,Rosiers-d'Égletons,Egletons-ville,2,gtfs_stop_times
 87199620,87192260,,4,TRAIN,GTFS,Destry Centre,Brulange Rue de Metz,2,gtfs_stop_times
@@ -1719,7 +1619,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87753491,87753509,,4,TRAIN,GTFS,Croix Sainte,Martigues,18,gtfs_stop_times
 87212027,87212308,,4,TER,GTFS,Strasbourg,Bischheim,24,gtfs_stop_times
 87753020,87753038,,4,TRAIN,GTFS,Montech Lacoste,Montech Pont Canal,8,gtfs_stop_times
-85043158,85043166,,4,TRAIN,GTFS,Le Crêt-du-Locle,Le Locle,7,gtfs_stop_times
 87746784,87746818,,4,TRAIN,GTFS,Chamonix-Mont-Blanc,Les Moussoux,2,gtfs_stop_times
 87746784,87746826,,4,TRAIN,GTFS,Chamonix-Mont-Blanc,Les Praz de Chamonix,45,gtfs_stop_times
 87471359,87471342,,4,TRAIN,GTFS,Retiers,Le Theil-de-Bretagne,22,gtfs_stop_times
@@ -1823,7 +1722,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342584,87342576,,4,TRAIN,GTFS,Avion,Vimy,17,gtfs_stop_times
 87718361,87718338,,4,TRAIN,GTFS,Orchamps,Ranchot,10,gtfs_stop_times
 87343160,87343004,,4,TRAIN,GTFS,Beuvrages,Valenciennes,11,gtfs_stop_times
-85015636,85015628,,4,TRAIN,GTFS,Les Marécottes,Salvan,14,gtfs_stop_times
 87342550,87342543,,4,TRAIN,GTFS,Pernes - Camblain,Calonne-Ricouart,16,gtfs_stop_times
 87342576,87342584,,4,TRAIN,GTFS,Vimy,Avion,24,gtfs_stop_times
 87212340,87212332,,4,TER,GTFS,Herrlisheim,Gambsheim,36,gtfs_stop_times
@@ -1888,7 +1786,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342253,87342246,,4,TER,GTFS,Savy-Berlette,Aubigny-en-Artois,22,gtfs_stop_times
 87342261,87342238,,4,TRAIN,GTFS,Ham-en-Artois,Lillers,8,gtfs_stop_times
 87721241,87721266,,4,TRAIN,GTFS,Couzon-au-Mont-d'Or,Albigny - Neuville,107,gtfs_stop_times
-85010082,85010074,,4,TRAIN,GTFS,Genève Cornavin,Vernier,12,gtfs_stop_times
 87584607,87584615,,4,TRAIN,GTFS,Saint-Médard-de-Guizières,Saint-Seurin-sur-l'Isle,90,gtfs_stop_times
 87584615,87584607,,4,TRAIN,GTFS,Saint-Seurin-sur-l'Isle,Saint-Médard-de-Guizières,87,gtfs_stop_times
 87755314,87755306,,4,TRAIN,GTFS,La Pauline,La Garde,73,gtfs_stop_times
@@ -1902,8 +1799,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87213884,87678714,,4,TRAIN,GTFS,Niedermodern Pont de la Moder,Neubourg Église,15,gtfs_stop_times
 87586313,87586305,,4,TRAIN,GTFS,Goulens,Layrac,9,gtfs_stop_times
 87586313,87586321,,4,TRAIN,GTFS,Goulens,Astaffort,13,gtfs_stop_times
-85010025,85010033,,4,TRAIN,GTFS,Russin,Satigny,12,gtfs_stop_times
-85010033,85010025,,4,TRAIN,GTFS,Satigny,Russin,12,gtfs_stop_times
 87214114,87214106,,4,TRAIN,GTFS,Kogenheim,Ebersheim,57,gtfs_stop_times
 87214122,87214130,,4,TRAIN,GTFS,Benfeld,Matzenheim,49,gtfs_stop_times
 87214130,87214148,,4,TRAIN,GTFS,Matzenheim,Erstein,49,gtfs_stop_times
@@ -2043,9 +1938,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87722264,87722298,,4,TRAIN,GTFS,Vernaison,Grigny le Sablon,37,gtfs_stop_times
 87718536,87718601,,4,TRAIN,GTFS,Étalans,Le Valdahon Camp Militaire,14,gtfs_stop_times
 87171579,87171561,,4,TRAIN,GTFS,Avenay,Ay-Champagne,40,gtfs_stop_times
-87745497,85162743,,4,TRAIN,GTFS,Annemasse,Chêne-Bourg,175,gtfs_stop_times
 87611327,87611624,,4,TRAIN,GTFS,Varilhes,Saint-Jean-de-Verges,75,gtfs_stop_times
-82009407,82009300,,4,TRAIN,GTFS,Rodange,Petange,23,gtfs_stop_times
 87481242,87481259,,4,IC,GTFS,Bourgneuf-en-Retz,Les Moutiers-en-Retz,21,gtfs_stop_times
 87481259,87481242,,4,IC,GTFS,Les Moutiers-en-Retz,Bourgneuf-en-Retz,30,gtfs_stop_times
 87481259,87481267,,4,IC,GTFS,Les Moutiers-en-Retz,La Bernerie-en-Retz,21,gtfs_stop_times
@@ -2062,9 +1955,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87215988,87214940,,4,TRAIN,GTFS,Lusigny-sur-Barse Centre,Le Ménilot,7,gtfs_stop_times
 87216010,87214981,,4,TRAIN,GTFS,Rouilly-Saint-Loup D21,Daudes,7,gtfs_stop_times
 87756460,87756478,,4,IC,GTFS,Roquebrune-Cap-Martin,Carnoles,194,gtfs_stop_times
-80920793,80194209,,4,TRAIN,GTFS,Neustadt (Weinstraße) Süd,Maikammer-Kirrweiler,20,gtfs_stop_times
-82001000,82002501,,4,TRAIN,GTFS,Luxembourg,Howald,109,gtfs_stop_times
-82002501,82001000,,4,TRAIN,GTFS,Howald,Luxembourg,76,gtfs_stop_times
 87756486,87756494,,4,IC,GTFS,Menton,Menton Garavan,106,gtfs_stop_times
 87756494,87756486,,4,IC,GTFS,Menton Garavan,Menton,145,gtfs_stop_times
 87756767,87756775,,4,IC,GTFS,La Trinité Victor,Drap - Cantaron,30,gtfs_stop_times
@@ -2139,7 +2029,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87484360,87484352,,4,TRAIN,GTFS,Ingrandes,Champtocé-sur-Loire,20,gtfs_stop_times
 87313213,87313049,,4,TRAIN,GTFS,Boves,Longueau,32,gtfs_stop_times
 87698779,87722546,,4,TRAIN,GTFS,Ternay Chemin de la Gare,Sérézin,12,gtfs_stop_times
-80194266,80194233,,4,TRAIN,GTFS,Landau (Pfalz) Hbf,Knöringen-Essingen,28,gtfs_stop_times
 87703488,87703470,,4,TRAIN,GTFS,Wolfskirchen Rue du Moulin,Bischtroff-sur-Sarre Mairie,9,gtfs_stop_times
 87272013,87276733,,4,TRAIN,GTFS,Jaux,Le Meux - La Croix-Saint-Ouen,62,gtfs_stop_times
 87272096,87276717,,4,TRAIN,GTFS,Esches,Bornel - Belle-Église,43,gtfs_stop_times
@@ -2163,7 +2052,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87144212,87715821,,4,TRAIN,GTFS,Mirecourt,Mirecourt Hôpital,21,gtfs_stop_times
 87723734,87723742,,4,TRAIN,GTFS,Saint-André-de-Corcy,Saint-Marcel en Dombes,38,gtfs_stop_times
 87723742,87723734,,4,TRAIN,GTFS,Saint-Marcel en Dombes,Saint-André-de-Corcy,31,gtfs_stop_times
-87598219,85043166,,4,TRAIN,GTFS,Le Locle Col des Roches,Le Locle,8,gtfs_stop_times
 87726729,87726737,,4,TRAIN,GTFS,Firminy,Fraisses - Unieux,6,gtfs_stop_times
 87276204,87276212,,4,TRAIN,GTFS,Laigneville,Liancourt - Rantigny,137,gtfs_stop_times
 87276212,87276204,,4,TRAIN,GTFS,Liancourt - Rantigny,Laigneville,70,gtfs_stop_times
@@ -2258,10 +2146,8 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87286518,87286526,,4,TRAIN,GTFS,Seclin,Wattignies - Templemars,31,gtfs_stop_times
 87286526,87286518,,4,TRAIN,GTFS,Wattignies - Templemars,Seclin,34,gtfs_stop_times
 87286526,87286534,,4,TRAIN,GTFS,Wattignies - Templemars,Ronchin,31,gtfs_stop_times
-80194209,80920793,,4,TRAIN,GTFS,Maikammer-Kirrweiler,Neustadt (Weinstraße) Süd,27,gtfs_stop_times
 87281410,87287292,,4,TRAIN,GTFS,Pont d'Ardres,Nortkerque,12,gtfs_stop_times
 87702068,87702076,,4,TRAIN,GTFS,Zellenberg Route du Vin,Riquewihr Poste,5,gtfs_stop_times
-88718528,88718379,,4,TRAIN,GTFS,MARCHIENNE-ZONE,LANDELIES,28,gtfs_stop_times
 87491233,87491241,,4,TRAIN,GTFS,Aubie - Saint-Antoine,Saint-André-de-Cubzac,18,gtfs_stop_times
 87497461,87446179,,4,TRAIN,GTFS,Gallieni-Cancéropôle,Saint-Cyprien Arènes,22,gtfs_stop_times
 87286534,87286526,,4,TRAIN,GTFS,Ronchin,Wattignies - Templemars,34,gtfs_stop_times
@@ -2271,7 +2157,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87406728,87735522,,4,TRAIN,GTFS,Bouzonville Rue d'Alzing,Bouzonville Institut Providenc,2,gtfs_stop_times
 87713578,87713594,,4,TRAIN,GTFS,Chagny,Santenay les Bains,18,gtfs_stop_times
 87640946,87214858,,4,TRAIN,GTFS,Ste-Marie-aux-Ms P. de Gaulle,Sainte-Marie-aux-Mines Cité Scolaire,2,gtfs_stop_times
-85161554,85010074,,4,TRAIN,GTFS,Lancy-Pont-Rouge,Vernier,2,gtfs_stop_times
 87694166,87694174,,4,TRAIN,GTFS,Broye,Saint-Symphorien-de-Marmagne,2,gtfs_stop_times
 87213058,87213108,,4,TRAIN,GTFS,Haguenau,Schweighouse-sur-Moder,36,gtfs_stop_times
 87343004,87343210,,4,TRAIN,GTFS,Valenciennes,Le Poirier Université,54,gtfs_stop_times
@@ -2289,7 +2174,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87172221,87172213,,4,TGV,GTFS,Vrigne-Meuse,Nouvion-sur-Meuse,44,gtfs_stop_times
 87317107,87317115,,4,TRAIN,GTFS,Hesdigneul,Pont de Briques,2,gtfs_stop_times
 87281428,87287292,,4,TRAIN,GTFS,Audruicq,Nortkerque,14,gtfs_stop_times
-80659698,80077990,,4,TRAIN,GTFS,Berlin Hbf-Lehrter Bahnhof Nord,Berlin-Gesundbrunnen,4,gtfs_stop_times
 87698621,87337006,,4,TRAIN,GTFS,Privas-Cours-du-Palais,COUX Centre,2,gtfs_stop_times
 87723577,87723569,,4,TRAIN,GTFS,La Valbonne,Montluel,26,gtfs_stop_times
 87141408,87141390,,4,TRAIN,GTFS,Azerailles,Ménil - Flin,6,gtfs_stop_times
@@ -2321,8 +2205,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87407726,87765990,,4,TRAIN,GTFS,La Grave Carrefour,Vallon-en-Sully Marché couvert,2,gtfs_stop_times
 87718312,87718320,,4,TRAIN,GTFS,Dannemarie - Velesmes,Saint-Vit,11,gtfs_stop_times
 87723387,87723395,,4,TRAIN,GTFS,Saint-Quentin-Fallavier,La Verpillière,44,gtfs_stop_times
-80144139,80144154,,4,TRAIN,GTFS,Muellheim (Baden),Neuenburg (Baden),15,gtfs_stop_times
-71793150,87785006,,4,TRAIN,GTFS,Portbou,Cerbère,39,gtfs_stop_times
 87117499,87191387,,4,TRAIN,GTFS,Hestroff Eglise,Anzeling,13,gtfs_stop_times
 87734178,87734160,,4,TRAIN,GTFS,Les Martres-de-Veyre,Le Cendre - Orcet,69,gtfs_stop_times
 87673095,87673004,,4,TRAIN,GTFS,Boucau,Bayonne,38,gtfs_stop_times
@@ -2341,7 +2223,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87691394,87696195,,4,TRAIN,GTFS,La Marche,La Charité-sur-Loire,2,gtfs_stop_times
 87411447,87411439,,4,TRAIN,GTFS,Longuerue - Vieux-Manoir,Morgny,12,gtfs_stop_times
 87184424,87184432,,4,TRAIN,GTFS,Morvillars,Grandvillars,16,gtfs_stop_times
-80191031,80191049,,4,TER,GTFS,Woerth (Rhein),Hagenbach,2,gtfs_stop_times
 87611707,87612002,,4,TRAIN,GTFS,Escalquens,Labège Innopole,46,gtfs_stop_times
 87191601,87191619,,4,TRAIN,GTFS,Basse-Ham,Koenigsmacker,6,gtfs_stop_times
 87696203,87696211,,4,TRAIN,GTFS,Tronsanges,Pougues-les-Eaux,20,gtfs_stop_times
@@ -2350,7 +2231,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87192070,87192039,,4,TRAIN,GTFS,Metz Nord,Metz,88,gtfs_stop_times
 87581835,87581801,,4,TRAIN,GTFS,Villenave-d'Ornon,Bègles,16,gtfs_stop_times
 87761239,87723429,,4,TRAIN,GTFS,L'Isle-d'Abeau,Bourgoin-Jallieu,44,gtfs_stop_times
-80142919,80142927,,4,TRAIN,GTFS,Kork,Kehl,43,gtfs_stop_times
 87278259,87581751,,4,TRAIN,GTFS,Mérignac Arlac,Pessac,13,gtfs_stop_times
 87594119,87417865,,4,TRAIN,GTFS,Corrèze,Eyrein,3,gtfs_stop_times
 87192229,87192237,,4,TRAIN,GTFS,Sanry-sur-Nied,Rémilly,18,gtfs_stop_times
@@ -2442,7 +2322,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342402,87342410,,4,TRAIN,GTFS,Beuvry lès Béthune,Cuinchy,14,gtfs_stop_times
 87213603,87213058,,4,TRAIN,GTFS,Marienthal,Haguenau,50,gtfs_stop_times
 87343004,87343160,,4,TRAIN,GTFS,Valenciennes,Beuvrages,11,gtfs_stop_times
-85015628,85015636,,4,TRAIN,GTFS,Salvan,Les Marécottes,14,gtfs_stop_times
 87342543,87342550,,4,TRAIN,GTFS,Calonne-Ricouart,Pernes - Camblain,16,gtfs_stop_times
 87342212,87342246,,4,TER,GTFS,Frévin-Capelle,Aubigny-en-Artois,22,gtfs_stop_times
 87734731,87734749,,4,TRAIN,GTFS,Chamalières-sur-Loire,Retournac,19,gtfs_stop_times
@@ -2459,7 +2338,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87678714,87213884,,4,TRAIN,GTFS,Neubourg Église,Niedermodern Pont de la Moder,15,gtfs_stop_times
 87214239,87214247,,4,TRAIN,GTFS,Eichhoffen,Barr,37,gtfs_stop_times
 87697474,87335521,,4,TRAIN,GTFS,Grenoble-Victor-Hugo,Grenoble,2,gtfs_stop_times
-85010074,85010082,,4,TRAIN,GTFS,Vernier,Genève Cornavin,12,gtfs_stop_times
 87138362,87755140,,4,TRAIN,GTFS,Onet-le-Château la Roquette,Onet-le-Château Route de Sévérac,10,gtfs_stop_times
 87755264,87755231,,4,TRAIN,GTFS,La Seyne - Six Fours,Ollioules - Sanary-sur-Mer,154,gtfs_stop_times
 87642223,87642249,,4,TRAIN,GTFS,Saverne Lycée Verne,Saverne Place des Dragons,2,gtfs_stop_times
@@ -2489,7 +2367,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87214684,87214692,,4,TRAIN,GTFS,Russ-Hersbach,Schirmeck - La Broque,49,gtfs_stop_times
 87722298,87722264,,4,TRAIN,GTFS,Grigny le Sablon,Vernaison,37,gtfs_stop_times
 87171561,87171579,,4,TRAIN,GTFS,Ay-Champagne,Avenay,40,gtfs_stop_times
-85162743,87745497,,4,TRAIN,GTFS,Chêne-Bourg,Annemasse,175,gtfs_stop_times
 87756387,87756395,,4,IC,GTFS,Èze,Cap-d'Ail,230,gtfs_stop_times
 87756395,87756403,,4,IC,GTFS,Cap-d'Ail,Monaco-Monte-Carlo,230,gtfs_stop_times
 87317529,87317537,,4,TRAIN,GTFS,Le Tréport - Mers-les-Bains,Eu,41,gtfs_stop_times
@@ -2508,7 +2385,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87726406,87726414,,4,TRAIN,GTFS,Andrézieux,Bonson,26,gtfs_stop_times
 87726422,87726414,,4,TRAIN,GTFS,Sury-le-Comtal,Bonson,25,gtfs_stop_times
 87354589,87481002,,4,TRAIN,GTFS,Saint-Sébastien Pas Enchantés,Nantes,33,gtfs_stop_times
-82009300,82009407,,4,TRAIN,GTFS,Petange,Rodange,23,gtfs_stop_times
 87775247,87775254,,4,TRAIN,GTFS,La Levade,Grand-Combe la Pise,13,gtfs_stop_times
 87721845,87666099,,4,TRAIN,GTFS,Chambost-Allières,Chamelet Centre,2,gtfs_stop_times
 87481689,87481713,,4,IC,GTFS,La Croix de Méan,Montoir-de-Bretagne,20,gtfs_stop_times
@@ -2534,7 +2410,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87313288,87313270,,4,TRAIN,GTFS,Saint-Remy-en-l'Eau,Saint-Just-en-Chaussée,4,gtfs_stop_times
 87486563,87486571,,4,TRAIN,GTFS,Saint-Hilaire-de-Riez,Saint-Gilles-Croix-de-Vie,30,gtfs_stop_times
 87313049,87313213,,4,TRAIN,GTFS,Longueau,Boves,32,gtfs_stop_times
-80194233,80194266,,4,TRAIN,GTFS,Knöringen-Essingen,Landau (Pfalz) Hbf,28,gtfs_stop_times
 87703470,87703488,,4,TRAIN,GTFS,Bischtroff-sur-Sarre Mairie,Wolfskirchen Rue du Moulin,9,gtfs_stop_times
 87276717,87272096,,4,TRAIN,GTFS,Bornel - Belle-Église,Esches,43,gtfs_stop_times
 87276378,87276006,,4,TRAIN,GTFS,Villers-Saint-Paul,Creil,88,gtfs_stop_times
@@ -2578,7 +2453,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87735522,87406728,,4,TRAIN,GTFS,Bouzonville Institut Providenc,Bouzonville Rue d'Alzing,2,gtfs_stop_times
 87713594,87713578,,4,TRAIN,GTFS,Santenay les Bains,Chagny,18,gtfs_stop_times
 87214858,87640946,,4,TRAIN,GTFS,Sainte-Marie-aux-Mines Cité Scolaire,Ste-Marie-aux-Ms P. de Gaulle,2,gtfs_stop_times
-85010074,85161554,,4,TRAIN,GTFS,Vernier,Lancy-Pont-Rouge,2,gtfs_stop_times
 87213108,87213058,,4,TRAIN,GTFS,Schweighouse-sur-Moder,Haguenau,36,gtfs_stop_times
 87343210,87343004,,4,TRAIN,GTFS,Le Poirier Université,Valenciennes,54,gtfs_stop_times
 87673004,87673095,,4,TRAIN,GTFS,Bayonne,Boucau,38,gtfs_stop_times
@@ -2976,7 +2850,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87755330,87755314,,5,TRAIN,GTFS,Solliès-Pont,La Pauline,20,gtfs_stop_times
 87409763,87721787,,5,TRAIN,GTFS,Bois d'Oingt,Bois-d'Oingt - Légny,4,gtfs_stop_times
 87713537,87713529,,5,TRAIN,GTFS,Corgoloin,Nuits-Saint-Georges,28,gtfs_stop_times
-87187930,85000109,,5,TRAIN,GTFS,Bâle Saint-Jean,Basel SBB,28,gtfs_stop_times
 87185348,87185314,,5,TRAIN,GTFS,Champagney,Ronchamp,14,gtfs_stop_times
 87407692,87409474,,5,TRAIN,GTFS,La Chomette,Paulhaguet Monument,2,gtfs_stop_times
 87342063,87342071,,5,TRAIN,GTFS,Courcelles-le-Comte,Boisleux,11,gtfs_stop_times
@@ -3053,7 +2926,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87673269,87673277,,5,TRAIN,GTFS,Saint-Geours,Saint-Vincent-de-Tyrosse,47,gtfs_stop_times
 87213470,87213462,,5,TRAIN,GTFS,Wissembourg,Riedseltz,25,gtfs_stop_times
 87660126,87660340,,5,TRAIN,GTFS,Schoenenbourg Centre,Ingolsheim Centre,3,gtfs_stop_times
-87213470,80359349,,5,TRAIN,GTFS,Wissembourg,Schweighofen,30,gtfs_stop_times
 87342253,87342303,,5,TER,GTFS,Savy-Berlette,Tincques,20,gtfs_stop_times
 87138339,87783365,,5,TRAIN,GTFS,Severac d'Aveyron Lapanouse,Sévérac-le-Château,12,gtfs_stop_times
 87138321,87783795,,5,TRAIN,GTFS,Gaillac-d'Aveyron Bourg,Severac-D-Aveyron Recoules,12,gtfs_stop_times
@@ -3340,7 +3212,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87487843,87487892,,5,IC,GTFS,La Bohalle,Saint-Mathurin,11,gtfs_stop_times
 87574236,87574244,,5,TRAIN,GTFS,Suèvres,Menars,5,gtfs_stop_times
 87747147,87139501,,5,TRAIN,GTFS,Troyes Hôpital Simone Veil,Troyes Gare Routière,2,gtfs_stop_times
-80359349,87213470,,5,TRAIN,GTFS,Schweighofen,Wissembourg,30,gtfs_stop_times
 87191700,87191718,,5,TRAIN,GTFS,Joeuf,Moyeuvre-Grande,45,gtfs_stop_times
 87742247,87191692,,5,TRAIN,GTFS,Auboué Centre,Homécourt,2,gtfs_stop_times
 87676833,87599753,,5,TRAIN,GTFS,Saint-Éloi Église,Nevers Petit Canal,3,gtfs_stop_times
@@ -3365,7 +3236,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87411249,87411017,,5,TRAIN,GTFS,Maromme,Rouen Rive Droite,47,gtfs_stop_times
 87775825,87775817,,5,TRAIN,GTFS,Le Cailar,Vauvert,8,gtfs_stop_times
 87215350,87407189,,5,TRAIN,GTFS,Sarraltroff Gare,Sarrebourg Place Mathey,4,gtfs_stop_times
-85000109,87187930,,5,TRAIN,GTFS,Basel SBB,Bâle Saint-Jean,28,gtfs_stop_times
 87185314,87185348,,5,TRAIN,GTFS,Ronchamp,Champagney,14,gtfs_stop_times
 87409474,87407692,,5,TRAIN,GTFS,Paulhaguet Monument,La Chomette,2,gtfs_stop_times
 87175117,87338160,,5,TRAIN,GTFS,Chevillon,Rachecourt-sur-Marne,12,gtfs_stop_times
@@ -3536,7 +3406,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87590349,87590331,,5,TRAIN,GTFS,Babinière,Haluchère Batignolles Beaujoire,51,gtfs_stop_times
 87745588,87745596,,5,TRAIN,GTFS,Machilly,Bons-en-Chablais,55,gtfs_stop_times
 87295709,87295725,,5,TRAIN,GTFS,Sains-du-Nord,Avesnelles,2,gtfs_stop_times
-87338525,80142927,,5,TRAIN,GTFS,Krimmeri Meinau,Kehl,39,gtfs_stop_times
 87295642,87295667,,5,TRAIN,GTFS,Landrecies,Ors,4,gtfs_stop_times
 87213785,87642330,,5,TRAIN,GTFS,Ingwiller,Menchhoffen Abri,8,gtfs_stop_times
 87215491,87730994,,5,TRAIN,GTFS,Keskastel Gare,Keskastel Rue de la Libération,2,gtfs_stop_times
@@ -3558,7 +3427,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87721001,87722025,,5,TRAIN,GTFS,Lyon Vaise,Lyon Perrache,169,gtfs_stop_times
 87757591,87757617,,5,IC,GTFS,Mandelieu-la-Napoule,Cannes La Bocca,67,gtfs_stop_times
 87757617,87757591,,5,IC,GTFS,Cannes La Bocca,Mandelieu-la-Napoule,55,gtfs_stop_times
-82007187,82007146,,5,TRAIN,GTFS,Bascharage secteur Sanem,Dippach secteur Reckange,23,gtfs_stop_times
 87660977,87660936,,5,TRAIN,GTFS,Epfig Croisement Église - RN,Eichhoffen Carrefour Gare,3,gtfs_stop_times
 87295048,87295055,,5,TRAIN,GTFS,Fourmies,Anor,59,gtfs_stop_times
 87713008,87713826,,5,TRAIN,GTFS,Dijon Porte Neuve,Ruffey,30,gtfs_stop_times
@@ -3579,7 +3447,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87773515,87773531,,5,TRAIN,GTFS,Villeneuve-lès-Maguelone,Vic - Mireval,23,gtfs_stop_times
 87773531,87773515,,5,TRAIN,GTFS,Vic - Mireval,Villeneuve-lès-Maguelone,27,gtfs_stop_times
 87471524,87471516,,5,TRAIN,GTFS,Châteaubourg,Les Lacs,32,gtfs_stop_times
-82007187,82009300,,5,TRAIN,GTFS,Bascharage secteur Sanem,Petange,23,gtfs_stop_times
 87295006,87295568,,5,TRAIN,GTFS,Maubeuge,Hautmont,43,gtfs_stop_times
 87286716,87286732,,5,TRAIN,GTFS,Croix - Wasquehal,Roubaix,8,gtfs_stop_times
 87286542,87286732,,5,TRAIN,GTFS,Tourcoing,Roubaix,99,gtfs_stop_times
@@ -3632,7 +3499,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87713859,87713842,,5,TRAIN,GTFS,Is-sur-Tille,Gemeaux,19,gtfs_stop_times
 87287300,87281436,,5,TRAIN,GTFS,Ruminghem,Watten - Éperlecques,15,gtfs_stop_times
 87732222,87727909,,5,TRAIN,GTFS,Bar-sur-Aube Lycée,Bar sur Aube Collége,3,gtfs_stop_times
-80194332,80194324,,5,TRAIN,GTFS,Schaidt (Pfalz),Winden (Pfalz),22,gtfs_stop_times
 87287300,87281428,,5,TRAIN,GTFS,Ruminghem,Audruicq,15,gtfs_stop_times
 87474239,87474221,,5,TRAIN,GTFS,Landerneau,La Forest-Landerneau,23,gtfs_stop_times
 87746008,87746206,,5,TRAIN,GTFS,Annecy,Pringy,46,gtfs_stop_times
@@ -3645,13 +3511,9 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87474239,87474262,,5,TRAIN,GTFS,Landerneau,La Roche-Maurice,17,gtfs_stop_times
 87474262,87474239,,5,TRAIN,GTFS,La Roche-Maurice,Landerneau,11,gtfs_stop_times
 87474221,87474239,,5,TRAIN,GTFS,La Forest-Landerneau,Landerneau,24,gtfs_stop_times
-88718296,88718379,,5,TRAIN,GTFS,HOURPES,LANDELIES,11,gtfs_stop_times
-88718379,88718296,,5,TRAIN,GTFS,LANDELIES,HOURPES,11,gtfs_stop_times
 87287102,87286005,,5,TRAIN,GTFS,Lezennes,Lille Flandres,13,gtfs_stop_times
-88718296,88718114,,5,TRAIN,GTFS,HOURPES,THUIN,11,gtfs_stop_times
 87192732,87742254,,5,TRAIN,GTFS,Valleroy - Moineville,Hatrize Centre,2,gtfs_stop_times
 87728501,87282624,,5,TRAIN,GTFS,Saint-Fons,Lyon Jean Macé,64,gtfs_stop_times
-88718114,88718296,,5,TRAIN,GTFS,THUIN,HOURPES,11,gtfs_stop_times
 87784843,87784850,,5,TRAIN,GTFS,Err,Sainte-Léocadie,12,gtfs_stop_times
 87535096,87337089,,5,TRAIN,GTFS,Aubenas Gare Routière,Aubenas Place de la Paix,2,gtfs_stop_times
 87141101,87141093,,5,TRAIN,GTFS,Varangéville - Saint-Nicolas,Laneuveville-devant-Nancy,51,gtfs_stop_times
@@ -3692,7 +3554,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87473843,87473876,,5,TRAIN,GTFS,Pontrieux,Frynaudour,18,gtfs_stop_times
 87476242,87476234,,5,TRAIN,GTFS,Brandérion,Landévant,17,gtfs_stop_times
 87727909,87732222,,5,TRAIN,GTFS,Bar sur Aube Collége,Bar-sur-Aube Lycée,3,gtfs_stop_times
-80194324,80194332,,5,TRAIN,GTFS,Winden (Pfalz),Schaidt (Pfalz),22,gtfs_stop_times
 87721787,87721811,,5,TRAIN,GTFS,Bois-d'Oingt - Légny,Ternand,2,gtfs_stop_times
 87715136,87715144,,5,TRAIN,GTFS,Frasne,La Rivière,11,gtfs_stop_times
 87471391,87471003,,5,TRAIN,GTFS,Pontchaillou,Rennes,173,gtfs_stop_times
@@ -3710,15 +3571,12 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87286872,87286864,,5,TRAIN,GTFS,Baisieux,Ascq,52,gtfs_stop_times
 87473132,87473140,,5,TRAIN,GTFS,Plouvara - Plerneuf,Châtelaudren - Plouagat,3,gtfs_stop_times
 87171769,87171751,,5,TRAIN,GTFS,Coucy-lès-Eppes,Saint-Erme,15,gtfs_stop_times
-82009300,82007187,,5,TRAIN,GTFS,Petange,Bascharage secteur Sanem,23,gtfs_stop_times
-82007146,82007187,,5,TRAIN,GTFS,Dippach secteur Reckange,Bascharage secteur Sanem,23,gtfs_stop_times
 87660936,87660977,,5,TRAIN,GTFS,Eichhoffen Carrefour Gare,Epfig Croisement Église - RN,3,gtfs_stop_times
 87746701,87744078,,5,TRAIN,GTFS,Chedde,Saint-Gervais-les-Bains,18,gtfs_stop_times
 87592055,87592063,,5,TRAIN,GTFS,Saint-Priest-Taurion,Brignac,31,gtfs_stop_times
 87773556,87773531,,5,TRAIN,GTFS,Frontignan,Vic - Mireval,23,gtfs_stop_times
 87722025,87721001,,5,TRAIN,GTFS,Lyon Perrache,Lyon Vaise,169,gtfs_stop_times
 87295725,87295709,,5,TRAIN,GTFS,Avesnelles,Sains-du-Nord,2,gtfs_stop_times
-80142927,87338525,,5,TRAIN,GTFS,Kehl,Krimmeri Meinau,39,gtfs_stop_times
 87642330,87213785,,5,TRAIN,GTFS,Menchhoffen Abri,Ingwiller,8,gtfs_stop_times
 87730994,87215491,,5,TRAIN,GTFS,Keskastel Rue de la Libération,Keskastel Gare,2,gtfs_stop_times
 87276469,87276725,,5,TRAIN,GTFS,Persan - Beaumont,Chambly,41,gtfs_stop_times
@@ -3806,11 +3664,9 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87471177,87471151,,6,TRAIN,GTFS,Pléchâtel,Guichen - Bourg-des-Comptes,23,gtfs_stop_times
 87471177,87471185,,6,TRAIN,GTFS,Pléchâtel,Messac - Guipry,51,gtfs_stop_times
 87471185,87471177,,6,TRAIN,GTFS,Messac - Guipry,Pléchâtel,51,gtfs_stop_times
-85015685,87746875,,6,TRAIN,GTFS,Le Châtelard Frontière,Vallorcine,14,gtfs_stop_times
 87584516,87584508,,6,TRAIN,GTFS,Coutras,Saint-Denis-de-Pile,109,gtfs_stop_times
 87584516,87584532,,6,TRAIN,GTFS,Coutras,Les Églisottes,59,gtfs_stop_times
 87272195,87276691,,6,TRAIN,GTFS,Longueil-Annel,Compiègne,33,gtfs_stop_times
-85010082,85161554,,6,TRAIN,GTFS,Genève Cornavin,Lancy-Pont-Rouge,189,gtfs_stop_times
 87584540,87584532,,6,TRAIN,GTFS,Saint-Aigulin - La Roche-Chalais,Les Églisottes,53,gtfs_stop_times
 87584714,87584052,,6,TRAIN,GTFS,Vayres,Libourne,111,gtfs_stop_times
 87296608,87296152,,6,TER,GTFS,Versigny,Crépy - Couvron,34,gtfs_stop_times
@@ -3835,7 +3691,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87313114,87313122,,6,TRAIN,GTFS,Hangest-sur-Somme,Longpré-les-Corps-Saints,14,gtfs_stop_times
 87313122,87313114,,6,TRAIN,GTFS,Longpré-les-Corps-Saints,Hangest-sur-Somme,17,gtfs_stop_times
 87746867,87746859,,6,TRAIN,GTFS,Montroc le Planet,Argentière,47,gtfs_stop_times
-87746875,85015685,,6,TRAIN,GTFS,Vallorcine,Le Châtelard Frontière,14,gtfs_stop_times
 87747006,87725895,,6,TRAIN,GTFS,Grenoble,Échirolles,78,gtfs_stop_times
 87471029,87334508,,6,TRAIN,GTFS,Vern,La Poterie,22,gtfs_stop_times
 87743740,87743757,,6,TRAIN,GTFS,Saint-Rambert-en-Bugey,Tenay - Hauteville,9,gtfs_stop_times
@@ -3993,7 +3848,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87611061,87611053,,6,TRAIN,GTFS,Carbonne,Longages - Noé,21,gtfs_stop_times
 87747329,87747287,,6,TRAIN,GTFS,Moirans,Voiron,59,gtfs_stop_times
 87747535,87747568,,6,TRAIN,GTFS,Jarrie - Vizille,Saint-Georges-de-Commiers,23,gtfs_stop_times
-88717124,88716886,,6,TRAIN,GTFS,LOBBES,FONTAINE-VALMONT,28,gtfs_stop_times
 87576439,87576447,,6,TRAIN,GTFS,Avord,Bengy,18,gtfs_stop_times
 87317248,87317230,,6,TER,GTFS,Blangy-sur-Ternoise,Auchy-lès-Hesdin,11,gtfs_stop_times
 87317255,87317248,,6,TER,GTFS,Anvin,Blangy-sur-Ternoise,10,gtfs_stop_times
@@ -4480,7 +4334,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87286187,87286005,,6,TRAIN,GTFS,La Madeleine,Lille Flandres,25,gtfs_stop_times
 87691675,87696492,,6,TRAIN,GTFS,Verneuil,Cercy-la-Tour,3,gtfs_stop_times
 87286203,87286302,,6,TRAIN,GTFS,Strazeele,Hazebrouck,28,gtfs_stop_times
-80143099,80142893,,6,TRAIN,GTFS,Offenburg,Appenweier,44,gtfs_stop_times
 87394270,87394288,,6,TRAIN,GTFS,Bretoncelles,Condé-sur-Huisne,49,gtfs_stop_times
 87286005,87286187,,6,TRAIN,GTFS,Lille Flandres,La Madeleine,22,gtfs_stop_times
 87182337,87654475,,6,TRAIN,GTFS,Rouffach,Rouffach CHS,2,gtfs_stop_times
@@ -4494,8 +4347,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87396366,87396358,,6,TRAIN,GTFS,La Suze,Voivres,20,gtfs_stop_times
 87723577,87723585,,6,TRAIN,GTFS,La Valbonne,Meximieux - Pérouges,25,gtfs_stop_times
 87718338,87718320,,6,TRAIN,GTFS,Ranchot,Saint-Vit,10,gtfs_stop_times
-88720090,88718528,,6,TRAIN,GTFS,Charleroi-Central,MARCHIENNE-ZONE,28,gtfs_stop_times
-88716886,88717124,,6,TRAIN,GTFS,FONTAINE-VALMONT,LOBBES,29,gtfs_stop_times
 87286179,87286203,,6,TRAIN,GTFS,Bailleul,Strazeele,28,gtfs_stop_times
 87594572,87594739,,6,TRAIN,GTFS,Saint-Denis-Près-Martel,Vayrac,2,gtfs_stop_times
 87718197,87718189,,6,TER,GTFS,Saint-Lothain,Poligny,2,gtfs_stop_times
@@ -4533,10 +4384,8 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87741454,87741439,,6,TRAIN,GTFS,Saint-Béron - La Bridoire,Lépin-le-Lac - La Bauche,4,gtfs_stop_times
 87214676,87214635,,6,TRAIN,GTFS,Wisches,Urmatt,2,gtfs_stop_times
 87286831,87286005,,6,TRAIN,GTFS,Pont de bois,Lille Flandres,40,gtfs_stop_times
-88718528,88720090,,6,TRAIN,GTFS,MARCHIENNE-ZONE,Charleroi-Central,28,gtfs_stop_times
 87286203,87286179,,6,TRAIN,GTFS,Strazeele,Bailleul,28,gtfs_stop_times
 87696492,87691675,,6,TRAIN,GTFS,Cercy-la-Tour,Verneuil,3,gtfs_stop_times
-80142893,80143099,,6,TRAIN,GTFS,Appenweier,Offenburg,44,gtfs_stop_times
 87394288,87394270,,6,TRAIN,GTFS,Condé-sur-Huisne,Bretoncelles,49,gtfs_stop_times
 87723718,87723700,,6,TRAIN,GTFS,Les Échets,Sathonay - Rillieux,37,gtfs_stop_times
 87474411,87474338,,6,TRAIN,GTFS,Plouigneau,Morlaix,3,gtfs_stop_times
@@ -4674,7 +4523,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87584607,87584516,,6,TRAIN,GTFS,Saint-Médard-de-Guizières,Coutras,90,gtfs_stop_times
 87534347,87181131,,6,TRAIN,GTFS,Lutterbach Tram-train,Graffenwald,68,gtfs_stop_times
 87296616,87296459,,6,TRAIN,GTFS,Chauny,Appilly,31,gtfs_stop_times
-85161554,85010082,,6,TRAIN,GTFS,Lancy-Pont-Rouge,Genève Cornavin,189,gtfs_stop_times
 87296152,87296608,,6,TER,GTFS,Crépy - Couvron,Versigny,34,gtfs_stop_times
 87721340,87721332,,6,TRAIN,GTFS,Saint-Georges-de-Reneins,Villefranche-sur-Saône,38,gtfs_stop_times
 87281444,87281436,,7,TRAIN,GTFS,Saint-Omer,Watten - Éperlecques,45,gtfs_stop_times
@@ -4703,7 +4551,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87281436,87281444,,7,TRAIN,GTFS,Watten - Éperlecques,Saint-Omer,44,gtfs_stop_times
 87387092,87381624,,7,TRAIN,GTFS,Bueil,Bréval,27,gtfs_stop_times
 87406959,87635771,,7,IC,GTFS,Enchenberg Mairie,Lemberg Mairie,16,gtfs_stop_times
-87191643,80251967,,7,TRAIN,GTFS,Apach,Perl,8,gtfs_stop_times
 87142240,87142273,,7,TRAIN,GTFS,Froncles,Donjeux,10,gtfs_stop_times
 87641001,87589580,,7,TRAIN,GTFS,Montluçon,La Ville Gozet Square H. Duna,3,gtfs_stop_times
 87673707,87673699,,7,TRAIN,GTFS,Ossès - Saint-Martin-d'Arrossa,Bidarray Pont Noblia,17,gtfs_stop_times
@@ -4788,7 +4635,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87192666,87192732,,7,TRAIN,GTFS,Conflans - Jarny,Valleroy - Moineville,3,gtfs_stop_times
 87192666,87742254,,7,TRAIN,GTFS,Conflans - Jarny,Hatrize Centre,2,gtfs_stop_times
 87396572,87396580,,7,TRAIN,GTFS,Aubigné-Racan,Mayet,19,gtfs_stop_times
-88857040,87286542,,7,TRAIN,GTFS,Mouscron,Tourcoing,62,gtfs_stop_times
 87659797,87659805,,7,TRAIN,GTFS,Kurtzenhouse 71 Route Principale,Bischwiller Église Catholique,2,gtfs_stop_times
 87474262,87474270,,7,TRAIN,GTFS,La Roche-Maurice,Landivisiau,11,gtfs_stop_times
 87474064,87474056,,7,TRAIN,GTFS,Châteaulin,Pont-de-Buis,24,gtfs_stop_times
@@ -4974,7 +4820,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87783563,87111864,,7,TRAIN,GTFS,Barjac,Balsièges Bourg,2,gtfs_stop_times
 87726331,87726307,,7,TRAIN,GTFS,Rive-de-Gier,Saint-Chamond,88,gtfs_stop_times
 87726406,87726232,,7,TRAIN,GTFS,Andrézieux,La Fouillouse,22,gtfs_stop_times
-87182139,85000109,,7,TRAIN,GTFS,Saint-Louis,Basel SBB,38,gtfs_stop_times
 87313734,87313742,,7,TRAIN,GTFS,Grandvilliers,Feuquières - Broquiers,39,gtfs_stop_times
 87313742,87313734,,7,TRAIN,GTFS,Feuquières - Broquiers,Grandvilliers,38,gtfs_stop_times
 87313742,87313759,,7,TRAIN,GTFS,Feuquières - Broquiers,Abancourt,39,gtfs_stop_times
@@ -5024,7 +4869,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87671495,87671487,,7,TRAIN,GTFS,Saint-Martin-d'Oney,Ygos,26,gtfs_stop_times
 87313577,87313585,,7,TRAIN,GTFS,Mouy - Bury,Hermes - Berthecourt,26,gtfs_stop_times
 87313585,87313577,,7,TRAIN,GTFS,Hermes - Berthecourt,Mouy - Bury,19,gtfs_stop_times
-80251819,80251850,,7,TRAIN,GTFS,Trèves,Konz Mitte,6,gtfs_stop_times
 87313601,87313510,,7,TRAIN,GTFS,Rochy-Condé,Beauvais,16,gtfs_stop_times
 87635862,87635870,,7,TRAIN,GTFS,Les Islettes Centre,Clermont-en-Argonne Centre,9,gtfs_stop_times
 87635870,87635862,,7,TRAIN,GTFS,Clermont-en-Argonne Centre,Les Islettes Centre,10,gtfs_stop_times
@@ -5104,7 +4948,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87297523,87295600,,7,TRAIN,GTFS,Hachette,Aulnoye-Aymeries,4,gtfs_stop_times
 87584235,87584193,,7,TRAIN,GTFS,Gardonne,Sainte-Foy-la-Grande,70,gtfs_stop_times
 87584268,87584243,,7,TRAIN,GTFS,Bergerac,Lamonzie-Saint-Martin,32,gtfs_stop_times
-85015651,85015669,,7,TRAIN,GTFS,Finhaut,Le Chatelard VS,14,gtfs_stop_times
 87611384,87611392,,7,TRAIN,GTFS,Auterive,Venerque - Le Vernet,138,gtfs_stop_times
 87586651,87586693,,7,TRAIN,GTFS,Tonneins,Aiguillon,35,gtfs_stop_times
 87586693,87586651,,7,TRAIN,GTFS,Aiguillon,Tonneins,35,gtfs_stop_times
@@ -5136,7 +4979,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87690396,87110346,,7,TRAIN,GTFS,Montfey,Ervy-le-Châtel Halles,16,gtfs_stop_times
 87476671,87476689,,7,TRAIN,GTFS,Questembert,Malansac,43,gtfs_stop_times
 87645101,87645002,,7,TRAIN,GTFS,Ytrac,Aurillac,2,gtfs_stop_times
-82009407,87194001,,7,TRAIN,GTFS,Rodange,Longwy,18,gtfs_stop_times
 87473082,87473074,,7,TRAIN,GTFS,Plénée-Jugon,Broons,10,gtfs_stop_times
 87746719,87746743,,7,TRAIN,GTFS,Servoz,Les Houches,2,gtfs_stop_times
 87478073,87478123,,7,TRAIN,GTFS,Dol-de-Bretagne,Plerguer,15,gtfs_stop_times
@@ -5155,7 +4997,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87172007,87172023,,7,TRAIN,GTFS,Charleville-Mézières,Nouzonville,36,gtfs_stop_times
 87611400,87611038,,7,TRAIN,GTFS,Portet Saint-Simon,Muret,37,gtfs_stop_times
 87611467,87446179,,7,TRAIN,GTFS,Colomiers,Saint-Cyprien Arènes,23,gtfs_stop_times
-85010017,87745380,,7,TRAIN,GTFS,La Plaine (Suisse),Pougny - Chancy,12,gtfs_stop_times
 87589804,87407726,,7,TRAIN,GTFS,Reugny Rue De La Bascul,La Grave Carrefour,2,gtfs_stop_times
 87276329,87276303,,7,TRAIN,GTFS,Pont-Sainte-Maxence,Longueil-Sainte-Marie,8,gtfs_stop_times
 87279927,87279919,,7,TRAIN,GTFS,Vauchonvilliers Mairie,Jessains Église,4,gtfs_stop_times
@@ -5175,7 +5016,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87172023,87172049,,7,TRAIN,GTFS,Nouzonville,Bogny-sur-Meuse,13,gtfs_stop_times
 87694000,87694307,,7,TRAIN,GTFS,Le Creusot,Montchanin,37,gtfs_stop_times
 87276782,87276766,,7,TRAIN,GTFS,Noyon,Ribécourt,7,gtfs_stop_times
-87286872,88850685,,7,TRAIN,GTFS,Baisieux,FROYENNES,54,gtfs_stop_times
 87784744,87784769,,7,TRAIN,GTFS,Thuès les Bains,Fontpédrouse St-Thomas les B.,2,gtfs_stop_times
 87784769,87784744,,7,TRAIN,GTFS,Fontpédrouse St-Thomas les B.,Thuès les Bains,2,gtfs_stop_times
 87279919,87279927,,7,TRAIN,GTFS,Jessains Église,Vauchonvilliers Mairie,5,gtfs_stop_times
@@ -5211,7 +5051,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87696450,87696468,,7,TRAIN,GTFS,Imphy,Béard,7,gtfs_stop_times
 87696468,87499954,,7,TRAIN,GTFS,Béard,Imphy Square Lamartine,2,gtfs_stop_times
 87696468,87696450,,7,TRAIN,GTFS,Béard,Imphy,9,gtfs_stop_times
-80144154,87182840,,7,TRAIN,GTFS,Neuenburg (Baden),Bantzenheim,15,gtfs_stop_times
 87592725,87592733,,7,TRAIN,GTFS,Nexon,Lafarge,2,gtfs_stop_times
 87281410,87317305,,7,TRAIN,GTFS,Pont d'Ardres,Les Fontinettes,14,gtfs_stop_times
 87286435,87342436,,7,TRAIN,GTFS,Don - Sainghin,La Bassée,14,gtfs_stop_times
@@ -5225,7 +5064,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87645002,87645101,,7,TRAIN,GTFS,Aurillac,Ytrac,2,gtfs_stop_times
 87784868,87784876,,7,TRAIN,GTFS,Osséja,Bourg-Madame,13,gtfs_stop_times
 87499954,87696468,,7,TRAIN,GTFS,Imphy Square Lamartine,Béard,2,gtfs_stop_times
-87182840,80144154,,7,TRAIN,GTFS,Bantzenheim,Neuenburg (Baden),15,gtfs_stop_times
 87592733,87592725,,7,TRAIN,GTFS,Lafarge,Nexon,2,gtfs_stop_times
 87342436,87286435,,7,TRAIN,GTFS,La Bassée,Don - Sainghin,14,gtfs_stop_times
 87409474,87731802,,7,TRAIN,GTFS,Paulhaguet Monument,Saint-Georges-d'Aurac Bourg,5,gtfs_stop_times
@@ -5241,8 +5079,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87784702,87784686,,7,TRAIN,GTFS,Serdinya,Villefranche - Vernet-les-Bains,21,gtfs_stop_times
 87473116,87473009,,7,TRAIN,GTFS,Yffiniac,Saint-Brieuc,15,gtfs_stop_times
 87276766,87276782,,7,TRAIN,GTFS,Ribécourt,Noyon,7,gtfs_stop_times
-88850685,87286872,,7,TRAIN,GTFS,FROYENNES,Baisieux,54,gtfs_stop_times
-87194001,82009407,,7,TRAIN,GTFS,Longwy,Rodange,18,gtfs_stop_times
 87473074,87473082,,7,TRAIN,GTFS,Broons,Plénée-Jugon,10,gtfs_stop_times
 87746743,87746719,,7,TRAIN,GTFS,Les Houches,Servoz,2,gtfs_stop_times
 87171728,87171736,,7,TRAIN,GTFS,Loivre,Guignicourt,4,gtfs_stop_times
@@ -5252,7 +5088,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87611376,87611368,,7,TRAIN,GTFS,Cintegabelle,Saverdun,95,gtfs_stop_times
 87478016,87478032,,7,TRAIN,GTFS,Saint-Germain-sur-Ille,Montreuil-sur-Ille,2,gtfs_stop_times
 87172023,87172007,,7,TRAIN,GTFS,Nouzonville,Charleville-Mézières,36,gtfs_stop_times
-87745380,85010017,,7,TRAIN,GTFS,Pougny - Chancy,La Plaine (Suisse),12,gtfs_stop_times
 87407726,87589804,,7,TRAIN,GTFS,La Grave Carrefour,Reugny Rue De La Bascul,2,gtfs_stop_times
 87276303,87276329,,7,TRAIN,GTFS,Longueil-Sainte-Marie,Pont-Sainte-Maxence,8,gtfs_stop_times
 87471516,87471508,,7,TRAIN,GTFS,Les Lacs,Vitré,32,gtfs_stop_times
@@ -5275,7 +5110,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87471201,87471185,,7,TRAIN,GTFS,Fougeray - Langon,Messac - Guipry,38,gtfs_stop_times
 87584102,87584052,,7,TRAIN,GTFS,Saint-Émilion,Libourne,73,gtfs_stop_times
 87584243,87584268,,7,TRAIN,GTFS,Lamonzie-Saint-Martin,Bergerac,32,gtfs_stop_times
-85015669,85015651,,7,TRAIN,GTFS,Le Chatelard VS,Finhaut,14,gtfs_stop_times
 87611392,87611384,,7,TRAIN,GTFS,Venerque - Le Vernet,Auterive,138,gtfs_stop_times
 87182055,87181131,,7,TRAIN,GTFS,Mulhouse Dornach,Graffenwald,3,gtfs_stop_times
 87182337,87182014,,7,TRAIN,GTFS,Rouffach,Colmar,26,gtfs_stop_times
@@ -5286,7 +5120,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87586479,87582866,,7,TRAIN,GTFS,Sainte-Bazeille,La Réole,2,gtfs_stop_times
 87313288,87313304,,7,TRAIN,GTFS,Saint-Remy-en-l'Eau,Clermont de l'Oise,8,gtfs_stop_times
 87159947,87471003,,7,TRAIN,GTFS,Ker Lann,Rennes,12,gtfs_stop_times
-85000109,87182139,,7,TRAIN,GTFS,Basel SBB,Saint-Louis,38,gtfs_stop_times
 87615310,87615252,,7,TRAIN,GTFS,Lisle-sur-Tarn,Gaillac,63,gtfs_stop_times
 87313338,87313346,,7,TRAIN,GTFS,Hargicourt - Pierrepont,Montdidier,13,gtfs_stop_times
 87746909,87746917,,7,TRAIN,GTFS,Saint-Piat Gare Routière,Jouy Gare Routière,6,gtfs_stop_times
@@ -5298,7 +5131,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87296871,87313494,,7,TER,GTFS,Flavy-le-Martel,Ham,23,gtfs_stop_times
 87611400,87611301,,7,TRAIN,GTFS,Portet Saint-Simon,Saint-Agne,180,gtfs_stop_times
 87481242,87481234,,7,IC,GTFS,Bourgneuf-en-Retz,Saint-Hilaire-de-Chaléons,21,gtfs_stop_times
-80251850,80251819,,7,TRAIN,GTFS,Konz Mitte,Trèves,6,gtfs_stop_times
 87775247,87775239,,7,TRAIN,GTFS,La Levade,Sainte-Cécile-d'Andorge,17,gtfs_stop_times
 87784173,87784009,,7,TRAIN,GTFS,Rivesaltes,Perpignan,55,gtfs_stop_times
 87286419,87109306,,7,TRAIN,GTFS,Wavrin,Lille Centre Hospitalier Régional,17,gtfs_stop_times
@@ -5370,7 +5202,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87345009,87345249,,7,TRAIN,GTFS,Douai,Ostricourt,11,gtfs_stop_times
 87641365,87641357,,7,TRAIN,GTFS,Magnette,Vallon-en-Sully,3,gtfs_stop_times
 87713040,87712331,,7,TRAIN,GTFS,Dijon,Velars,20,gtfs_stop_times
-80251967,87191643,,7,TRAIN,GTFS,Perl,Apach,8,gtfs_stop_times
 87683102,87682302,,7,TRAIN,GTFS,Villeneuve-la-Guyard,Montereau,140,gtfs_stop_times
 87571513,87571539,,7,TRAIN,GTFS,La Membrolle-sur-Choisille,Saint-Antoine-du-Rocher,2,gtfs_stop_times
 87345256,87345165,,7,TRAIN,GTFS,Libercourt,Dourges,34,gtfs_stop_times
@@ -5408,7 +5239,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87659805,87659797,,7,TRAIN,GTFS,Bischwiller Église Catholique,Kurtzenhouse 71 Route Principale,2,gtfs_stop_times
 87474270,87474262,,7,TRAIN,GTFS,Landivisiau,La Roche-Maurice,11,gtfs_stop_times
 87215665,87658922,,7,TRAIN,GTFS,Diemeringen,Adamswiller Mairie,2,gtfs_stop_times
-87286542,88857040,,7,TRAIN,GTFS,Tourcoing,Mouscron,62,gtfs_stop_times
 87193318,87193359,,7,TRAIN,GTFS,Saint-Avold,Faulquemont,48,gtfs_stop_times
 87746511,87746305,,7,TRAIN,GTFS,Reignier,La Roche-sur-Foron,79,gtfs_stop_times
 87141416,87141432,,7,TRAIN,GTFS,Baccarat,Thiaville,2,gtfs_stop_times
@@ -5596,7 +5426,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87718866,87718841,,8,TRAIN,GTFS,Montbarrey,Arc-et-Senans,10,gtfs_stop_times
 87713131,87713115,,8,TRAIN,GTFS,Montbard,Les Laumes - Alésia,204,gtfs_stop_times
 87694869,87696427,,8,TRAIN,GTFS,Gilly-sur-Loire,Dompierre Sept Fons,17,gtfs_stop_times
-82006030,82002501,,8,TRAIN,GTFS,Bettembourg,Howald,109,gtfs_stop_times
 87286005,87286716,,8,TRAIN,GTFS,Lille Flandres,Croix - Wasquehal,23,gtfs_stop_times
 87543017,87543116,,8,TER,GTFS,Les Aubrais,Saint-Cyr-en-Val,4,gtfs_stop_times
 87651802,87751206,,8,TRAIN,GTFS,Sisteron,Sisteron,9,gtfs_stop_times
@@ -5630,7 +5459,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87751800,87751438,,8,TER,GTFS,Septèmes,Simiane,79,gtfs_stop_times
 87476408,87476200,,8,TRAIN,GTFS,Belz - Ploemel,Auray,6,gtfs_stop_times
 87665380,87665331,,8,TRAIN,GTFS,Turckheim Place de la République,Logelbach Hirn,7,gtfs_stop_times
-80143198,80143255,,8,TGV,GTFS,Lahr (Schwarzw),Ringsheim,3,gtfs_stop_times
 87144055,87141218,,8,TRAIN,GTFS,Charmes,Bayon,74,gtfs_stop_times
 87193250,87193318,,8,TRAIN,GTFS,Béning-lès-Saint-Avold,Saint-Avold,34,gtfs_stop_times
 87193318,87193250,,8,TRAIN,GTFS,Saint-Avold,Béning-lès-Saint-Avold,35,gtfs_stop_times
@@ -5648,7 +5476,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87594465,87594481,,8,TRAIN,GTFS,Aubazines - Saint-Hilaire,Cornil,62,gtfs_stop_times
 87594481,87594465,,8,TRAIN,GTFS,Cornil,Aubazines - Saint-Hilaire,66,gtfs_stop_times
 87784710,87784728,,8,TRAIN,GTFS,Joncet,Olette - Canaveilles les Bains,21,gtfs_stop_times
-80659714,80659698,,8,TRAIN,GTFS,Berlin Suedkreuz,Berlin Hbf-Lehrter Bahnhof Nord,4,gtfs_stop_times
 87775841,87775858,,8,TRAIN,GTFS,Saint-Laurent-d'Aigouze,Aigues-Mortes,12,gtfs_stop_times
 87696807,87696831,,8,TRAIN,GTFS,Clamecy,Coulanges-sur-Yonne,93,gtfs_stop_times
 87672741,87691949,,8,TRAIN,GTFS,Lurbe-Saint-Christau,Bidos,11,gtfs_stop_times
@@ -5670,7 +5497,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87476309,87476317,,8,TRAIN,GTFS,Gestel,Quimperlé,20,gtfs_stop_times
 87281469,87286302,,8,TRAIN,GTFS,Ebblinghem,Hazebrouck,16,gtfs_stop_times
 87281139,87286302,,8,TRAIN,GTFS,Cassel,Hazebrouck,45,gtfs_stop_times
-80143255,80143198,,8,TGV,GTFS,Ringsheim,Lahr (Schwarzw),4,gtfs_stop_times
 87611558,87130823,,8,TRAIN,GTFS,Luzenac - Garanou,Les Cabannes Centre,4,gtfs_stop_times
 87721878,87484584,,8,TRAIN,GTFS,Saint-Nizier-d'Azergues,Poule-les-Écharmeaux Mairie,4,gtfs_stop_times
 87481192,87484386,,8,TRAIN,GTFS,Ancenis,Varades - Saint-Florent-le-Vieil,20,gtfs_stop_times
@@ -5794,7 +5620,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87595157,87595132,,8,TRAIN,GTFS,Agonac,Négrondes,19,gtfs_stop_times
 87698308,87746115,,8,TRAIN,GTFS,Grésy-sur-Aix Le Chevret Ondéa,Albens,2,gtfs_stop_times
 87478560,87396234,,8,TRAIN,GTFS,Voutré,Sillé-le-Guillaume,12,gtfs_stop_times
-80194266,80194308,,8,TRAIN,GTFS,Landau (Pfalz) Hbf,Insheim,2,gtfs_stop_times
 87214726,87660795,,8,TRAIN,GTFS,Rothau,Devant Fouday Abri RN 420,3,gtfs_stop_times
 87576215,87576355,,8,TRAIN,GTFS,Valençay,La Gauterie,5,gtfs_stop_times
 87214742,87214726,,8,TRAIN,GTFS,Saint-Blaise-la-Roche,Rothau,25,gtfs_stop_times
@@ -5875,7 +5700,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87182410,87182667,,8,TRAIN,GTFS,Cernay,Lutterbach,3,gtfs_stop_times
 87726885,87726877,,8,TRAIN,GTFS,Montrond-les-Bains,Feurs,26,gtfs_stop_times
 87396234,87478560,,8,TRAIN,GTFS,Sillé-le-Guillaume,Voutré,12,gtfs_stop_times
-80194308,80194266,,8,TRAIN,GTFS,Insheim,Landau (Pfalz) Hbf,2,gtfs_stop_times
 87576355,87576215,,8,TRAIN,GTFS,La Gauterie,Valençay,5,gtfs_stop_times
 87215459,87215483,,8,TRAIN,GTFS,Sarre-Union,Schopperten Gare,4,gtfs_stop_times
 87317057,87317065,,8,TRAIN,GTFS,Rang-du-Fliers - Verton - Berck,Étaples - Le Touquet,129,gtfs_stop_times
@@ -5965,7 +5789,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87727818,87727826,,8,TRAIN,GTFS,Savières Rue Saint-Gilles,Fontaine-les-Grés Mairie,11,gtfs_stop_times
 87784769,87784777,,8,TRAIN,GTFS,Fontpédrouse St-Thomas les B.,Sauto,19,gtfs_stop_times
 87718841,87718866,,8,TRAIN,GTFS,Arc-et-Senans,Montbarrey,10,gtfs_stop_times
-82002501,82006030,,8,TRAIN,GTFS,Howald,Bettembourg,109,gtfs_stop_times
 87543058,87543033,,8,TRAIN,GTFS,Artenay,Cercottes,13,gtfs_stop_times
 87543116,87543017,,8,TER,GTFS,Saint-Cyr-en-Val,Les Aubrais,4,gtfs_stop_times
 87751206,87651802,,8,TRAIN,GTFS,Sisteron,Sisteron,9,gtfs_stop_times
@@ -5986,7 +5809,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87751370,87751362,,8,TER,GTFS,Meyrargues,Pertuis,8,gtfs_stop_times
 87281311,87281279,,8,TRAIN,GTFS,Grande-Synthe,Bourbourg,8,gtfs_stop_times
 87396093,87396077,,8,TRAIN,GTFS,La Hutte Coulombiers,Vivoin - Beaumont,19,gtfs_stop_times
-80659698,80659714,,8,TRAIN,GTFS,Berlin Hbf-Lehrter Bahnhof Nord,Berlin Suedkreuz,4,gtfs_stop_times
 87726190,87726729,,8,TRAIN,GTFS,Saint-Étienne Bellevue,Firminy,20,gtfs_stop_times
 87691949,87672741,,8,TRAIN,GTFS,Bidos,Lurbe-Saint-Christau,11,gtfs_stop_times
 87696484,87500934,,8,TRAIN,GTFS,Decize,Sougy-sur-Loire BIF,2,gtfs_stop_times
@@ -6011,10 +5833,8 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87725622,87725663,,9,TRAIN,GTFS,Tournus,Fleurville - Pont-de-Vaux,12,gtfs_stop_times
 87752980,87442442,,9,TRAIN,GTFS,Montauban la Fobio,Montauban Prax Paris,8,gtfs_stop_times
 87665463,87182394,,9,TRAIN,GTFS,Wihr-au-Val - Soultzbach  D417,Munster,6,gtfs_stop_times
-85011031,87715219,,9,TRAIN,GTFS,Vallorbe,Labergement-Sainte-Marie,3,gtfs_stop_times
 87317065,87317099,,9,TRAIN,GTFS,Étaples - Le Touquet,Neufchâtel-Hardelot,10,gtfs_stop_times
 87317099,87317065,,9,TRAIN,GTFS,Neufchâtel-Hardelot,Étaples - Le Touquet,12,gtfs_stop_times
-88960080,88857040,,9,TRAIN,GTFS,Courtrai,Mouscron,64,gtfs_stop_times
 87576439,87576405,,9,TRAIN,GTFS,Avord,Saint-Germain-du-Puy,18,gtfs_stop_times
 87611244,87442442,,9,TRAIN,GTFS,Montauban Ville Bourbon,Montauban Prax Paris,8,gtfs_stop_times
 87141150,87141374,,9,TRAIN,GTFS,Lunéville,Saint-Clément - Laronxe,49,gtfs_stop_times
@@ -6082,7 +5902,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87142240,87107433,,9,TRAIN,GTFS,Froncles,Soncourt,4,gtfs_stop_times
 87107417,87107425,,9,TRAIN,GTFS,Chaumont Hôpital,Bologne Salle des Fêtes,5,gtfs_stop_times
 87746719,87746479,,9,TRAIN,GTFS,Servoz,Saint-Gervais-les-Bains-Le Fayet,2,gtfs_stop_times
-88718114,88718379,,9,TRAIN,GTFS,THUIN,LANDELIES,17,gtfs_stop_times
 87286005,87109306,,9,TRAIN,GTFS,Lille Flandres,Lille Centre Hospitalier Régional,41,gtfs_stop_times
 87111864,87783605,,9,TRAIN,GTFS,Balsièges Bourg,Mende,2,gtfs_stop_times
 87743302,87743005,,9,TRAIN,GTFS,Ceyzériat,Bourg-en-Bresse,3,gtfs_stop_times
@@ -6140,8 +5959,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342188,87342014,,9,TER,GTFS,Maroeuil,Arras,21,gtfs_stop_times
 87342097,87342014,,9,TRAIN,GTFS,Biache-Saint-Vaast,Arras,7,gtfs_stop_times
 87182394,87665463,,9,TRAIN,GTFS,Munster,Wihr-au-Val - Soultzbach  D417,6,gtfs_stop_times
-87715219,85011031,,9,TRAIN,GTFS,Labergement-Sainte-Marie,Vallorbe,3,gtfs_stop_times
-88857040,88960080,,9,TRAIN,GTFS,Mouscron,Courtrai,64,gtfs_stop_times
 87576405,87576439,,9,TRAIN,GTFS,Saint-Germain-du-Puy,Avord,18,gtfs_stop_times
 87473066,87471086,,9,TRAIN,GTFS,Caulnes,Montauban-de-Bretagne,13,gtfs_stop_times
 87471003,87471060,,9,TRAIN,GTFS,Rennes,L'Hermitage - Mordelles,15,gtfs_stop_times
@@ -6204,7 +6021,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342006,87342238,,9,TRAIN,GTFS,Béthune,Lillers,33,gtfs_stop_times
 87342030,87313072,,9,TRAIN,GTFS,Miraumont,Albert,15,gtfs_stop_times
 87595744,87595751,,9,TRAIN,GTFS,Le Bugue,Le Buisson,23,gtfs_stop_times
-88718379,88718114,,9,TRAIN,GTFS,LANDELIES,THUIN,17,gtfs_stop_times
 87338517,87212332,,9,TER,GTFS,Hoenheim Tram,Gambsheim,3,gtfs_stop_times
 87109306,87286005,,9,TRAIN,GTFS,Lille Centre Hospitalier Régional,Lille Flandres,41,gtfs_stop_times
 87184002,87184275,,9,TRAIN,GTFS,Belfort-Ville,Montreux-Vieux,13,gtfs_stop_times
@@ -6233,8 +6049,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87213108,87406918,,9,TRAIN,GTFS,Schweighouse-sur-Moder,Mertzwiller Monuments aux Morts,2,gtfs_stop_times
 87485003,87485185,,9,TRAIN,GTFS,La Rochelle,La Jarrie,22,gtfs_stop_times
 87478164,87478149,,9,TRAIN,GTFS,Dinan,Pleudihen,5,gtfs_stop_times
-85015651,85015644,,9,TRAIN,GTFS,Finhaut,Le Trétien,14,gtfs_stop_times
-85015644,85015651,,9,TRAIN,GTFS,Le Trétien,Finhaut,14,gtfs_stop_times
 87583674,87583690,,9,TRAIN,GTFS,Montmoreau,Chalais,53,gtfs_stop_times
 87713412,87718361,,9,TRAIN,GTFS,Dole,Orchamps,10,gtfs_stop_times
 87486431,87486423,,9,TRAIN,GTFS,Olonne-sur-Mer,La Mothe-Achard,14,gtfs_stop_times
@@ -6310,7 +6124,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87491324,87491357,,9,TRAIN,GTFS,Saint-Hilaire - Brizambourg,Saint-Jean-d'Angély,13,gtfs_stop_times
 87732206,87696351,,9,TRAIN,GTFS,Saint-Germain-des-Fossés,Varennes-sur-Allier,75,gtfs_stop_times
 87696336,87696351,,9,TRAIN,GTFS,Bessay,Varennes-sur-Allier,52,gtfs_stop_times
-87191163,82006030,,9,TRAIN,GTFS,Hettange-Grande,Bettembourg,126,gtfs_stop_times
 87726869,87726851,,9,TRAIN,GTFS,Balbigny,Saint-Jodard,31,gtfs_stop_times
 87476234,87476259,,9,TRAIN,GTFS,Landévant,Hennebont,14,gtfs_stop_times
 87745620,87745646,,9,TRAIN,GTFS,Perrignier,Thonon-les-Bains,55,gtfs_stop_times
@@ -6320,8 +6133,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87295006,87295600,,9,TRAIN,GTFS,Maubeuge,Aulnoye-Aymeries,78,gtfs_stop_times
 87613091,87613109,,9,TRAIN,GTFS,Figeac,Capdenac,64,gtfs_stop_times
 87741181,87741223,,9,TRAIN,GTFS,Montmélian,Saint-Pierre-d'Albigny,44,gtfs_stop_times
-82007104,82007146,,9,TRAIN,GTFS,Luxembourg secteur Hollerich,Dippach secteur Reckange,23,gtfs_stop_times
-82007146,82007104,,9,TRAIN,GTFS,Dippach secteur Reckange,Luxembourg secteur Hollerich,23,gtfs_stop_times
 87696351,87696336,,9,TRAIN,GTFS,Varennes-sur-Allier,Bessay,48,gtfs_stop_times
 87615526,87615542,,9,TRAIN,GTFS,Labruguière,Mazamet,18,gtfs_stop_times
 87481598,87590828,,9,TRAIN,GTFS,Nort-sur-Erdre,Sucé-sur-Erdre,51,gtfs_stop_times
@@ -6343,7 +6154,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87761163,87761130,,9,TRAIN,GTFS,Tain-l'Hermitage - Tournon,Saint-Vallier sur Rhône,90,gtfs_stop_times
 87726760,87726729,,9,TRAIN,GTFS,Aurec,Firminy,28,gtfs_stop_times
 87344440,87487231,,9,TRAIN,GTFS,Sainte-Gemme,Noirterre,2,gtfs_stop_times
-82006030,87191163,,9,TRAIN,GTFS,Bettembourg,Hettange-Grande,102,gtfs_stop_times
 87741504,87741074,,9,TRAIN,GTFS,Virieu-le-Grand - Belley,Culoz,18,gtfs_stop_times
 87575035,87571000,,9,TRAIN,GTFS,Monts,Tours,21,gtfs_stop_times
 87753418,87753004,,9,TRAIN,GTFS,Istres,Miramas,18,gtfs_stop_times
@@ -6387,7 +6197,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87476689,87471300,,9,TRAIN,GTFS,Malansac,Redon,47,gtfs_stop_times
 87478081,87478107,,9,TRAIN,GTFS,La Fresnais,Saint-Malo,15,gtfs_stop_times
 87697821,87611368,,9,TRAIN,GTFS,Cintegabelle-Rond-Point,Saverdun,6,gtfs_stop_times
-85010025,87745380,,9,TRAIN,GTFS,Russin,Pougny - Chancy,5,gtfs_stop_times
 87734129,87409417,,9,TRAIN,GTFS,Aigueperse,Pontmort RN9-D17,2,gtfs_stop_times
 87765990,87408906,,9,TRAIN,GTFS,Vallon-en-Sully Marché couvert,Meaulne Place Centrale,2,gtfs_stop_times
 87286583,87343103,,9,TRAIN,GTFS,Orchies,Saint-Amand-les-Eaux,87,gtfs_stop_times
@@ -6406,7 +6215,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87485326,87485300,,9,TRAIN,GTFS,Fors,Niort,14,gtfs_stop_times
 87721332,87721282,,9,TRAIN,GTFS,Villefranche-sur-Saône,Saint-Germain-au-Mont-d'Or,212,gtfs_stop_times
 87732404,87641076,,9,TRAIN,GTFS,Gannat,Saint-Bonnet-de-Rochefort,32,gtfs_stop_times
-87745380,85010025,,9,TRAIN,GTFS,Pougny - Chancy,Russin,5,gtfs_stop_times
 87477638,87703744,,9,TRAIN,GTFS,Sarrebourg LP Messmer,Sarrebourg Hôpital,2,gtfs_stop_times
 87478073,87478099,,9,TRAIN,GTFS,Dol-de-Bretagne,La Gouesnière - Cancale,52,gtfs_stop_times
 87746701,87746719,,9,TRAIN,GTFS,Chedde,Servoz,17,gtfs_stop_times
@@ -6553,7 +6361,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87142240,87107458,,10,TRAIN,GTFS,Froncles,Gudmont-Centre,11,gtfs_stop_times
 87182063,87182238,,10,TRAIN,GTFS,Mulhouse,Altkirch,41,gtfs_stop_times
 87668376,87668384,,10,TRAIN,GTFS,Séverac d'Aveyron Embrachement le Massegros,Verrieres Engayresque,12,gtfs_stop_times
-88716050,87295006,,10,TRAIN,GTFS,ERQUELINNES,Maubeuge,28,gtfs_stop_times
 87543074,87543058,,10,TRAIN,GTFS,Toury,Artenay,13,gtfs_stop_times
 87775007,87775114,,10,TRAIN,GTFS,Nîmes Centre,Vergèze - Codognan,71,gtfs_stop_times
 87673202,87673251,,10,TRAIN,GTFS,Dax,Saubusse,46,gtfs_stop_times
@@ -6600,8 +6407,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87723353,87725309,,10,TRAIN,GTFS,Saint-Priest,Toussieu la Côte,5,gtfs_stop_times
 87723353,87725192,,10,TRAIN,GTFS,Saint-Priest,ST PIERRE C. ZI porte Dauphiné,2,gtfs_stop_times
 87734319,87731802,,10,TRAIN,GTFS,Langeac,Saint-Georges-d'Aurac Bourg,8,gtfs_stop_times
-85927137,85928291,,10,TRAIN,GTFS,Chêne-Bourg Place Favre,Genève Eaux-Vives Gare,8,gtfs_stop_times
-85015610,85015628,,10,TRAIN,GTFS,Vernayaz MC,Salvan,14,gtfs_stop_times
 87718460,87718437,,10,TRAIN,GTFS,Baume-les-Dames,Laissey,9,gtfs_stop_times
 87718437,87718460,,10,TRAIN,GTFS,Laissey,Baume-les-Dames,10,gtfs_stop_times
 87117994,87683334,,10,TRAIN,GTFS,Brienon-sur-Armançon Mairie,Saint-Florentin-Ville,7,gtfs_stop_times
@@ -6613,7 +6418,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87734202,87734194,,10,TRAIN,GTFS,Issoire,Parent - Coudes - Champeix,30,gtfs_stop_times
 87671156,87671172,,10,TRAIN,GTFS,Capvern,Tournay,29,gtfs_stop_times
 87584052,87584516,,10,TRAIN,GTFS,Libourne,Coutras,109,gtfs_stop_times
-80194324,80194266,,10,TRAIN,GTFS,Winden (Pfalz),Landau (Pfalz) Hbf,28,gtfs_stop_times
 87592725,87592808,,10,TRAIN,GTFS,Nexon,La Meyze,17,gtfs_stop_times
 87592725,87592634,,10,TRAIN,GTFS,Nexon,L'Aiguille,17,gtfs_stop_times
 87592667,87592022,,10,TRAIN,GTFS,Aixe-sur-Vienne,Limoges Montjovis,12,gtfs_stop_times
@@ -6624,7 +6428,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87734129,87589564,,10,TRAIN,GTFS,Aigueperse,Gannat Lycee Eiffel,2,gtfs_stop_times
 87734194,87734202,,10,TRAIN,GTFS,Parent - Coudes - Champeix,Issoire,41,gtfs_stop_times
 87141069,87141002,,10,TRAIN,GTFS,Liverdun,Nancy,33,gtfs_stop_times
-85928291,85927137,,10,TRAIN,GTFS,Genève Eaux-Vives Gare,Chêne-Bourg Place Favre,9,gtfs_stop_times
 87476754,87471300,,10,TRAIN,GTFS,Sévérac,Redon,16,gtfs_stop_times
 87597062,87597039,,10,TER,GTFS,Issoudun,Reuilly,8,gtfs_stop_times
 87741306,87741280,,10,TRAIN,GTFS,Saint-Avre - La Chambre,Épierre - Saint-Léger,18,gtfs_stop_times
@@ -6760,7 +6563,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87696492,87696484,,10,TRAIN,GTFS,Cercy-la-Tour,Decize,38,gtfs_stop_times
 87751750,87751081,,10,TRAIN,GTFS,Aubagne,Marseille Blancarde,93,gtfs_stop_times
 87718189,87718155,,10,TRAIN,GTFS,Poligny,Arbois,17,gtfs_stop_times
-82006030,82001000,,10,TRAIN,GTFS,Bettembourg,Luxembourg,55,gtfs_stop_times
 87590372,87481622,,10,TRAIN,GTFS,Châteaubriant Tram Train,Issé,16,gtfs_stop_times
 87589598,87734681,,10,TRAIN,GTFS,Le Puy En Velay Hôpital E.Roux,Borne (Haute-Loire),8,gtfs_stop_times
 87393488,87393553,,10,TRAIN,GTFS,Dreux,Nonancourt,8,gtfs_stop_times
@@ -6803,13 +6605,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87783423,87783001,,10,TRAIN,GTFS,Saint-Georges-de-Luzençon,Millau,9,gtfs_stop_times
 87584235,87584268,,10,TRAIN,GTFS,Gardonne,Bergerac,38,gtfs_stop_times
 87718213,87718239,,10,TRAIN,GTFS,Domblans - Voiteur,Lons-le-Saunier,6,gtfs_stop_times
-80194266,80194324,,10,TRAIN,GTFS,Landau (Pfalz) Hbf,Winden (Pfalz),28,gtfs_stop_times
 87592022,87592667,,10,TRAIN,GTFS,Limoges Montjovis,Aixe-sur-Vienne,12,gtfs_stop_times
 87582684,87582692,,10,TRAIN,GTFS,Cadaujac,Saint-Médard-d'Eyrans,38,gtfs_stop_times
 87723478,87723429,,10,IC,GTFS,La Tour-du-Pin,Bourgoin-Jallieu,39,gtfs_stop_times
 87589564,87734129,,10,TRAIN,GTFS,Gannat Lycee Eiffel,Aigueperse,2,gtfs_stop_times
 87141002,87141069,,10,TRAIN,GTFS,Nancy,Liverdun,33,gtfs_stop_times
-85015628,85015610,,10,TRAIN,GTFS,Salvan,Vernayaz MC,14,gtfs_stop_times
 87683334,87117994,,10,TRAIN,GTFS,Saint-Florentin-Ville,Brienon-sur-Armançon Mairie,7,gtfs_stop_times
 87139667,87139501,,10,TRAIN,GTFS,Troyes Lombards,Troyes Gare Routière,4,gtfs_stop_times
 87672253,87672279,,10,TRAIN,GTFS,Orthez,Puyoô,99,gtfs_stop_times
@@ -6840,7 +6640,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87182725,87654475,,10,TRAIN,GTFS,Merxheim,Rouffach CHS,2,gtfs_stop_times
 87407189,87703744,,10,TRAIN,GTFS,Sarrebourg Place Mathey,Sarrebourg Hôpital,2,gtfs_stop_times
 87343103,87343004,,10,TRAIN,GTFS,Saint-Amand-les-Eaux,Valenciennes,122,gtfs_stop_times
-82001000,82006030,,10,TRAIN,GTFS,Luxembourg,Bettembourg,55,gtfs_stop_times
 87734681,87589598,,10,TRAIN,GTFS,Borne (Haute-Loire),Le Puy En Velay Hôpital E.Roux,8,gtfs_stop_times
 87697466,87392829,,10,TRAIN,GTFS,Grenoble-Eugène-Chavant,Saint-Martin-d'Hères,3,gtfs_stop_times
 87615773,87613422,,10,TRAIN,GTFS,Luc-Primaube,Rodez,18,gtfs_stop_times
@@ -6919,7 +6718,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87640458,87640821,,10,TRAIN,GTFS,Châtenois Val-de-Villé Gare,Lièpvre Rue du Vieux Moulin,2,gtfs_stop_times
 87185330,87185629,,10,TRAIN,GTFS,Saint-Loup-sur-Semouse,Aillevillers,2,gtfs_stop_times
 87668384,87668376,,10,TRAIN,GTFS,Verrieres Engayresque,Séverac d'Aveyron Embrachement le Massegros,12,gtfs_stop_times
-87295006,88716050,,10,TRAIN,GTFS,Maubeuge,ERQUELINNES,28,gtfs_stop_times
 87543058,87543074,,10,TRAIN,GTFS,Artenay,Toury,13,gtfs_stop_times
 87775114,87775007,,10,TRAIN,GTFS,Vergèze - Codognan,Nîmes Centre,71,gtfs_stop_times
 87172213,87172007,,10,TGV,GTFS,Nouvion-sur-Meuse,Charleville-Mézières,31,gtfs_stop_times
@@ -6941,7 +6739,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87342436,87342006,,11,TRAIN,GTFS,La Bassée,Béthune,30,gtfs_stop_times
 87753004,87753764,,11,TGV,GTFS,Miramas,Salon,45,gtfs_stop_times
 87734707,87734699,,11,TRAIN,GTFS,Lavoûte-sur-Loire,Le Puy-en-Velay,21,gtfs_stop_times
-82916015,82002501,,11,TRAIN,GTFS,Luxembourg Gare,Howald,2,gtfs_stop_times
 87592055,87592006,,11,TRAIN,GTFS,Saint-Priest-Taurion,Limoges Bénédictins,31,gtfs_stop_times
 87753764,87753004,,11,TGV,GTFS,Salon,Miramas,42,gtfs_stop_times
 87345520,87345595,,11,TRAIN,GTFS,Cambrai,Wambaix,2,gtfs_stop_times
@@ -7079,7 +6876,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87765107,87765206,,11,TRAIN,GTFS,Orange,Sorgues - Châteauneuf-du-Pape,15,gtfs_stop_times
 87193615,87193664,,11,TRAIN,GTFS,Sarreguemines,Kalhausen Gare,23,gtfs_stop_times
 87193219,87406736,,11,TRAIN,GTFS,Merten Centre,Creutzwald Gare Routière,4,gtfs_stop_times
-87193003,80253914,,11,TRAIN,GTFS,Forbach,Sarrebruck,53,gtfs_stop_times
 87725002,87725614,,11,TRAIN,GTFS,Chalon-sur-Saône,Sennecey-le-Grand,14,gtfs_stop_times
 87677252,87683664,,11,TRAIN,GTFS,Accolay Le Pont,Vermenton,11,gtfs_stop_times
 87545756,87574509,,11,TRAIN,GTFS,Châteaudun,Cloyes,19,gtfs_stop_times
@@ -7128,7 +6924,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87734053,87734129,,11,TRAIN,GTFS,Riom - Châtel-Guyon,Aigueperse,20,gtfs_stop_times
 87781294,87773200,,11,TRAIN,GTFS,Marseillan Plage,Sète,10,gtfs_stop_times
 87781609,87781583,,11,TRAIN,GTFS,Bédarieux,Le Bousquet-d'Orb,7,gtfs_stop_times
-82002501,82916015,,11,TRAIN,GTFS,Howald,Luxembourg Gare,2,gtfs_stop_times
 87592006,87592055,,11,TRAIN,GTFS,Limoges Bénédictins,Saint-Priest-Taurion,31,gtfs_stop_times
 87345595,87345520,,11,TRAIN,GTFS,Wambaix,Cambrai,2,gtfs_stop_times
 87295733,87295048,,11,TRAIN,GTFS,Avesnes-sur-Helpe,Fourmies,2,gtfs_stop_times
@@ -7178,7 +6973,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87212134,87212027,,11,TRAIN,GTFS,Brumath,Strasbourg,118,gtfs_stop_times
 87765206,87765107,,11,TRAIN,GTFS,Sorgues - Châteauneuf-du-Pape,Orange,15,gtfs_stop_times
 87193664,87193615,,11,TRAIN,GTFS,Kalhausen Gare,Sarreguemines,23,gtfs_stop_times
-80253914,87193003,,11,TRAIN,GTFS,Sarrebruck,Forbach,53,gtfs_stop_times
 87574509,87545756,,11,TRAIN,GTFS,Cloyes,Châteaudun,19,gtfs_stop_times
 87543090,87545137,,11,TRAIN,GTFS,Angerville,Étampes,2,gtfs_stop_times
 87659979,87182410,,11,TRAIN,GTFS,Vieux-Thann Parking de la Gare,Cernay,2,gtfs_stop_times
@@ -7216,7 +7010,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87313080,87313379,,12,TRAIN,GTFS,Saint-Roch,Namps - Quevauvillers,2,gtfs_stop_times
 87764357,87765107,,12,TRAIN,GTFS,Bollène la Croisière,Orange,75,gtfs_stop_times
 87212340,87338517,,12,TER,GTFS,Herrlisheim,Hoenheim Tram,4,gtfs_stop_times
-80143099,80143198,,12,TGV,GTFS,Offenburg,Lahr (Schwarzw),4,gtfs_stop_times
 87784868,87784850,,12,TRAIN,GTFS,Osséja,Sainte-Léocadie,12,gtfs_stop_times
 87184622,87718460,,12,TRAIN,GTFS,Clerval,Baume-les-Dames,18,gtfs_stop_times
 87721472,87721035,,12,TRAIN,GTFS,Tarare,Amplepuis,63,gtfs_stop_times
@@ -7281,7 +7074,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87743740,87743716,,12,TRAIN,GTFS,Saint-Rambert-en-Bugey,Ambérieu-en-Bugey,10,gtfs_stop_times
 87742320,87742361,,12,TRAIN,GTFS,Saint-Jean-de-Maurienne Arvan,Saint-Michel - Valloire,55,gtfs_stop_times
 87192435,87141820,,12,TRAIN,GTFS,Onville,Pont-à-Mousson,32,gtfs_stop_times
-87756494,83045013,,12,IC,GTFS,Menton Garavan,VENTIMIGLIA,106,gtfs_stop_times
 87698332,87721175,,12,TRAIN,GTFS,Lyon-Saint-Paul Quai de Bondy,Lyon Gorge de Loup,17,gtfs_stop_times
 87481747,87481705,,12,IC,GTFS,Pornichet,Saint-Nazaire,30,gtfs_stop_times
 87761650,87761684,,12,TRAIN,GTFS,Romans - Bourg-de-Péage,Saint-Hilaire - Saint-Nazaire,42,gtfs_stop_times
@@ -7365,7 +7157,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87784835,87784819,,12,TRAIN,GTFS,Saillagouse,Font-Romeu-Odeillo-Via,2,gtfs_stop_times
 87784850,87784868,,12,TRAIN,GTFS,Sainte-Léocadie,Osséja,11,gtfs_stop_times
 87641415,87641001,,12,TRAIN,GTFS,Commentry,Montluçon,36,gtfs_stop_times
-80143198,80143099,,12,TGV,GTFS,Lahr (Schwarzw),Offenburg,3,gtfs_stop_times
 87641449,87641423,,12,IC,GTFS,Durtol - Nohanent,Volvic,8,gtfs_stop_times
 87717108,87700930,,12,TRAIN,GTFS,Vézelise Beauregard,Diarville Place Raymond Midon,2,gtfs_stop_times
 87571828,87571794,,12,TRAIN,GTFS,Langeais,Port Boulet,35,gtfs_stop_times
@@ -7433,7 +7224,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87214635,87660589,,12,TRAIN,GTFS,Urmatt,Gresswiller Abri,7,gtfs_stop_times
 87214247,87660910,,12,TRAIN,GTFS,Barr,Obernai Passage à Niveau,3,gtfs_stop_times
 87141820,87192435,,12,TRAIN,GTFS,Pont-à-Mousson,Onville,32,gtfs_stop_times
-83045013,87756494,,12,IC,GTFS,VENTIMIGLIA,Menton Garavan,106,gtfs_stop_times
 87721175,87698332,,12,TRAIN,GTFS,Lyon Gorge de Loup,Lyon-Saint-Paul Quai de Bondy,17,gtfs_stop_times
 87753202,87753251,,12,TGV,GTFS,Saint-Chamas,Rognac,72,gtfs_stop_times
 87721035,87721472,,12,TRAIN,GTFS,Amplepuis,Tarare,63,gtfs_stop_times
@@ -7469,7 +7259,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87615377,87615344,,12,TRAIN,GTFS,Gragnague,Saint-Sulpice,4,gtfs_stop_times
 87394296,87396325,,12,TRAIN,GTFS,Nogent-le-Rotrou,La Ferté-Bernard,168,gtfs_stop_times
 87338517,87212340,,12,TER,GTFS,Hoenheim Tram,Herrlisheim,4,gtfs_stop_times
-87212464,80191031,,12,TER,GTFS,Lauterbourg,Woerth (Rhein),2,gtfs_stop_times
 87191007,87406744,,12,TRAIN,GTFS,Thionville,Distroff Église,3,gtfs_stop_times
 87611525,87611533,,12,TRAIN,GTFS,Mérens-les-Vals,Ax-les-Thermes,56,gtfs_stop_times
 87611806,87611822,,12,TRAIN,GTFS,L'Isle-Jourdain,Brax - Léguevin,15,gtfs_stop_times
@@ -7489,9 +7278,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87408971,87589580,,12,TRAIN,GTFS,Reugny RN144,La Ville Gozet Square H. Duna,2,gtfs_stop_times
 87393009,87391102,,12,TRAIN,GTFS,Versailles Chantiers,Paris Montparnasse Vaugirard,3,gtfs_stop_times
 87615344,87615377,,12,TRAIN,GTFS,Saint-Sulpice,Gragnague,4,gtfs_stop_times
-80191031,87212464,,12,TER,GTFS,Woerth (Rhein),Lauterbourg,2,gtfs_stop_times
 87773002,87773556,,12,TRAIN,GTFS,Montpellier Saint-Roch,Frontignan,71,gtfs_stop_times
-82006030,87191007,,13,TRAIN,GTFS,Bettembourg,Thionville,151,gtfs_stop_times
 87734368,87734350,,13,TRAIN,GTFS,Luc,Langogne,12,gtfs_stop_times
 87673103,87582551,,13,TRAIN,GTFS,Morcenx,Labouheyre,98,gtfs_stop_times
 87575142,87324095,,13,TRAIN,GTFS,Châtellerault,Futuroscope,10,gtfs_stop_times
@@ -7615,7 +7402,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87726794,87734749,,13,TRAIN,GTFS,Beauzac,Retournac,2,gtfs_stop_times
 87571000,87571836,,13,TRAIN,GTFS,Tours,Cinq-Mars-la-Pile,34,gtfs_stop_times
 87215335,87192302,,13,TRAIN,GTFS,Berthelming,Bénestroff,17,gtfs_stop_times
-87191007,82006030,,13,TRAIN,GTFS,Thionville,Bettembourg,145,gtfs_stop_times
 87654574,87182063,,13,TRAIN,GTFS,Zillisheim Auberge Mohn,Mulhouse,2,gtfs_stop_times
 87672279,87672337,,13,TRAIN,GTFS,Puyoô,Peyrehorade,16,gtfs_stop_times
 87672386,87673004,,13,TRAIN,GTFS,Urt,Bayonne,16,gtfs_stop_times
@@ -8040,7 +7826,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87611244,87611665,,15,TRAIN,GTFS,Montauban Ville Bourbon,Castelnau-d'Estrétefonds,24,gtfs_stop_times
 87611509,87611483,,15,TRAIN,GTFS,Porté-Puymorens,Latour-de-Carol - Enveitg,57,gtfs_stop_times
 87613893,87613877,,15,TRAIN,GTFS,Villefranche-de-Rouergue,Salles-Courbatiès,15,gtfs_stop_times
-85927137,87745497,,15,TRAIN,GTFS,Chêne-Bourg Place Favre,Annemasse,9,gtfs_stop_times
 87784793,87784769,,15,TRAIN,GTFS,Mont-Louis - La Cabanasse,Fontpédrouse St-Thomas les B.,2,gtfs_stop_times
 87592170,87594085,,15,TRAIN,GTFS,Pérols-sur-Vézère,Jassonneix,30,gtfs_stop_times
 87761718,87761759,,15,TRAIN,GTFS,Saint-Marcellin,Tullins Fures,38,gtfs_stop_times
@@ -8064,7 +7849,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87613356,87613323,,15,TRAIN,GTFS,Caussade,Lalbenque - Fontanes,42,gtfs_stop_times
 87611558,87611590,,15,TRAIN,GTFS,Luzenac - Garanou,Tarascon-sur-Ariège,3,gtfs_stop_times
 87611665,87611244,,15,TRAIN,GTFS,Castelnau-d'Estrétefonds,Montauban Ville Bourbon,24,gtfs_stop_times
-87745497,85927137,,15,TRAIN,GTFS,Annemasse,Chêne-Bourg Place Favre,9,gtfs_stop_times
 87611590,87611616,,15,TRAIN,GTFS,Tarascon-sur-Ariège,Foix,95,gtfs_stop_times
 87611590,87611558,,15,TRAIN,GTFS,Tarascon-sur-Ariège,Luzenac - Garanou,3,gtfs_stop_times
 87592006,87592253,,15,TRAIN,GTFS,Limoges Bénédictins,Pierre-Buffière,3,gtfs_stop_times
@@ -8203,7 +7987,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87415604,87381509,,16,TRAIN,GTFS,Vernon - Giverny,Mantes-la-Jolie,14,gtfs_stop_times
 87575290,87575365,,16,TRAIN,GTFS,Vivonne,Saint-Saviol,7,gtfs_stop_times
 87734053,87732404,,16,TRAIN,GTFS,Riom - Châtel-Guyon,Gannat,8,gtfs_stop_times
-82002501,82260018,,16,TRAIN,GTFS,Howald,Bettembourg Gare,2,gtfs_stop_times
 87594234,87594200,,16,TRAIN,GTFS,Allassac,Uzerche,4,gtfs_stop_times
 87212027,87212266,,16,TRAIN,GTFS,Strasbourg,Fegersheim - Lipsheim,2,gtfs_stop_times
 87214783,87214726,,16,TRAIN,GTFS,Saales,Rothau,2,gtfs_stop_times
@@ -8260,7 +8043,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87317586,87317065,,16,TRAIN,GTFS,Boulogne sur Mer,Étaples - Le Touquet,100,gtfs_stop_times
 87575001,87485540,,16,TRAIN,GTFS,Poitiers,Lusignan,22,gtfs_stop_times
 87732404,87734053,,16,TRAIN,GTFS,Gannat,Riom - Châtel-Guyon,8,gtfs_stop_times
-82260018,82002501,,16,TRAIN,GTFS,Bettembourg Gare,Howald,2,gtfs_stop_times
 87317339,87317263,,16,TRAIN,GTFS,Marquise - Rinxent,Calais Ville,23,gtfs_stop_times
 87731885,87734335,,16,TRAIN,GTFS,Alleyras,Monistrol-d'Allier,7,gtfs_stop_times
 87286005,87286542,,16,TRAIN,GTFS,Lille Flandres,Tourcoing,21,gtfs_stop_times
@@ -8286,7 +8068,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87271817,87271734,,17,TRAIN,GTFS,Soissons,Villers-Cotterêts,111,gtfs_stop_times
 87175794,87192666,,17,TRAIN,GTFS,Étain,Conflans - Jarny,45,gtfs_stop_times
 87172353,87194209,,17,TRAIN,GTFS,Carignan,Montmédy,19,gtfs_stop_times
-71793000,71043075,,17,TRAIN,GTFS,GIRONA,FIGUERES-VILAFANT,23,gtfs_stop_times
 87743005,87718296,,17,TRAIN,GTFS,Bourg-en-Bresse,Saint-Amour,18,gtfs_stop_times
 87212225,87215012,,17,TRAIN,GTFS,Saverne,Sarrebourg,55,gtfs_stop_times
 87763003,87763425,,17,TRAIN,GTFS,Gap,Chorges,76,gtfs_stop_times
@@ -8337,7 +8118,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87592741,87595124,,17,TRAIN,GTFS,Bussière-Galant,Thiviers,2,gtfs_stop_times
 87594002,87594564,,17,TRAIN,GTFS,Brive-la-Gaillarde,Les Quatre-Routes,8,gtfs_stop_times
 87594499,87594119,,17,TRAIN,GTFS,Tulle,Corrèze,32,gtfs_stop_times
-71043075,71793000,,17,TRAIN,GTFS,FIGUERES-VILAFANT,GIRONA,23,gtfs_stop_times
 87718296,87743005,,17,TRAIN,GTFS,Saint-Amour,Bourg-en-Bresse,18,gtfs_stop_times
 87215012,87212225,,17,TRAIN,GTFS,Sarrebourg,Saverne,55,gtfs_stop_times
 87194274,87192658,,17,TRAIN,GTFS,Longuyon,Baroncourt,28,gtfs_stop_times
@@ -8462,7 +8242,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87144154,87144410,,18,TRAIN,GTFS,Bruyères,Arches,36,gtfs_stop_times
 87447680,87447698,,18,TRAIN,GTFS,Granville,Villedieu-les-Poêles,18,gtfs_stop_times
 87721282,87722025,,18,TRAIN,GTFS,Saint-Germain-au-Mont-d'Or,Lyon Perrache,2,gtfs_stop_times
-85011031,87715136,,18,TRAIN,GTFS,Vallorbe,Frasne,11,gtfs_stop_times
 87718304,87718841,,18,TER,GTFS,Franois,Arc-et-Senans,2,gtfs_stop_times
 87783456,87781534,,18,TRAIN,GTFS,Tournemire - Roquefort,Montpaon,4,gtfs_stop_times
 87611772,87611806,,18,TRAIN,GTFS,Gimont Cahuzac,L'Isle-Jourdain,22,gtfs_stop_times
@@ -8473,14 +8252,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87732404,87641068,,18,TRAIN,GTFS,Gannat,Bellenaves,13,gtfs_stop_times
 87775288,87775254,,18,TRAIN,GTFS,Alès,Grand-Combe la Pise,62,gtfs_stop_times
 87722025,87721282,,18,TRAIN,GTFS,Lyon Perrache,Saint-Germain-au-Mont-d'Or,2,gtfs_stop_times
-87715136,85011031,,18,TRAIN,GTFS,Frasne,Vallorbe,11,gtfs_stop_times
 87784827,87784819,,18,TRAIN,GTFS,Estavar,Font-Romeu-Odeillo-Via,11,gtfs_stop_times
 87718841,87718304,,18,TER,GTFS,Arc-et-Senans,Franois,2,gtfs_stop_times
 87611806,87611772,,18,TRAIN,GTFS,L'Isle-Jourdain,Gimont Cahuzac,22,gtfs_stop_times
 87753004,87439554,,18,TRAIN,GTFS,Miramas,Vitrolles Aéroport Marseille P,25,gtfs_stop_times
-87685784,85011031,,18,TRAIN,GTFS,Les Tavins,Vallorbe,2,gtfs_stop_times
 87184002,87185249,,18,TRAIN,GTFS,Belfort-Ville,Lure,71,gtfs_stop_times
-80143255,80143099,,18,TGV,GTFS,Ringsheim,Offenburg,2,gtfs_stop_times
 87175000,87175091,,18,TRAIN,GTFS,Saint-Dizier,Joinville,26,gtfs_stop_times
 87741645,87741694,,18,IC,GTFS,Albertville,Notre-Dame de Briançon,24,gtfs_stop_times
 87741470,87723478,,18,TRAIN,GTFS,Pont-de-Beauvoisin,La Tour-du-Pin,46,gtfs_stop_times
@@ -8494,9 +8270,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87576884,87576009,,18,TRAIN,GTFS,Villefranche-sur-Cher,Vierzon,9,gtfs_stop_times
 87478040,87471391,,18,TRAIN,GTFS,Dingé,Pontchaillou,11,gtfs_stop_times
 87753657,87765008,,18,TRAIN,GTFS,Arles,Avignon Centre,63,gtfs_stop_times
-85011031,87685784,,18,TRAIN,GTFS,Vallorbe,Les Tavins,2,gtfs_stop_times
 87185249,87184002,,18,TRAIN,GTFS,Lure,Belfort-Ville,71,gtfs_stop_times
-80143099,80143255,,18,TGV,GTFS,Offenburg,Ringsheim,2,gtfs_stop_times
 87175091,87175000,,18,TRAIN,GTFS,Joinville,Saint-Dizier,26,gtfs_stop_times
 87641357,87576322,,18,TRAIN,GTFS,Vallon-en-Sully,Saint-Amand-Montrond - Orval,14,gtfs_stop_times
 87313072,87342014,,18,TRAIN,GTFS,Albert,Arras,13,gtfs_stop_times
@@ -8795,7 +8569,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87745596,87745497,,21,TRAIN,GTFS,Bons-en-Chablais,Annemasse,9,gtfs_stop_times
 87745497,87745596,,21,TRAIN,GTFS,Annemasse,Bons-en-Chablais,13,gtfs_stop_times
 87594002,87594572,,21,TRAIN,GTFS,Brive-la-Gaillarde,Saint-Denis-Près-Martel,7,gtfs_stop_times
-87191007,82001000,,22,TGV,GTFS,Thionville,Luxembourg,25,gtfs_stop_times
 87175042,87175257,,22,TRAIN,GTFS,Bar-le-Duc,Commercy,88,gtfs_stop_times
 87745000,87741074,,22,TRAIN,GTFS,Bellegarde,Culoz,6,gtfs_stop_times
 87281246,87317263,,22,TRAIN,GTFS,Gravelines,Calais Ville,2,gtfs_stop_times
@@ -8816,9 +8589,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87144451,87144006,,22,TGV,GTFS,Remiremont,Épinal,15,gtfs_stop_times
 87182063,87300822,,22,TGV,GTFS,Mulhouse,Belfort - Montbéliard TGV,27,gtfs_stop_times
 87612002,87611004,,22,TRAIN,GTFS,Labège Innopole,Toulouse Matabiau,8,gtfs_stop_times
-87212027,80143099,,22,TGV,GTFS,Strasbourg,Offenburg,4,gtfs_stop_times
 87741223,87741306,,22,TRAIN,GTFS,Saint-Pierre-d'Albigny,Saint-Avre - La Chambre,25,gtfs_stop_times
-82001000,87191007,,22,TGV,GTFS,Luxembourg,Thionville,25,gtfs_stop_times
 87175257,87175042,,22,TRAIN,GTFS,Commercy,Bar-le-Duc,88,gtfs_stop_times
 87741074,87745000,,22,TRAIN,GTFS,Culoz,Bellegarde,6,gtfs_stop_times
 87319012,87318964,,22,TRAIN,GTFS,Aix-en-Provence TGV,Avignon TGV,152,gtfs_stop_times
@@ -8835,7 +8606,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87447243,87447284,,22,TRAIN,GTFS,Carentan,Valognes,70,gtfs_stop_times
 87545244,87393579,,22,TRAIN,GTFS,Juvisy,Massy-Palaiseau,33,gtfs_stop_times
 87645507,87734871,,22,TRAIN,GTFS,Neussargues,Massiac - Blesle,23,gtfs_stop_times
-80142281,80142778,,22,TRAIN,GTFS,Karlsruhe Hbf,Baden-Baden,12,gtfs_stop_times
 87317263,87281246,,22,TRAIN,GTFS,Calais Ville,Gravelines,2,gtfs_stop_times
 87718296,87718239,,22,TRAIN,GTFS,Saint-Amour,Lons-le-Saunier,3,gtfs_stop_times
 87396002,87396408,,22,IC,GTFS,Le Mans,Sablé-sur-Sarthe,15,gtfs_stop_times
@@ -8844,9 +8614,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87193359,87192039,,22,TRAIN,GTFS,Faulquemont,Metz,9,gtfs_stop_times
 87444562,87444638,,22,TRAIN,GTFS,Surdon,L'Aigle,19,gtfs_stop_times
 87487249,87487009,,22,TRAIN,GTFS,Bressuire,Thouars,18,gtfs_stop_times
-80143099,87212027,,22,TGV,GTFS,Offenburg,Strasbourg,4,gtfs_stop_times
 87775171,87734350,,22,TRAIN,GTFS,La Bastide-St-Laurent-les-B.,Langogne,15,gtfs_stop_times
-80142778,80142281,,22,TRAIN,GTFS,Baden-Baden,Karlsruhe Hbf,12,gtfs_stop_times
 87761817,87761841,,22,TRAIN,GTFS,Saillans,Die,23,gtfs_stop_times
 87731885,87734343,,22,TRAIN,GTFS,Alleyras,Chapeauroux,12,gtfs_stop_times
 87300822,87182063,,22,TGV,GTFS,Belfort - Montbéliard TGV,Mulhouse,27,gtfs_stop_times
@@ -8900,7 +8668,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87581009,87584052,,23,TRAIN,GTFS,Bordeaux Saint-Jean,Libourne,94,gtfs_stop_times
 87413542,87430785,,23,TRAIN,GTFS,Fécamp,Goderville,11,gtfs_stop_times
 87765941,87429761,,23,TRAIN,GTFS,Saint-Florentin Gare routière,Auxon Route Nationale,4,gtfs_stop_times
-85042150,85042218,,23,TRAIN,GTFS,Travers,Neuchatel,6,gtfs_stop_times
 87611004,87611467,,23,TRAIN,GTFS,Toulouse Matabiau,Colomiers,6,gtfs_stop_times
 87444265,87444000,,23,TRAIN,GTFS,Lisieux,Caen,27,gtfs_stop_times
 87286302,87342006,,23,TRAIN,GTFS,Hazebrouck,Béthune,45,gtfs_stop_times
@@ -8927,7 +8694,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87313049,87313270,,23,TRAIN,GTFS,Longueau,Saint-Just-en-Chaussée,79,gtfs_stop_times
 87611749,87611772,,23,TRAIN,GTFS,Auch,Gimont Cahuzac,2,gtfs_stop_times
 87429761,87765941,,23,TRAIN,GTFS,Auxon Route Nationale,Saint-Florentin Gare routière,4,gtfs_stop_times
-85042218,85042150,,23,TRAIN,GTFS,Neuchatel,Travers,6,gtfs_stop_times
 87584052,87581009,,23,TRAIN,GTFS,Libourne,Bordeaux Saint-Jean,94,gtfs_stop_times
 87474239,87474338,,23,TGV,GTFS,Landerneau,Morlaix,17,gtfs_stop_times
 87396408,87484006,,23,TGV,GTFS,Sablé-sur-Sarthe,Angers Saint-Laud,42,gtfs_stop_times
@@ -8974,7 +8740,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87141002,87141044,,24,TRAIN,GTFS,Nancy,Toul,92,gtfs_stop_times
 87696328,87696260,,24,TRAIN,GTFS,Moulins sur Allier,Saincaize,27,gtfs_stop_times
 87645192,87645002,,24,TRAIN,GTFS,Le Rouget,Aurillac,11,gtfs_stop_times
-80143503,80143255,,24,TGV,GTFS,Freiburg (Breisgau) Hbf,Ringsheim,5,gtfs_stop_times
 87594200,87592253,,24,TRAIN,GTFS,Uzerche,Pierre-Buffière,3,gtfs_stop_times
 87313874,87313478,,24,TER,GTFS,Amiens,Chaulnes,2,gtfs_stop_times
 87671008,87671123,,24,TRAIN,GTFS,Tarbes,Lannemezan,6,gtfs_stop_times
@@ -9011,7 +8776,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87547000,87393579,,24,TRAIN,GTFS,Paris Austerlitz,Massy-Palaiseau,26,gtfs_stop_times
 87696260,87696328,,24,TRAIN,GTFS,Saincaize,Moulins sur Allier,27,gtfs_stop_times
 87645002,87645192,,24,TRAIN,GTFS,Aurillac,Le Rouget,11,gtfs_stop_times
-80143255,80143503,,24,TGV,GTFS,Ringsheim,Freiburg (Breisgau) Hbf,5,gtfs_stop_times
 87592253,87594200,,24,TRAIN,GTFS,Pierre-Buffière,Uzerche,3,gtfs_stop_times
 87175042,87174276,,24,TGV,GTFS,Bar-le-Duc,Vitry-le-François,8,gtfs_stop_times
 87775254,87775221,,24,TRAIN,GTFS,Grand-Combe la Pise,Chamborigaud,27,gtfs_stop_times
@@ -9037,21 +8801,15 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87783282,87783266,,25,TRAIN,GTFS,Marvejols,Aumont-Aubrac,9,gtfs_stop_times
 87214858,87214056,,25,TRAIN,GTFS,Sainte-Marie-aux-Mines Cité Scolaire,Sélestat,2,gtfs_stop_times
 87745646,87745596,,25,TRAIN,GTFS,Thonon-les-Bains,Bons-en-Chablais,9,gtfs_stop_times
-80142927,87212027,,25,TRAIN,GTFS,Kehl,Strasbourg,3,gtfs_stop_times
-83002048,87635367,,25,TRAIN,GTFS,OULX CESANA CLAVIERE SESTRIERE,Montgenèvre Gare Routière,3,gtfs_stop_times
 87747329,87697490,,25,TRAIN,GTFS,Moirans,Grenoble Europole,2,gtfs_stop_times
 87747287,87697490,,25,TRAIN,GTFS,Voiron,Grenoble Europole,7,gtfs_stop_times
 87775254,87775213,,25,TRAIN,GTFS,Grand-Combe la Pise,Génolhac,4,gtfs_stop_times
-87635367,83002048,,25,TRAIN,GTFS,Montgenèvre Gare Routière,OULX CESANA CLAVIERE SESTRIERE,3,gtfs_stop_times
 87754549,87295063,,25,TRAIN,GTFS,Mon Idée,Hirson,11,gtfs_stop_times
 87345009,87343004,,25,TRAIN,GTFS,Douai,Valenciennes,40,gtfs_stop_times
 87342014,87223263,,25,TGV,GTFS,Arras,Lille Europe,42,gtfs_stop_times
 87611095,87611038,,25,TRAIN,GTFS,Boussens,Muret,16,gtfs_stop_times
-80251967,80251850,,25,TRAIN,GTFS,Perl,Konz Mitte,8,gtfs_stop_times
-85042150,87715003,,25,TRAIN,GTFS,Travers,Pontarlier,6,gtfs_stop_times
 87595579,87595512,,25,TRAIN,GTFS,Thenon,Niversac,2,gtfs_stop_times
 87595512,87595579,,25,TRAIN,GTFS,Niversac,Thenon,2,gtfs_stop_times
-87715003,85042150,,25,TRAIN,GTFS,Pontarlier,Travers,6,gtfs_stop_times
 87471003,87478404,,25,TGV,GTFS,Rennes,Laval,161,gtfs_stop_times
 87543165,87543017,,25,TRAIN,GTFS,Salbris,Les Aubrais,23,gtfs_stop_times
 87172007,87172049,,25,TRAIN,GTFS,Charleville-Mézières,Bogny-sur-Meuse,4,gtfs_stop_times
@@ -9060,7 +8818,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87715417,87715326,,25,TRAIN,GTFS,Saint-Laurent-en-Grandvaux,Champagnole,3,gtfs_stop_times
 87343004,87345009,,25,TRAIN,GTFS,Valenciennes,Douai,40,gtfs_stop_times
 87223263,87342014,,25,TGV,GTFS,Lille Europe,Arras,42,gtfs_stop_times
-80251850,80251967,,25,TRAIN,GTFS,Konz Mitte,Perl,8,gtfs_stop_times
 87746784,87746479,,25,TRAIN,GTFS,Chamonix-Mont-Blanc,Saint-Gervais-les-Bains-Le Fayet,14,gtfs_stop_times
 87615344,87615252,,25,TRAIN,GTFS,Saint-Sulpice,Gaillac,2,gtfs_stop_times
 87478404,87471003,,25,TGV,GTFS,Laval,Rennes,161,gtfs_stop_times
@@ -9092,7 +8849,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87571406,87571000,,25,TRAIN,GTFS,Montbazon,Tours,3,gtfs_stop_times
 87342014,87313882,,25,TGV,GTFS,Arras,TGV Haute Picardie,66,gtfs_stop_times
 87317263,87317586,,25,TRAIN,GTFS,Calais Ville,Boulogne sur Mer,61,gtfs_stop_times
-87212027,80142927,,25,TRAIN,GTFS,Strasbourg,Kehl,2,gtfs_stop_times
 87726414,87698662,,25,TRAIN,GTFS,Bonson,St-Etienne-Châtcrx. G Routière,3,gtfs_stop_times
 87734004,87734202,,25,TRAIN,GTFS,Clermont-Ferrand,Issoire,9,gtfs_stop_times
 87392829,87335521,,25,TRAIN,GTFS,Saint-Martin-d'Hères,Grenoble,3,gtfs_stop_times
@@ -9138,7 +8894,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87775007,87773002,,26,TGV,GTFS,Nîmes Centre,Montpellier Saint-Roch,159,gtfs_stop_times
 87595009,87595124,,26,TRAIN,GTFS,Périgueux,Thiviers,33,gtfs_stop_times
 87743005,87723585,,26,TRAIN,GTFS,Bourg-en-Bresse,Meximieux - Pérouges,2,gtfs_stop_times
-88810000,87295600,,26,TRAIN,GTFS,Mons,Aulnoye-Aymeries,21,gtfs_stop_times
 87295063,87296129,,26,TRAIN,GTFS,Hirson,Vervins,6,gtfs_stop_times
 87478057,87471003,,26,TRAIN,GTFS,Combourg,Rennes,5,gtfs_stop_times
 87476606,87471300,,26,TGV,GTFS,Vannes,Redon,54,gtfs_stop_times
@@ -9148,7 +8903,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87576439,87696005,,26,TRAIN,GTFS,Avord,Nevers,13,gtfs_stop_times
 87313437,87313494,,26,TRAIN,GTFS,Villers-Bretonneux,Ham,17,gtfs_stop_times
 87713040,87713412,,26,TRAIN,GTFS,Dijon,Dole,19,gtfs_stop_times
-87784009,71043075,,26,TRAIN,GTFS,Perpignan,FIGUERES-VILAFANT,23,gtfs_stop_times
 87486019,87486449,,26,TGV,GTFS,La Roche-sur-Yon,Les Sables-d'Olonne,25,gtfs_stop_times
 87223263,87345009,,26,TRAIN,GTFS,Lille Europe,Douai,2,gtfs_stop_times
 87271536,87271007,,26,TRAIN,GTFS,Dammartin - Juilly - Saint-Mard,Paris Gare du Nord,50,gtfs_stop_times
@@ -9166,13 +8920,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87476606,87476002,,26,TGV,GTFS,Vannes,Lorient,49,gtfs_stop_times
 87696005,87576439,,26,TRAIN,GTFS,Nevers,Avord,13,gtfs_stop_times
 87713412,87713040,,26,TRAIN,GTFS,Dole,Dijon,19,gtfs_stop_times
-71043075,87784009,,26,TRAIN,GTFS,FIGUERES-VILAFANT,Perpignan,23,gtfs_stop_times
 87447680,87447110,,26,TRAIN,GTFS,Granville,Coutances,18,gtfs_stop_times
 87594002,87594200,,26,TRAIN,GTFS,Brive-la-Gaillarde,Uzerche,55,gtfs_stop_times
 87753657,87775007,,26,TRAIN,GTFS,Arles,Nîmes Centre,20,gtfs_stop_times
 87773002,87775007,,26,TGV,GTFS,Montpellier Saint-Roch,Nîmes Centre,159,gtfs_stop_times
 87723585,87743005,,26,TRAIN,GTFS,Meximieux - Pérouges,Bourg-en-Bresse,2,gtfs_stop_times
-87295600,88810000,,26,TRAIN,GTFS,Aulnoye-Aymeries,Mons,21,gtfs_stop_times
 87471003,87478057,,26,TRAIN,GTFS,Rennes,Combourg,5,gtfs_stop_times
 87471300,87476606,,26,TGV,GTFS,Redon,Vannes,54,gtfs_stop_times
 87613356,87613000,,26,TRAIN,GTFS,Caussade,Cahors,51,gtfs_stop_times
@@ -9196,7 +8948,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87592378,87597120,,27,TRAIN,GTFS,La Souterraine,Argenton-sur-Creuse,75,gtfs_stop_times
 87764001,87765107,,27,TGV,GTFS,Montélimar,Orange,26,gtfs_stop_times
 87635938,87635920,,27,TRAIN,GTFS,Sainte-Ménéhould Médiathèque,Suippes Camp,9,gtfs_stop_times
-85000109,87182063,,27,IC,GTFS,Basel SBB,Mulhouse,68,gtfs_stop_times
 87697490,87417501,,27,TRAIN,GTFS,Grenoble Europole,Lancey,2,gtfs_stop_times
 87184002,87185348,,27,TRAIN,GTFS,Belfort-Ville,Champagney,2,gtfs_stop_times
 87574004,87543017,,27,TRAIN,GTFS,Blois - Chambord,Les Aubrais,82,gtfs_stop_times
@@ -9205,25 +8956,19 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87743005,87743351,,27,TRAIN,GTFS,Bourg-en-Bresse,Nurieux Gare,8,gtfs_stop_times
 87396606,87396002,,27,TRAIN,GTFS,Château-du-Loir,Le Mans,5,gtfs_stop_times
 87723429,87723197,,27,IC,GTFS,Bourgoin-Jallieu,Lyon Part Dieu,39,gtfs_stop_times
-80140087,80142281,,27,TRAIN,GTFS,Mannheim Hbf,Karlsruhe Hbf,28,gtfs_stop_times
 87635920,87635938,,27,TRAIN,GTFS,Suippes Camp,Sainte-Ménéhould Médiathèque,10,gtfs_stop_times
 87613141,87613000,,27,TRAIN,GTFS,Gourdon,Cahors,90,gtfs_stop_times
 87723197,87723429,,27,IC,GTFS,Lyon Part Dieu,Bourgoin-Jallieu,39,gtfs_stop_times
 87417501,87697490,,27,TRAIN,GTFS,Lancey,Grenoble Europole,2,gtfs_stop_times
-87182063,85000109,,27,IC,GTFS,Mulhouse,Basel SBB,68,gtfs_stop_times
 87694307,87713545,,27,TRAIN,GTFS,Montchanin,Beaune,21,gtfs_stop_times
 87762906,87763029,,27,TGV,GTFS,Lyon Saint-Exupéry TGV,Valence TGV Rhône-Alpes Sud,2,gtfs_stop_times
 87765107,87764001,,27,TGV,GTFS,Orange,Montélimar,26,gtfs_stop_times
 87481440,87486019,,27,TRAIN,GTFS,Clisson,La Roche-sur-Yon,3,gtfs_stop_times
-80142281,80140087,,27,TRAIN,GTFS,Karlsruhe Hbf,Mannheim Hbf,28,gtfs_stop_times
 87713545,87694307,,27,TRAIN,GTFS,Beaune,Montchanin,21,gtfs_stop_times
 87763029,87762906,,27,TGV,GTFS,Valence TGV Rhône-Alpes Sud,Lyon Saint-Exupéry TGV,2,gtfs_stop_times
 87486019,87481440,,27,TRAIN,GTFS,La Roche-sur-Yon,Clisson,3,gtfs_stop_times
-85010082,87745000,,28,TRAIN,GTFS,Genève Cornavin,Bellegarde,82,gtfs_stop_times
 87746008,87741132,,28,TGV,GTFS,Annecy,Aix-les-Bains le Revard,54,gtfs_stop_times
-87745000,85010082,,28,TRAIN,GTFS,Bellegarde,Genève Cornavin,82,gtfs_stop_times
 87747626,87697516,,28,TRAIN,GTFS,Clelles - Mens,Lus-la-Croix-Haute RD 1075,2,gtfs_stop_times
-83002048,87742007,,28,TRAIN,GTFS,OULX CESANA CLAVIERE SESTRIERE,Modane,34,gtfs_stop_times
 87343004,87295733,,28,TRAIN,GTFS,Valenciennes,Avesnes-sur-Helpe,2,gtfs_stop_times
 87725689,87725002,,28,TRAIN,GTFS,Mâcon,Chalon-sur-Saône,15,gtfs_stop_times
 87615732,87615625,,28,TRAIN,GTFS,Naucelle,Carmaux,14,gtfs_stop_times
@@ -9236,7 +8981,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87635870,87175778,,28,TRAIN,GTFS,Clermont-en-Argonne Centre,Verdun,10,gtfs_stop_times
 87725002,87725689,,28,TRAIN,GTFS,Chalon-sur-Saône,Mâcon,14,gtfs_stop_times
 87592725,87595124,,28,TRAIN,GTFS,Nexon,Thiviers,3,gtfs_stop_times
-87742007,83002048,,28,TRAIN,GTFS,Modane,OULX CESANA CLAVIERE SESTRIERE,34,gtfs_stop_times
 87182063,87182014,,28,TRAIN,GTFS,Mulhouse,Colmar,166,gtfs_stop_times
 87295733,87343004,,28,TRAIN,GTFS,Avesnes-sur-Helpe,Valenciennes,2,gtfs_stop_times
 87595124,87592725,,28,TRAIN,GTFS,Thiviers,Nexon,3,gtfs_stop_times
@@ -9263,7 +9007,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87485144,87491001,,29,TRAIN,GTFS,Rochefort,Saintes,22,gtfs_stop_times
 87212027,87182014,,29,TRAIN,GTFS,Strasbourg,Colmar,75,gtfs_stop_times
 87673202,87672253,,29,TGV,GTFS,Dax,Orthez,70,gtfs_stop_times
-87193615,80253914,,29,TRAIN,GTFS,Sarreguemines,Sarrebruck,41,gtfs_stop_times
 87747287,87723478,,29,TRAIN,GTFS,Voiron,La Tour-du-Pin,43,gtfs_stop_times
 87141002,87144055,,29,TRAIN,GTFS,Nancy,Charmes,7,gtfs_stop_times
 87473207,87473223,,29,TGV,GTFS,Guingamp,Lannion,5,gtfs_stop_times
@@ -9274,7 +9017,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87745497,87745646,,29,TGV,GTFS,Annemasse,Thonon-les-Bains,20,gtfs_stop_times
 87394114,87393009,,29,TRAIN,GTFS,Épernon,Versailles Chantiers,24,gtfs_stop_times
 87473223,87473207,,29,TGV,GTFS,Lannion,Guingamp,5,gtfs_stop_times
-80253914,87193615,,29,TRAIN,GTFS,Sarrebruck,Sarreguemines,41,gtfs_stop_times
 87672253,87673202,,29,TGV,GTFS,Orthez,Dax,70,gtfs_stop_times
 87595736,87595009,,29,TRAIN,GTFS,Les Eyzies,Périgueux,9,gtfs_stop_times
 87723478,87747287,,29,TRAIN,GTFS,La Tour-du-Pin,Voiron,43,gtfs_stop_times
@@ -9341,13 +9083,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87723734,87697128,,30,TRAIN,GTFS,Saint-André-de-Corcy,Lyon-Part-Dieu Gare Routière,3,gtfs_stop_times
 87645135,87594796,,31,TRAIN,GTFS,Laroquebrou,Laval-de-Cère,11,gtfs_stop_times
 87172007,87172270,,31,TGV,GTFS,Charleville-Mézières,Rethel,26,gtfs_stop_times
-80203471,80021402,,31,IC,GTFS,Munich,Augsburg Hbf,2,gtfs_stop_times
 87745497,87746305,,31,TRAIN,GTFS,Annemasse,La Roche-sur-Foron,29,gtfs_stop_times
 87396002,87478404,,31,TGV,GTFS,Le Mans,Laval,123,gtfs_stop_times
 87746933,87394221,,31,TRAIN,GTFS,Chartres Gare Rue Nicole,Courville-sur-Eure,2,gtfs_stop_times
 87761494,87764472,,31,TRAIN,GTFS,Saint-Péray,Le Teil,4,gtfs_stop_times
 87761718,87747006,,31,TRAIN,GTFS,Saint-Marcellin,Grenoble,4,gtfs_stop_times
-80021402,80203471,,31,IC,GTFS,Augsburg Hbf,Munich,2,gtfs_stop_times
 87746305,87745497,,31,TRAIN,GTFS,La Roche-sur-Foron,Annemasse,29,gtfs_stop_times
 87732404,87641043,,31,TRAIN,GTFS,Gannat,Lapeyrouse,9,gtfs_stop_times
 87281006,87223263,,31,TER,GTFS,Dunkerque,Lille Europe,12,gtfs_stop_times
@@ -9378,7 +9118,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87783365,87783001,,32,TRAIN,GTFS,Sévérac-le-Château,Millau,9,gtfs_stop_times
 87721472,87726802,,32,TRAIN,GTFS,Tarare,Roanne,47,gtfs_stop_times
 87296004,87295600,,32,TRAIN,GTFS,Saint-Quentin,Aulnoye-Aymeries,85,gtfs_stop_times
-80230029,80160432,,32,TRAIN,GTFS,Halle (Saale) Hbf,Erfurt Hbf,4,gtfs_stop_times
 87471391,87478073,,32,TRAIN,GTFS,Pontchaillou,Dol-de-Bretagne,11,gtfs_stop_times
 87474007,87474338,,32,TGV,GTFS,Brest,Morlaix,101,gtfs_stop_times
 87743716,87741074,,32,TRAIN,GTFS,Ambérieu-en-Bugey,Culoz,4,gtfs_stop_times
@@ -9386,7 +9125,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87592006,87592378,,32,TRAIN,GTFS,Limoges Bénédictins,La Souterraine,162,gtfs_stop_times
 87571000,87487603,,32,IC,GTFS,Tours,Saumur,15,gtfs_stop_times
 87726802,87721472,,32,TRAIN,GTFS,Roanne,Tarare,47,gtfs_stop_times
-80160432,80230029,,32,TRAIN,GTFS,Erfurt Hbf,Halle (Saale) Hbf,4,gtfs_stop_times
 87576009,87597005,,32,TRAIN,GTFS,Vierzon,Châteauroux,117,gtfs_stop_times
 87783001,87783365,,32,TRAIN,GTFS,Millau,Sévérac-le-Château,9,gtfs_stop_times
 87741074,87743716,,32,TRAIN,GTFS,Culoz,Ambérieu-en-Bugey,4,gtfs_stop_times
@@ -9397,7 +9135,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87111849,87545244,,32,TGV,GTFS,Marne-la-Vallée Chessy,Juvisy,3,gtfs_stop_times
 87765008,87703975,,32,TRAIN,GTFS,Avignon Centre,Nîmes Pont du Gard,3,gtfs_stop_times
 87111849,87171926,,32,TGV,GTFS,Marne-la-Vallée Chessy,Champagne-Ardenne TGV,59,gtfs_stop_times
-88810000,88140010,,33,TRAIN,GTFS,Mons,Bruxelles Midi,37,gtfs_stop_times
 87741009,87747402,,33,TRAIN,GTFS,Chambéry - Challes-les-Eaux,Grenoble Universités - Gières,7,gtfs_stop_times
 87111849,87393702,,33,TRAIN,GTFS,Marne-la-Vallée Chessy,Massy TGV,31,gtfs_stop_times
 87223263,87313882,,33,TGV,GTFS,Lille Europe,TGV Haute Picardie,64,gtfs_stop_times
@@ -9417,7 +9154,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87393702,87111849,,33,TRAIN,GTFS,Massy TGV,Marne-la-Vallée Chessy,31,gtfs_stop_times
 87784009,87781104,,33,TGV,GTFS,Perpignan,Narbonne,81,gtfs_stop_times
 87673004,87673202,,33,TGV,GTFS,Bayonne,Dax,134,gtfs_stop_times
-88140010,88810000,,33,TRAIN,GTFS,Bruxelles Midi,Mons,37,gtfs_stop_times
 87276725,87271007,,33,TRAIN,GTFS,Chambly,Paris Gare du Nord,4,gtfs_stop_times
 87313874,87342014,,33,TER,GTFS,Amiens,Arras,2,gtfs_stop_times
 87743633,87715441,,33,TRAIN,GTFS,Saint-Claude,Morez,14,gtfs_stop_times
@@ -9430,7 +9166,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87276469,87271007,,34,TRAIN,GTFS,Persan - Beaumont,Paris Gare du Nord,54,gtfs_stop_times
 87547000,87545137,,34,TRAIN,GTFS,Paris Austerlitz,Étampes,34,gtfs_stop_times
 87444711,87396002,,34,TRAIN,GTFS,Alençon,Le Mans,5,gtfs_stop_times
-85070003,85042218,,34,TRAIN,GTFS,Bern,Neuchatel,2,gtfs_stop_times
 87783647,87775148,,34,TRAIN,GTFS,Bagnols - Chadenet,Chasseradès,2,gtfs_stop_times
 87171926,87271494,,34,TRAIN,GTFS,Champagne-Ardenne TGV,Aéroport Charles de Gaulle 2 TGV,9,gtfs_stop_times
 87746891,87746933,,34,TRAIN,GTFS,Maintenon Gare Routière,Chartres Gare Rue Nicole,3,gtfs_stop_times
@@ -9442,7 +9177,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87487603,87571240,,34,TGV,GTFS,Saumur,Saint-Pierre-des-Corps,8,gtfs_stop_times
 87381509,87393009,,34,TRAIN,GTFS,Mantes-la-Jolie,Versailles Chantiers,10,gtfs_stop_times
 87474098,87476002,,34,TGV,GTFS,Quimper,Lorient,76,gtfs_stop_times
-88140010,87223263,,34,TGV,GTFS,Bruxelles Midi,Lille Europe,137,gtfs_stop_times
 87342014,87313049,,34,TRAIN,GTFS,Arras,Longueau,28,gtfs_stop_times
 87393009,87381509,,34,TRAIN,GTFS,Versailles Chantiers,Mantes-la-Jolie,10,gtfs_stop_times
 87571240,87487603,,34,TGV,GTFS,Saint-Pierre-des-Corps,Saumur,8,gtfs_stop_times
@@ -9450,10 +9184,8 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87393009,87393488,,34,TRAIN,GTFS,Versailles Chantiers,Dreux,8,gtfs_stop_times
 87271494,87171926,,34,TRAIN,GTFS,Aéroport Charles de Gaulle 2 TGV,Champagne-Ardenne TGV,9,gtfs_stop_times
 87271007,87276469,,34,TRAIN,GTFS,Paris Gare du Nord,Persan - Beaumont,54,gtfs_stop_times
-85042218,85070003,,34,TRAIN,GTFS,Neuchatel,Bern,2,gtfs_stop_times
 87775148,87783647,,34,TRAIN,GTFS,Chasseradès,Bagnols - Chadenet,2,gtfs_stop_times
 87745497,87746370,,34,TGV,GTFS,Annemasse,Cluses,27,gtfs_stop_times
-87223263,88140010,,34,TGV,GTFS,Lille Europe,Bruxelles Midi,137,gtfs_stop_times
 87476002,87474098,,34,TGV,GTFS,Lorient,Quimper,76,gtfs_stop_times
 87765008,87775007,,34,TRAIN,GTFS,Avignon Centre,Nîmes Centre,5,gtfs_stop_times
 87713040,87725002,,34,TRAIN,GTFS,Dijon,Chalon-sur-Saône,28,gtfs_stop_times
@@ -9497,16 +9229,12 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87783282,87783605,,35,TRAIN,GTFS,Marvejols,Mende,8,gtfs_stop_times
 87543017,87576009,,36,TRAIN,GTFS,Les Aubrais,Vierzon,66,gtfs_stop_times
 87481705,87481002,,36,TGV,GTFS,Saint-Nazaire,Nantes,77,gtfs_stop_times
-82260018,87191007,,36,TRAIN,GTFS,Bettembourg Gare,Thionville,2,gtfs_stop_times
 87722405,87697128,,36,TRAIN,GTFS,Givors Ville,Lyon-Part-Dieu Gare Routière,4,gtfs_stop_times
-85011205,85011031,,36,TRAIN,GTFS,Lausanne,Vallorbe,13,gtfs_stop_times
 87471003,87471300,,36,TRAIN,GTFS,Rennes,Redon,34,gtfs_stop_times
 87581751,87582536,,36,TRAIN,GTFS,Pessac,Ychoux,4,gtfs_stop_times
 87141002,87147322,,36,TGV,GTFS,Nancy,Meuse TGV,39,gtfs_stop_times
 87615732,87613422,,36,TRAIN,GTFS,Naucelle,Rodez,5,gtfs_stop_times
 87147322,87141002,,36,TGV,GTFS,Meuse TGV,Nancy,39,gtfs_stop_times
-87191007,82260018,,36,TRAIN,GTFS,Thionville,Bettembourg Gare,2,gtfs_stop_times
-85011031,85011205,,36,TRAIN,GTFS,Vallorbe,Lausanne,13,gtfs_stop_times
 87582536,87581751,,36,TRAIN,GTFS,Ychoux,Pessac,4,gtfs_stop_times
 87481002,87481705,,36,TGV,GTFS,Nantes,Saint-Nazaire,77,gtfs_stop_times
 87576009,87543017,,36,TRAIN,GTFS,Vierzon,Les Aubrais,66,gtfs_stop_times
@@ -9517,7 +9245,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87611004,87611244,,36,TGV,GTFS,Toulouse Matabiau,Montauban Ville Bourbon,64,gtfs_stop_times
 87313049,87276006,,37,TRAIN,GTFS,Longueau,Creil,39,gtfs_stop_times
 87485300,87485003,,37,TGV,GTFS,Niort,La Rochelle,17,gtfs_stop_times
-80142778,87212027,,37,TRAIN,GTFS,Baden-Baden,Strasbourg,12,gtfs_stop_times
 87313395,87313874,,37,TRAIN,GTFS,Poix-de-Picardie,Amiens,3,gtfs_stop_times
 87718833,87713412,,37,TRAIN,GTFS,Mouchard,Dole,8,gtfs_stop_times
 87755447,87755009,,37,IC,GTFS,Les Arcs - Draguignan,Toulon,20,gtfs_stop_times
@@ -9529,7 +9256,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87391003,87394114,,37,TRAIN,GTFS,Paris Montparnasse Hall 1 - 2,Épernon,15,gtfs_stop_times
 87773200,87781104,,37,TRAIN,GTFS,Sète,Narbonne,11,gtfs_stop_times
 87586008,87611244,,37,TGV,GTFS,Agen,Montauban Ville Bourbon,64,gtfs_stop_times
-87212027,80142778,,37,TRAIN,GTFS,Strasbourg,Baden-Baden,12,gtfs_stop_times
 87485003,87485300,,37,TGV,GTFS,La Rochelle,Niort,17,gtfs_stop_times
 87276006,87313049,,37,TRAIN,GTFS,Creil,Longueau,39,gtfs_stop_times
 87755009,87755447,,37,IC,GTFS,Toulon,Les Arcs - Draguignan,20,gtfs_stop_times
@@ -9543,12 +9269,10 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87185009,87142125,,38,TRAIN,GTFS,Vesoul,Culmont - Chalindrey,117,gtfs_stop_times
 87384008,87381509,,38,TRAIN,GTFS,Paris Saint-Lazare,Mantes-la-Jolie,70,gtfs_stop_times
 87141002,87744011,,38,TRAIN,GTFS,Nancy,Colombey-les-Belles Mairie,2,gtfs_stop_times
-80253914,80196980,,38,TRAIN,GTFS,Sarrebruck,Kaiserslautern Hbf,19,gtfs_stop_times
 87755009,87751081,,38,TGV,GTFS,Toulon,Marseille Blancarde,2,gtfs_stop_times
 87141002,87141218,,38,TRAIN,GTFS,Nancy,Bayon,3,gtfs_stop_times
 87481002,87484006,,38,TGV,GTFS,Nantes,Angers Saint-Laud,354,gtfs_stop_times
 87755447,87757625,,38,IC,GTFS,Les Arcs - Draguignan,Cannes,14,gtfs_stop_times
-85011205,85010082,,38,TRAIN,GTFS,Lausanne,Genève Cornavin,7,gtfs_stop_times
 87113001,87116517,,38,TRAIN,GTFS,Paris Est,La Ferté-sous-Jouarre,9,gtfs_stop_times
 87761494,87722678,,38,TRAIN,GTFS,Saint-Péray,Le Péage-de-Roussillon,14,gtfs_stop_times
 87295063,87172007,,38,TRAIN,GTFS,Hirson,Charleville-Mézières,5,gtfs_stop_times
@@ -9561,8 +9285,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87471003,87478073,,38,TGV,GTFS,Rennes,Dol-de-Bretagne,58,gtfs_stop_times
 87741132,87745000,,38,TRAIN,GTFS,Aix-les-Bains le Revard,Bellegarde,5,gtfs_stop_times
 87745000,87741132,,38,TRAIN,GTFS,Bellegarde,Aix-les-Bains le Revard,5,gtfs_stop_times
-85010082,85011205,,38,TRAIN,GTFS,Genève Cornavin,Lausanne,7,gtfs_stop_times
-80196980,80253914,,38,TRAIN,GTFS,Kaiserslautern Hbf,Sarrebruck,29,gtfs_stop_times
 87713040,87713131,,38,TRAIN,GTFS,Dijon,Montbard,6,gtfs_stop_times
 87744011,87141002,,38,TRAIN,GTFS,Colombey-les-Belles Mairie,Nancy,2,gtfs_stop_times
 87751081,87755009,,38,TGV,GTFS,Marseille Blancarde,Toulon,2,gtfs_stop_times
@@ -9618,9 +9340,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87725002,87694307,,40,TRAIN,GTFS,Chalon-sur-Saône,Montchanin,5,gtfs_stop_times
 87594200,87592006,,40,TRAIN,GTFS,Uzerche,Limoges Bénédictins,79,gtfs_stop_times
 87726778,87734699,,40,TRAIN,GTFS,Bas - Monistrol,Le Puy-en-Velay,3,gtfs_stop_times
-80290346,80142281,,40,IC,GTFS,Stuttgart Hbf,Karlsruhe Hbf,12,gtfs_stop_times
 87742320,87741009,,40,TRAIN,GTFS,Saint-Jean-de-Maurienne Arvan,Chambéry - Challes-les-Eaux,4,gtfs_stop_times
-80142281,80290346,,40,IC,GTFS,Karlsruhe Hbf,Stuttgart Hbf,12,gtfs_stop_times
 87594713,87594002,,40,TRAIN,GTFS,Martel,Brive-la-Gaillarde,3,gtfs_stop_times
 87763029,87703975,,40,TRAIN,GTFS,Valence TGV Rhône-Alpes Sud,Nîmes Pont du Gard,19,gtfs_stop_times
 87582775,87581009,,40,TRAIN,GTFS,Langon,Bordeaux Saint-Jean,19,gtfs_stop_times
@@ -9631,7 +9351,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87592378,87597005,,40,TRAIN,GTFS,La Souterraine,Châteauroux,82,gtfs_stop_times
 87113001,87171926,,41,TGV,GTFS,Paris Est,Champagne-Ardenne TGV,52,gtfs_stop_times
 87746008,87741009,,41,TGV,GTFS,Annecy,Chambéry - Challes-les-Eaux,3,gtfs_stop_times
-80140087,80196980,,41,IC,GTFS,Mannheim Hbf,Kaiserslautern Hbf,3,gtfs_stop_times
 87486258,87485003,,41,TRAIN,GTFS,Luçon,La Rochelle,16,gtfs_stop_times
 87741231,87741009,,41,TRAIN,GTFS,Chamousset,Chambéry - Challes-les-Eaux,3,gtfs_stop_times
 87486019,87481002,,41,TRAIN,GTFS,La Roche-sur-Yon,Nantes,12,gtfs_stop_times
@@ -9642,7 +9361,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87741009,87746008,,41,TGV,GTFS,Chambéry - Challes-les-Eaux,Annecy,3,gtfs_stop_times
 87481002,87486019,,41,TRAIN,GTFS,Nantes,La Roche-sur-Yon,12,gtfs_stop_times
 87671008,87611137,,41,TRAIN,GTFS,Tarbes,Saint-Gaudens,5,gtfs_stop_times
-80196980,80140087,,41,IC,GTFS,Kaiserslautern Hbf,Mannheim Hbf,3,gtfs_stop_times
 87396002,87484006,,41,TGV,GTFS,Le Mans,Angers Saint-Laud,216,gtfs_stop_times
 87485003,87486258,,41,TRAIN,GTFS,La Rochelle,Luçon,16,gtfs_stop_times
 87141002,87215012,,41,TGV,GTFS,Nancy,Sarrebourg,13,gtfs_stop_times
@@ -9650,7 +9368,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87718833,87715326,,42,TRAIN,GTFS,Mouchard,Champagnole,3,gtfs_stop_times
 87723197,87694109,,42,TGV,GTFS,Lyon Part Dieu,Le Creusot-TGV,58,gtfs_stop_times
 87396606,87571240,,42,TRAIN,GTFS,Château-du-Loir,Saint-Pierre-des-Corps,4,gtfs_stop_times
-71793000,71718010,,42,TRAIN,GTFS,GIRONA,Barcelone-Sants,23,gtfs_stop_times
 87313270,87276006,,42,TRAIN,GTFS,Saint-Just-en-Chaussée,Creil,3,gtfs_stop_times
 87723197,87726000,,42,TGV,GTFS,Lyon Part Dieu,Saint-Étienne Châteaucreux,31,gtfs_stop_times
 87723197,87763029,,42,TRAIN,GTFS,Lyon Part Dieu,Valence TGV Rhône-Alpes Sud,94,gtfs_stop_times
@@ -9658,7 +9375,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87726000,87723197,,42,TGV,GTFS,Saint-Étienne Châteaucreux,Lyon Part Dieu,31,gtfs_stop_times
 87715326,87718833,,42,TRAIN,GTFS,Champagnole,Mouchard,3,gtfs_stop_times
 87571240,87396606,,42,TRAIN,GTFS,Saint-Pierre-des-Corps,Château-du-Loir,4,gtfs_stop_times
-71718010,71793000,,42,TRAIN,GTFS,Barcelone-Sants,GIRONA,23,gtfs_stop_times
 87276006,87313270,,42,TRAIN,GTFS,Creil,Saint-Just-en-Chaussée,3,gtfs_stop_times
 87717389,87448514,,42,TRAIN,GTFS,Guilberville-le Saussey,Avranches,2,gtfs_stop_times
 87694109,87723197,,42,TGV,GTFS,Le Creusot-TGV,Lyon Part Dieu,58,gtfs_stop_times
@@ -9667,7 +9383,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87448514,87717389,,42,TRAIN,GTFS,Avranches,Guilberville-le Saussey,2,gtfs_stop_times
 87575001,87583005,,43,TGV,GTFS,Poitiers,Angoulême,121,gtfs_stop_times
 87686006,87682450,,43,TRAIN,GTFS,Paris Gare de Lyon Hall 1 - 2,Champagne-sur-Seine,12,gtfs_stop_times
-87212027,80142281,,43,IC,GTFS,Strasbourg,Karlsruhe Hbf,23,gtfs_stop_times
 87696005,87576207,,43,TRAIN,GTFS,Nevers,Bourges,43,gtfs_stop_times
 87745497,87746206,,43,TRAIN,GTFS,Annemasse,Pringy,9,gtfs_stop_times
 87471300,87481002,,43,TRAIN,GTFS,Redon,Nantes,19,gtfs_stop_times
@@ -9675,21 +9390,16 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87271007,87276691,,43,TRAIN,GTFS,Paris Gare du Nord,Compiègne,122,gtfs_stop_times
 87481002,87471300,,43,TRAIN,GTFS,Nantes,Redon,19,gtfs_stop_times
 87682450,87686006,,43,TRAIN,GTFS,Champagne-sur-Seine,Paris Gare de Lyon Hall 1 - 2,12,gtfs_stop_times
-80142281,87212027,,43,IC,GTFS,Karlsruhe Hbf,Strasbourg,23,gtfs_stop_times
 87583005,87575001,,43,TGV,GTFS,Angoulême,Poitiers,121,gtfs_stop_times
 87746206,87745497,,43,TRAIN,GTFS,Pringy,Annemasse,9,gtfs_stop_times
 87576207,87696005,,43,TRAIN,GTFS,Bourges,Nevers,43,gtfs_stop_times
-80291039,80021402,,44,IC,GTFS,Ulm Hbf,Augsburg Hbf,2,gtfs_stop_times
 87144006,87141002,,44,TGV,GTFS,Épinal,Nancy,15,gtfs_stop_times
 87745497,87745000,,44,TGV,GTFS,Annemasse,Bellegarde,39,gtfs_stop_times
-80140087,80110684,,44,TRAIN,GTFS,Mannheim Hbf,Francfort sur le Main,59,gtfs_stop_times
-80021402,80291039,,44,IC,GTFS,Augsburg Hbf,Ulm Hbf,4,gtfs_stop_times
 87732008,87726802,,44,TRAIN,GTFS,Vichy,Roanne,39,gtfs_stop_times
 87182063,87300863,,44,TRAIN,GTFS,Mulhouse,Besançon Franche-Comté TGV,2,gtfs_stop_times
 87682302,87686667,,44,TRAIN,GTFS,Montereau,Paris Bercy Bourg. Pays d'Auv.,5,gtfs_stop_times
 87686667,87682302,,44,TRAIN,GTFS,Paris Bercy Bourg. Pays d'Auv.,Montereau,5,gtfs_stop_times
 87300863,87182063,,44,TRAIN,GTFS,Besançon Franche-Comté TGV,Mulhouse,2,gtfs_stop_times
-80110684,80140087,,44,TRAIN,GTFS,Francfort sur le Main,Mannheim Hbf,44,gtfs_stop_times
 87745000,87745497,,44,TGV,GTFS,Bellegarde,Annemasse,39,gtfs_stop_times
 87141002,87144006,,44,TGV,GTFS,Nancy,Épinal,15,gtfs_stop_times
 87726802,87732008,,44,TRAIN,GTFS,Roanne,Vichy,39,gtfs_stop_times
@@ -9824,14 +9534,10 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87286542,87313882,,52,TRAIN,GTFS,Tourcoing,TGV Haute Picardie,30,gtfs_stop_times
 87212027,87182063,,52,TRAIN,GTFS,Strasbourg,Mulhouse,44,gtfs_stop_times
 87396002,87393702,,53,TRAIN,GTFS,Le Mans,Massy TGV,2,gtfs_stop_times
-85030007,85000109,,53,IC,GTFS,Zuerich HB,Basel SBB,53,gtfs_stop_times
 87192039,87212027,,53,TRAIN,GTFS,Metz,Strasbourg,54,gtfs_stop_times
 87713040,87142125,,53,TRAIN,GTFS,Dijon,Culmont - Chalindrey,18,gtfs_stop_times
 87212027,87192039,,53,TRAIN,GTFS,Strasbourg,Metz,54,gtfs_stop_times
 87393702,87396002,,53,TRAIN,GTFS,Massy TGV,Le Mans,2,gtfs_stop_times
-85000109,85030007,,53,IC,GTFS,Basel SBB,Zuerich HB,53,gtfs_stop_times
-83000356,83002048,,53,TRAIN,GTFS,Turin Porta Susa,OULX CESANA CLAVIERE SESTRIERE,22,gtfs_stop_times
-83002048,83000356,,53,TRAIN,GTFS,OULX CESANA CLAVIERE SESTRIERE,Turin Porta Susa,22,gtfs_stop_times
 87142125,87713040,,53,TRAIN,GTFS,Culmont - Chalindrey,Dijon,18,gtfs_stop_times
 87113001,87116582,,54,TRAIN,GTFS,Paris Est,Château-Thierry,126,gtfs_stop_times
 87673202,87582478,,54,TRAIN,GTFS,Dax,Biganos Facture,14,gtfs_stop_times
@@ -9855,8 +9561,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87762906,87318964,,55,TRAIN,GTFS,Lyon Saint-Exupéry TGV,Avignon TGV,6,gtfs_stop_times
 87556522,87763029,,56,TRAIN,GTFS,Montelimar Gare Routière,Valence TGV Rhône-Alpes Sud,2,gtfs_stop_times
 87171926,87141002,,56,TGV,GTFS,Champagne-Ardenne TGV,Nancy,13,gtfs_stop_times
-87192039,82001000,,56,TGV,GTFS,Metz,Luxembourg,2,gtfs_stop_times
-82001000,87192039,,56,TGV,GTFS,Luxembourg,Metz,2,gtfs_stop_times
 87763029,87556522,,56,TRAIN,GTFS,Valence TGV Rhône-Alpes Sud,Montelimar Gare Routière,2,gtfs_stop_times
 87141002,87171926,,56,TGV,GTFS,Nancy,Champagne-Ardenne TGV,13,gtfs_stop_times
 87725002,87300863,,57,TRAIN,GTFS,Chalon-sur-Saône,Besançon Franche-Comté TGV,18,gtfs_stop_times
@@ -9878,9 +9582,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87391003,87396002,,59,TGV,GTFS,Paris Montparnasse Hall 1 - 2,Le Mans,201,gtfs_stop_times
 87592006,87597120,,59,TRAIN,GTFS,Limoges Bénédictins,Argenton-sur-Creuse,18,gtfs_stop_times
 87396002,87391003,,59,TGV,GTFS,Le Mans,Paris Montparnasse Hall 1 - 2,201,gtfs_stop_times
-83002196,83002048,,59,TRAIN,GTFS,TORINO PORTA NUOVA,OULX CESANA CLAVIERE SESTRIERE,4,gtfs_stop_times
 87683003,87545244,,59,TRAIN,GTFS,Sens,Juvisy,3,gtfs_stop_times
-83002048,83002196,,59,TRAIN,GTFS,OULX CESANA CLAVIERE SESTRIERE,TORINO PORTA NUOVA,4,gtfs_stop_times
 87545244,87683003,,59,TRAIN,GTFS,Juvisy,Sens,3,gtfs_stop_times
 87597120,87592006,,59,TRAIN,GTFS,Argenton-sur-Creuse,Limoges Bénédictins,18,gtfs_stop_times
 87147322,87113001,,60,TGV,GTFS,Meuse TGV,Paris Est,24,gtfs_stop_times
@@ -9888,7 +9590,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87698803,87556506,,60,TRAIN,GTFS,Vienne-Gare-Routière,Valence Gare Routière,4,gtfs_stop_times
 87697128,87723429,,60,TRAIN,GTFS,Lyon-Part-Dieu Gare Routière,Bourgoin-Jallieu,2,gtfs_stop_times
 87723429,87697128,,60,TRAIN,GTFS,Bourgoin-Jallieu,Lyon-Part-Dieu Gare Routière,2,gtfs_stop_times
-80290346,80291039,,60,IC,GTFS,Stuttgart Hbf,Ulm Hbf,4,gtfs_stop_times
 87571240,87393702,,60,TRAIN,GTFS,Saint-Pierre-des-Corps,Massy TGV,27,gtfs_stop_times
 87462960,87481002,,60,TRAIN,GTFS,Cholet Hôtel de Ville,Nantes,3,gtfs_stop_times
 87481002,87462960,,60,TRAIN,GTFS,Nantes,Cholet Hôtel de Ville,3,gtfs_stop_times
@@ -9902,7 +9603,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87576322,87641001,,60,TRAIN,GTFS,Saint-Amand-Montrond - Orval,Montluçon,2,gtfs_stop_times
 87393702,87571240,,60,TGV,GTFS,Massy TGV,Saint-Pierre-des-Corps,142,gtfs_stop_times
 87698662,87697128,,60,TRAIN,GTFS,St-Etienne-Châtcrx. G Routière,Lyon-Part-Dieu Gare Routière,5,gtfs_stop_times
-80291039,80290346,,60,IC,GTFS,Ulm Hbf,Stuttgart Hbf,4,gtfs_stop_times
 87476606,87471003,,60,TGV,GTFS,Vannes,Rennes,62,gtfs_stop_times
 87713040,87725689,,60,TRAIN,GTFS,Dijon,Mâcon,36,gtfs_stop_times
 87683003,87686006,,61,TRAIN,GTFS,Sens,Paris Gare de Lyon Hall 1 - 2,31,gtfs_stop_times
@@ -9940,7 +9640,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87182063,87713040,,65,IC,GTFS,Mulhouse,Dijon,33,gtfs_stop_times
 87686667,87683003,,65,TRAIN,GTFS,Paris Bercy Bourg. Pays d'Auv.,Sens,329,gtfs_stop_times
 87683003,87686667,,65,TRAIN,GTFS,Sens,Paris Bercy Bourg. Pays d'Auv.,343,gtfs_stop_times
-80230029,80659714,,65,TRAIN,GTFS,Halle (Saale) Hbf,Berlin Suedkreuz,4,gtfs_stop_times
 87746305,87741132,,65,TRAIN,GTFS,La Roche-sur-Foron,Aix-les-Bains le Revard,3,gtfs_stop_times
 87575001,87581009,,65,TGV,GTFS,Poitiers,Bordeaux Saint-Jean,27,gtfs_stop_times
 87271007,87313049,,65,TRAIN,GTFS,Paris Gare du Nord,Longueau,72,gtfs_stop_times
@@ -9950,7 +9649,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87741132,87746305,,65,TRAIN,GTFS,Aix-les-Bains le Revard,La Roche-sur-Foron,3,gtfs_stop_times
 87783605,87775171,,65,TRAIN,GTFS,Mende,La Bastide-St-Laurent-les-B.,2,gtfs_stop_times
 87734053,87726802,,65,TRAIN,GTFS,Riom - Châtel-Guyon,Roanne,3,gtfs_stop_times
-80659714,80230029,,65,TRAIN,GTFS,Berlin Suedkreuz,Halle (Saale) Hbf,4,gtfs_stop_times
 87286005,87271007,,65,TRAIN,GTFS,Lille Flandres,Paris Gare du Nord,80,gtfs_stop_times
 87726802,87734053,,65,TRAIN,GTFS,Roanne,Riom - Châtel-Guyon,3,gtfs_stop_times
 87713040,87182063,,65,IC,GTFS,Dijon,Mulhouse,33,gtfs_stop_times
@@ -10055,15 +9753,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87747360,87747170,,78,TRAIN,GTFS,Reims Gouraud,Pont-Sainte-Marie Arcis Magasins,2,gtfs_stop_times
 87741009,87725705,,79,TGV,GTFS,Chambéry - Challes-les-Eaux,Mâcon - Loché TGV,94,gtfs_stop_times
 87725705,87741009,,79,TGV,GTFS,Mâcon - Loché TGV,Chambéry - Challes-les-Eaux,94,gtfs_stop_times
-80253914,80140087,,80,TRAIN,GTFS,Sarrebruck,Mannheim Hbf,2,gtfs_stop_times
 87444000,87447243,,80,TRAIN,GTFS,Caen,Carentan,30,gtfs_stop_times
 87723197,87775007,,80,TRAIN,GTFS,Lyon Part Dieu,Nîmes Centre,18,gtfs_stop_times
 87476002,87471003,,80,TGV,GTFS,Lorient,Rennes,2,gtfs_stop_times
-80140087,80253914,,80,TRAIN,GTFS,Mannheim Hbf,Sarrebruck,2,gtfs_stop_times
-87295600,88140010,,80,TRAIN,GTFS,Aulnoye-Aymeries,Bruxelles Midi,9,gtfs_stop_times
 87471003,87476002,,80,TGV,GTFS,Rennes,Lorient,2,gtfs_stop_times
 87447243,87444000,,80,TRAIN,GTFS,Carentan,Caen,31,gtfs_stop_times
-88140010,87295600,,80,TRAIN,GTFS,Bruxelles Midi,Aulnoye-Aymeries,9,gtfs_stop_times
 87775007,87723197,,80,TRAIN,GTFS,Nîmes Centre,Lyon Part Dieu,18,gtfs_stop_times
 87391003,87575142,,81,TRAIN,GTFS,Paris Montparnasse Hall 1 - 2,Châtellerault,9,gtfs_stop_times
 87575142,87391003,,81,TRAIN,GTFS,Châtellerault,Paris Montparnasse Hall 1 - 2,9,gtfs_stop_times
@@ -10085,10 +9779,8 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87384008,87411017,,84,TRAIN,GTFS,Paris Saint-Lazare,Rouen Rive Droite,52,gtfs_stop_times
 87741009,87723197,,84,TRAIN,GTFS,Chambéry - Challes-les-Eaux,Lyon Part Dieu,4,gtfs_stop_times
 87743716,87745000,,84,TRAIN,GTFS,Ambérieu-en-Bugey,Bellegarde,8,gtfs_stop_times
-83016451,83000356,,85,TRAIN,GTFS,MILANO PORTA GARIBALDI,Turin Porta Susa,22,gtfs_stop_times
 87575001,87391003,,85,TGV,GTFS,Poitiers,Paris Montparnasse Hall 1 - 2,46,gtfs_stop_times
 87484006,87393702,,85,TGV,GTFS,Angers Saint-Laud,Massy TGV,7,gtfs_stop_times
-83000356,83016451,,85,TRAIN,GTFS,Turin Porta Susa,MILANO PORTA GARIBALDI,22,gtfs_stop_times
 87393702,87484006,,85,TGV,GTFS,Massy TGV,Angers Saint-Laud,7,gtfs_stop_times
 87391003,87575001,,85,TGV,GTFS,Paris Montparnasse Hall 1 - 2,Poitiers,46,gtfs_stop_times
 87723197,87713545,,86,TRAIN,GTFS,Lyon Part Dieu,Beaune,47,gtfs_stop_times
@@ -10118,9 +9810,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87743005,87713040,,92,TRAIN,GTFS,Bourg-en-Bresse,Dijon,2,gtfs_stop_times
 87761247,87765008,,92,TRAIN,GTFS,Livron,Avignon Centre,3,gtfs_stop_times
 87765008,87761247,,92,TRAIN,GTFS,Avignon Centre,Livron,3,gtfs_stop_times
-87713040,85000109,,92,IC,GTFS,Dijon,Basel SBB,3,gtfs_stop_times
 87713040,87743005,,92,TRAIN,GTFS,Dijon,Bourg-en-Bresse,2,gtfs_stop_times
-85000109,87713040,,92,IC,GTFS,Basel SBB,Dijon,3,gtfs_stop_times
 87686006,87725705,,93,TGV,GTFS,Paris Gare de Lyon Hall 1 - 2,Mâcon - Loché TGV,91,gtfs_stop_times
 87725705,87686006,,93,TGV,GTFS,Mâcon - Loché TGV,Paris Gare de Lyon Hall 1 - 2,91,gtfs_stop_times
 87113001,87174003,,94,TRAIN,GTFS,Paris Est,Châlons-en-Champagne,6,gtfs_stop_times
@@ -10149,8 +9839,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87583005,87393702,,101,TRAIN,GTFS,Angoulême,Massy TGV,5,gtfs_stop_times
 87444265,87384008,,102,TRAIN,GTFS,Lisieux,Paris Saint-Lazare,2,gtfs_stop_times
 87384008,87444265,,102,TRAIN,GTFS,Paris Saint-Lazare,Lisieux,2,gtfs_stop_times
-87295006,88720090,,103,TRAIN,GTFS,Maubeuge,Charleroi-Central,8,gtfs_stop_times
-88720090,87295006,,103,TRAIN,GTFS,Charleroi-Central,Maubeuge,8,gtfs_stop_times
 87743005,87111849,,103,TRAIN,GTFS,Bourg-en-Bresse,Marne-la-Vallée Chessy,2,gtfs_stop_times
 87111849,87743005,,103,TRAIN,GTFS,Marne-la-Vallée Chessy,Bourg-en-Bresse,2,gtfs_stop_times
 87686667,87576009,,105,TRAIN,GTFS,Paris Bercy Bourg. Pays d'Auv.,Vierzon,13,gtfs_stop_times
@@ -10171,8 +9859,6 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87743005,87686006,,110,TRAIN,GTFS,Bourg-en-Bresse,Paris Gare de Lyon Hall 1 - 2,38,gtfs_stop_times
 87111849,87723197,,110,TGV,GTFS,Marne-la-Vallée Chessy,Lyon Part Dieu,174,gtfs_stop_times
 87686006,87743005,,110,TRAIN,GTFS,Paris Gare de Lyon Hall 1 - 2,Bourg-en-Bresse,38,gtfs_stop_times
-80253914,87113001,,111,TRAIN,GTFS,Sarrebruck,Paris Est,9,gtfs_stop_times
-87113001,80253914,,111,TRAIN,GTFS,Paris Est,Sarrebruck,9,gtfs_stop_times
 87611244,87581009,,111,TRAIN,GTFS,Montauban Ville Bourbon,Bordeaux Saint-Jean,2,gtfs_stop_times
 87697128,87746008,,111,TRAIN,GTFS,Lyon-Part-Dieu Gare Routière,Annecy,15,gtfs_stop_times
 87581009,87611244,,111,TRAIN,GTFS,Bordeaux Saint-Jean,Montauban Ville Bourbon,2,gtfs_stop_times
@@ -10215,16 +9901,12 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87713040,87723197,,122,TRAIN,GTFS,Dijon,Lyon Part Dieu,33,gtfs_stop_times
 87581009,87393702,,123,TRAIN,GTFS,Bordeaux Saint-Jean,Massy TGV,3,gtfs_stop_times
 87393702,87581009,,123,TRAIN,GTFS,Massy TGV,Bordeaux Saint-Jean,3,gtfs_stop_times
-87212027,80253914,,126,TRAIN,GTFS,Strasbourg,Sarrebruck,2,gtfs_stop_times
 87413385,87384008,,126,TRAIN,GTFS,Yvetot,Paris Saint-Lazare,5,gtfs_stop_times
 87571240,87111849,,126,TGV,GTFS,Saint-Pierre-des-Corps,Marne-la-Vallée Chessy,8,gtfs_stop_times
-80253914,87212027,,126,TRAIN,GTFS,Sarrebruck,Strasbourg,2,gtfs_stop_times
 87384008,87413385,,126,TRAIN,GTFS,Paris Saint-Lazare,Yvetot,5,gtfs_stop_times
 87111849,87571240,,126,TGV,GTFS,Marne-la-Vallée Chessy,Saint-Pierre-des-Corps,8,gtfs_stop_times
 87471300,87391003,,127,TGV,GTFS,Redon,Paris Montparnasse Hall 1 - 2,3,gtfs_stop_times
 87391003,87471300,,127,TGV,GTFS,Paris Montparnasse Hall 1 - 2,Redon,3,gtfs_stop_times
-80160432,80110684,,128,TRAIN,GTFS,Erfurt Hbf,Francfort sur le Main,4,gtfs_stop_times
-80110684,80160432,,128,TRAIN,GTFS,Francfort sur le Main,Erfurt Hbf,4,gtfs_stop_times
 87723197,87393702,,129,TGV,GTFS,Lyon Part Dieu,Massy TGV,97,gtfs_stop_times
 87111849,87763029,,129,TGV,GTFS,Marne-la-Vallée Chessy,Valence TGV Rhône-Alpes Sud,2,gtfs_stop_times
 87393702,87723197,,129,TGV,GTFS,Massy TGV,Lyon Part Dieu,97,gtfs_stop_times
@@ -10264,15 +9946,11 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87761007,87686006,,148,TGV,GTFS,Valence Ville,Paris Gare de Lyon Hall 1 - 2,5,gtfs_stop_times
 87686006,87761007,,148,TGV,GTFS,Paris Gare de Lyon Hall 1 - 2,Valence Ville,5,gtfs_stop_times
 87723197,87300863,,150,TRAIN,GTFS,Lyon Part Dieu,Besançon Franche-Comté TGV,5,gtfs_stop_times
-80196980,87212027,,150,TRAIN,GTFS,Kaiserslautern Hbf,Strasbourg,2,gtfs_stop_times
-87212027,80196980,,150,TRAIN,GTFS,Strasbourg,Kaiserslautern Hbf,2,gtfs_stop_times
 87300863,87723197,,150,TRAIN,GTFS,Besançon Franche-Comté TGV,Lyon Part Dieu,5,gtfs_stop_times
 87696260,87686667,,152,TRAIN,GTFS,Saincaize,Paris Bercy Bourg. Pays d'Auv.,26,gtfs_stop_times
 87686667,87696260,,152,TRAIN,GTFS,Paris Bercy Bourg. Pays d'Auv.,Saincaize,26,gtfs_stop_times
 87111849,87318964,,157,TRAIN,GTFS,Marne-la-Vallée Chessy,Avignon TGV,7,gtfs_stop_times
 87318964,87111849,,157,TRAIN,GTFS,Avignon TGV,Marne-la-Vallée Chessy,7,gtfs_stop_times
-83002196,83016451,,160,TRAIN,GTFS,TORINO PORTA NUOVA,MILANO PORTA GARIBALDI,4,gtfs_stop_times
-83016451,83002196,,160,TRAIN,GTFS,MILANO PORTA GARIBALDI,TORINO PORTA NUOVA,4,gtfs_stop_times
 87686006,87318964,,163,TGV,GTFS,Paris Gare de Lyon Hall 1 - 2,Avignon TGV,150,gtfs_stop_times
 87318964,87686006,,163,TGV,GTFS,Avignon TGV,Paris Gare de Lyon Hall 1 - 2,150,gtfs_stop_times
 87391003,87763029,,164,TGV,GTFS,Paris Montparnasse Hall 1 - 2,Valence TGV Rhône-Alpes Sud,9,gtfs_stop_times
@@ -10310,9 +9988,7 @@ origin_uic,destination_uic,distance_km,duration_minutes,line_code,line_status,or
 87686006,87741306,,223,TGV,GTFS,Paris Gare de Lyon Hall 1 - 2,Saint-Avre - La Chambre,17,gtfs_stop_times
 87741306,87686006,,223,TGV,GTFS,Saint-Avre - La Chambre,Paris Gare de Lyon Hall 1 - 2,17,gtfs_stop_times
 87686006,87745497,,226,TGV,GTFS,Paris Gare de Lyon Hall 1 - 2,Annemasse,10,gtfs_stop_times
-87686006,85000109,,226,IC,GTFS,Paris Gare de Lyon Hall 1 - 2,Basel SBB,2,gtfs_stop_times
 87745497,87686006,,226,TGV,GTFS,Annemasse,Paris Gare de Lyon Hall 1 - 2,10,gtfs_stop_times
-85000109,87686006,,226,IC,GTFS,Basel SBB,Paris Gare de Lyon Hall 1 - 2,2,gtfs_stop_times
 87741645,87686006,,229,TGV,GTFS,Albertville,Paris Gare de Lyon Hall 1 - 2,25,gtfs_stop_times
 87686006,87741645,,229,TGV,GTFS,Paris Gare de Lyon Hall 1 - 2,Albertville,25,gtfs_stop_times
 87393009,87741009,,232,TGV,GTFS,Versailles Chantiers,Chambéry - Challes-les-Eaux,2,gtfs_stop_times

@@ -1,10 +1,8 @@
 city_name_normalized,station_name,uic_code
-lyon,Lyon Part Dieu,87723197
-paris,Paris Gare de Lyon,87686006
 abancourt,Abancourt,87313759
 abbaretz,Abbaretz,87481614
 abbeville,Abbeville,87317362
-ablon-sur-seine,Ablon-sur-Seine,87545269
+ablon,Ablon-sur-Seine,87545269
 acheres grand cormier,Achères Grand Cormier,87386052
 acheres ville,Achères Ville,87381657
 achiet,Achiet-le-Grand,87342048
@@ -22,14 +20,15 @@ aigueperse,Aigueperse,87734129
 aigues,Aigues-Mortes,87775858
 aiguillon,Aiguillon,87586693
 aillevillers,Aillevillers,87185629
-ailly-sur-noye,Ailly-sur-Noye,87313221
-ailly-sur-somme,Ailly-sur-Somme,87313098
+ailly,Ailly-sur-Noye,87313221
+ailly,Ailly-sur-Somme,87313098
 aimargues,Aimargues,87775833
-aime - la plagne,Aime - La Plagne,87741769
+aime,Aime - La Plagne,87741769
 aiserey,Aiserey,87713636
+aix,Aix-les-Bains le Revard,87741132
+aix-en-provence,Aix-en-Provence TGV,87319012
 aix-en-provence,Aix-en-Provence,87751404
-aix-les-bains le revard,Aix-les-Bains le Revard,87741132
-aixe-sur-vienne,Aixe-sur-Vienne,87592667
+aixe,Aixe-sur-Vienne,87592667
 alai,Alaï,87722744
 albens,Albens,87746115
 albert,Albert,87313072
@@ -57,17 +56,18 @@ amilly ouerray,Amilly Ouerray,87394205
 amplepuis,Amplepuis,87721035
 ancenis,Ancenis,87481192
 anchamps,Anchamps,87172858
-anche - voulon,Anché - Voulon,87575332
-ancy-sur-moselle,Ancy-sur-Moselle,87192419
+anche,Anché - Voulon,87575332
+ancy,Ancy-sur-Moselle,87192419
 andelot,Andelot-en-Montagne,87715102
 andorre,Andorre – l’Hospitalet,87611517
 andresy,Andrésy,87381491
 andrezieux,Andrézieux-Bouthéon,87726406
+angers,Angers Saint-Laud,87484006
 angers,Angers Maître École,87484048
 angerville,Angerville,87543090
 angouleme,Angoulême,87583005
 angoulins sur mer,Angoulins sur Mer,87485102
-anizy - pinon,Anizy - Pinon,87296566
+anizy,Anizy - Pinon,87296566
 annappes,Annappes,87286856
 annecy,Annecy,87746008
 annemasse,Annemasse,87745497
@@ -80,10 +80,10 @@ apach,Apach,87191643
 appilly,Appilly,87296459
 arbanats,Arbanats,87582726
 arbois,Arbois,87718155
-arc-et-senans,Arc-et-Senans,87718841
+arc,Arc-et-Senans,87718841
 arcachon,Arcachon,87582668
 arches,Arches,87144410
-arcy-sur-cure,Arcy-sur-Cure,87683680
+arcy,Arcy-sur-Cure,87683680
 arenc euromediterranee,Arenc Euroméditerranée,87580340
 arengosse,Arengosse,87671479
 argeles,Argelès-sur-Mer,87784231
@@ -99,7 +99,7 @@ arneke,Arnèke,87281121
 arpajon,Arpajon,87545467
 arras,Arras,87342014
 arrou,Arrou,87394486
-ars-sur-moselle,Ars-sur-Moselle,87192401
+ars,Ars-sur-Moselle,87192401
 artenay,Artenay,87543058
 artix,Artix,87672212
 arvant,Arvant,87734251
@@ -108,24 +108,25 @@ asnieres,Asnières-sur-Seine,87381137
 aspres,Aspres-sur-Buëch,87763250
 assat,Assat,87672162
 assier,Assier,87613075
-athis-mons,Athis-Mons,87545251
+athis,Athis-Mons,87545251
 aubagne,Aubagne,87751750
 aubazines,Aubazines - Saint-Hilaire,87594465
 aubergenville elisabethville,Aubergenville Élisabethville,87386730
 aubiat,Aubiat,87734111
-aubie - saint-antoine,Aubie - Saint-Antoine,87491233
+aubie,Aubie - Saint-Antoine,87491233
 aubiet,Aubiet,87611764
 aubigne,Aubigné-Racan,87396572
 aubigny,Aubigny-au-Bac,87345447
+aubigny,Aubigny-en-Artois,87342246
 aubin,Aubin,87613224
-aubin-saint-vaast,Aubin-Saint-Vaast,87316604
+aubin,Aubin-Saint-Vaast,87316604
 auboue,Auboué,87191684
 aubrives,Aubrives,87172122
 auch,Auch,87611749
-auchy-les-hesdin,Auchy-lès-Hesdin,87317230
+auchy,Auchy-lès-Hesdin,87317230
 audrieu,Audrieu,87444059
 audruicq,Audruicq,87281428
-audun-le-roman,Audun-le-Roman,87194357
+audun,Audun-le-Roman,87194357
 auffay,Auffay,87415158
 aulnat aeroport,Aulnat Aéroport,87562421
 aulnay,Aulnay-sous-Bois,87271411
@@ -134,7 +135,7 @@ aumale,Aumale,87313767
 aumont,Aumont-Aubrac,87783266
 auneau,Auneau,87545657
 auray,Auray,87476200
-aurec-sur-loire,Aurec-sur-Loire,87726760
+aurec,Aurec-sur-Loire,87726760
 aurillac,Aurillac,87645002
 auterive,Auterive,87611384
 auvers,Auvers-sur-Oise,87276543
@@ -155,22 +156,24 @@ avord,Avord,87576439
 avoudrey,Avoudrey,87718551
 avranches,Avranches,87448514
 avrechy,Avrechy,87313296
-ax-les-thermes,Ax-les-Thermes,87611533
+ax,Ax-les-Thermes,87611533
 ay,Ay,87171561
 aytre plage,Aytré Plage,87437806
-azay-le-rideau,Azay-le-Rideau,87571638
-azay-sur-cher,Azay-sur-Cher,87574442
+azay,Azay-le-Rideau,87571638
+azay,Azay-sur-Cher,87574442
 azerailles,Azerailles,87141408
 babiniere,Babinière,87590349
 baccarat,Baccarat,87141416
 bagnac,Bagnac-sur-Célé,87613604
 bagneaux,Bagneaux-sur-Loing,87684191
 bagnols,Bagnols - Chadenet,87783647
+bagnols,Bagnols-sur-Cèze,87764571
 baillargues,Baillargues,87773457
 bailleau,Bailleau-le-Pin,87394411
 bailleul,Bailleul,87286179
+bailleul,Bailleul-Sir-Berthoult,87342592
 bailly,Bailly,87710780
-bains-les-bains,Bains-les-Bains,87144147
+bains,Bains-les-Bains,87144147
 baisieux,Baisieux,87286872
 balagny saint,Balagny Saint-Épin,87313569
 balbigny,Balbigny,87726869
@@ -182,8 +185,8 @@ bandol,Bandol,87755223
 bannalec,Bannalec,87474189
 bantzenheim,Bantzenheim,87182840
 banyuls,Banyuls-sur-Mer,87784298
-bar-le-duc,Bar-le-Duc,87175042
-bar-sur-aube,Bar-sur-Aube,87118299
+bar,Bar-le-Duc,87175042
+bar,Bar-sur-Aube,87118299
 baraqueville carcenac peyrales,Baraqueville Carcenac Peyralès,87615757
 barentin,Barentin,87411264
 barjac,Barjac,87783563
@@ -191,14 +194,14 @@ baroncourt,Baroncourt,87192658
 barr,Barr,87214247
 barsac,Barsac,87582759
 bartenheim,Bartenheim,87182113
-bas - monistrol-sur-loire,Bas - Monistrol-sur-Loire,87726778
+bas,Bas - Monistrol-sur-Loire,87726778
 bas evette,Bas Évette,87184200
 base aerienne,Base Aérienne,87699223
-basse-ham,Basse-Ham,87191601
+basse,Basse-Ham,87191601
 bassens,Bassens,87581850
-batz-sur-mer,Batz-sur-Mer,87481770
+batz,Batz-sur-Mer,87481770
 baule,Baule,87574152
-baume-les-dames,Baume-les-Dames,87718460
+baume,Baume-les-Dames,87718460
 bauvin,Bauvin - Provin,87345280
 bayeux,Bayeux,87444067
 bayon,Bayon,87141218
@@ -223,6 +226,7 @@ bedarrides,Bédarrides,87765198
 bedous,Bedous,87672774
 begles,Bègles,87581801
 beillant,Beillant,87491076
+belfort,Belfort - Montbéliard TGV,87300822
 belfort,Belfort,87184002
 bellac,Bellac,87592485
 belle-isle,Belle-Isle - Bégard,87473165
@@ -236,11 +240,11 @@ bellignat,Bellignat,87743526
 belloy,Belloy - Saint-Martin,87276550
 belves,Belvès,87595876
 belvezet,Belvezet,87783670
-belz - ploemel,Belz - Ploemel,87476408
+belz,Belz - Ploemel,87476408
 benesse,Bénesse-Maremne,87673285
 benestroff,Bénestroff,87192302
 benfeld,Benfeld,87214122
-bengy-sur-craon,Bengy-sur-Craon,87576447
+bengy,Bengy-sur-Craon,87576447
 bening,Béning-lès-Saint-Avold,87193250
 bergerac,Bergerac,87584268
 bergues,Bergues,87281105
@@ -251,8 +255,8 @@ berthelming,Berthelming,87215335
 bertrichamps,Bertrichamps,87141424
 bertry,Bertry,87345553
 besançon,Besançon Franche-Comté TGV,87300863
-besançon,Besançon Viotte,87718007
 besançon,Besançon Mouillère,87718015
+besançon,Besançon Viotte,87718007
 besle,Beslé,87471219
 bessancourt,Bessancourt,87276642
 bessay,Bessay-sur-Allier,87696336
@@ -272,7 +276,7 @@ bidos,Bidos,87691949
 bievres,Bièvres,87393546
 biganos facture,Biganos Facture,87582478
 bigny,Bigny,87576306
-billy-montigny,Billy-Montigny,87345140
+billy,Billy-Montigny,87345140
 biot,Biot,87757690
 bischheim,Bischheim,87212308
 bischoffsheim,Bischoffsheim,87214296
@@ -281,18 +285,19 @@ bitschwiller,Bitschwiller-lès-Thann,87182576
 blainville,Blainville - Damelevières,87141135
 blaisy,Blaisy-Bas,87713073
 blangy,Blangy-sur-Bresle,87313809
+blangy,Blangy-sur-Ternoise,87317248
 blanquefort,Blanquefort,87581728
 blanzy,Blanzy,87694612
-blere - la croix,Bléré - La Croix,87574475
-blois - chambord,Blois - Chambord,87574004
+blere,Bléré - La Croix,87574475
+blois,Blois - Chambord,87574004
 blonville-sur-mer,Blonville-sur-Mer - Benerville,87444380
-boen-sur-lignon,Boën-sur-Lignon,87726471
-bogny-sur-meuse,Bogny-sur-Meuse,87172049
+boen,Boën-sur-Lignon,87726471
+bogny,Bogny-sur-Meuse,87172049
 bohain,Bohain-en-Vermandois,87296269
 boigneville,Boigneville,87684407
-bois-colombes,Bois-Colombes,87381079
+bois,Bois-Colombes,87381079
+bois,Bois-le-Roi,87682203
 bois-d'oingt,Bois-d'Oingt - Légny,87721787
-bois-le-roi,Bois-le-Roi,87682203
 boisleux,Boisleux-au-Mont,87342071
 boisseaux,Boisseaux,87543082
 boisset,Boisset,87645184
@@ -306,9 +311,9 @@ bonnemain,Bonnemain,87478065
 bonneval,Bonneval,87545731
 bonneville,Bonneville,87746339
 bonnieres,Bonnières-sur-Seine,87415893
-bons-en-chablais,Bons-en-Chablais,87745596
+bons,Bons-en-Chablais,87745596
 bonson,Bonson,87726414
-boran-sur-oise,Boran-sur-Oise,87276444
+boran,Boran-sur-Oise,87276444
 bordeaux,Bordeaux Saint-Jean,87581009
 bords,Bords,87491019
 bornel,Bornel - Belle-Église,87276717
@@ -320,15 +325,15 @@ bouffemont,Bouffémont - Moisselles,87276485
 bougival,Bougival,87382440
 boulainvilliers,Boulainvilliers,87543181
 boulazac,Boulazac,87725473
-boulogne tintelleries,Boulogne Tintelleries,87317016
 boulogne,Boulogne-sur-Mer,87317586
+boulogne tintelleries,Boulogne Tintelleries,87317016
 boulouris sur mer,Boulouris sur Mer,87757534
 bouray,Bouray,87545178
 bourbourg,Bourbourg,87281279
-bourg-bruche,Bourg-Bruche,87214775
-bourg-en-bresse,Bourg-en-Bresse,87743005
-bourg-madame,Bourg-Madame,87784876
-bourg-saint-maurice,Bourg-Saint-Maurice,87741793
+bourg,Bourg-Bruche,87214775
+bourg,Bourg-en-Bresse,87743005
+bourg,Bourg-Madame,87784876
+bourg,Bourg-Saint-Maurice,87741793
 bourges,Bourges,87576207
 bourgneuf,Bourgneuf-en-Retz,87481242
 bourgoin,Bourgoin-Jallieu,87723429
@@ -344,7 +349,7 @@ boves,Boves,87313213
 bram,Bram,87615054
 branderion,Brandérion,87476242
 brassac-les-mines,Brassac-les-Mines - Sainte-Florine,87734244
-brax - leguevin,Brax - Léguevin,87611822
+brax,Brax - Léguevin,87611822
 brazey,Brazey-en-Plaine,87713644
 breaute,Bréauté - Beuzeville,87413344
 brebieres,Brebières,87345108
@@ -355,9 +360,8 @@ brest,Brest,87474007
 breteil,Breteil,87471102
 bretenoux,Bretenoux - Biars,87594762
 breteuil,Breteuil,87313247
+bretigny,Bretigny - Norges,87712265
 bretigny,Brétigny-sur-Orge,87545194
-bretigny,Bretigny - Norges,87712265
-bretigny,Bretigny - Norges,87712265
 bretoncelles,Bretoncelles,87394270
 bretteville,Bretteville - Norrey,87444042
 breuil,Breuil - Romain,87171322
@@ -370,11 +374,11 @@ brignac,Brignac,87592063
 brignais,Brignais,87722728
 brignoud,Brignoud,87747451
 brimeux,Brimeux,87317180
-brion - montreal-la-cluse,Brion - Montréal-la-Cluse,87131961
+brion,Brion - Montréal-la-Cluse,87131961
 brionne,Brionne,87415364
 brioude,Brioude,87734269
 briouze,Briouze,87448084
-brive-la-gaillarde,Brive-la-Gaillarde,87594002
+brive,Brive-la-Gaillarde,87594002
 broons,Broons,87473074
 brou,Brou,87394452
 broye,Broye,87694166
@@ -383,33 +387,35 @@ brumath,Brumath,87212134
 brunemont,Brunémont,87345439
 brunoy,Brunoy,87682120
 bruyeres,Bruyères,87144154
+bruyeres,Bruyères-sur-Oise,87276451
 bruz,Bruz,87471037
 bueil,Bueil,87387092
 bugeat,Bugeat,87592162
-buire-sur-l'ancre,Buire-sur-l'Ancre,87316067
-bully - grenay,Bully - Grenay,87342105
-buno - gironville,Buno - Gironville,87681510
+buire,Buire-sur-l'Ancre,87316067
+bully,Bully - Grenay,87342105
+buno,Buno - Gironville,87681510
 busigny,Busigny,87296244
 bussac,Bussac-Forêt,87491191
 busseau sur creuse,Busseau sur Creuse,87597708
 bussiere,Bussière-Galant,87592741
 buzy en bearn,Buzy en Béarn,87672634
-byans-sur-doubs,Byans-sur-Doubs,87718122
+byans,Byans-sur-Doubs,87718122
 cadaujac,Cadaujac,87582684
 caen,Caen,87444000
 caffiers,Caffiers,87317321
 cagnes,Cagnes-sur-Mer,87756320
 cahors,Cahors,87613000
 calais,Calais,87317263
+calais,Calais - Fréthun,87281071
 callac,Callac,87473546
 calonne,Calonne-Ricouart,87342543
-cambo-les-bains,Cambo-les-Bains,87673657
+cambo,Cambo-les-Bains,87673657
 cambrai,Cambrai,87345520
 campagnac,Campagnac - Saint-Geniez,87783340
 cannes,Cannes,87757625
 cannes la bocca,Cannes La Bocca,87757617
 cantin,Cantin,87345413
-cap-d'ail,Cap-d'Ail,87756395
+cap,Cap-d'Ail,87756395
 capdenac,Capdenac,87613109
 capvern,Capvern,87671156
 carbonne,Carbonne,87611061
@@ -422,7 +428,7 @@ carnoet,Carnoët - Locarn,87473561
 carnoles,Carnoles,87756478
 carnoules,Carnoules,87755371
 carpentras,Carpentras,87765735
-carry-le-rouet,Carry-le-Rouet,87753566
+carry,Carry-le-Rouet,87753566
 casino lacroix laval,Casino Lacroix Laval,87208553
 cassel,Cassel,87281139
 cassis,Cassis,87751776
@@ -444,16 +450,17 @@ ceilhes,Ceilhes - Roqueredonde,87781542
 cenon,Cenon,87581595
 cerbere,Cerbère,87785006
 cercottes,Cercottes,87543033
-cercy-la-tour,Cercy-la-Tour,87696492
+cercy,Cercy-la-Tour,87696492
 cergy le haut,Cergy le Haut,87382655
 cergy prefecture,Cergy Préfecture,87381905
 cergy saint,Cergy Saint-Christophe,87382499
 cerizay,Cerizay,87487280
-cernay haut,Cernay (Haut-Rhin),87182410
-cernay val,Cernay (Val-d'Oise),87276063
+cernay (haut,Cernay (Haut-Rhin),87182410
+cernay (val,Cernay (Val-d'Oise),87276063
 cerons,Cérons,87582742
 cessieu,Cessieu,87723452
 cesson,Cesson,87682161
+cesson,Cesson-Sévigné,87334490
 ceyzeriat,Ceyzériat,87743302
 chabenet,Chabenet,87597112
 chabons,Châbons,87747212
@@ -472,11 +479,14 @@ chambly,Chambly,87276725
 chamborigaud,Chamborigaud,87775221
 chambourg,Chambourg-sur-Indre,87571463
 chamelet,Chamelet,87721829
-chamonix aiguille du midi,Chamonix Aiguille du Midi,87462085
 chamonix,Chamonix-Mont-Blanc,87746784
+chamonix aiguille du midi,Chamonix Aiguille du Midi,87462085
 chamousset,Chamousset,87741231
 champ de courses d'enghien,Champ de Courses d'Enghien,87276030
 champ de mars tour eiffel,Champ de Mars Tour Eiffel,87393058
+champagne,Champagne-Ardenne TGV,87171926
+champagne,Champagne-sur-Oise,87276519
+champagne,Champagne-sur-Seine,87682450
 champagne,Champagné,87396275
 champagney,Champagney,87185348
 champagnole,Champagnole,87715326
@@ -491,6 +501,7 @@ chanac,Chanac,87783530
 changis,Changis - Saint-Jean,87116509
 chanteloup,Chanteloup-les-Vignes,87381475
 chantenay,Chantenay,87481051
+chantenay,Chantenay-Saint-Imbert,87696302
 chantilly,Chantilly - Gouvieux,87276113
 chantonnay,Chantonnay,87486332
 chapeauroux,Chapeauroux,87734343
@@ -505,19 +516,22 @@ chartrettes,Chartrettes,87682419
 chasse,Chasse-sur-Rhône,87722561
 chasseneuil,Chasseneuil-du-Poitou,87575225
 chasserades,Chasseradès,87775148
-chateau,Château-Thierry,87116582
 chateau,Château-Arnoux-Saint-Auban,87751230
 chateau,Château-du-Loir,87396606
 chateau,Château-Gaillard,87543066
 chateau,Château-l'Évêque,87595165
 chateau,Château-Renault,87574665
+chateau,Château-Thierry,87116582
 chateaubourg,Châteaubourg,87471524
 chateaubriant,Châteaubriant,87481648;87590372
 chateaudun,Châteaudun,87545756
 chateaulin,Châteaulin,87474064
 chateauneuf,Châteauneuf - Bujaleuf,87592105
+chateauneuf,Châteauneuf-sur-Charente,87491506
+chateauneuf,Châteauneuf-sur-Cher,87576298
 chateauroux,Châteauroux,87597005
 chatel,Châtel - Nomexy,87144071
+chatel,Châtel-Censoir,87696856
 chatelaillon,Châtelaillon-Plage,87485110
 chatelaudren,Châtelaudren - Plouagat,87473140
 chatellerault,Châtellerault,87575142
@@ -526,8 +540,9 @@ chauffailles,Chauffailles,87694778
 chaugey,Chaugey,87712679
 chaulnes,Chaulnes,87313478
 chaumont,Chaumont,87142000
+chaumont,Chaumont-en-Vexin,87381228
 chauny,Chauny,87296616
-chaux-des-crotenay,Chaux-des-Crotenay,87715383
+chaux,Chaux-des-Crotenay,87715383
 chaville,Chaville - Vélizy,87393173
 chaville rive droite,Chaville Rive Droite,87382333
 chaville rive gauche,Chaville Rive Gauche,87393207
@@ -546,7 +561,7 @@ chevaigne,Chevaigné,87471458
 chevillon,Chevillon,87175117
 chevilly,Chevilly,87543041
 chevrieres,Chevrières,87276311
-chezy-sur-marne,Chézy-sur-Marne,87116574
+chezy,Chézy-sur-Marne,87116574
 chilly,Chilly-Mazarin,87393637
 chindrieux,Chindrieux,87741116
 chinon,Chinon,87571687
@@ -557,13 +572,13 @@ choisy,Choisy-le-Roi,87545285
 cholet,Cholet,87484303
 chorges,Chorges,87763425
 chouzy,Chouzy-sur-Cisse,87574301
-cinq-mars-la-pile,Cinq-Mars-la-Pile,87571836
+cinq,Cinq-Mars-la-Pile,87571836
 cintegabelle,Cintegabelle,87611376
-cires-les-mello,Cires-lès-Mello,87313551
-ciry-le-noble,Ciry-le-Noble,87694646
+cires,Cires-lès-Mello,87313551
+ciry,Ciry-le-Noble,87694646
 civrieux,Civrieux-d'Azergues,87721746
-cize - bolozon,Cize - Bolozon,87743344
-clacy - mons,Clacy - Mons,87296178
+cize,Cize - Bolozon,87743344
+clacy,Clacy - Mons,87296178
 clamart,Clamart,87391565
 clamecy,Clamecy,87696807
 clelles,Clelles - Mens,87747626
@@ -583,6 +598,7 @@ cognac,Cognac,87491449
 coignieres,Coignières,87393272
 collioure,Collioure,87784256
 collonges,Collonges - Fontaines,87721225
+collonges,Collonges-lès-Premières,87713321
 colmar,Colmar,87182014
 colmar mesanges,Colmar Mésanges,87402297
 colmar saint,Colmar Saint-Joseph,87181222
@@ -598,8 +614,9 @@ compans,Compans,87272047
 compiegne,Compiègne,87276691
 conches,Conches-en-Ouche,87387159
 condat,Condat - Le Lardin,87594382
-conde-sur-huisne,Condé-sur-Huisne,87394288
+conde,Condé-sur-Huisne,87394288
 conflans,Conflans - Jarny,87192666
+conflans,Conflans-Sainte-Honorine,87381897
 conflans fin d'oise,Conflans Fin d'Oise,87381459
 conlie,Conlie,87396218
 connerre,Connerré - Beillé,87396309
@@ -616,11 +633,11 @@ cormeilles,Cormeilles-en-Parisis,87381863
 cormery,Cormery,87571430
 cornil,Cornil,87594481
 coron de mericourt,Coron de Méricourt,87345132
-corps-nuds,Corps-Nuds,87471326
+corps,Corps-Nuds,87471326
 correze,Corrèze,87594119
 corseul,Corseul - Languenan,87478180
-cosne-cours-sur-loire,Cosne-Cours-sur-Loire,87696146
-coucy-les-eppes,Coucy-lès-Eppes,87171769
+cosne,Cosne-Cours-sur-Loire,87696146
+coucy,Coucy-lès-Eppes,87171769
 coudekerque,Coudekerque-Branche,87281402
 coueron,Couëron,87481804
 couffoulens,Couffoulens - Leuc,87615120
@@ -630,6 +647,7 @@ coulommiers,Coulommiers,87116301
 courbevoie,Courbevoie,87382200
 courcay,Courcay - Tauxigny,87571448
 courcelles,Courcelles-le-Comte,87342063
+courcelles,Courcelles-sur-Nied,87192211
 courcy,Courcy - Brimont,87171710
 coursan,Coursan,87781161
 courtalain,Courtalain - Saint-Pellerin,87394494
@@ -643,22 +661,22 @@ cramoisy,Cramoisy,87313544
 cransac,Cransac,87613232
 cravant,Cravant - Bazarnes,87683649
 creches,Crêches-sur-Saône,87725713
-crecy-la-chapelle,Crécy-la-Chapelle,87116772
+crecy,Crécy-la-Chapelle,87116772
 creil,Creil,87276006
 crepieux la pape,Crépieux la Pape,87723502
-crepy - couvron,Crépy - Couvron,87296152
-crepy-en-valois,Crépy-en-Valois,87271593
+crepy,Crépy - Couvron,87296152
+crepy,Crépy-en-Valois,87271593
 crest,Crest,87761783
 creteil pompadour,Créteil Pompadour,87608802
-croix - wasquehal,Croix - Wasquehal,87286716
+croix,Croix - Wasquehal,87286716
 croix du prince,Croix du Prince,87672600
 croix l'allumette,Croix L'Allumette,87281055
 croix sainte,Croix Sainte,87753491
 cros de cagnes,Cros de Cagnes,87756338
 crouy,Crouy,87271874
-crouy-sur-ourcq,Crouy-sur-Ourcq,87116640
+crouy,Crouy-sur-Ourcq,87116640
 cubzac,Cubzac-les-Ponts,87491266
-cuers - pierrefeu,Cuers - Pierrefeu,87755355
+cuers,Cuers - Pierrefeu,87755355
 cugand,Cugand,87481457
 cuinchy,Cuinchy,87342410
 culmont,Culmont - Chalindrey,87142125
@@ -667,9 +685,10 @@ dachstein,Dachstein,87214551
 dambach,Dambach-la-Ville,87214213
 damiatte,Damiatte - Saint-Paul,87615484
 dammartin,Dammartin - Juilly - Saint-Mard,87271536
-dange-saint-romain,Dangé-Saint-Romain,87575126
+dange,Dangé-Saint-Romain,87575126
 danjoutin,Danjoutin,87700146
 dannemarie,Dannemarie,87182253
+dannemarie,Dannemarie - Velesmes,87718312
 dannes,Dannes - Camiers,87317081
 daours,Daours,87315044
 dardilly le jubin,Dardilly Le Jubin,87721449
@@ -682,7 +701,7 @@ delle,Delle,87184440
 deluz,Deluz,87718429
 denain,Denain,87343459
 dettwiller,Dettwiller,87212183
-deuil - montmagny,Deuil - Montmagny,87276345
+deuil,Deuil - Montmagny,87276345
 deville,Deville,87172064
 die,Die,87761841
 diemeringen,Diemeringen,87215665
@@ -691,23 +710,24 @@ dieulouard,Dieulouard,87141812
 dieupentale,Dieupentale,87611681
 digoin,Digoin,87694695
 dijon,Dijon,87713040
-dijon porte neuve,Dijon Porte Neuve,87713008
+dijon,Dijon Porte Neuve,87713008
 dinan,Dinan,87478164
 dinge,Dingé,87478040
 dirinon,Dirinon,87474015
 dissay,Dissay,87575191
+dives,Dives-sur-Mer Port Guillaume,87337378
 dives-sur-mer,Dives-sur-Mer - Cabourg,87444414
-dives-sur-mer port guillaume,Dives-sur-Mer Port Guillaume,87337378
-dol-de-bretagne,Dol-de-Bretagne,87478073
+dol,Dol-de-Bretagne,87478073
 dole,Dole,87713412
 dombasle,Dombasle-sur-Meurthe,87141119
 domblans,Domblans - Voiteur,87718213
 domfront,Domfront-en-Champagne,87396200
 dommartin,Dommartin - Lissieu,87721738
+dommartin,Dommartin - Remiencourt,87316109
 domont,Domont,87276436
-dompierre sept fons,Dompierre Sept Fons,87696427
 dompierre,Dompierre-sur-Helpe,87295774
-don - sainghin,Don - Sainghin,87286435
+dompierre sept fons,Dompierre Sept Fons,87696427
+don,Don - Sainghin,87286435
 donchery,Donchery,87172239
 donges,Donges,87481721
 donjeux,Donjeux,87142273
@@ -720,13 +740,13 @@ dourdan,Dourdan,87545525
 dourdan la foret,Dourdan La Forêt,87540179
 dourges,Dourges,87345165
 drancy,Drancy,87271403
-drap - cantaron,Drap - Cantaron,87756775
+drap,Drap - Cantaron,87756775
 dreffeac,Drefféac,87476770
 dreuil,Dreuil-lès-Amiens,87316075
 dreux,Dreux,87393488
 drusenheim,Drusenheim,87212357
 druye,Druye,87571612
-dugny - la courneuve t11,Dugny - La Courneuve T11,87697342
+dugny,Dugny - La Courneuve T11,87697342
 dunkerque,Dunkerque,87281006
 duppigheim,Duppigheim,87214536
 durtol,Durtol - Nohanent,87641449
@@ -734,7 +754,7 @@ duttlenheim,Duttlenheim,87214544
 ebblinghem,Ebblinghem,87281469
 ebersheim,Ebersheim,87214106
 echirolles,Échirolles,87725895
-ecole-valentin,École-Valentin,87710731
+ecole,École-Valentin,87710731
 ecommoy,Écommoy,87396564
 ecouen,Écouen - Ézanville,87276394
 ecully,Ecully - Tassin,87721506
@@ -759,8 +779,12 @@ epfig,Epfig,87214221
 epierre,Épierre - Saint-Léger,87741280
 epinal,Épinal,87144006
 epinay,Épinay - Villetaneuse,87271122
+epinay,Épinay - Villetaneuse T11,87697300
+epinay,Épinay-sur-Orge,87545228
+epinay,Épinay-sur-Seine,87271148
+epinay,Épinay-sur-Seine T11,87697292
 epluches,Épluches,87276147
-epone - mezieres,Épône - Mézières,87386763
+epone,Épône - Mézières,87386763
 eragny,Éragny - Neuville,87381418
 erdre active,Erdre Active,87590356
 ermont,Ermont - Eaubonne,87534131;87276055
@@ -768,7 +792,7 @@ ermont halte,Ermont Halte,87276584
 erstein,Erstein,87214148
 esbly,Esbly,87116327
 escalquens,Escalquens,87611707
-escaud uvres,Escaudœuvres,87345496
+escaudœuvres,Escaudœuvres,87345496
 esches,Esches,87272096
 esquelbecq,Esquelbecq,87281113
 essonnes robinson,Essonnes Robinson,87681601
@@ -779,18 +803,18 @@ etain,Étain,87175794
 etainhus,Étainhus - Saint-Romain,87413328
 etalans,Étalans,87718536
 etampes,Étampes,87545137
-etang-sur-arroux,Étang-sur-Arroux,87694141
+etang,Étang-sur-Arroux,87694141
 etaples,Étaples - Le Touquet,87317065
 etigny,Étigny - Véron,87683201
 etival,Étival-Clairefontaine,87144642
 etrechy,Étréchy,87545145
 etriche,Étriché - Châteauneuf,87484154
 eu,Eu,87317537
-evian-les-bains,Évian-les-Bains,87745679
+evian,Évian-les-Bains,87745679
 evreux normandie,Évreux Normandie,87387001
 evron,Évron,87478552
+evry,Évry-Courcouronnes,87681387
 evry val de seine,Évry Val de Seine,87681361
-evry-courcouronnes,Évry-Courcouronnes,87681387
 eymoutiers vassiviere,Eymoutiers Vassivière,87592121
 eze,Èze,87756387
 farbus,Farbus,87342527
@@ -810,7 +834,7 @@ feyzin,Feyzin,87722538
 figeac,Figeac,87613091
 firminy,Firminy,87726729
 fismes,Fismes,87171330
-flavy-le-martel,Flavy-le-Martel,87296871
+flavy,Flavy-le-Martel,87296871
 flaxlanden,Flaxlanden,87181040
 flers,Flers,87448001
 fleurieux,Fleurieux-sur-l'Arbresle,87721563
@@ -819,8 +843,8 @@ flez-cuzy,Flez-Cuzy - Tannay,87696633
 foecy,Foëcy,87576108
 foix,Foix,87611616
 folligny,Folligny,87447649
-fons - saint-mamert,Fons - Saint-Mamert,87775379
-font-romeu-odeillo-via,Font-Romeu-Odeillo-Via,87784819
+fons,Fons - Saint-Mamert,87775379
+font,Font-Romeu-Odeillo-Via,87784819
 fontaine,Fontaine-le-Port,87682427
 fontainebleau,Fontainebleau - Avon,87682211
 fontaines,Fontaines - Mercurey,87713586
@@ -830,7 +854,7 @@ fontpedrouse,Fontpédrouse,87784769
 forbach,Forbach,87193003
 formerie,Formerie,87313833
 fors,Fors,87485326
-fos-sur-mer,Fos-sur-Mer,87753442
+fos,Fos-sur-Mer,87753442
 foucart,Foucart - Alvimare,87413377
 fouday,Fouday,87214734
 foug,Foug,87141036
@@ -903,7 +927,7 @@ gien,Gien,87684290
 gievres,Gièvres,87576876
 gignac,Gignac - Cressensac,87594325
 gilley,Gilley,87718577
-gilly-sur-loire,Gilly-sur-Loire,87694869
+gilly,Gilly-sur-Loire,87694869
 gimont cahuzac,Gimont Cahuzac,87611772
 gironde,Gironde-sur-Dropt,87582858
 gisors,Gisors,87381244
@@ -923,8 +947,8 @@ graffenstaden,Graffenstaden,87212241
 graffenwald,Graffenwald,87181131
 gragnague,Gragnague,87615377
 gramat,Gramat,87613059
+grand,Grand-Combe la Pise,87775254
 grand bourg,Grand Bourg,87681353
-grand-combe la pise,Grand-Combe la Pise,87775254
 grande,Grande-Synthe,87281311
 grandvillars,Grandvillars,87184432
 grandvilliers,Grandvilliers,87313734
@@ -933,10 +957,11 @@ grasse,Grasse,87757724
 gravelines,Gravelines,87281246
 gravigny balizy,Gravigny Balizy,87393645
 grenoble,Grenoble,87747006
+grenoble,Grenoble Universités - Gières,87747402
 gresswiller,Gresswiller,87214593
-gresy-sur-aix,Grésy-sur-Aix,87746107
-gresy-sur-isere,Grésy-sur-Isère,87741611
-gretz-armainvilliers,Gretz-Armainvilliers,87116012
+gresy,Grésy-sur-Aix,87746107
+gresy,Grésy-sur-Isère,87741611
+gretz,Gretz-Armainvilliers,87116012
 grigny centre,Grigny Centre,87681379
 grigny le sablon,Grigny le Sablon,87722298
 grisolles,Grisolles,87611673
@@ -951,7 +976,7 @@ guignicourt,Guignicourt,87171736
 guillerval,Guillerval,87545129
 guimiliau,Guimiliau,87474296
 guingamp,Guingamp,87473207
-gujan-mestras,Gujan-Mestras,87582619
+gujan,Gujan-Mestras,87582619
 gundershoffen,Gundershoffen,87213223
 gunsbach,Gunsbach - Griesbach,87182386
 habsheim,Habsheim,87182089
@@ -961,7 +986,7 @@ haguenau,Haguenau,87213058
 halsou,Halsou - Larressore,87673640
 haluchere batignolles,Haluchère Batignolles,87590331
 ham,Ham,87313494
-ham-en-artois,Ham-en-Artois,87342261
+ham,Ham-en-Artois,87342261
 hangest,Hangest-sur-Somme,87313114
 harfleur,Harfleur,87413302
 hargicourt,Hargicourt - Pierrepont,87313338
@@ -978,7 +1003,7 @@ heilles,Heilles - Mouchy,87316398
 heilly,Heilly,87316059
 hellemmes,Hellemmes,87286062
 hendaye,Hendaye,87677005
-henin-beaumont,Hénin-Beaumont,87345157
+henin,Hénin-Beaumont,87345157
 hennebont,Hennebont,87476259
 herblay,Herblay,87381889
 herchies,Herchies,87313692
@@ -987,6 +1012,7 @@ hericy,Héricy,87682435
 hermes,Hermes - Berthecourt,87313585
 herny,Herny,87193383
 herrlisheim,Herrlisheim,87212340
+herrlisheim,Herrlisheim-près-Colmar,87182329
 hesdigneul,Hesdigneul-lès-Boulogne,87317107
 hesdin,Hesdin,87317222
 hettange,Hettange-Grande,87191163
@@ -1007,31 +1033,31 @@ hundling,Hundling,87193540
 huriel,Huriel,87641217
 hyeres,Hyères,87755629
 igney,Igney,87144089
-igney - avricourt,Igney - Avricourt,87215103
+igney,Igney - Avricourt,87215103
 igny,Igny,87393561
-ille-sur-tet,Ille-sur-Têt,87784561
+ille,Ille-sur-Têt,87784561
 illfurth,Illfurth,87182204
 illiers,Illiers-Combray,87394437
 imphy,Imphy,87696450
 ingersheim,Ingersheim - Cité Scolaire,87303875
-ingrandes sur vienne,Ingrandes sur Vienne,87575134
 ingrandes,Ingrandes-Le Fresne-sur-Loire,87484360
+ingrandes sur vienne,Ingrandes sur Vienne,87575134
 ingwiller,Ingwiller,87213785
 invalides,Invalides,87393033
 irigny yvours,Irigny Yvours,87722249
-is-sur-tille,Is-sur-Tille,87713859
+is,Is-sur-Tille,87713859
 isbergues,Isbergues,87342279
-isles - armentieres - congis,Isles - Armentières - Congis,87116616
+isles,Isles - Armentières - Congis,87116616
 isse,Issé,87481622
 issoire,Issoire,87734202
-issou - porcheville,Issou - Porcheville,87381574
+issou,Issou - Porcheville,87381574
 issoudun,Issoudun,87597062
+issy,Issy-les-Moulineaux,87393074
 issy val de seine,Issy Val de Seine,87393306
-issy-les-moulineaux,Issy-les-Moulineaux,87393074
 istres,Istres,87753418
 iteuil,Iteuil,87577403
 itxassou,Itxassou,87673665
-ivry-sur-seine,Ivry-sur-Seine,87545301
+ivry,Ivry-sur-Seine,87545301
 iwuy,Iwuy,87345397
 janze,Janzé,87471334
 jarnac,Jarnac,87491472
@@ -1041,19 +1067,20 @@ jaunay,Jaunay-Clan,87575217
 jaux,Jaux,87272013
 javel,Javel,87393066
 jeumont,Jeumont,87295014
-j uf,Jœuf,87191700
 joigny,Joigny,87683243
+joigny,Joigny-sur-Meuse,87172031
 joinville,Joinville,87175091
 joncet,Joncet,87784710
 joncherey,Joncherey,87700153
 jonchery,Jonchery-sur-Vesle,87171314
 jonzac,Jonzac,87491142
-joue-les-tours,Joué-lès-Tours,87571885
+joue,Joué-lès-Tours,87571885
 jouy,Jouy,87394155
-jouy-en-josas,Jouy-en-Josas,87393512
+jouy,Jouy-en-Josas,87393512
 juan les pins,Juan les Pins,87757666
 juvisy,Juvisy-sur-Orge,87545244
 juziers,Juziers,87381558
+jœuf,Jœuf,87191700
 kalhausen,Kalhausen,87193664
 ker lann,Ker Lann,87159947
 kerhostin,Kerhostin,87476432
@@ -1071,13 +1098,15 @@ l'arbresle,L'Arbresle,87721431
 l'argentiere les ecrins,L'Argentière Les Écrins,87763557
 l'ariane la trinite,L'Ariane La Trinité,87751529
 l'estaque,L'Estaque,87751602
-l'etang les sablons,L'Etang les Sablons,87726109
 l'etang,L'Étang-la-Ville,87382473
+l'etang les sablons,L'Etang les Sablons,87726109
 l'herbergement,L'Herbergement - Les Brouzils,87486126
 l'hermitage,L'Hermitage - Mordelles,87471060
 l'hopital,L'Hôpital-du-Grosbois,87718528
-l'isle-adam,L'Isle-Adam - Parmain,87276527
 l'isle,L'Isle-d'Abeau,87761239
+l'isle,L'Isle-Jourdain,87611806
+l'isle,L'Isle-sur-le-Doubs,87184572
+l'isle-adam,L'Isle-Adam - Parmain,87276527
 l'isle-sur-la-sorgue,L'Isle-sur-la-Sorgue - Fontaine-de-Vaucluse,87765479
 l'isthme,L'Isthme,87476275
 la barasse,La Barasse,87635581
@@ -1085,8 +1114,8 @@ la barre ormesson,La Barre Ormesson,87271171
 la basse indre,La Basse Indre - Saint-Herblain,87481069
 la bassee,La Bassée - Violaines,87342436
 la bastide,La Bastide - Saint-Laurent-les-Bains,87775171
-la baule les pins,La Baule Les Pins,87481697
 la baule,La Baule-Escoublac,87481754
+la baule les pins,La Baule Les Pins,87481697
 la bernerie,La Bernerie-en-Retz,87481267
 la bohalle,La Bohalle,87487843
 la bonneville,La Bonneville-sur-Iton,87387142
@@ -1095,9 +1124,10 @@ la brillanne,La Brillanne - Oraison,87751271
 la brohiniere,La Brohinière,87471094
 la celle,La Celle-Saint-Cloud,87382432
 la chaize,La Chaize-le-Vicomte,87486308
+la chapelle,La Chapelle-Saint-Mesmin,87543371
+la chapelle,La Chapelle-sur-Loire,87571802
 la chapelle aulnay,La Chapelle Aulnay,87590364
 la chapelle centre,La Chapelle Centre,87481564
-la chapelle,La Chapelle-Saint-Mesmin,87543371
 la charite,La Charité-sur-Loire,87696195
 la chaumusse,La Chaumusse - Fort-du-Plasne,87715391
 la chaussee,La Chaussée-Saint-Victor,87574251
@@ -1116,6 +1146,11 @@ la douzillere,La Douzillère,87009696
 la faloise,La Faloise,87313239
 la fere,La Fère,87296632
 la ferte,La Ferté-Alais,87681452
+la ferte,La Ferté-Bernard,87396325
+la ferte,La Ferté-Imbault,87576082
+la ferte,La Ferté-Milon,87116673
+la ferte,La Ferté-Saint-Aubin,87543124
+la ferte,La Ferté-sous-Jouarre,87116517
 la fontaine,La Fontaine,87286427
 la forest,La Forest-Landerneau,87474221
 la fouillouse,La Fouillouse,87726232
@@ -1146,6 +1181,7 @@ la membrolle,La Membrolle-sur-Choisille,87571513
 la menitre,La Ménitré,87487884
 la meyze,La Meyze,87592808
 la mothe,La Mothe-Achard,87486423
+la mothe,La Mothe-Saint-Héray,87485508
 la norville,La Norville - Saint-Germain-lès-Arpajon,87545459
 la pauline hyeres,La Pauline Hyères,87755314
 la penne,La Penne-sur-Huveaune,87751743
@@ -1157,9 +1193,11 @@ la poterie,La Poterie,87334508
 la redonne ensues,La Redonne Ensuès,87753574
 la reole,La Réole,87582866
 la ricamarie,La Ricamarie,87726703
-la riviere de mansac,La Rivière de Mansac,87594416
 la riviere,La Rivière-Drugeon,87715144
+la riviere de mansac,La Rivière de Mansac,87594416
 la roche,La Roche-Maurice,87474262
+la roche,La Roche-sur-Foron,87746305
+la roche,La Roche-sur-Yon,87486019
 la rochelle,La Rochelle,87485003
 la rochelle porte dauphine,La Rochelle Porte Dauphine,87437798
 la seyne,La Seyne - Six-Fours,87755264
@@ -1168,13 +1206,14 @@ la suze,La Suze-sur-Sarthe,87396366
 la taye,La Taye,87394403
 la teste,La Teste-de-Buch,87582643
 la tour,La Tour-de-Salvagny,87721548
+la tour,La Tour-du-Pin,87723478
 la tricherie,La Tricherie,87575183
 la trinite victor,La Trinité Victor,87756767
 la valbonne,La Valbonne,87723577
 la verpilliere,La Verpillière,87723395
 la verriere,La Verrière,87393256
-la ville gozet,La Ville Gozet,87641191
 la ville,La Ville-Dieu-du-Temple,87611459
+la ville gozet,La Ville Gozet,87641191
 la villette saint,La Villette Saint-Prest,87394171
 la wantzenau,La Wantzenau,87212316
 labege innopole,Labège Innopole,87612002
@@ -1189,7 +1228,7 @@ lacelle,Lacelle,87592147
 lachaud curmilhac,Lachaud Curmilhac,87731828
 lacourtensourt,Lacourtensourt,87611434
 lafarge,Lafarge,87592733
-lagny - thorigny,Lagny - Thorigny,87116319
+lagny,Lagny - Thorigny,87116319
 laguepie,Laguépie,87613471
 laifour,Laifour,87172072
 laigne,Laigné - Saint-Gervais,87396556
@@ -1203,6 +1242,7 @@ lamanon,Lamanon,87753731
 lamballe,Lamballe,87473108
 lamonzie,Lamonzie-Saint-Martin,87584243
 lamothe,Lamothe-Landerron,87582882
+lamothe,Lamothe-Montravel,87584151
 lamotte,Lamotte-Beuvron,87543140
 lamure,Lamure-sur-Azergues,87721860
 lancerf,Lancerf,87473850
@@ -1236,7 +1276,7 @@ lathus,Lathus-Saint-Rémy,87575498
 latour-de-carol,Latour-de-Carol - Enveitg,87611483
 lauterbourg,Lauterbourg,87212464
 laval,Laval,87478404
-laval-de-cere,Laval-de-Cère,87594796
+laval,Laval-de-Cère,87594796
 lavaufranche,Lavaufranche,87597740
 lavaur,Lavaur,87615476
 lavilletertre,Lavilletertre,87381202
@@ -1262,20 +1302,22 @@ le chambon,Le Chambon-Feugerolles,87726711
 le chenay gagny,Le Chénay Gagny,87113522
 le coteau,Le Coteau,87726828
 le coudray,Le Coudray-Montceaux,87681635
+le creusot,Le Creusot - Montceau-les-Mines - Montchanin TGV,87694109
 le creusot,Le Creusot,87694000
 le croisic,Le Croisic,87481788
 le dorat,Le Dorat,87592543
 le dramont,Le Dramont,87757542
 le fauga,Le Fauga,87611046
 le genest,Le Genest-Saint-Isle,87478743
-le grand jardin,Le Grand Jardin,87444323
 le grand,Le Grand-Lemps,87747220
+le grand jardin,Le Grand Jardin,87444323
 le grau,Le Grau-du-Roi,87775866
 le haut banc,Le Haut Banc,87316687
 le havre,Le Havre,87413013
 le lioran,Le Lioran,87645473
 le luc,Le Luc - Le Cannet,87755405
 le mans,Le Mans,87396002
+le mans,Le Mans Hôpital-Université,87743872
 le mee,Le Mée-sur-Seine,87682179
 le meridien la ferriere,Le Méridien La Ferrière,87721522
 le meux,Le Meux - La Croix-Saint-Ouen,87276733
@@ -1285,10 +1327,11 @@ le pallet,Le Pallet,87481424
 le peage,Le Péage-de-Roussillon,87722678
 le penity,Le Pénity,87473553
 le perray,Le Perray-en-Yvelines,87393298
-le plessis chenet,Le Plessis Chenet,87681627
 le plessis,Le Plessis-Belleville,87271551
+le plessis chenet,Le Plessis Chenet,87681627
 le poirier universite,Le Poirier Université,87343210
 le pont,Le Pont-de-Beauvoisin,87741470
+le pont,Le Pont-de-Claix,87747519
 le pouliguen,Le Pouliguen,87481762
 le puy,Le Puy-en-Velay,87734699
 le quesnoy,Le Quesnoy,87295857
@@ -1298,6 +1341,7 @@ le soler,Le Soler,87784512
 le stade,Le Stade,87381095
 le teich,Le Teich,87582601
 le theil,Le Theil - La Rouge,87396333
+le theil,Le Theil-de-Bretagne,87471342
 le thor,Le Thor,87765453
 le toec,Le Toec,87353573
 le trayas,Le Trayas,87757575
@@ -1349,12 +1393,12 @@ les pelerins,Les Pélerins,87746776
 les perrieres,Les Perrières,87691600
 les portes de saint,Les Portes de Saint-Cyr,87710921
 les praz de chamonix,Les Praz de Chamonix,87746826
-les quatre roues,Les Quatre Roues,87576181
 les quatre,Les Quatre-Routes-du-Lot,87594564
+les quatre roues,Les Quatre Roues,87576181
 les ramassiers,Les Ramassiers,87353581
 les rosiers,Les Rosiers-sur-Loire,87487876
-les sables blancs,Les Sables Blancs,87476267
 les sables,Les Sables-d'Olonne,87486449
+les sables blancs,Les Sables Blancs,87476267
 les salelles,Les Salelles,87783514
 les saules,Les Saules,87546226
 les tines,Les Tines,87746834
@@ -1371,32 +1415,34 @@ lezennes,Lezennes,87287102
 lezignan,Lézignan-Corbières,87615112
 lezoux,Lezoux,87734442
 liancourt,Liancourt - Rantigny,87276212
+liancourt,Liancourt-Saint-Pierre,87381210
 libercourt,Libercourt,87345256
 libourne,Libourne,87584052
 liesle,Liesle,87718130
 lieusaint,Lieusaint - Moissy,87682153
 lievin,Liévin,87345041
 liguge,Ligugé,87575274
-lille chr,Lille CHR,87109306
-lille europe,Lille Europe,87223263
-lille flandres,Lille Flandres,87286005
-lille porte de douai,Lille Porte de Douai,87287250
+lille,Lille Europe,87223263
+lille,Lille CHR,87109306
+lille,Lille Flandres,87286005
+lille,Lille Porte de Douai,87287250
 lillers,Lillers,87342238
 limay,Limay,87381582
 limeray,Limeray,87574335
 limersheim,Limersheim,87212274
 limoges,Limoges Bénédictins,87592006
+limoges,Limoges Montjovis,87592022
 limoux,Limoux,87615161
 limoux flassian,Limoux Flassian,87598755
 lingolsheim,Lingolsheim,87214502
 lisiere pereire,Lisière Pereire,87733683
 lisieux,Lisieux,87444265
-lisle-sur-tarn,Lisle-sur-Tarn,87615310
+lisle,Lisle-sur-Tarn,87615310
 lison,Lison,87447219
 liverdun,Liverdun,87141069
 livron,Livron-sur-Drôme,87761247
-livry-sur-seine,Livry-sur-Seine,87682401
-lizy-sur-ourcq,Lizy-sur-Ourcq,87116632
+livry,Livry-sur-Seine,87682401
+lizy,Lizy-sur-Ourcq,87116632
 loches,Loches,87571471
 logelbach,Logelbach,87182345
 loison,Loison-sous-Lens,87345231
@@ -1409,13 +1455,15 @@ longpre,Longpré-les-Corps-Saints,87313122
 longroy,Longroy - Gamaches,87313817
 longueau,Longueau,87313049
 longueil,Longueil-Annel,87272195
+longueil,Longueil-Sainte-Marie,87276303
 longuerue,Longuerue - Vieux-Manoir,87411447
 longueville,Longueville,87116137
+longueville,Longueville-sur-Scie,87415141
 longuyon,Longuyon,87194274
 longwy,Longwy,87194001
-lons-le-saunier,Lons-le-Saunier,87718239
+lons,Lons-le-Saunier,87718239
+loos,Loos-en-Gohelle,87345033
 loos lez lille,Loos lez Lille,87286112
-loos-en-gohelle,Loos-en-Gohelle,87345033
 loreux,Loreux,87576157
 lorient bretagne sud,Lorient Bretagne Sud,87476002
 loriol,Loriol-sur-Drôme,87761262
@@ -1432,21 +1480,20 @@ louvroil,Louvroil,87295535
 lozanne,Lozanne,87721423
 luant,Luant,87597096
 luc,Luc,87734368
-luc-en-diois,Luc-en-Diois,87761874
-luc-la-primaube,Luc-la-Primaube,87615773
+luc,Luc-en-Diois,87761874
+luc,Luc-la-Primaube,87615773
 luce,Lucé,87394015
-luçon,Luçon,87486258
-ludon-medoc,Ludon-Médoc,87581181
+ludon,Ludon-Médoc,87581181
 ludres,Ludres,87141481
 lumes,Lumes,87172189
 lunas,Lunas,87781575
 lunel,Lunel,87773408
-lunel-viel,Lunel-Viel,87773424
+lunel,Lunel-Viel,87773424
 lunery,Lunery,87576280
 luneville,Lunéville,87141150
-lurbe-saint-christau,Lurbe-Saint-Christau,87672741
+lurbe,Lurbe-Saint-Christau,87672741
 lure,Lure,87185249
-lus-la-croix-haute,Lus-la-Croix-Haute,87747667
+lus,Lus-la-Croix-Haute,87747667
 lusignan,Lusignan,87485540
 lussac,Lussac-les-Châteaux,87575845
 luttenbach,Luttenbach-près-Munster,87182543
@@ -1457,14 +1504,15 @@ luxeuil,Luxeuil-les-Bains,87185595
 luzarches,Luzarches,87276576
 luzenac,Luzenac - Garanou,87611558
 luzy,Luzy,87696534
+luçon,Luçon,87486258
 lycee henri sellier,Lycée Henri Sellier,87988717
-lyon gorge de loup,Lyon Gorge de Loup,87721175
-lyon jean mace,Lyon Jean Macé,87282624
-lyon part dieu,Lyon Part Dieu,87723197
-lyon perrache,Lyon Perrache,87722025
-lyon saint-exupery tgv,Lyon Saint-Exupéry TGV,87762906
-lyon saint-paul,Lyon Saint-Paul,87721159
-lyon vaise,Lyon Vaise,87721001
+lyon,Lyon Saint-Exupéry TGV,87762906
+lyon,Lyon Part Dieu,87723197
+lyon,Lyon Gorge de Loup,87721175
+lyon,Lyon Jean Macé,87282624
+lyon,Lyon Perrache,87722025
+lyon,Lyon Saint-Paul,87721159
+lyon,Lyon Vaise,87721001
 macau,Macau,87581199
 machecoul,Machecoul,87481366
 machilly,Machilly,87745588
@@ -1476,12 +1524,12 @@ magland,Magland,87746412
 magnac,Magnac - Vicq,87592279
 magnette,Magnette,87641365
 magneux,Magneux - Courlandon,87400986
-magny - blandainville,Magny - Blandainville,87394429
+magny,Magny - Blandainville,87394429
 maille,Maillé,87575068
 mailly,Mailly-la-Ville,87683847
 maintenon,Maintenon,87394130
-maisons-alfort,Maisons-Alfort - Alfortville,87681155
 maisons,Maisons-Laffitte,87386425
+maisons-alfort,Maisons-Alfort - Alfortville,87681155
 maisse,Maisse,87681486
 maizieres,Maizières-lès-Metz,87191106
 malain,Mâlain,87713065
@@ -1492,13 +1540,14 @@ malling,Malling,87191627
 mamirolle,Mamirolle,87718510
 mandelieu,Mandelieu-la-Napoule,87757591
 manosque,Manosque - Gréoux-les-Bains,87751321
-mantes station,Mantes Station,87381590
 mantes,Mantes-la-Jolie,87381509
+mantes station,Mantes Station,87381590
 marbache,Marbache,87141796
 marcelcave,Marcelcave,87313445
 marcheprime,Marcheprime,87582445
 marchezais,Marchezais - Broué,87393470
 mareil,Mareil-Marly,87382812;87733667
+mareil,Mareil-sur-Mauldre,87381715
 maresquel,Maresquel-Ecquemicourt,87317206
 mareuil,Mareuil-sur-Ourcq,87116665
 margaux,Margaux,87581215
@@ -1508,11 +1557,11 @@ marignier,Marignier,87746347
 marigny,Marigny,87485334
 marles,Marles-en-Brie,87116228
 marlieux,Marlieux - Châtillon,87723767
-marly-le-roi,Marly-le-Roi,87382465
+marly,Marly-le-Roi,87382465
 marmagne,Marmagne,87576132
 marmagne sous creusot,Marmagne sous Creusot,87694182
 marmande,Marmande,87586545
-marne-la-vallee chessy,Marne-la-Vallée Chessy,87111849
+marne,Marne-la-Vallée Chessy,87111849
 maroeuil,Maroeuil,87342188
 marolles,Marolles-en-Hurepoix,87545186
 maromme,Maromme,87411249
@@ -1520,8 +1569,11 @@ marquillies,Marquillies,87342469
 marquise,Marquise - Rinxent,87317339
 marquixanes,Marquixanes,87784629
 marsac,Marsac,87597625
+marsac,Marsac-sur-L'isle,87595207
 marseillan plage,Marseillan Plage,87781294
+marseille,Marseille Saint-Charles,87751008
 marseille,Marseille Blancarde,87751081
+marseille,Marseille-en-Beauvaisis,87313726
 marssac,Marssac-sur-Tarn,87615419
 martigne,Martigné-Ferchaud,87471367
 martigues,Martigues,87753509
@@ -1530,8 +1582,8 @@ marvejols,Marvejols,87783282
 masserac,Massérac,87471227
 masseret,Masseret,87594820
 massiac,Massiac - Blesle,87734871
-massy - palaiseau,Massy - Palaiseau,87393579
-massy - verrieres,Massy - Verrières,87383281
+massy,Massy - Palaiseau,87393579
+massy,Massy - Verrières,87383281
 massy europe,Massy Europe,87725465
 massy tgv,Massy TGV,87393702
 matzenheim,Matzenheim,87214130
@@ -1542,12 +1594,12 @@ maurois,Maurois,87345546
 maurs,Maurs,87645168
 mauves,Mauves-sur-Loire,87481150
 mauzac,Mauzac-et-Grand-Castang,87584466
-mauze-sur-le-mignon,Mauzé-sur-le-Mignon,87485250
+mauze,Mauzé-sur-le-Mignon,87485250
 mayet,Mayet,87396580
 mazamet,Mazamet,87615542
 mazingarbe,Mazingarbe,87342121
 meaux,Meaux,87116103
-mehun-sur-yevre,Mehun-sur-Yèvre,87576116
+mehun,Mehun-sur-Yèvre,87576116
 melun,Melun,87682005
 menars,Menars,87574244
 mende,Mende,87783605
@@ -1568,18 +1620,18 @@ mertzwiller,Mertzwiller,87213207
 meru,Méru,87313668
 mervans,Mervans,87713701
 merxheim,Merxheim,87182725
-mery-sur-oise,Méry-sur-Oise,87276667
+mery,Méry-sur-Oise,87276667
 messac,Messac - Guipry,87471185
 messein,Messein,87141499
 mesves,Mesves - Bulcy,87696187
 mesvres,Mesvres,87694158
 metz,Metz,87192039
-metz nord,Metz Nord,87192070
+metz,Metz Nord,87192070
 metzeral,Metzeral,87182816
 meudon,Meudon,87393108
 meudon val fleury,Meudon Val Fleury,87393082
 meulan,Meulan - Hardricourt,87381830
-meung-sur-loire,Meung-sur-Loire,87574137
+meung,Meung-sur-Loire,87574137
 meurchin,Meurchin,87345272
 meursault,Meursault,87713560
 meuse tgv,Meuse TGV,87147322
@@ -1592,13 +1644,13 @@ mignaloux,Mignaloux - Nouaillé,87575704
 milhaud,Milhaud,87775098
 millas,Millas,87784546
 millau,Millau,87783001
-milly-sur-therain,Milly-sur-Thérain,87313700
+milly,Milly-sur-Thérain,87313700
 miniac,Miniac-Morvan,87478131
 mionnay,Mionnay,87723726
 miramas,Miramas,87753004
 miraumont,Miraumont,87342030
 miribel,Miribel,87723528
-mitry - claye,Mitry - Claye,87271528
+mitry,Mitry - Claye,87271528
 modane,Modane,87742007
 mohon,Mohon,87172155
 moirans,Moirans,87747329
@@ -1612,18 +1664,18 @@ monistrol,Monistrol-d'Allier,87734335
 monnaie,Monnaie,87574681
 monnerville,Monnerville,87545111
 monsempron,Monsempron-Libos,87586453
+mont,Mont-de-Marsan,87671016
+mont,Mont-sur-Meurthe,87141143
 mont de terre,Mont de Terre,87287128
 mont-dauphin,Mont-Dauphin - Guillestre,87763508
-mont-de-marsan,Mont-de-Marsan,87671016
 mont-louis,Mont-Louis - La Cabanasse,87784793
-mont-sur-meurthe,Mont-sur-Meurthe,87141143
 montaigu,Montaigu,87481465
 montaigut,Montaigut-le-Blanc,87597674
 montargis,Montargis,87684001
 montastruc,Montastruc-la-Conseillère,87615369
 montataire,Montataire,87276618
-montauban ville bourbon,Montauban Ville Bourbon,87611244
 montauban,Montauban-de-Bretagne,87471086
+montauban ville bourbon,Montauban Ville Bourbon,87611244
 montaudran,Montaudran,87612010
 montaut betharram,Montaut Bétharram,87672113
 montbard,Montbard,87713131
@@ -1636,7 +1688,7 @@ montbrison,Montbrison,87726448
 montceau,Montceau-les-Mines,87694620
 montchanin,Montchanin,87694307
 montdidier,Montdidier,87313346
-monte-carlo country club,Monte-Carlo Country Club,87338590
+monte,Monte-Carlo Country Club,87338590
 montelimar,Montélimar,87764001
 montendre,Montendre,87491183
 montereau,Montereau,87682302
@@ -1645,17 +1697,20 @@ montescourt,Montescourt-Lizerolles,87296418
 monteux,Monteux,87765818
 montfavet,Montfavet,87765412
 montferrand,Montferrand - Thoraise,87718106
-montfort-l'amaury,Montfort-l'Amaury - Méré,87393892
 montfort,Montfort-le-Gesnois,87396291
+montfort,Montfort-sur-Meu,87471078
+montfort-l'amaury,Montfort-l'Amaury - Méré,87393892
 montgeron,Montgeron - Crosne,87682104
 montgeroult,Montgeroult - Courcelles,87381160
 montherme,Monthermé,87172056
 montigny,Montigny - Beauchamp,87276089
+montigny,Montigny-en-Ostrevent,87345306
+montigny,Montigny-sur-Loing,87684100
 montlaur,Montlaur,87618207
 montlouis,Montlouis-sur-Loire,87571273
+montluel,Montluel,87723569
 montluçon,Montluçon,87641001
 montluçon rimard,Montluçon Rimard,87323675
-montluel,Montluel,87723569
 montmedy,Montmédy,87194209
 montmelian,Montmélian,87741181
 montmoreau,Montmoreau,87583674
@@ -1663,10 +1718,15 @@ montmorillon,Montmorillon,87575480
 montoir,Montoir-de-Bretagne,87481713
 montpaon,Montpaon,87781534
 montpellier,Montpellier Saint-Roch,87773002
+montpellier,Montpellier Sud de France,87688887
 montpon,Montpon-Ménestérol,87595322
 montrabe,Montrabé,87611848
 montrejeau,Montréjeau - Gourdan-Polignan,87611152
 montreuil,Montreuil,87382879
+montreuil,Montreuil sur Mer,87317164
+montreuil,Montreuil-Bellay,87487637
+montreuil,Montreuil-sur-Ille,87478032
+montreuil,Montreuil-sur-Thérain,87316406
 montreux,Montreux-Vieux,87184275
 montrichard,Montrichard,87574855
 montroc le planet,Montroc le Planet,87746867
@@ -1680,7 +1740,7 @@ moosch,Moosch,87182592
 morannes,Morannes,87484170
 morbier,Morbier,87715433
 morcenx,Morcenx,87673103
-moret - veneux-les-sablons,Moret - Veneux-les-Sablons,87682278
+moret,Moret - Veneux-les-Sablons,87682278
 moreuil,Moreuil,87313320
 morez,Morez,87715441
 morgny,Morgny-la-Pommeraye,87411439
@@ -1699,16 +1759,19 @@ mouchard,Mouchard,87718833
 moulin galant,Moulin Galant,87681403
 moulins sur allier,Moulins sur Allier,87696328
 moulis,Moulis - Listrac,87581231
-moult - argences,Moult - Argences,87444190
+moult,Moult - Argences,87444190
 mourmelon,Mourmelon-le-Petit,87174409
 mouroux,Mouroux,87116285
 mousteru,Moustéru,87473512
 moutiers,Moûtiers - Salins - Brides-les-Bains,87741728
-mouy - bury,Mouy - Bury,87313577
+mouy,Mouy - Bury,87313577
 moyeuvre,Moyeuvre-Grande,87191718
 muhlbach,Muhlbach-sur-Munster,87182733
 muizon,Muizon,87171298
 mulhouse,Mulhouse,87182063
+mulhouse,Mulhouse Dornach,87182055
+mulhouse,Mulhouse Musées,87534339
+mulhouse,Mulhouse Zu Rhein Tram-Train,87472639
 mullerhof,Mullerhof,87214643
 munchhausen,Munchhausen,87212449
 mundolsheim,Mundolsheim,87212100
@@ -1721,15 +1784,16 @@ mussidan,Mussidan,87595298
 mutzig,Mutzig,87214585
 naintre,Naintré,87575175
 najac,Najac,87613463
-namps - quevauvillers,Namps - Quevauvillers,87313379
-nançois,Nançois - Tronville,87175067
+namps,Namps - Quevauvillers,87313379
 nancy,Nancy,87141002
 nangis,Nangis,87116095
 nanterre la folie,Nanterre La Folie,87386011
 nanterre universite,Nanterre Université,87386318
 nantes,Nantes,87481002
 nanteuil,Nanteuil - Saâcy,87116558
+nanteuil,Nanteuil-le-Haudouin,87271577
 nantiat,Nantiat,87592444
+nançois,Nançois - Tronville,87175067
 narbonne,Narbonne,87781104
 naucelle,Naucelle,87615732
 neau,Neau,87478545
@@ -1746,57 +1810,60 @@ neuilly porte maillot rer e,Neuilly Porte Maillot RER E,87731448
 neussargues,Neussargues,87645507
 neuves,Neuves-Maisons,87141507
 neuvic,Neuvic,87595272
-neuville universite,Neuville Université,87334482
 neuville,Neuville-sur-Sarthe,87396028
-neuvy-pailloux,Neuvy-Pailloux,87597070
+neuville universite,Neuville Université,87334482
+neuvy,Neuvy-Pailloux,87597070
 nevers,Nevers,87696005
 nevers le banlay,Nevers Le Banlay,87559070
 nexon,Nexon,87592725
-nezel - aulnay,Nézel - Aulnay,87381731
+nezel,Nézel - Aulnay,87381731
 nice,Nice,87756056
-nice pont michel,Nice Pont Michel,87590299
-nice riquier,Nice Riquier,87756353
-nice saint-augustin,Nice Saint-Augustin,87756254
+nice,Nice Pont Michel,87590299
+nice,Nice Riquier,87756353
+nice,Nice Saint-Augustin,87756254
 niederbronn,Niederbronn-les-Bains,87213256
 nieppe,Nieppe,87287151
 nieul,Nieul,87592410
 nimes,Nîmes,87775007
-nimes pont du gard,Nîmes Pont du Gard,87703975
+nimes,Nîmes Pont du Gard,87703975
 niolon,Niolon,87753582
 niort,Niort,87485300
 niversac,Niversac,87595512
-n ux-les-mines,Nœux-les-Mines,87342139
 nogent,Nogent - Le Perreux,87113746
+nogent,Nogent-le-Rotrou,87394296
+nogent,Nogent-sur-Seine,87118190
+nogent,Nogent-sur-Vernisson,87684274
 nogent-l'artaud,Nogent-l'Artaud - Charly,87116566
 nointel,Nointel - Mours,87276758
-noisy-le-roi,Noisy-le-Roi,87393876;87733659
-noisy-le-sec,Noisy-le-Sec,87113217
+noisy,Noisy-le-Roi,87393876;87733659
+noisy,Noisy-le-Sec,87113217
 noizay,Noizay,87574368
 nomain,Nomain,87286609
 nonancourt,Nonancourt,87393553
-nort-sur-erdre,Nort-sur-Erdre,87481598
+nort,Nort-sur-Erdre,87481598
 nortkerque,Nortkerque,87287292
-notre-dame de briançon,Notre-Dame de Briançon,87741694
-notre-dame-d'oe,Notre-Dame-d'Oé,87574699
-nouan-le-fuzelier,Nouan-le-Fuzelier,87543157
+notre,Notre-Dame de Briançon,87741694
+notre,Notre-Dame-d'Oé,87574699
+nouan,Nouan-le-Fuzelier,87543157
 nouvion,Nouvion-sur-Meuse,87172213
 nouzonville,Nouzonville,87172023
 noveant,Novéant-sur-Moselle,87192427
 novillars,Novillars,87718411
-noyal - acigne,Noyal - Acigné,87471540
+noyal,Noyal - Acigné,87471540
 noyelles,Noyelles-sur-Mer,87317396
-noyen-sur-sarthe,Noyen-sur-Sarthe,87396374
+noyen,Noyen-sur-Sarthe,87396374
 noyon,Noyon,87276782
 nozieres,Nozières - Brignon,87775353
+nuits,Nuits-Saint-Georges,87713529
 nuits sous ravieres,Nuits sous Ravières,87713156
-nuits-saint-georges,Nuits-Saint-Georges,87713529
 nurieux,Nurieux-Volognat,87743351
+nœux,Nœux-les-Mines,87342139
 obermodern,Obermodern-Zutzendorf,87213165
 obernai,Obernai,87214288
 objat,Objat,87594630
 oderen,Oderen,87182634
 oermingen,Oermingen,87215632
-ogeu-les-bains,Ogeu-les-Bains,87672709
+ogeu,Ogeu-les-Bains,87672709
 oissel,Oissel,87411207
 olette,Olette - Canaveilles,87784728
 ollioules,Ollioules - Sanary-sur-Mer,87755231
@@ -1813,37 +1880,37 @@ orgerus,Orgerus - Béhoust,87393447
 orgon,Orgon,87753707
 orleans,Orléans,87543009
 orly ville,Orly Ville,87546200
-ormoy-villers,Ormoy-Villers,87271585
+ormoy,Ormoy-Villers,87271585
 orry-la-ville,Orry-la-Ville - Coye,87276279
 ors,Ors,87295667
 orthez,Orthez,87672253
 osny,Osny,87381145
-osses - saint-martin-d'arrossa,Ossès - Saint-Martin-d'Arrossa,87673707
+osses,Ossès - Saint-Martin-d'Arrossa,87673707
 ostricourt,Ostricourt,87345249
 oudon,Oudon,87481184
 ouges,Ouges,87712604
 oullins,Oullins,87722207
 ourscamp,Ourscamp,87276774
 oyonnax,Oyonnax,87743534
-ozoir-la-ferriere,Ozoir-la-Ferrière,87116020
-pagny-le-chateau,Pagny-le-Château,87713669
-pagny-sur-meuse,Pagny-sur-Meuse,87175828
-pagny-sur-moselle,Pagny-sur-Moselle,87192468
+ozoir,Ozoir-la-Ferrière,87116020
+pagny,Pagny-le-Château,87713669
+pagny,Pagny-sur-Meuse,87175828
+pagny,Pagny-sur-Moselle,87192468
 paimpol,Paimpol,87473868
 pamiers,Pamiers,87611343
 pamproux,Pamproux,87485524
 pantin,Pantin,87113209
-paray-le-monial,Paray-le-Monial,87694687
+paray,Paray-le-Monial,87694687
 parc des expositions,Parc des Expositions,87271486
 parempuyre,Parempuyre,87581710
 parent,Parent - Coudes - Champeix,87734194
-paris austerlitz,Paris Austerlitz,87547026;87547000
-paris bercy bourgogne - pays d'auvergne,Paris Bercy Bourgogne - Pays d'Auvergne,87686667
-paris est,Paris Est,87113001
-paris gare de lyon,Paris Gare de Lyon,87686006;87686030
-paris gare du nord,Paris Gare du Nord,87271023;87271007;87271031
-paris montparnasse,Paris Montparnasse,87391003;87391011;87391102
-paris saint-lazare,Paris Saint-Lazare,87384008
+paris,Paris Gare de Lyon,87686006;87686030
+paris,Paris Gare du Nord,87271023;87271007;87271031
+paris,Paris Montparnasse,87391003;87391011;87391102
+paris,Paris Austerlitz,87547026;87547000
+paris,Paris Bercy Bourgogne - Pays d'Auvergne,87686667
+paris,Paris Est,87113001
+paris,Paris Saint-Lazare,87384008
 parsac,Parsac - Gouzon,87597724
 pas des lanciers,Pas des Lanciers,87753285
 pau,Pau,87672006
@@ -1852,7 +1919,7 @@ paulhaguet,Paulhaguet,87734293
 pavilly,Pavilly,87411272
 peltre,Peltre,87192203
 penhoet,Penhoët,87321745
-penne-d'agenais,Penne-d'Agenais,87586438
+penne,Penne-d'Agenais,87586438
 penthievre,Penthièvre,87476424
 pereire,Péreire - Levallois,87381012
 perenchies,Pérenchies,87286278
@@ -1865,9 +1932,9 @@ persan,Persan - Beaumont,87276469
 pertuis,Pertuis,87751362
 pessac,Pessac,87581751
 pessac alouette,Pessac Alouette,87581793
+petit,Petit-Croix,87184267
 petit jouy,Petit Jouy - Les Loges,87393504
 petit vaux,Petit Vaux,87393652
-petit-croix,Petit-Croix,87184267
 peyrehorade,Peyrehorade,87672337
 peyrilhac,Peyrilhac - Saint-Jouvent,87592428
 pezou,Pezou,87574541
@@ -1875,14 +1942,17 @@ phalempin,Phalempin,87286500
 pibrac,Pibrac,87611830
 picon busserine,Picon Busserine,87759290
 picquigny,Picquigny,87313106
+pierre,Pierre-Buffière,87592253
 pierre,Pierre-Bénite,87722231
 pierrefitte,Pierrefitte - Stains,87271163
+pierrefitte,Pierrefitte - Stains T11,87697326
 pierrelatte,Pierrelatte,87764308
 pierrelaye,Pierrelaye,87276097
 pignans,Pignans,87755389
-pihen-les-guines,Pihen-lès-Guînes,87316679
-pins-justaret,Pins-Justaret,87618116
+pihen,Pihen-lès-Guînes,87316679
+pins,Pins-Justaret,87618116
 plaisir,Plaisir - Grignon,87393421
+plaisir,Plaisir - Les Clayes,87393629
 plancoet,Plancoët,87473272
 plechatel,Pléchâtel,87471177
 plenee,Plénée-Jugon,87473082
@@ -1900,14 +1970,28 @@ podensac,Podensac,87582734
 pointe de grave,Pointe de Grave,87581397
 poissy,Poissy,87386573
 poitiers,Poitiers,87575001
-poix-de-picardie,Poix-de-Picardie,87313395
-poix-terron,Poix-Terron,87172171
+poix,Poix-de-Picardie,87313395
+poix,Poix-Terron,87172171
 polienas,Poliénas,87761742
 poligny,Poligny,87718189
 polliat,Polliat,87725846
 pomas,Pomas,87615146
 pompey,Pompey,87141788
 pons,Pons,87491100
+pont,Pont-d'Ain,87743120
+pont,Pont-de-Buis,87474056
+pont,Pont-de-l'Arche,87415661
+pont,Pont-de-Veyle,87725804
+pont,Pont-du-Château,87734087
+pont,Pont-l'Évêque,87444349
+pont,Pont-Melvez,87473520
+pont,Pont-Remy,87313130
+pont,Pont-Saint-Esprit,87764555
+pont,Pont-Saint-Vincent,87141523
+pont,Pont-Sainte-Maxence,87276329
+pont,Pont-sur-Yonne,87683136
+pont,Pont-à-Mousson,87141820
+pont,Pont-à-Vendin,87345264
 pont cardinet,Pont Cardinet,87381111
 pont d'ardres,Pont d'Ardres,87281410
 pont de bois,Pont de Bois,87286831
@@ -1920,20 +2004,6 @@ pont de rungis aeroport d'orly,Pont de Rungis Aéroport d'Orly,87546192
 pont de sallaumines,Pont de Sallaumines,87345124
 pont du garigliano,Pont du Garigliano - Hôpital Européen Georges Pompidou,87393322
 pont petit,Pont Petit,87276154
-pont-a-mousson,Pont-à-Mousson,87141820
-pont-a-vendin,Pont-à-Vendin,87345264
-pont-d'ain,Pont-d'Ain,87743120
-pont-de-buis,Pont-de-Buis,87474056
-pont-de-l'arche,Pont-de-l'Arche,87415661
-pont-de-veyle,Pont-de-Veyle,87725804
-pont-du-chateau,Pont-du-Château,87734087
-pont-l'eveque,Pont-l'Évêque,87444349
-pont-melvez,Pont-Melvez,87473520
-pont-remy,Pont-Remy,87313130
-pont-saint-esprit,Pont-Saint-Esprit,87764555
-pont-saint-vincent,Pont-Saint-Vincent,87141523
-pont-sainte-maxence,Pont-Sainte-Maxence,87276329
-pont-sur-yonne,Pont-sur-Yonne,87683136
 pontanevaux,Pontanevaux,87725721
 pontarlier,Pontarlier,87715003
 pontchaillou,Pontchaillou,87471391
@@ -1950,16 +2020,16 @@ pontrieux halte,Pontrieux Halte,87473835
 porchefontaine,Porchefontaine,87393165
 pornic,Pornic,87481283
 pornichet,Pornichet,87481747
+port,Port-Brillet,87478750
+port,Port-de-Bouc,87753459
+port,Port-de-Piles,87575076
+port,Port-la-Nouvelle,87781062
+port,Port-Sainte-Marie,87586107
+port,Port-Vendres,87784264
 port boulet,Port Boulet,87571794
-port-brillet,Port-Brillet,87478750
-port-de-bouc,Port-de-Bouc,87753459
-port-de-piles,Port-de-Piles,87575076
-port-la-nouvelle,Port-la-Nouvelle,87781062
 port-saint-pere,Port-Saint-Père - Saint-Mars,87481218
-port-sainte-marie,Port-Sainte-Marie,87586107
-port-vendres,Port-Vendres,87784264
+porte,Porté-Puymorens,87611509
 porte de clichy,Porte de Clichy,87111278
-porte-puymorens,Porté-Puymorens,87611509
 portet saint,Portet Saint-Simon,87611400
 portets,Portets,87582718
 pougny,Pougny - Chancy,87745380
@@ -1968,10 +2038,10 @@ pouilly,Pouilly-sur-Loire,87696179
 pouxeux,Pouxeux,87144428
 pouzauges,Pouzauges,87487314
 prades,Prades - Molitg-les-Bains,87784637
-precy-sur-oise,Précy-sur-Oise,87276410
+precy,Précy-sur-Oise,87276410
 preignac,Preignac,87582767
 presles courcelles,Presles Courcelles,87276501
-prin-deyrançon,Prin-Deyrançon,87485268
+prin,Prin-Deyrançon,87485268
 pringy,Pringy,87746206
 prisse,Prissé-la-Charrière,87485359
 prouvy,Prouvy - Thiant,87343418
@@ -1979,7 +2049,7 @@ provencheres,Provenchères-sur-Fave,87144345
 provins,Provins,87116160
 prunay,Prunay,87171629
 pruniers,Pruniers-en-Sologne,87576199
-puget-ville,Puget-Ville,87755363
+puget,Puget-Ville,87755363
 puteaux,Puteaux,87382382
 puybrun,Puybrun,87594754
 puyoo,Puyoô,87672279
@@ -1997,9 +2067,9 @@ ranchot,Ranchot,87718338
 rang-du-fliers,Rang-du-Fliers - Verton - Berck,87317057
 ranguin,Ranguin,87757732
 ranspach,Ranspach,87182402
-raon-l'etape,Raon-l'Étape,87144626
+raon,Raon-l'Étape,87144626
 rassuen,Rassuen,87753426
-razac-sur-l'isle,Razac-sur-l'Isle,87595223
+razac,Razac-sur-l'Isle,87595223
 reaumont,Réaumont - Saint-Cassien,87747279
 recquignies,Recquignies,87295022
 reding,Réding,87215079
@@ -2009,7 +2079,7 @@ reichshoffen,Reichshoffen,87213249
 reignac,Reignac-sur-Indre,87571455
 reignier,Reignier-Ésery,87746511
 reims,Reims,87171009
-reims maison blanche,Reims Maison Blanche,87171272
+reims,Reims Maison Blanche,87171272
 remilly,Rémilly,87192237
 remiremont,Remiremont,87144451
 remise a jorelle,Remise à Jorelle,87988709
@@ -2023,32 +2093,32 @@ reuilly,Reuilly,87597039
 revigny,Revigny-sur-Ornain,87175018
 revin,Revin,87172080
 reze pont rousseau,Rezé Pont Rousseau,87481036
-ria-sirach,Ria-Sirach,87784660
+ria,Ria-Sirach,87784660
 ribecourt,Ribécourt-Dreslincourt,87276766
 riedseltz,Riedseltz,87213462
-rieux - angicourt,Rieux - Angicourt,87276352
-rilly-la-montagne,Rilly-la-Montagne,87171595
-riom - chatel-guyon,Riom - Châtel-Guyon,87734053
-ris-orangis,Ris-Orangis,87681338
+rieux,Rieux - Angicourt,87276352
+rilly,Rilly-la-Montagne,87171595
+riom,Riom - Châtel-Guyon,87734053
+ris,Ris-Orangis,87681338
 rivarennes,Rivarennes,87571653
-rive-de-gier,Rive-de-Gier,87726331
+rive,Rive-de-Gier,87726331
 rives,Rives,87747246
 rivesaltes,Rivesaltes,87784173
 rixheim,Rixheim,87182071
 roanne,Roanne,87726802
 rocamadour,Rocamadour - Padirac,87613042
-roche-lez-beaupre,Roche-lez-Beaupré,87718403
+roche,Roche-lez-Beaupré,87718403
 rochefort,Rochefort,87485144
-rochy-conde,Rochy-Condé,87313601
+rochy,Rochy-Condé,87313601
 rodez,Rodez,87613422
 roeschwoog,Roeschwoog,87212407
-r ux,Rœux,87342089
 rognac,Rognac,87753251
 roissy,Roissy-en-Brie,87116038
 romaneche,Romanèche-Thorins,87725739
 romans,Romans - Bourg-de-Péage,87761650
 rombas,Rombas - Clouange,87191734
 romilly,Romilly-la-Puthenaye,87387175
+romilly,Romilly-sur-Seine,87118158
 romorantin,Romorantin-Lanthenay,87576025
 ronchamp,Ronchamp,87185314
 ronchin,Ronchin,87286534
@@ -2058,20 +2128,21 @@ roqueseriere,Roquesérière - Buzet,87615351
 rosa parks,Rosa Parks,87654798
 rosheim,Rosheim,87214320
 rosieres,Rosières-aux-Salines,87141127
+rosieres,Rosières-en-Santerre,87313460
+rosny,Rosny-sous-Bois,87113704
+rosny,Rosny-sur-Seine,87415885
 rosny bois perrier,Rosny Bois Perrier,87113696
-rosny-sous-bois,Rosny-sous-Bois,87113704
-rosny-sur-seine,Rosny-sur-Seine,87415885
 rosporden,Rosporden,87474155
 rosult,Rosult,87286567
 rothau,Rothau,87214726
 roubaix,Roubaix,87286732
-rouen rive droite,Rouen Rive Droite,87411017
+rouen,Rouen Rive Droite,87411017
 rouffach,Rouffach,87182337
 rougemont chanteloup,Rougemont Chanteloup,87431791
 rouille,Rouillé,87485532
 rountzenheim,Rountzenheim,87212373
 royan,Royan,87491803
-royat - chamalieres,Royat - Chamalières,87734038
+royat,Royat - Chamalières,87734038
 rue,Rue,87317404
 ruffec,Ruffec,87583849
 ruffey,Ruffey-lès-Echirey,87713826
@@ -2080,215 +2151,232 @@ rumilly,Rumilly,87746149
 ruminghem,Ruminghem,87287300
 rungis la fraternelle,Rungis La Fraternelle,87546291
 russ hersbach,Russ Hersbach,87214684
+rœux,Rœux,87342089
 saales,Saales,87214783
-sable-sur-sarthe,Sablé-sur-Sarthe,87396408
+sable,Sablé-sur-Sarthe,87396408
 saillagouse,Saillagouse,87784835
 saillans,Saillans,87761817
 saillat,Saillat - Chassenon,87592717
-sain-bel,Sain-Bel,87721605
+sain,Sain-Bel,87721605
 saincaize,Saincaize-Meauce,87696260
-sains-du-nord,Sains-du-Nord,87295709
-saint-agnan,Saint-Agnan,87694851
-saint-agne,Saint-Agne,87611301
+sains,Sains-du-Nord,87295709
+saint,Saint-Jean-d'Angély,87491357
+saint,Saint-Jean-de-Losne,87713651
+saint,Saint-Jean-de-Maurienne Arvan,87742320
+saint,Saint-Jean-de-Verges,87611624
+saint,Saint-Jean-Pied-de-Port,87673723
+saint,Saint-Agnan,87694851
+saint,Saint-Agne,87611301
+saint,Saint-Amand-les-Eaux,87343103
+saint,Saint-Amand-Longpré,87574640
+saint,Saint-Amarin,87182600
+saint,Saint-Amour,87718296
+saint,Saint-André-de-Corcy,87723734
+saint,Saint-André-de-Cubzac,87491241
+saint,Saint-André-le-Gaz,87723494
+saint,Saint-André-lez-Lille,87286195
+saint,Saint-Antoine,87751826
+saint,Saint-Antoine-de-Breuilh,87584201
+saint,Saint-Antoine-du-Rocher,87571539
+saint,Saint-Armel,87471318
+saint,Saint-Astier,87595249
+saint,Saint-Aubin-sur-Scie,87415125
+saint,Saint-Aulaire,87594622
+saint,Saint-Aunès,87773465
+saint,Saint-Avold,87193318
+saint,Saint-Ay,87574129
+saint,Saint-Blaise-la-Roche Poutay,87214742
+saint,Saint-Bonnet-de-Rochefort,87641076
+saint,Saint-Brice-sur-Vienne,87592691
+saint,Saint-Brieuc,87473009
+saint,Saint-Chamas,87753202
+saint,Saint-Chamond,87726307
+saint,Saint-Christophe-Vallon,87613257
+saint,Saint-Chély-d'Apcher,87783241
+saint,Saint-Chéron,87545509
+saint,Saint-Claude,87743633
+saint,Saint-Cloud,87382358
+saint,Saint-Cyprien,87595777
+saint,Saint-Cyprien Arènes,87446179
+saint,Saint-Cyr-en-Val La Source,87543116
+saint,Saint-Cyr-l'École,87393223
+saint,Saint-Césaire,87775072
+saint,Saint-Denis-de-Pile,87584508
+saint,Saint-Denis-des-Murs,87592097
+saint,Saint-Denis-lès-Martel,87594572
+saint,Saint-Dizier,87175000
+saint,Saint-Dié-des-Vosges,87144014
+saint,Saint-Erme-Outre-et-Ramecourt,87171751
+saint,Saint-Fargeau-Ponthierry,87682542
+saint,Saint-Florent-sur-Cher,87576272
+saint,Saint-Fons,87728501
+saint,Saint-Féliu-d'Avall,87784520
+saint,Saint-Gaudens,87611137
+saint,Saint-Geniès-de-Malgoirès,87775361
+saint,Saint-Genouph,87571851
+saint,Saint-Georges-d'Aurac,87734301
+saint,Saint-Georges-de-Commiers,87747568
+saint,Saint-Georges-de-Luzençon,87783423
+saint,Saint-Georges-de-Reneins,87721340
+saint,Saint-Geours-de-Maremne,87673269
+saint,Saint-Germain-au-Mont-d'Or,87721282
+saint,Saint-Germain-des-Fossés,87732206
+saint,Saint-Germain-du-Puy,87576405
+saint,Saint-Germain-les-Belles,87592287
+saint,Saint-Germain-sur-Ille,87478016
+saint,Saint-Gervais-les-Bains Le Fayet,87746479
+saint,Saint-Gildas-des-Bois,87476762
+saint,Saint-Gilles Lycée Haut-Rhin,87181552
+saint,Saint-Gilles-Croix-de-Vie,87486571
+saint,Saint-Gratien,87276170
+saint,Saint-Hilaire-de-Chaléons,87481234
+saint,Saint-Hilaire-de-Riez,87486563
+saint,Saint-Hilaire-sur-Helpe,87297531
+saint,Saint-Jacques-de-la-Lande,87471052
+saint,Saint-Jodard,87726851
+saint,Saint-Jory,87611657
+saint,Saint-Joseph le Castellas,87759316
+saint,Saint-Julien-du-Sault,87683227
+saint,Saint-Julien-en-Genevois,87745430
+saint,Saint-Junien,87592709
+saint,Saint-Just-en-Chaussée,87313270
+saint,Saint-Laurent-d'Aigouze,87775841
+saint,Saint-Laurent-du-Var,87756346
+saint,Saint-Laurent-en-Grandvaux,87715417
+saint,Saint-Leu-d'Esserent,87276402
+saint,Saint-Leu-la-Forêt,87276600
+saint,Saint-Lothain,87718197
+saint,Saint-Loubès,87584730
+saint,Saint-Louis,87182139
+saint,Saint-Louis La Chaussée,87181016
+saint,Saint-Léger-sur-Dheune,87694364
+saint,Saint-Léon-sur-l'Isle,87595264
+saint,Saint-Léonard-de-Noblat,87592071
+saint,Saint-Lô,87447003
+saint,Saint-Macaire,87582825
+saint,Saint-Maixent-L'École,87485490
+saint,Saint-Malo,87478107
+saint,Saint-Mammès,87682294
+saint,Saint-Marcel,87751701
+saint,Saint-Marcel en Dombes,87723742
+saint,Saint-Marcellin,87761718
+saint,Saint-Mars-la-Brière,87396283
+saint,Saint-Martin d'Étampes,87545350
+saint,Saint-Martin du Touch,87353599
+saint,Saint-Martin-d'Oney,87671495
+saint,Saint-Martin-de-Crau,87753681
+saint,Saint-Martin-du-Mont,87743112
+saint,Saint-Martin-le-Beau,87574459
+saint,Saint-Martory,87611103
+saint,Saint-Mathurin-sur-Loire,87487892
+saint,Saint-Maurice-de-Beynost,87723536
+saint,Saint-Michel Notre-Dame,87547315
+saint,Saint-Michel-sur-Meurthe,87144683
+saint,Saint-Michel-sur-Orge,87545202
+saint,Saint-Médard-d'Eyrans,87582692
+saint,Saint-Médard-de-Guizières,87584607
+saint,Saint-Médard-sur-Ille,87478024
+saint,Saint-Nabord,87146217
+saint,Saint-Nazaire,87481705
+saint,Saint-Nom-la-Bretèche Forêt de Marly,87382481
+saint,Saint-Nom-la-Bretèche Forêt de Marly T13,87733071
+saint,Saint-Omer,87281444
+saint,Saint-Omer-en-Chaussée,87313718
+saint,Saint-Ouen,87271247
+saint,Saint-Ouen-l'Aumône,87276105
+saint,Saint-Ouen-l'Aumône Liesse,87337980
+saint,Saint-Ouen-l'Aumône Quartier de l'Église,87381426
+saint,Saint-Paterne-Racan,87571554
+saint,Saint-Patrice,87571810
+saint,Saint-Paul-de-Varax,87723783
+saint,Saint-Piat,87394148
+saint,Saint-Pierre-d'Albigny,87741223
+saint,Saint-Pierre-d'Aurillac,87582833
+saint,Saint-Pierre-de-Chignac,87595520
+saint,Saint-Pierre-des-Corps,87571240
+saint,Saint-Pierre-en-Faucigny,87746313
+saint,Saint-Pierre-la-Cour,87478768
+saint,Saint-Pierre-le-Moûtier,87696294
+saint,Saint-Pierre-Quiberon,87476440
+saint,Saint-Pierre-sur-Dives,87444216
+saint,Saint-Pol-sur-Ternoise,87342337
+saint,Saint-Priest,87723353
+saint,Saint-Priest-Taurion,87592055
+saint,Saint-Pé-de-Bigorre,87671362
+saint,Saint-Péray,87761494
+saint,Saint-Quentin,87296004
+saint,Saint-Quentin-Fallavier,87723387
+saint,Saint-Rambert-d'Albon,87761106
+saint,Saint-Rambert-en-Bugey,87743740
+saint,Saint-Raphaël Valescure,87757526
+saint,Saint-Remy-en-l'Eau,87313288
+saint,Saint-Roch,87313080
+saint,Saint-Romain-de-Popey,87721456
+saint,Saint-Romain-le-Puy,87726430
+saint,Saint-Rome-de-Cernon,87783431
+saint,Saint-Saturnin-lès-Avignon,87765438
+saint,Saint-Savinien,87491035
+saint,Saint-Saviol,87575365
+saint,Saint-Seurin-sur-l'Isle,87584615
+saint,Saint-Sulpice (Tarn),87615344
+saint,Saint-Sulpice-Laurière,87592345
+saint,Saint-Symphorien-de-Marmagne,87694174
+saint,Saint-Sébastien,87592493
+saint,Saint-Sébastien Frêne Rond,87354597
+saint,Saint-Sébastien Pas Enchantés,87354589
+saint,Saint-Thégonnec,87474312
+saint,Saint-Vallier sur Rhône,87761130
+saint,Saint-Victor-l'Abbaye,87415166
+saint,Saint-Victurnien,87592683
+saint,Saint-Vincent le Château,87734715
+saint,Saint-Vincent-de-Tyrosse,87673277
+saint,Saint-Vit,87718320
+saint,Saint-Yrieix-la-Perche,87592824
+saint,Saint-Égrève Saint-Robert,87747352
+saint,Saint-Émilion,87584102
+saint,Saint-Étienne-de-Montluc,87481812
+saint,Saint-Étienne-du-Rouvray,87411215
 saint-aignan,Saint-Aignan - Noyers,87574897
 saint-aigulin,Saint-Aigulin - La Roche-Chalais,87584540
-saint-amand-les-eaux,Saint-Amand-les-Eaux,87343103
-saint-amand-longpre,Saint-Amand-Longpré,87574640
 saint-amand-montrond,Saint-Amand-Montrond - Orval,87576322
-saint-amarin,Saint-Amarin,87182600
-saint-amour,Saint-Amour,87718296
-saint-andre-de-corcy,Saint-André-de-Corcy,87723734
-saint-andre-de-cubzac,Saint-André-de-Cubzac,87491241
-saint-andre-le-gaz,Saint-André-le-Gaz,87723494
-saint-andre-lez-lille,Saint-André-lez-Lille,87286195
-saint-antoine,Saint-Antoine,87751826
-saint-antoine-de-breuilh,Saint-Antoine-de-Breuilh,87584201
-saint-antoine-du-rocher,Saint-Antoine-du-Rocher,87571539
-saint-armel,Saint-Armel,87471318
-saint-astier,Saint-Astier,87595249
 saint-aubin,Saint-Aubin - Saint-Luperce,87394213
-saint-aubin-sur-scie,Saint-Aubin-sur-Scie,87415125
-saint-aulaire,Saint-Aulaire,87594622
-saint-aunes,Saint-Aunès,87773465
-saint-avold,Saint-Avold,87193318
 saint-avre,Saint-Avre - La Chambre,87741306
-saint-ay,Saint-Ay,87574129
 saint-beron,Saint-Béron - La Bridoire,87741454
-saint-blaise-la-roche poutay,Saint-Blaise-la-Roche Poutay,87214742
-saint-bonnet-de-rochefort,Saint-Bonnet-de-Rochefort,87641076
-saint-brice-sur-vienne,Saint-Brice-sur-Vienne,87592691
-saint-brieuc,Saint-Brieuc,87473009
-saint-cesaire,Saint-Césaire,87775072
-saint-chamas,Saint-Chamas,87753202
-saint-chamond,Saint-Chamond,87726307
-saint-chely-d'apcher,Saint-Chély-d'Apcher,87783241
-saint-cheron,Saint-Chéron,87545509
-saint-christophe-vallon,Saint-Christophe-Vallon,87613257
 saint-clair,Saint-Clair - Les Roches,87722652
-saint-claude,Saint-Claude,87743633
 saint-clement,Saint-Clément - Laronxe,87141374
-saint-cloud,Saint-Cloud,87382358
-saint-cyprien,Saint-Cyprien,87595777
-saint-cyprien arenes,Saint-Cyprien Arènes,87446179
 saint-cyr les lecques,Saint-Cyr Les Lecques - La Cadière,87755215
-saint-cyr-en-val la source,Saint-Cyr-en-Val La Source,87543116
-saint-cyr-l'ecole,Saint-Cyr-l'École,87393223
 saint-denis,Saint-Denis,87271015
-saint-denis-de-pile,Saint-Denis-de-Pile,87584508
-saint-denis-des-murs,Saint-Denis-des-Murs,87592097
-saint-denis-les-martel,Saint-Denis-lès-Martel,87594572
-saint-die-des-vosges,Saint-Dié-des-Vosges,87144014
-saint-dizier,Saint-Dizier,87175000
-saint-egreve saint-robert,Saint-Égrève Saint-Robert,87747352
-saint-emilion,Saint-Émilion,87584102
-saint-erme-outre-et-ramecourt,Saint-Erme-Outre-et-Ramecourt,87171751
 saint-etienne,Saint-Étienne Bellevue,87726190
-saint-etienne-de-montluc,Saint-Étienne-de-Montluc,87481812
-saint-etienne-du-rouvray,Saint-Étienne-du-Rouvray,87411215
-saint-fargeau-ponthierry,Saint-Fargeau-Ponthierry,87682542
-saint-feliu-d'avall,Saint-Féliu-d'Avall,87784520
-saint-florent-sur-cher,Saint-Florent-sur-Cher,87576272
+saint-etienne,Saint-Étienne Carnot,87726901
+saint-etienne,Saint-Étienne Châteaucreux,87726000
+saint-etienne,Saint-Étienne La Terrasse,87726158
+saint-etienne,Saint-Étienne Le Clapier,87726174
 saint-florentin,Saint-Florentin - Vergigny,87683318
 saint-flour,Saint-Flour - Chaudes-Aigues,87783175
-saint-fons,Saint-Fons,87728501
-saint-gaudens,Saint-Gaudens,87611137
-saint-genies-de-malgoires,Saint-Geniès-de-Malgoirès,87775361
-saint-genouph,Saint-Genouph,87571851
-saint-georges-d'aurac,Saint-Georges-d'Aurac,87734301
-saint-georges-de-commiers,Saint-Georges-de-Commiers,87747568
-saint-georges-de-luzençon,Saint-Georges-de-Luzençon,87783423
-saint-georges-de-reneins,Saint-Georges-de-Reneins,87721340
-saint-geours-de-maremne,Saint-Geours-de-Maremne,87673269
-saint-germain-au-mont-d'or,Saint-Germain-au-Mont-d'Or,87721282
-saint-germain-des-fosses,Saint-Germain-des-Fossés,87732206
-saint-germain-du-puy,Saint-Germain-du-Puy,87576405
-saint-germain-les-belles,Saint-Germain-les-Belles,87592287
-saint-germain-sur-ille,Saint-Germain-sur-Ille,87478016
-saint-gervais-les-bains le fayet,Saint-Gervais-les-Bains Le Fayet,87746479
-saint-gildas-des-bois,Saint-Gildas-des-Bois,87476762
-saint-gilles lycee haut-rhin,Saint-Gilles Lycée Haut-Rhin,87181552
-saint-gilles-croix-de-vie,Saint-Gilles-Croix-de-Vie,87486571
-saint-gratien,Saint-Gratien,87276170
 saint-hilaire,Saint-Hilaire - Brizambourg,87491324
-saint-hilaire-de-chaleons,Saint-Hilaire-de-Chaléons,87481234
-saint-hilaire-de-riez,Saint-Hilaire-de-Riez,87486563
-saint-hilaire-sur-helpe,Saint-Hilaire-sur-Helpe,87297531
-saint-jacques-de-la-lande,Saint-Jacques-de-la-Lande,87471052
-saint-jean-d'angely,Saint-Jean-d'Angély,87491357
-saint-jean-de-losne,Saint-Jean-de-Losne,87713651
+saint-hilaire,Saint-Hilaire - Saint-Nazaire,87761684
 saint-jean-de-luz,Saint-Jean-de-Luz - Ciboure,87677120
-saint-jean-de-maurienne arvan,Saint-Jean-de-Maurienne Arvan,87742320
-saint-jean-de-verges,Saint-Jean-de-Verges,87611624
-saint-jean-pied-de-port,Saint-Jean-Pied-de-Port,87673723
-saint-jodard,Saint-Jodard,87726851
-saint-jory,Saint-Jory,87611657
-saint-joseph le castellas,Saint-Joseph le Castellas,87759316
 saint-julien,Saint-Julien - Clénay,87713834
-saint-julien-du-sault,Saint-Julien-du-Sault,87683227
-saint-julien-en-genevois,Saint-Julien-en-Genevois,87745430
-saint-junien,Saint-Junien,87592709
-saint-just-en-chaussee,Saint-Just-en-Chaussée,87313270
 saint-laurent,Saint-Laurent - Gainneville,87413310
-saint-laurent-d'aigouze,Saint-Laurent-d'Aigouze,87775841
 saint-laurent-de-la-pree,Saint-Laurent-de-la-Prée - Fouras,87485136
-saint-laurent-du-var,Saint-Laurent-du-Var,87756346
-saint-laurent-en-grandvaux,Saint-Laurent-en-Grandvaux,87715417
-saint-leger-sur-dheune,Saint-Léger-sur-Dheune,87694364
-saint-leon-sur-l'isle,Saint-Léon-sur-l'Isle,87595264
-saint-leonard-de-noblat,Saint-Léonard-de-Noblat,87592071
-saint-leu-d'esserent,Saint-Leu-d'Esserent,87276402
-saint-leu-la-foret,Saint-Leu-la-Forêt,87276600
-saint-lo,Saint-Lô,87447003
-saint-lothain,Saint-Lothain,87718197
-saint-loubes,Saint-Loubès,87584730
-saint-louis,Saint-Louis,87182139
-saint-louis la chaussee,Saint-Louis La Chaussée,87181016
-saint-macaire,Saint-Macaire,87582825
-saint-maixent-l'ecole,Saint-Maixent-L'École,87485490
-saint-malo,Saint-Malo,87478107
-saint-mammes,Saint-Mammès,87682294
-saint-marcel,Saint-Marcel,87751701
-saint-marcel en dombes,Saint-Marcel en Dombes,87723742
-saint-marcellin,Saint-Marcellin,87761718
 saint-mariens,Saint-Mariens - Saint-Yzan,87491209
-saint-mars-la-briere,Saint-Mars-la-Brière,87396283
-saint-martin d'etampes,Saint-Martin d'Étampes,87545350
-saint-martin du touch,Saint-Martin du Touch,87353599
-saint-martin-d'oney,Saint-Martin-d'Oney,87671495
-saint-martin-de-crau,Saint-Martin-de-Crau,87753681
-saint-martin-du-mont,Saint-Martin-du-Mont,87743112
-saint-martin-le-beau,Saint-Martin-le-Beau,87574459
-saint-martory,Saint-Martory,87611103
-saint-mathurin-sur-loire,Saint-Mathurin-sur-Loire,87487892
-saint-maurice-de-beynost,Saint-Maurice-de-Beynost,87723536
-saint-medard-d'eyrans,Saint-Médard-d'Eyrans,87582692
-saint-medard-de-guizieres,Saint-Médard-de-Guizières,87584607
-saint-medard-sur-ille,Saint-Médard-sur-Ille,87478024
 saint-michel,Saint-Michel - Valloire,87742361
-saint-michel notre-dame,Saint-Michel Notre-Dame,87547315
-saint-michel-sur-meurthe,Saint-Michel-sur-Meurthe,87144683
-saint-michel-sur-orge,Saint-Michel-sur-Orge,87545202
-saint-nabord,Saint-Nabord,87146217
-saint-nazaire,Saint-Nazaire,87481705
-saint-nom-la-breteche foret de marly,Saint-Nom-la-Bretèche Forêt de Marly,87382481
-saint-nom-la-breteche foret de marly t13,Saint-Nom-la-Bretèche Forêt de Marly T13,87733071
-saint-omer,Saint-Omer,87281444
-saint-omer-en-chaussee,Saint-Omer-en-Chaussée,87313718
-saint-ouen,Saint-Ouen,87271247
-saint-ouen-l'aumone,Saint-Ouen-l'Aumône,87276105
-saint-ouen-l'aumone liesse,Saint-Ouen-l'Aumône Liesse,87337980
-saint-ouen-l'aumone quartier de l'eglise,Saint-Ouen-l'Aumône Quartier de l'Église,87381426
-saint-paterne-racan,Saint-Paterne-Racan,87571554
-saint-patrice,Saint-Patrice,87571810
-saint-paul-de-varax,Saint-Paul-de-Varax,87723783
-saint-pe-de-bigorre,Saint-Pé-de-Bigorre,87671362
-saint-peray,Saint-Péray,87761494
-saint-piat,Saint-Piat,87394148
-saint-pierre-d'albigny,Saint-Pierre-d'Albigny,87741223
-saint-pierre-d'aurillac,Saint-Pierre-d'Aurillac,87582833
-saint-pierre-de-chignac,Saint-Pierre-de-Chignac,87595520
-saint-pierre-des-corps,Saint-Pierre-des-Corps,87571240
-saint-pierre-en-faucigny,Saint-Pierre-en-Faucigny,87746313
-saint-pierre-la-cour,Saint-Pierre-la-Cour,87478768
-saint-pierre-le-moutier,Saint-Pierre-le-Moûtier,87696294
-saint-pierre-quiberon,Saint-Pierre-Quiberon,87476440
-saint-pierre-sur-dives,Saint-Pierre-sur-Dives,87444216
-saint-pol-sur-ternoise,Saint-Pol-sur-Ternoise,87342337
-saint-priest,Saint-Priest,87723353
-saint-priest-taurion,Saint-Priest-Taurion,87592055
-saint-quentin,Saint-Quentin,87296004
 saint-quentin en yvelines,Saint-Quentin en Yvelines - Montigny-le-Bretonneux,87393843
-saint-quentin-fallavier,Saint-Quentin-Fallavier,87723387
-saint-rambert-d'albon,Saint-Rambert-d'Albon,87761106
-saint-rambert-en-bugey,Saint-Rambert-en-Bugey,87743740
-saint-raphael valescure,Saint-Raphaël Valescure,87757526
-saint-remy-en-l'eau,Saint-Remy-en-l'Eau,87313288
-saint-roch,Saint-Roch,87313080
-saint-romain-de-popey,Saint-Romain-de-Popey,87721456
-saint-romain-le-puy,Saint-Romain-le-Puy,87726430
-saint-rome-de-cernon,Saint-Rome-de-Cernon,87783431
-saint-saturnin-les-avignon,Saint-Saturnin-lès-Avignon,87765438
-saint-savinien,Saint-Savinien,87491035
-saint-saviol,Saint-Saviol,87575365
-saint-sebastien,Saint-Sébastien,87592493
-saint-sebastien frene rond,Saint-Sébastien Frêne Rond,87354597
-saint-sebastien pas enchantes,Saint-Sébastien Pas Enchantés,87354589
 saint-senoux,Saint-Senoux - Pléchâtel,87471169
-saint-seurin-sur-l'isle,Saint-Seurin-sur-l'Isle,87584615
 saint-sulpice,Saint-Sulpice - Auteuil,87313684
-saint-sulpice tarn,Saint-Sulpice (Tarn),87615344
-saint-sulpice-lauriere,Saint-Sulpice-Laurière,87592345
-saint-symphorien-de-marmagne,Saint-Symphorien-de-Marmagne,87694174
-saint-thegonnec,Saint-Thégonnec,87474312
-saint-vallier sur rhone,Saint-Vallier sur Rhône,87761130
+saint-sulpice,Saint-Sulpice - Izon,87584722
 saint-victor,Saint-Victor - Thizy,87721043
-saint-victor-l'abbaye,Saint-Victor-l'Abbaye,87415166
-saint-victurnien,Saint-Victurnien,87592683
-saint-vincent le chateau,Saint-Vincent le Château,87734715
-saint-vincent-de-tyrosse,Saint-Vincent-de-Tyrosse,87673277
-saint-vit,Saint-Vit,87718320
-saint-yrieix-la-perche,Saint-Yrieix-la-Perche,87592824
 sainte,Sainte-Anne,87476648
+sainte,Sainte-Bazeille,87586479
+sainte,Sainte-Colombe,87715151
+sainte,Sainte-Colombe Septveilles,87116178
+sainte,Sainte-Cécile-d'Andorge,87775239
+sainte,Sainte-Foy-la-Grande,87584193
+sainte,Sainte-Gauburge,87444604
+sainte,Sainte-Geneviève-des-Bois,87545210
+sainte,Sainte-Lizaigne,87597054
+sainte,Sainte-Marthe en Provence,87751842
+sainte,Sainte-Pazanne,87481226
 sainte-eulalie,Sainte-Eulalie - Carbon-Blanc,87491282
 sainte-maure,Sainte-Maure - Noyant,87575050
 saintes,Saintes,87491001
@@ -2297,10 +2385,10 @@ sallanches,Sallanches - Combloux - Megève,87746438
 sallaumines,Sallaumines,87345215
 salles,Salles-Courbatiès,87613877
 salome,Salomé,87342451
-salon-de-provence,Salon-de-Provence,87753764
+salon,Salon-de-Provence,87753764
 salses,Salses-le-Château,87784157
 sannois,Sannois,87276188
-sanry-sur-nied,Sanry-sur-Nied,87192229
+sanry,Sanry-sur-Nied,87192229
 santenay les bains,Santenay les Bains,87713594
 santes,Santes,87286401
 santeuil,Santeuil - Le Perchay,87381186
@@ -2309,7 +2397,7 @@ sarcelles,Sarcelles - Saint-Brice,87276386
 sarlat,Sarlat-la-Canéda,87595827
 sarlieve,Sarliève - Cournon,87734152
 sarrance,Sarrance,87672766
-sarre-union,Sarre-Union,87215459
+sarre,Sarre-Union,87215459
 sarrebourg,Sarrebourg,87215012
 sarreguemines,Sarreguemines,87193615
 sartrouville,Sartrouville,87386417
@@ -2324,10 +2412,10 @@ savenay,Savenay,87481838
 savennieres,Savennières - Béhuard,87484329
 saverdun,Saverdun,87611368
 saverne,Saverne,87212225
-savigny-le-temple,Savigny-le-Temple - Nandy,87682187
 savigny,Savigny-sur-Orge,87545236
+savigny-le-temple,Savigny-le-Temple - Nandy,87682187
 savonnieres,Savonnières,87571844
-savy-berlette,Savy-Berlette,87342253
+savy,Savy-Berlette,87342253
 sceaux,Sceaux - Boëssé,87396317
 scherwiller,Scherwiller,87214205
 schirmeck,Schirmeck - La Broque,87214692
@@ -2338,12 +2426,13 @@ sedan,Sedan,87172254
 sees,Sées,87444695
 selestat,Sélestat,87214056
 selles,Selles-Saint-Denis,87576140
+selles,Selles-sur-Cher,87576868
 seltz,Seltz,87212431
 senas,Sénas,87753715
 sennecey,Sennecey-le-Grand,87725614
 senozan,Senozan,87725671
 sens,Sens,87683003
-sept-saulx,Sept-Saulx,87171645
+sept,Sept-Saulx,87171645
 septemes,Septèmes-les-Vallons,87751800
 serezin,Sérézin-du-Rhône,87722546
 serifontaine,Sérifontaine,87381269
@@ -2360,6 +2449,7 @@ sete,Sète,87773200
 seugy,Seugy,87272039
 seurre,Seurre,87713677
 severac,Sévérac,87476754
+severac,Sévérac-d'Aveyron,87783365
 sevran,Sevran - Livry,87271429
 sevran beaudottes,Sevran Beaudottes,87271445
 sevres,Sèvres - Ville-d'Avray,87382341
@@ -2367,10 +2457,10 @@ sevres rive gauche,Sèvres Rive Gauche,87393124
 seyssel,Seyssel - Corbonod,87745828
 sierck,Sierck-les-Bains,87191635
 sierentz,Sierentz,87182105
-sille-le-guillaume,Sillé-le-Guillaume,87396234
+sille,Sillé-le-Guillaume,87396234
 simandre,Simandre-sur-Suran,87743336
 simiane,Simiane-Collongue,87751438
-sin-le-noble,Sin-le-Noble,87345405
+sin,Sin-le-Noble,87345405
 siorac,Siorac-en-Périgord,87595769
 sisteron,Sisteron,87751206
 soissons,Soissons,87271817
@@ -2393,14 +2483,15 @@ steenwerck,Steenwerck,87286161
 steinbourg,Steinbourg,87212209
 stephansfeld,Stephansfeld,87212126
 strasbourg,Strasbourg,87212027
+strasbourg,Strasbourg Roethig,87212191
 strazeele,Strazeele,87286203
-suce-sur-erdre,Sucé-sur-Erdre,87590828
+suce,Sucé-sur-Erdre,87590828
 suevres,Suèvres,87574236
 surdon,Surdon,87444562
 suresnes mont valerien,Suresnes Mont Valérien,87382374
 surgeres,Surgères,87485227
 survilliers,Survilliers - Fosses,87276261
-sury-le-comtal,Sury-le-Comtal,87726422
+sury,Sury-le-Comtal,87726422
 tacoignieres,Tacoignières - Richebourg,87393454
 taconnaz,Taconnaz,87746750
 tain-l'hermitage,Tain-l'Hermitage - Tournon,87761163
@@ -2408,12 +2499,13 @@ talence medoquine,Talence Médoquine,87748350
 tanus,Tanus,87615674
 tarare,Tarare,87721472
 tarascon,Tarascon,87765354
+tarascon,Tarascon-sur-Ariège,87611590
 tarbes,Tarbes,87671008
 tassin,Tassin,87721514
 taverny,Taverny,87276634
 teille,Teillé,87396051
 templeuve,Templeuve,87286625
-tenay - hauteville,Tenay - Hauteville,87743757
+tenay,Tenay - Hauteville,87743757
 tergnier,Tergnier,87296442
 terrasson,Terrasson-Lavilledieu,87594408
 tessonnieres,Tessonnières,87615245
@@ -2427,7 +2519,7 @@ thenissey,Thenissey,87713099
 thenon,Thenon,87595579
 theoule,Théoule-sur-Mer,87757583
 thesee,Thésée,87328195
-thezy-glimont,Thézy-Glimont,87316125
+thezy,Thézy-Glimont,87316125
 thiaville,Thiaville-sur-Meurthe,87141432
 thiennes,Thiennes,87342287
 thiers,Thiers,87734475
@@ -2451,6 +2543,7 @@ torfou,Torfou-Sèvremoine,87486894
 torpes,Torpes - Boussières,87718114
 toul,Toul,87141044
 toulon,Toulon,87755009
+toulon,Toulon Sainte-Musse,87742262
 toulouse,Toulouse Matabiau,87611004
 tourcoing,Tourcoing,87286542
 tournan,Tournan-en-Brie,87116210
@@ -2460,17 +2553,17 @@ tournus,Tournus,87725622
 tours,Tours,87571000
 tourville,Tourville-la-Rivière,87411181
 toury,Toury,87543074
-tracy - sancerre,Tracy - Sancerre,87696161
+tracy,Tracy - Sancerre,87696161
 traou nez,Traou Nez,87322347
 trappes,Trappes,87393835
 tregonneau,Trégonneau - Squiffiec,87473819
 trelaze,Trélazé,87701532
 tremolat,Trémolat,87584474
 tricot,Tricot,87313353
-trie-chateau,Trie-Château,87381236
-triel-sur-seine,Triel-sur-Seine,87381806
+trie,Trie-Château,87381236
+triel,Triel-sur-Seine,87381806
 trilport,Trilport,87116491
-trith-saint-leger,Trith-Saint-Léger,87343400
+trith,Trith-Saint-Léger,87343400
 trois chenes,Trois Chênes,87184242
 tronsanges,Tronsanges,87696203
 trouville,Trouville - Deauville,87444372
@@ -2481,26 +2574,26 @@ turckheim,Turckheim,87182352
 turenne,Turenne,87594556
 uchaud,Uchaud,87775106
 uckange,Uckange,87191130
-urçay - la perche,Urçay - La Perche,87576348
 urmatt,Urmatt,87214635
 urt,Urt,87672386
+urçay,Urçay - La Perche,87576348
 us,Us,87381178
 ussel,Ussel,87594093
 ustaritz jatxou,Ustaritz Jatxou,87673624
 uzerche,Uzerche,87594200
 vaas,Vaas,87396598
 vaires,Vaires - Torcy,87116293
+val,Val-de-Reuil,87415877
+val,Val-de-Vesle,87171611
 val d'argenteuil,Val d'Argenteuil,87381798
 val de fontenay,Val de Fontenay,87113712
-val-de-reuil,Val-de-Reuil,87415877
-val-de-vesle,Val-de-Vesle,87171611
 valdahon,Valdahon,87718544
 valdahon camp militaire,Valdahon Camp Militaire,87718601
-valençay,Valençay,87576215
 valence,Valence,87761007
 valence d'agen,Valence d'Agen,87611863
 valence tgv rhone,Valence TGV Rhône-Alpes Sud,87763029
 valenciennes,Valenciennes,87343004
+valençay,Valençay,87576215
 valergues,Valergues - Lansargues,87773432
 valleiry,Valleiry,87745414
 valleroy,Valleroy - Moineville,87192732
@@ -2514,6 +2607,7 @@ vanves,Vanves - Malakoff,87391532
 varades,Varades - Saint-Florent le Vieil,87484386
 varangeville,Varangéville - Saint-Nicolas,87141101
 varennes,Varennes-sur-Allier,87696351
+varennes,Varennes-sur-Fouzon,87576231
 varetz,Varetz,87594606
 varilhes,Varilhes,87611327
 vauboyen,Vauboyen,87393538
@@ -2522,7 +2616,7 @@ vaucresson,Vaucresson,87382267
 vaudagne,Vaudagne,87746727
 vaumoise,Vaumoise,87271601
 vauvert,Vauvert,87775817
-vaux-sur-seine,Vaux-sur-Seine,87381814
+vaux,Vaux-sur-Seine,87381814
 vauxaillon,Vauxaillon,87297283
 vauzelles,Vauzelles,87691469
 vayrac,Vayrac,87594739
@@ -2533,6 +2627,7 @@ velars,Velars-sur-Ouche,87712331
 velines,Vélines,87584177
 vendenheim,Vendenheim,87212118
 vendeuvre,Vendeuvre-sur-Barse,87118257
+vendome,Vendôme - Villiers-sur-Loir TGV,87571216
 vendome,Vendôme,87574558
 venerque,Venerque - Vernet,87611392
 venissieux,Vénissieux,87723320
@@ -2540,9 +2635,10 @@ verdun,Verdun,87175778
 veretz,Véretz - Montlouis,87574434
 vergeze,Vergèze - Codognan,87775114
 vermenton,Vermenton,87683664
-vern-sur-seiche,Vern-sur-Seiche,87471029
+vern,Vern-sur-Seiche,87471029
 vernaison,Vernaison,87722264
 verneuil,Verneuil-l'Étang,87116079
+verneuil,Verneuil-sur-Avre,87393595
 vernon,Vernon - Giverny,87415604
 vernou,Vernou-la-Celle-sur-Seine,87682468
 vernouillet,Vernouillet - Verneuil,87386656
@@ -2561,9 +2657,9 @@ veynes devoluy,Veynes Dévoluy,87763300
 viaduc sainte,Viaduc Sainte-Marie,87746735
 viarmes,Viarmes,87276568
 vias,Vias,87781260
-vic - mireval,Vic - Mireval,87773531
-vic-le-comte,Vic-le-Comte,87734186
-vic-sur-cere,Vic-sur-Cère,87645440
+vic,Vic - Mireval,87773531
+vic,Vic-le-Comte,87734186
+vic,Vic-sur-Cère,87645440
 vichy,Vichy,87732008
 vidauban,Vidauban,87755421
 vieilleville,Vieilleville,87597633
@@ -2572,8 +2668,8 @@ vienne,Vienne,87722587
 vierzon,Vierzon,87576009
 vierzon forges,Vierzon Forges,87576090
 vierzy,Vierzy,87271783
-vieux-thann,Vieux-Thann,87182550
-vieux-thann zone industrielle,Vieux-Thann Zone Industrielle,87181289
+vieux,Vieux-Thann,87182550
+vieux,Vieux-Thann Zone Industrielle,87181289
 vif,Vif,87747576
 vigeois,Vigeois,87594218
 vigneux,Vigneux-sur-Seine,87681304
@@ -2584,11 +2680,24 @@ villars,Villars-les-Dombes,87723759
 villedieu,Villedieu-les-Poêles,87447698
 villefort,Villefort,87775197
 villefranche,Villefranche - Vernet-les-Bains,87784686
+villefranche,Villefranche-de-Lauragais,87615013
+villefranche,Villefranche-de-Rouergue,87613893
+villefranche,Villefranche-du-Périgord,87595892
+villefranche,Villefranche-sur-Cher,87576884
+villefranche,Villefranche-sur-Mer,87756361
+villefranche,Villefranche-sur-Saône,87721332
 villefranque,Villefranque,87673616
 villeherviers,Villeherviers,87576165
 villenave,Villenave-d'Ornon,87581835
-villeneuve triage,Villeneuve Triage,87681809
 villeneuve,Villeneuve-la-Comtesse,87491258
+villeneuve,Villeneuve-la-Guyard,87683102
+villeneuve,Villeneuve-le-Roi,87545277
+villeneuve,Villeneuve-Loubet,87756304
+villeneuve,Villeneuve-lès-Maguelone,87773515
+villeneuve,Villeneuve-Saint-Georges,87681825
+villeneuve,Villeneuve-sur-Allier,87696310
+villeneuve,Villeneuve-sur-Yonne,87683219
+villeneuve triage,Villeneuve Triage,87681809
 villennes,Villennes-sur-Seine,87386649
 villenouvelle,Villenouvelle,87618215
 villeparisis,Villeparisis - Mitry-le-Neuf,87271510
@@ -2597,6 +2706,10 @@ villepinte,Villepinte,87271452
 villepreux,Villepreux - Les Clayes,87393413
 villereversure,Villereversure,87743328
 villers,Villers-Bretonneux,87313437
+villers,Villers-Cotterêts,87271734
+villers,Villers-Saint-Paul,87276378
+villers,Villers-Saint-Sépulcre,87313593
+villers,Villers-sur-Mer,87444398
 villetaneuse universite,Villetaneuse Université,87697318
 villiers,Villiers - Neauphle - Pontchartrain,87393884
 villiers montbarbin,Villiers Montbarbin,87116749
@@ -2604,24 +2717,24 @@ villiers-le-bel,Villiers-le-Bel - Gonesse - Arnouville,87276220
 villiers-sur-marne,Villiers-sur-Marne - Le Plessis-Trévise,87113795
 vimy,Vimy,87342576
 vinay,Vinay,87761726
-vinça,Vinça,87784611
 vincelles,Vincelles,87683631
 vincey,Vincey,87144063
-vions - chanaz,Vions - Chanaz,87741108
+vinça,Vinça,87784611
+vions,Vions - Chanaz,87741108
 vire,Vire,87448159
 vireux,Vireux-Molhain,87172114
 virieu sur bourbre,Virieu sur Bourbre,87747204
 virieu-le-grand,Virieu-le-Grand - Belley,87741504
 viroflay rive droite,Viroflay Rive Droite,87382887
 viroflay rive gauche,Viroflay Rive Gauche,87393215
-viry-chatillon,Viry-Châtillon,87681312
-viry-noureuil,Viry-Noureuil,87297051
+viry,Viry-Châtillon,87681312
+viry,Viry-Noureuil,87297051
 vis a marles,Vis à Marles,87342535
 vitre,Vitré,87471508
 vitrolles aeroport marseille provence,Vitrolles Aéroport Marseille Provence,87439554
-vitry-en-artois,Vitry-en-Artois,87342113
-vitry-le-françois,Vitry-le-François,87174276
-vitry-sur-seine,Vitry-sur-Seine,87545293
+vitry,Vitry-en-Artois,87342113
+vitry,Vitry-le-François,87174276
+vitry,Vitry-sur-Seine,87545293
 vittel,Vittel,87144279
 viviers,Viviers-du-Lac,87741140
 viviez,Viviez - Decazeville,87613661
@@ -2664,7 +2777,7 @@ xertigny,Xertigny,87144121
 ychoux,Ychoux,87582536
 yerres,Yerres,87682112
 yffiniac,Yffiniac,87473116
-ygos-saint-saturnin,Ygos-Saint-Saturnin,87671487
+ygos,Ygos-Saint-Saturnin,87671487
 ytrac,Ytrac,87645101
 yvetot,Yvetot,87413385
 zillisheim,Zillisheim,87182196

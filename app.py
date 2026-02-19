@@ -56,7 +56,7 @@ def load_split(split: str) -> pd.DataFrame:
 @st.cache_data
 def load_stations_geo() -> pd.DataFrame:
     df = pd.read_csv("data/processed/sncf/stations_clean.csv", encoding="utf-8")
-    return df[["uic_code", "city_name", "latitude", "longitude"]].dropna()
+    return df[["uic_code", "station_name", "city_name", "latitude", "longitude"]].dropna()
 
 
 def extract(sentence: str, model, model_type: str) -> dict:
@@ -64,7 +64,7 @@ def extract(sentence: str, model, model_type: str) -> dict:
     return _extract(sentence, model, model_type)
 
 
-def _display_route(cities: list, total_time: float):
+def _display_route(cities: list, total_time: float, segments: list = None):
     h = int(total_time // 60)
     m = int(total_time % 60)
 
@@ -80,9 +80,14 @@ def _display_route(cities: list, total_time: float):
 
     route_coords = []
     for city in cities:
+        # Try station_name first, then city_name
         matches = stations_geo[
-            stations_geo["city_name"].str.lower() == city.lower()
+            stations_geo["station_name"].str.lower() == city.lower()
         ]
+        if matches.empty:
+            matches = stations_geo[
+                stations_geo["city_name"].str.lower() == city.lower()
+            ]
         if matches.empty:
             route_coords.append({"city": city, "lat": None, "lon": None})
         else:
@@ -164,34 +169,96 @@ def _display_route(cities: list, total_time: float):
 
     # ── Liste des gares ─────────────────────────────────────────────────────
     with st.expander("Voir toutes les gares"):
+        line_badges = {
+            "TGV": "🚄 *TGV*",
+            "IC": "🚆 *Intercites*",
+            "TER": "🚈 *TER*",
+            "TRAIN": "🚆",
+            "CORRESP": "🚶 *Correspondance*",
+        }
         for i, city in enumerate(cities):
             icon = "🔴" if i in (0, len(cities) - 1) else "🔵"
             st.markdown(f"{icon} **{city}**" if i in (0, len(cities) - 1) else f"{icon} {city}")
 
 
-def find_route(origin: str, destination: str):
+def get_city_suggestions(city_name: str, gazetteer, city_mapping: dict) -> list:
+    """
+    Get all possible matches for a city name with connection status.
+
+    Returns:
+        List of tuples: [(canonical_city_name, has_connection), ...]
+    """
+    from src.nlp.postprocessing import get_all_matches
     from src.utils.pipeline import map_city_to_uic
-    from src.pathfinding.algorithms import dijkstra, InvalidStationError, NoPathError
+
+    matches = get_all_matches(city_name, gazetteer)
+
+    suggestions = []
+    for city in matches:
+        uic = map_city_to_uic(city, city_mapping)
+        has_connection = bool(uic)
+        suggestions.append((city, has_connection))
+
+    return suggestions
+
+
+def find_route(origin: str, destination: str):
+    """
+    Find route between two cities.
+
+    Returns:
+        (cities, total_time, segments, err, err_type)
+        - cities: list of station names along route
+        - total_time: total travel time in minutes
+        - segments: list of segment dicts with line_code, duration, etc.
+        - err: error message string or None
+        - err_type: "origin" or "destination" if error relates to a specific city, else None
+    """
+    from src.utils.pipeline import map_city_to_uic
+    from src.pathfinding.algorithms import dijkstra, get_route_details, InvalidStationError, NoPathError
     from src.pathfinding.graph_loader import get_station_info
+    from src.nlp.gazetteer import load_gazetteer, KNOWN_FOREIGN_CITIES
+    from src.nlp.postprocessing import get_all_matches
+    from src.nlp.preprocessing import preprocess_for_matching
 
     graph, mapping = get_graph_and_mapping()
+    gazetteer = load_gazetteer()
+
     o_uic = map_city_to_uic(origin, mapping)
     d_uic = map_city_to_uic(destination, mapping)
 
+    # Check for ambiguous short names EVEN if mapping found
+    if o_uic and len(origin) <= 15:
+        matches = get_all_matches(origin, gazetteer)
+        if len(matches) > 1:
+            return None, None, None, f"Ville '{origin}' ambigue - plusieurs correspondances possibles", "origin"
+
+    if d_uic and len(destination) <= 10:
+        matches = get_all_matches(destination, gazetteer)
+        if len(matches) > 1:
+            return None, None, None, f"Ville '{destination}' ambigue - plusieurs correspondances possibles", "destination"
+
     if not o_uic:
-        return None, None, f"Ville '{origin}' introuvable dans le reseau SNCF"
+        norm = preprocess_for_matching(origin)
+        if norm in KNOWN_FOREIGN_CITIES:
+            return None, None, None, f"'{origin}' n'est pas dans le reseau SNCF. Seules les gares francaises sont supportees.", None
+        return None, None, None, f"Ville '{origin}' introuvable dans le reseau SNCF", "origin"
     if not d_uic:
-        return None, None, f"Ville '{destination}' introuvable dans le reseau SNCF"
+        norm = preprocess_for_matching(destination)
+        if norm in KNOWN_FOREIGN_CITIES:
+            return None, None, None, f"'{destination}' n'est pas dans le reseau SNCF. Seules les gares francaises sont supportees.", None
+        return None, None, None, f"Ville '{destination}' introuvable dans le reseau SNCF", "destination"
 
     try:
         path, total_time = dijkstra(graph, o_uic, d_uic)
         cities = []
         for uic in path:
             info = get_station_info(graph, uic)
-            cities.append(info.get("city_name", uic) if info else uic)
-        return cities, total_time, None
+            cities.append(info.get("station_name", uic) if info else uic)
+        segments = get_route_details(path, graph)
+        return cities, total_time, segments, None, None
     except (InvalidStationError, NoPathError) as e:
-        return None, None, str(e)
+        return None, None, None, str(e), None
 
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -405,6 +472,16 @@ with tab_route:
 
     input_mode = st.radio("Mode de saisie", ["Phrase libre", "Villes directes"], horizontal=True)
 
+    # Initialize session state for suggestions
+    if "suggestions_origin" not in st.session_state:
+        st.session_state["suggestions_origin"] = None
+    if "suggestions_destination" not in st.session_state:
+        st.session_state["suggestions_destination"] = None
+    if "selected_origin" not in st.session_state:
+        st.session_state["selected_origin"] = None
+    if "selected_destination" not in st.session_state:
+        st.session_state["selected_destination"] = None
+
     if input_mode == "Phrase libre":
         phrase_route = st.text_input("Phrase", value="de nice a toulouse", key="route_phrase")
         if st.button("Calculer l'itineraire", type="primary", key="route_btn_phrase"):
@@ -420,28 +497,95 @@ with tab_route:
                 st.info(f"Extrait : **{origin_r}** → **{destination_r}**")
 
                 with st.spinner("Calcul de l'itineraire..."):
-                    cities, total_time, err = find_route(origin_r, destination_r)
+                    cities, total_time, segments, err, err_type = find_route(origin_r, destination_r)
 
                 if err:
                     st.error(err)
+
+                    # Check for suggestions when city not found
+                    if err_type in ["origin", "destination"]:
+                        from src.nlp.gazetteer import load_gazetteer
+                        gazetteer = load_gazetteer()
+                        _, mapping = get_graph_and_mapping()
+
+                        city_not_found = origin_r if err_type == "origin" else destination_r
+                        suggestions = get_city_suggestions(city_not_found, gazetteer, mapping)
+
+                        if suggestions:
+                            st.info(f"🔍 **Villes similaires trouvées pour '{city_not_found}' :**")
+
+                            # Display suggestions with connection status
+                            for city, has_connection in suggestions:
+                                status_icon = "✅" if has_connection else "⚠️"
+                                status_text = "connectée" if has_connection else "non connectée"
+                                st.markdown(f"{status_icon} **{city}** ({status_text})")
+
+                            st.markdown("💡 *Corrigez le nom de la ville dans votre phrase et réessayez.*")
+                        else:
+                            st.warning(f"Aucune ville similaire trouvée pour '{city_not_found}'.")
                 elif cities:
-                    _display_route(cities, total_time)
+                    _display_route(cities, total_time, segments)
 
     else:
         c1, c2 = st.columns(2)
         with c1:
-            origin_direct = st.text_input("Ville de depart", value="Paris")
+            origin_direct = st.text_input("Ville de depart", value="Paris", key="origin_input")
         with c2:
-            dest_direct = st.text_input("Ville d'arrivee", value="Marseille")
+            dest_direct = st.text_input("Ville d'arrivee", value="Marseille", key="dest_input")
 
         if st.button("Calculer l'itineraire", type="primary", key="route_btn_direct"):
             with st.spinner("Calcul de l'itineraire..."):
-                cities, total_time, err = find_route(origin_direct, dest_direct)
+                cities, total_time, segments, err, err_type = find_route(origin_direct, dest_direct)
 
             if err:
                 st.error(err)
+
+                # Check for suggestions when city not found
+                if err_type in ["origin", "destination"]:
+                    from src.nlp.gazetteer import load_gazetteer
+                    gazetteer = load_gazetteer()
+                    _, mapping = get_graph_and_mapping()
+
+                    city_not_found = origin_direct if err_type == "origin" else dest_direct
+                    suggestions = get_city_suggestions(city_not_found, gazetteer, mapping)
+
+                    if suggestions:
+                        st.info(f"🔍 **Villes similaires trouvées pour '{city_not_found}' :**")
+
+                        # Interactive selection with radio buttons
+                        suggestion_options = []
+                        for city, has_connection in suggestions:
+                            status_icon = "✅" if has_connection else "⚠️"
+                            status_text = "connectée" if has_connection else "non connectée"
+                            suggestion_options.append(f"{status_icon} {city} ({status_text})")
+
+                        selected_label = st.radio(
+                            f"Choisissez la ville correcte pour remplacer '{city_not_found}' :",
+                            suggestion_options,
+                            key=f"suggestion_radio_{err_type}"
+                        )
+
+                        # Extract city name from selected label (format: "✅ Paris (connectée)")
+                        if selected_label:
+                            selected_city = selected_label.split(" ")[1]  # Get city name
+
+                            if st.button("Confirmer et recalculer", key=f"confirm_{err_type}"):
+                                # Replace city and recalculate
+                                new_origin = selected_city if err_type == "origin" else origin_direct
+                                new_dest = selected_city if err_type == "destination" else dest_direct
+
+                                with st.spinner("Recalcul de l'itinéraire..."):
+                                    cities, total_time, segments, err, _ = find_route(new_origin, new_dest)
+
+                                if err:
+                                    st.error(err)
+                                elif cities:
+                                    st.success(f"Itineraire trouve avec **{selected_city}** !")
+                                    _display_route(cities, total_time, segments)
+                    else:
+                        st.warning(f"Aucune ville similaire trouvée pour '{city_not_found}'.")
             elif cities:
-                _display_route(cities, total_time)
+                _display_route(cities, total_time, segments)
 
 
 # ══════════════════════════════════════════════════════════════════════════════

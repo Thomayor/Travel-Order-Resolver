@@ -44,6 +44,23 @@ AMBIGUOUS_CITY_NAMES = {
     "Amiens": "city"  # Can be confused with "amis" (friends)
 }
 
+# Known foreign cities (not in SNCF network)
+# Note: cities like "Vienne" or "Luxembourg" exist in France too — check SNCF mapping first
+KNOWN_FOREIGN_CITIES = {
+    "london", "londres", "berlin", "madrid", "roma", "rome",
+    "amsterdam", "barcelona", "barcelone", "lisboa", "lisbonne",
+    "moscow", "moscou", "new york", "tokyo", "beijing", "pekin",
+    "mumbai", "sydney", "toronto", "chicago", "los angeles",
+    "dublin", "edinburgh", "edimbourg", "vienna", "vienne",
+    "munich", "munchen", "hamburg", "hambourg", "frankfurt", "francfort",
+    "zurich", "geneve", "berne", "milano", "milan", "napoli", "naples",
+    "venezia", "venise", "firenze", "bruxelles", "brussels",
+    "liege", "porto", "sevilla", "seville", "valencia", "valence",
+    "prague", "varsovie", "warsaw", "budapest", "bucarest",
+    "athenes", "athens", "istanbul", "copenhague", "copenhagen",
+    "stockholm", "oslo", "helsinki",
+}
+
 # Common misspellings and variations
 CITY_ALIASES = {
     "paris": ["paris", "pari", "parris", "pariz"],
@@ -68,7 +85,7 @@ class Gazetteer:
     """
 
     def __init__(self):
-        """Initialize gazetteer with default French cities."""
+        """Initialize gazetteer with default French cities and SNCF station data."""
         self.cities: Set[str] = set()
         self.stations: Set[str] = set()
         self.aliases: Dict[str, List[str]] = {}
@@ -76,6 +93,9 @@ class Gazetteer:
 
         # Load default data
         self._load_default_cities()
+
+        # Enrich from actual SNCF station database
+        self.load_from_stations_csv()
 
     def _load_default_cities(self):
         """Load default list of major French cities."""
@@ -215,6 +235,29 @@ class Gazetteer:
         # Return only matches within max_distance
         return [(name, dist) for name, dist in matches if dist <= max_distance]
 
+    def load_from_stations_csv(self, stations_file: str = "data/processed/sncf/stations_clean.csv"):
+        """
+        Load all city names from the actual SNCF station database.
+
+        This enriches the gazetteer from 50 hardcoded cities to all 2782 SNCF stations.
+        """
+        path = Path(stations_file)
+        if not path.exists():
+            return  # Silently skip if file not found (e.g., in tests)
+
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    city = row.get('city_name', '')
+                    station = row.get('station_name', '')
+                    if city:
+                        self.add_city(city)
+                    if station:
+                        self.add_station(station)
+        except Exception:
+            pass  # Fall back to hardcoded cities
+
     def load_from_csv(self, filepath: str, city_column: str = 'city'):
         """
         Load cities from a CSV file.
@@ -321,16 +364,30 @@ class Gazetteer:
 
 def load_gazetteer(filepath: Optional[str] = None) -> Gazetteer:
     """
-    Load and return a Gazetteer instance.
+    Load and return a Gazetteer instance with SNCF station names.
 
     Args:
         filepath: Optional path to JSON file to load additional data
 
     Returns:
-        Gazetteer instance with default French cities
+        Gazetteer instance loaded from SNCF stations
     """
+    import pandas as pd
+
     gaz = Gazetteer()
 
+    # Load from SNCF stations_clean.csv using station_name (not city_name which is broken)
+    stations_file = Path("data/processed/sncf/stations_clean.csv")
+    if stations_file.exists():
+        try:
+            df = pd.read_csv(stations_file, encoding='utf-8')
+            # Use station_name column (city_name is broken for Saint-* cities)
+            for station_name in df['station_name'].dropna().unique():
+                gaz.add_city(station_name)
+        except Exception as e:
+            print(f"Warning: Could not load gazetteer from {stations_file}: {e}")
+
+    # Load additional data from JSON if provided
     if filepath and Path(filepath).exists():
         gaz.load_from_json(filepath)
 

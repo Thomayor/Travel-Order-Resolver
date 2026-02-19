@@ -87,7 +87,14 @@ def _extract(sentence: str, model, model_type: str) -> Dict:
     {'origin': str|None, 'destination': str|None, 'valid': bool}
     """
     if model_type == 'camembert':
-        _, _, origin, destination = model.predict(sentence)
+        tokens, labels, origin, destination = model.predict(sentence)
+
+        # Apply person/city disambiguation
+        from src.nlp.postprocessing import disambiguate_person_vs_city
+        origin, destination = disambiguate_person_vs_city(
+            tokens, labels, origin, destination
+        )
+
         return {
             'origin': origin,
             'destination': destination,
@@ -150,8 +157,9 @@ def map_city_to_uic(city_name: str, city_mapping: Dict[str, str]) -> Optional[st
     """
     Map city name to UIC station code.
 
-    This function normalizes the city name (lowercase, accents removed)
-    and looks it up in the city mapping dictionary.
+    This function normalizes the city name and looks it up in the city mapping.
+    If no exact match is found, it tries partial/prefix matching to handle
+    short names like "aix" → "aix-en-provence".
 
     Args:
         city_name: City name as extracted by NLP module
@@ -159,15 +167,6 @@ def map_city_to_uic(city_name: str, city_mapping: Dict[str, str]) -> Optional[st
 
     Returns:
         UIC code as string, or None if not found
-
-    Example:
-        >>> mapping = load_city_mapping()
-        >>> uic = map_city_to_uic("Paris", mapping)
-        >>> print(uic)
-        '87686006'
-        >>> uic = map_city_to_uic("ParisXYZ", mapping)
-        >>> print(uic)
-        None
     """
     if not city_name:
         return None
@@ -175,8 +174,24 @@ def map_city_to_uic(city_name: str, city_mapping: Dict[str, str]) -> Optional[st
     # Normalize city name (same as NLP preprocessing)
     normalized = preprocess_for_matching(city_name)
 
-    # Look up in mapping
-    return city_mapping.get(normalized)
+    # 1. Exact match
+    exact_uic = city_mapping.get(normalized)
+
+    # 2. If exact match exists, use it directly
+    # The mapping CSV already maps "lyon" → Lyon Part-Dieu (main station)
+    if exact_uic:
+        return exact_uic
+
+    # 3. No exact match: try prefix matching
+    prefix_candidates = []
+    for key, uic in city_mapping.items():
+        if key.startswith(normalized + "-") or key.startswith(normalized + " "):
+            prefix_candidates.append((key, uic))
+
+    if prefix_candidates:
+        return prefix_candidates[0][1]
+
+    return None
 
 
 def handle_errors(sentence_id: str, error: Exception) -> Dict:
@@ -324,16 +339,34 @@ def process_single_sentence(
         result['destination_uic'] = dest_uic
 
         # Check if mapping was successful
+        from src.nlp.gazetteer import KNOWN_FOREIGN_CITIES
+
         if not origin_uic:
-            logger.warning(f"[{sentence_id}] Origin city '{result['origin']}' not found in station mapping")
-            result['error_type'] = 'CityMappingError'
-            result['error_message'] = f"Origin city '{result['origin']}' not found in station database"
+            origin_normalized = preprocess_for_matching(result['origin'])
+            if origin_normalized in KNOWN_FOREIGN_CITIES:
+                result['error_type'] = 'ForeignCityError'
+                result['error_message'] = (
+                    f"'{result['origin']}' n'est pas dans le réseau SNCF. "
+                    f"Cette application ne couvre que les gares françaises."
+                )
+            else:
+                result['error_type'] = 'CityMappingError'
+                result['error_message'] = f"Ville d'origine '{result['origin']}' introuvable dans la base de gares"
+            logger.warning(f"[{sentence_id}] {result['error_type']}: {result['error_message']}")
             return result
 
         if not dest_uic:
-            logger.warning(f"[{sentence_id}] Destination city '{result['destination']}' not found in station mapping")
-            result['error_type'] = 'CityMappingError'
-            result['error_message'] = f"Destination city '{result['destination']}' not found in station database"
+            dest_normalized = preprocess_for_matching(result['destination'])
+            if dest_normalized in KNOWN_FOREIGN_CITIES:
+                result['error_type'] = 'ForeignCityError'
+                result['error_message'] = (
+                    f"'{result['destination']}' n'est pas dans le réseau SNCF. "
+                    f"Cette application ne couvre que les gares françaises."
+                )
+            else:
+                result['error_type'] = 'CityMappingError'
+                result['error_message'] = f"Ville de destination '{result['destination']}' introuvable dans la base de gares"
+            logger.warning(f"[{sentence_id}] {result['error_type']}: {result['error_message']}")
             return result
 
         logger.debug(f"[{sentence_id}] UIC mapping: {origin_uic} -> {dest_uic}")
@@ -343,13 +376,13 @@ def process_single_sentence(
             # Find full path with intermediate stops
             path, total_time = dijkstra(graph, origin_uic, dest_uic)
 
-            # Convert UIC codes to city names for route
+            # Convert UIC codes to station names for route
             route = []
             for uic in path:
                 station_info = get_station_info(graph, uic)
                 if station_info:
-                    # Use city name, not station name
-                    route.append(station_info.get('city_name', station_info['station_name']))
+                    # Use station name (gare name) to avoid duplicates
+                    route.append(station_info['station_name'])
                 else:
                     route.append(uic)  # Fallback to UIC if info not found
 
