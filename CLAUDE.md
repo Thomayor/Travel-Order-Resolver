@@ -78,7 +78,32 @@ python scripts/generate_all_sncf_connections.py
 
 **Si vous voyez "Nice -> Toulouse : 13 stops"** : C'est normal, les données GTFS actuelles n'ont pas toutes les connexions TGV directes.
 
-### Étape 3 : Modèle CamemBERT (Optionnel - pour 96% précision)
+### Étape 3 : Saisie vocale (Optionnel - 100% GRATUIT !)
+
+🎉 **Bonne nouvelle** : La saisie vocale est maintenant **entièrement gratuite** !
+
+**⚠️ PRÉREQUIS** : Les dépendances speech-to-text sont déjà dans `requirements.txt`, elles ont été installées à l'Étape 1.
+
+**Aucune configuration nécessaire** ! Le module utilise Google Speech Recognition qui est :
+- ✅ 100% gratuit
+- ✅ Aucune clé API requise
+- ✅ ~50 requêtes/jour (largement suffisant pour un usage personnel)
+- ✅ Excellente qualité de transcription en français
+
+**Utilisation dans l'interface** :
+1. Aller dans l'onglet "🗺️ Itinéraire"
+2. Sélectionner mode "Phrase libre"
+3. Sélectionner méthode "🎙️ Voix"
+4. Cliquer sur le microphone et parler (exemple : "Je veux aller de Paris à Lyon")
+5. L'enregistrement s'arrête automatiquement après 2 secondes de silence
+6. La transcription s'affiche via Google Speech Recognition (gratuit)
+7. Cliquer sur "Calculer l'itinéraire"
+
+**Quota** : ~50 requêtes/jour (gratuit)
+
+**Note** : Nécessite une connexion internet pour envoyer l'audio à Google.
+
+### Étape 4 : Modèle CamemBERT (Optionnel - pour 96% précision)
 
 Le modèle CamemBERT fine-tuné est **optionnel**. Le Baseline fonctionne sans (~60-70% précision).
 
@@ -705,6 +730,8 @@ cat itineraire.csv
 - [ ] Dépendances installées (`pip install -r requirements.txt`)
 - [ ] **Données SNCF générées** (`python scripts/generate_stations_from_gtfs.py && python scripts/generate_all_sncf_connections.py`)
 - [ ] Modèle CamemBERT téléchargé (optionnel - si on veut 96% de précision)
+
+**Note** : La saisie vocale est maintenant gratuite (Google Speech Recognition), aucune configuration supplémentaire requise !
 
 ### Démarrage rapide
 

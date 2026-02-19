@@ -4,6 +4,7 @@ Travel Order Resolver — Streamlit App
 Run with: streamlit run app.py
 """
 
+import os
 import sys
 import warnings
 from pathlib import Path
@@ -15,6 +16,14 @@ import streamlit as st
 
 warnings.filterwarnings("ignore")
 sys.path.insert(0, str(Path(__file__).parent))
+
+# Speech-to-Text
+try:
+    from audio_recorder_streamlit import audio_recorder
+    from src.nlp.speech_to_text import transcribe_audio, is_api_key_configured, validate_audio_bytes
+    SPEECH_TO_TEXT_AVAILABLE = True
+except ImportError:
+    SPEECH_TO_TEXT_AVAILABLE = False
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Page config
@@ -483,8 +492,77 @@ with tab_route:
         st.session_state["selected_destination"] = None
 
     if input_mode == "Phrase libre":
-        phrase_route = st.text_input("Phrase", value="de nice a toulouse", key="route_phrase")
-        if st.button("Calculer l'itineraire", type="primary", key="route_btn_phrase"):
+        # Input method selection (Text or Voice)
+        available_methods = ["✍️ Texte"]
+        if SPEECH_TO_TEXT_AVAILABLE and is_api_key_configured():
+            available_methods.append("🎙️ Voix")
+
+        input_method = st.radio(
+            "Méthode de saisie",
+            available_methods,
+            horizontal=True,
+            key="input_method_route"
+        )
+
+        phrase_route = ""
+
+        # Text input mode
+        if input_method == "✍️ Texte":
+            phrase_route = st.text_input(
+                "Phrase",
+                value="de nice a toulouse",
+                placeholder="Ex: Je veux aller de Paris à Lyon",
+                key="route_phrase"
+            )
+
+        # Voice input mode
+        elif input_method == "🎙️ Voix":
+            st.info("🎤 Cliquez sur le microphone et parlez (exemple : 'Je veux aller de Paris à Lyon')")
+            st.caption("🆓 Utilise Google Speech Recognition (gratuit, ~50 requêtes/jour)")
+
+            audio_bytes = audio_recorder(
+                text="",
+                recording_color="#e74c3c",
+                neutral_color="#3498db",
+                icon_size="2x",
+                pause_threshold=2.0  # Stop recording after 2s of silence
+            )
+
+            if audio_bytes:
+                # Validate audio
+                is_valid, error_msg = validate_audio_bytes(audio_bytes, min_size=1000)
+
+                if not is_valid:
+                    st.warning(f"⚠️ {error_msg}")
+                else:
+                    with st.spinner("🎧 Transcription en cours via Google..."):
+                        try:
+                            phrase_route = transcribe_audio(
+                                audio_bytes,
+                                language="fr-FR"
+                            )
+                            st.success(f"✅ Transcription : **{phrase_route}**")
+                        except Exception as e:
+                            st.error(f"❌ Erreur de transcription : {e}")
+                            st.info("💡 Essayez à nouveau ou basculez sur la saisie texte.")
+                            phrase_route = ""
+            else:
+                st.caption("En attente d'enregistrement...")
+
+        # Warning if voice input not available
+        if not SPEECH_TO_TEXT_AVAILABLE:
+            with st.expander("ℹ️ Activer la saisie vocale"):
+                st.markdown("""
+                Pour utiliser la saisie vocale **gratuite**, installez les dépendances :
+                ```bash
+                pip install audio-recorder-streamlit SpeechRecognition pydub
+                ```
+
+                Aucune clé API requise ! Utilise Google Speech Recognition (gratuit).
+                """)
+
+        # Calculate route button (common for both input methods)
+        if st.button("Calculer l'itineraire", type="primary", key="route_btn_phrase", disabled=not phrase_route):
             with st.spinner("Extraction NLP..."):
                 model_c = get_camembert()
                 res     = extract(phrase_route, model_c, "camembert")
