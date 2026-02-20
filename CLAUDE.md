@@ -244,7 +244,7 @@ sentenceID,Departure,Step1,Step2,Destination
 ### Mode interactif : Tester des phrases en direct
 
 ```bash
-# Lancer le mode interactif
+# Lancer le mode interactif (texte uniquement)
 python main.py --interactive
 
 # Ou version courte
@@ -252,28 +252,52 @@ python main.py -I
 
 # Avec CamemBERT (recommandé)
 python main.py -I --model camembert
+
+# Avec saisie vocale (🎙️ GRATUIT !)
+python main.py -I --voice
+python main.py -I --voice --model camembert
 ```
 
-**Exemple d'utilisation** :
+**Exemple d'utilisation (texte)** :
 ```
 $ python main.py -I --model camembert
 
 === Mode interactif ===
 Entrez une phrase (ou 'quit' pour quitter) :
 
-> Je veux aller de Paris à Lyon
-✓ Origine: Paris
-✓ Destination: Lyon
+Sentence: Je veux aller de Paris à Lyon
 
-> j'veu alé de parris @ lyyon
-✓ Origine: Paris
-✓ Destination: Lyon
+  Origin:      Paris
+  Destination: Lyon
+  Route:  Paris Gare de Lyon -> Lyon Part-Dieu
+  Time:   120 min
 
-> Bonjour comment allez-vous
-✗ INVALID,INVALID (pas d'ordre de voyage)
+Sentence: quit
+Goodbye!
+```
 
-> quit
-Au revoir !
+**Exemple d'utilisation (voix)** :
+```
+$ python main.py -I --voice --model camembert
+
+Ready (camembert model + SNCF network loaded)
+Voice input enabled! (Press Enter for text, 'v' + Enter for voice)
+Type 'quit' or 'exit' to stop.
+
+Input [text/voice/quit]: v
+
+🎤 Enregistrement (5s)... Parlez maintenant !
+  5... 4... 3... 2... 1... ✓
+🎧 Transcription...
+  → Heard: 'Je veux aller de Paris à Lyon'
+
+  Origin:      Paris
+  Destination: Lyon
+  Route:  Paris Gare de Lyon -> Lyon Part-Dieu
+  Time:   120 min
+
+Input [text/voice/quit]: quit
+Goodbye!
 ```
 
 ### Évaluer les modèles

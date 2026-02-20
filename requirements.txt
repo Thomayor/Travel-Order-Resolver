@@ -41,9 +41,11 @@ plotly>=5.17.0
 # ======================
 # SPEECH-TO-TEXT
 # ======================
-audio-recorder-streamlit>=0.0.8
-SpeechRecognition>=3.10.0
-pydub>=0.25.1
+audio-recorder-streamlit>=0.0.8  # For Streamlit web interface
+SpeechRecognition>=3.10.0        # Google Speech Recognition (free)
+pydub>=0.25.1                    # Audio format conversion
+sounddevice>=0.4.6               # Microphone recording (CLI)
+scipy>=1.11.0                    # Audio file I/O (save WAV)
 
 # ======================
 # MONITORING & VISUALIZATION

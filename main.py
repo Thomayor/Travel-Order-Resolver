@@ -11,6 +11,8 @@ Usage:
     python main.py --input input.csv --output output.csv --model camembert
     python main.py --interactive
     python main.py --interactive --model camembert
+    python main.py --interactive --voice
+    python main.py --interactive --voice --model camembert
     python main.py --evaluate --split val
     python main.py --evaluate --split test --model camembert
     python main.py --prepare-data
@@ -240,6 +242,12 @@ For more information, see docs/PIPELINE_INTEGRATION.md
     )
 
     parser.add_argument(
+        '--voice',
+        action='store_true',
+        help='Enable voice input in interactive mode (requires microphone)'
+    )
+
+    parser.add_argument(
         '--evaluate', '-e',
         action='store_true',
         help='Evaluate model on a labelled dataset split (val or test)'
@@ -369,7 +377,7 @@ def suggest_city(city_name: str, city_mapping: Dict[str, str], model) -> Optiona
             return None
 
 
-def run_interactive(model_type: str, model_path: str, logger: logging.Logger) -> int:
+def run_interactive(model_type: str, model_path: str, voice_enabled: bool, logger: logging.Logger) -> int:
     """
     Interactive mode: process sentences entered directly in the terminal.
     Shows NLP extraction AND full train route.
@@ -377,6 +385,7 @@ def run_interactive(model_type: str, model_path: str, logger: logging.Logger) ->
     Args:
         model_type: 'baseline' or 'camembert'
         model_path: Path to CamemBERT model (only used when model_type='camembert')
+        voice_enabled: Enable voice input via microphone
         logger: Logger instance
 
     Returns:
@@ -401,11 +410,69 @@ def run_interactive(model_type: str, model_path: str, logger: logging.Logger) ->
 
     print(f"\nReady ({model_type} model + SNCF network loaded)")
     print("Enter French travel order sentences.")
+
+    if voice_enabled:
+        # Test microphone availability
+        from src.nlp.voice_recorder import test_microphone
+        if not test_microphone():
+            print("\n[WARNING] No microphone detected. Voice input disabled.")
+            print("Falling back to text-only mode.\n")
+            voice_enabled = False
+        else:
+            print("Voice input enabled! (Press Enter for text, 'v' + Enter for voice)")
+
     print("Type 'quit' or 'exit' to stop.\n")
 
     while True:
         try:
-            sentence = input("Sentence: ").strip()
+            # Determine input mode
+            sentence = ""
+
+            if voice_enabled:
+                # TODO(human): Implement input mode selection
+                # Ask user: text or voice?
+                # Hint: prompt = input("Input [text/voice/quit]: ").strip().lower()
+                # If 'voice' or 'v' → call record_voice_cli() + transcribe_audio()
+                # If 'text' or 't' → call input("Sentence: ")
+                # If 'quit' or 'q' → break
+
+                prompt = input("Input [text/voice/quit]: ").strip().lower()
+
+                if prompt in ['quit', 'exit', 'q']:
+                    print("\nGoodbye!")
+                    break
+
+                if prompt in ['voice', 'v']:
+                    # Voice input mode
+                    from src.nlp.voice_recorder import record_voice_cli
+                    from src.nlp.speech_to_text import transcribe_audio
+
+                    print()
+                    audio_bytes = record_voice_cli(duration=5.0, sample_rate=16000)
+
+                    if not audio_bytes:
+                        print("  → No audio captured. Try again.\n")
+                        continue
+
+                    print("🎧 Transcription...")
+                    try:
+                        sentence = transcribe_audio(audio_bytes, language="fr-FR")
+                        print(f"  → Heard: '{sentence}'\n")
+                    except Exception as e:
+                        print(f"  → Transcription error: {e}\n")
+                        continue
+
+                elif prompt in ['text', 't', '']:
+                    # Text input mode
+                    sentence = input("Sentence: ").strip()
+
+                else:
+                    print("  Unknown command. Use 'text', 'voice', or 'quit'.\n")
+                    continue
+
+            else:
+                # Text-only mode (default)
+                sentence = input("Sentence: ").strip()
 
             if not sentence:
                 continue
@@ -689,7 +756,7 @@ def main() -> int:
 
     # Interactive mode: no CSV needed
     if args.interactive:
-        return run_interactive(args.model, args.model_path, logger)
+        return run_interactive(args.model, args.model_path, args.voice, logger)
 
     # Evaluate mode
     if args.evaluate:
